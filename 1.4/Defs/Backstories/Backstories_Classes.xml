@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <AlienBackstoryDef>
+        <AlienRace.AlienBackstoryDef Name="Theo_Khajiit_ChildhoodBase" Abstract="True" >
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>Theo_KhajiitBackstory_Childhood</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef Name="Theo_Khajiit_AdulthoodBase" Abstract="True" >
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>Theo_KhajiitBackstory_Adulthood</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+    </AlienBackstoryDef>
+</Defs>

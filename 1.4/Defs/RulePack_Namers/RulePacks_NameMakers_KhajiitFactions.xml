@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <RulePackDef>
+		<defName>Theo_Khajiit_NamerSettlement</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name->[a] [b]</li>
+			</rulesStrings>
+			<rulesFiles>
+				<li>a->Theo_KhajiitNames/KhajiitFactionA</li>
+				<li>b->Theo_KhajiitNames/KhajiitFactionB</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
+
+    <RulePackDef>
+		<defName>Theo_Khajiit_NamerFaction</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name->The [a] kingdom of [god]</li>
+                <li>r_name->The [Color] kingdom of Anequina</li>
+                <li>r_name->The [Color] kingdom of Pellitine</li>
+                <li>r_name->The [Color] [a] Confederacy</li>
+                
+			</rulesStrings>
+			<rulesFiles>
+            	<li>a->Theo_KhajiitNames/KhajiitFactionA</li>
+				<li>god->Theo_KhajiitNames/KhajiitGods</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
+
+    <RulePackDef>
+		<defName>Theo_Khajiit_NamerTribe</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name-> [Color] [a] [c]</li>
+                <li>r_name-> [a] Outwalkers</li>
+			</rulesStrings>
+			<rulesFiles>
+				<li>a->Theo_KhajiitNames/KhajiitFactionA</li>
+				<li>c->Theo_KhajiitNames/KhajiitFactionC</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
+
+    <RulePackDef>
+		<defName>Theo_Khajiit_NamerTraders</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name-> The company of the [a] </li>
+                <li>r_name-> Bandaari peddlers of [god]</li>
+                <li>r_name-> [family] caravan</li>
+			</rulesStrings>
+			<rulesFiles>
+				<li>a->Theo_KhajiitNames/KhajiitFactionA</li>
+				<li>family->Theo_KhajiitNames/KhajiitFamily</li>
+                <li>god->Theo_KhajiitNames/KhajiitGods</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
+
+</Defs>

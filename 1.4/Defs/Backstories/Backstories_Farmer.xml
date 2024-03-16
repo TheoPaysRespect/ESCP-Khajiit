@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <!--    -->
+	<AlienRace.AlienBackstoryDef ParentName="">
+		<defName></defName>
+		<title></title>
+		<titleShort></titleShort>
+		<baseDesc></baseDesc>
+		<skillGains>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+</Defs>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ResearchProjectTagDef>
+		<defName>Theo_KhajiitStart_Tribal</defName>
+	</ResearchProjectTagDef>
+	<ResearchProjectTagDef>
+		<defName>Theo_KhajiitStart_Medieval</defName>
+	</ResearchProjectTagDef>
+</Defs>

@@ -9,4 +9,6 @@ Feline
 Crescent
 Waning
 Waxing
-Clawed
+Sharp
+Sweet
+Lurking
