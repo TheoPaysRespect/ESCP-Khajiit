@@ -8,9 +8,9 @@
 			<color>(201,185,149)</color>
 		</graphicData>
         <statBases>
-            <MarketValue>4.2</MarketValue>
-            <StuffPower_Armor_Sharp>0.64</StuffPower_Armor_Sharp>
-			<StuffPower_Insulation_Cold>14</StuffPower_Insulation_Cold>
+            <MarketValue>5</MarketValue>
+            <StuffPower_Armor_Sharp>0.18</StuffPower_Armor_Sharp>
+			<StuffPower_Insulation_Cold>20</StuffPower_Insulation_Cold>
 			<StuffPower_Insulation_Heat>10</StuffPower_Insulation_Heat>
         </statBases>
         <stuffProps>
