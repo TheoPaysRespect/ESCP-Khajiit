@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <MemeDef>
+        <defName>Theo_Structure_Sky_Spirits</defName>
+		<label>The Sky Spirits</label>
+		<description>The belief in the sky spirits is centered around the journey of the moons, and how their placement relates to the Khajiit.</description>
+		<modExtensions>
+			<li Class="ESCP_RaceTools.IdeoOrginProperties">
+				<IgnoreDuplicateDeityNames>true</IgnoreDuplicateDeityNames>
+				<overrideDeityIcons>true</overrideDeityIcons>
+				<iconPath>
+					<li>UI/Deities/ESCP_DeityAzura</li>
+					<li>UI/Deities/ESCP_DeityJone</li> <!--Art needed-->
+					<li>UI/Deities/ESCP_DeityJode</li> <!--Art needed-->
+                    <li>UI/Deities/ESCP_DeityKhenarthi</li> <!--Art needed-->
+                    <li>UI/Deities/ESCP_DeityMagnus</li>
+				</iconPath>
+				<overrideDeityGenders>true</overrideDeityGenders>
+				<deityGenders>
+					<li>Female</li>
+					<li>None</li>
+					<li>None</li>
+                    <li>Female</li>
+                    <li>Male</li>
+                </deityGenders> 
+			</li>
+		</modExtensions>
+        <iconPath>UI/Structures/ESCP_SkySpirits</iconPath> <!--Art needed-->
+		<deityCount>5</deityCount>
+		<allowSymbolsFromDeity>false</allowSymbolsFromDeity>
+		<symbolPackOverride>true</symbolPackOverride>
+		<worshipRoomLabel>temple</worshipRoomLabel>
+		<category>Structure</category>
+		<impact>0</impact>
+		<generalRules>
+			<rulesStrings>
+				<li>memeCreed->sect</li>
+				<li>memeCreed->clan</li>
+				<li>memeCreed->temple</li>
+				<li>memeCreed->faith</li>
+				<li>memeLeaderNoun->mane</li>
+				<li>memeLeaderAdjective->lunar</li>
+				<li>memeLeaderAdjective->divine</li>
+				<li>memeLeaderAdjective->sugary</li>
+                <li>memeLeaderAdjective->sharp</li>
+                <li>memeLeaderAdjective->majestic</li>
+				<li>memeMoralist->priest</li>
+				<li>memeMoralist->cleric</li>
+				<li>memeMoralist->preacher</li>
+			</rulesStrings>
+		</generalRules>
+		<descriptionMaker>
+			<patterns>
+				<li>
+					<def>TheistMyth</def>
+				</li>
+				<li>
+					<def>TheistFounder</def>
+				</li>
+			</patterns>
+			<constants>
+				<li>
+					<key>structure_theist</key>
+					<value>true</value>
+				</li>
+				<li>
+					<key>Theo_Structure_Sky_Spirits</key>  <!--What does this do-->
+					<value>true</value>
+				</li>
+			</constants>
+		</descriptionMaker>
+		<symbolPacks>
+			<li>
+				<ideoName>the Original Spirits</ideoName>
+				<adjective>Acolyte</adjective>
+				<member>Acolyte</member>
+				<prefix>true</prefix>
+			</li>
+			<li>
+				<ideoName>The Sky Cats</ideoName>
+				<adjective>Acolyte</adjective>
+				<member>Acolyte</member>
+				<prefix>true</prefix>
+			</li>
+			<li>
+				<ideoName>Spirits of the Moons</ideoName>
+				<adjective>Acolyte</adjective>
+				<member>Acolyte</member>
+				<prefix>true</prefix>
+			</li>
+			<li>
+				<ideoName>The old Faith</ideoName>
+				<adjective>Acolyte</adjective>
+				<member>Acolyte</member>
+				<prefix>true</prefix>
+			</li>
+		</symbolPacks>
+		<fixedDeityNameTypes>
+			<li>
+				<name>Azurah</name>
+				<type>Favored Daughter of Fadomai</type>
+			</li>
+			<li>
+				<name>Jone</name>
+				<type>The small Moon</type>
+			</li>
+			<li>
+				<name>Jode</name>
+				<type>The big Moon</type>
+			</li>
+            <li>
+				<name>Khenarthi</name>
+				<type>The Goddess of the Winds</type>
+			</li>
+            <li>
+				<name>Magrus</name>
+				<type>Third Eye of Azurah</type>
+			</li>
+		</fixedDeityNameTypes>
+    </MemeDef>
+</Defs>
