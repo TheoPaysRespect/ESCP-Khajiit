@@ -31,6 +31,7 @@
 		</race>
         <statOffsets>
             <MeleeDodgeChance>10</MeleeDodgeChance>
+            <PawnTrapSpringChance>0.7</PawnTrapSpringChance>
         </statOffsets>
         <alienRace>            
             <generalSettings>
@@ -210,22 +211,21 @@
 						<original>SoakingWet</original>
 						<replacer>Theo_Khajiit_SoakingWet</replacer>
 					</li>
-                     <li>
-						<original>SoakingWet</original>
-						<replacer>Theo_Khajiit_SoakingWet</replacer>
-					</li>
-                    <li>
-						<original>SoakingWet</original>
-						<replacer>Theo_Khajiit_SoakingWet</replacer>
-					</li>
 				</replacerList>
 
                 <restrictedThoughts>
-                        <li>Theo_Khajiit_ConsumedHorseMeat</li>
-                        <li MayRequire="sirmashedpotato.morrowrim.colovianfurhelm">Theo_Khajiit_WearingColovianFurHelm</li>
+                        <!--<li>Theo_Khajiit_ConsumedHorseMeat</li>
+                        <li MayRequire="sirmashedpotato.morrowrim.colovianfurhelm">Theo_Khajiit_WearingColovianFurHelm</li>-->
                 </restrictedThoughts>
 			</thoughtSettings>
 			<raceRestriction>
+                
+                <whiteXenotypeList>
+                    <li>Baseliner</li>
+                </whiteXenotypeList>
+                
+                <onlyUseRaceRestrictedXenotypes>true</onlyUseRaceRestrictedXenotypes>
+
 				<blackGeneList>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Theo_Khajiit_InheritedBonus</li>
 				</blackGeneList>

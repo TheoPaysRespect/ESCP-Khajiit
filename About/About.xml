@@ -8,7 +8,7 @@
         <li>1.4</li>
         <!--<li>1.5</li>-->
     </supportedVersions>
-    <description>Adds Khajiit using HAR and SirMashedPotato's ESCP Race Tools. ....</description> <!--finish description-->
+    <description>Adds Khajiit using HAR and SirMashedPotato's ESCP Race Tools. </description> <!--finish description-->
     <modDependencies>
 		<li>
 			<packageId>brrainz.harmony</packageId>
