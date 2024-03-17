@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <AlienRace.ThingDef_AlienRace ParentName="Theo_HeadType_Base">
+        <defName>Theo_KhajiitRace</defName>
+        <label>Khajiit</label>
+        <description>A baseline Khajiit, a species native to Elsweyr.</description>
+        <descriptionHyperlinks>
+			<GeneDef MayRequire="Ludeon.RimWorld.Biotech">Theo_Khajiit_InheritedBonus</GeneDef>
+		</descriptionHyperlinks>
+        <modExtensions>
+			<li Class="ESCP_RaceTools.RaceProperties">
+				<heatstrokeResistant>true</heatstrokeResistant>
+				<majorRacialGeneToInherit MayRequire="Ludeon.RimWorld.Biotech">Theo_Khajiit_InheritedBonus</majorRacialGeneToInherit>
+			</li>
+		</modExtensions>
+        <statBases>
+			<ComfyTemperatureMin>0</ComfyTemperatureMin>
+			<ComfyTemperatureMax>35</ComfyTemperatureMax>
+            <PsychicSensitivity>1.2</PsychicSensitivity>
+			<SocialImpact>0.8</SocialImpact>
+		</statBases>
+        <race>
+			<leatherDef>ESCP_LeatherKhajiit</leatherDef>
+			<nameGenerator>Theo_Khajiit_NamerMale</nameGenerator>
+			<nameGeneratorFemale>Theo_Khajiit_NamerFemale</nameGeneratorFemale>
+            <baseBodySize>0.9</baseBodySize>
+            <baseHealthScale>1</baseHealthScale>
+
+		</race>
+        <statOffsets>
+            <MeleeDodgeChance>10</MeleeDodgeChance>
+        </statOffsets>
+        <alienRace>
+            <generalSettings>
+                <allowHumanBios>false</allowHumanBios>
+                <humanRecipeImport>true</humanRecipeImport>
+				<immuneToAge>false</immuneToAge>
+                <disallowedTraits>
+                    <li>
+                        <defName>Teetotaler</defName>
+                        <chance>90<chance>
+                    </li>
+                </disallowedTraits>
+                <chemicalSettings MayRequire="sirmashedpotato.morrowrim.moonsugarandskooma">
+                    <li>
+                        <chemical>MorrowRim_MoonSugar</chemical>
+                            <li Class="IngestionOutcomeDoer_GiveHediff">
+                            </li>
+                    </li>
+                </chemicalSettings>
+            </generalSettings>
+        </alienRace>
+
+</Defs>
