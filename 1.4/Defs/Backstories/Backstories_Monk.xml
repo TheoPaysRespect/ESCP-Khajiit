@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+
+    <!--Additional parameters: gender commonality, rarity, bodytypeglobal, 
+    forced trait chance, titlefemale, titleshortfemale, workdisables, requiredworktags, 
+    disallowedtraits, possessions, linkedbackstory, forcedhediffs, passions, bioagerange, forceditems-->
+
     <!--Childhood-->
     <AlienRace.AlienBackstoryDef ParentName="Theo_MonkKhajiit_ChildhoodBase">
 		<defName></defName>
