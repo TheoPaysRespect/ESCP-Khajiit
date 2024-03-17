@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+     <ThoughtDef MayRequire="sirmashedpotato.morrowrim.moonsugarandskooma">
+        <defName>Theo_Khajiit_ConsumedMoonSugarProduct</defName>
+        <durationDays>1</durationDays>
+        <stackLimit>1</stackLimit>
+        <nullifyingPrecepts>
+            <li MayRequire="Ludeon.RimWorld.Ideology">DrugUse_Prohibited</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">DrugUse_MedicalOnly</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">DrugUse_MedicalOrSocial</li>
+        </nullifyingPrecepts>
+        <stages>
+            <li>
+				<label>Consumed the Sweet</label>
+				<description>This one enjoyed the sweet</description>
+				<baseMoodEffect>+5</baseMoodEffect>
+			</li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef>
+        <defName>Theo_Khajiit_ConsumedHorseMeat</defName>
+        <durationDays>1</durationDays>
+        <stackLimit>1</stackLimit>
+        <nullifyingPrecepts>
+            <li MayRequire="Ludeon.RimWorld.Ideology">MeatEating_Abhorrent</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">MeatEating_Horrible</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">MeatEating_Disapproved</li>
+        </nullifyingPrecepts>
+        <stages>
+            <li>
+				<label>Consumed horse meat</label>
+				<description>Horses.... Oh, [PAWN_nameDef] loves horses! Especially with good cream sauce.</description>
+				<baseMoodEffect>+2</baseMoodEffect>
+			</li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef MayRequire="sirmashedpotato.morrowrim.colovianfurhelm">
+        <defName>Theo_Khajiit_WearingColovianFurHelm</defName>
+        <stackLimit>1</stackLimit>
+        <validWhileDespawned>true</validWhileDespawned>
+        <stages>
+            <li>
+				<label>Fine hat for a cat</label>
+				<description>[PAWN_nameDef] loves their Colovian Fur Helm. Practical, yet stylish.</description>
+				<baseMoodEffect>+4</baseMoodEffect>
+			</li>
+        </stages>
+    </ThoughtDef>
+</Defs>

@@ -19,7 +19,7 @@
 		<allowedPlaceTags>
 			<li>OriginTribal</li>
 		</allowedPlaceTags>
-		<iconPath>World/WorldObjects/Expanding/ESCP_KhajiitSettlement</iconPath>
+		<iconPath>World/WorldObjects/Theo_KhajiitSettlement</iconPath>
 		<thingStyleCategories>
 			<li MayRequire="Ludeon.RimWorld.Ideology">
 				<category>Theo_KhajiitStyle</category>

@@ -1,1 +1,23 @@
 <?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <FactionDef ParentName="ESCP_NonPlayerFactionBase_Tribal" Name="Theo_KhajiitNonPlayerFaction_Base" Abstract="True">
+        <modExtensions>
+            <li Class="ESCP_RaceTools.SettlementPreference">
+				<chance>1.0</chance>
+				<useTemperatureRange>true</useTemperatureRange>
+				<temperatureRangeMin>0</temperatureRangeMin>
+				<temperatureRangeMax>45</temperatureRangeMax>
+				<useSwampinessRange>true</useSwampinessRange>
+				<swampinessRangeMin>0.0</swampinessRangeMin>
+				<swampinessRangeMax>0.5</swampinessRangeMax>
+				<useRainfallRange>true</useRainfallRange>
+				<rainfallRangeMin>500</rainfallRangeMin>
+				<rainfallRangeMax>1500</rainfallRangeMax>
+				<dislikedBiomeList>
+					<li>MorrowRim_Ashlands</li>
+				</dislikedBiomeList>
+				<IgnoreBiomeSelectionWeight>false</IgnoreBiomeSelectionWeight>
+			</li>
+        </modExtensions>
+    <FactionDef>
+</Defs>

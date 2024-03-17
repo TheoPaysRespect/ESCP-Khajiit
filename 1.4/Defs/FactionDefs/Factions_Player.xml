@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
-<FactionDef ParentName="ESCP_PlayerFactionBase_Medieval"><!--Change name-->
+<FactionDef ParentName="ESCP_PlayerFactionBase_Medieval">
 		<defName>Theo_KhajiitPlayerFaction_Medieval</defName>
 		<label>New Khajiit Kingdom</label>
 		<basicMemberKind>Theo_KhajiitPlayerPawnKind_Medieval</basicMemberKind>
@@ -20,7 +20,7 @@
 			</li>
 		</modExtensions>
 
-        <FactionDef ParentName="ESCP_PlayerFactionBase_Tribal"><!--Change name-->
+        <FactionDef ParentName="ESCP_PlayerFactionBase_Tribal">
 		<defName>Theo_KhajiitPlayerFaction_Tribal</defName>
 		<label>New Khajiit Tribe</label>
 		<basicMemberKind>Theo_KhajiitPlayerPawnKind_Tribal</basicMemberKind>
