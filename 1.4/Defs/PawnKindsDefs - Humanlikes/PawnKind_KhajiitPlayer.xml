@@ -7,8 +7,11 @@
             <backstoryFiltersOverride>
                 <li>
                     <categoriesChildhood>
-                        <li>ESCP_GenericBackstory_ChildhoodMedieval</li><!--Add in khajiit specific ones-->
+                        <li>ESCP_GenericBackstory_ChildhoodMedieval</li>
                         <li>ESCP_GenericBackstory_ChildhoodHighClass</li>
+                        <li>ESCP_GenericBackstory_ChildhoodImperialFaction</li>
+                        <li>Theo_CityKhajiitBackstory_Childhood</li>
+
                     </categoriesChildhood>
                     <categoriesAdulthood>
                         <li>ESCP_GenericBackstory_AdulthoodMedieval</li>
@@ -16,9 +19,14 @@
                         <li>ESCP_GenericBackstory_AdulthoodMage</li>
                         <li>ESCP_GenericBackstory_AdulthoodSlaver</li>
                         <li>ESCP_GenericBackstory_AdulthoodMagesGuild</li>
+                        <li>ESCP_GenericBackstory_AdulthoodImperialFaction</li>
+                        <li>ESCP_GenericBackstory_AdulthoodThievesGuild</li>
+                        <li>ESCP_GenericBackstory_AdulthoodSkoomaAddict</li>
+                        <li>ESCP_DunmerSlaveBackstory_Adulthood</li>
+                        <li>Theo_CityKhajiitBackstory_Adulthood</li>
                     </categoriesAdulthood>
                     <excludeChildhood>
-                        <li>ESCP_KhajiitBackstory_Exclusion</li> <!--Check what this does-->
+                        <li>ESCP_KhajiitBackstory_Exclusion</li> 
                     </excludeChildhood>
                     <excludeAdulthood>
                         <li>ESCP_KhajiitBackstory_Exclusion</li>
@@ -35,11 +43,17 @@
 			<li>
 				<categoriesChildhood>
 					<li>ESCP_GenericBackstory_ChildhoodMedieval</li>
+                    <li>Theo_TribeKhajiitBackstory_Childhood</li>
+                    <li>ESCP_GenericBackstory_ChildhoodTribal</li>
+
+
 				</categoriesChildhood>
 				<categoriesAdulthood>
 					<li>ESCP_GenericBackstory_AdulthoodMedieval</li>
 					<li>ESCP_GenericBackstory_AdulthoodMage</li>
 					<li>ESCP_GenericBackstory_AdulthoodSlaver</li>
+                    <li>Theo_TribeKhajiitBackstory_Adulthood</li>
+                    <li>ESCP_DunmerSlaveBackstory_Adulthood</li>
 				</categoriesAdulthood>
 				<excludeChildhood>
 					<li>ESCP_KhajiitBackstory_Exclusion</li>

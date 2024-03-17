@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <!--Childhood-->
+    <AlienRace.AlienBackstoryDef ParentName="Theo_TribeKhajiit_ChildhoodBase">
+		<defName></defName>
+		<title></title>
+		<titleShort></titleShort>
+		<baseDesc></baseDesc>
+		<skillGains>
+			<li>
+				<key></key>
+				<value></value>
+			</li>
+			<li>
+				<key></key>
+				<value></value>
+			</li>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+
+    <!--Adulthood-->
+    <AlienRace.AlienBackstoryDef ParentName="Theo_TribeKhajiit_AdulthoodBase">
+		<defName></defName>
+		<title></title>
+		<titleShort></titleShort>
+		<baseDesc></baseDesc>
+		<skillGains>
+			<li>
+				<key></key>
+				<value></value>
+			</li>
+			<li>
+				<key></key>
+				<value></value>
+			</li>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+</Defs>

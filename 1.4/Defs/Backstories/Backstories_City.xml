@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
     <!--Childhood-->
-    <AlienRace.AlienBackstoryDef ParentName="Theo_MonkKhajiit_ChildhoodBase">
+    <AlienRace.AlienBackstoryDef ParentName="Theo_CityKhajiit_ChildhoodBase">
 		<defName></defName>
 		<title></title>
 		<titleShort></titleShort>
@@ -19,7 +19,7 @@
 	</AlienRace.AlienBackstoryDef>
 
     <!--Adulthood-->
-    <AlienRace.AlienBackstoryDef ParentName="Theo_MonkKhajiit_AdulthoodBase">
+    <AlienRace.AlienBackstoryDef ParentName="Theo_CityKhajiit_AdulthoodBase">
 		<defName></defName>
 		<title></title>
 		<titleShort></titleShort>
