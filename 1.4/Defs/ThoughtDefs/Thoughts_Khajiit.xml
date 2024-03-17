@@ -2,24 +2,6 @@
 
 <Defs>
 
-     <ThoughtDef MayRequire="sirmashedpotato.morrowrim.moonsugarandskooma">
-        <defName>Theo_Khajiit_ConsumedMoonSugarProduct</defName>
-        <durationDays>1</durationDays>
-        <stackLimit>1</stackLimit>
-        <nullifyingPrecepts>
-            <li MayRequire="Ludeon.RimWorld.Ideology">DrugUse_Prohibited</li>
-            <li MayRequire="Ludeon.RimWorld.Ideology">DrugUse_MedicalOnly</li>
-            <li MayRequire="Ludeon.RimWorld.Ideology">DrugUse_MedicalOrSocial</li>
-        </nullifyingPrecepts>
-        <stages>
-            <li>
-				<label>Consumed the Sweet</label>
-				<description>This one enjoyed the sweet</description>
-				<baseMoodEffect>+20</baseMoodEffect>
-			</li>
-        </stages>
-    </ThoughtDef>
-
     <ThoughtDef>
         <defName>Theo_Khajiit_ConsumedHorseMeat</defName>
         <durationDays>1</durationDays>
@@ -47,6 +29,34 @@
 				<label>Fine hat for a cat</label>
 				<description>[PAWN_nameDef] loves their Colovian Fur Helm. Practical, yet stylish.</description>
 				<baseMoodEffect>+4</baseMoodEffect>
+			</li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef>
+        <defName>Theo_Khajiit_AteKibble</defName>
+        <stackLimit>1</stackLimit>        
+        <durationDays>1</durationDays>
+        <validWhileDespawned>true</validWhileDespawned>
+        <stages>
+            <li>
+				<label>Ate kibble</label>
+				<description>I had to eat animal kibble. It's as if they see this one as another animal.</description>
+				<baseMoodEffect>-14</baseMoodEffect>
+			</li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef>
+        <defName>Theo_Khajiit_SoakingWet</defName>
+        <stackLimit>1</stackLimit>
+        <durationDays>0.5</durationDays>
+        <validWhileDespawned>true</validWhileDespawned>
+        <stages>
+            <li>
+				<label>Soaking Wet</label>
+				<description>This one is soaking wet, it will take a while to dry off.</description>
+				<baseMoodEffect>-6</baseMoodEffect>
 			</li>
         </stages>
     </ThoughtDef>
