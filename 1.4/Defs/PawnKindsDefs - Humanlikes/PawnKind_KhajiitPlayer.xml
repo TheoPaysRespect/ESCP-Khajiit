@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <PawnKindDef ParentName="ESCP_PlayerPawnKindBase_Medieval">
+            <defName>Theo_KhajiitPlayerPawnKind_Medieval</defName>
+            <race>Theo_KhajiitRace</race>
+            <defaultFactionType>Theo_KhajiitPlayerFaction_Medieval</defaultFactionType>
+            <backstoryFiltersOverride>
+                <li>
+                    <categoriesChildhood>
+                        <li>ESCP_GenericBackstory_ChildhoodMedieval</li><!--Add in khajiit specific ones-->
+                        <li>ESCP_GenericBackstory_ChildhoodHighClass</li>
+                    </categoriesChildhood>
+                    <categoriesAdulthood>
+                        <li>ESCP_GenericBackstory_AdulthoodMedieval</li>
+                        <li>ESCP_GenericBackstory_AdulthoodHighClass</li>
+                        <li>ESCP_GenericBackstory_AdulthoodMage</li>
+                        <li>ESCP_GenericBackstory_AdulthoodSlaver</li>
+                        <li>ESCP_GenericBackstory_AdulthoodMagesGuild</li>
+                    </categoriesAdulthood>
+                    <excludeChildhood>
+                        <li>ESCP_KhajiitBackstory_Exclusion</li> <!--Check what this does-->
+                    </excludeChildhood>
+                    <excludeAdulthood>
+                        <li>ESCP_KhajiitBackstory_Exclusion</li>
+                    </excludeAdulthood>
+                </li>
+            </backstoryFiltersOverride>
+        </PawnKindDef>
+
+        <PawnKindDef ParentName="ESCP_PlayerPawnKindBase_Tribal">
+		<defName>Theo_KhajiitPlayerPawnKind_Tribal</defName>
+		<race>Theo_KhajiitRace</race>
+		<defaultFactionType>Theo_KhajiitPlayerFaction_Tribal</defaultFactionType>
+		<backstoryFiltersOverride>
+			<li>
+				<categoriesChildhood>
+					<li>ESCP_GenericBackstory_ChildhoodMedieval</li>
+				</categoriesChildhood>
+				<categoriesAdulthood>
+					<li>ESCP_GenericBackstory_AdulthoodMedieval</li>
+					<li>ESCP_GenericBackstory_AdulthoodMage</li>
+					<li>ESCP_GenericBackstory_AdulthoodSlaver</li>
+				</categoriesAdulthood>
+				<excludeChildhood>
+					<li>ESCP_KhajiitBackstory_Exclusion</li>
+				</excludeChildhood>
+				<excludeAdulthood>
+					<li>ESCP_KhajiitBackstory_Exclusion</li>
+				</excludeAdulthood>
+			</li>
+		</backstoryFiltersOverride>
+	</PawnKindDef>
+</Defs>
