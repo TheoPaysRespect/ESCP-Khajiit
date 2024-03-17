@@ -15,7 +15,7 @@
             <li>
 				<label>Consumed the Sweet</label>
 				<description>This one enjoyed the sweet</description>
-				<baseMoodEffect>+5</baseMoodEffect>
+				<baseMoodEffect>+20</baseMoodEffect>
 			</li>
         </stages>
     </ThoughtDef>

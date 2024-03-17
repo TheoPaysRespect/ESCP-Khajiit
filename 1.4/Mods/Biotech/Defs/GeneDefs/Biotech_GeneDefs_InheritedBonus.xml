@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <GeneDef ParentName="ESCP_InheritedRacialBonus_Base">
+        <defName>Theo_Khajiit_InheritedBonus</defName>
+        <label>Khajiit ancestry</label>
+        <description>Carriers of this gene excibit some Khajiit traits without looking like one of them.</description>
+        <iconPath>UI/Theo_KhajiitAncestryGene</iconPath>
+        <statOffsets>
+            <PsychicSensitivity>0.20</PsychicSensitivity>
+            <SocialImpact>0.9</SocialImpact>
+            <Comfort>0.8</Comfort>
+
+            <!--skooma resistance-->
+        </statOffsets>
+    </GeneDef>
+</Defs>
