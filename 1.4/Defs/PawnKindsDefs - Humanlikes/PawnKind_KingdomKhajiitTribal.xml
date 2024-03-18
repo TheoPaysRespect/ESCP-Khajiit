@@ -19,6 +19,7 @@
                         <li>ESCP_GenericBackstory_ChildhoodHighClass</li>
                         <li>ESCP_GenericBackstory_ChildhoodImperialFaction</li>
                         <li>Theo_CityKhajiitBackstory_Childhood</li>
+						<li>Theo_MonkKhajiitBackstory_Childhood</li>
 				</categoriesChildhood>
 				<categoriesAdulthood>
 					 	<li>ESCP_GenericBackstory_AdulthoodMedieval</li>
@@ -31,6 +32,7 @@
                         <li>ESCP_GenericBackstory_AdulthoodSkoomaAddict</li>
                         <li>ESCP_DunmerSlaveBackstory_Adulthood</li>
                         <li>Theo_CityKhajiitBackstory_Adulthood</li>
+						<li>Theo_MonkKhajiitBackstory_Adulthood</li>
 				</categoriesAdulthood>
 				<excludeChildhood>
 					<li>ESCP_KhajiitBackstory_Exclusion</li>

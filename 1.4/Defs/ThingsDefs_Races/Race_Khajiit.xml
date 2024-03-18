@@ -20,13 +20,14 @@
 			<ComfyTemperatureMax>35</ComfyTemperatureMax>
             <PsychicSensitivity>1.2</PsychicSensitivity>
 			<SocialImpact>0.8</SocialImpact>
+			<MoveSpeed>1.1</MoveSpeed>
 		</statBases>
         <race>
 			<leatherDef>ESCP_LeatherKhajiit</leatherDef>
 			<nameGenerator>Theo_Khajiit_NamerMale</nameGenerator>
 			<nameGeneratorFemale>Theo_Khajiit_NamerFemale</nameGeneratorFemale>
             <baseBodySize>0.9</baseBodySize>
-            <baseHealthScale>1</baseHealthScale>
+            <baseHealthScale>0.9</baseHealthScale>
 
 		</race>
         <statOffsets>
