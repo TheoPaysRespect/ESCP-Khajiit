@@ -1,23 +1,134 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
     <FactionDef ParentName="ESCP_NonPlayerFactionBase_Tribal" Name="Theo_KhajiitNonPlayerFaction_Base" Abstract="True">
-        <modExtensions>
+        
+		<modExtensions>
             <li Class="ESCP_RaceTools.SettlementPreference">
 				<chance>1.0</chance>
 				<useTemperatureRange>true</useTemperatureRange>
-				<temperatureRangeMin>0</temperatureRangeMin>
-				<temperatureRangeMax>45</temperatureRangeMax>
-				<useSwampinessRange>true</useSwampinessRange>
-				<swampinessRangeMin>0.0</swampinessRangeMin>
-				<swampinessRangeMax>0.5</swampinessRangeMax>
-				<useRainfallRange>true</useRainfallRange>
-				<rainfallRangeMin>500</rainfallRangeMin>
-				<rainfallRangeMax>1500</rainfallRangeMax>
+				<temperatureRangeMin>10</temperatureRangeMin>
+				<temperatureRangeMax>55</temperatureRangeMax>
 				<dislikedBiomeList>
-					<li>MorrowRim_Ashlands</li>
+					<li>Mashed_Ashlands_BlightedAshlands</li>
+					<li>Mashed_Ashlands_BlightedBogAshlands</li>
+					<li>Mashed_Ashlands_Ashlands</li>
+					<li>Mashed_Ashlands_DustplainAshlands</li>
+					<li>Mashed_Ashlands_VolcanicAshlands</li>
+					<li>Mashed_Ashlands_VolcanicBadlandAshlands</li>
+					<li>Mashed_Ashlands_VolcanicSulphurPitsAshlands</li>
 				</dislikedBiomeList>
 				<IgnoreBiomeSelectionWeight>false</IgnoreBiomeSelectionWeight>
 			</li>
         </modExtensions>
-    <FactionDef>
+
+		<leaderTitle>Mane</leaderTitle>
+		<factionIconPath>World/WorldObjects/Theo_KhajiitSettlement</factionIconPath>
+		<factionNameMaker>Theo_Khajiit_NamerFaction</factionNameMaker>
+		<settlementNameMaker>Theo_Khajiit_NamerSettlement</settlementNameMaker>
+		<allowedCultures>
+			<li>Theo_KhajiitCulture</li>
+		</allowedCultures>
+
+		<structureMemeWeights>
+			<ESCP_Structure_OriginDivinesEight MayRequire="Ludeon.RimWorld.Ideology">8</ESCP_Structure_OriginDivinesEight>
+			<Theo_Structure_Sky_Spirits MayRequire="Ludeon.RimWorld.Ideology">10</Theo_Structure_Sky_Spirits>
+			<Theo_Structure_Worldly_Spirits MayRequire="Ludeon.RimWorld.Ideology">6</Theo_Structure_Worldly_Spirits>
+			<Theo_Structure_Wandering_Spirits MayRequire="Ludeon.RimWorld.Ideology">9</Theo_Structure_Wandering_Spirits>
+			<!--<Theo_Structure_Dark_Spirits MayRequire="Ludeon.RimWorld.Ideology">1</Theo_Structure_Dark_Spirits>-->
+			<Theo_Structure_Adverserial_Spirits MayRequire="Ludeon.RimWorld.Ideology">4</Theo_Structure_Adverserial_Spirits>
+		</structureMemeWeights>
+		<raidLootMaker>Theo_Khajiit_LootBase</raidLootMaker>
+
+		<pawnGroupMakers>
+			<!--fill-->
+		</pawnGroupMakers>	
+    </FactionDef>
+
+	<FactionDef ParentName="Theo_KhajiitNonPlayerFaction_Base">
+		<defName>Theo_KhajiitNonPlayerFaction_Kingdom</defName>
+		<label>Khajiit kingdom</label>
+		<description></description> <!--fill-->
+		<colorSpectrum>
+			<li>(0.45, 0.75, 0.67)</li> <!--fill-->
+			<li>(0.55, 0.95, 0.67)</li> <!--fill-->
+			<li>(0.2, 0.8, 0.67)</li> <!--fill-->
+		</colorSpectrum>
+		<disallowedMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Cannibal</li>
+		</disallowedMemes>
+		<requiredMemes>
+			<li MayRequire="vanillaexpanded.vmemese">VME_Trader</li>
+			<li MayRequire="vanillaexpanded.vmemese,vanillaexpanded.vcooke">VME_SweetTeeth</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">HighLife</li>		
+		</requiredMemes>
+		<configurationListOrderPriority>30</configurationListOrderPriority>
+	</FactionDef>
+
+	<FactionDef ParentName="Theo_KhajiitNonPlayerFaction_Base">
+		<defName>Theo_KhajiitNonPlayerFaction_Bandaari</defName>
+		<label>Bandaari Pedlars</label>
+		<description></description> <!--fill-->
+		<colorSpectrum>
+			<li>(0.45, 0.75, 0.67)</li> <!--fill-->
+			<li>(0.55, 0.95, 0.67)</li> <!--fill-->
+			<li>(0.2, 0.8, 0.67)</li> <!--fill-->
+		</colorSpectrum>
+		<disallowedMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Cannibal</li>
+		</disallowedMemes>
+		<requiredMemes>
+			<li MayRequire="vanillaexpanded.vmemese">VME_Trader</li>
+			<li MayRequire="vanillaexpanded.vmemese,vanillaexpanded.vcooke">VME_SweetTeeth</li>
+			<li MayRequire="vanillaexpanded.vmemese">VME_Nomad</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">HighLife</li>		
+		</requiredMemes>
+		<configurationListOrderPriority>30</configurationListOrderPriority>
+	</FactionDef>
+
+	<FactionDef ParentName="Theo_KhajiitNonPlayerFaction_Base">
+		<defName>Theo_KhajiitNonPlayerFaction_Tribal</defName>
+		<label>Rough Khajiit Tribe</label>
+		<description></description> <!--fill-->
+		<colorSpectrum>
+			<li>(0.45, 0.75, 0.67)</li> <!--fill-->
+			<li>(0.55, 0.95, 0.67)</li> <!--fill-->
+			<li>(0.2, 0.8, 0.67)</li> <!--fill-->
+		</colorSpectrum>
+		<disallowedMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+		</disallowedMemes>
+		<requiredMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+			<li MayRequire="vanillaexpanded.vmemese">VME_Nomad</li>
+			<li MayRequire="VanillaExpanded.VMemesE">VME_BloodCourt</li>
+		</requiredMemes>
+		<configurationListOrderPriority>30</configurationListOrderPriority>
+	</FactionDef>
+
+	<!--<FactionDef ParentName="Theo_KhajiitNonPlayerFaction_Base">
+		<defName>Theo_KhajiitNonPlayerFaction_Dro-m'Athra</defName>
+		<label>Dro-m'Athra Raiders</label>
+		<description></description> 
+		<colorSpectrum>
+			<li>(0.45, 0.75, 0.67)</li> 
+			<li>(0.55, 0.95, 0.67)</li> 
+			<li>(0.2, 0.8, 0.67)</li>
+		</colorSpectrum>
+		<structureMemeWeights>	
+			<Theo_Structure_Dark_Spirits MayRequire="Ludeon.RimWorld.Ideology">100</Theo_Structure_Dark_Spirits>
+		</structureMemeWeights>
+		<requiredMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+			<li MayRequire="sarg.alphamemes">AM_Madness</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Darkness</li>
+			<li MayRequire="vanillaexpanded.vmemese">VME_Anonymity</li>
+		</requiredMemes>
+		<configurationListOrderPriority>30</configurationListOrderPriority>
+	</FactionDef>-->
 </Defs>
