@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<RulePackDef>
+		<defName>Theo_Khajiit_NamerCultureLeaderTitle</defName>
+		<include>
+			<li>LeaderTitleMaker_GlobalStructure</li>
+		</include>
+		<rulePack>
+			<rulesStrings>
+				<li>memeLeaderNoun(priority=1)->[cultureLeaderNoun]</li>
+				<li>cultureLeaderTitle->[cultureLeaderAdjective] [cultureLeaderNoun]</li>
+				<li>cultureLeaderAdjective->lunar</li>
+				<li>cultureLeaderAdjective->divine</li>
+				<li>cultureLeaderAdjective->sugary</li>
+                <li>cultureLeaderAdjective->sharp</li>
+                <li>cultureLeaderAdjective->majestic</li>
+                <li>cultureLeaderNoun->mane</li>
+				<li>cultureLeaderNoun->Pakseech</li>
+				<li>cultureLeaderNoun->K'har</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>Theo_Khajiit_NamerCultureDeityName</defName>
+		<include>
+			<li>NamerDeityGlobal</li>
+		</include>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[KhajiitGods]</li>
+			</rulesStrings>
+			<rulesFiles>
+				<li>KhajiitGods->Theo_KhajiitNames/KhajiitGods</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
+</Defs>

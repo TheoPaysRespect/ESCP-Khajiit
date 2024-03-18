@@ -35,17 +35,13 @@
 		<generalRules>
 			<rulesStrings>
 				<li>memeCreed->sect</li>
-				<li>memeCreed->clan</li>
+				<li>memeCreed->cult</li>
 				<li>memeCreed->temple</li>
 				<li>memeCreed->faith</li>
-				<li>memeLeaderNoun->mane</li>
-				<li>memeLeaderNoun->Pakseech</li>
-				<li>memeLeaderNoun->K'har</li>
-				<li>memeLeaderAdjective->lunar</li>
+				<li>memeLeaderNoun->patriarch</li>
+				<li>memeLeaderAdjective->chosen</li>
 				<li>memeLeaderAdjective->divine</li>
-				<li>memeLeaderAdjective->sugary</li>
-                <li>memeLeaderAdjective->sharp</li>
-                <li>memeLeaderAdjective->majestic</li>
+				<li>memeLeaderAdjective->blessed</li>
 				<li>memeMoralist->priest</li>
 				<li>memeMoralist->cleric</li>
 				<li>memeMoralist->preacher</li>
@@ -156,17 +152,13 @@
 		<generalRules>
 			<rulesStrings>
 				<li>memeCreed->sect</li>
-				<li>memeCreed->clan</li>
+				<li>memeCreed->cult</li>
 				<li>memeCreed->temple</li>
 				<li>memeCreed->faith</li>
-				<li>memeLeaderNoun->mane</li>
-				<li>memeLeaderNoun->Pakseech</li>
-				<li>memeLeaderNoun->K'har</li>
-				<li>memeLeaderAdjective->lunar</li>
+				<li>memeLeaderNoun->patriarch</li>
+				<li>memeLeaderAdjective->chosen</li>
 				<li>memeLeaderAdjective->divine</li>
-				<li>memeLeaderAdjective->sugary</li>
-                <li>memeLeaderAdjective->sharp</li>
-                <li>memeLeaderAdjective->majestic</li>
+				<li>memeLeaderAdjective->blessed</li>
 				<li>memeMoralist->priest</li>
 				<li>memeMoralist->cleric</li>
 				<li>memeMoralist->preacher</li>
@@ -277,17 +269,13 @@
 		<generalRules>
 			<rulesStrings>
 				<li>memeCreed->sect</li>
-				<li>memeCreed->clan</li>
+				<li>memeCreed->cult</li>
 				<li>memeCreed->temple</li>
 				<li>memeCreed->faith</li>
-				<li>memeLeaderNoun->mane</li>
-				<li>memeLeaderNoun->Pakseech</li>
-				<li>memeLeaderNoun->K'har</li>
-				<li>memeLeaderAdjective->lunar</li>
+				<li>memeLeaderNoun->patriarch</li>
+				<li>memeLeaderAdjective->chosen</li>
 				<li>memeLeaderAdjective->divine</li>
-				<li>memeLeaderAdjective->sugary</li>
-                <li>memeLeaderAdjective->sharp</li>
-                <li>memeLeaderAdjective->majestic</li>
+				<li>memeLeaderAdjective->blessed</li>
 				<li>memeMoralist->priest</li>
 				<li>memeMoralist->cleric</li>
 				<li>memeMoralist->preacher</li>
@@ -396,17 +384,13 @@
 		<generalRules>
 			<rulesStrings>
 				<li>memeCreed->sect</li>
-				<li>memeCreed->clan</li>
+				<li>memeCreed->cult</li>
 				<li>memeCreed->temple</li>
 				<li>memeCreed->faith</li>
-				<li>memeLeaderNoun->mane</li>
-				<li>memeLeaderNoun->Pakseech</li>
-				<li>memeLeaderNoun->K'har</li>
-				<li>memeLeaderAdjective->lunar</li>
+				<li>memeLeaderNoun->patriarch</li>
+				<li>memeLeaderAdjective->chosen</li>
 				<li>memeLeaderAdjective->divine</li>
-				<li>memeLeaderAdjective->sugary</li>
-                <li>memeLeaderAdjective->sharp</li>
-                <li>memeLeaderAdjective->majestic</li>
+				<li>memeLeaderAdjective->blessed</li>
 				<li>memeMoralist->priest</li>
 				<li>memeMoralist->cleric</li>
 				<li>memeMoralist->preacher</li>
@@ -514,17 +498,13 @@
 		<generalRules>
 			<rulesStrings>
 				<li>memeCreed->sect</li>
-				<li>memeCreed->clan</li>
+				<li>memeCreed->cult</li>
 				<li>memeCreed->temple</li>
 				<li>memeCreed->faith</li>
-				<li>memeLeaderNoun->mane</li>
-				<li>memeLeaderNoun->Pakseech</li>
-				<li>memeLeaderNoun->K'har</li>
-				<li>memeLeaderAdjective->lunar</li>
+				<li>memeLeaderNoun->patriarch</li>
+				<li>memeLeaderAdjective->chosen</li>
 				<li>memeLeaderAdjective->divine</li>
-				<li>memeLeaderAdjective->sugary</li>
-                <li>memeLeaderAdjective->sharp</li>
-                <li>memeLeaderAdjective->majestic</li>
+				<li>memeLeaderAdjective->blessed</li>
 				<li>memeMoralist->priest</li>
 				<li>memeMoralist->cleric</li>
 				<li>memeMoralist->preacher</li>
