@@ -11,7 +11,7 @@
 		<startingResearchTags>
 			<li>Theo_KhajiitStart_Medieval</li>
 		</startingResearchTags>
-		<modExtensions> <!--Find out what this does-->
+		<modExtensions> 
 			<li Class="ESCP_RaceTools.FactionProperties">
 				<factionTags>
 					<li>Theo_KhajiitFaction</li>
@@ -32,7 +32,7 @@
 			<li>Theo_KhajiitStart_Tribal</li>
 		</startingResearchTags>
 		<modExtensions>
-			<li Class="ESCP_RaceTools.FactionProperties"><!--Find out what this does-->
+			<li Class="ESCP_RaceTools.FactionProperties">
 				<factionTags>
 					<li>ESCP_KhajiitFaction</li>
 					<li>ESCP_KhajiitFactionPlayer</li>

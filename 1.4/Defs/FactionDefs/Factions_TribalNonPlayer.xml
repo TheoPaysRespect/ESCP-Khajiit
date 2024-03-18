@@ -22,6 +22,7 @@
 			<li Class="ESCP_RaceTools.FactionProperties">
 				<factionTags>
 					<li>Theo_KhajiitFaction</li>
+					<li>Theo_KhajiitFactionNonPlayer</li>
 				</factionTags>
 			</li>
         </modExtensions>
@@ -429,6 +430,7 @@
 				</options>
 			</li>	
 		</pawnGroupMakers>	
+		<naturalEnemy>true</naturalEnemy>
 	</FactionDef>
 
 	<!--<FactionDef ParentName="Theo_KhajiitNonPlayerFaction_Base">
@@ -441,7 +443,7 @@
 			<li>(0.2, 0.8, 0.67)</li>
 		</colorSpectrum>
 		<structureMemeWeights>	
-			<Theo_Structure_Dark_Spirits MayRequire="Ludeon.RimWorld.Ideology">100</Theo_Structure_Dark_Spirits>
+			<Theo_Structure_Dark_Spirits MayRequire="Ludeon.RimWorld.Ideology">999</Theo_Structure_Dark_Spirits>
 		</structureMemeWeights>
 		<requiredMemes>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
@@ -450,5 +452,6 @@
 			<li MayRequire="vanillaexpanded.vmemese">VME_Anonymity</li>
 		</requiredMemes>
 		<configurationListOrderPriority>30</configurationListOrderPriority>
+		<permanentEnemy>true</permanentEnemy>
 	</FactionDef>-->
 </Defs>

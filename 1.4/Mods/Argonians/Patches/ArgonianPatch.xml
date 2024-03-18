@@ -32,6 +32,7 @@
             <li Class="ESCP_RaceTools.FactionProperties">
                 <factionTags>
                     <li>Mlie_ArgonianFaction</li>
+                    <li>Mlie_ArgonianFactionNonPlayer</li>
                 </factionTags>
             </li>
         </value>

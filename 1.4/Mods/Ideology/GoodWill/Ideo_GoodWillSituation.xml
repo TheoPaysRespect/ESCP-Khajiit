@@ -17,7 +17,7 @@
 		<defName>Theo_KhajiitVSArgonian</defName>
 		<label>Beastkin Tensions</label>
 		<workerClass>ESCP_RaceTools.GoodWillWorker_UniversalFactionTagCompatibility_Inverted</workerClass>
-		<naturalGoodwillOffset>-50</naturalGoodwillOffset>
+		<naturalGoodwillOffset>-10</naturalGoodwillOffset>
 		<modExtensions>
 			<li Class="ESCP_RaceTools.FactionGoodwillProperties">
 				<FactionTagA>Theo_KhajiitFaction</FactionTagA>
