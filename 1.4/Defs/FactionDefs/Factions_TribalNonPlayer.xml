@@ -71,7 +71,7 @@
 		</requiredMemes>
 		<configurationListOrderPriority>30</configurationListOrderPriority>
 
-		<pawnGroupMakers> <!--fill-->
+		<pawnGroupMakers> <!--add monks, rebalance chances-->
 			<li>
 				<kindDef>Combat</kindDef>
 				<commonality>100</commonality>
@@ -215,6 +215,11 @@
 		<defName>Theo_KhajiitNonPlayerFaction_Bandaari</defName>
 		<label>Bandaari Pedlars</label>
 		<description></description> <!--fill-->
+		<modExtensions>
+  			<li Class="KCSG.CustomGenOption">
+    			<canSpawnSettlements>false</canSpawnSettlements>
+  			</li>
+		</modExtensions>
 		<colorSpectrum>
 			<li>(0.45, 0.75, 0.67)</li> <!--fill-->
 			<li>(0.55, 0.95, 0.67)</li> <!--fill-->
@@ -233,6 +238,29 @@
 			<li MayRequire="Ludeon.RimWorld.Ideology">HighLife</li>		
 		</requiredMemes>
 		<configurationListOrderPriority>30</configurationListOrderPriority>
+
+		<pawnGroupMakers>
+			<li>
+				<kindDef>Trader</kindDef>
+				<traders>
+					<Theo_Khajiit_Kingdom_Trader>1</Theo_Khajiit_Kingdom_Trader>
+				</traders>
+				<carriers>
+					 <!--edit with more unique carriers-->
+					<Muffalo>6</Muffalo>
+					<Dromedary>5</Dromedary>
+					<Alpaca>2.5</Alpaca>
+					<Elephant>2</Elephant>
+				</carriers>
+				<guards>
+					<Theo_Khajiit_Kingdom_Warrior>7</Theo_Khajiit_Kingdom_Warrior>
+					<Theo_Khajiit_Kingdom_Archer>10</Theo_Khajiit_Kingdom_Archer>
+					<Theo_Khajiit_Kingdom_Hunter>10</Theo_Khajiit_Kingdom_Hunter>
+					<Theo_Khajiit_Kingdom_HeavyArcher>10</Theo_Khajiit_Kingdom_HeavyArcher>
+					<Theo_Khajiit_Kingdom_Berserker>7</Theo_Khajiit_Kingdom_Berserker>
+				</guards>
+			</li>
+		</pawnGroupMakers>
 	</FactionDef>
 
 	<FactionDef ParentName="Theo_KhajiitNonPlayerFaction_Base">
