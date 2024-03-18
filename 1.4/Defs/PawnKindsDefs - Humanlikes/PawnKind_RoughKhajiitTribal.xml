@@ -14,7 +14,6 @@
 			<li>
 				<categoriesChildhood>
 					<li>Tribal</li>
-					<li>ESCP_GenericBackstory_ChildhoodMedieval</li>
                     <li>Theo_TribeKhajiitBackstory_Childhood</li>
                     <li>ESCP_GenericBackstory_ChildhoodTribal</li>
 				</categoriesChildhood>
@@ -211,13 +210,12 @@
 			<li>
 				<categoriesChildhood>
 					<li>Tribal</li>
-					<li>Theo_KhajiitBackstory_Childhood</li>
+					<li>Theo_TribeKhajiitBackstory_Childhood</li>
 					<li>ESCP_GenericBackstory_ChildhoodTribal</li>
 				</categoriesChildhood>
 				<categoriesAdulthood>
 					<li>TribalHunter</li>
 					<li>ESCP_GenericBackstory_AdulthoodMedievalHunter</li>
-					<li>Theo_KhajiitBackstory_AdulthoodHunter</li>
 				</categoriesAdulthood>
 				<excludeChildhood>
 					<li>ESCP_KhajiitBackstory_Exclusion</li>
@@ -245,40 +243,6 @@
 		<initialWillRange>2~4</initialWillRange>
 		<initialResistanceRange>10~16</initialResistanceRange>
 	</PawnKindDef>
-
-	<PawnKindDef ParentName="Theo_Khajiit_TribalHunterBase">
-		<defName>Theo_Khajiit_Tribal_BoarMaster</defName>
-		<label>boar master</label>
-		<combatPower>100</combatPower>
-		<modExtensions>
-			<li Class="ESCP_RaceTools.BeastMaster">
-				<maxNumberOfPawns>2</maxNumberOfPawns>
-				<maxTotalCombatPower>100</maxTotalCombatPower>
-				<pawnKinds>
-					<li>WildBoar</li>
-				</pawnKinds>
-				<bond>true</bond>
-			</li>
-		</modExtensions>
-		<backstoryFiltersOverride Inherit="False">
-			<li>
-				<categoriesChildhood>
-					<li>Tribal</li>
-					<li>Theo_KhajiitBackstory_Childhood</li>
-					<li>ESCP_GenericBackstory_ChildhoodTribal</li>
-				</categoriesChildhood>
-				<categoriesAdulthood>
-					<li>ESCP_GenericBackstory_AdulthoodBeastMaster</li>
-				</categoriesAdulthood>
-				<excludeChildhood>
-					<li>ESCP_KhajiitBackstory_Exclusion</li>
-				</excludeChildhood>
-				<excludeAdulthood>
-					<li>ESCP_KhajiitBackstory_Exclusion</li>
-				</excludeAdulthood>
-			</li>
-		</backstoryFiltersOverride>
-	</PawnKindDef>
 	
 	<PawnKindDef ParentName="Theo_Khajiit_TribalHunterBase">
 		<defName>Theo_Khajiit_Tribal_Trader</defName>
@@ -293,7 +257,7 @@
 	
 	<PawnKindDef ParentName="Theo_Khajiit_TribalBase">
 		<defName>Theo_Khajiit_Tribal_Berserker</defName>
-		<label>blade-dancer</label>
+		<label>Do-radhin</label>
 		<combatPower>65</combatPower>
 		<canBeSapper>true</canBeSapper>
 		<apparelMoney>200~550</apparelMoney>
@@ -313,7 +277,7 @@
 
 	<PawnKindDef ParentName="Theo_Khajiit_TribalBase">
 		<defName>Theo_Khajiit_Tribal_HeavyArcher</defName>
-		<label>jaqspur</label>
+		<label>Heavy Archer</label>
 		<combatPower>75</combatPower>
 		<apparelMoney>200~550</apparelMoney>
 		<apparelRequired>
@@ -355,17 +319,16 @@
 
 	<PawnKindDef ParentName="Theo_Khajiit_TribalChiefBase">
 		<defName>Theo_Khajiit_Tribal_ChiefMelee</defName>
-		<label>treethane blade-dancer</label>
+		<label>Berserker K'har</label>
 		<weaponTags>
 			<li>NeolithicMeleeAdvanced</li>
-			<li>MedievalMeleeAdvanced</li>
 		</weaponTags>
 		<initialResistanceRange>38~58</initialResistanceRange>
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="Theo_Khajiit_TribalChiefBase" Name="Theo_Khajiit_TribalChiefRangedBase">
 		<defName>Theo_Khajiit_Tribal_ChiefRanged</defName>
-		<label>treethane jaqspur</label>
+		<label>Archer K'har</label>
 		<weaponTags>
 			<li>NeolithicRangedChief</li>
 		</weaponTags>
@@ -377,15 +340,15 @@
 
 	<PawnKindDef ParentName="Theo_Khajiit_TribalChiefRangedBase">
 		<defName>Theo_Khajiit_Tribal_ChiefBeastMaster</defName>
-		<label>treethane beast master</label>
+		<label>Cat Master K'har</label>
 		<modExtensions>
 			<li Class="ESCP_RaceTools.BeastMaster">
 				<maxNumberOfPawns>1</maxNumberOfPawns>
 				<maxTotalCombatPower>160</maxTotalCombatPower>
 				<pawnKinds>
-					<li>Bear_Grizzly</li>
-					<li>Warg</li>
-					<li MayRequire="SirMashedPotato.ESCP.Trolls">ESCP_TrollForest</li>
+					<li>Panther</li>
+					<li>Cougar</li>
+					<li>Lynx</li>
 				</pawnKinds>
 				<bond>true</bond>
 			</li>
@@ -394,7 +357,7 @@
 			<li>
 				<categoriesChildhood>
 					<li>Tribal</li>
-					<li>Theo_KhajiitBackstory_Childhood</li>
+					<li>Theo_TribeKhajiitBackstory_Childhood</li>
 					<li>ESCP_GenericBackstory_ChildhoodTribal</li>
 				</categoriesChildhood>
 				<categoriesAdulthood>

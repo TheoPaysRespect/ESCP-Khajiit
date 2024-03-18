@@ -92,4 +92,296 @@
 		<initialWillRange>1~3</initialWillRange>
 		<initialResistanceRange>17~27</initialResistanceRange>
 	</PawnKindDef>
+
+	<PawnKindDef ParentName="Theo_Khajiit_TribalBase" Name="Theo_Khajiit_TribalWarriorBase">
+		<defName>Theo_Khajiit_Kingdom_Warrior</defName>
+		<label>warrior</label>
+		<combatPower>50</combatPower>
+		<itemQuality>Poor</itemQuality>
+		<canBeSapper>true</canBeSapper>
+		<gearHealthRange>0.5~1.8</gearHealthRange>
+		<apparelMoney>200~300</apparelMoney>
+		<apparelRequired>
+			<li>Apparel_WarVeil</li>
+		</apparelRequired>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<weaponMoney>150~150</weaponMoney>
+		<weaponTags>
+			<li>NeolithicMeleeDecent</li>
+		</weaponTags>
+		<initialWillRange>1~3</initialWillRange>
+		<initialResistanceRange>5~9</initialResistanceRange>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Theo_Khajiit_TribalWarriorBase">
+		<defName>Theo_Khajiit_Kingdom_CatMaster</defName>
+		<label>Big cat master</label>
+		<combatPower>70</combatPower>
+		<modExtensions>
+			<li Class="ESCP_RaceTools.BeastMaster">
+				<maxNumberOfPawns>1</maxNumberOfPawns>
+				<maxTotalCombatPower>100</maxTotalCombatPower>
+				<pawnKinds>
+					<li>Panther</li>
+					<li>Cougar</li>
+					<li>Lynx</li>
+				</pawnKinds>
+				<bond>true</bond>
+			</li>
+		</modExtensions>
+		<backstoryFiltersOverride Inherit="False">
+			<li>
+				<categoriesChildhood>
+					<li>Tribal</li>
+					<li>Theo_TribeKhajiitBackstory_Childhood</li>
+					<li>ESCP_GenericBackstory_ChildhoodTribal</li>
+				</categoriesChildhood>
+				<categoriesAdulthood>
+					<li>ESCP_GenericBackstory_AdulthoodBeastMaster</li>
+				</categoriesAdulthood>
+				<excludeChildhood>
+					<li>ESCP_KhajiitBackstory_Exclusion</li>
+				</excludeChildhood>
+				<excludeAdulthood>
+					<li>ESCP_KhajiitBackstory_Exclusion</li>
+				</excludeAdulthood>
+			</li>
+		</backstoryFiltersOverride>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Theo_Khajiit_TribalBase">
+		<defName>Theo_Khajiit_Kingdom_Breacher</defName>
+		<label>breacher</label>
+		<combatPower>55</combatPower>
+		<itemQuality>Poor</itemQuality>
+		<canBeSapper>true</canBeSapper>
+		<isGoodBreacher>true</isGoodBreacher>
+		<gearHealthRange>0.5~1.8</gearHealthRange>
+		<apparelMoney>200~300</apparelMoney>
+		<apparelRequired>
+			<li>Apparel_WarVeil</li>
+		</apparelRequired>
+		<weaponMoney>150~150</weaponMoney>
+		<weaponTags>
+			<li>NeolithicMeleeDestructive</li>
+		</weaponTags>
+		<initialWillRange>1~3</initialWillRange>
+		<initialResistanceRange>12~19</initialResistanceRange>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Theo_Khajiit_TribalBase" Name="Theo_Khajiit_TribalHunterBase">
+		<defName>Theo_Khajiit_Kingdom_Hunter</defName>
+		<label>hunter</label>
+		<combatPower>60</combatPower>
+		<backstoryFiltersOverride Inherit="False">
+			<li>
+				<categoriesChildhood>
+					<li>Tribal</li>
+					<li>Theo_TribeKhajiitBackstory_Childhood</li>
+					<li>ESCP_GenericBackstory_ChildhoodTribal</li>
+				</categoriesChildhood>
+				<categoriesAdulthood>
+					<li>TribalHunter</li>
+					<li>ESCP_GenericBackstory_AdulthoodMedievalHunter</li>
+				</categoriesAdulthood>
+				<excludeChildhood>
+					<li>ESCP_KhajiitBackstory_Exclusion</li>
+				</excludeChildhood>
+				<excludeAdulthood>
+					<li>ESCP_KhajiitBackstory_Exclusion</li>
+				</excludeAdulthood>
+			</li>
+		</backstoryFiltersOverride>
+		<gearHealthRange>0.5~1.8</gearHealthRange>
+		<apparelMoney>200~300</apparelMoney>
+		<apparelRequired>
+			<li>Apparel_WarVeil</li>
+		</apparelRequired>
+		<weaponMoney>100~100</weaponMoney>
+		<weaponTags>
+			<li>NeolithicRangedDecent</li>
+		</weaponTags>
+		<disallowedTraits>
+			<li>Brawler</li>
+		</disallowedTraits>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<initialWillRange>2~4</initialWillRange>
+		<initialResistanceRange>10~16</initialResistanceRange>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Theo_Khajiit_TribalBase" Name="Theo_Khajiit_TribalHunterBase">
+		<defName>Theo_Khajiit_Kingdom_Hunter</defName>
+		<label>hunter</label>
+		<combatPower>60</combatPower>
+		<backstoryFiltersOverride Inherit="False">
+			<li>
+				<categoriesChildhood>
+					<li>Tribal</li>
+					<li>Theo_TribeKhajiitBackstory_Childhood</li>
+					<li>ESCP_GenericBackstory_ChildhoodTribal</li>
+				</categoriesChildhood>
+				<categoriesAdulthood>
+					<li>TribalHunter</li>
+					<li>ESCP_GenericBackstory_AdulthoodMedievalHunter</li>
+				</categoriesAdulthood>
+				<excludeChildhood>
+					<li>ESCP_KhajiitBackstory_Exclusion</li>
+				</excludeChildhood>
+				<excludeAdulthood>
+					<li>ESCP_KhajiitBackstory_Exclusion</li>
+				</excludeAdulthood>
+			</li>
+		</backstoryFiltersOverride>
+		<gearHealthRange>0.5~1.8</gearHealthRange>
+		<apparelMoney>200~300</apparelMoney>
+		<apparelRequired>
+			<li>Apparel_WarVeil</li>
+		</apparelRequired>
+		<weaponMoney>100~100</weaponMoney>
+		<weaponTags>
+			<li>NeolithicRangedDecent</li>
+		</weaponTags>
+		<disallowedTraits>
+			<li>Brawler</li>
+		</disallowedTraits>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<initialWillRange>2~4</initialWillRange>
+		<initialResistanceRange>10~16</initialResistanceRange>
+	</PawnKindDef>
+	
+	<PawnKindDef ParentName="Theo_Khajiit_TribalHunterBase">
+		<defName>Theo_Khajiit_Kingdom_Trader</defName>
+		<label>trader</label>
+		<trader>true</trader>
+		<apparelRequired Inherit="False">
+			<li>Apparel_TribalHeaddress</li>
+		</apparelRequired>
+		<initialWillRange>2~4</initialWillRange>
+		<initialResistanceRange>9~15</initialResistanceRange>
+	</PawnKindDef>
+	
+	<PawnKindDef ParentName="Theo_Khajiit_TribalBase">
+		<defName>Theo_Khajiit_Kingdom_Berserker</defName>
+		<label>Do-radhin</label>
+		<combatPower>65</combatPower>
+		<canBeSapper>true</canBeSapper>
+		<apparelMoney>200~550</apparelMoney>
+		<apparelRequired>
+			<li>Apparel_WarMask</li>
+		</apparelRequired>
+		<weaponMoney>300~300</weaponMoney>
+		<weaponTags>
+			<li>NeolithicMeleeAdvanced</li>
+		</weaponTags>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<initialWillRange>2~4</initialWillRange>
+		<initialResistanceRange>13~20</initialResistanceRange>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Theo_Khajiit_TribalBase">
+		<defName>Theo_Khajiit_Kingdom_HeavyArcher</defName>
+		<label>Heavy Archer</label>
+		<combatPower>75</combatPower>
+		<apparelMoney>200~550</apparelMoney>
+		<apparelRequired>
+			<li>Apparel_WarMask</li>
+		</apparelRequired>
+		<weaponMoney>250~250</weaponMoney>
+		<weaponTags>
+			<li>NeolithicRangedHeavy</li>
+		</weaponTags>
+		<disallowedTraits>
+			<li>Brawler</li>
+		</disallowedTraits>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<initialWillRange>2~4</initialWillRange>
+		<initialResistanceRange>14~22</initialResistanceRange>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Theo_Khajiit_TribalBase" Name="Theo_Khajiit_TribalChiefBase" Abstract="True">
+		<combatPower>85</combatPower>
+		<minGenerationAge>30</minGenerationAge>
+		<maxGenerationAge>999</maxGenerationAge>
+		<itemQuality>Normal</itemQuality>
+		<factionLeader>true</factionLeader>
+		<canBeSapper>true</canBeSapper>
+		<apparelMoney>450~750</apparelMoney>
+		<apparelRequired>
+			<li>Apparel_TribalHeaddress</li>
+			<li>Apparel_PlateArmor</li>
+		</apparelRequired>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<weaponMoney>500~1000</weaponMoney>
+		<initialWillRange>3~5</initialWillRange>
+		<initialResistanceRange>19~30</initialResistanceRange>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Theo_Khajiit_TribalChiefBase">
+		<defName>Theo_Khajiit_Kingdom_ChiefMelee</defName>
+		<label>Berserker K'har</label>
+		<weaponTags>
+			<li>NeolithicMeleeAdvanced</li>
+			<li>MedievalMeleeAdvanced</li>
+		</weaponTags>
+		<initialResistanceRange>38~58</initialResistanceRange>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Theo_Khajiit_TribalChiefBase" Name="Theo_Khajiit_TribalChiefRangedBase">
+		<defName>Theo_Khajiit_Kingdom_ChiefRanged</defName>
+		<label>Archer K'har</label>
+		<weaponTags>
+			<li>NeolithicRangedChief</li>
+		</weaponTags>
+		<disallowedTraits>
+			<li>Brawler</li>
+		</disallowedTraits>
+		<initialResistanceRange>16~26</initialResistanceRange>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Theo_Khajiit_TribalChiefRangedBase">
+		<defName>Theo_Khajiit_Kingdom_ChiefBeastMaster</defName>
+		<label>Cat Master K'har</label>
+		<modExtensions>
+			<li Class="ESCP_RaceTools.BeastMaster">
+				<maxNumberOfPawns>1</maxNumberOfPawns>
+				<maxTotalCombatPower>160</maxTotalCombatPower>
+				<pawnKinds>
+					<li>Panther</li>
+					<li>Cougar</li>
+					<li>Lynx</li>
+				</pawnKinds>
+				<bond>true</bond>
+			</li>
+		</modExtensions>
+		<backstoryFiltersOverride Inherit="False">
+			<li>
+				<categoriesChildhood>
+					<li>Tribal</li>
+					<li>Theo_TribeKhajiitBackstory_Childhood</li>
+					<li>ESCP_GenericBackstory_ChildhoodTribal</li>
+				</categoriesChildhood>
+				<categoriesAdulthood>
+					<li>ESCP_GenericBackstory_AdulthoodBeastMaster</li>
+				</categoriesAdulthood>
+				<excludeChildhood>
+					<li>ESCP_KhajiitBackstory_Exclusion</li>
+				</excludeChildhood>
+				<excludeAdulthood>
+					<li>ESCP_KhajiitBackstory_Exclusion</li>
+				</excludeAdulthood>
+			</li>
+		</backstoryFiltersOverride>
+	</PawnKindDef>
 </Defs>
