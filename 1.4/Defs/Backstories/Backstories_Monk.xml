@@ -4,6 +4,10 @@
     <!--Additional parameters: gender commonality, rarity, bodytypeglobal, 
     forced trait chance, titlefemale, titleshortfemale, workdisables, requiredworktags, 
     disallowedtraits, possessions, linkedbackstory, forcedhediffs, passions, bioagerange, forceditems-->
+	<!--Escp race tools background based pawn opinions: khajiit vs dres-->
+	<!--<spawnCategories>
+			<li>ESCP_KhajiitBackstory_Exclusion</li>
+	</spawnCategories>-->
 
     <!--Childhood-->
     <AlienRace.AlienBackstoryDef ParentName="Theo_MonkKhajiit_ChildhoodBase">

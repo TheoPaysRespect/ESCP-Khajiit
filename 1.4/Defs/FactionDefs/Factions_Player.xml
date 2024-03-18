@@ -24,7 +24,7 @@
 		<defName>Theo_KhajiitPlayerFaction_Tribal</defName>
 		<label>New Khajiit Tribe</label>
 		<basicMemberKind>Theo_KhajiitPlayerPawnKind_Tribal</basicMemberKind>
-		<factionIconPath>World/WorldObjects/Theo_KhajiitSettlement</factionIconPath>
+		<factionIconPath>World/WorldObjects/Theo_KhajiitTribe</factionIconPath>
 		<allowedCultures>
 			<li>Theo_KhajiitCulture</li>
 		</allowedCultures>
