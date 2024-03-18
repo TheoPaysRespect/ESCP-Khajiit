@@ -35,6 +35,20 @@
         </statOffsets>
         <alienRace>            
             <generalSettings>
+
+				<raceGenes MayRequire="sirmashedpotato.morrowrim.moonsugarandskooma">
+ 				 <li>
+    				<li>AddictionResistant_MorrowRim_MoonSugar</li>
+					<li>AddictionResistant_MorrowRim_Skooma</li>
+  				</li>
+				</raceGenes>
+
+				<!--<notXenophobistTowards>
+  					<li>Theo_Senche</li>
+  					<li>Theo_Alfiq</li>
+					<li>Theo_Dro-m'Athra</li>
+				</notXenophobistTowards>-->
+
                 <allowHumanBios>false</allowHumanBios>
                 <humanRecipeImport>true</humanRecipeImport>
 				<immuneToAge>false</immuneToAge>
@@ -44,12 +58,7 @@
                         <chance>90<chance>
                     </li>
                 </disallowedTraits>
-                <chemicalSettings MayRequire="sirmashedpotato.morrowrim.moonsugarandskooma">
-                    <li>
-                        <chemical>MorrowRim_MoonSugar</chemical>
-                        <addictionChanceFactor>0.5</addictionChanceFactor> <!--check if this works-->
-                    </li>
-                </chemicalSettings>
+            
                 <maxDamageForSocialfight>8</maxDamageForSocialfight>
 
                 <alienPartGenerator>
