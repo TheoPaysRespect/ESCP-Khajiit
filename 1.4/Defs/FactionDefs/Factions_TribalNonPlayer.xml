@@ -194,26 +194,26 @@
 				</options>
 			</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">
-				<kindDef>Miners</kindDef>
-				<commonality>1</commonality>
-				<options>
-					<Theo_Khajiit_Kingdom_Miner>1</Theo_Khajiit_Kingdom_Miner>
-				</options>
-			</li>
-			<li MayRequire="Ludeon.RimWorld.Ideology">
 				<kindDef>Hunters</kindDef>
 				<commonality>1</commonality>
 				<options>
-					<Theo_Khajiit_Kingdom_Hunter>1</Theo_Khajiit_Kingdom_Hunter>
+					<Theo_Khajiit_Tribal_Hunter>1</Theo_Khajiit_Tribal_Hunter>
 				</options>
 			</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">
 				<kindDef>Loggers</kindDef>
 				<commonality>1</commonality>
 				<options>
-					<Theo_Khajiit_Kingdom_Logger>1</Theo_Khajiit_Kingdom_Logger>
+					<Theo_Khajiit_Tribal_Logger>1</Theo_Khajiit_Tribal_Logger>
 				</options>
-			</li>	
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">
+				<kindDef>Farmers</kindDef>
+				<commonality>1</commonality>
+				<options>
+					<Theo_Khajiit_Tribal_Farmer>1</Theo_Khajiit_Tribal_Farmer>
+				</options>
+			</li>		
 		</pawnGroupMakers>	
 	</FactionDef>
 
@@ -406,13 +406,6 @@
 					<Theo_Khajiit_Tribal_CatMaster>5</Theo_Khajiit_Tribal_CatMaster>
 					<Theo_Khajiit_Tribal_HeavyArcher>10</Theo_Khajiit_Tribal_HeavyArcher>
 					<Theo_Khajiit_Tribal_ChiefBeastMaster>10</Theo_Khajiit_Tribal_ChiefBeastMaster>
-				</options>
-			</li>
-			<li MayRequire="Ludeon.RimWorld.Ideology">
-				<kindDef>Miners</kindDef>
-				<commonality>1</commonality>
-				<options>
-					<Theo_Khajiit_Tribal_Miner>1</Theo_Khajiit_Tribal_Miner>
 				</options>
 			</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">
