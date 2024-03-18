@@ -37,6 +37,7 @@
 			<!--<Theo_Structure_Dark_Spirits MayRequire="Ludeon.RimWorld.Ideology">1</Theo_Structure_Dark_Spirits>-->
 			<Theo_Structure_Adverserial_Spirits MayRequire="Ludeon.RimWorld.Ideology">4</Theo_Structure_Adverserial_Spirits>
 		</structureMemeWeights>
+
 		<raidLootMaker>Theo_Khajiit_LootBase</raidLootMaker>
 		<requiredPrecepts>
 			<li MayRequire="Ludeon.RimWorld.Ideology">ESCP_BeastfolkLeather_Abhorrent</li>
@@ -46,9 +47,6 @@
 			<li MayRequire="Ludeon.RimWorld.Ideology">MeatEating_Abhorrent</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">MeatEating_Horrible</li>
 		</disallowedPrecepts>
-		<pawnGroupMakers>
-			<!--fill-->
-		</pawnGroupMakers>	
     </FactionDef>
 
 	<FactionDef ParentName="Theo_KhajiitNonPlayerFaction_Base">
@@ -72,6 +70,145 @@
 			<li MayRequire="Ludeon.RimWorld.Ideology">HighLife</li>		
 		</requiredMemes>
 		<configurationListOrderPriority>30</configurationListOrderPriority>
+
+		<pawnGroupMakers> <!--fill-->
+			<li>
+				<kindDef>Combat</kindDef>
+				<commonality>100</commonality>
+				<options>
+					<Theo_Khajiit_Kingdom_Penitent>5</Theo_Khajiit_Kingdom_Penitent>
+					<Theo_Khajiit_Kingdom_Warrior>5</Theo_Khajiit_Kingdom_Warrior>
+					<Theo_Khajiit_Kingdom_Archer>10</Theo_Khajiit_Kingdom_Archer>
+					<Theo_Khajiit_Kingdom_Hunter>10</Theo_Khajiit_Kingdom_Hunter>
+					<Theo_Khajiit_Kingdom_CatMaster>5</Theo_Khajiit_Kingdom_CatMaster>
+					<Theo_Khajiit_Kingdom_HeavyArcher>10</Theo_Khajiit_Kingdom_HeavyArcher>
+					<Theo_Khajiit_Kingdom_Berserker>5</Theo_Khajiit_Kingdom_Berserker>
+					<Theo_Khajiit_Kingdom_ChiefRanged>3</Theo_Khajiit_Kingdom_ChiefRanged>
+					<Theo_Khajiit_Kingdom_ChiefMelee>1.5</Theo_Khajiit_Kingdom_ChiefMelee>
+					<Theo_Khajiit_Kingdom_ChiefBeastMaster>1.5</Theo_Khajiit_Kingdom_ChiefBeastMaster>
+				</options>
+			</li>
+			
+			<li>
+				<kindDef>Combat</kindDef>
+				<commonality>30</commonality>
+				<options>
+					<Theo_Khajiit_Kingdom_Penitent>10</Theo_Khajiit_Kingdom_Penitent>
+					<Theo_Khajiit_Kingdom_Warrior>10</Theo_Khajiit_Kingdom_Warrior>
+					<Theo_Khajiit_Kingdom_Berserker>10</Theo_Khajiit_Kingdom_Berserker>
+					<Theo_Khajiit_Kingdom_ChiefMelee>5</Theo_Khajiit_Kingdom_ChiefMelee>
+				</options>
+			</li>
+
+			<li>
+				<kindDef>Combat</kindDef>
+				<commonality>5</commonality>
+				<options>
+					<Theo_Khajiit_Kingdom_Breacher>5</Theo_Khajiit_Kingdom_Breacher>
+					<Theo_Khajiit_Kingdom_Penitent>5</Theo_Khajiit_Kingdom_Penitent>
+					<Theo_Khajiit_Kingdom_Warrior>5</Theo_Khajiit_Kingdom_Warrior>
+					<Theo_Khajiit_Kingdom_Archer>10</Theo_Khajiit_Kingdom_Archer>
+					<Theo_Khajiit_Kingdom_Hunter>10</Theo_Khajiit_Kingdom_Hunter>
+					<Theo_Khajiit_Kingdom_CatMaster>5</Theo_Khajiit_Kingdom_CatMaster>
+					<Theo_Khajiit_Kingdom_HeavyArcher>10</Theo_Khajiit_Kingdom_HeavyArcher>
+					<Theo_Khajiit_Kingdom_Berserker>5</Theo_Khajiit_Kingdom_Berserker>
+					<Theo_Khajiit_Kingdom_ChiefRanged>3</Theo_Khajiit_Kingdom_ChiefRanged>
+					<Theo_Khajiit_Kingdom_ChiefMelee>1.5</Theo_Khajiit_Kingdom_ChiefMelee>
+					<Theo_Khajiit_Kingdom_ChiefBeastMaster>1.5</Theo_Khajiit_Kingdom_ChiefBeastMaster>
+				</options>
+			</li>
+
+			<li>
+				<kindDef>Combat</kindDef>
+				<commonality>30</commonality>
+				<options>
+					<Theo_Khajiit_Kingdom_Archer>10</Theo_Khajiit_Kingdom_Archer>
+					<Theo_Khajiit_Kingdom_Hunter>10</Theo_Khajiit_Kingdom_Hunter>
+					<Theo_Khajiit_Kingdom_CatMaster>5</Theo_Khajiit_Kingdom_CatMaster>
+					<Theo_Khajiit_Kingdom_HeavyArcher>10</Theo_Khajiit_Kingdom_HeavyArcher>
+					<Theo_Khajiit_Kingdom_ChiefRanged>5</Theo_Khajiit_Kingdom_ChiefRanged>
+					<Theo_Khajiit_Kingdom_ChiefBeastMaster>1.5</Theo_Khajiit_Kingdom_ChiefBeastMaster>
+				</options>
+			</li>
+
+			<li>
+				<kindDef>Peaceful</kindDef>
+				<options>
+					<Theo_Khajiit_Kingdom_Warrior>20</Theo_Khajiit_Kingdom_Warrior>
+					<Theo_Khajiit_Kingdom_Archer>10</Theo_Khajiit_Kingdom_Archer>
+					<Theo_Khajiit_Kingdom_Hunter>10</Theo_Khajiit_Kingdom_Hunter>
+					<Theo_Khajiit_Kingdom_HeavyArcher>10</Theo_Khajiit_Kingdom_HeavyArcher>
+					<Theo_Khajiit_Kingdom_Berserker>5</Theo_Khajiit_Kingdom_Berserker>
+					<Theo_Khajiit_Kingdom_ChiefRanged>3</Theo_Khajiit_Kingdom_ChiefRanged>
+					<Theo_Khajiit_Kingdom_ChiefMelee>1.5</Theo_Khajiit_Kingdom_ChiefMelee>
+				</options>
+			</li>
+
+			<li>
+				<kindDef>Trader</kindDef>
+				<traders>
+					<Theo_Khajiit_Kingdom_Trader>1</Theo_Khajiit_Kingdom_Trader>
+				</traders>
+				<carriers>
+					 <!--edit with more unique carriers-->
+					<Muffalo>6</Muffalo>
+					<Dromedary>5</Dromedary>
+					<Alpaca>2.5</Alpaca>
+					<Elephant>2</Elephant>
+				</carriers>
+				<guards>
+					<Theo_Khajiit_Kingdom_Warrior>7</Theo_Khajiit_Kingdom_Warrior>
+					<Theo_Khajiit_Kingdom_Archer>10</Theo_Khajiit_Kingdom_Archer>
+					<Theo_Khajiit_Kingdom_Hunter>10</Theo_Khajiit_Kingdom_Hunter>
+					<Theo_Khajiit_Kingdom_HeavyArcher>10</Theo_Khajiit_Kingdom_HeavyArcher>
+					<Theo_Khajiit_Kingdom_Berserker>7</Theo_Khajiit_Kingdom_Berserker>
+				</guards>
+			</li>
+
+			<li>
+				<kindDef>Settlement</kindDef>
+				<options>
+					<Theo_Khajiit_Kingdom_Warrior>7</Theo_Khajiit_Kingdom_Warrior>
+					<Theo_Khajiit_Kingdom_Archer>10</Theo_Khajiit_Kingdom_Archer>
+					<Theo_Khajiit_Kingdom_Hunter>10</Theo_Khajiit_Kingdom_Hunter>
+					<Theo_Khajiit_Kingdom_CatMaster>5</Theo_Khajiit_Kingdom_CatMaster>
+					<Theo_Khajiit_Kingdom_HeavyArcher>10</Theo_Khajiit_Kingdom_HeavyArcher>
+					<Theo_Khajiit_Kingdom_Berserker>7</Theo_Khajiit_Kingdom_Berserker>
+					<Theo_Khajiit_Kingdom_ChiefBeastMaster>10</Theo_Khajiit_Kingdom_ChiefBeastMaster>
+				</options>
+			</li>
+			<li>
+				<kindDef>Settlement_RangedOnly</kindDef>
+				<options>
+					<Theo_Khajiit_Kingdom_Archer>10</Theo_Khajiit_Kingdom_Archer>
+					<Theo_Khajiit_Kingdom_Hunter>10</Theo_Khajiit_Kingdom_Hunter>
+					<Theo_Khajiit_Kingdom_CatMaster>5</Theo_Khajiit_Kingdom_CatMaster>
+					<Theo_Khajiit_Kingdom_HeavyArcher>10</Theo_Khajiit_Kingdom_HeavyArcher>
+					<Theo_Khajiit_Kingdom_ChiefBeastMaster>10</Theo_Khajiit_Kingdom_ChiefBeastMaster>
+				</options>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">
+				<kindDef>Miners</kindDef>
+				<commonality>1</commonality>
+				<options>
+					<Theo_Khajiit_Kingdom_Miner>1</Theo_Khajiit_Kingdom_Miner>
+				</options>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">
+				<kindDef>Hunters</kindDef>
+				<commonality>1</commonality>
+				<options>
+					<Theo_Khajiit_Kingdom_Hunter>1</Theo_Khajiit_Kingdom_Hunter>
+				</options>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">
+				<kindDef>Loggers</kindDef>
+				<commonality>1</commonality>
+				<options>
+					<Theo_Khajiit_Kingdom_Logger>1</Theo_Khajiit_Kingdom_Logger>
+				</options>
+			</li>	
+		</pawnGroupMakers>	
 	</FactionDef>
 
 	<FactionDef ParentName="Theo_KhajiitNonPlayerFaction_Base">
@@ -95,7 +232,6 @@
 			<li MayRequire="vanillaexpanded.vmemese">VME_Nomad</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">HighLife</li>		
 		</requiredMemes>
-		
 		<configurationListOrderPriority>30</configurationListOrderPriority>
 	</FactionDef>
 
