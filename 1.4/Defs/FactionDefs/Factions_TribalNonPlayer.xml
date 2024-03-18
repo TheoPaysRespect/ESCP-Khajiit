@@ -19,6 +19,11 @@
 				</dislikedBiomeList>
 				<IgnoreBiomeSelectionWeight>false</IgnoreBiomeSelectionWeight>
 			</li>
+			<li Class="ESCP_RaceTools.FactionProperties">
+				<factionTags>
+					<li>Theo_KhajiitFaction</li>
+				</factionTags>
+			</li>
         </modExtensions>
 
 		<leaderTitle>Mane</leaderTitle>

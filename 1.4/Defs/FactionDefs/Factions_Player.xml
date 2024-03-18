@@ -14,8 +14,8 @@
 		<modExtensions> <!--Find out what this does-->
 			<li Class="ESCP_RaceTools.FactionProperties">
 				<factionTags>
-					<li>ESCP_KhajiitFaction</li>
-					<li>ESCP_KhajiitFactionPlayer</li>
+					<li>Theo_KhajiitFaction</li>
+					<li>Theo_KhajiitFactionPlayer</li>
 				</factionTags>
 			</li>
 		</modExtensions>

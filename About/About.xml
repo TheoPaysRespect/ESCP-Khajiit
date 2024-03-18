@@ -37,6 +37,7 @@
     <loadAfter>
 		<li>SirMashedPotato.ESCP.RaceTools</li>
 		<li>sirmashedpotato.morrowrim.moonsugarandskooma</li>
+		<li>mlie.argoniansofblackmarsh</li>
 	</loadAfter>
 
 </ModMetaData>
