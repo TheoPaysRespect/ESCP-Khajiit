@@ -42,7 +42,8 @@
 		<backstoryFiltersOverride>
 			<li>
 				<categoriesChildhood>
-					<li>ESCP_GenericBackstory_ChildhoodMedieval</li>
+					<li>Tribal</li>
+                    <li>ESCP_GenericBackstory_ChildhoodMedieval</li>
                     <li>Theo_TribeKhajiitBackstory_Childhood</li>
                     <li>ESCP_GenericBackstory_ChildhoodTribal</li>
 

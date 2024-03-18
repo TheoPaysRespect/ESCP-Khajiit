@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <PawnKindDef Name="Theo_Khajiit_TribalBase" Abstract="True">
+		<race>Theo_KhajiitRace</race>
+		<defaultFactionType>Theo_KhajiitNonPlayerFaction_Tribal</defaultFactionType>
+		<maxGenerationAge>60</maxGenerationAge>
+		<chemicalAddictionChance>0.01</chemicalAddictionChance>
+		<invNutrition>2.55</invNutrition>
+		<invFoodDef>Pemmican</invFoodDef>
+		<apparelTags>
+			<li>Neolithic</li>
+		</apparelTags>
+		<backstoryFiltersOverride>
+			<li>
+				<categoriesChildhood>
+					<li>Tribal</li>
+					<li>ESCP_GenericBackstory_ChildhoodMedieval</li>
+                    <li>Theo_TribeKhajiitBackstory_Childhood</li>
+                    <li>ESCP_GenericBackstory_ChildhoodTribal</li>
+				</categoriesChildhood>
+				<categoriesAdulthood>
+					<li>Tribal<li>
+					<li>ESCP_GenericBackstory_AdulthoodSlaver</li>
+                    <li>Theo_TribeKhajiitBackstory_Adulthood</li>
+                    <li>ESCP_DunmerSlaveBackstory_Adulthood</li>
+				</categoriesAdulthood>
+				<excludeChildhood>
+					<li>ESCP_KhajiitBackstory_Exclusion</li>
+				</excludeChildhood>
+				<excludeAdulthood>
+					<li>ESCP_KhajiitBackstory_Exclusion</li>
+				</excludeAdulthood>
+			</li>
+		</backstoryFiltersOverride>
+	</PawnKindDef>
+</Defs>

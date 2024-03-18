@@ -38,7 +38,14 @@
 			<Theo_Structure_Adverserial_Spirits MayRequire="Ludeon.RimWorld.Ideology">4</Theo_Structure_Adverserial_Spirits>
 		</structureMemeWeights>
 		<raidLootMaker>Theo_Khajiit_LootBase</raidLootMaker>
-
+		<requiredPrecepts>
+			<li MayRequire="Ludeon.RimWorld.Ideology">ESCP_BeastfolkLeather_Abhorrent</li>
+		</requiredPrecepts>
+		<disallowedPrecepts>
+			<li MayRequire="vanillaexpanded.vmemese">VME_MeatEating_Abhorrent_Strict</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">MeatEating_Abhorrent</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">MeatEating_Horrible</li>
+		</disallowedPrecepts>
 		<pawnGroupMakers>
 			<!--fill-->
 		</pawnGroupMakers>	
@@ -88,6 +95,7 @@
 			<li MayRequire="vanillaexpanded.vmemese">VME_Nomad</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">HighLife</li>		
 		</requiredMemes>
+		
 		<configurationListOrderPriority>30</configurationListOrderPriority>
 	</FactionDef>
 

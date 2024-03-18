@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <PawnKindDef Name="Theo_Khajiit_TribalBase" Abstract="True">
+		<race>Theo_KhajiitRace</race>
+		<defaultFactionType>Theo_KhajiitNonPlayerFaction_Kingdom</defaultFactionType>
+		<maxGenerationAge>60</maxGenerationAge>
+		<chemicalAddictionChance>0.02</chemicalAddictionChance>
+		<invNutrition>2.55</invNutrition>
+		<invFoodDef>Pemmican</invFoodDef>
+		<apparelTags>
+			<li>Neolithic</li>
+			<li>Medieval</li>
+			<li>MedievalBasic</li>
+		</apparelTags>
+		<backstoryFiltersOverride>
+			<li>
+				<categoriesChildhood>
+					 	<li>ESCP_GenericBackstory_ChildhoodMedieval</li>
+                        <li>ESCP_GenericBackstory_ChildhoodHighClass</li>
+                        <li>ESCP_GenericBackstory_ChildhoodImperialFaction</li>
+                        <li>Theo_CityKhajiitBackstory_Childhood</li>
+				</categoriesChildhood>
+				<categoriesAdulthood>
+					 	<li>ESCP_GenericBackstory_AdulthoodMedieval</li>
+                        <li>ESCP_GenericBackstory_AdulthoodHighClass</li>
+                        <li>ESCP_GenericBackstory_AdulthoodMage</li>
+                        <li>ESCP_GenericBackstory_AdulthoodSlaver</li>
+                        <li>ESCP_GenericBackstory_AdulthoodMagesGuild</li>
+                        <li>ESCP_GenericBackstory_AdulthoodImperialFaction</li>
+                        <li>ESCP_GenericBackstory_AdulthoodThievesGuild</li>
+                        <li>ESCP_GenericBackstory_AdulthoodSkoomaAddict</li>
+                        <li>ESCP_DunmerSlaveBackstory_Adulthood</li>
+                        <li>Theo_CityKhajiitBackstory_Adulthood</li>
+				</categoriesAdulthood>
+				<excludeChildhood>
+					<li>ESCP_KhajiitBackstory_Exclusion</li>
+				</excludeChildhood>
+				<excludeAdulthood>
+					<li>ESCP_KhajiitBackstory_Exclusion</li>
+				</excludeAdulthood>
+			</li>
+		</backstoryFiltersOverride>
+	</PawnKindDef>
+</Defs>
