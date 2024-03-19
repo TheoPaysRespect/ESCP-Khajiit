@@ -3,14 +3,19 @@
 <Defs>
     <AlienRace.ThingDef_AlienRace ParentName="ESCP_BaseRace_NoCosmeticGenes" Name="Theo_BaseRace_Khajiit" Abstract="True">
 		<statBases>
-			<MarketValue>1900</MarketValue> <!--balance-->
+			<MarketValue>2000</MarketValue> 
 			<PsychicSensitivity>1.2</PsychicSensitivity>
             <SocialImpact>0.8</SocialImpact>
             <ComfyTemperatureMin>0</ComfyTemperatureMin>
             <Flammability>1.2</Flammability>
 			<ComfyTemperatureMax>35</ComfyTemperatureMax>
 		</statBases>
-
+        <modExtensions>
+			<li Class="ESCP_RaceTools.RaceProperties">
+				<heatstrokeResistant>true</heatstrokeResistant>
+				<majorRacialGeneToInherit MayRequire="Ludeon.RimWorld.Biotech">Theo_Khajiit_InheritedBonus</majorRacialGeneToInherit>
+			</li>
+		</modExtensions>
          <race>
             <body>ESCP_HumanlikeWithTail</body>
 			<leatherDef>ESCP_LeatherKhajiit</leatherDef>
@@ -122,7 +127,7 @@
             <generalSettings>
                 <alienPartGenerator>
                     <headTypes>
-                        <li>Male_AverageNormal</li>
+                        <li>Male_AverageNormal</li> <!--test-->
                         <li>Male_AverageWide</li>
                         <li>Male_AveragePointy</li>
                         <li>Female_AverageNormal</li>
@@ -131,7 +136,7 @@
                     </headTypes>
                     <bodyTypes>
                         <li>Thin</li>
-                        <li MayRequire="Ludeon.RimWorld.Biotech">Baby</li>
+                        <li MayRequire="Ludeon.RimWorld.Biotech">Baby</li> <!--test-->
                         <li MayRequire="Ludeon.RimWorld.Biotech">Child</li>
                     </bodyTypes>
                 <alienPartGenerator>

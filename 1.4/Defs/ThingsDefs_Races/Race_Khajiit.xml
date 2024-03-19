@@ -7,13 +7,7 @@
 			<descriptionHyperlinks>
 				<GeneDef MayRequire="Ludeon.RimWorld.Biotech">Theo_Khajiit_InheritedBonus</GeneDef>
 			</descriptionHyperlinks>
-			<modExtensions>
-				<li Class="ESCP_RaceTools.RaceProperties">
-					<heatstrokeResistant>true</heatstrokeResistant>
-
-					<majorRacialGeneToInherit MayRequire="Ludeon.RimWorld.Biotech">Theo_Khajiit_InheritedBonus</majorRacialGeneToInherit>
-				</li>
-			</modExtensions>
+			
 			<statBases>
 				<MoveSpeed>1.1</MoveSpeed>
 			</statBases>
