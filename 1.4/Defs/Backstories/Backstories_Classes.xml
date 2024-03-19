@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-    <AlienBackstoryDef>
-        <AlienRace.AlienBackstoryDef Name="Theo_CityKhajiit_ChildhoodBase" Abstract="True" >
+    <AlienRace.AlienBackstoryDef Name="Theo_CityKhajiit_ChildhoodBase" Abstract="True" >
 		<slot>Childhood</slot>
 		<spawnCategories>
 			<li>Theo_CityKhajiitBackstory_Childhood</li>
@@ -16,10 +15,8 @@
 			<li>ESCP_KhajiitBackstory_Exclusion</li>
 		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
-    </AlienBackstoryDef>
 
-	<AlienBackstoryDef>
-        <AlienRace.AlienBackstoryDef Name="Theo_TribalKhajiit_ChildhoodBase" Abstract="True" >
+    <AlienRace.AlienBackstoryDef Name="Theo_TribalKhajiit_ChildhoodBase" Abstract="True" >
 		<slot>Childhood</slot>
 		<spawnCategories>
 			<li>Theo_TribeKhajiitBackstory_Childhood</li>
@@ -33,16 +30,27 @@
 			<li>Theo_TribeKhajiitBackstory_Adulthood</li>
 			<li>ESCP_KhajiitBackstory_Exclusion</li>
 		</spawnCategories>
+		<disallowedTraitsChance>
+			<li>
+				<defName>Transhumanist</defName>
+				<chance>100</chance>
+			</li>
 	</AlienRace.AlienBackstoryDef>
-    </AlienBackstoryDef>
 
-	<AlienBackstoryDef>
-        <AlienRace.AlienBackstoryDef Name="Theo_MonkKhajiit_ChildhoodBase" Abstract="True" >
+    <AlienRace.AlienBackstoryDef Name="Theo_MonkKhajiit_ChildhoodBase" Abstract="True" >
 		<slot>Childhood</slot>
 		<spawnCategories>
 			<li>Theo_MonkKhajiitBackstory_Childhood</li>
 			<li>ESCP_KhajiitBackstory_Exclusion</li>
 		</spawnCategories>
+		<maleCommonality>20</maleCommonality>
+		<femaleCommonality>20</femaleCommonality>
+		<forcedTraitsChance>
+			<li MayRequire="torann.arimworldofmagic">
+				<defName>TM_Monk</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraitsChance>
 	</AlienRace.AlienBackstoryDef>
 
 	<AlienRace.AlienBackstoryDef Name="Theo_MonkKhajiit_AdulthoodBase" Abstract="True" >
@@ -51,7 +59,32 @@
 			<li>Theo_MonkKhajiitBackstory_Adulthood</li>
 			<li>ESCP_KhajiitBackstory_Exclusion</li>
 		</spawnCategories>
-	</AlienRace.AlienBackstoryDef>
-    </AlienBackstoryDef>
-	
+		<maleCommonality>20</maleCommonality>
+		<femaleCommonality>20</femaleCommonality>
+		<forcedTraitsChance>
+			<li>
+				<defName>Brawler</defName>
+				<chance>30</chance>
+			</li>
+			<li>
+				<defName>Ascetic</defName>
+				<chance>20</chance>
+			</li>
+			<li>
+				<defName>Nimble</defName>
+				<chance>20</chance>
+			</li>
+			<li MayRequire="torann.arimworldofmagic">
+				<defName>TM_Monk</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+			<li>
+				<defName>Wimp</defName>
+				<chance>100</chance>
+			</li>
+		</disallowedTraitsChance>
+		<requiredWorkTags>Violent</requiredWorkTags>
+	</AlienRace.AlienBackstoryDef>	
 </Defs>

@@ -9,47 +9,6 @@
 	<!--ESCP_DunmerGreatHouse_Dres_Adulthood-->
 	<!--Link monk childhoods and adulthoods-->
 
-	<AlienRace.AlienBackstoryDef ParentName="Theo_MonkKhajiit_ChildhoodBase" Abstract="True">
-		<maleCommonality>20</maleCommonality>
-		<femaleCommonality>20</femaleCommonality>
-		<forcedTraitsChance>
-			<li MayRequire="torann.arimworldofmagic">
-				<defName>TM_Monk</defName>
-				<chance>100</chance>
-			</li>
-		</forcedTraitsChance>
-	</AlienRace.AlienBackstoryDef>
-
-	<AlienRace.AlienBackstoryDef ParentName="Theo_MonkKhajiit_AdulthoodBase" Abstract="True">
-		<maleCommonality>20</maleCommonality>
-		<femaleCommonality>20</femaleCommonality>
-		<forcedTraitsChance>
-			<li>
-				<defName>Brawler</defName>
-				<chance>30</chance>
-			</li>
-			<li>
-				<defName>Ascetic</defName>
-				<chance>20</chance>
-			</li>
-			<li>
-				<defName>Nimble</defName>
-				<chance>20</chance>
-			</li>
-			<li MayRequire="torann.arimworldofmagic">
-				<defName>TM_Monk</defName>
-				<chance>100</chance>
-			</li>
-		</forcedTraitsChance>
-		<disallowedTraitsChance>
-			<li>
-				<defName>Wimp</defName>
-				<chance>100</chance>
-			</li>
-		</disallowedTraitsChance>
-		<requiredWorkTags>Violent</requiredWorkTags>
-	</AlienRace.AlienBackstoryDef>
-
     <!--Childhood-->
     <AlienRace.AlienBackstoryDef ParentName="Theo_MonkKhajiit_ChildhoodBase">
 		<defName>Theo_Khajiit_MonkChild1</defName>
