@@ -171,7 +171,63 @@
 							</first>
 						</li>
 					</colorChannels>
-                </alienPartGenerator>
+				</alienPartGenerator>
+
+
+				<tools>
+					<li>
+						<label>left claw</label>
+						<capacities>
+						<li>Scratch</li>
+						</capacities>
+						<power>9</power>
+						<cooldownTime>1.5</cooldownTime>
+						<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+						<surpriseAttack>
+						<extraMeleeDamages>
+							<li>
+							<def>Stun</def>
+							<amount>14</amount>
+							</li>
+						</extraMeleeDamages>
+						</surpriseAttack>
+					</li>
+					<li>
+						<label>right claw</label>
+						<capacities>
+						<li>Scratch</li>
+						</capacities>
+						<power>9</power>
+						<cooldownTime>1.5</cooldownTime>
+						<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+						<surpriseAttack>
+						<extraMeleeDamages>
+							<li>
+							<def>Stun</def>
+							<amount>14</amount>
+							</li>
+						</extraMeleeDamages>
+						</surpriseAttack>
+					</li>
+					<li>
+						<capacities>
+						<li>Bite</li>
+						</capacities>
+						<power>12</power>
+						<cooldownTime>2</cooldownTime>
+						<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+						<chanceFactor>0.7</chanceFactor>
+						<surpriseAttack>
+						<extraMeleeDamages>
+							<li>
+							<def>Stun</def>
+							<amount>14</amount>
+							</li>
+						</extraMeleeDamages>
+						</surpriseAttack>
+					</li>
+				</tools>
+
                 <newbornBackstoryFilter>
 					<li>
 						<categories>
@@ -208,6 +264,7 @@
 
             <thoughtSettings>
 				<cannotReceiveThoughts>
+					<li>AteRawFood</li>
 					<li>SleptInHeat</li>
                     <li>EnvironmentHot</li>
                     <li>Naked</li>
@@ -239,6 +296,23 @@
 				<blackGeneList>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Theo_Khajiit_InheritedBonus</li>
 				</blackGeneList>
+				<blackGeneTags>
+					<li>BodyType</li>
+					<li>Ears</li>
+					<li>Nose</li>
+					<li>Jaw</li>
+					<li>Head</li>
+					<li>Headbone</li>
+					<li>Fur</li>
+					<li>Tail</li>
+				</blackGeneTags>
+				 <blackEndoCategories>
+				 	<li>Ears</li>
+					<li>Nose</li>
+					<li>Jaw</li>
+					<li>Head</li>
+					<li>BodyType</li>
+				 </blackEndoCategories>
 			</raceRestriction>
         </AlienRace.ThingDef_AlienRace>
 </Defs>
