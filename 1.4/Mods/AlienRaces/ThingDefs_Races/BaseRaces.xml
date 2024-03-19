@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--bodymasks for patterns?-->
+<Defs>
+    <AlienRace.ThingDef_AlienRace ParentName="ESCP_BaseRace_NoCosmeticGenes" Name="Theo_BaseRace_Khajiit" Abstract="True">
+		<statBases>
+			<MarketValue>1900</MarketValue> <!--balance-->
+			<PsychicSensitivity>1.2</PsychicSensitivity>
+            <SocialImpact>0.8</SocialImpact>
+            <ComfyTemperatureMin>0</ComfyTemperatureMin>
+            <Flammability>1.2</Flammability>
+			<ComfyTemperatureMax>35</ComfyTemperatureMax>
+		</statBases>
+
+         <race>
+            <body>ESCP_HumanlikeWithTail</body>
+			<leatherDef>ESCP_LeatherKhajiit</leatherDef>
+			<nameGenerator>Theo_Khajiit_NamerMale</nameGenerator>
+			<nameGeneratorFemale>Theo_Khajiit_NamerFemale</nameGeneratorFemale>
+
+            <ageGenerationCurve>
+				<points>
+					<li MayRequire="Ludeon.RimWorld.Biotech">(0,0)</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">(0.001,43)</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">(8,86)</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">(12.5,118)</li>  <!-- Exclude 12.5-13 years to avoid spawning pawns who are very close to becoming adults -->  
+					<li MayRequire="Ludeon.RimWorld.Biotech">(12.51,0)</li>  
+					<li MayRequire="Ludeon.RimWorld.Biotech">(13,0)</li>      
+					<li MayRequire="Ludeon.RimWorld.Biotech">(13.001,122)</li><!-- End exclude -->
+					<li MayRequire="Ludeon.RimWorld.Biotech">(13.999,130)</li>
+					<li>(14,0)</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">(14.001,130)</li>
+					<li>(16,100)</li>
+					<li>(50,100)</li>
+					<li>(60,30)</li>
+					<li>(70,18)</li>
+					<li>(80,10)</li>
+					<li>(90,3)</li>
+					<li>(100,0)</li>
+				</points>
+			</ageGenerationCurve>
+        </race>
+        <alienRace>
+            <generalSettings>
+                <alienPartGenerator>
+                    <headTypes Inherit="False"/>
+                    <bodyAddons>
+                        <li>
+                            <path>Things/Pawn/Humanlike/Theo_Khajiit/Ears/RightEarBase</path>
+                            <colorChannel>skin</colorChannel>
+                            <bodyPart>Ear</bodyPart>
+                            <bodyPartLabel>right ear</bodyPartLabel>
+                            <drawnInBed>true</drawnInBed>
+                            <inFrontOfBody>false</inFrontOfBody>
+                            <alignWithHead>true</alignWithHead>
+                            <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                            <drawnDesiccated>false</drawnDesiccated>
+                            <hiddenUnderApparelFor>
+                                <li>FullHead</li>
+                                <li>UpperHead</li>
+                            </hiddenUnderApparelFor>
+                            <offsets>
+                                <north>
+                                    <layerOffset>-0.28</layerOffset> <!--test these-->
+                                </north>
+                                <east>
+                                    <layerOffset>-0.332</layerOffset> <!--test these-->
+                                </east>
+                            </offsets>
+                        </li>
+
+                        <li>
+                            <path>Things/Pawn/Humanlike/Theo_Khajiit/Ears/LeftEarBase</path>
+                            <colorChannel>skin</colorChannel>
+                            <bodyPart>Ear</bodyPart>
+                            <bodyPartLabel>left ear</bodyPartLabel>
+                            <drawnInBed>true</drawnInBed>
+                            <inFrontOfBody>false</inFrontOfBody>
+                            <alignWithHead>true</alignWithHead>
+                            <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                            <drawnDesiccated>false</drawnDesiccated>
+                            <hiddenUnderApparelFor>
+                                <li>FullHead</li>
+                                <li>UpperHead</li>
+                            </hiddenUnderApparelFor>
+                            <offsets>
+                                <north>
+                                    <layerOffset>-0.28</layerOffset> <!--test these-->
+                                </north>
+                                <east>
+                                    <layerOffset>-0.332</layerOffset> <!--test these-->
+                                </east>
+                            </offsets>
+                        </li>
+
+                        <li>
+                            <path>Things/Pawn/Humanlike/Theo_Khajiit/Tails/TailBase</path>
+                            <colorChannel>skin</colorChannel>
+                            <bodyPart>Tail</bodyPart>
+                            <bodyPartLabel>tail</bodyPartLabel>
+                            <defaultOffset>Tail</defaultOffset>
+                            <drawnInBed>true</drawnInBed>
+                            <inFrontOfBody>false</inFrontOfBody>
+                            <drawnDesiccated>false</drawnDesiccated>
+                            <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                            <offsets> <!--test-->
+                                <north>
+                                    <layerOffset>-0.1</layerOffset>
+                                </north>
+                                <east>
+                                    <layerOffset>-0.1</layerOffset>
+                                </east>
+                            </offsets>
+                        </li>
+                    </bodyAddons>
+                </alienPartGenerator>
+            </generalSettings>
+        </alienRace>
+    </AlienRace.ThingDef_AlienRace>
+
+    <alienRace.ThingDef_AlienRace ParentName ="Theo_BaseRace_Khajiit" Name="Theo_Khajiit_StandardForm" Abstract="True">
+        <alienRace>
+            <generalSettings>
+                <alienPartGenerator>
+                    <headTypes>
+                        <li>Male_AverageNormal</li>
+                        <li>Male_AverageWide</li>
+                        <li>Male_AveragePointy</li>
+                        <li>Female_AverageNormal</li>
+                        <li>Female_AverageWide</li>
+                        <li>Female_AveragePointy</li>
+                    </headTypes>
+                    <bodyTypes>
+                        <li>Thin</li>
+                        <li MayRequire="Ludeon.RimWorld.Biotech">Baby</li>
+                        <li MayRequire="Ludeon.RimWorld.Biotech">Child</li>
+                    </bodyTypes>
+                <alienPartGenerator>
+            </generalSettings>
+            <graphicPaths>
+                <head>Things/Pawn/Humanlike/Theo_Khajiit/Heads/</head>
+                <body>Things/Pawn/Humanlike/Theo_Khajiit/Bodies/</body>
+            </graphicPaths>
+        <alienRace>
+    </AlienRace.ThingDef_AlienRace>
+</Defs>

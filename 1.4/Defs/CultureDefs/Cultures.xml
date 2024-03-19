@@ -9,7 +9,7 @@
 		<pawnNameMakerFemale>Theo_Khajiit_NamerFemale</pawnNameMakerFemale>
         <ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoCorunan</ideoNameMaker>
 		<deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">Theo_Khajiit_NamerCultureDeityName</deityNameMaker>
-		<deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">Theo_Khajiit_NamerCultureDeityType</deityTypeMaker>
+		<deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DeityTypeMakerCorunan</deityTypeMaker>
 		<festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalCorunan</festivalNameMaker>
 		<leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">Theo_Khajiit_NamerCultureLeaderTitle</leaderTitleMaker>
         <preferredWeaponClasses>
@@ -19,7 +19,7 @@
 		<allowedPlaceTags>
 			<li>OriginTribal</li>
 		</allowedPlaceTags>
-		<iconPath>World/WorldObjects/Theo_KhajiitSettlement</iconPath>
+		<iconPath>World/WorldObjects/Theo_Khajiit_Kingdom</iconPath>
 		<thingStyleCategories>
 			<li MayRequire="Ludeon.RimWorld.Ideology">
 				<category>Theo_KhajiitStyle</category>

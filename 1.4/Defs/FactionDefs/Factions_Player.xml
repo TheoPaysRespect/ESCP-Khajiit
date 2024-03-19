@@ -4,7 +4,7 @@
 		<defName>Theo_KhajiitPlayerFaction_Medieval</defName>
 		<label>New Khajiit Kingdom</label>
 		<basicMemberKind>Theo_KhajiitPlayerPawnKind_Medieval</basicMemberKind>
-		<factionIconPath>World/WorldObjects/Theo_Khajiit_Settlement</factionIconPath>
+		<factionIconPath>World/WorldObjects/Theo_Khajiit_Kingdom</factionIconPath>
 		<allowedCultures>
 			<li>Theo_KhajiitCulture</li>
 		</allowedCultures>
@@ -24,7 +24,7 @@
 		<defName>Theo_KhajiitPlayerFaction_Tribal</defName>
 		<label>New Khajiit Tribe</label>
 		<basicMemberKind>Theo_KhajiitPlayerPawnKind_Tribal</basicMemberKind>
-		<factionIconPath>World/WorldObjects/Theo_KhajiitTribe</factionIconPath>
+		<factionIconPath>World/WorldObjects/Theo_Khajiit_Tribe</factionIconPath>
 		<allowedCultures>
 			<li>Theo_KhajiitCulture</li>
 		</allowedCultures>
