@@ -40,7 +40,7 @@
 				<raceGenes MayRequire="ludeon.rimworld.biotech,sirmashedpotato.morrowrim.moonsugarandskooma">
  				 <li>
     				<li>AddictionResistant_MorrowRim_MoonSugar</li>
-					<li>AddictionResistant_MorrowRim_Skooma</li>
+					<!--<li>AddictionResistant_MorrowRim_Skooma</li>-->
   				</li>
 				</raceGenes>
 

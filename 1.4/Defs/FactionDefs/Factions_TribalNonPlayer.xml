@@ -26,9 +26,6 @@
 				</factionTags>
 			</li>
         </modExtensions>
-
-		<leaderTitle>Mane</leaderTitle>
-		<factionIconPath>World/WorldObjects/Theo_KhajiitSettlement</factionIconPath>
 		<factionNameMaker>Theo_Khajiit_NamerFaction</factionNameMaker>
 		<settlementNameMaker>Theo_Khajiit_NamerSettlement</settlementNameMaker>
 		<allowedCultures>
@@ -58,7 +55,9 @@
 	<FactionDef ParentName="Theo_KhajiitNonPlayerFaction_Base">
 		<defName>Theo_KhajiitNonPlayerFaction_Kingdom</defName>
 		<label>Khajiit kingdom</label>
-		<description></description> <!--fill-->
+		<leaderTitle>Mane</leaderTitle>
+		<factionIconPath>World/WorldObjects/Theo_KhajiitKingdom</factionIconPath>
+		<description>The Khajiit kingdom is based on the cooperation of 16 tribes who banded together to survive the tides of time. Their settlements can be found anywhere from scorching deserts to lush rainforests. Venerating the moons, their shape is dependent on the phase, but some forms rarely leave the borders of their land. Often enslaved by the dunmer, Khajiit are often seen as lesser than the other races, taking insult when they are compared to the common cat. Contrary to their shared background, they dislike argonians.</description>
 		<colorSpectrum>
 			<li>(0.45, 0.75, 0.67)</li> <!--fill-->
 			<li>(0.55, 0.95, 0.67)</li> <!--fill-->
@@ -220,7 +219,11 @@
 	<FactionDef ParentName="Theo_KhajiitNonPlayerFaction_Base">
 		<defName>Theo_KhajiitNonPlayerFaction_Bandaari</defName>
 		<label>Bandaari Pedlars</label>
-		<description></description> <!--fill-->
+		<leaderTitle>Grand Trader</leaderTitle>
+		<factionIconPath>World/WorldObjects/Theo_KhajiitBandaari</factionIconPath>
+		<canSiege>false</canSiege>
+        <canStageAttacks>false</canStageAttacks>
+		<description>The Bandaari Pedlars are a clan of nomads travelling the world. Believing everything is worth something, they frequently gather what other factions discard to sell at their next destination. Likewise, they believe that anything left behind for any reason is now rightfully theirs, leading to their reputation as thieves. When trading, they are known to do anything they can to sweeten the deal, for themselves that is. </description>
 		<modExtensions>
 			<li Class="VFECore.FactionDefExtension">
 				<shouldHaveLeader>false</shouldHaveLeader>
@@ -276,6 +279,8 @@
 	<FactionDef ParentName="Theo_KhajiitNonPlayerFaction_Base">
 		<defName>Theo_KhajiitNonPlayerFaction_Tribal</defName>
 		<label>Rough Khajiit Tribe</label>
+		<leaderTitle>Mane</leaderTitle>
+		<factionIconPath>World/WorldObjects/Theo_KhajiitTribe</factionIconPath>
 		<description></description> <!--fill-->
 		<colorSpectrum>
 			<li>(0.45, 0.75, 0.67)</li> <!--fill-->
@@ -292,7 +297,7 @@
 		</requiredMemes>
 		<configurationListOrderPriority>30</configurationListOrderPriority>
 
-		<pawnGroupMakers> <!--add monks, rebalance chances-->
+		<pawnGroupMakers>
 			<li>
 				<kindDef>Combat</kindDef>
 				<commonality>100</commonality>
