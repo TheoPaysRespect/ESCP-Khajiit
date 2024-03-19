@@ -35,6 +35,12 @@
 				<value>4</value>
 			</li>
 		</skillGains>
+		<forcedTraitsChance MayRequire="vanillaexpanded.vanillatraitsexpanded">
+			<li>
+				<defName>VTE_AnimalLover</defName>
+				<chance>30</chance>
+			</li>
+		</forcedTraitsChance>
 	</AlienRace.AlienBackstoryDef>
 
 	<AlienRace.AlienBackstoryDef ParentName="Theo_TribeKhajiit_ChildhoodBase">
@@ -72,7 +78,7 @@
 		<defName>Theo_Khajiit_TribeAdult1</defName>
 		<title>Werelion hunter</title>
 		<titleShort>hunter</titleShort>
-		<baseDesc>While the other khajiit feared the werelions, [PAWN_nameDef] took on the challenge. With arrows of silver, they hunted the beasts down.</baseDesc>
+		<baseDesc>While the other khajiit feared the werelions, [PAWN_nameDef] took on the challenge. With arrows of silver, they hunted the beasts down. Unfortunately, one of them was their spouse.</baseDesc>
 		<skillGains>
 			<li>
 				<key>Shooting</key>
@@ -83,6 +89,12 @@
 				<value>2</value>
 			</li>
 		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>Psychopath</defName>
+				<chance>30</chance>
+			</li>
+		</forcedTraitsChance>
 		<requiredWorkTags>Violent</requiredWorkTags>
 	</AlienRace.AlienBackstoryDef>
 

@@ -12,7 +12,6 @@
 		<slot>Adulthood</slot>
 		<spawnCategories>
 			<li>Theo_CityKhajiitBackstory_Adulthood</li>
-			<li>ESCP_KhajiitBackstory_Exclusion</li>
 		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
 
@@ -35,6 +34,14 @@
 				<defName>Transhumanist</defName>
 				<chance>100</chance>
 			</li>
+
+		<forcedTraitsChance>
+			<li MayRequire="vanillaexpanded.vanillatraitsexpanded">
+				<defName>VTE_Wanderlust</defName>
+				<chance>50</chance>
+			</li>
+		</forcedTraitsChance>
+
 	</AlienRace.AlienBackstoryDef>
 
     <AlienRace.AlienBackstoryDef Name="Theo_MonkKhajiit_ChildhoodBase" Abstract="True" >
@@ -64,6 +71,10 @@
 		<forcedTraitsChance>
 			<li>
 				<defName>Brawler</defName>
+				<chance>30</chance>
+			</li>
+			<li MayRequire="vanillaexpanded.vanillatraitsexpanded">
+				<defName>VTE_MartialArtist</defName>
 				<chance>30</chance>
 			</li>
 			<li>
