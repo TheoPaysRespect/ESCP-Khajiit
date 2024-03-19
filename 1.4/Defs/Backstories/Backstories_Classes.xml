@@ -5,6 +5,7 @@
 		<slot>Childhood</slot>
 		<spawnCategories>
 			<li>Theo_CityKhajiitBackstory_Childhood</li>
+			<li>ESCP_KhajiitBackstory_Exclusion</li>
 		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
 
@@ -12,6 +13,7 @@
 		<slot>Adulthood</slot>
 		<spawnCategories>
 			<li>Theo_CityKhajiitBackstory_Adulthood</li>
+			<li>ESCP_KhajiitBackstory_Exclusion</li>
 		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
     </AlienBackstoryDef>
@@ -21,6 +23,7 @@
 		<slot>Childhood</slot>
 		<spawnCategories>
 			<li>Theo_TribeKhajiitBackstory_Childhood</li>
+			<li>ESCP_KhajiitBackstory_Exclusion</li>
 		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
 
@@ -28,6 +31,7 @@
 		<slot>Adulthood</slot>
 		<spawnCategories>
 			<li>Theo_TribeKhajiitBackstory_Adulthood</li>
+			<li>ESCP_KhajiitBackstory_Exclusion</li>
 		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
     </AlienBackstoryDef>
@@ -37,6 +41,7 @@
 		<slot>Childhood</slot>
 		<spawnCategories>
 			<li>Theo_MonkKhajiitBackstory_Childhood</li>
+			<li>ESCP_KhajiitBackstory_Exclusion</li>
 		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
 
@@ -44,6 +49,7 @@
 		<slot>Adulthood</slot>
 		<spawnCategories>
 			<li>Theo_MonkKhajiitBackstory_Adulthood</li>
+			<li>ESCP_KhajiitBackstory_Exclusion</li>
 		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
     </AlienBackstoryDef>

@@ -217,8 +217,8 @@
 		<defName>Theo_Khajiit_Kingdom_Trader</defName>
 		<label>trader</label>
 		<trader>true</trader>
-		<apparelRequired Inherit="False">
-			<li>Apparel_TribalHeaddress</li>
+		<apparelRequired MayRequire="sirmashedpotato.morrowrim.colovianfurhelm" Inherit="False">
+			<li>MorrowRim_ColovianFurHelm</li>
 		</apparelRequired>
 		<initialWillRange>2~4</initialWillRange>
 		<initialResistanceRange>9~15</initialResistanceRange>

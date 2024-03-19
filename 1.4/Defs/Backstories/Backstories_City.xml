@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+
+	<!--Additional parameters: gender commonality, rarity, bodytypeglobal, 
+    forced trait chance, titlefemale, titleshortfemale, workdisables, requiredworktags, 
+    disallowedtraits, possessions, linkedbackstory, forcedhediffs, passions, bioagerange, forceditems-->
+	<!--Escp race tools background based pawn opinions: khajiit vs dres-->
+	
+
     <!--Childhood-->
     <AlienRace.AlienBackstoryDef ParentName="Theo_CityKhajiit_ChildhoodBase">
 		<defName></defName>

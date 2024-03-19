@@ -63,6 +63,11 @@
                 <maxDamageForSocialfight>8</maxDamageForSocialfight>
 
                 <alienPartGenerator>
+					<bodyAddons>
+						<!--tail-->
+
+						<!--ears-->
+        			</bodyAddons>
 					<colorChannels>
 						<li>
 							<name>skin</name> <!--Adjust colors-->
