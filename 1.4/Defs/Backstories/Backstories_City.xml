@@ -159,6 +159,9 @@
 				<defName>VTE_Wanderlust</defName>
 				<chance>100</chance>
 			</li>
+			<spawnCategories>
+			<li>Theo_TraderBackstory</li>
+			</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
 
 	<AlienRace.AlienBackstoryDef ParentName="Theo_CityKhajiit_AdulthoodBase">

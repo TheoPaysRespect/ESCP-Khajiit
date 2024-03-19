@@ -220,6 +220,22 @@
 		<apparelRequired MayRequire="sirmashedpotato.morrowrim.colovianfurhelm" Inherit="False">
 			<li>MorrowRim_ColovianFurHelm</li>
 		</apparelRequired>
+		<backstoryFiltersOverride Inherit="False">
+			<li>
+				<categoriesChildhood>
+					<li>Theo_CityKhajiitBackstory_Childhood</li>
+				</categoriesChildhood>
+				<categoriesAdulthood>
+					<li>Theo_TraderBackstory</li>
+				</categoriesAdulthood>
+				<excludeChildhood>
+					<li>ESCP_KhajiitBackstory_Exclusion</li>
+				</excludeChildhood>
+				<excludeAdulthood>
+					<li>ESCP_KhajiitBackstory_Exclusion</li>
+				</excludeAdulthood>
+			</li>
+		</backstoryFiltersOverride>
 		<initialWillRange>2~4</initialWillRange>
 		<initialResistanceRange>9~15</initialResistanceRange>
 	</PawnKindDef>
