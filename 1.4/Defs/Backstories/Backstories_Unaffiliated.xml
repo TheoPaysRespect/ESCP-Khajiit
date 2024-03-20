@@ -46,10 +46,7 @@
 			</li>
 		</forcedTraitsChance>
 		<passions>
-			<li>
-				<skill>Animals</skill>
-				<xp>1</xp>
-			</li>
+			  <li><skill>Animals</skill><xp>1</xp></li>
 		</passions>
 		<shuffleable>false</shuffleable>
 	</AlienRace.AlienBackstoryDef>
@@ -66,10 +63,7 @@
 			</li>
 		</skillGains>
 		<passions>
-			<li>
-				<skill>Social</skill>
-				<xp>2</xp>
-			</li>
+			  <li><skill>Social</skill><xp>2</xp></li>
 		</passions>
 		<shuffleable>false</shuffleable>
 	</AlienRace.AlienBackstoryDef>
@@ -95,13 +89,10 @@
 			</li>
 		</forcedTraitsChance>
 		<passions>
-			<li>
-				<skill>Artistic</skill>
-				<xp>2</xp>
-			</li>
+			  <li><skill>Artistic</skill><xp>2</xp></li>
 		</passions>
-		<forcedItems MayRequire="dankpyon.medieval.overhaul">
-			<DankPyon_Bone>10</DankPyon_Bone>
+		<forcedItems>
+			<DankPyon_Bone MayRequire="dankpyon.medieval.overhaul">10</DankPyon_Bone>
 		</forcedItems>
 	</AlienRace.AlienBackstoryDef>
 </Defs>
