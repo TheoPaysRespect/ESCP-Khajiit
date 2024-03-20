@@ -3,9 +3,9 @@
 	<ScenarioDef>
 		<defName>Theo_BandaariScenario</defName>
 		<label>Bandaari Pedlars</label>
-		<description></description>
+		<description>test</description>
 		<scenario>
-			<summary></summary>
+			<summary>test</summary>
 			<!--description-->
 			<playerFaction>
 				<def>PlayerFaction</def>
