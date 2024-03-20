@@ -9,7 +9,7 @@
 			<!--description-->
 			<playerFaction>
 				<def>PlayerFaction</def>
-				<factionDef>Theo_KhajiitPlayerFaction_Medieval</factionDef>
+				<factionDef>Theo_KhajiitPlayerFaction_Bandaari</factionDef>
 			</playerFaction>
 			<parts>
 				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
