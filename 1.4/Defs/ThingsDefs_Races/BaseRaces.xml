@@ -62,15 +62,12 @@
                     </li>
                 </disallowedTraits>
                 <alienPartGenerator>
-                    <headTypes Inherit="False"/>
-                    <headTypes>
+                    <headTypes Inherit="False">
                         <li>Male_AverageNormal</li>
                         <li>Female_AverageNormal</li>
                     </headTypes>
-                    <bodyTypes>
+                    <bodyTypes Inherit="False">
                         <li>Thin</li>
-                        <li MayRequire="Ludeon.RimWorld.Biotech">Baby</li>
-                        <li MayRequire="Ludeon.RimWorld.Biotech">Child</li>
                     </bodyTypes>
                     <bodyAddons>
                         <li>

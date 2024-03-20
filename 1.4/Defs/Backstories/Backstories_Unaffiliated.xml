@@ -17,7 +17,7 @@
 	<!--Childhood-->
 	<AlienRace.AlienBackstoryDef ParentName="Theo_Khajiit_ChildhoodBase">
 		<defName>Theo_Maiq_Childhood</defName>
-		<title>child of liar</title>
+		<title>child of M'aiq</title>
 		<titleShort>liar</titleShort>
 		<baseDesc>[PAWN_nameDef] father was also called [PAWN_nameDef]. As was [PAWN_nameDef] father's father. At least, that's what their father said.</baseDesc>
 		<skillGains>

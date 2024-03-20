@@ -110,7 +110,7 @@
     <AlienRace.PawnBioDef ParentName="Theo_KhajiitPawnBioBase">
         <!--Jzargo-->
         <defName>Theo_KhajiitPawnBioBase_Jzargo</defName>
-        <childhood>Theo_Khajiit_CityChild4</childhood>
+        <childhood>Theo_Khajiit_CityChild5</childhood>
         <adulthood>ESCP_GenericBackstory_Adulthood_MagesGuildEnchanter</adulthood>
         <gender>Male</gender>
         <name>
