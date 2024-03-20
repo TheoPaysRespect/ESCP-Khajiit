@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<PawnKindDef Name="Theo_Khajiit_TribalBase" Abstract="True">
+	<PawnKindDef Name="Theo_Khajiit_KingdomBase" Abstract="True">
 		<race>Theo_KhajiitRace</race>
 		<defaultFactionType>Theo_KhajiitNonPlayerFaction_Kingdom</defaultFactionType>
 		<maxGenerationAge>60</maxGenerationAge>
@@ -44,7 +44,7 @@
 		</backstoryFiltersOverride>
 	</PawnKindDef>
 	<!--raid bs-->
-	<PawnKindDef ParentName="Theo_Khajiit_TribalBase">
+	<PawnKindDef ParentName="Theo_Khajiit_KingdomBase">
 		<defName>Theo_Khajiit_Kingdom_Penitent</defName>
 		<label>penitent</label>
 		<combatPower>40</combatPower>
@@ -65,7 +65,7 @@
 		<initialWillRange>0~1</initialWillRange>
 		<initialResistanceRange>10~17</initialResistanceRange>
 	</PawnKindDef>
-	<PawnKindDef ParentName="Theo_Khajiit_TribalBase">
+	<PawnKindDef ParentName="Theo_Khajiit_KingdomBase">
 		<defName>Theo_Khajiit_Kingdom_Archer</defName>
 		<label>archer</label>
 		<combatPower>45</combatPower>
@@ -90,7 +90,7 @@
 		<initialWillRange>1~3</initialWillRange>
 		<initialResistanceRange>17~27</initialResistanceRange>
 	</PawnKindDef>
-	<PawnKindDef ParentName="Theo_Khajiit_TribalBase" Name="Theo_Khajiit_TribalWarriorBase">
+	<PawnKindDef ParentName="Theo_Khajiit_KingdomBase" Name="Theo_Khajiit_TribalWarriorBase">
 		<defName>Theo_Khajiit_Kingdom_Warrior</defName>
 		<label>warrior</label>
 		<combatPower>50</combatPower>
@@ -146,7 +146,7 @@
 			</li>
 		</backstoryFiltersOverride>
 	</PawnKindDef>
-	<PawnKindDef ParentName="Theo_Khajiit_TribalBase">
+	<PawnKindDef ParentName="Theo_Khajiit_KingdomBase">
 		<defName>Theo_Khajiit_Kingdom_Breacher</defName>
 		<label>breacher</label>
 		<combatPower>55</combatPower>
@@ -165,7 +165,7 @@
 		<initialWillRange>1~3</initialWillRange>
 		<initialResistanceRange>12~19</initialResistanceRange>
 	</PawnKindDef>
-	<PawnKindDef ParentName="Theo_Khajiit_TribalBase" Name="Theo_Khajiit_TribalHunterBase">
+	<PawnKindDef ParentName="Theo_Khajiit_KingdomBase" Name="Theo_Khajiit_TribalHunterBase">
 		<defName>Theo_Khajiit_Kingdom_Hunter</defName>
 		<label>hunter</label>
 		<combatPower>60</combatPower>
@@ -232,7 +232,7 @@
 		<initialWillRange>2~4</initialWillRange>
 		<initialResistanceRange>9~15</initialResistanceRange>
 	</PawnKindDef>
-	<PawnKindDef ParentName="Theo_Khajiit_TribalBase">
+	<PawnKindDef ParentName="Theo_Khajiit_KingdomBase">
 		<defName>Theo_Khajiit_Kingdom_Berserker</defName>
 		<label>Do-radhin</label>
 		<combatPower>65</combatPower>
@@ -251,7 +251,7 @@
 		<initialWillRange>2~4</initialWillRange>
 		<initialResistanceRange>13~20</initialResistanceRange>
 	</PawnKindDef>
-	<PawnKindDef ParentName="Theo_Khajiit_TribalBase">
+	<PawnKindDef ParentName="Theo_Khajiit_KingdomBase">
 		<defName>Theo_Khajiit_Kingdom_HeavyArcher</defName>
 		<label>Heavy Archer</label>
 		<combatPower>75</combatPower>
@@ -272,7 +272,7 @@
 		<initialWillRange>2~4</initialWillRange>
 		<initialResistanceRange>14~22</initialResistanceRange>
 	</PawnKindDef>
-	<PawnKindDef ParentName="Theo_Khajiit_TribalBase" Name="Theo_Khajiit_TribalChiefBase" Abstract="True">
+	<PawnKindDef ParentName="Theo_Khajiit_KingdomBase" Name="Theo_Khajiit_KingdomChiefBase" Abstract="True">
 		<combatPower>85</combatPower>
 		<minGenerationAge>30</minGenerationAge>
 		<maxGenerationAge>999</maxGenerationAge>
@@ -291,7 +291,7 @@
 		<initialWillRange>3~5</initialWillRange>
 		<initialResistanceRange>19~30</initialResistanceRange>
 	</PawnKindDef>
-	<PawnKindDef ParentName="Theo_Khajiit_TribalChiefBase">
+	<PawnKindDef ParentName="Theo_Khajiit_KingdomChiefBase">
 		<defName>Theo_Khajiit_Kingdom_ChiefMelee</defName>
 		<label>Berserker K'har</label>
 		<weaponTags>
@@ -300,7 +300,7 @@
 		</weaponTags>
 		<initialResistanceRange>38~58</initialResistanceRange>
 	</PawnKindDef>
-	<PawnKindDef ParentName="Theo_Khajiit_TribalChiefBase" Name="Theo_Khajiit_TribalChiefRangedBase">
+	<PawnKindDef ParentName="Theo_Khajiit_KingdomChiefBase" Name="Theo_Khajiit_KingdomChiefRangedBase">
 		<defName>Theo_Khajiit_Kingdom_ChiefRanged</defName>
 		<label>Archer K'har</label>
 		<weaponTags>
@@ -311,7 +311,7 @@
 		</disallowedTraits>
 		<initialResistanceRange>16~26</initialResistanceRange>
 	</PawnKindDef>
-	<PawnKindDef ParentName="Theo_Khajiit_TribalChiefRangedBase">
+	<PawnKindDef ParentName="Theo_Khajiit_KingdomChiefRangedBase">
 		<defName>Theo_Khajiit_Kingdom_ChiefBeastMaster</defName>
 		<label>Cat Master K'har</label>
 		<modExtensions>

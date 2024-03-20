@@ -1,41 +1,43 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<FactionDef ParentName="ESCP_PlayerFactionBase_Medieval">
-	<defName>Theo_KhajiitPlayerFaction_Medieval</defName>
-	<label>New Khajiit Kingdom</label>
-	<basicMemberKind>Theo_KhajiitPlayerPawnKind_Medieval</basicMemberKind>
-	<factionIconPath>World/WorldObjects/Theo_Khajiit_Kingdom</factionIconPath>
-	<allowedCultures>
-		<li>Theo_KhajiitCulture</li>
-	</allowedCultures>
-	<startingResearchTags>
-		<li>Theo_KhajiitStart_Medieval</li>
-	</startingResearchTags>
-	<modExtensions>
-		<li Class="ESCP_RaceTools.FactionProperties">
-			<factionTags>
-				<li>Theo_KhajiitFaction</li>
-				<li>Theo_KhajiitFactionPlayer</li>
-			</factionTags>
-		</li>
-	</modExtensions>
-	<FactionDef ParentName="ESCP_PlayerFactionBase_Tribal">
-		<defName>Theo_KhajiitPlayerFaction_Tribal</defName>
-		<label>New Khajiit Tribe</label>
-		<basicMemberKind>Theo_KhajiitPlayerPawnKind_Tribal</basicMemberKind>
-		<factionIconPath>World/WorldObjects/Theo_Khajiit_Tribe</factionIconPath>
+<Defs>
+	<FactionDef ParentName="ESCP_PlayerFactionBase_Medieval">
+		<defName>Theo_KhajiitPlayerFaction_Medieval</defName>
+		<label>New Khajiit Kingdom</label>
+		<basicMemberKind>Theo_KhajiitPlayerPawnKind_Medieval</basicMemberKind>
+		<factionIconPath>World/WorldObjects/Theo_Khajiit_Kingdom</factionIconPath>
 		<allowedCultures>
 			<li>Theo_KhajiitCulture</li>
 		</allowedCultures>
 		<startingResearchTags>
-			<li>Theo_KhajiitStart_Tribal</li>
+			<li>Theo_KhajiitStart_Medieval</li>
 		</startingResearchTags>
 		<modExtensions>
 			<li Class="ESCP_RaceTools.FactionProperties">
 				<factionTags>
-					<li>ESCP_KhajiitFaction</li>
-					<li>ESCP_KhajiitFactionPlayer</li>
+					<li>Theo_KhajiitFaction</li>
+					<li>Theo_KhajiitFactionPlayer</li>
 				</factionTags>
 			</li>
 		</modExtensions>
+		<FactionDef ParentName="ESCP_PlayerFactionBase_Tribal">
+			<defName>Theo_KhajiitPlayerFaction_Tribal</defName>
+			<label>New Khajiit Tribe</label>
+			<basicMemberKind>Theo_KhajiitPlayerPawnKind_Tribal</basicMemberKind>
+			<factionIconPath>World/WorldObjects/Theo_Khajiit_Tribe</factionIconPath>
+			<allowedCultures>
+				<li>Theo_KhajiitCulture</li>
+			</allowedCultures>
+			<startingResearchTags>
+				<li>Theo_KhajiitStart_Tribal</li>
+			</startingResearchTags>
+			<modExtensions>
+				<li Class="ESCP_RaceTools.FactionProperties">
+					<factionTags>
+						<li>ESCP_KhajiitFaction</li>
+						<li>ESCP_KhajiitFactionPlayer</li>
+					</factionTags>
+				</li>
+			</modExtensions>
+		</FactionDef>
 	</FactionDef>
-</FactionDef>
+</Defs>
