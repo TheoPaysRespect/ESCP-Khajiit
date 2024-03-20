@@ -7,8 +7,6 @@
 		<li IfModActive="Ludeon.RimWorld.Ideology">1.4/Mods/Ideology</li>	
 		<li IfModActive="Ludeon.RimWorld.Biotech">1.4/Mods/Biotech</li>	
 		<li IfModActive="vanillaexpanded.achievements">1.4/Mods/VE_Achievements</li>	
-		<li IfModActive="erdelf.HumanoidAlienRaces">1.4/Mods/AlienRaces</li>	
-		<li IfModActive="erdelf.HumanoidAlienRaces.dev">1.4/Mods/AlienRaces</li>
 		<li IfModActive="mlie.argoniansofblackmarsh">1.4/Mods/Argonians</li>		
 	</v1.4>
 </loadFolders>
