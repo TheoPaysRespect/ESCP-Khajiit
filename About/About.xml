@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-    <name>Theo's Khajiit</nam>
+    <name>Theo's Khajiit</name>
     <packageId>Theo.Khajiit</packageId>
     <author>Theo</author>
-    <modVersion>0.1<modVersion>
+    <modVersion>1.0</modVersion>
     <supportedVersions>
         <li>1.4</li>
         <!--<li>1.5</li>-->
@@ -39,5 +39,4 @@
 		<li>sirmashedpotato.morrowrim.moonsugarandskooma</li>
 		<li>mlie.argoniansofblackmarsh</li>
 	</loadAfter>
-
 </ModMetaData>
