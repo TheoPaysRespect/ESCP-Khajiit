@@ -28,7 +28,7 @@
 			<li>Social</li>
 		</workDisables>
 		<forcedHediffs>
-			<li>MorrowRim_SkoomaAddiction</li>
+			<li MayRequire="sirmashedpotato.morrowrim.moonsugarandskooma">MorrowRim_SkoomaAddiction</li>
 		</forcedHediffs>
 		<linkedBackstory>Theo_Khajiit_CityAdult3</linkedBackstory>
 	</AlienRace.AlienBackstoryDef>
@@ -99,7 +99,7 @@
 	</AlienRace.AlienBackstoryDef>
 	<AlienRace.AlienBackstoryDef ParentName="Theo_CityKhajiit_ChildhoodBase">
 		<!--Dani-->
-		<defName>Theo_Khajiit_CityChild4</defName>
+		<defName>Theo_Khajiit_CityChild5</defName>
 		<title>exchange student</title>
 		<titleShort>student</titleShort>
 		<baseDesc>[PAWN_nameDef] was the child of aspirational parents, sending them off to a far away place for teaching at a young age.</baseDesc>
@@ -122,7 +122,7 @@
 		<baseDesc>They say few have as bad luck as [PAWN_nameDef], losing their first caravan to a bet, and their second to robbers. They were going to get a third but their rival was faster.</baseDesc>
 		<skillGains>
 			<li>
-				<key>social</key>
+				<key>Social</key>
 				<value>2</value>
 			</li>
 			<forcedTraitsChance>
@@ -173,7 +173,7 @@
 			<li>ManualSkilled</li>
 		</workDisables>
 		<forcedHediffs>
-			<li>MorrowRim_SkoomaAddiction</li>
+			<li MayRequire="sirmashedpotato.morrowrim.moonsugarandskooma">MorrowRim_SkoomaAddiction</li>
 		</forcedHediffs>
 	</AlienRace.AlienBackstoryDef>
 	<AlienRace.AlienBackstoryDef ParentName="Theo_CityKhajiit_AdulthoodBase">

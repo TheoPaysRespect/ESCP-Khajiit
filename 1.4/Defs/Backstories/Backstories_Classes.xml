@@ -13,14 +13,14 @@
 			<li>Theo_CityKhajiitBackstory_Adulthood</li>
 		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
-	<AlienRace.AlienBackstoryDef Name="Theo_TribalKhajiit_ChildhoodBase" Abstract="True" >
+	<AlienRace.AlienBackstoryDef Name="Theo_TribeKhajiit_ChildhoodBase" Abstract="True" >
 		<slot>Childhood</slot>
 		<spawnCategories>
 			<li>Theo_TribeKhajiitBackstory_Childhood</li>
 			<li>ESCP_KhajiitBackstory_Exclusion</li>
 		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
-	<AlienRace.AlienBackstoryDef Name="Theo_TribalKhajiit_AdulthoodBase" Abstract="True" >
+	<AlienRace.AlienBackstoryDef Name="Theo_TribeKhajiit_AdulthoodBase" Abstract="True" >
 		<slot>Adulthood</slot>
 		<spawnCategories>
 			<li>Theo_TribeKhajiitBackstory_Adulthood</li>

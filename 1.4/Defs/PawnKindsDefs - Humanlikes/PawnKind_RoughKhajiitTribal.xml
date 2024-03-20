@@ -195,47 +195,6 @@
 		<initialWillRange>2~4</initialWillRange>
 		<initialResistanceRange>10~16</initialResistanceRange>
 	</PawnKindDef>
-	<PawnKindDef ParentName="Theo_Khajiit_TribalBase" Name="Theo_Khajiit_TribalHunterBase">
-		<defName>Theo_Khajiit_Tribal_Hunter</defName>
-		<label>hunter</label>
-		<combatPower>60</combatPower>
-		<backstoryFiltersOverride Inherit="False">
-			<li>
-				<categoriesChildhood>
-					<li>Tribal</li>
-					<li>Theo_TribeKhajiitBackstory_Childhood</li>
-					<li>ESCP_GenericBackstory_ChildhoodTribal</li>
-				</categoriesChildhood>
-				<categoriesAdulthood>
-					<li>TribalHunter</li>
-					<li>ESCP_GenericBackstory_AdulthoodMedievalHunter</li>
-				</categoriesAdulthood>
-				<excludeChildhood>
-					<li>ESCP_KhajiitBackstory_Exclusion</li>
-				</excludeChildhood>
-				<excludeAdulthood>
-					<li>ESCP_KhajiitBackstory_Exclusion</li>
-				</excludeAdulthood>
-			</li>
-		</backstoryFiltersOverride>
-		<gearHealthRange>0.5~1.8</gearHealthRange>
-		<apparelMoney>200~300</apparelMoney>
-		<apparelRequired>
-			<li>Apparel_WarVeil</li>
-		</apparelRequired>
-		<weaponMoney>100~100</weaponMoney>
-		<weaponTags>
-			<li>NeolithicRangedDecent</li>
-		</weaponTags>
-		<disallowedTraits>
-			<li>Brawler</li>
-		</disallowedTraits>
-		<requiredWorkTags>
-			<li>Violent</li>
-		</requiredWorkTags>
-		<initialWillRange>2~4</initialWillRange>
-		<initialResistanceRange>10~16</initialResistanceRange>
-	</PawnKindDef>
 	<PawnKindDef ParentName="Theo_Khajiit_TribalHunterBase">
 		<defName>Theo_Khajiit_Tribal_Trader</defName>
 		<label>trader</label>

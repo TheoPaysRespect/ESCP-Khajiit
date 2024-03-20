@@ -210,8 +210,8 @@
 		<defName>Theo_Khajiit_Kingdom_Trader</defName>
 		<label>trader</label>
 		<trader>true</trader>
-		<apparelRequired MayRequire="sirmashedpotato.morrowrim.colovianfurhelm" Inherit="False">
-			<li>MorrowRim_ColovianFurHelm</li>
+		<apparelRequired Inherit="False">
+			<li MayRequire="sirmashedpotato.morrowrim.colovianfurhelm">MorrowRim_ColovianFurHelm</li>
 		</apparelRequired>
 		<backstoryFiltersOverride Inherit="False">
 			<li>

@@ -10,7 +10,7 @@
     <AlienRace.PawnBioDef ParentName="Theo_KhajiitPawnBioBase">
         <!--Dani-->
         <defName>Theo_KhajiitPawnBioBase_Dani</defName>
-        <childhood>Theo_Khajiit_CityChild4</childhood>
+        <childhood>Theo_Khajiit_CityChild5</childhood>
         <adulthood>Theo_Khajiit_CityAdult7</adulthood>
         <gender>Female</gender>
         <name>

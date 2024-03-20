@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<PawnKindDef ParentName="theo_khajiit_TribalBase">
-		<defName>theo_khajiit_Tribal_Farmer</defName>
+		<defName>Theo_Khajiit_Tribal_Farmer</defName>
 		<label>farmer</label>
 		<combatPower>35</combatPower>
 		<backstoryFiltersOverride Inherit="False">
