@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<ThingSetMakerDef ParentName="ESCP_RaidLootMaker_Base">
-		<defName>Theo_Khajiit_LootBase</defName>
+		<defName>Theo_Khajiit_LootMaker</defName>
 		<root Class="ThingSetMaker_MarketValue">
 			<fixedParams>
 				<filter>

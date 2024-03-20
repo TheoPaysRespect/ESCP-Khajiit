@@ -38,7 +38,7 @@
 			<!--<Theo_Structure_Dark_Spirits MayRequire="Ludeon.RimWorld.Ideology">1</Theo_Structure_Dark_Spirits>-->
 			<Theo_Structure_Adverserial_Spirits MayRequire="Ludeon.RimWorld.Ideology">4</Theo_Structure_Adverserial_Spirits>
 		</structureMemeWeights>
-		<raidLootMaker>Theo_Khajiit_LootBase</raidLootMaker>
+		<raidLootMaker>Theo_Khajiit_LootMaker</raidLootMaker>
 		<disallowedPrecepts>
 			<li MayRequire="vanillaexpanded.vmemese">VME_MeatEating_Abhorrent_Strict</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">MeatEating_Abhorrent</li>
