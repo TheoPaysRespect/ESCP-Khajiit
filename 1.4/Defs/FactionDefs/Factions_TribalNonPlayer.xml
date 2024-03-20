@@ -297,73 +297,73 @@
 				<kindDef>Combat</kindDef>
 				<commonality>100</commonality>
 				<options>
-					<Theo_Khajiit_Tribal_Penitent>5</Theo_Khajiit_Tribal_Penitent>
-					<Theo_Khajiit_Tribal_Warrior>5</Theo_Khajiit_Tribal_Warrior>
-					<Theo_Khajiit_Tribal_Archer>10</Theo_Khajiit_Tribal_Archer>
-					<Theo_Khajiit_Tribal_Hunter>10</Theo_Khajiit_Tribal_Hunter>
-					<Theo_Khajiit_Tribal_CatMaster>5</Theo_Khajiit_Tribal_CatMaster>
-					<Theo_Khajiit_Tribal_HeavyArcher>10</Theo_Khajiit_Tribal_HeavyArcher>
-					<Theo_Khajiit_Tribal_Berserker>5</Theo_Khajiit_Tribal_Berserker>
-					<Theo_Khajiit_Tribal_ChiefRanged>3</Theo_Khajiit_Tribal_ChiefRanged>
-					<Theo_Khajiit_Tribal_ChiefMelee>1.5</Theo_Khajiit_Tribal_ChiefMelee>
-					<Theo_Khajiit_Tribal_ChiefBeastMaster>1.5</Theo_Khajiit_Tribal_ChiefBeastMaster>
+					<Theo_Khajiit_Kingdom_Penitent>5</Theo_Khajiit_Kingdom_Penitent>
+					<Theo_Khajiit_Kingdom_Warrior>5</Theo_Khajiit_Kingdom_Warrior>
+					<Theo_Khajiit_Kingdom_Archer>10</Theo_Khajiit_Kingdom_Archer>
+					<Theo_Khajiit_Kingdom_Hunter>10</Theo_Khajiit_Kingdom_Hunter>
+					<Theo_Khajiit_Kingdom_CatMaster>5</Theo_Khajiit_Kingdom_CatMaster>
+					<Theo_Khajiit_Kingdom_HeavyArcher>10</Theo_Khajiit_Kingdom_HeavyArcher>
+					<Theo_Khajiit_Kingdom_Berserker>5</Theo_Khajiit_Kingdom_Berserker>
+					<Theo_Khajiit_Kingdom_ChiefRanged>3</Theo_Khajiit_Kingdom_ChiefRanged>
+					<Theo_Khajiit_Kingdom_ChiefMelee>1.5</Theo_Khajiit_Kingdom_ChiefMelee>
+					<Theo_Khajiit_Kingdom_ChiefBeastMaster>1.5</Theo_Khajiit_Kingdom_ChiefBeastMaster>
 				</options>
 			</li>
 			<li>
 				<kindDef>Combat</kindDef>
 				<commonality>30</commonality>
 				<options>
-					<Theo_Khajiit_Tribal_Penitent>10</Theo_Khajiit_Tribal_Penitent>
-					<Theo_Khajiit_Tribal_Warrior>10</Theo_Khajiit_Tribal_Warrior>
-					<Theo_Khajiit_Tribal_Berserker>10</Theo_Khajiit_Tribal_Berserker>
-					<Theo_Khajiit_Tribal_ChiefMelee>5</Theo_Khajiit_Tribal_ChiefMelee>
+					<Theo_Khajiit_Kingdom_Penitent>10</Theo_Khajiit_Kingdom_Penitent>
+					<Theo_Khajiit_Kingdom_Warrior>10</Theo_Khajiit_Kingdom_Warrior>
+					<Theo_Khajiit_Kingdom_Berserker>10</Theo_Khajiit_Kingdom_Berserker>
+					<Theo_Khajiit_Kingdom_ChiefMelee>5</Theo_Khajiit_Kingdom_ChiefMelee>
 				</options>
 			</li>
 			<li>
 				<kindDef>Combat</kindDef>
 				<commonality>5</commonality>
 				<options>
-					<Theo_Khajiit_Tribal_Breacher>5</Theo_Khajiit_Tribal_Breacher>
-					<Theo_Khajiit_Tribal_Penitent>5</Theo_Khajiit_Tribal_Penitent>
-					<Theo_Khajiit_Tribal_Warrior>5</Theo_Khajiit_Tribal_Warrior>
-					<Theo_Khajiit_Tribal_Archer>10</Theo_Khajiit_Tribal_Archer>
-					<Theo_Khajiit_Tribal_Hunter>10</Theo_Khajiit_Tribal_Hunter>
-					<Theo_Khajiit_Tribal_CatMaster>5</Theo_Khajiit_Tribal_CatMaster>
-					<Theo_Khajiit_Tribal_HeavyArcher>10</Theo_Khajiit_Tribal_HeavyArcher>
-					<Theo_Khajiit_Tribal_Berserker>5</Theo_Khajiit_Tribal_Berserker>
-					<Theo_Khajiit_Tribal_ChiefRanged>3</Theo_Khajiit_Tribal_ChiefRanged>
-					<Theo_Khajiit_Tribal_ChiefMelee>1.5</Theo_Khajiit_Tribal_ChiefMelee>
-					<Theo_Khajiit_Tribal_ChiefBeastMaster>1.5</Theo_Khajiit_Tribal_ChiefBeastMaster>
+					<Theo_Khajiit_Kingdom_Breacher>5</Theo_Khajiit_Kingdom_Breacher>
+					<Theo_Khajiit_Kingdom_Penitent>5</Theo_Khajiit_Kingdom_Penitent>
+					<Theo_Khajiit_Kingdom_Warrior>5</Theo_Khajiit_Kingdom_Warrior>
+					<Theo_Khajiit_Kingdom_Archer>10</Theo_Khajiit_Kingdom_Archer>
+					<Theo_Khajiit_Kingdom_Hunter>10</Theo_Khajiit_Kingdom_Hunter>
+					<Theo_Khajiit_Kingdom_CatMaster>5</Theo_Khajiit_Kingdom_CatMaster>
+					<Theo_Khajiit_Kingdom_HeavyArcher>10</Theo_Khajiit_Kingdom_HeavyArcher>
+					<Theo_Khajiit_Kingdom_Berserker>5</Theo_Khajiit_Kingdom_Berserker>
+					<Theo_Khajiit_Kingdom_ChiefRanged>3</Theo_Khajiit_Kingdom_ChiefRanged>
+					<Theo_Khajiit_Kingdom_ChiefMelee>1.5</Theo_Khajiit_Kingdom_ChiefMelee>
+					<Theo_Khajiit_Kingdom_ChiefBeastMaster>1.5</Theo_Khajiit_Kingdom_ChiefBeastMaster>
 				</options>
 			</li>
 			<li>
 				<kindDef>Combat</kindDef>
 				<commonality>30</commonality>
 				<options>
-					<Theo_Khajiit_Tribal_Archer>10</Theo_Khajiit_Tribal_Archer>
-					<Theo_Khajiit_Tribal_Hunter>10</Theo_Khajiit_Tribal_Hunter>
-					<Theo_Khajiit_Tribal_CatMaster>5</Theo_Khajiit_Tribal_CatMaster>
-					<Theo_Khajiit_Tribal_HeavyArcher>10</Theo_Khajiit_Tribal_HeavyArcher>
-					<Theo_Khajiit_Tribal_ChiefRanged>5</Theo_Khajiit_Tribal_ChiefRanged>
-					<Theo_Khajiit_Tribal_ChiefBeastMaster>1.5</Theo_Khajiit_Tribal_ChiefBeastMaster>
+					<Theo_Khajiit_Kingdom_Archer>10</Theo_Khajiit_Kingdom_Archer>
+					<Theo_Khajiit_Kingdom_Hunter>10</Theo_Khajiit_Kingdom_Hunter>
+					<Theo_Khajiit_Kingdom_CatMaster>5</Theo_Khajiit_Kingdom_CatMaster>
+					<Theo_Khajiit_Kingdom_HeavyArcher>10</Theo_Khajiit_Kingdom_HeavyArcher>
+					<Theo_Khajiit_Kingdom_ChiefRanged>5</Theo_Khajiit_Kingdom_ChiefRanged>
+					<Theo_Khajiit_Kingdom_ChiefBeastMaster>1.5</Theo_Khajiit_Kingdom_ChiefBeastMaster>
 				</options>
 			</li>
 			<li>
 				<kindDef>Peaceful</kindDef>
 				<options>
-					<Theo_Khajiit_Tribal_Warrior>20</Theo_Khajiit_Tribal_Warrior>
-					<Theo_Khajiit_Tribal_Archer>10</Theo_Khajiit_Tribal_Archer>
-					<Theo_Khajiit_Tribal_Hunter>10</Theo_Khajiit_Tribal_Hunter>
-					<Theo_Khajiit_Tribal_HeavyArcher>10</Theo_Khajiit_Tribal_HeavyArcher>
-					<Theo_Khajiit_Tribal_Berserker>5</Theo_Khajiit_Tribal_Berserker>
-					<Theo_Khajiit_Tribal_ChiefRanged>3</Theo_Khajiit_Tribal_ChiefRanged>
-					<Theo_Khajiit_Tribal_ChiefMelee>1.5</Theo_Khajiit_Tribal_ChiefMelee>
+					<Theo_Khajiit_Kingdom_Warrior>20</Theo_Khajiit_Kingdom_Warrior>
+					<Theo_Khajiit_Kingdom_Archer>10</Theo_Khajiit_Kingdom_Archer>
+					<Theo_Khajiit_Kingdom_Hunter>10</Theo_Khajiit_Kingdom_Hunter>
+					<Theo_Khajiit_Kingdom_HeavyArcher>10</Theo_Khajiit_Kingdom_HeavyArcher>
+					<Theo_Khajiit_Kingdom_Berserker>5</Theo_Khajiit_Kingdom_Berserker>
+					<Theo_Khajiit_Kingdom_ChiefRanged>3</Theo_Khajiit_Kingdom_ChiefRanged>
+					<Theo_Khajiit_Kingdom_ChiefMelee>1.5</Theo_Khajiit_Kingdom_ChiefMelee>
 				</options>
 			</li>
 			<li>
 				<kindDef>Trader</kindDef>
 				<traders>
-					<Theo_Khajiit_Tribal_Trader>1</Theo_Khajiit_Tribal_Trader>
+					<Theo_Khajiit_Kingdom_Trader>1</Theo_Khajiit_Kingdom_Trader>
 				</traders>
 				<carriers>
 					<!--edit with more unique carriers-->
@@ -373,33 +373,33 @@
 					<Elephant>2</Elephant>
 				</carriers>
 				<guards>
-					<Theo_Khajiit_Tribal_Warrior>7</Theo_Khajiit_Tribal_Warrior>
-					<Theo_Khajiit_Tribal_Archer>10</Theo_Khajiit_Tribal_Archer>
-					<Theo_Khajiit_Tribal_Hunter>10</Theo_Khajiit_Tribal_Hunter>
-					<Theo_Khajiit_Tribal_HeavyArcher>10</Theo_Khajiit_Tribal_HeavyArcher>
-					<Theo_Khajiit_Tribal_Berserker>7</Theo_Khajiit_Tribal_Berserker>
+					<Theo_Khajiit_Kingdom_Warrior>7</Theo_Khajiit_Kingdom_Warrior>
+					<Theo_Khajiit_Kingdom_Archer>10</Theo_Khajiit_Kingdom_Archer>
+					<Theo_Khajiit_Kingdom_Hunter>10</Theo_Khajiit_Kingdom_Hunter>
+					<Theo_Khajiit_Kingdom_HeavyArcher>10</Theo_Khajiit_Kingdom_HeavyArcher>
+					<Theo_Khajiit_Kingdom_Berserker>7</Theo_Khajiit_Kingdom_Berserker>
 				</guards>
 			</li>
 			<li>
 				<kindDef>Settlement</kindDef>
 				<options>
-					<Theo_Khajiit_Tribal_Warrior>7</Theo_Khajiit_Tribal_Warrior>
-					<Theo_Khajiit_Tribal_Archer>10</Theo_Khajiit_Tribal_Archer>
-					<Theo_Khajiit_Tribal_Hunter>10</Theo_Khajiit_Tribal_Hunter>
-					<Theo_Khajiit_Tribal_CatMaster>5</Theo_Khajiit_Tribal_CatMaster>
-					<Theo_Khajiit_Tribal_HeavyArcher>10</Theo_Khajiit_Tribal_HeavyArcher>
-					<Theo_Khajiit_Tribal_Berserker>7</Theo_Khajiit_Tribal_Berserker>
-					<Theo_Khajiit_Tribal_ChiefBeastMaster>10</Theo_Khajiit_Tribal_ChiefBeastMaster>
+					<Theo_Khajiit_Kingdom_Warrior>7</Theo_Khajiit_Kingdom_Warrior>
+					<Theo_Khajiit_Kingdom_Archer>10</Theo_Khajiit_Kingdom_Archer>
+					<Theo_Khajiit_Kingdom_Hunter>10</Theo_Khajiit_Kingdom_Hunter>
+					<Theo_Khajiit_Kingdom_CatMaster>5</Theo_Khajiit_Kingdom_CatMaster>
+					<Theo_Khajiit_Kingdom_HeavyArcher>10</Theo_Khajiit_Kingdom_HeavyArcher>
+					<Theo_Khajiit_Kingdom_Berserker>7</Theo_Khajiit_Kingdom_Berserker>
+					<Theo_Khajiit_Kingdom_ChiefBeastMaster>10</Theo_Khajiit_Kingdom_ChiefBeastMaster>
 				</options>
 			</li>
 			<li>
 				<kindDef>Settlement_RangedOnly</kindDef>
 				<options>
-					<Theo_Khajiit_Tribal_Archer>10</Theo_Khajiit_Tribal_Archer>
-					<Theo_Khajiit_Tribal_Hunter>10</Theo_Khajiit_Tribal_Hunter>
-					<Theo_Khajiit_Tribal_CatMaster>5</Theo_Khajiit_Tribal_CatMaster>
-					<Theo_Khajiit_Tribal_HeavyArcher>10</Theo_Khajiit_Tribal_HeavyArcher>
-					<Theo_Khajiit_Tribal_ChiefBeastMaster>10</Theo_Khajiit_Tribal_ChiefBeastMaster>
+					<Theo_Khajiit_Kingdom_Archer>10</Theo_Khajiit_Kingdom_Archer>
+					<Theo_Khajiit_Kingdom_Hunter>10</Theo_Khajiit_Kingdom_Hunter>
+					<Theo_Khajiit_Kingdom_CatMaster>5</Theo_Khajiit_Kingdom_CatMaster>
+					<Theo_Khajiit_Kingdom_HeavyArcher>10</Theo_Khajiit_Kingdom_HeavyArcher>
+					<Theo_Khajiit_Kingdom_ChiefBeastMaster>10</Theo_Khajiit_Kingdom_ChiefBeastMaster>
 				</options>
 			</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">
