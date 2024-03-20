@@ -50,7 +50,7 @@
                     <headTypes Inherit="False"/>
                     <bodyAddons>
                         <li>
-                            <path>Things/Pawn/Humanlike/Theo_Khajiit/Ears/RightEarBase</path>
+                            <path>Things/Pawn/Humanlike/Theo_Khajiit/Ears/EarRight</path>
                             <colorChannel>skin</colorChannel>
                             <bodyPart>Ear</bodyPart>
                             <bodyPartLabel>right ear</bodyPartLabel>
@@ -74,7 +74,7 @@
                         </li>
 
                         <li>
-                            <path>Things/Pawn/Humanlike/Theo_Khajiit/Ears/LeftEarBase</path>
+                            <path>Things/Pawn/Humanlike/Theo_Khajiit/Ears/EarLeft</path>
                             <colorChannel>skin</colorChannel>
                             <bodyPart>Ear</bodyPart>
                             <bodyPartLabel>left ear</bodyPartLabel>
@@ -98,7 +98,7 @@
                         </li>
 
                         <li>
-                            <path>Things/Pawn/Humanlike/Theo_Khajiit/Tails/TailBase</path>
+                            <path>Things/Pawn/Humanlike/Theo_Khajiit/Tails/Tail</path>
                             <colorChannel>skin</colorChannel>
                             <bodyPart>Tail</bodyPart>
                             <bodyPartLabel>tail</bodyPartLabel>
@@ -128,11 +128,11 @@
                 <alienPartGenerator>
                     <headTypes>
                         <li>Male_AverageNormal</li> <!--test-->
-                        <li>Male_AverageWide</li>
-                        <li>Male_AveragePointy</li>
+                        <!--<li>Male_AverageWide</li>
+                        <li>Male_AveragePointy</li>-->
                         <li>Female_AverageNormal</li>
-                        <li>Female_AverageWide</li>
-                        <li>Female_AveragePointy</li>
+                        <!--<li>Female_AverageWide</li>
+                        <li>Female_AveragePointy</li>-->
                     </headTypes>
                     <bodyTypes>
                         <li>Thin</li>
