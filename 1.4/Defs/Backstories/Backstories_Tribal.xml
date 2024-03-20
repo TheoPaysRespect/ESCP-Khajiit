@@ -118,11 +118,9 @@
 				<value>2</value>
 			</li>
 		</skillGains>
-		<workDisables>
-			<li>Cooking</li>
-		</workDisables>
-		<forcedItems MayRequire="sirmashedpotato.morrowrim.moonsugarandskooma">
-			<MorrowRim_MoonSugar>1</MorrowRim_MoonSugar>
+		<workDisables>Cooking</workDisables>
+		<forcedItems >
+			<MorrowRim_MoonSugar MayRequire="sirmashedpotato.morrowrim.moonsugarandskooma">1</MorrowRim_MoonSugar>
 		</forcedItems>
 	</AlienRace.AlienBackstoryDef>
 	<AlienRace.AlienBackstoryDef ParentName="Theo_TribeKhajiit_AdulthoodBase">
@@ -136,8 +134,6 @@
 				<value>6</value>
 			</li>
 		</skillGains>
-		<workDisables>
-			<li>Social</li>
-		</workDisables>
+		<workDisables>Social</workDisables>
 	</AlienRace.AlienBackstoryDef>
 </Defs>

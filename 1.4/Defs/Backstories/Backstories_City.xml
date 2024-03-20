@@ -24,9 +24,7 @@
 				<value>2</value>
 			</li>
 		</skillGains>
-		<workDisables>
-			<li>Social</li>
-		</workDisables>
+		<workDisables>Social</workDisables>
 		<forcedHediffs>
 			<li MayRequire="sirmashedpotato.morrowrim.moonsugarandskooma">MorrowRim_SkoomaAddiction</li>
 		</forcedHediffs>
@@ -67,13 +65,8 @@
 				<key>Cooking</key>
 				<value>8</value>
 			</li>
-			<workDisables>
-				<li>Social</li>
-				<li>Intellectual</li>
-				<li>Artistic</li>
-				<li>Violent</li>
-			</workDisables>
 		</skillGains>
+		<workDisables>Social,Intellectual,Artistic,Violent</workDisables>
 		<!--dres vs slave-->
 	</AlienRace.AlienBackstoryDef>
 	<AlienRace.AlienBackstoryDef ParentName="Theo_CityKhajiit_ChildhoodBase">
@@ -89,12 +82,7 @@
 				<value>8</value>
 			</li>
 		</skillGains>
-		<workDisables>
-			<li>Social</li>
-			<li>Intellectual</li>
-			<li>Artistic</li>
-			<li>Violent</li>
-		</workDisables>
+		<workDisables>Social,Intellectual,Artistic,Violent</workDisables>
 		<!--dres vs slave-->
 	</AlienRace.AlienBackstoryDef>
 	<AlienRace.AlienBackstoryDef ParentName="Theo_CityKhajiit_ChildhoodBase">
@@ -126,8 +114,9 @@
 				<value>2</value>
 			</li>
 			<forcedTraitsChance>
-				<li MayRequire="vanillaexpanded.vanillatraitsexpanded">
-					<defName>VTE_Anxious</defName>
+				<li>
+					<defName>Nerves</defName>
+					<degree>-1</degree>
 					<chance>100</chance>
 				</li>
 			</forcedTraitsChance>
@@ -169,9 +158,7 @@
 				<value>8</value>
 			</li>
 		</skillGains>
-		<workDisables>
-			<li>ManualSkilled</li>
-		</workDisables>
+		<workDisables>ManualSkilled</workDisables>
 		<forcedHediffs>
 			<li MayRequire="sirmashedpotato.morrowrim.moonsugarandskooma">MorrowRim_SkoomaAddiction</li>
 		</forcedHediffs>
@@ -206,13 +193,10 @@
 				<value>4</value>
 			</li>
 		</skillGains>
-		<workDisables>
-			<li>Intellectual</li>
-		</workDisables>
-		<forcedTraitsChance>
-			<defName>Teetotaler</defName>
-			<chance>100</chance>
-		</forcedTraitsChance>
+		<workDisables>Intellectual</workDisables>
+		<forcedTraits>
+			<DrugDesire>-1</DrugDesire>
+		</forcedTraits>
 	</AlienRace.AlienBackstoryDef>
 	<AlienRace.AlienBackstoryDef ParentName="Theo_CityKhajiit_AdulthoodBase">
 		<defName>Theo_Khajiit_CityAdult6</defName>
@@ -229,12 +213,7 @@
 				<value>4</value>
 			</li>
 		</skillGains>
-		<workDisables>
-			<li>Social</li>
-			<li>Intellectual</li>
-			<li>Artistic</li>
-			<li>Violent</li>
-		</workDisables>
+		<workDisables>Social,Intellectual,Artistic,Violent</workDisables>
 		<!--dres vs slave-->
 		<spawnCategories>
 			<li>ESCP_KhajiitBackstory_Exclusion</li>
