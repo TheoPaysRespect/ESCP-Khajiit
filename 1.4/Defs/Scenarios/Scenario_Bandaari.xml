@@ -87,14 +87,6 @@
 					<!--description-->
 					<closeSound>GameStartSting</closeSound>
 				</li>
-				<li Class="VFECore.ScenPart_ForcedFactionGoodwill">
-					<factionDef>Theo_KhajiitNonPlayerFaction_Bandaari</factionDef>
-					<affectStartingGoodwill>True</affectStartingGoodwill>
-					<startingGoodwillRange>100~100</startingGoodwillRange>
-					<affectNaturalGoodwill>True</affectNaturalGoodwill>
-					<naturalGoodwillRange>100~100</naturalGoodwillRange>
-					<def>VFEC_ForcedFactionGoodwill</def>
-				</li>
 			</parts>
 		</scenario>
 	</ScenarioDef>

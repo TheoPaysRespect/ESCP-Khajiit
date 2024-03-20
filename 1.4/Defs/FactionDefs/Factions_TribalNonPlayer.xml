@@ -208,30 +208,21 @@
 			</li>
 		</pawnGroupMakers>
 	</FactionDef>
-	<FactionDef ParentName="Theo_KhajiitNonPlayerFaction_Base">
+	<!--<FactionDef ParentName="Theo_KhajiitNonPlayerFaction_Base">
 		<defName>Theo_KhajiitNonPlayerFaction_Bandaari</defName>
 		<label>Bandaari Pedlars</label>
 		<leaderTitle>Grand Trader</leaderTitle>
 		<factionIconPath>World/WorldObjects/Theo_Khajiit_Bandaari</factionIconPath>
-		<canSiege>false</canSiege>
-		<canStageAttacks>false</canStageAttacks>
 		<description>The Bandaari Pedlars are a clan of nomads travelling the world. Believing everything is worth something, they frequently gather what other factions discard to sell at their next destination. Likewise, they believe that anything left behind for any reason is now rightfully theirs, leading to their reputation as thieves. When trading, they are known to do anything they can to sweeten the deal, for themselves that is.</description>
-		<modExtensions>
-			<li Class="VFECore.FactionDefExtension">
-				<excludeFromCommConsole>true</excludeFromCommConsole>
-				<excludeFromQuests>true</excludeFromQuests>
-			</li>
-			<li Class="KCSG.CustomGenOption">
-				<canSpawnSettlements>false</canSpawnSettlements>
-			</li>
-		</modExtensions>
+		<displayInFactionSelection>false</displayInFactionSelection>
+		<requiredCountAtGameStart>1</requiredCountAtGameStart>
+		<maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
+		<rescueesCanJoin>true</rescueesCanJoin>
+		<hidden>true</hidden>
 		<colorSpectrum>
 			<li>(0.45, 0.75, 0.67)</li>
-			<!--fill-->
 			<li>(0.55, 0.95, 0.67)</li>
-			<!--fill-->
 			<li>(0.2, 0.8, 0.67)</li>
-			<!--fill-->
 		</colorSpectrum>
 		<disallowedMemes>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
@@ -253,7 +244,6 @@
 					<Theo_Khajiit_Kingdom_Trader>1</Theo_Khajiit_Kingdom_Trader>
 				</traders>
 				<carriers>
-					<!--edit with more unique carriers-->
 					<Muffalo>6</Muffalo>
 					<Dromedary>5</Dromedary>
 					<Alpaca>2.5</Alpaca>
@@ -268,7 +258,7 @@
 				</guards>
 			</li>
 		</pawnGroupMakers>
-	</FactionDef>
+	</FactionDef>-->
 	<FactionDef ParentName="Theo_KhajiitNonPlayerFaction_Base">
 		<defName>Theo_KhajiitNonPlayerFaction_Tribal</defName>
 		<label>Rough Khajiit Tribe</label>
