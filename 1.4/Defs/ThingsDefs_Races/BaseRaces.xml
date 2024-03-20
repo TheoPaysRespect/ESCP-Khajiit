@@ -46,6 +46,10 @@
             </ageGenerationCurve>
         </race>
         <alienRace>
+            <graphicPaths>
+                <head>Things/Pawn/Humanlike/Theo_Khajiit/Heads/</head>
+                <body>Things/Pawn/Humanlike/Theo_Khajiit/Bodies/</body>
+            </graphicPaths>
             <generalSettings>
                 <allowHumanBios>false</allowHumanBios>
                 <humanRecipeImport>true</humanRecipeImport>
@@ -59,6 +63,15 @@
                 </disallowedTraits>
                 <alienPartGenerator>
                     <headTypes Inherit="False"/>
+                    <headTypes>
+                        <li>Male_AverageNormal</li>
+                        <li>Female_AverageNormal</li>
+                    </headTypes>
+                    <bodyTypes>
+                        <li>Thin</li>
+                        <li MayRequire="Ludeon.RimWorld.Biotech">Baby</li>
+                        <li MayRequire="Ludeon.RimWorld.Biotech">Child</li>
+                    </bodyTypes>
                     <bodyAddons>
                         <li>
                             <path>Things/Pawn/Humanlike/Theo_Khajiit/Ears/EarRight</path>
@@ -156,7 +169,6 @@
                     <bodyTypes>
                         <li>Thin</li>
                         <li MayRequire="Ludeon.RimWorld.Biotech">Baby</li>
-                        <!--test-->
                         <li MayRequire="Ludeon.RimWorld.Biotech">Child</li>
                     </bodyTypes>
                 </alienPartGenerator>
@@ -193,10 +205,6 @@
                     </li>
                 </adultVatBackstoryFilter>
             </generalSettings>
-            <graphicPaths>
-                <head>Things/Pawn/Humanlike/Theo_Khajiit/Heads/</head>
-                <body>Things/Pawn/Humanlike/Theo_Khajiit/Bodies/</body>
-            </graphicPaths>
         </alienRace>
     </AlienRace.ThingDef_AlienRace>
 </Defs>
