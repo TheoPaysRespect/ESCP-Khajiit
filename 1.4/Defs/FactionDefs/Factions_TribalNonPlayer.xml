@@ -218,8 +218,8 @@
 		<description>The Bandaari Pedlars are a clan of nomads travelling the world. Believing everything is worth something, they frequently gather what other factions discard to sell at their next destination. Likewise, they believe that anything left behind for any reason is now rightfully theirs, leading to their reputation as thieves. When trading, they are known to do anything they can to sweeten the deal, for themselves that is.</description>
 		<modExtensions>
 			<li Class="VFECore.FactionDefExtension">
-				<shouldHaveLeader>false</shouldHaveLeader>
 				<excludeFromCommConsole>true</excludeFromCommConsole>
+				<excludeFromQuests>true</excludeFromQuests>
 			</li>
 			<li Class="KCSG.CustomGenOption">
 				<canSpawnSettlements>false</canSpawnSettlements>
