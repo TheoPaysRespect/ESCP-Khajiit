@@ -141,60 +141,60 @@
 						</li>
 					</colorChannels>
 				</alienPartGenerator>
-				<tools>
-					<li>
-						<label>left claw</label>
-						<capacities>
-							<li>Scratch</li>
-						</capacities>
-						<power>9</power>
-						<cooldownTime>1.5</cooldownTime>
-						<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
-						<surpriseAttack>
-							<extraMeleeDamages>
-								<li>
-									<def>Stun</def>
-									<amount>14</amount>
-								</li>
-							</extraMeleeDamages>
-						</surpriseAttack>
-					</li>
-					<li>
-						<label>right claw</label>
-						<capacities>
-							<li>Scratch</li>
-						</capacities>
-						<power>9</power>
-						<cooldownTime>1.5</cooldownTime>
-						<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
-						<surpriseAttack>
-							<extraMeleeDamages>
-								<li>
-									<def>Stun</def>
-									<amount>14</amount>
-								</li>
-							</extraMeleeDamages>
-						</surpriseAttack>
-					</li>
-					<li>
-						<capacities>
-							<li>Bite</li>
-						</capacities>
-						<power>12</power>
-						<cooldownTime>2</cooldownTime>
-						<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-						<chanceFactor>0.7</chanceFactor>
-						<surpriseAttack>
-							<extraMeleeDamages>
-								<li>
-									<def>Stun</def>
-									<amount>14</amount>
-								</li>
-							</extraMeleeDamages>
-						</surpriseAttack>
-					</li>
-				</tools>
 			</generalSettings>
+			<tools>
+				<li>
+					<label>left claws</label>
+					<capacities>
+						<li>Scratch</li>
+					</capacities>
+					<power>9</power>
+					<cooldownTime>1.5</cooldownTime>
+					<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+					<surpriseAttack>
+						<extraMeleeDamages>
+							<li>
+								<def>Stun</def>
+								<amount>20</amount>
+							</li>
+						</extraMeleeDamages>
+					</surpriseAttack>
+				</li>
+				<li>
+					<label>right claws</label>
+					<capacities>
+						<li>Scratch</li>
+					</capacities>
+					<power>9</power>
+					<cooldownTime>1.5</cooldownTime>
+					<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+					<surpriseAttack>
+						<extraMeleeDamages>
+							<li>
+								<def>Stun</def>
+								<amount>20</amount>
+							</li>
+						</extraMeleeDamages>
+					</surpriseAttack>
+				</li>
+				<li>
+					<capacities>
+						<li>Bite</li>
+					</capacities>
+					<power>12</power>
+					<cooldownTime>2</cooldownTime>
+					<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+					<chanceFactor>0.7</chanceFactor>
+					<surpriseAttack>
+						<extraMeleeDamages>
+							<li>
+								<def>Stun</def>
+								<amount>14</amount>
+							</li>
+						</extraMeleeDamages>
+					</surpriseAttack>
+				</li>
+			</tools>
 			<thoughtSettings>
 				<cannotReceiveThoughts>
 					<li>AteRawFood</li>
