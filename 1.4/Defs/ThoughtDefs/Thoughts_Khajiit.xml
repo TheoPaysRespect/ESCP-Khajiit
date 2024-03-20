@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-    <ThoughtDef>
+    <!--<ThoughtDef>
         <defName>Theo_Khajiit_ConsumedHorseMeat</defName>
         <durationDays>1</durationDays>
         <stackLimit>1</stackLimit>
@@ -16,8 +16,8 @@
                 <baseMoodEffect>+2</baseMoodEffect>
             </li>
         </stages>
-    </ThoughtDef>
-    <ThoughtDef MayRequire="sirmashedpotato.morrowrim.colovianfurhelm">
+    </ThoughtDef>-->
+    <!--<ThoughtDef MayRequire="sirmashedpotato.morrowrim.colovianfurhelm">
         <defName>Theo_Khajiit_WearingColovianFurHelm</defName>
         <stackLimit>1</stackLimit>
         <validWhileDespawned>true</validWhileDespawned>
@@ -28,7 +28,7 @@
                 <baseMoodEffect>+4</baseMoodEffect>
             </li>
         </stages>
-    </ThoughtDef>
+    </ThoughtDef>-->
     <ThoughtDef>
         <defName>Theo_Khajiit_AteKibble</defName>
         <stackLimit>1</stackLimit>
@@ -37,7 +37,7 @@
         <stages>
             <li>
                 <label>Ate kibble</label>
-                <description>I had to eat animal kibble. It's as if they see this one as another animal.</description>
+                <description>This one had to eat animal kibble. It's as if they see this one as another animal.</description>
                 <baseMoodEffect>-14</baseMoodEffect>
             </li>
         </stages>

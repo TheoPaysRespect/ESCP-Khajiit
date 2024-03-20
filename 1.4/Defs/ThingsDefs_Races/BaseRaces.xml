@@ -76,7 +76,7 @@
                             <bodyPart>Ear</bodyPart>
                             <bodyPartLabel>right ear</bodyPartLabel>
                             <drawnInBed>true</drawnInBed>
-                            <inFrontOfBody>false</inFrontOfBody>
+                            <inFrontOfBody>true</inFrontOfBody>
                             <alignWithHead>true</alignWithHead>
                             <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
                             <drawnDesiccated>false</drawnDesiccated>
@@ -104,7 +104,7 @@
                             <bodyPart>Ear</bodyPart>
                             <bodyPartLabel>left ear</bodyPartLabel>
                             <drawnInBed>true</drawnInBed>
-                            <inFrontOfBody>false</inFrontOfBody>
+                            <inFrontOfBody>true</inFrontOfBody>
                             <alignWithHead>true</alignWithHead>
                             <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
                             <drawnDesiccated>false</drawnDesiccated>
