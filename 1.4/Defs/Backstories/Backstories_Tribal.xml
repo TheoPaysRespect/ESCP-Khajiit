@@ -105,7 +105,7 @@
 		<baseDesc>Few knew the local flora as well as [PAWN_nameDef], carefully picking out which plant could heal a rash and which was lethal poison. Of course, the most important plant was catnip and moon sugarcane.</baseDesc>
 		<skillGains>
 			<li>
-				<key>Medical</key>
+				<key>Medicine</key>
 				<value>4</value>
 			</li>
 			<li>
@@ -141,7 +141,7 @@
 		<baseDesc>[PAWN_nameDef] had always been a skittish cat, ready to pounce at anything that came too close. Once they nearly ruined the relation with another tribe after they shot one of their hunters.</baseDesc>
 		<skillGains>
 			<li>
-				<key>shooting</key>
+				<key>Shooting</key>
 				<value>6</value>
 			</li>
 		</skillGains>

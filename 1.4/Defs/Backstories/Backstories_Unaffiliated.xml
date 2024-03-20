@@ -78,7 +78,7 @@
 		<baseDesc>With their own bones aching, [PAWN_nameDef] sought comfort in the bones of others. They would scavenge for freshly deceased carcasses, cleaning out the bones and putting them on shelves, proud of their collection. Sometimes their pet cat would eat one, much to their dismay. </baseDesc>
 		<skillGains>
 			<li>
-				<key>Medical</key>
+				<key>Medicine</key>
 				<value>4</value>
 			</li>
             <li>
