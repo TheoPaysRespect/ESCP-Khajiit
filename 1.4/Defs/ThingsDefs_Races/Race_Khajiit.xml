@@ -9,15 +9,13 @@
 		</descriptionHyperlinks>
 		<statBases>
 			<MoveSpeed>1.1</MoveSpeed>
+			<MeleeDodgeChance>1.1</MeleeDodgeChance>
+			<PawnTrapSpringChance>0.7</PawnTrapSpringChance>
 		</statBases>
 		<race>
 			<baseBodySize>0.9</baseBodySize>
 			<baseHealthScale>0.9</baseHealthScale>
 		</race>
-		<statOffsets>
-			<MeleeDodgeChance>10</MeleeDodgeChance>
-			<PawnTrapSpringChance>0.7</PawnTrapSpringChance>
-		</statOffsets>
 		<alienRace>
 			<generalSettings>
 				<raceGenes MayRequire="ludeon.rimworld.biotech">
@@ -142,59 +140,6 @@
 					</colorChannels>
 				</alienPartGenerator>
 			</generalSettings>
-			<tools>
-				<li>
-					<label>left claws</label>
-					<capacities>
-						<li>Scratch</li>
-					</capacities>
-					<power>9</power>
-					<cooldownTime>1.5</cooldownTime>
-					<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
-					<surpriseAttack>
-						<extraMeleeDamages>
-							<li>
-								<def>Stun</def>
-								<amount>20</amount>
-							</li>
-						</extraMeleeDamages>
-					</surpriseAttack>
-				</li>
-				<li>
-					<label>right claws</label>
-					<capacities>
-						<li>Scratch</li>
-					</capacities>
-					<power>9</power>
-					<cooldownTime>1.5</cooldownTime>
-					<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
-					<surpriseAttack>
-						<extraMeleeDamages>
-							<li>
-								<def>Stun</def>
-								<amount>20</amount>
-							</li>
-						</extraMeleeDamages>
-					</surpriseAttack>
-				</li>
-				<li>
-					<capacities>
-						<li>Bite</li>
-					</capacities>
-					<power>12</power>
-					<cooldownTime>2</cooldownTime>
-					<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-					<chanceFactor>0.7</chanceFactor>
-					<surpriseAttack>
-						<extraMeleeDamages>
-							<li>
-								<def>Stun</def>
-								<amount>14</amount>
-							</li>
-						</extraMeleeDamages>
-					</surpriseAttack>
-				</li>
-			</tools>
 			<thoughtSettings>
 				<cannotReceiveThoughts>
 					<li>AteRawFood</li>
@@ -218,5 +163,58 @@
 				</restrictedThoughts>
 			</thoughtSettings>
 		</alienRace>
+		<tools>
+			<li>
+				<label>left claws</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>20</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>right claws</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>20</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.7</chanceFactor>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+		</tools>
 	</AlienRace.ThingDef_AlienRace>
 </Defs>

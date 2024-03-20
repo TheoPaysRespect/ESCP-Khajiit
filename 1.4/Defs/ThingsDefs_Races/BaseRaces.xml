@@ -50,13 +50,13 @@
                 <allowHumanBios>false</allowHumanBios>
                 <humanRecipeImport>true</humanRecipeImport>
                 <immuneToAge>false</immuneToAge>
-                <disallowedTraitsChance>
+                <disallowedTraits>
                     <li>
                         <defName>DrugDesire</defName>
                         <degree>-1</degree>
                         <chance>90</chance>
                     </li>
-                </disallowedTraitsChance>
+                </disallowedTraits>
                 <alienPartGenerator>
                     <headTypes Inherit="False"/>
                     <bodyAddons>
