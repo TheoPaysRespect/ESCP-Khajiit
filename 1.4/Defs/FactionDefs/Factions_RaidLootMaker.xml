@@ -7,17 +7,16 @@
 				<filter>
 					<thingDefs>
 						<li MayRequire="sirmashedpotato.morrowrim.moonsugarandskooma">MorrowRim_MoonSugar</li>
-                        <li MayRequire="sirmashedpotato.morrowrim.moonsugarandskooma">MorrowRim_Skooma</li>
-                        <li MayRequire="sirmashedpotato.morrowrim.moonsugarandskooma">MorrowRim_Skooma_DoubleDistilled</li>
-                        <li MayRequire="sirmashedpotato.morrowrim.moonsugarandskooma">MorrowRim_Skooma_Spoiled</li>
-                        <li MayRequire="sirmashedpotato.morrowrim.moonsugarandskooma">MorrowRim_Skoomax</li>
-                        
-                        <li>WoolSheep</li> <!--"yarn"-->
-                        <li>WoolAlpaca</li>
-                        <li>WoolMegasloth</li>
-                        <li>WoolMegasloth</li>
-                        <li>WoolBison</li>
-						
+						<li MayRequire="sirmashedpotato.morrowrim.moonsugarandskooma">MorrowRim_Skooma</li>
+						<li MayRequire="sirmashedpotato.morrowrim.moonsugarandskooma">MorrowRim_Skooma_DoubleDistilled</li>
+						<li MayRequire="sirmashedpotato.morrowrim.moonsugarandskooma">MorrowRim_Skooma_Spoiled</li>
+						<li MayRequire="sirmashedpotato.morrowrim.moonsugarandskooma">MorrowRim_Skoomax</li>
+						<li>WoolSheep</li>
+						<!--"yarn"-->
+						<li>WoolAlpaca</li>
+						<li>WoolMegasloth</li>
+						<li>WoolMegasloth</li>
+						<li>WoolBison</li>
 					</thingDefs>
 				</filter>
 			</fixedParams>

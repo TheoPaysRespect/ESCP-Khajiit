@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Patch>
-    <Operation Class="PatchOperationReplace"> <!--Replaces the def name in the leather file for ESCP leather thoughts compatibility-->
+    <Operation Class="PatchOperationReplace">
+        <!--Replaces the def name in the leather file for ESCP leather thoughts compatibility-->
         <xpath>/Defs/ThingDef[defName="Leather_argo"]/defName</xpath>
         <value>
             <defName>ESCP_LeatherArgonian</defName>
         </value>
     </Operation>
-
-    <Operation Class="PatchOperationReplace"> <!--Replaces the def referenced in the race file-->
+    <Operation Class="PatchOperationReplace">
+        <!--Replaces the def referenced in the race file-->
         <xpath>/Defs/AlienRace.RaceSettings[defName="Argonian_Settings"]/leatherDef</xpath>
         <value>
             <leatherDef>ESCP_LeatherArgonian</leatherDef>
         </value>
     </Operation>
-
-    <Operation Class="PatchOperationAddModExtension"> <!--Adds in functionality for faction based goodwill-->
+    <Operation Class="PatchOperationAddModExtension">
+        <!--Adds in functionality for faction based goodwill-->
         <xpath>/Defs/FactionDef[defName="ArgoPlayerColony"]</xpath>
         <value>
             <li Class="ESCP_RaceTools.FactionProperties">
@@ -25,8 +26,8 @@
             </li>
         </value>
     </Operation>
-
-    <Operation Class="PatchOperationAddModExtension"> <!--Adds in functionality for faction based goodwill-->
+    <Operation Class="PatchOperationAddModExtension">
+        <!--Adds in functionality for faction based goodwill-->
         <xpath>/Defs/FactionDef[defName="ArgoFaction"]</xpath>
         <value>
             <li Class="ESCP_RaceTools.FactionProperties">

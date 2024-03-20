@@ -1,26 +1,27 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-    <ScenarioDef>
-        <defName>Theo_BandaariScenario</defName>
-        <label>Bandaari Pedlars</label>
-        <description></description>
-        <scenario>
-            <summary></summary> <!--description-->
-            <playerFaction>
+	<ScenarioDef>
+		<defName>Theo_BandaariScenario</defName>
+		<label>Bandaari Pedlars</label>
+		<description></description>
+		<scenario>
+			<summary></summary>
+			<!--description-->
+			<playerFaction>
 				<def>PlayerFaction</def>
 				<factionDef>Theo_KhajiitPlayerFaction_Tribal</factionDef>
 			</playerFaction>
-            <parts>
-                <li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+			<parts>
+				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
 					<def>ConfigPage_ConfigureStartingPawns</def>
 					<pawnCount>8</pawnCount>
 					<pawnChoiceCount>4</pawnChoiceCount>
 				</li>
-                <li Class="ScenPart_PlayerPawnsArriveMethod">
+				<li Class="ScenPart_PlayerPawnsArriveMethod">
 					<def>PlayerPawnsArriveMethod</def>
 					<method>Standing</method>
 				</li>
-                <li Class="ScenPart_ForcedHediff">
+				<li Class="ScenPart_ForcedHediff">
 					<def>ForcedHediff</def>
 					<visible>false</visible>
 					<context>PlayerStarter</context>
@@ -28,7 +29,7 @@
 					<hediff>Malnutrition</hediff>
 					<severityRange>0.2~0.4</severityRange>
 				</li>
-                <li Class="ScenPart_SetNeedLevel">
+				<li Class="ScenPart_SetNeedLevel">
 					<def>SetNeedLevel</def>
 					<visible>false</visible>
 					<context>PlayerStarter</context>
@@ -36,8 +37,7 @@
 					<need>Food</need>
 					<levelRange>0~0.1</levelRange>
 				</li>
-
-                <li Class="ScenPart_StartingThing_Defined">
+				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
 					<thingDef>Pemmican</thingDef>
 					<count>800</count>
@@ -62,43 +62,40 @@
 					<def>StartingThing_Defined</def>
 					<thingDef>Bow_Short</thingDef>
 				</li>
-                <li MayRequire="sirmashedpotato.morrowrim.moonsugarandskooma" Class="ScenPart_StartingThing_Defined">
+				<li MayRequire="sirmashedpotato.morrowrim.moonsugarandskooma" Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
 					<thingDef>MorrowRim_Skooma</thingDef>
-                    <count>5</count>
+					<count>5</count>
 				</li>
-                 <li MayRequire="sirmashedpotato.morrowrim.moonsugarandskooma" Class="ScenPart_StartingThing_Defined">
+				<li MayRequire="sirmashedpotato.morrowrim.moonsugarandskooma" Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
 					<thingDef>MorrowRim_MoonSugar</thingDef>
-                    <count>10</count>
+					<count>10</count>
 				</li>
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
 					<thingDef>Pila</thingDef>
 				</li>
-
-                <li Class="ScenPart_ScatterThingsNearPlayerStart">
+				<li Class="ScenPart_ScatterThingsNearPlayerStart">
 					<def>ScatterThingsNearPlayerStart</def>
 					<thingDef>WoodLog</thingDef>
 					<count>500</count>
 				</li>
-
-                <li Class="ScenPart_GameStartDialog">
+				<li Class="ScenPart_GameStartDialog">
 					<def>GameStartDialog</def>
-					<text></text> <!--description-->
+					<text></text>
+					<!--description-->
 					<closeSound>GameStartSting</closeSound>
 				</li>
-
-                <li Class="VFECore.ScenPart_ForcedFactionGoodwill">
-				<factionDef>Theo_KhajiitNonPlayerFaction_Bandaari</factionDef>
-				<affectStartingGoodwill>True</affectStartingGoodwill>
-				<startingGoodwillRange>100~100</startingGoodwillRange>
-				<affectNaturalGoodwill>True</affectNaturalGoodwill>
-				<naturalGoodwillRange>100~100</naturalGoodwillRange>
-				<def>VFEC_ForcedFactionGoodwill</def>
-			</li>
-
-            </parts>
-        </scenario>
-    </ScenarioDef>
+				<li Class="VFECore.ScenPart_ForcedFactionGoodwill">
+					<factionDef>Theo_KhajiitNonPlayerFaction_Bandaari</factionDef>
+					<affectStartingGoodwill>True</affectStartingGoodwill>
+					<startingGoodwillRange>100~100</startingGoodwillRange>
+					<affectNaturalGoodwill>True</affectNaturalGoodwill>
+					<naturalGoodwillRange>100~100</naturalGoodwillRange>
+					<def>VFEC_ForcedFactionGoodwill</def>
+				</li>
+			</parts>
+		</scenario>
+	</ScenarioDef>
 </Defs>

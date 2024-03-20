@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-    <RulePackDef>
-        <defName>Theo_Khajiit_NamerMale</defName>
-        <include>
+	<RulePackDef>
+		<defName>Theo_Khajiit_NamerMale</defName>
+		<include>
 			<li>TribalWordUtility</li>
 		</include>
 		<rulePack>
@@ -14,11 +14,10 @@
 				<li>FamilyList->Theo_KhajiitNames/KhajiitFamily</li>
 			</rulesFiles>
 		</rulePack>
-    </RulePackDef>
-
-     <RulePackDef>
-        <defName>Theo_Khajiit_NamerFemale</defName>
-        <include>
+	</RulePackDef>
+	<RulePackDef>
+		<defName>Theo_Khajiit_NamerFemale</defName>
+		<include>
 			<li>TribalWordUtility</li>
 		</include>
 		<rulePack>
@@ -30,5 +29,5 @@
 				<li>FamilyList->Theo_KhajiitNames/KhajiitFamily</li>
 			</rulesFiles>
 		</rulePack>
-    </RulePackDef>
+	</RulePackDef>
 </Defs>

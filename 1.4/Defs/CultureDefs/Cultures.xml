@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-    <!-- Link all graphics/files, set unique parameters-->
-    <CultureDef>
-        <defName>Theo_KhajiitCulture</defName>
-        <label>Khajiiti</label>
-        <description>An ancient culture common amongst the Khajiiti kingdoms.</description>
-        <pawnNameMaker>Theo_Khajiit_NamerMale</pawnNameMaker>
+	<!-- Link all graphics/files, set unique parameters-->
+	<CultureDef>
+		<defName>Theo_KhajiitCulture</defName>
+		<label>Khajiiti</label>
+		<description>An ancient culture common amongst the Khajiiti kingdoms.</description>
+		<pawnNameMaker>Theo_Khajiit_NamerMale</pawnNameMaker>
 		<pawnNameMakerFemale>Theo_Khajiit_NamerFemale</pawnNameMakerFemale>
-        <ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoCorunan</ideoNameMaker>
+		<ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoCorunan</ideoNameMaker>
 		<deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">Theo_Khajiit_NamerCultureDeityName</deityNameMaker>
 		<deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DeityTypeMakerCorunan</deityTypeMaker>
 		<festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalCorunan</festivalNameMaker>
 		<leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">Theo_Khajiit_NamerCultureLeaderTitle</leaderTitleMaker>
-        <preferredWeaponClasses>
+		<preferredWeaponClasses>
 			<noble>Neolithic</noble>
 			<despised>Ultratech</despised>
-        </preferredWeaponClasses>    	
+		</preferredWeaponClasses>
 		<allowedPlaceTags>
 			<li>OriginTribal</li>
 		</allowedPlaceTags>
@@ -29,9 +29,9 @@
 				<category>Animalist</category>
 				<priority>1</priority>
 			</li>
-        </thingStyleCategories>
-        <!--Piercing face tattoos, beards ok, prefer dreads-->
-        <styleItemTags>
+		</thingStyleCategories>
+		<!--Piercing face tattoos, beards ok, prefer dreads-->
+		<styleItemTags>
 			<li>
 				<tag>Theo_TattooFaceKhajiit</tag>
 				<baseWeight>5</baseWeight>
@@ -73,11 +73,10 @@
 				<weightFactor>1</weightFactor>
 			</li>
 		</styleItemTags>
-
-        <modExtensions>
+		<modExtensions>
 			<li Class="ESCP_RaceTools.IdeoCultureProperties">
 				<overrideDivines>true</overrideDivines>
-                <!--Finish the divines-->
+				<!--Finish the divines-->
 				<divinesList>
 					<li>
 						<name>Akatosh</name>
@@ -89,25 +88,29 @@
 						<name>Riddle'Thar</name>
 						<type>The Two-Moons Dance</type>
 						<gender>None</gender>
-						<iconPath>UI/Deities/ESCP_DeityLorkhan</iconPath> <!--new-->
+						<iconPath>UI/Deities/ESCP_DeityLorkhan</iconPath>
+						<!--new-->
 					</li>
 					<li>
 						<name>Jone</name>
 						<type>the Little Moon</type>
 						<gender>None</gender>
-						<iconPath>UI/Deities/ESCP_DeityLorkhan</iconPath><!--new-->
+						<iconPath>UI/Deities/ESCP_DeityLorkhan</iconPath>
+						<!--new-->
 					</li>
 					<li>
 						<name>Jode</name>
 						<type>the Big Moon</type>
 						<gender>None</gender>
-						<iconPath>UI/Deities/ESCP_DeityLorkhan</iconPath><!--new-->
+						<iconPath>UI/Deities/ESCP_DeityLorkhan</iconPath>
+						<!--new-->
 					</li>
 					<li>
 						<name>Khenarthi</name>
 						<type>the Goddess of the Winds</type>
 						<gender>Female</gender>
-						<iconPath>UI/Deities/ESCP_DeityXarxes</iconPath><!--new-->
+						<iconPath>UI/Deities/ESCP_DeityXarxes</iconPath>
+						<!--new-->
 					</li>
 					<li>
 						<name>Mara</name>
@@ -130,5 +133,5 @@
 				</divinesList>
 			</li>
 		</modExtensions>
-    </CultureDef>
+	</CultureDef>
 </Defs>

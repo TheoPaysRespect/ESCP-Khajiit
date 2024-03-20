@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-    <MemeDef>
-        <defName>Theo_Structure_Sky_Spirits</defName>
+	<MemeDef>
+		<defName>Theo_Structure_Sky_Spirits</defName>
 		<label>The Sky Spirits</label>
 		<description>The belief in the sky spirits is centered around the journey of the moons, and how their placement relates to the Khajiit.</description>
 		<modExtensions>
@@ -10,22 +10,26 @@
 				<overrideDeityIcons>true</overrideDeityIcons>
 				<iconPath>
 					<li>UI/Deities/ESCP_DeityAzura</li>
-					<li>UI/Deities/Theo_DeityJone</li> <!--Art needed-->
-					<li>UI/Deities/Theo_DeityJode</li> <!--Art needed-->
-                    <li>UI/Deities/Theo_DeityKhenarthi</li> <!--Art needed-->
-                    <li>UI/Deities/ESCP_DeityMagnus</li>
+					<li>UI/Deities/Theo_DeityJone</li>
+					<!--Art needed-->
+					<li>UI/Deities/Theo_DeityJode</li>
+					<!--Art needed-->
+					<li>UI/Deities/Theo_DeityKhenarthi</li>
+					<!--Art needed-->
+					<li>UI/Deities/ESCP_DeityMagnus</li>
 				</iconPath>
 				<overrideDeityGenders>true</overrideDeityGenders>
 				<deityGenders>
 					<li>Female</li>
 					<li>None</li>
 					<li>None</li>
-                    <li>Female</li>
-                    <li>Male</li>
-                </deityGenders> 
+					<li>Female</li>
+					<li>Male</li>
+				</deityGenders>
 			</li>
 		</modExtensions>
-        <iconPath>UI/Structures/Theo_SkySpirits</iconPath> <!--Art needed-->
+		<iconPath>UI/Structures/Theo_SkySpirits</iconPath>
+		<!--Art needed-->
 		<deityCount>5</deityCount>
 		<allowSymbolsFromDeity>false</allowSymbolsFromDeity>
 		<symbolPackOverride>true</symbolPackOverride>
@@ -62,7 +66,8 @@
 					<value>true</value>
 				</li>
 				<li>
-					<key>Theo_Structure_Sky_Spirits</key>  <!--What does this do-->
+					<key>Theo_Structure_Sky_Spirits</key>
+					<!--What does this do-->
 					<value>true</value>
 				</li>
 			</constants>
@@ -106,19 +111,18 @@
 				<name>Jode</name>
 				<type>The big Moon</type>
 			</li>
-            <li>
+			<li>
 				<name>Khenarthi</name>
 				<type>The Goddess of the Winds</type>
 			</li>
-            <li>
+			<li>
 				<name>Magrus</name>
 				<type>Third Eye of Azurah</type>
 			</li>
 		</fixedDeityNameTypes>
-    </MemeDef>
-	
+	</MemeDef>
 	<MemeDef>
-        <defName>Theo_Structure_Worldly_Spirits</defName>
+		<defName>Theo_Structure_Worldly_Spirits</defName>
 		<label>The Worldly Spirits</label>
 		<description>The belief in the worldly spirits is centered around the creation of Nirn.</description>
 		<modExtensions>
@@ -127,22 +131,23 @@
 				<overrideDeityIcons>true</overrideDeityIcons>
 				<iconPath>
 					<li>UI/Deities/ESCP_DeityHermeusMora</li>
-					<li>UI/Deities/ESCP_DeityHircine</li> 
-					<li>UI/Deities/ESCP_DeityNirn</li> 
-                    <li>UI/Deities/ESCP_DeitySanguine</li> 
-                    <li>UI/Deities/ESCP_DeityYffre</li>
+					<li>UI/Deities/ESCP_DeityHircine</li>
+					<li>UI/Deities/ESCP_DeityNirn</li>
+					<li>UI/Deities/ESCP_DeitySanguine</li>
+					<li>UI/Deities/ESCP_DeityYffre</li>
 				</iconPath>
 				<overrideDeityGenders>true</overrideDeityGenders>
 				<deityGenders>
 					<li>Male</li>
 					<li>Male</li>
 					<li>Female</li>
-                    <li>Male</li>
-                    <li>Male</li>
-                </deityGenders> 
+					<li>Male</li>
+					<li>Male</li>
+				</deityGenders>
 			</li>
 		</modExtensions>
-        <iconPath>UI/Structures/Theo_WorldlySpirits</iconPath>  <!--Art needed-->
+		<iconPath>UI/Structures/Theo_WorldlySpirits</iconPath>
+		<!--Art needed-->
 		<deityCount>5</deityCount>
 		<allowSymbolsFromDeity>false</allowSymbolsFromDeity>
 		<symbolPackOverride>true</symbolPackOverride>
@@ -179,7 +184,7 @@
 					<value>true</value>
 				</li>
 				<li>
-					<key>Theo_Structure_Worldly_Spirits</key>  
+					<key>Theo_Structure_Worldly_Spirits</key>
 					<value>true</value>
 				</li>
 			</constants>
@@ -223,19 +228,18 @@
 				<name>Nirni</name>
 				<type>The Green Mother</type>
 			</li>
-            <li>
+			<li>
 				<name>Sangiin</name>
 				<type>Blood Cat</type>
 			</li>
-            <li>
+			<li>
 				<name>Y'ffer</name>
 				<type>The Elden Shaper</type>
 			</li>
 		</fixedDeityNameTypes>
-    </MemeDef>
-	
+	</MemeDef>
 	<MemeDef>
-        <defName>Theo_Structure_Wandering_Spirits</defName>
+		<defName>Theo_Structure_Wandering_Spirits</defName>
 		<label>The Wandering Spirits</label>
 		<description>The belief in the wandering spirits is centered around the journey of the moons, and how their placement relates to the Khajiit.</description>
 		<modExtensions>
@@ -243,23 +247,26 @@
 				<IgnoreDuplicateDeityNames>true</IgnoreDuplicateDeityNames>
 				<overrideDeityIcons>true</overrideDeityIcons>
 				<iconPath>
-					<li>UI/Deities/Theo_DeityAkha</li> <!--Art needed-->
-					<li>UI/Deities/Theo_DeityAlkhan</li>  <!--Art needed-->
-					<li>UI/Deities/ESCP_DeityAkatosh</li> 
-                    <li>UI/Deities/ESCP_DeityBoetiah</li> 
-                    <li>UI/Deities/ESCP_DeityMafala</li>
+					<li>UI/Deities/Theo_DeityAkha</li>
+					<!--Art needed-->
+					<li>UI/Deities/Theo_DeityAlkhan</li>
+					<!--Art needed-->
+					<li>UI/Deities/ESCP_DeityAkatosh</li>
+					<li>UI/Deities/ESCP_DeityBoetiah</li>
+					<li>UI/Deities/ESCP_DeityMafala</li>
 				</iconPath>
 				<overrideDeityGenders>true</overrideDeityGenders>
 				<deityGenders>
 					<li>Male</li>
 					<li>Male</li>
 					<li>Male</li>
-                    <li>Female</li>
-                    <li>Female</li>
-                </deityGenders> 
+					<li>Female</li>
+					<li>Female</li>
+				</deityGenders>
 			</li>
 		</modExtensions>
-        <iconPath>UI/Structures/Theo_WanderingSpirits</iconPath>  <!--Art needed-->
+		<iconPath>UI/Structures/Theo_WanderingSpirits</iconPath>
+		<!--Art needed-->
 		<deityCount>5</deityCount>
 		<allowSymbolsFromDeity>false</allowSymbolsFromDeity>
 		<symbolPackOverride>true</symbolPackOverride>
@@ -296,7 +303,7 @@
 					<value>true</value>
 				</li>
 				<li>
-					<key>Theo_Structure_Wandering_Spirits</key>  
+					<key>Theo_Structure_Wandering_Spirits</key>
 					<value>true</value>
 				</li>
 			</constants>
@@ -340,19 +347,18 @@
 				<name>Alkosh</name>
 				<type>Dragon King of Cats</type>
 			</li>
-            <li>
+			<li>
 				<name>Boethra</name>
 				<type>The Warrior of East and West</type>
 			</li>
-            <li>
+			<li>
 				<name>Mafala</name>
 				<type>Clan Mother of Dark Secrets</type>
 			</li>
 		</fixedDeityNameTypes>
-    </MemeDef>
-
+	</MemeDef>
 	<MemeDef>
-        <defName>Theo_Structure_Dark_Spirits</defName>
+		<defName>Theo_Structure_Dark_Spirits</defName>
 		<label>The Dark Spirits</label>
 		<description>The belief in the dark spirits is centered around the journey of the moons, and how their placement relates to the Khajiit.</description>
 		<modExtensions>
@@ -362,19 +368,21 @@
 				<iconPath>
 					<li>UI/Deities/ESCP_DeityNamira</li>
 					<li>UI/Deities/ESCP_DeityNocturnal</li>
-					<li>UI/Deities/ESCP_DeityVaermina</li> 
-                    <li>UI/Deities/Theo_DeityTheNameless</li> <!--Art needed-->
+					<li>UI/Deities/ESCP_DeityVaermina</li>
+					<li>UI/Deities/Theo_DeityTheNameless</li>
+					<!--Art needed-->
 				</iconPath>
 				<overrideDeityGenders>true</overrideDeityGenders>
 				<deityGenders>
 					<li>Female</li>
 					<li>Female</li>
 					<li>Female</li>
-                    <li>None</li>
-                </deityGenders> 
+					<li>None</li>
+				</deityGenders>
 			</li>
 		</modExtensions>
-        <iconPath>UI/Structures/Theo_DarkSpirits</iconPath> <!--Art needed-->
+		<iconPath>UI/Structures/Theo_DarkSpirits</iconPath>
+		<!--Art needed-->
 		<deityCount>4</deityCount>
 		<allowSymbolsFromDeity>false</allowSymbolsFromDeity>
 		<symbolPackOverride>true</symbolPackOverride>
@@ -411,7 +419,7 @@
 					<value>true</value>
 				</li>
 				<li>
-					<key>Theo_Structure_Dark_Spirits</key>  
+					<key>Theo_Structure_Dark_Spirits</key>
 					<value>true</value>
 				</li>
 			</constants>
@@ -455,15 +463,14 @@
 				<name>Varmiina</name>
 				<type>The Lost Daughter</type>
 			</li>
-            <li>
+			<li>
 				<name>The Nameless</name>
 				<type>The Spirit of Vengeance</type>
 			</li>
 		</fixedDeityNameTypes>
-    </MemeDef>
-
+	</MemeDef>
 	<MemeDef>
-        <defName>Theo_Structure_Adverserial_Spirits</defName>
+		<defName>Theo_Structure_Adverserial_Spirits</defName>
 		<label>The Adverserial Spirits</label>
 		<description>The belief in the adverserial spirits is centered around the journey of the moons, and how their placement relates to the Khajiit.</description>
 		<modExtensions>
@@ -473,22 +480,22 @@
 				<iconPath>
 					<li>UI/Deities/ESCP_DeityMeridia</li>
 					<li>UI/Deities/ESCP_DeityMehrunesDagon</li>
-					<li>UI/Deities/ESCP_DeityMolagBal</li> 
-                    <li>UI/Deities/ESCP_DeityMalacath</li>
-					<li>UI/Deities/ESCP_DeitySheogorath</li> 
-
+					<li>UI/Deities/ESCP_DeityMolagBal</li>
+					<li>UI/Deities/ESCP_DeityMalacath</li>
+					<li>UI/Deities/ESCP_DeitySheogorath</li>
 				</iconPath>
 				<overrideDeityGenders>true</overrideDeityGenders>
 				<deityGenders>
 					<li>Female</li>
 					<li>Male</li>
 					<li>Male</li>
-                    <li>Male</li>
 					<li>Male</li>
-                </deityGenders> 
+					<li>Male</li>
+				</deityGenders>
 			</li>
 		</modExtensions>
-        <iconPath>UI/Structures/Theo_AdverserialSpirits</iconPath> <!--Art needed-->
+		<iconPath>UI/Structures/Theo_AdverserialSpirits</iconPath>
+		<!--Art needed-->
 		<deityCount>5</deityCount>
 		<allowSymbolsFromDeity>false</allowSymbolsFromDeity>
 		<symbolPackOverride>true</symbolPackOverride>
@@ -525,7 +532,7 @@
 					<value>true</value>
 				</li>
 				<li>
-					<key>Theo_Structure_Adverserial_Spirits</key>  
+					<key>Theo_Structure_Adverserial_Spirits</key>
 					<value>true</value>
 				</li>
 			</constants>
@@ -569,7 +576,7 @@
 				<name>Molagh</name>
 				<type>Elder Spirit of Domination</type>
 			</li>
-            <li>
+			<li>
 				<name>Orkha</name>
 				<type>The Banished</type>
 			</li>
@@ -578,6 +585,5 @@
 				<type>Skooma Cat</type>
 			</li>
 		</fixedDeityNameTypes>
-    </MemeDef>
-	
+	</MemeDef>
 </Defs>

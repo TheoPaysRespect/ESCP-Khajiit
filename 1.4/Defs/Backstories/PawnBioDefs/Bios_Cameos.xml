@@ -1,72 +1,75 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-   <!--Fezez, ember, adusa daro, caska, sereyne, Ajira-->
+    <!--Fezez, ember, adusa daro, caska, sereyne, Ajira-->
     <AlienRace.PawnBioDef Name="Theo_KhajiitPawnBioBase" Abstract="True">
-            <validRaces>
-                <li>Theo_KhajiitRace</li>
-            </validRaces>
-            <factionLeader>false</factionLeader>
-        </AlienRace.PawnBioDef>
-
-    <AlienRace.PawnBioDef ParentName="Theo_KhajiitPawnBioBase"> <!--Dani-->
-            <defName>Theo_KhajiitPawnBioBase_Dani</defName>
-            <childhood>Theo_Khajiit_CityChild4</childhood>
-            <adulthood>Theo_Khajiit_CityAdult7</adulthood>
-            <gender>Female</gender>
-            <name>
-                <first>H'ermiz</first>
-                <last>Ink-paw</last>
-                <nick>Ink-paw</nick>
-            </name>
+        <validRaces>
+            <li>Theo_KhajiitRace</li>
+        </validRaces>
+        <factionLeader>false</factionLeader>
     </AlienRace.PawnBioDef>
-
-    <AlienRace.PawnBioDef ParentName="Theo_KhajiitPawnBioBase"> <!--jasper-->
-            <defName>Theo_KhajiitPawnBioBase_Jasper</defName>
-            <childhood>Theo_Jasper_Childhood</childhood> 
-            <adulthood>Theo_Jasper_Adulthood</adulthood> 
-            <gender>Male</gender>
-            <name>
-                <first>Ja-Sha</first> 
-                <last>the fox</last>
-                <nick>the fox</nick>
-            </name>
+    <AlienRace.PawnBioDef ParentName="Theo_KhajiitPawnBioBase">
+        <!--Dani-->
+        <defName>Theo_KhajiitPawnBioBase_Dani</defName>
+        <childhood>Theo_Khajiit_CityChild4</childhood>
+        <adulthood>Theo_Khajiit_CityAdult7</adulthood>
+        <gender>Female</gender>
+        <name>
+            <first>H'ermiz</first>
+            <last>Ink-paw</last>
+            <nick>Ink-paw</nick>
+        </name>
     </AlienRace.PawnBioDef>
-
-    <AlienRace.PawnBioDef ParentName="Theo_KhajiitPawnBioBase"> <!--Ajira-->
-            <defName>Theo_KhajiitPawnBioBase_Ajira</defName>
-            <childhood>Theo_Khajiit_CityChild4</childhood>
-            <adulthood>ESCP_GenericBackstory_Adulthood_MagesGuildAlchemist</adulthood> <!--fill-->
-            <gender>Female</gender>
-            <name>
-                <first>Ajira</first> 
-                <last>Thjizzrini</last> 
-                <nick>Ajira</nick>
-            </name>
+    <AlienRace.PawnBioDef ParentName="Theo_KhajiitPawnBioBase">
+        <!--jasper-->
+        <defName>Theo_KhajiitPawnBioBase_Jasper</defName>
+        <childhood>Theo_Jasper_Childhood</childhood>
+        <adulthood>Theo_Jasper_Adulthood</adulthood>
+        <gender>Male</gender>
+        <name>
+            <first>Ja-Sha</first>
+            <last>the fox</last>
+            <nick>the fox</nick>
+        </name>
     </AlienRace.PawnBioDef>
-
-    <AlienRace.PawnBioDef ParentName="Theo_KhajiitPawnBioBase"> <!--Razum dar-->
-            <defName>Theo_KhajiitPawnBioBase_RazumDar</defName>
-            <childhood>Theo_Khajiit_MonkChild3</childhood>
-            <adulthood>Theo_Khajiit_MonkAdult1</adulthood> <!--change to queen's guard-->
-            <gender>Male</gender>
-            <name>
-                <first>Razum-Dar</first>
-                <last>Do-radhin</last>
-                <nick>Razum-Dar</nick>
-            </name>
+    <AlienRace.PawnBioDef ParentName="Theo_KhajiitPawnBioBase">
+        <!--Ajira-->
+        <defName>Theo_KhajiitPawnBioBase_Ajira</defName>
+        <childhood>Theo_Khajiit_CityChild4</childhood>
+        <adulthood>ESCP_GenericBackstory_Adulthood_MagesGuildAlchemist</adulthood>
+        <!--fill-->
+        <gender>Female</gender>
+        <name>
+            <first>Ajira</first>
+            <last>Thjizzrini</last>
+            <nick>Ajira</nick>
+        </name>
     </AlienRace.PawnBioDef>
-
-    <AlienRace.PawnBioDef ParentName="Theo_KhajiitPawnBioBase"> <!--m'aiq-->
-            <defName>Theo_KhajiitPawnBioBase_Maiq</defName>
-            <childhood>Theo_Maiq_Childhood</childhood> <!--fill-->
-            <adulthood>Theo_Maiq_Adulthood</adulthood> <!--fill-->
-            <gender>Male</gender>
-            <name>
-                <first>M'aiq</first>
-                <last>M'aiq</last>
-                <nick>M'aiq the Liar</nick>
-            </name>
+    <AlienRace.PawnBioDef ParentName="Theo_KhajiitPawnBioBase">
+        <!--Razum dar-->
+        <defName>Theo_KhajiitPawnBioBase_RazumDar</defName>
+        <childhood>Theo_Khajiit_MonkChild3</childhood>
+        <adulthood>Theo_Khajiit_MonkAdult1</adulthood>
+        <!--change to queen's guard-->
+        <gender>Male</gender>
+        <name>
+            <first>Razum-Dar</first>
+            <last>Do-radhin</last>
+            <nick>Razum-Dar</nick>
+        </name>
+    </AlienRace.PawnBioDef>
+    <AlienRace.PawnBioDef ParentName="Theo_KhajiitPawnBioBase">
+        <!--m'aiq-->
+        <defName>Theo_KhajiitPawnBioBase_Maiq</defName>
+        <childhood>Theo_Maiq_Childhood</childhood>
+        <!--fill-->
+        <adulthood>Theo_Maiq_Adulthood</adulthood>
+        <!--fill-->
+        <gender>Male</gender>
+        <name>
+            <first>M'aiq</first>
+            <last>M'aiq</last>
+            <nick>M'aiq the Liar</nick>
+        </name>
     </AlienRace.PawnBioDef>
     <!--mashed-->
     <!--<AlienRace.PawnBioDef ParentName="Theo_KhajiitPawnBioBase"> 
@@ -80,52 +83,52 @@
                 <nick></nick>
             </name>
     </AlienRace.PawnBioDef>-->
-
-    <AlienRace.PawnBioDef ParentName="Theo_KhajiitPawnBioBase"> <!--Ahnassi-->
-            <defName>Theo_KhajiitPawnBioBase_Ahnassi</defName>
-            <childhood>ESCP_GenericBackstory_Abbator_Childhood_ThievesGuildTrainee</childhood>
-            <adulthood>ESCP_GenericBackstory_Adulthood_ThievesGuildEar</adulthood>
-            <gender>Female</gender>
-            <name>
-                <first>Ahnassi</first>
-                <last>Lhajiito</last>
-                <nick>Ahnassi</nick>
-            </name>
+    <AlienRace.PawnBioDef ParentName="Theo_KhajiitPawnBioBase">
+        <!--Ahnassi-->
+        <defName>Theo_KhajiitPawnBioBase_Ahnassi</defName>
+        <childhood>ESCP_GenericBackstory_Abbator_Childhood_ThievesGuildTrainee</childhood>
+        <adulthood>ESCP_GenericBackstory_Adulthood_ThievesGuildEar</adulthood>
+        <gender>Female</gender>
+        <name>
+            <first>Ahnassi</first>
+            <last>Lhajiito</last>
+            <nick>Ahnassi</nick>
+        </name>
     </AlienRace.PawnBioDef>
-
-    <AlienRace.PawnBioDef ParentName="Theo_KhajiitPawnBioBase"> <!--Rabinna-->
-            <defName>Theo_KhajiitPawnBioBase_Rabinna</defName>
-            <childhood>Theo_Khajiit_CityChild3</childhood>
-            <adulthood>Theo_Khajiit_CityAdult6</adulthood>
-            <gender>Female</gender>
-            <name>
-                <first>Rabinna</first>
-                <last>Je'm'ath</last>
-                <nick>Rabinna</nick>
-            </name>
+    <AlienRace.PawnBioDef ParentName="Theo_KhajiitPawnBioBase">
+        <!--Rabinna-->
+        <defName>Theo_KhajiitPawnBioBase_Rabinna</defName>
+        <childhood>Theo_Khajiit_CityChild3</childhood>
+        <adulthood>Theo_Khajiit_CityAdult6</adulthood>
+        <gender>Female</gender>
+        <name>
+            <first>Rabinna</first>
+            <last>Je'm'ath</last>
+            <nick>Rabinna</nick>
+        </name>
     </AlienRace.PawnBioDef>
-
-    <AlienRace.PawnBioDef ParentName="Theo_KhajiitPawnBioBase"> <!--Jzargo-->
-            <defName>Theo_KhajiitPawnBioBase_Jzargo</defName>
-            <childhood>Theo_Khajiit_CityChild4</childhood>
-            <adulthood>ESCP_GenericBackstory_Adulthood_MagesGuildEnchanter</adulthood>
-            <gender>Male</gender>
-            <name>
-                <first>J'zargo</first>
-                <last>Jeek</last>
-                <nick>J'zargo</nick>
-            </name>
+    <AlienRace.PawnBioDef ParentName="Theo_KhajiitPawnBioBase">
+        <!--Jzargo-->
+        <defName>Theo_KhajiitPawnBioBase_Jzargo</defName>
+        <childhood>Theo_Khajiit_CityChild4</childhood>
+        <adulthood>ESCP_GenericBackstory_Adulthood_MagesGuildEnchanter</adulthood>
+        <gender>Male</gender>
+        <name>
+            <first>J'zargo</first>
+            <last>Jeek</last>
+            <nick>J'zargo</nick>
+        </name>
     </AlienRace.PawnBioDef>
-
-    <AlienRace.PawnBioDef ParentName="Theo_KhajiitPawnBioBase"> <!--Sugar lips Habasi-->
-            <defName>Theo_KhajiitPawnBioBase_Habasi</defName>
-            <childhood>ESCP_GenericBackstory_Abbator_Childhood_ThievesGuildTrainee</childhood>
-            <adulthood>ESCP_GenericBackstory_Adulthood_ThievesGuildOperative</adulthood>
-            <gender>Female</gender>
-            <name>
-                <first>Habasi</first>
-                <last>Sugar-lips</last>
-                <nick>Sugar-lips</nick>
-            </name>
+    <AlienRace.PawnBioDef ParentName="Theo_KhajiitPawnBioBase">
+        <!--Sugar lips Habasi-->
+        <defName>Theo_KhajiitPawnBioBase_Habasi</defName>
+        <childhood>ESCP_GenericBackstory_Abbator_Childhood_ThievesGuildTrainee</childhood>
+        <adulthood>ESCP_GenericBackstory_Adulthood_ThievesGuildOperative</adulthood>
+        <gender>Female</gender>
+        <name>
+            <first>Habasi</first>
+            <last>Sugar-lips</last>
+            <nick>Sugar-lips</nick>
+        </name>
     </AlienRace.PawnBioDef>
 </Defs>

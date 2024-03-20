@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-    <GoodwillSituationDef>
+	<GoodwillSituationDef>
 		<defName>Theo_KhajiitVSDres</defName>
 		<label>Slave Relations</label>
 		<workerClass>ESCP_RaceTools.GoodWillWorker_UniversalFactionTagCompatibility_Inverted</workerClass>
@@ -12,8 +12,7 @@
 			</li>
 		</modExtensions>
 	</GoodwillSituationDef>
-
-     <GoodwillSituationDef MayRequire="mlie.argoniansofblackmarsh">
+	<GoodwillSituationDef MayRequire="mlie.argoniansofblackmarsh">
 		<defName>Theo_KhajiitVSArgonian</defName>
 		<label>Beastkin Tensions</label>
 		<workerClass>ESCP_RaceTools.GoodWillWorker_UniversalFactionTagCompatibility_Inverted</workerClass>
@@ -25,5 +24,4 @@
 			</li>
 		</modExtensions>
 	</GoodwillSituationDef>
-    
 </Defs>

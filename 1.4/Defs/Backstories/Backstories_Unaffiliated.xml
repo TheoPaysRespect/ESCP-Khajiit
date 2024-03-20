@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
- <AlienRace.AlienBackstoryDef Name="Theo_Khajiit_ChildhoodBase" Abstract="True" >
+<Defs>
+	<AlienRace.AlienBackstoryDef Name="Theo_Khajiit_ChildhoodBase" Abstract="True" >
 		<slot>Childhood</slot>
 		<spawnCategories>
 			<li>Theo_KhajiitBackstory_Childhood</li>
 			<li>ESCP_KhajiitBackstory_Exclusion</li>
 		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
-
 	<AlienRace.AlienBackstoryDef Name="Theo_Khajiit_AdulthoodBase" Abstract="True" >
 		<slot>Adulthood</slot>
 		<spawnCategories>
@@ -14,9 +14,8 @@
 			<li>ESCP_KhajiitBackstory_Exclusion</li>
 		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
-
-    <!--Childhood-->
-    <AlienRace.AlienBackstoryDef>
+	<!--Childhood-->
+	<AlienRace.AlienBackstoryDef ParentName="Theo_Khajiit_ChildhoodBase">
 		<defName>Theo_Maiq_Childhood</defName>
 		<title>child of [PAWN_nameDef]</title>
 		<titleShort>liar</titleShort>
@@ -27,10 +26,9 @@
 				<value>10</value>
 			</li>
 		</skillGains>
-        <shuffleable>false</shuffleable>
+		<shuffleable>false</shuffleable>
 	</AlienRace.AlienBackstoryDef>
-    
-     <AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="Theo_Khajiit_ChildhoodBase">
 		<defName>Theo_Jasper_Childhood</defName>
 		<title>child racer</title>
 		<titleShort>racer</titleShort>
@@ -41,20 +39,22 @@
 				<value>2</value>
 			</li>
 		</skillGains>
-        <forcedTraitsChance>
+		<forcedTraitsChance>
 			<li MayRequire="ludeon.rimworld.biotech">
 				<defName>Delicate</defName>
 				<chance>100</chance>
 			</li>
 		</forcedTraitsChance>
-        <passions>
-              <li><skill>Animals</skill><xp>1</xp></li>
-        </passions>
-        <shuffleable>false</shuffleable>
+		<passions>
+			<li>
+				<skill>Animals</skill>
+				<xp>1</xp>
+			</li>
+		</passions>
+		<shuffleable>false</shuffleable>
 	</AlienRace.AlienBackstoryDef>
-
-    <!--Adulthood-->
-    <AlienRace.AlienBackstoryDef>
+	<!--Adulthood-->
+	<AlienRace.AlienBackstoryDef ParentName="Theo_Khajiit_AdulthoodBase">
 		<defName>Theo_Maiq_Adulthood</defName>
 		<title>wandering liar</title>
 		<titleShort>liar</titleShort>
@@ -65,13 +65,15 @@
 				<value>5</value>
 			</li>
 		</skillGains>
-        <passions>
-              <li><skill>Social</skill><xp>2</xp></li>
-        </passions>
-        <shuffleable>false</shuffleable>
+		<passions>
+			<li>
+				<skill>Social</skill>
+				<xp>2</xp>
+			</li>
+		</passions>
+		<shuffleable>false</shuffleable>
 	</AlienRace.AlienBackstoryDef>
-
-    <AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="Theo_Khajiit_AdulthoodBase">
 		<defName>Theo_Jasper_Adulthood</defName>
 		<title>bone collector</title>
 		<titleShort>collector</titleShort>
@@ -81,23 +83,25 @@
 				<key>Medicine</key>
 				<value>4</value>
 			</li>
-            <li>
+			<li>
 				<key>Artistic</key>
 				<value>4</value>
 			</li>
 		</skillGains>
-        <forcedTraitsChance>
+		<forcedTraitsChance>
 			<li MayRequire="ludeon.rimworld.biotech">
 				<defName>Delicate</defName>
 				<chance>100</chance>
 			</li>
 		</forcedTraitsChance>
-        <passions>
-              <li><skill>Artistic</skill><xp>2</xp></li>
-        </passions>
-        <forcedItems MayRequire="dankpyon.medieval.overhaul">
-  			<DankPyon_Bone>10</DankPyon_Bone>
+		<passions>
+			<li>
+				<skill>Artistic</skill>
+				<xp>2</xp>
+			</li>
+		</passions>
+		<forcedItems MayRequire="dankpyon.medieval.overhaul">
+			<DankPyon_Bone>10</DankPyon_Bone>
 		</forcedItems>
 	</AlienRace.AlienBackstoryDef>
-
-    
+</Defs>

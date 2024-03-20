@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-    <PawnKindDef Name="Theo_Khajiit_TribalBase" Abstract="True">
+	<PawnKindDef Name="Theo_Khajiit_TribalBase" Abstract="True">
 		<race>Theo_KhajiitRace</race>
 		<defaultFactionType>Theo_KhajiitNonPlayerFaction_Kingdom</defaultFactionType>
 		<maxGenerationAge>60</maxGenerationAge>
@@ -15,24 +15,24 @@
 		<backstoryFiltersOverride>
 			<li>
 				<categoriesChildhood>
-					 	<li>ESCP_GenericBackstory_ChildhoodMedieval</li>
-                        <li>ESCP_GenericBackstory_ChildhoodHighClass</li>
-                        <li>ESCP_GenericBackstory_ChildhoodImperialFaction</li>
-                        <li>Theo_CityKhajiitBackstory_Childhood</li>
-						<li>Theo_MonkKhajiitBackstory_Childhood</li>
+					<li>ESCP_GenericBackstory_ChildhoodMedieval</li>
+					<li>ESCP_GenericBackstory_ChildhoodHighClass</li>
+					<li>ESCP_GenericBackstory_ChildhoodImperialFaction</li>
+					<li>Theo_CityKhajiitBackstory_Childhood</li>
+					<li>Theo_MonkKhajiitBackstory_Childhood</li>
 				</categoriesChildhood>
 				<categoriesAdulthood>
-					 	<li>ESCP_GenericBackstory_AdulthoodMedieval</li>
-                        <li>ESCP_GenericBackstory_AdulthoodHighClass</li>
-                        <li>ESCP_GenericBackstory_AdulthoodMage</li>
-                        <li>ESCP_GenericBackstory_AdulthoodSlaver</li>
-                        <li>ESCP_GenericBackstory_AdulthoodMagesGuild</li>
-                        <li>ESCP_GenericBackstory_AdulthoodImperialFaction</li>
-                        <li>ESCP_GenericBackstory_AdulthoodThievesGuild</li>
-                        <li>ESCP_GenericBackstory_AdulthoodSkoomaAddict</li>
-                        <li>ESCP_DunmerSlaveBackstory_Adulthood</li>
-                        <li>Theo_CityKhajiitBackstory_Adulthood</li>
-						<li>Theo_MonkKhajiitBackstory_Adulthood</li>
+					<li>ESCP_GenericBackstory_AdulthoodMedieval</li>
+					<li>ESCP_GenericBackstory_AdulthoodHighClass</li>
+					<li>ESCP_GenericBackstory_AdulthoodMage</li>
+					<li>ESCP_GenericBackstory_AdulthoodSlaver</li>
+					<li>ESCP_GenericBackstory_AdulthoodMagesGuild</li>
+					<li>ESCP_GenericBackstory_AdulthoodImperialFaction</li>
+					<li>ESCP_GenericBackstory_AdulthoodThievesGuild</li>
+					<li>ESCP_GenericBackstory_AdulthoodSkoomaAddict</li>
+					<li>ESCP_DunmerSlaveBackstory_Adulthood</li>
+					<li>Theo_CityKhajiitBackstory_Adulthood</li>
+					<li>Theo_MonkKhajiitBackstory_Adulthood</li>
 				</categoriesAdulthood>
 				<excludeChildhood>
 					<li>ESCP_KhajiitBackstory_Exclusion</li>
@@ -43,7 +43,6 @@
 			</li>
 		</backstoryFiltersOverride>
 	</PawnKindDef>
-	
 	<!--raid bs-->
 	<PawnKindDef ParentName="Theo_Khajiit_TribalBase">
 		<defName>Theo_Khajiit_Kingdom_Penitent</defName>
@@ -66,7 +65,6 @@
 		<initialWillRange>0~1</initialWillRange>
 		<initialResistanceRange>10~17</initialResistanceRange>
 	</PawnKindDef>
-
 	<PawnKindDef ParentName="Theo_Khajiit_TribalBase">
 		<defName>Theo_Khajiit_Kingdom_Archer</defName>
 		<label>archer</label>
@@ -92,7 +90,6 @@
 		<initialWillRange>1~3</initialWillRange>
 		<initialResistanceRange>17~27</initialResistanceRange>
 	</PawnKindDef>
-
 	<PawnKindDef ParentName="Theo_Khajiit_TribalBase" Name="Theo_Khajiit_TribalWarriorBase">
 		<defName>Theo_Khajiit_Kingdom_Warrior</defName>
 		<label>warrior</label>
@@ -114,7 +111,6 @@
 		<initialWillRange>1~3</initialWillRange>
 		<initialResistanceRange>5~9</initialResistanceRange>
 	</PawnKindDef>
-
 	<PawnKindDef ParentName="Theo_Khajiit_TribalWarriorBase">
 		<defName>Theo_Khajiit_Kingdom_CatMaster</defName>
 		<label>Big cat master</label>
@@ -150,7 +146,6 @@
 			</li>
 		</backstoryFiltersOverride>
 	</PawnKindDef>
-
 	<PawnKindDef ParentName="Theo_Khajiit_TribalBase">
 		<defName>Theo_Khajiit_Kingdom_Breacher</defName>
 		<label>breacher</label>
@@ -170,7 +165,6 @@
 		<initialWillRange>1~3</initialWillRange>
 		<initialResistanceRange>12~19</initialResistanceRange>
 	</PawnKindDef>
-
 	<PawnKindDef ParentName="Theo_Khajiit_TribalBase" Name="Theo_Khajiit_TribalHunterBase">
 		<defName>Theo_Khajiit_Kingdom_Hunter</defName>
 		<label>hunter</label>
@@ -212,7 +206,6 @@
 		<initialWillRange>2~4</initialWillRange>
 		<initialResistanceRange>10~16</initialResistanceRange>
 	</PawnKindDef>
-	
 	<PawnKindDef ParentName="Theo_Khajiit_TribalHunterBase">
 		<defName>Theo_Khajiit_Kingdom_Trader</defName>
 		<label>trader</label>
@@ -239,7 +232,6 @@
 		<initialWillRange>2~4</initialWillRange>
 		<initialResistanceRange>9~15</initialResistanceRange>
 	</PawnKindDef>
-	
 	<PawnKindDef ParentName="Theo_Khajiit_TribalBase">
 		<defName>Theo_Khajiit_Kingdom_Berserker</defName>
 		<label>Do-radhin</label>
@@ -259,7 +251,6 @@
 		<initialWillRange>2~4</initialWillRange>
 		<initialResistanceRange>13~20</initialResistanceRange>
 	</PawnKindDef>
-
 	<PawnKindDef ParentName="Theo_Khajiit_TribalBase">
 		<defName>Theo_Khajiit_Kingdom_HeavyArcher</defName>
 		<label>Heavy Archer</label>
@@ -281,7 +272,6 @@
 		<initialWillRange>2~4</initialWillRange>
 		<initialResistanceRange>14~22</initialResistanceRange>
 	</PawnKindDef>
-
 	<PawnKindDef ParentName="Theo_Khajiit_TribalBase" Name="Theo_Khajiit_TribalChiefBase" Abstract="True">
 		<combatPower>85</combatPower>
 		<minGenerationAge>30</minGenerationAge>
@@ -301,7 +291,6 @@
 		<initialWillRange>3~5</initialWillRange>
 		<initialResistanceRange>19~30</initialResistanceRange>
 	</PawnKindDef>
-
 	<PawnKindDef ParentName="Theo_Khajiit_TribalChiefBase">
 		<defName>Theo_Khajiit_Kingdom_ChiefMelee</defName>
 		<label>Berserker K'har</label>
@@ -311,7 +300,6 @@
 		</weaponTags>
 		<initialResistanceRange>38~58</initialResistanceRange>
 	</PawnKindDef>
-
 	<PawnKindDef ParentName="Theo_Khajiit_TribalChiefBase" Name="Theo_Khajiit_TribalChiefRangedBase">
 		<defName>Theo_Khajiit_Kingdom_ChiefRanged</defName>
 		<label>Archer K'har</label>
@@ -323,7 +311,6 @@
 		</disallowedTraits>
 		<initialResistanceRange>16~26</initialResistanceRange>
 	</PawnKindDef>
-
 	<PawnKindDef ParentName="Theo_Khajiit_TribalChiefRangedBase">
 		<defName>Theo_Khajiit_Kingdom_ChiefBeastMaster</defName>
 		<label>Cat Master K'har</label>

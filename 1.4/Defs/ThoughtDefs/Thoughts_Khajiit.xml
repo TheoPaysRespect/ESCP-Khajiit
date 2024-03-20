@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-
 <Defs>
-
     <ThoughtDef>
         <defName>Theo_Khajiit_ConsumedHorseMeat</defName>
         <durationDays>1</durationDays>
@@ -13,40 +11,37 @@
         </nullifyingPrecepts>
         <stages>
             <li>
-				<label>Consumed horse meat</label>
-				<description>Horses.... Oh, [PAWN_nameDef] loves horses! Especially with good cream sauce.</description>
-				<baseMoodEffect>+2</baseMoodEffect>
-			</li>
+                <label>Consumed horse meat</label>
+                <description>Horses.... Oh, [PAWN_nameDef] loves horses! Especially with good cream sauce.</description>
+                <baseMoodEffect>+2</baseMoodEffect>
+            </li>
         </stages>
     </ThoughtDef>
-
     <ThoughtDef MayRequire="sirmashedpotato.morrowrim.colovianfurhelm">
         <defName>Theo_Khajiit_WearingColovianFurHelm</defName>
         <stackLimit>1</stackLimit>
         <validWhileDespawned>true</validWhileDespawned>
         <stages>
             <li>
-				<label>Fine hat for a cat</label>
-				<description>[PAWN_nameDef] loves their Colovian Fur Helm. Practical, yet stylish.</description>
-				<baseMoodEffect>+4</baseMoodEffect>
-			</li>
+                <label>Fine hat for a cat</label>
+                <description>[PAWN_nameDef] loves their Colovian Fur Helm. Practical, yet stylish.</description>
+                <baseMoodEffect>+4</baseMoodEffect>
+            </li>
         </stages>
     </ThoughtDef>
-
     <ThoughtDef>
         <defName>Theo_Khajiit_AteKibble</defName>
-        <stackLimit>1</stackLimit>        
+        <stackLimit>1</stackLimit>
         <durationDays>1</durationDays>
         <validWhileDespawned>true</validWhileDespawned>
         <stages>
             <li>
-				<label>Ate kibble</label>
-				<description>I had to eat animal kibble. It's as if they see this one as another animal.</description>
-				<baseMoodEffect>-14</baseMoodEffect>
-			</li>
+                <label>Ate kibble</label>
+                <description>I had to eat animal kibble. It's as if they see this one as another animal.</description>
+                <baseMoodEffect>-14</baseMoodEffect>
+            </li>
         </stages>
     </ThoughtDef>
-
     <ThoughtDef>
         <defName>Theo_Khajiit_SoakingWet</defName>
         <stackLimit>1</stackLimit>
@@ -54,10 +49,10 @@
         <validWhileDespawned>true</validWhileDespawned>
         <stages>
             <li>
-				<label>Soaking Wet</label>
-				<description>This one is soaking wet, it will take a while to dry off.</description>
-				<baseMoodEffect>-6</baseMoodEffect>
-			</li>
+                <label>Soaking Wet</label>
+                <description>This one is soaking wet, it will take a while to dry off.</description>
+                <baseMoodEffect>-6</baseMoodEffect>
+            </li>
         </stages>
     </ThoughtDef>
 </Defs>

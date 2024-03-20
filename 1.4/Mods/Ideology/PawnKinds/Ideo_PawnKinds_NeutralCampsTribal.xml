@@ -43,8 +43,7 @@
 		<initialWillRange>1~2</initialWillRange>
 		<initialResistanceRange>17~27</initialResistanceRange>
 	</PawnKindDef>
-
-    <PawnKindDef ParentName="Theo_Khajiit_TribalBase">
+	<PawnKindDef ParentName="Theo_Khajiit_TribalBase">
 		<defName>Theo_Khajiit_Tribal_Logger</defName>
 		<label>logger</label>
 		<combatPower>35</combatPower>

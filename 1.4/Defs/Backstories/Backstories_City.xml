@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
 	<!--Additional parameters: gender commonality, rarity, bodytypeglobal, 
     forced trait chance, titlefemale, titleshortfemale, workdisables, requiredworktags, 
     disallowedtraits, possessions, linkedbackstory, forcedhediffs, passions, bioagerange, forceditems-->
 	<!--Escp race tools background based pawn opinions: khajiit vs dres-->
-	
-
-    <!--Childhood-->
-    <AlienRace.AlienBackstoryDef ParentName="Theo_CityKhajiit_ChildhoodBase">
+	<!--Childhood-->
+	<AlienRace.AlienBackstoryDef ParentName="Theo_CityKhajiit_ChildhoodBase">
 		<defName>Theo_Khajiit_CityChild1</defName>
 		<title>Moon sugarcane farmer child</title>
 		<titleShort>farmer child</titleShort>
@@ -31,11 +28,10 @@
 			<li>Social</li>
 		</workDisables>
 		<forcedHediffs>
-  			<li>MorrowRim_SkoomaAddiction</li>
+			<li>MorrowRim_SkoomaAddiction</li>
 		</forcedHediffs>
 		<linkedBackstory>Theo_Khajiit_CityAdult3</linkedBackstory>
 	</AlienRace.AlienBackstoryDef>
-
 	<AlienRace.AlienBackstoryDef ParentName="Theo_CityKhajiit_ChildhoodBase">
 		<defName>Theo_Khajiit_CityChild2</defName>
 		<title>Yarn royal</title>
@@ -59,7 +55,6 @@
   			<Theo_Yarnball>1</Theo_Yarnball>
 		</forcedItems>-->
 	</AlienRace.AlienBackstoryDef>
-
 	<AlienRace.AlienBackstoryDef ParentName="Theo_CityKhajiit_ChildhoodBase">
 		<defName>Theo_Khajiit_CityChild3</defName>
 		<title>Kitchen slave</title>
@@ -73,14 +68,14 @@
 				<value>8</value>
 			</li>
 			<workDisables>
-			<li>Social</li>
-			<li>Intellectual</li>
-			<li>Artistic</li>
-			<li>Violent</li>
-		</workDisables>
-		</skillGains> <!--dres vs slave-->
+				<li>Social</li>
+				<li>Intellectual</li>
+				<li>Artistic</li>
+				<li>Violent</li>
+			</workDisables>
+		</skillGains>
+		<!--dres vs slave-->
 	</AlienRace.AlienBackstoryDef>
-
 	<AlienRace.AlienBackstoryDef ParentName="Theo_CityKhajiit_ChildhoodBase">
 		<defName>Theo_Khajiit_CityChild4</defName>
 		<title>Escaped child slave</title>
@@ -99,10 +94,11 @@
 			<li>Intellectual</li>
 			<li>Artistic</li>
 			<li>Violent</li>
-		</workDisables> <!--dres vs slave-->
+		</workDisables>
+		<!--dres vs slave-->
 	</AlienRace.AlienBackstoryDef>
-
-	<AlienRace.AlienBackstoryDef ParentName="Theo_CityKhajiit_ChildhoodBase"> <!--Dani-->
+	<AlienRace.AlienBackstoryDef ParentName="Theo_CityKhajiit_ChildhoodBase">
+		<!--Dani-->
 		<defName>Theo_Khajiit_CityChild4</defName>
 		<title>exchange student</title>
 		<titleShort>student</titleShort>
@@ -118,9 +114,8 @@
 			</li>
 		</skillGains>
 	</AlienRace.AlienBackstoryDef>
-
-    <!--Adulthood-->
-    <AlienRace.AlienBackstoryDef ParentName="Theo_CityKhajiit_AdulthoodBase">
+	<!--Adulthood-->
+	<AlienRace.AlienBackstoryDef ParentName="Theo_CityKhajiit_AdulthoodBase">
 		<defName>Theo_Khajiit_CityAdult1</defName>
 		<title>Cursed trader</title>
 		<titleShort>trader</titleShort>
@@ -138,7 +133,6 @@
 			</forcedTraitsChance>
 		</skillGains>
 	</AlienRace.AlienBackstoryDef>
-
 	<AlienRace.AlienBackstoryDef ParentName="Theo_CityKhajiit_AdulthoodBase">
 		<defName>Theo_Khajiit_CityAdult2</defName>
 		<title>Wandering trader</title>
@@ -150,20 +144,20 @@
 				<value>4</value>
 			</li>
 		</skillGains>
-		<forcedTraitsChance MayRequire="vanillaexpanded.vanillatraitsexpanded">
-			<li>
+		<forcedTraitsChance>
+			<li MayRequire="vanillaexpanded.vanillatraitsexpanded">
 				<defName>VTE_Tycoon</defName>
 				<chance>30</chance>
 			</li>
-			<li >
+			<li MayRequire="vanillaexpanded.vanillatraitsexpanded">
 				<defName>VTE_Wanderlust</defName>
 				<chance>100</chance>
 			</li>
-			<spawnCategories>
+		</forcedTraitsChance>
+		<spawnCategories>
 			<li>Theo_TraderBackstory</li>
-			</spawnCategories>
+		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
-
 	<AlienRace.AlienBackstoryDef ParentName="Theo_CityKhajiit_AdulthoodBase">
 		<defName>Theo_Khajiit_CityAdult3</defName>
 		<title>Skooma addict</title>
@@ -179,10 +173,9 @@
 			<li>ManualSkilled</li>
 		</workDisables>
 		<forcedHediffs>
-  			<li>MorrowRim_SkoomaAddiction</li>
+			<li>MorrowRim_SkoomaAddiction</li>
 		</forcedHediffs>
 	</AlienRace.AlienBackstoryDef>
-
 	<AlienRace.AlienBackstoryDef ParentName="Theo_CityKhajiit_AdulthoodBase">
 		<defName>Theo_Khajiit_CityAdult4</defName>
 		<title>Renowned chef</title>
@@ -198,7 +191,6 @@
 			<li>ESCP_KhajiitBackstory_Exclusion</li>
 		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
-
 	<AlienRace.AlienBackstoryDef ParentName="Theo_CityKhajiit_AdulthoodBase">
 		<defName>Theo_Khajiit_CityAdult5</defName>
 		<title>Recovering Skooma addict</title>
@@ -219,10 +211,9 @@
 		</workDisables>
 		<forcedTraitsChance>
 			<defName>Teetotaler</defName>
-				<chance>100</chance>
+			<chance>100</chance>
 		</forcedTraitsChance>
 	</AlienRace.AlienBackstoryDef>
-
 	<AlienRace.AlienBackstoryDef ParentName="Theo_CityKhajiit_AdulthoodBase">
 		<defName>Theo_Khajiit_CityAdult6</defName>
 		<title>Freed slave</title>
@@ -243,13 +234,14 @@
 			<li>Intellectual</li>
 			<li>Artistic</li>
 			<li>Violent</li>
-		</workDisables> <!--dres vs slave-->
+		</workDisables>
+		<!--dres vs slave-->
 		<spawnCategories>
 			<li>ESCP_KhajiitBackstory_Exclusion</li>
 		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
-
-	<AlienRace.AlienBackstoryDef ParentName="Theo_CityKhajiit_AdulthoodBase"> <!--dani-->
+	<AlienRace.AlienBackstoryDef ParentName="Theo_CityKhajiit_AdulthoodBase">
+		<!--dani-->
 		<defName>Theo_Khajiit_CityAdult7</defName>
 		<title>Odd artist</title>
 		<titleShort>artist</titleShort>
@@ -266,7 +258,7 @@
 		</skillGains>
 		<forcedTraitsChance>
 			<defName>TorturedArtist</defName>
-				<chance>100</chance>
+			<chance>100</chance>
 		</forcedTraitsChance>
 	</AlienRace.AlienBackstoryDef>
 </Defs>

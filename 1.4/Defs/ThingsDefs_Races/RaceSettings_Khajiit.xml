@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<AlienRace.RaceSettings>
-        <defName>Theo_KhajiitRaceSettings</defName>
-        <pawnKindSettings>
+		<defName>Theo_KhajiitRaceSettings</defName>
+		<pawnKindSettings>
 			<alienslavekinds>
 				<li>
 					<kindDefs>
@@ -63,5 +63,5 @@
 				</li>
 			</alienwandererkinds>
 		</pawnKindSettings>
-    </AlienRace.RaceSettings>
+	</AlienRace.RaceSettings>
 </Defs>

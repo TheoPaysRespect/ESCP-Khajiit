@@ -4,7 +4,8 @@
 		<defName>Theo_KhajiitStyle</defName>
 		<label>Khajiiti</label>
 		<iconPath>World/WorldObjects/Theo_Khajiit_Kingdom</iconPath>
-        <!--<soundOngoingRitual></soundOngoingRitual>--> <!--waiting for asset-->
+		<!--<soundOngoingRitual></soundOngoingRitual>-->
+		<!--waiting for asset-->
 		<ritualVisualEffectDef>Theo_Khajiiti</ritualVisualEffectDef>
 		<thingDefStyles>
 		</thingDefStyles>

@@ -2,50 +2,60 @@
 <!--bodymasks for patterns?-->
 <Defs>
     <AlienRace.ThingDef_AlienRace ParentName="ESCP_BaseRace_NoCosmeticGenes" Name="Theo_BaseRace_Khajiit" Abstract="True">
-		<statBases>
-			<MarketValue>2000</MarketValue> 
-			<PsychicSensitivity>1.2</PsychicSensitivity>
+        <statBases>
+            <MarketValue>2000</MarketValue>
+            <PsychicSensitivity>1.2</PsychicSensitivity>
             <SocialImpact>0.8</SocialImpact>
             <ComfyTemperatureMin>0</ComfyTemperatureMin>
             <Flammability>1.2</Flammability>
-			<ComfyTemperatureMax>35</ComfyTemperatureMax>
-		</statBases>
+            <ComfyTemperatureMax>35</ComfyTemperatureMax>
+        </statBases>
         <modExtensions>
-			<li Class="ESCP_RaceTools.RaceProperties">
-				<heatstrokeResistant>true</heatstrokeResistant>
-				<majorRacialGeneToInherit MayRequire="Ludeon.RimWorld.Biotech">Theo_Khajiit_InheritedBonus</majorRacialGeneToInherit>
-			</li>
-		</modExtensions>
-         <race>
+            <li Class="ESCP_RaceTools.RaceProperties">
+                <heatstrokeResistant>true</heatstrokeResistant>
+                <majorRacialGeneToInherit MayRequire="Ludeon.RimWorld.Biotech">Theo_Khajiit_InheritedBonus</majorRacialGeneToInherit>
+            </li>
+        </modExtensions>
+        <race>
             <body>ESCP_HumanlikeWithTail</body>
-			<leatherDef>ESCP_LeatherKhajiit</leatherDef>
-			<nameGenerator>Theo_Khajiit_NamerMale</nameGenerator>
-			<nameGeneratorFemale>Theo_Khajiit_NamerFemale</nameGeneratorFemale>
-
+            <leatherDef>ESCP_LeatherKhajiit</leatherDef>
+            <nameGenerator>Theo_Khajiit_NamerMale</nameGenerator>
+            <nameGeneratorFemale>Theo_Khajiit_NamerFemale</nameGeneratorFemale>
             <ageGenerationCurve>
-				<points>
-					<li MayRequire="Ludeon.RimWorld.Biotech">(0,0)</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">(0.001,43)</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">(8,86)</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">(12.5,118)</li>  <!-- Exclude 12.5-13 years to avoid spawning pawns who are very close to becoming adults -->  
-					<li MayRequire="Ludeon.RimWorld.Biotech">(12.51,0)</li>  
-					<li MayRequire="Ludeon.RimWorld.Biotech">(13,0)</li>      
-					<li MayRequire="Ludeon.RimWorld.Biotech">(13.001,122)</li><!-- End exclude -->
-					<li MayRequire="Ludeon.RimWorld.Biotech">(13.999,130)</li>
-					<li>(14,0)</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">(14.001,130)</li>
-					<li>(16,100)</li>
-					<li>(50,100)</li>
-					<li>(60,30)</li>
-					<li>(70,18)</li>
-					<li>(80,10)</li>
-					<li>(90,3)</li>
-					<li>(100,0)</li>
-				</points>
-			</ageGenerationCurve>
+                <points>
+                    <li MayRequire="Ludeon.RimWorld.Biotech">(0,0)</li>
+                    <li MayRequire="Ludeon.RimWorld.Biotech">(0.001,43)</li>
+                    <li MayRequire="Ludeon.RimWorld.Biotech">(8,86)</li>
+                    <li MayRequire="Ludeon.RimWorld.Biotech">(12.5,118)</li>
+                    <!-- Exclude 12.5-13 years to avoid spawning pawns who are very close to becoming adults -->
+                    <li MayRequire="Ludeon.RimWorld.Biotech">(12.51,0)</li>
+                    <li MayRequire="Ludeon.RimWorld.Biotech">(13,0)</li>
+                    <li MayRequire="Ludeon.RimWorld.Biotech">(13.001,122)</li>
+                    <!-- End exclude -->
+                    <li MayRequire="Ludeon.RimWorld.Biotech">(13.999,130)</li>
+                    <li>(14,0)</li>
+                    <li MayRequire="Ludeon.RimWorld.Biotech">(14.001,130)</li>
+                    <li>(16,100)</li>
+                    <li>(50,100)</li>
+                    <li>(60,30)</li>
+                    <li>(70,18)</li>
+                    <li>(80,10)</li>
+                    <li>(90,3)</li>
+                    <li>(100,0)</li>
+                </points>
+            </ageGenerationCurve>
         </race>
         <alienRace>
             <generalSettings>
+                <allowHumanBios>false</allowHumanBios>
+                <humanRecipeImport>true</humanRecipeImport>
+                <immuneToAge>false</immuneToAge>
+                <disallowedTraits>
+                    <li>
+                        <defName>Teetotaler</defName>
+                        <chance>90</chance>
+                    </li>
+                </disallowedTraits>
                 <alienPartGenerator>
                     <headTypes Inherit="False"/>
                     <bodyAddons>
@@ -65,14 +75,15 @@
                             </hiddenUnderApparelFor>
                             <offsets>
                                 <north>
-                                    <layerOffset>-0.28</layerOffset> <!--test these-->
+                                    <layerOffset>-0.28</layerOffset>
+                                    <!--test these-->
                                 </north>
                                 <east>
-                                    <layerOffset>-0.332</layerOffset> <!--test these-->
+                                    <layerOffset>-0.332</layerOffset>
+                                    <!--test these-->
                                 </east>
                             </offsets>
                         </li>
-
                         <li>
                             <path>Things/Pawn/Humanlike/Theo_Khajiit/Ears/EarLeft</path>
                             <colorChannel>skin</colorChannel>
@@ -89,14 +100,15 @@
                             </hiddenUnderApparelFor>
                             <offsets>
                                 <north>
-                                    <layerOffset>-0.28</layerOffset> <!--test these-->
+                                    <layerOffset>-0.28</layerOffset>
+                                    <!--test these-->
                                 </north>
                                 <east>
-                                    <layerOffset>-0.332</layerOffset> <!--test these-->
+                                    <layerOffset>-0.332</layerOffset>
+                                    <!--test these-->
                                 </east>
                             </offsets>
                         </li>
-
                         <li>
                             <path>Things/Pawn/Humanlike/Theo_Khajiit/Tails/Tail</path>
                             <colorChannel>skin</colorChannel>
@@ -107,7 +119,8 @@
                             <inFrontOfBody>false</inFrontOfBody>
                             <drawnDesiccated>false</drawnDesiccated>
                             <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
-                            <offsets> <!--test-->
+                            <offsets>
+                                <!--test-->
                                 <north>
                                     <layerOffset>-0.1</layerOffset>
                                 </north>
@@ -119,15 +132,20 @@
                     </bodyAddons>
                 </alienPartGenerator>
             </generalSettings>
+            <raceRestriction>
+                <blackGeneList>
+                    <li MayRequire="Ludeon.RimWorld.Biotech">Theo_Khajiit_InheritedBonus</li>
+                </blackGeneList>
+            </raceRestriction>
         </alienRace>
     </AlienRace.ThingDef_AlienRace>
-
-    <alienRace.ThingDef_AlienRace ParentName ="Theo_BaseRace_Khajiit" Name="Theo_Khajiit_StandardForm" Abstract="True">
+    <AlienRace.ThingDef_AlienRace ParentName ="Theo_BaseRace_Khajiit" Name="Theo_Khajiit_StandardForm" Abstract="True">
         <alienRace>
             <generalSettings>
                 <alienPartGenerator>
                     <headTypes>
-                        <li>Male_AverageNormal</li> <!--test-->
+                        <li>Male_AverageNormal</li>
+                        <!--test-->
                         <!--<li>Male_AverageWide</li>
                         <li>Male_AveragePointy</li>-->
                         <li>Female_AverageNormal</li>
@@ -136,15 +154,48 @@
                     </headTypes>
                     <bodyTypes>
                         <li>Thin</li>
-                        <li MayRequire="Ludeon.RimWorld.Biotech">Baby</li> <!--test-->
+                        <li MayRequire="Ludeon.RimWorld.Biotech">Baby</li>
+                        <!--test-->
                         <li MayRequire="Ludeon.RimWorld.Biotech">Child</li>
                     </bodyTypes>
-                <alienPartGenerator>
+                </alienPartGenerator>
+                <newbornBackstoryFilter>
+                    <li>
+                        <categories>
+                            <li>ESCP_GenericBiotechBackstory_Newborn</li>
+                        </categories>
+                        <commonality>1</commonality>
+                    </li>
+                </newbornBackstoryFilter>
+                <childBackstoryFilter>
+                    <li>
+                        <categories>
+                            <li>ESCP_GenericBiotechBackstory_Child</li>
+                        </categories>
+                        <commonality>1</commonality>
+                    </li>
+                </childBackstoryFilter>
+                <adultBackstoryFilter>
+                    <li>
+                        <categories>
+                            <li>ESCP_GenericBiotechBackstory_Adult</li>
+                        </categories>
+                        <commonality>1</commonality>
+                    </li>
+                </adultBackstoryFilter>
+                <adultVatBackstoryFilter>
+                    <li>
+                        <categories>
+                            <li>ESCP_GenericBiotechBackstory_VatGrown</li>
+                        </categories>
+                        <commonality>1</commonality>
+                    </li>
+                </adultVatBackstoryFilter>
             </generalSettings>
             <graphicPaths>
                 <head>Things/Pawn/Humanlike/Theo_Khajiit/Heads/</head>
                 <body>Things/Pawn/Humanlike/Theo_Khajiit/Bodies/</body>
             </graphicPaths>
-        <alienRace>
+        </alienRace>
     </AlienRace.ThingDef_AlienRace>
 </Defs>

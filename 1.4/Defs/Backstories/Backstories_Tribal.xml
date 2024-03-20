@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
-
-	<!--Additional parameters: gender commonality, rarity, bodytypeglobal, 
+<!--Additional parameters: gender commonality, rarity, bodytypeglobal, 
     forced trait chance, titlefemale, titleshortfemale, workdisables, requiredworktags, 
     disallowedtraits, possessions, linkedbackstory, forcedhediffs, passions, bioagerange, forceditems-->
-	<!--Escp race tools background based pawn opinions: khajiit vs dres-->
-	
+<!--Escp race tools background based pawn opinions: khajiit vs dres-->
 <Defs>
-    <!--Childhood-->
-    <AlienRace.AlienBackstoryDef ParentName="Theo_TribeKhajiit_ChildhoodBase">
+	<!--Childhood-->
+	<AlienRace.AlienBackstoryDef ParentName="Theo_TribeKhajiit_ChildhoodBase">
 		<defName>Theo_Khajiit_TribeChild1</defName>
 		<title>Badlands Child</title>
 		<titleShort>Badlands Child</titleShort>
@@ -23,8 +21,7 @@
 			</li>
 		</skillGains>
 	</AlienRace.AlienBackstoryDef>
-
-	 <AlienRace.AlienBackstoryDef ParentName="Theo_TribeKhajiit_ChildhoodBase">
+	<AlienRace.AlienBackstoryDef ParentName="Theo_TribeKhajiit_ChildhoodBase">
 		<defName>Theo_Khajiit_TribeChild2</defName>
 		<title>Fennec Fox Chaser</title>
 		<titleShort>Fennec Chaser</titleShort>
@@ -35,14 +32,13 @@
 				<value>4</value>
 			</li>
 		</skillGains>
-		<forcedTraitsChance MayRequire="vanillaexpanded.vanillatraitsexpanded">
-			<li>
+		<forcedTraitsChance>
+			<li MayRequire="vanillaexpanded.vanillatraitsexpanded">
 				<defName>VTE_AnimalLover</defName>
 				<chance>30</chance>
 			</li>
 		</forcedTraitsChance>
 	</AlienRace.AlienBackstoryDef>
-
 	<AlienRace.AlienBackstoryDef ParentName="Theo_TribeKhajiit_ChildhoodBase">
 		<defName>Theo_Khajiit_TribeChild3</defName>
 		<title>Senche racer</title>
@@ -55,7 +51,6 @@
 			</li>
 		</skillGains>
 	</AlienRace.AlienBackstoryDef>
-
 	<AlienRace.AlienBackstoryDef ParentName="Theo_TribeKhajiit_ChildhoodBase">
 		<defName>Theo_Khajiit_TribeChild4</defName>
 		<title>Hunter Child</title>
@@ -72,9 +67,8 @@
 			</li>
 		</skillGains>
 	</AlienRace.AlienBackstoryDef>
-
-    <!--Adulthood-->
-    <AlienRace.AlienBackstoryDef ParentName="Theo_TribeKhajiit_AdulthoodBase">
+	<!--Adulthood-->
+	<AlienRace.AlienBackstoryDef ParentName="Theo_TribeKhajiit_AdulthoodBase">
 		<defName>Theo_Khajiit_TribeAdult1</defName>
 		<title>Werelion hunter</title>
 		<titleShort>hunter</titleShort>
@@ -97,7 +91,6 @@
 		</forcedTraitsChance>
 		<requiredWorkTags>Violent</requiredWorkTags>
 	</AlienRace.AlienBackstoryDef>
-
 	<AlienRace.AlienBackstoryDef ParentName="Theo_TribeKhajiit_AdulthoodBase">
 		<defName>Theo_Khajiit_TribeAdult2</defName>
 		<title>Tribe Medic</title>
@@ -114,7 +107,6 @@
 			</li>
 		</skillGains>
 	</AlienRace.AlienBackstoryDef>
-
 	<AlienRace.AlienBackstoryDef ParentName="Theo_TribeKhajiit_AdulthoodBase">
 		<defName>Theo_Khajiit_TribeAdult3</defName>
 		<title>Curious Tribal</title>
@@ -130,10 +122,9 @@
 			<li>Cooking</li>
 		</workDisables>
 		<forcedItems MayRequire="sirmashedpotato.morrowrim.moonsugarandskooma">
-  			<MorrowRim_MoonSugar>1</MorrowRim_MoonSugar>
+			<MorrowRim_MoonSugar>1</MorrowRim_MoonSugar>
 		</forcedItems>
 	</AlienRace.AlienBackstoryDef>
-
 	<AlienRace.AlienBackstoryDef ParentName="Theo_TribeKhajiit_AdulthoodBase">
 		<defName>Theo_Khajiit_TribeAdult4</defName>
 		<title>Scaredy-cat</title>
@@ -148,5 +139,5 @@
 		<workDisables>
 			<li>Social</li>
 		</workDisables>
-	</AlienRace.AlienBackstoryDef>	
+	</AlienRace.AlienBackstoryDef>
 </Defs>

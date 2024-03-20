@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-    <FactionDef ParentName="ESCP_NonPlayerFactionBase_Tribal" Name="Theo_KhajiitNonPlayerFaction_Base" Abstract="True">
-        
+	<FactionDef ParentName="ESCP_NonPlayerFactionBase_Tribal" Name="Theo_KhajiitNonPlayerFaction_Base" Abstract="True">
 		<modExtensions>
-            <li Class="ESCP_RaceTools.SettlementPreference">
+			<li Class="ESCP_RaceTools.SettlementPreference">
 				<chance>1.0</chance>
 				<useTemperatureRange>true</useTemperatureRange>
 				<temperatureRangeMin>10</temperatureRangeMin>
@@ -25,13 +24,12 @@
 					<li>Theo_KhajiitFactionNonPlayer</li>
 				</factionTags>
 			</li>
-        </modExtensions>
+		</modExtensions>
 		<factionNameMaker>Theo_Khajiit_NamerFaction</factionNameMaker>
 		<settlementNameMaker>Theo_Khajiit_NamerSettlement</settlementNameMaker>
 		<allowedCultures>
 			<li>Theo_KhajiitCulture</li>
 		</allowedCultures>
-
 		<structureMemeWeights>
 			<ESCP_Structure_OriginDivinesEight MayRequire="Ludeon.RimWorld.Ideology">8</ESCP_Structure_OriginDivinesEight>
 			<Theo_Structure_Sky_Spirits MayRequire="Ludeon.RimWorld.Ideology">10</Theo_Structure_Sky_Spirits>
@@ -40,7 +38,6 @@
 			<!--<Theo_Structure_Dark_Spirits MayRequire="Ludeon.RimWorld.Ideology">1</Theo_Structure_Dark_Spirits>-->
 			<Theo_Structure_Adverserial_Spirits MayRequire="Ludeon.RimWorld.Ideology">4</Theo_Structure_Adverserial_Spirits>
 		</structureMemeWeights>
-
 		<raidLootMaker>Theo_Khajiit_LootBase</raidLootMaker>
 		<requiredPrecepts>
 			<li MayRequire="Ludeon.RimWorld.Ideology">ESCP_BeastfolkLeather_Abhorrent</li>
@@ -50,8 +47,7 @@
 			<li MayRequire="Ludeon.RimWorld.Ideology">MeatEating_Abhorrent</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">MeatEating_Horrible</li>
 		</disallowedPrecepts>
-    </FactionDef>
-
+	</FactionDef>
 	<FactionDef ParentName="Theo_KhajiitNonPlayerFaction_Base">
 		<defName>Theo_KhajiitNonPlayerFaction_Kingdom</defName>
 		<label>Khajiit kingdom</label>
@@ -59,9 +55,12 @@
 		<factionIconPath>World/WorldObjects/Theo_Khajiit_Kingdom</factionIconPath>
 		<description>The Khajiit kingdom is based on the cooperation of 16 tribes who banded together to survive the tides of time. Their settlements can be found anywhere from scorching deserts to lush rainforests. Venerating the moons, their shape is dependent on the phase, but some forms rarely leave the borders of their land. Often enslaved by the dunmer, Khajiit are often seen as lesser than the other races, taking insult when they are compared to the common cat. Contrary to their shared background, they dislike argonians.</description>
 		<colorSpectrum>
-			<li>(0.45, 0.75, 0.67)</li> <!--fill-->
-			<li>(0.55, 0.95, 0.67)</li> <!--fill-->
-			<li>(0.2, 0.8, 0.67)</li> <!--fill-->
+			<li>(0.45, 0.75, 0.67)</li>
+			<!--fill-->
+			<li>(0.55, 0.95, 0.67)</li>
+			<!--fill-->
+			<li>(0.2, 0.8, 0.67)</li>
+			<!--fill-->
 		</colorSpectrum>
 		<disallowedMemes>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
@@ -72,11 +71,11 @@
 		<requiredMemes>
 			<li MayRequire="vanillaexpanded.vmemese">VME_Trader</li>
 			<li MayRequire="vanillaexpanded.vmemese,vanillaexpanded.vcooke">VME_SweetTeeth</li>
-			<li MayRequire="Ludeon.RimWorld.Ideology">HighLife</li>		
+			<li MayRequire="Ludeon.RimWorld.Ideology">HighLife</li>
 		</requiredMemes>
 		<configurationListOrderPriority>30</configurationListOrderPriority>
-
-		<pawnGroupMakers> <!--add monks, rebalance chances-->
+		<pawnGroupMakers>
+			<!--add monks, rebalance chances-->
 			<li>
 				<kindDef>Combat</kindDef>
 				<commonality>100</commonality>
@@ -93,7 +92,6 @@
 					<Theo_Khajiit_Kingdom_ChiefBeastMaster>1.5</Theo_Khajiit_Kingdom_ChiefBeastMaster>
 				</options>
 			</li>
-			
 			<li>
 				<kindDef>Combat</kindDef>
 				<commonality>30</commonality>
@@ -104,7 +102,6 @@
 					<Theo_Khajiit_Kingdom_ChiefMelee>5</Theo_Khajiit_Kingdom_ChiefMelee>
 				</options>
 			</li>
-
 			<li>
 				<kindDef>Combat</kindDef>
 				<commonality>5</commonality>
@@ -122,7 +119,6 @@
 					<Theo_Khajiit_Kingdom_ChiefBeastMaster>1.5</Theo_Khajiit_Kingdom_ChiefBeastMaster>
 				</options>
 			</li>
-
 			<li>
 				<kindDef>Combat</kindDef>
 				<commonality>30</commonality>
@@ -135,7 +131,6 @@
 					<Theo_Khajiit_Kingdom_ChiefBeastMaster>1.5</Theo_Khajiit_Kingdom_ChiefBeastMaster>
 				</options>
 			</li>
-
 			<li>
 				<kindDef>Peaceful</kindDef>
 				<options>
@@ -148,14 +143,13 @@
 					<Theo_Khajiit_Kingdom_ChiefMelee>1.5</Theo_Khajiit_Kingdom_ChiefMelee>
 				</options>
 			</li>
-
 			<li>
 				<kindDef>Trader</kindDef>
 				<traders>
 					<Theo_Khajiit_Kingdom_Trader>1</Theo_Khajiit_Kingdom_Trader>
 				</traders>
 				<carriers>
-					 <!--edit with more unique carriers-->
+					<!--edit with more unique carriers-->
 					<Muffalo>6</Muffalo>
 					<Dromedary>5</Dromedary>
 					<Alpaca>2.5</Alpaca>
@@ -169,7 +163,6 @@
 					<Theo_Khajiit_Kingdom_Berserker>7</Theo_Khajiit_Kingdom_Berserker>
 				</guards>
 			</li>
-
 			<li>
 				<kindDef>Settlement</kindDef>
 				<options>
@@ -212,31 +205,33 @@
 				<options>
 					<Theo_Khajiit_Tribal_Farmer>1</Theo_Khajiit_Tribal_Farmer>
 				</options>
-			</li>		
-		</pawnGroupMakers>	
+			</li>
+		</pawnGroupMakers>
 	</FactionDef>
-
 	<FactionDef ParentName="Theo_KhajiitNonPlayerFaction_Base">
 		<defName>Theo_KhajiitNonPlayerFaction_Bandaari</defName>
 		<label>Bandaari Pedlars</label>
 		<leaderTitle>Grand Trader</leaderTitle>
 		<factionIconPath>World/WorldObjects/Theo_Khajiit_Bandaari</factionIconPath>
 		<canSiege>false</canSiege>
-        <canStageAttacks>false</canStageAttacks>
+		<canStageAttacks>false</canStageAttacks>
 		<description>The Bandaari Pedlars are a clan of nomads travelling the world. Believing everything is worth something, they frequently gather what other factions discard to sell at their next destination. Likewise, they believe that anything left behind for any reason is now rightfully theirs, leading to their reputation as thieves. When trading, they are known to do anything they can to sweeten the deal, for themselves that is.</description>
 		<modExtensions>
 			<li Class="VFECore.FactionDefExtension">
 				<shouldHaveLeader>false</shouldHaveLeader>
 				<excludeFromCommConsole>true</excludeFromCommConsole>
 			</li>
-  			<li Class="KCSG.CustomGenOption">
-    			<canSpawnSettlements>false</canSpawnSettlements>
-  			</li>
+			<li Class="KCSG.CustomGenOption">
+				<canSpawnSettlements>false</canSpawnSettlements>
+			</li>
 		</modExtensions>
 		<colorSpectrum>
-			<li>(0.45, 0.75, 0.67)</li> <!--fill-->
-			<li>(0.55, 0.95, 0.67)</li> <!--fill-->
-			<li>(0.2, 0.8, 0.67)</li> <!--fill-->
+			<li>(0.45, 0.75, 0.67)</li>
+			<!--fill-->
+			<li>(0.55, 0.95, 0.67)</li>
+			<!--fill-->
+			<li>(0.2, 0.8, 0.67)</li>
+			<!--fill-->
 		</colorSpectrum>
 		<disallowedMemes>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
@@ -248,10 +243,9 @@
 			<li MayRequire="vanillaexpanded.vmemese">VME_Trader</li>
 			<li MayRequire="vanillaexpanded.vmemese,vanillaexpanded.vcooke">VME_SweetTeeth</li>
 			<li MayRequire="vanillaexpanded.vmemese">VME_Nomad</li>
-			<li MayRequire="Ludeon.RimWorld.Ideology">HighLife</li>		
+			<li MayRequire="Ludeon.RimWorld.Ideology">HighLife</li>
 		</requiredMemes>
 		<configurationListOrderPriority>30</configurationListOrderPriority>
-
 		<pawnGroupMakers>
 			<li>
 				<kindDef>Trader</kindDef>
@@ -259,7 +253,7 @@
 					<Theo_Khajiit_Kingdom_Trader>1</Theo_Khajiit_Kingdom_Trader>
 				</traders>
 				<carriers>
-					 <!--edit with more unique carriers-->
+					<!--edit with more unique carriers-->
 					<Muffalo>6</Muffalo>
 					<Dromedary>5</Dromedary>
 					<Alpaca>2.5</Alpaca>
@@ -275,7 +269,6 @@
 			</li>
 		</pawnGroupMakers>
 	</FactionDef>
-
 	<FactionDef ParentName="Theo_KhajiitNonPlayerFaction_Base">
 		<defName>Theo_KhajiitNonPlayerFaction_Tribal</defName>
 		<label>Rough Khajiit Tribe</label>
@@ -283,9 +276,12 @@
 		<factionIconPath>World/WorldObjects/Theo_Khajiit_Tribe</factionIconPath>
 		<description>Unlike its more civilised counterpart, this tribe of Khajiit never decided to join society, opting for a tight enclave amongst their own. They are often hostile to outsiders who dare to encroach on their territories, but may be temporarily pacified by the dedicated.</description>
 		<colorSpectrum>
-			<li>(0.45, 0.75, 0.67)</li> <!--fill-->
-			<li>(0.55, 0.95, 0.67)</li> <!--fill-->
-			<li>(0.2, 0.8, 0.67)</li> <!--fill-->
+			<li>(0.45, 0.75, 0.67)</li>
+			<!--fill-->
+			<li>(0.55, 0.95, 0.67)</li>
+			<!--fill-->
+			<li>(0.2, 0.8, 0.67)</li>
+			<!--fill-->
 		</colorSpectrum>
 		<disallowedMemes>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
@@ -296,7 +292,6 @@
 			<li MayRequire="VanillaExpanded.VMemesE">VME_BloodCourt</li>
 		</requiredMemes>
 		<configurationListOrderPriority>30</configurationListOrderPriority>
-
 		<pawnGroupMakers>
 			<li>
 				<kindDef>Combat</kindDef>
@@ -314,7 +309,6 @@
 					<Theo_Khajiit_Tribal_ChiefBeastMaster>1.5</Theo_Khajiit_Tribal_ChiefBeastMaster>
 				</options>
 			</li>
-			
 			<li>
 				<kindDef>Combat</kindDef>
 				<commonality>30</commonality>
@@ -325,7 +319,6 @@
 					<Theo_Khajiit_Tribal_ChiefMelee>5</Theo_Khajiit_Tribal_ChiefMelee>
 				</options>
 			</li>
-
 			<li>
 				<kindDef>Combat</kindDef>
 				<commonality>5</commonality>
@@ -343,7 +336,6 @@
 					<Theo_Khajiit_Tribal_ChiefBeastMaster>1.5</Theo_Khajiit_Tribal_ChiefBeastMaster>
 				</options>
 			</li>
-
 			<li>
 				<kindDef>Combat</kindDef>
 				<commonality>30</commonality>
@@ -356,7 +348,6 @@
 					<Theo_Khajiit_Tribal_ChiefBeastMaster>1.5</Theo_Khajiit_Tribal_ChiefBeastMaster>
 				</options>
 			</li>
-
 			<li>
 				<kindDef>Peaceful</kindDef>
 				<options>
@@ -369,14 +360,13 @@
 					<Theo_Khajiit_Tribal_ChiefMelee>1.5</Theo_Khajiit_Tribal_ChiefMelee>
 				</options>
 			</li>
-
 			<li>
 				<kindDef>Trader</kindDef>
 				<traders>
 					<Theo_Khajiit_Tribal_Trader>1</Theo_Khajiit_Tribal_Trader>
 				</traders>
 				<carriers>
-					 <!--edit with more unique carriers-->
+					<!--edit with more unique carriers-->
 					<Muffalo>6</Muffalo>
 					<Dromedary>5</Dromedary>
 					<Alpaca>2.5</Alpaca>
@@ -390,7 +380,6 @@
 					<Theo_Khajiit_Tribal_Berserker>7</Theo_Khajiit_Tribal_Berserker>
 				</guards>
 			</li>
-
 			<li>
 				<kindDef>Settlement</kindDef>
 				<options>
@@ -426,11 +415,10 @@
 				<options>
 					<Theo_Khajiit_Tribal_Logger>1</Theo_Khajiit_Tribal_Logger>
 				</options>
-			</li>	
-		</pawnGroupMakers>	
+			</li>
+		</pawnGroupMakers>
 		<naturalEnemy>true</naturalEnemy>
 	</FactionDef>
-
 	<!--<FactionDef ParentName="Theo_KhajiitNonPlayerFaction_Base">
 		<defName>Theo_KhajiitNonPlayerFaction_Dro-m'Athra</defName>
 		<label>Dro-m'Athra Raiders</label>

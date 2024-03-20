@@ -5,18 +5,19 @@
         <label>Khajiit Leather</label>
         <description>Leather carefully tanned from a Khajiit carcass. Due to their intelligence, many find it too uncanny to use.</description>
         <graphicData>
-			<color>(201,185,149)</color> <!--edit to a nice color-->
-		</graphicData>
+            <color>(201,185,149)</color>
+            <!--edit to a nice color-->
+        </graphicData>
         <statBases>
             <MarketValue>5</MarketValue>
             <StuffPower_Armor_Sharp>0.18</StuffPower_Armor_Sharp>
-			<StuffPower_Insulation_Cold>20</StuffPower_Insulation_Cold>
-			<StuffPower_Insulation_Heat>10</StuffPower_Insulation_Heat>
+            <StuffPower_Insulation_Cold>20</StuffPower_Insulation_Cold>
+            <StuffPower_Insulation_Heat>10</StuffPower_Insulation_Heat>
         </statBases>
         <stuffProps>
-			<color>(218,172,139)</color> <!--edit to a nice color-->
-			<commonality>0.0025</commonality>
-		</stuffProps>
-	</ThingDef>
-
+            <color>(218,172,139)</color>
+            <!--edit to a nice color-->
+            <commonality>0.0025</commonality>
+        </stuffProps>
+    </ThingDef>
 </Defs>

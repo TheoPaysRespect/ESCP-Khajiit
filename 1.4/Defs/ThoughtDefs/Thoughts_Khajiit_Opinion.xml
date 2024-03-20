@@ -8,8 +8,8 @@
 		<modExtensions>
 			<li Class="ESCP_RaceTools.ThoughtDefProperties">
 				<sharedBackstoryCategories>
-				<li>Theo_MonkKhajiitBackstory_Adulthood</li>
-                <li>Theo_MonkKhajiitBackstory_Childhood</li>
+					<li>Theo_MonkKhajiitBackstory_Adulthood</li>
+					<li>Theo_MonkKhajiitBackstory_Childhood</li>
 				</sharedBackstoryCategories>
 			</li>
 		</modExtensions>

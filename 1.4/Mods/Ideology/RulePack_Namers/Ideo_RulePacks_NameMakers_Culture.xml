@@ -12,15 +12,14 @@
 				<li>cultureLeaderAdjective->lunar</li>
 				<li>cultureLeaderAdjective->divine</li>
 				<li>cultureLeaderAdjective->sugary</li>
-                <li>cultureLeaderAdjective->sharp</li>
-                <li>cultureLeaderAdjective->majestic</li>
-                <li>cultureLeaderNoun->mane</li>
+				<li>cultureLeaderAdjective->sharp</li>
+				<li>cultureLeaderAdjective->majestic</li>
+				<li>cultureLeaderNoun->mane</li>
 				<li>cultureLeaderNoun->Pakseech</li>
 				<li>cultureLeaderNoun->K'har</li>
 			</rulesStrings>
 		</rulePack>
 	</RulePackDef>
-
 	<RulePackDef>
 		<defName>Theo_Khajiit_NamerCultureDeityName</defName>
 		<include>

@@ -6,10 +6,10 @@
 			<li>
 				<factionDef>Theo_KhajiitNonPlayerFaction_Kingdom</factionDef>
 				<pawnKinds>
-					<li>Theo_Khajiit_Tribal_Penitent</li>
-					<li>Theo_Khajiit_Tribal_Warrior</li>
-					<li>Theo_Khajiit_Tribal_Archer</li>
-					<li>Theo_Khajiit_Tribal_Hunter</li>
+					<li>Theo_Khajiit_Kingdom_Penitent</li>
+					<li>Theo_Khajiit_Kingdom_Warrior</li>
+					<li>Theo_Khajiit_Kingdom_Archer</li>
+					<li>Theo_Khajiit_Kingdom_Hunter</li>
 				</pawnKinds>
 			</li>
 			<li>

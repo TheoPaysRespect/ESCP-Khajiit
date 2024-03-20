@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-    <!--Additional parameters: gender commonality, rarity, bodytypeglobal, 
+	<!--Additional parameters: gender commonality, rarity, bodytypeglobal, 
     forced trait chance, titlefemale, titleshortfemale, workdisables, requiredworktags, 
     disallowedtraits, possessions, linkedbackstory, forcedhediffs, passions, bioagerange, forceditems-->
 	<!--Escp race tools background based pawn opinions: khajiit vs dres-->
-	
 	<!--ESCP_DunmerGreatHouse_Dres_Adulthood-->
 	<!--Link monk childhoods and adulthoods-->
-
-    <!--Childhood-->
-    <AlienRace.AlienBackstoryDef ParentName="Theo_MonkKhajiit_ChildhoodBase">
+	<!--Childhood-->
+	<AlienRace.AlienBackstoryDef ParentName="Theo_MonkKhajiit_ChildhoodBase">
 		<defName>Theo_Khajiit_MonkChild1</defName>
 		<title>Whispering Claw student</title>
 		<titleShort>monk student</titleShort>
@@ -27,7 +24,6 @@
 		</skillGains>
 		<linkedBackstory>Theo_Khajiit_MonkAdult3</linkedBackstory>
 	</AlienRace.AlienBackstoryDef>
-
 	<AlienRace.AlienBackstoryDef ParentName="Theo_MonkKhajiit_ChildhoodBase">
 		<defName>Theo_Khajiit_MonkChild2</defName>
 		<title>Desert Rain student</title>
@@ -40,7 +36,6 @@
 			</li>
 		</skillGains>
 	</AlienRace.AlienBackstoryDef>
-
 	<AlienRace.AlienBackstoryDef ParentName="Theo_MonkKhajiit_ChildhoodBase">
 		<defName>Theo_Khajiit_MonkChild3</defName>
 		<title>Goutfang student</title>
@@ -53,7 +48,6 @@
 			</li>
 		</skillGains>
 	</AlienRace.AlienBackstoryDef>
-
 	<AlienRace.AlienBackstoryDef ParentName="Theo_MonkKhajiit_ChildhoodBase">
 		<defName>Theo_Khajiit_MonkChild4</defName>
 		<title>Desert Wind student</title>
@@ -66,9 +60,8 @@
 			</li>
 		</skillGains>
 	</AlienRace.AlienBackstoryDef>
-
-    <!--Adulthood-->
-    <AlienRace.AlienBackstoryDef ParentName="Theo_MonkKhajiit_AdulthoodBase">
+	<!--Adulthood-->
+	<AlienRace.AlienBackstoryDef ParentName="Theo_MonkKhajiit_AdulthoodBase">
 		<defName>Theo_Khajiit_MonkAdult1</defName>
 		<title>War monk</title>
 		<titleShort>monk</titleShort>
@@ -84,7 +77,6 @@
 			</li>
 		</skillGains>
 	</AlienRace.AlienBackstoryDef>
-	
 	<AlienRace.AlienBackstoryDef ParentName="Theo_MonkKhajiit_AdulthoodBase">
 		<defName>Theo_Khajiit_MonkAdult2</defName>
 		<title>Monk scribe</title>
@@ -101,7 +93,6 @@
 			</li>
 		</skillGains>
 	</AlienRace.AlienBackstoryDef>
-
 	<AlienRace.AlienBackstoryDef ParentName="Theo_MonkKhajiit_AdulthoodBase">
 		<defName>Theo_Khajiit_MonkAdult3</defName>
 		<title>Assassin Monk</title>
