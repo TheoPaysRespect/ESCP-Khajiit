@@ -24,12 +24,6 @@
                     <li>ESCP_DunmerSlaveBackstory_Adulthood</li>
                     <li>Theo_CityKhajiitBackstory_Adulthood</li>
                 </categoriesAdulthood>
-                <excludeChildhood>
-                    <li>ESCP_KhajiitBackstory_Exclusion</li>
-                </excludeChildhood>
-                <excludeAdulthood>
-                    <li>ESCP_KhajiitBackstory_Exclusion</li>
-                </excludeAdulthood>
             </li>
         </backstoryFiltersOverride>
     </PawnKindDef>
@@ -52,12 +46,6 @@
                     <li>Theo_TribeKhajiitBackstory_Adulthood</li>
                     <li>ESCP_DunmerSlaveBackstory_Adulthood</li>
                 </categoriesAdulthood>
-                <excludeChildhood>
-                    <li>ESCP_KhajiitBackstory_Exclusion</li>
-                </excludeChildhood>
-                <excludeAdulthood>
-                    <li>ESCP_KhajiitBackstory_Exclusion</li>
-                </excludeAdulthood>
             </li>
         </backstoryFiltersOverride>
     </PawnKindDef>

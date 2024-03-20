@@ -34,12 +34,6 @@
 					<li>Theo_CityKhajiitBackstory_Adulthood</li>
 					<li>Theo_MonkKhajiitBackstory_Adulthood</li>
 				</categoriesAdulthood>
-				<excludeChildhood>
-					<li>ESCP_KhajiitBackstory_Exclusion</li>
-				</excludeChildhood>
-				<excludeAdulthood>
-					<li>ESCP_KhajiitBackstory_Exclusion</li>
-				</excludeAdulthood>
 			</li>
 		</backstoryFiltersOverride>
 	</PawnKindDef>
@@ -137,9 +131,6 @@
 				<categoriesAdulthood>
 					<li>ESCP_GenericBackstory_AdulthoodBeastMaster</li>
 				</categoriesAdulthood>
-				<excludeChildhood>
-					<li>ESCP_KhajiitBackstory_Exclusion</li>
-				</excludeChildhood>
 				<excludeAdulthood>
 					<li>ESCP_KhajiitBackstory_Exclusion</li>
 				</excludeAdulthood>
@@ -180,9 +171,6 @@
 					<li>TribalHunter</li>
 					<li>ESCP_GenericBackstory_AdulthoodMedievalHunter</li>
 				</categoriesAdulthood>
-				<excludeChildhood>
-					<li>ESCP_KhajiitBackstory_Exclusion</li>
-				</excludeChildhood>
 				<excludeAdulthood>
 					<li>ESCP_KhajiitBackstory_Exclusion</li>
 				</excludeAdulthood>
@@ -221,9 +209,6 @@
 				<categoriesAdulthood>
 					<li>Theo_TraderBackstory</li>
 				</categoriesAdulthood>
-				<excludeChildhood>
-					<li>ESCP_KhajiitBackstory_Exclusion</li>
-				</excludeChildhood>
 				<excludeAdulthood>
 					<li>ESCP_KhajiitBackstory_Exclusion</li>
 				</excludeAdulthood>
@@ -336,9 +321,6 @@
 				<categoriesAdulthood>
 					<li>ESCP_GenericBackstory_AdulthoodBeastMaster</li>
 				</categoriesAdulthood>
-				<excludeChildhood>
-					<li>ESCP_KhajiitBackstory_Exclusion</li>
-				</excludeChildhood>
 				<excludeAdulthood>
 					<li>ESCP_KhajiitBackstory_Exclusion</li>
 				</excludeAdulthood>
