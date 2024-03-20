@@ -85,12 +85,15 @@
                                 <li>UpperHead</li>
                             </hiddenUnderApparelFor>
                             <offsets>
+                                <south>
+                                    <offset>(0.043,0.15)</offset>
+                                </south>
                                 <north>
-                                    <layerOffset>-0.28</layerOffset>
+                                     <offset>(-0.055,0.155)</offset>
                                     <!--test these-->
                                 </north>
                                 <east>
-                                    <layerOffset>-0.332</layerOffset>
+                                    <offset>(0.08,0.25)</offset>
                                     <!--test these-->
                                 </east>
                             </offsets>
@@ -110,12 +113,15 @@
                                 <li>UpperHead</li>
                             </hiddenUnderApparelFor>
                             <offsets>
+                                <south>
+                                    <offset>(-0.055,0.15)</offset>
+                                </south>
                                 <north>
-                                    <layerOffset>-0.28</layerOffset>
+                                    <offset>(0.045,0.155)</offset>
                                     <!--test these-->
                                 </north>
                                 <east>
-                                    <layerOffset>-0.332</layerOffset>
+                                    <offset>(0.08,0.25)</offset>
                                     <!--test these-->
                                 </east>
                             </offsets>
@@ -126,17 +132,17 @@
                             <bodyPart>Tail</bodyPart>
                             <bodyPartLabel>tail</bodyPartLabel>
                             <defaultOffset>Tail</defaultOffset>
-                            <drawnInBed>true</drawnInBed>
+                            <drawnInBed>false</drawnInBed>
                             <inFrontOfBody>false</inFrontOfBody>
                             <drawnDesiccated>false</drawnDesiccated>
                             <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
                             <offsets>
                                 <!--test-->
                                 <north>
-                                    <layerOffset>-0.1</layerOffset>
+                                      <offset>(-0.0286,0.0571)</offset>
                                 </north>
                                 <east>
-                                    <layerOffset>-0.1</layerOffset>
+                                     <offset>(0.0143,-0.1429)</offset>
                                 </east>
                             </offsets>
                         </li>

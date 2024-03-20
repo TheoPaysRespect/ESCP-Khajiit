@@ -14,8 +14,8 @@
 			<parts>
 				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
 					<def>ConfigPage_ConfigureStartingPawns</def>
-					<pawnCount>8</pawnCount>
-					<pawnChoiceCount>4</pawnChoiceCount>
+					<pawnCount>4</pawnCount>
+					<pawnChoiceCount>8</pawnChoiceCount>
 				</li>
 				<li Class="ScenPart_PlayerPawnsArriveMethod">
 					<def>PlayerPawnsArriveMethod</def>

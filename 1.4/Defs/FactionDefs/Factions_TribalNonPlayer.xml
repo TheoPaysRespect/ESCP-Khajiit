@@ -210,6 +210,8 @@
 	</FactionDef>
 	<!--<FactionDef ParentName="Theo_KhajiitNonPlayerFaction_Base">
 		<defName>Theo_KhajiitNonPlayerFaction_Bandaari</defName>
+		<pawnSingular>bandaari</pawnSingular>
+    	<pawnsPlural>bandaari</pawnsPlural>
 		<label>Bandaari Pedlars</label>
 		<leaderTitle>Grand Trader</leaderTitle>
 		<factionIconPath>World/WorldObjects/Theo_Khajiit_Bandaari</factionIconPath>
@@ -236,12 +238,12 @@
 			<li MayRequire="vanillaexpanded.vmemese">VME_Nomad</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">HighLife</li>
 		</requiredMemes>
-		<configurationListOrderPriority>30</configurationListOrderPriority>
+		<configurationListOrderPriority>999</configurationListOrderPriority>
 		<pawnGroupMakers>
 			<li>
 				<kindDef>Trader</kindDef>
 				<traders>
-					<Theo_Khajiit_Kingdom_Trader>1</Theo_Khajiit_Kingdom_Trader>
+					<Theo_Khajiit_Kingdom_Trader>3</Theo_Khajiit_Kingdom_Trader>
 				</traders>
 				<carriers>
 					<Muffalo>6</Muffalo>
@@ -250,11 +252,11 @@
 					<Elephant>2</Elephant>
 				</carriers>
 				<guards>
-					<Theo_Khajiit_Kingdom_Warrior>7</Theo_Khajiit_Kingdom_Warrior>
-					<Theo_Khajiit_Kingdom_Archer>10</Theo_Khajiit_Kingdom_Archer>
-					<Theo_Khajiit_Kingdom_Hunter>10</Theo_Khajiit_Kingdom_Hunter>
-					<Theo_Khajiit_Kingdom_HeavyArcher>10</Theo_Khajiit_Kingdom_HeavyArcher>
-					<Theo_Khajiit_Kingdom_Berserker>7</Theo_Khajiit_Kingdom_Berserker>
+					<Theo_Khajiit_Kingdom_Warrior>3</Theo_Khajiit_Kingdom_Warrior>
+					<Theo_Khajiit_Kingdom_Archer>5</Theo_Khajiit_Kingdom_Archer>
+					<Theo_Khajiit_Kingdom_Hunter>5</Theo_Khajiit_Kingdom_Hunter>
+					<Theo_Khajiit_Kingdom_HeavyArcher>5</Theo_Khajiit_Kingdom_HeavyArcher>
+					<Theo_Khajiit_Kingdom_Berserker>3</Theo_Khajiit_Kingdom_Berserker>
 				</guards>
 			</li>
 		</pawnGroupMakers>
@@ -273,6 +275,11 @@
 			<li>(0.2, 0.8, 0.67)</li>
 			<!--fill-->
 		</colorSpectrum>
+		<modExtensions>
+			<li Class="VFECore.FactionDefExtension">
+				<neverConnectToRoads>true</neverConnectToRoads>
+			</li>
+		</modExtensions>
 		<disallowedMemes>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
 		</disallowedMemes>
@@ -281,7 +288,7 @@
 			<li MayRequire="vanillaexpanded.vmemese">VME_Nomad</li>
 			<li MayRequire="VanillaExpanded.VMemesE">VME_BloodCourt</li>
 		</requiredMemes>
-		<configurationListOrderPriority>30</configurationListOrderPriority>
+		<configurationListOrderPriority>40</configurationListOrderPriority>
 		<pawnGroupMakers>
 			<li>
 				<kindDef>Combat</kindDef>
