@@ -75,7 +75,7 @@
 				<!--Finish the divines-->
 				<divinesList>
 					<li>
-						<name>Akatosh</name>
+						<name>Alkosh</name>
 						<type>Dragon King of Cats</type>
 						<gender>Male</gender>
 						<iconPath>UI/Deities/ESCP_DeityAkatosh</iconPath>

@@ -294,10 +294,6 @@
 			<li MayRequire="vanillaexpanded.vmemese">VME_Nomad</li>
 			<li MayRequire="VanillaExpanded.VMemesE">VME_BloodCourt</li>
 		</requiredMemes>
-		<preferredWeaponClasses MayRequire="Ludeon.RimWorld.Ideology">
-			<noble>Neolithic</noble>
-			<despised>Ultratech</despised>
-		</preferredWeaponClasses>
 		<configurationListOrderPriority>40</configurationListOrderPriority>
 		<pawnGroupMakers>
 			<li>
