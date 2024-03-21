@@ -68,6 +68,12 @@
 					<thingDef>Cloth</thingDef>
 					<count>52</count>
 				</li>
+				<li MayRequire="oskarpotocki.vfe.vikings"
+					Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>VFEV_Sweetroll</thingDef>
+					<count>5</count>
+				</li>
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
 					<thingDef>Gold</thingDef>
