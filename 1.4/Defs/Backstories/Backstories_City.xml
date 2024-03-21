@@ -25,6 +25,9 @@
 			</li>
 		</skillGains>
 		<workDisables>Social</workDisables>
+		<spawnCategories>
+			<li>Theo_Addict_Exclusion</li>
+		</spawnCategories>
 		<forcedHediffs>
 			<li MayRequire="sirmashedpotato.morrowrim.moonsugarandskooma">MorrowRim_SkoomaAddiction</li>
 		</forcedHediffs>
@@ -49,9 +52,9 @@
 				<value>-2</value>
 			</li>
 		</skillGains>
-		<!--<forcedItems>
-  			<Theo_Yarnball>1</Theo_Yarnball>
-		</forcedItems>-->
+		<forcedItems>
+			<WoolSheep>3</WoolSheep>
+		</forcedItems>
 	</AlienRace.AlienBackstoryDef>
 	<AlienRace.AlienBackstoryDef ParentName="Theo_CityKhajiit_ChildhoodBase">
 		<defName>Theo_Khajiit_CityChild3</defName>
@@ -159,6 +162,9 @@
 			</li>
 		</skillGains>
 		<workDisables>ManualSkilled</workDisables>
+		<spawnCategories>
+			<li>Theo_Addict_Exclusion</li>
+		</spawnCategories>
 		<forcedHediffs>
 			<li MayRequire="sirmashedpotato.morrowrim.moonsugarandskooma">MorrowRim_SkoomaAddiction</li>
 		</forcedHediffs>

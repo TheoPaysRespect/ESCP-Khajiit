@@ -61,6 +61,9 @@
 			</li>
 		</skillGains>
 		<shuffleable>false</shuffleable>
+		<forcedItems> <!--couldn't get him to wear one-->
+  			<MorrowRim_ColovianFurHelm MayRequire="sirmashedpotato.morrowrim.colovianfurhelm">1</MorrowRim_ColovianFurHelm>
+		</forcedItems>
 	</AlienRace.AlienBackstoryDef>
 	<AlienRace.AlienBackstoryDef ParentName="Theo_Khajiit_AdulthoodBase">
 		<defName>Theo_Jasper_Adulthood</defName>
