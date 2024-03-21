@@ -45,22 +45,22 @@
 			</li>
 			<li>
 				<tag>NoBeard</tag>
-				<baseWeight>1</baseWeight>
+				<baseWeight>10</baseWeight>
 				<weightFactor>1</weightFactor>
 			</li>
 			<li>
 				<tag>BeardTribal</tag>
-				<baseWeight>0.1</baseWeight>
+				<baseWeight>0.3</baseWeight>
 				<weightFactor>1</weightFactor>
 			</li>
 			<li>
 				<tag>TattooFaceTribal</tag>
-				<baseWeight>0.4</baseWeight>
+				<baseWeight>0.1</baseWeight>
 				<weightFactor>1</weightFactor>
 			</li>
 			<li>
 				<tag>TattooBodyTribal</tag>
-				<baseWeight>0.4</baseWeight>
+				<baseWeight>0.1</baseWeight>
 				<weightFactor>1</weightFactor>
 			</li>
 			<li>

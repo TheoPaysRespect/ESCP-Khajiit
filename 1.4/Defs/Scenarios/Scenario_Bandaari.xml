@@ -21,22 +21,6 @@
 					<def>PlayerPawnsArriveMethod</def>
 					<method>Standing</method>
 				</li>
-				<li Class="ScenPart_ForcedHediff">
-					<def>ForcedHediff</def>
-					<visible>false</visible>
-					<context>PlayerStarter</context>
-					<chance>0.5</chance>
-					<hediff>Malnutrition</hediff>
-					<severityRange>0.2~0.4</severityRange>
-				</li>
-				<li Class="ScenPart_SetNeedLevel">
-					<def>SetNeedLevel</def>
-					<visible>false</visible>
-					<context>PlayerStarter</context>
-					<chance>1.0</chance>
-					<need>Food</need>
-					<levelRange>0~0.1</levelRange>
-				</li>
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
 					<thingDef>Pemmican</thingDef>
