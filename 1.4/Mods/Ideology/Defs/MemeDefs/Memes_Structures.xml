@@ -10,11 +10,11 @@
 				<overrideDeityIcons>true</overrideDeityIcons>
 				<iconPath>
 					<li>UI/Deities/ESCP_DeityAzura</li>
-					<li>UI/Deities/Theo_DeityJone</li>
+					<li>UI/Deities/ESCP_DeityLorkhan</li>
 					<!--Art needed-->
-					<li>UI/Deities/Theo_DeityJode</li>
+					<li>UI/Deities/ESCP_DeityLorkhan</li>
 					<!--Art needed-->
-					<li>UI/Deities/Theo_DeityKhenarthi</li>
+					<li>UI/Deities/ESCP_DeityLorkhan</li>
 					<!--Art needed-->
 					<li>UI/Deities/ESCP_DeityMagnus</li>
 				</iconPath>
@@ -28,7 +28,7 @@
 				</deityGenders>
 			</li>
 		</modExtensions>
-		<iconPath>UI/Structures/Theo_SkySpirits</iconPath>
+		<iconPath>UI/Structures/ESCP_OriginLorkhanCult</iconPath>
 		<!--Art needed-->
 		<deityCount>5</deityCount>
 		<allowSymbolsFromDeity>false</allowSymbolsFromDeity>
@@ -131,7 +131,7 @@
 				<iconPath>
 					<li>UI/Deities/ESCP_DeityHermeusMora</li>
 					<li>UI/Deities/ESCP_DeityHircine</li>
-					<li>UI/Deities/ESCP_DeityNirn</li>
+					<li>UI/Deities/ESCP_DeityLorkan</li> <!--nirn-->
 					<li>UI/Deities/ESCP_DeitySanguine</li>
 					<li>UI/Deities/ESCP_DeityYffre</li>
 				</iconPath>
@@ -145,7 +145,7 @@
 				</deityGenders>
 			</li>
 		</modExtensions>
-		<iconPath>UI/Structures/Theo_WorldlySpirits</iconPath>
+		<iconPath>UI/Structures/ESCP_OriginLorkhanCult</iconPath>
 		<!--Art needed-->
 		<deityCount>5</deityCount>
 		<allowSymbolsFromDeity>false</allowSymbolsFromDeity>
@@ -246,13 +246,13 @@
 				<IgnoreDuplicateDeityNames>true</IgnoreDuplicateDeityNames>
 				<overrideDeityIcons>true</overrideDeityIcons>
 				<iconPath>
-					<li>UI/Deities/Theo_DeityAkha</li>
+					<li>UI/Deities/ESCP_DeityLorkhan</li>
 					<!--Art needed-->
-					<li>UI/Deities/Theo_DeityAlkhan</li>
+					<li>UI/Deities/ESCP_DeityLorkhan</li>
 					<!--Art needed-->
 					<li>UI/Deities/ESCP_DeityAkatosh</li>
-					<li>UI/Deities/ESCP_DeityBoetiah</li>
-					<li>UI/Deities/ESCP_DeityMafala</li>
+					<li>UI/Deities/ESCP_DeityBoethiah</li>
+					<li>UI/Deities/ESCP_DeityMephala</li>
 				</iconPath>
 				<overrideDeityGenders>true</overrideDeityGenders>
 				<deityGenders>
@@ -264,7 +264,7 @@
 				</deityGenders>
 			</li>
 		</modExtensions>
-		<iconPath>UI/Structures/Theo_WanderingSpirits</iconPath>
+		<iconPath>UI/Structures/ESCP_OriginLorkhanCult</iconPath>
 		<!--Art needed-->
 		<deityCount>5</deityCount>
 		<allowSymbolsFromDeity>false</allowSymbolsFromDeity>
@@ -368,7 +368,7 @@
 					<li>UI/Deities/ESCP_DeityNamira</li>
 					<li>UI/Deities/ESCP_DeityNocturnal</li>
 					<li>UI/Deities/ESCP_DeityVaermina</li>
-					<li>UI/Deities/Theo_DeityTheNameless</li>
+					<li>UI/Deities/ESCP_DeityLorkhan</li>
 					<!--Art needed-->
 				</iconPath>
 				<overrideDeityGenders>true</overrideDeityGenders>
@@ -380,7 +380,7 @@
 				</deityGenders>
 			</li>
 		</modExtensions>
-		<iconPath>UI/Structures/Theo_DarkSpirits</iconPath>
+		<iconPath>UI/Structures/ESCP_OriginLorkhanCult</iconPath>
 		<!--Art needed-->
 		<deityCount>4</deityCount>
 		<allowSymbolsFromDeity>false</allowSymbolsFromDeity>
@@ -493,7 +493,7 @@
 				</deityGenders>
 			</li>
 		</modExtensions>
-		<iconPath>UI/Structures/Theo_AdverserialSpirits</iconPath>
+		<iconPath>UI/Structures/ESCP_OriginLorkhanCult</iconPath>
 		<!--Art needed-->
 		<deityCount>5</deityCount>
 		<allowSymbolsFromDeity>false</allowSymbolsFromDeity>

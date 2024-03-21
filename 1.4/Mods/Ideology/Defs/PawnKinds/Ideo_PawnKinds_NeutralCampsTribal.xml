@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<PawnKindDef ParentName="Theo_khajiit_TribalBase">
+	<PawnKindDef ParentName="Theo_Khajiit_TribalBase">
 		<defName>Theo_Khajiit_Tribal_Farmer</defName>
 		<label>farmer</label>
 		<combatPower>35</combatPower>
