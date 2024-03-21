@@ -45,7 +45,7 @@
 			</li>
 			<li>
 				<tag>NoBeard</tag>
-				<baseWeight>10</baseWeight>
+				<baseWeight>20</baseWeight>
 				<weightFactor>1</weightFactor>
 			</li>
 			<li>

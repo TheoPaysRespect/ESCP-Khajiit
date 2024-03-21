@@ -16,12 +16,14 @@
 					<li>Tribal</li>
 					<li>Theo_TribeKhajiitBackstory_Childhood</li>
 					<li>ESCP_GenericBackstory_ChildhoodTribal</li>
+					<li>Theo_KhajiitBackstory_Childhood</li>
 				</categoriesChildhood>
 				<categoriesAdulthood>
 					<li>Tribal</li>
 					<li>ESCP_GenericBackstory_AdulthoodSlaver</li>
 					<li>Theo_TribeKhajiitBackstory_Adulthood</li>
 					<li>ESCP_DunmerSlaveBackstory_Adulthood</li>
+					<li>Theo_KhajiitBackstory_Adulthood</li>
 				</categoriesAdulthood>
 			</li>
 		</backstoryFiltersOverride>
