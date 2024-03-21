@@ -80,10 +80,10 @@
                             <alignWithHead>true</alignWithHead>
                             <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
                             <drawnDesiccated>false</drawnDesiccated>
-                            <hiddenUnderApparelFor>
+                            <!--<hiddenUnderApparelFor>
                                 <li>FullHead</li>
                                 <li>UpperHead</li>
-                            </hiddenUnderApparelFor>
+                            </hiddenUnderApparelFor>-->
                             <offsets>
                                 <south>
                                     <offset>(0.043,0.15)</offset>
@@ -108,10 +108,11 @@
                             <alignWithHead>true</alignWithHead>
                             <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
                             <drawnDesiccated>false</drawnDesiccated>
-                            <hiddenUnderApparelFor>
+                            <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
+                            <!--<hiddenUnderApparelFor>
                                 <li>FullHead</li>
                                 <li>UpperHead</li>
-                            </hiddenUnderApparelFor>
+                            </hiddenUnderApparelFor>-->
                             <offsets>
                                 <south>
                                     <offset>(-0.055,0.15)</offset>
