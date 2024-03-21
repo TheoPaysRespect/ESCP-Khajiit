@@ -10,6 +10,8 @@
 		<title>Moon sugarcane farmer child</title>
 		<titleShort>farmer child</titleShort>
 		<baseDesc>[PAWN_nameDef] grew up on the sugar farm, diligently observing how it slowly became the sweet it is known for. Unfortunately, it didn’t take long for the sweet to become a permanent part of their life.</baseDesc>
+		<maleCommonality>20</maleCommonality>
+		<femaleCommonality>20</femaleCommonality>
 		<skillGains>
 			<li>
 				<key>Plants</key>
