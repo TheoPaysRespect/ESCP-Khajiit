@@ -7,14 +7,16 @@
 				<li>
 					<kindDefs>
 						<li>Theo_KhajiitPlayerPawnKind_Tribal</li>
+						<li>Theo_KhajiitPlayerPawnKind_Medieval</li>
 					</kindDefs>
-					<chance>5.0</chance>
+					<chance>20.0</chance>
 				</li>
 			</alienslavekinds>
 			<alienrefugeekinds>
 				<li>
 					<kindDefs>
 						<li>Theo_KhajiitPlayerPawnKind_Tribal</li>
+						<li>Theo_KhajiitPlayerPawnKind_Medieval</li>
 					</kindDefs>
 					<chance>10.0</chance>
 				</li>
@@ -26,7 +28,7 @@
 							<kindDefs>
 								<li>Theo_KhajiitPlayerPawnKind_Tribal</li>
 							</kindDefs>
-							<chance>0.1</chance>
+							<chance>2</chance>
 						</li>
 					</pawnKindEntries>
 					<factionDefs>
