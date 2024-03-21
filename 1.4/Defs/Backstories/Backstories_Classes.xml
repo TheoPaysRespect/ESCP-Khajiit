@@ -80,9 +80,6 @@
 				<chance>100</chance>
 			</li>
 		</forcedTraitsChance>
-		<forcedItems>
-			<BookOfMonk MayRequire="torann.arimworldofmagic">1</BookOfMonk>
-		</forcedItems>
 		<disallowedTraitsChance>
 			<li>
 				<defName>Wimp</defName>

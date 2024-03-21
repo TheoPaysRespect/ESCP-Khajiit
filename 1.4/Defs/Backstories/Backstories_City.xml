@@ -1,15 +1,20 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<!--Additional parameters: gender commonality, rarity, bodytypeglobal, 
+	<!--Additional parameters: gender
+	commonality, rarity, bodytypeglobal, 
     forced trait chance, titlefemale, titleshortfemale, workdisables, requiredworktags, 
-    disallowedtraits, possessions, linkedbackstory, forcedhediffs, passions, bioagerange, forceditems-->
-	<!--Escp race tools background based pawn opinions: khajiit vs dres-->
+    disallowedtraits, possessions, linkedbackstory, forcedhediffs, passions, bioagerange,
+	forceditems-->
+	<!--Escp
+	race tools background based pawn opinions: khajiit vs dres-->
 	<!--Childhood-->
 	<AlienRace.AlienBackstoryDef ParentName="Theo_CityKhajiit_ChildhoodBase">
 		<defName>Theo_Khajiit_CityChild1</defName>
 		<title>Moon sugarcane farmer child</title>
 		<titleShort>farmer child</titleShort>
-		<baseDesc>[PAWN_nameDef] grew up on the sugar farm, diligently observing how it slowly became the sweet it is known for. Unfortunately, it didn’t take long for the sweet to become a permanent part of their life.</baseDesc>
+		<baseDesc>[PAWN_nameDef] grew up on the sugar farm, diligently observing how it slowly
+			became the sweet it is known for. Unfortunately, it didn’t take long for the sweet to
+			become a permanent part of their life.</baseDesc>
 		<maleCommonality>20</maleCommonality>
 		<femaleCommonality>20</femaleCommonality>
 		<skillGains>
@@ -39,7 +44,9 @@
 		<defName>Theo_Khajiit_CityChild2</defName>
 		<title>Yarn royal</title>
 		<titleShort>yarn royal</titleShort>
-		<baseDesc>[PAWN_nameDef] was the child of rich traders, always getting a new yarn ball to play with when they came home. All the other kittens came over to play but [PAWN_nameDef] refused to share. </baseDesc>
+		<baseDesc>[PAWN_nameDef] was the child of rich traders, always getting a new yarn ball to
+			play with when they came home. All the other kittens came over to play but
+			[PAWN_nameDef] refused to share. </baseDesc>
 		<skillGains>
 			<li>
 				<key>Crafting</key>
@@ -64,7 +71,9 @@
 		<titleShort>slave</titleShort>
 		<maleCommonality>20</maleCommonality>
 		<femaleCommonality>20</femaleCommonality>
-		<baseDesc>Shorly after birth, [PAWN_nameDef] was kidnapped from their native land and sold into slavery. Never to know their parents' names, they toiled away in the kitchens of a wealthy lord.</baseDesc>
+		<baseDesc>Shorly after birth, [PAWN_nameDef] was kidnapped from their native land and sold
+			into slavery. Never to know their parents' names, they toiled away in the kitchens of a
+			wealthy lord.</baseDesc>
 		<skillGains>
 			<li>
 				<key>Cooking</key>
@@ -80,7 +89,9 @@
 		<titleShort>slave</titleShort>
 		<maleCommonality>20</maleCommonality>
 		<femaleCommonality>20</femaleCommonality>
-		<baseDesc>[PAWN_nameDef] used to be a slave, working the fields of House Dres until they no longer felt their legs. One day when mating netches attacked the plantation, they ran and never looked back.</baseDesc>
+		<baseDesc>[PAWN_nameDef] used to be a slave, working the fields of House Dres until they no
+			longer felt their legs. One day when mating netches attacked the plantation, they ran
+			and never looked back.</baseDesc>
 		<skillGains>
 			<li>
 				<key>Plants</key>
@@ -95,7 +106,8 @@
 		<defName>Theo_Khajiit_CityChild5</defName>
 		<title>exchange student</title>
 		<titleShort>student</titleShort>
-		<baseDesc>[PAWN_nameDef] was the child of aspirational parents, sending them off to a far away place for teaching at a young age.</baseDesc>
+		<baseDesc>[PAWN_nameDef] was the child of aspirational parents, sending them off to a far
+			away place for teaching at a young age.</baseDesc>
 		<skillGains>
 			<li>
 				<key>Intellectual</key>
@@ -112,7 +124,9 @@
 		<defName>Theo_Khajiit_CityAdult1</defName>
 		<title>Cursed trader</title>
 		<titleShort>trader</titleShort>
-		<baseDesc>They say few have as bad luck as [PAWN_nameDef], losing their first caravan to a bet, and their second to robbers. They were going to get a third but their rival was faster.</baseDesc>
+		<baseDesc>They say few have as bad luck as [PAWN_nameDef], losing their first caravan to a
+			bet, and their second to robbers. They were going to get a third but their rival was
+			faster.</baseDesc>
 		<skillGains>
 			<li>
 				<key>Social</key>
@@ -120,18 +134,20 @@
 			</li>
 		</skillGains>
 		<forcedTraitsChance>
-				<li>
-					<defName>Nerves</defName>
-					<degree>-1</degree>
-					<chance>100</chance>
-				</li>
-			</forcedTraitsChance>
+			<li>
+				<defName>Nerves</defName>
+				<degree>-1</degree>
+				<chance>100</chance>
+			</li>
+		</forcedTraitsChance>
 	</AlienRace.AlienBackstoryDef>
 	<AlienRace.AlienBackstoryDef ParentName="Theo_CityKhajiit_AdulthoodBase">
 		<defName>Theo_Khajiit_CityAdult2</defName>
 		<title>Wandering trader</title>
 		<titleShort>trader</titleShort>
-		<baseDesc>[PAWN_nameDef] has seen many lands beyond the sands, from snowy peaks, to high rocks. But the best land will always be where their home is, and that is their caravan mates.</baseDesc>
+		<baseDesc>[PAWN_nameDef] has seen many lands beyond the sands, from snowy peaks, to high
+			rocks. But the best land will always be where their home is, and that is their caravan
+			mates.</baseDesc>
 		<skillGains>
 			<li>
 				<key>Social</key>
@@ -156,7 +172,9 @@
 		<defName>Theo_Khajiit_CityAdult3</defName>
 		<title>Skooma addict</title>
 		<titleShort>addict</titleShort>
-		<baseDesc>Nobody sees more than [PAWN_nameDef] who has many eyes. They also have a best friend called Steve who is a cheese wheel. Every Thursday they go napping on the azure sands.</baseDesc>
+		<baseDesc>Nobody sees more than [PAWN_nameDef] who has many eyes. They also have a best
+			friend called Steve who is a cheese wheel. Every Thursday they go napping on the azure
+			sands.</baseDesc>
 		<skillGains>
 			<li>
 				<key>Artistic</key>
@@ -175,7 +193,8 @@
 		<defName>Theo_Khajiit_CityAdult4</defName>
 		<title>Renowned chef</title>
 		<titleShort>chef</titleShort>
-		<baseDesc>[PAWN_nameDef] owned a food stall in the bazaar. Outsiders rarely dared to approach due to the never ending queue of Senche starving for a good meat pie.</baseDesc>
+		<baseDesc>[PAWN_nameDef] owned a food stall in the bazaar. Outsiders rarely dared to
+			approach due to the never ending queue of Senche starving for a good meat pie.</baseDesc>
 		<skillGains>
 			<li>
 				<key>Cooking</key>
@@ -190,7 +209,9 @@
 		<defName>Theo_Khajiit_CityAdult5</defName>
 		<title>Recovering Skooma addict</title>
 		<titleShort>former addict</titleShort>
-		<baseDesc>Once there was a time when cheese rolls flew in the sky and everyone danced in wine rivers, but those times are for [PAWN_nameDef] no more. Instead, they swore to dedicate their life to ending the false lure of the sweet.</baseDesc>
+		<baseDesc>Once there was a time when cheese rolls flew in the sky and everyone danced in
+			wine rivers, but those times are for [PAWN_nameDef] no more. Instead, they swore to
+			dedicate their life to ending the false lure of the sweet.</baseDesc>
 		<skillGains>
 			<li>
 				<key>Medicine</key>
@@ -202,15 +223,21 @@
 			</li>
 		</skillGains>
 		<workDisables>Intellectual</workDisables>
-		<forcedTraits>
-			<DrugDesire>-1</DrugDesire>
-		</forcedTraits>
+		<forcedTraitsChance>
+			<li>
+				<defName>DrugDesire</defName>
+				<degree>-1</degree>
+				<chance>100</chance>
+			</li>
+		</forcedTraitsChance>
 	</AlienRace.AlienBackstoryDef>
 	<AlienRace.AlienBackstoryDef ParentName="Theo_CityKhajiit_AdulthoodBase">
 		<defName>Theo_Khajiit_CityAdult6</defName>
 		<title>Freed slave</title>
 		<titleShort>slave</titleShort>
-		<baseDesc>Their fur mangy and their paws aching, [PAWN_nameDef] toiled away at the plantation. Just as they thought it was all over, the owner got assassinated by a jealous lover.</baseDesc>
+		<baseDesc>Their fur mangy and their paws aching, [PAWN_nameDef] toiled away at the
+			plantation. Just as they thought it was all over, the owner got assassinated by a
+			jealous lover.</baseDesc>
 		<skillGains>
 			<li>
 				<key>Plants</key>
@@ -232,7 +259,8 @@
 		<defName>Theo_Khajiit_CityAdult7</defName>
 		<title>Odd artist</title>
 		<titleShort>artist</titleShort>
-		<baseDesc>Drawing their fantasies [PAWN_nameDef] fancied themselves an artist though no one could tell what they drew.</baseDesc>
+		<baseDesc>Drawing their fantasies [PAWN_nameDef] fancied themselves an artist though no one
+			could tell what they drew.</baseDesc>
 		<skillGains>
 			<li>
 				<key>Artistic</key>

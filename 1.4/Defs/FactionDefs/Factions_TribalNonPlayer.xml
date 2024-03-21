@@ -1,6 +1,7 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<FactionDef ParentName="ESCP_NonPlayerFactionBase_Tribal" Name="Theo_KhajiitNonPlayerFaction_Base" Abstract="True">
+	<FactionDef ParentName="ESCP_NonPlayerFactionBase_Tribal"
+		Name="Theo_KhajiitNonPlayerFaction_Base" Abstract="True">
 		<modExtensions>
 			<li Class="ESCP_RaceTools.SettlementPreference">
 				<chance>1.0</chance>
@@ -27,6 +28,18 @@
 		</modExtensions>
 		<factionNameMaker>Theo_Khajiit_NamerFaction</factionNameMaker>
 		<settlementNameMaker>Theo_Khajiit_NamerSettlement</settlementNameMaker>
+		<caravanTraderKinds Inherit="False"><!--disables
+			slaver trader specifically-->
+			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.MedievalModule">
+				VFEM_Caravan_Medieval_Farmer</li>
+			<li>Caravan_Neolithic_BulkGoods</li>
+			<li>Caravan_Neolithic_WarMerchant</li>
+			<li>Caravan_Neolithic_ShamanMerchant</li>
+			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.MedievalModule">
+				VFEM_Caravan_Medieval_Armourer</li>
+			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.MedievalModule">
+				VFEM_Caravan_Medieval_Weaponsmith</li>
+		</caravanTraderKinds>
 		<allowedCultures>
 			<li>Theo_KhajiitCulture</li>
 		</allowedCultures>
@@ -35,7 +48,8 @@
 			<Theo_Structure_Sky_Spirits MayRequire="Ludeon.RimWorld.Ideology">10</Theo_Structure_Sky_Spirits>
 			<Theo_Structure_Worldly_Spirits MayRequire="Ludeon.RimWorld.Ideology">6</Theo_Structure_Worldly_Spirits>
 			<Theo_Structure_Wandering_Spirits MayRequire="Ludeon.RimWorld.Ideology">9</Theo_Structure_Wandering_Spirits>
-			<!--<Theo_Structure_Dark_Spirits MayRequire="Ludeon.RimWorld.Ideology">1</Theo_Structure_Dark_Spirits>-->
+			<!--<Theo_Structure_Dark_Spirits
+			MayRequire="Ludeon.RimWorld.Ideology">1</Theo_Structure_Dark_Spirits>-->
 			<Theo_Structure_Adverserial_Spirits MayRequire="Ludeon.RimWorld.Ideology">4</Theo_Structure_Adverserial_Spirits>
 		</structureMemeWeights>
 		<raidLootMaker>Theo_Khajiit_LootMaker</raidLootMaker>
@@ -53,7 +67,13 @@
 		<label>Khajiit kingdom</label>
 		<leaderTitle>Mane</leaderTitle>
 		<factionIconPath>World/WorldObjects/Theo_Khajiit_Kingdom</factionIconPath>
-		<description>The Khajiit kingdom is based on the cooperation of 16 tribes who banded together to survive the tides of time. Their settlements can be found anywhere from scorching deserts to lush rainforests. Venerating the moons, their shape is dependent on the phase, but some forms rarely leave the borders of their land. Often enslaved by the dunmer, Khajiit are often seen as lesser than the other races, taking insult when they are compared to the common cat. Contrary to their shared background, they dislike argonians.</description>
+		<description>The Khajiit kingdom is based on the cooperation of 16 tribes who banded
+			together to survive the tides of time. Their settlements can be found anywhere from
+			scorching deserts to lush rainforests. Venerating the moons, their shape is dependent on
+			the phase, but some forms rarely leave the borders of their land. Often enslaved by the
+			dunmer, Khajiit are often seen as lesser than the other races, taking insult when they
+			are compared to the common cat. Contrary to their shared background, they dislike
+			argonians.</description>
 		<colorSpectrum>
 			<li>(0.45, 0.75, 0.67)</li>
 			<!--fill-->
@@ -77,7 +97,8 @@
 		</requiredMemes>
 		<configurationListOrderPriority>30</configurationListOrderPriority>
 		<pawnGroupMakers>
-			<!--add monks, rebalance chances-->
+			<!--add
+			monks, rebalance chances-->
 			<li>
 				<kindDef>Combat</kindDef>
 				<commonality>100</commonality>
@@ -151,7 +172,8 @@
 					<Theo_Khajiit_Kingdom_Trader>1</Theo_Khajiit_Kingdom_Trader>
 				</traders>
 				<carriers>
-					<!--edit with more unique carriers-->
+					<!--edit
+					with more unique carriers-->
 					<Muffalo>6</Muffalo>
 					<Dromedary>5</Dromedary>
 					<Alpaca>2.5</Alpaca>
@@ -210,14 +232,19 @@
 			</li>
 		</pawnGroupMakers>
 	</FactionDef>
-	<!--<FactionDef ParentName="Theo_KhajiitNonPlayerFaction_Base">
+	<!--<FactionDef
+	ParentName="Theo_KhajiitNonPlayerFaction_Base">
 		<defName>Theo_KhajiitNonPlayerFaction_Bandaari</defName>
 		<pawnSingular>bandaari</pawnSingular>
     	<pawnsPlural>bandaari</pawnsPlural>
 		<label>Bandaari Pedlars</label>
 		<leaderTitle>Grand Trader</leaderTitle>
 		<factionIconPath>World/WorldObjects/Theo_Khajiit_Bandaari</factionIconPath>
-		<description>The Bandaari Pedlars are a clan of nomads travelling the world. Believing everything is worth something, they frequently gather what other factions discard to sell at their next destination. Likewise, they believe that anything left behind for any reason is now rightfully theirs, leading to their reputation as thieves. When trading, they are known to do anything they can to sweeten the deal, for themselves that is.</description>
+		<description>The Bandaari Pedlars are a clan of nomads travelling the world. Believing everything
+	is worth something, they frequently gather what other factions discard to sell at their next
+	destination. Likewise, they believe that anything left behind for any reason is now rightfully
+	theirs, leading to their reputation as thieves. When trading, they are known to do anything they
+	can to sweeten the deal, for themselves that is.</description>
 		<displayInFactionSelection>false</displayInFactionSelection>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
 		<maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
@@ -269,7 +296,10 @@
 		<leaderTitle>Mane</leaderTitle>
 		<factionNameMaker>Theo_Khajiit_NamerTribe</factionNameMaker>
 		<factionIconPath>World/WorldObjects/Theo_Khajiit_Tribe</factionIconPath>
-		<description>Unlike its more civilised counterpart, this tribe of Khajiit never decided to join society, opting for a tight enclave amongst their own. They are often hostile to outsiders who dare to encroach on their territories, but may be temporarily pacified by the dedicated.</description>
+		<description>Unlike its more civilised counterpart, this tribe of Khajiit never decided to
+			join society, opting for a tight enclave amongst their own. They are often hostile to
+			outsiders who dare to encroach on their territories, but may be temporarily pacified by
+			the dedicated.</description>
 		<colorSpectrum>
 			<li>(0.45, 0.75, 0.67)</li>
 			<!--fill-->
@@ -369,7 +399,8 @@
 					<Theo_Khajiit_Tribal_Trader>1</Theo_Khajiit_Tribal_Trader>
 				</traders>
 				<carriers>
-					<!--edit with more unique carriers-->
+					<!--edit
+					with more unique carriers-->
 					<Muffalo>6</Muffalo>
 					<Dromedary>5</Dromedary>
 					<Alpaca>2.5</Alpaca>
@@ -422,7 +453,8 @@
 		</pawnGroupMakers>
 		<naturalEnemy>true</naturalEnemy>
 	</FactionDef>
-	<!--<FactionDef ParentName="Theo_KhajiitNonPlayerFaction_Base">
+	<!--<FactionDef
+	ParentName="Theo_KhajiitNonPlayerFaction_Base">
 		<defName>Theo_KhajiitNonPlayerFaction_Dro-m'Athra</defName>
 		<label>Dro-m'Athra Raiders</label>
 		<description></description> 
@@ -432,7 +464,8 @@
 			<li>(0.2, 0.8, 0.67)</li>
 		</colorSpectrum>
 		<structureMemeWeights>	
-			<Theo_Structure_Dark_Spirits MayRequire="Ludeon.RimWorld.Ideology">999</Theo_Structure_Dark_Spirits>
+			<Theo_Structure_Dark_Spirits
+	MayRequire="Ludeon.RimWorld.Ideology">999</Theo_Structure_Dark_Spirits>
 		</structureMemeWeights>
 		<requiredMemes>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>

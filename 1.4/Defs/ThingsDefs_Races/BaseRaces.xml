@@ -50,6 +50,14 @@
                 <head>Things/Pawn/Humanlike/Theo_Khajiit/Heads/</head>
                 <body>Things/Pawn/Humanlike/Theo_Khajiit/Bodies/</body>
             </graphicPaths>
+            <styleSettings>
+                <li>
+                    <key>BeardDef</key>
+                    <value>
+                        <hasStyle>false</hasStyle>
+                    </value>
+                </li>
+            </styleSettings>
             <generalSettings>
                 <allowHumanBios>false</allowHumanBios>
                 <humanRecipeImport>true</humanRecipeImport>
