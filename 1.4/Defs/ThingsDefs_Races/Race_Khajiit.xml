@@ -169,9 +169,9 @@
 				<capacities>
 					<li>Scratch</li>
 				</capacities>
-				<power>7</power>
+				<power>9</power>
 				<cooldownTime>1.5</cooldownTime>
-				<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+				<linkedBodyPartsGroup>LeftHandClawsGroup</linkedBodyPartsGroup>
 				<surpriseAttack>
 					<extraMeleeDamages>
 						<li>
@@ -186,9 +186,9 @@
 				<capacities>
 					<li>Scratch</li>
 				</capacities>
-				<power>7</power>
+				<power>9</power>
 				<cooldownTime>1.5</cooldownTime>
-				<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+				<linkedBodyPartsGroup>RightHandClawsGroup</linkedBodyPartsGroup>
 				<surpriseAttack>
 					<extraMeleeDamages>
 						<li>

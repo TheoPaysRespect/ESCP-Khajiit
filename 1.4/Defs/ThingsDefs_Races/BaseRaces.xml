@@ -17,7 +17,7 @@
             </li>
         </modExtensions>
         <race>
-            <body>ESCP_HumanlikeWithTail</body>
+            <body>Theo_BaseBody</body>
             <leatherDef>ESCP_LeatherKhajiit</leatherDef>
             <nameGenerator>Theo_Khajiit_NamerMale</nameGenerator>
             <nameGeneratorFemale>Theo_Khajiit_NamerFemale</nameGeneratorFemale>
@@ -97,7 +97,7 @@
                                     <!--test these-->
                                 </east>
                             </offsets>
-                        </li>
+                        </li>   
                         <li>
                             <path>Things/Pawn/Humanlike/Theo_Khajiit/Ears/EarLeft</path>
                             <colorChannel>skin</colorChannel>
