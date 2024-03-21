@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<ScenarioDef>
 		<defName>Theo_BandaariScenario</defName>
@@ -46,25 +46,65 @@
 					<def>StartingThing_Defined</def>
 					<thingDef>Bow_Short</thingDef>
 				</li>
-				<li MayRequire="sirmashedpotato.morrowrim.moonsugarandskooma" Class="ScenPart_StartingThing_Defined">
+				<li MayRequire="sirmashedpotato.morrowrim.moonsugarandskooma"
+					Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
 					<thingDef>MorrowRim_Skooma</thingDef>
 					<count>5</count>
 				</li>
-				<li MayRequire="sirmashedpotato.morrowrim.moonsugarandskooma" Class="ScenPart_StartingThing_Defined">
+				<li MayRequire="sirmashedpotato.morrowrim.moonsugarandskooma"
+					Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
 					<thingDef>MorrowRim_MoonSugar</thingDef>
 					<count>10</count>
+				</li>
+				<li Class="ScenPart_StartingAnimal">
+					<def>StartingAnimal</def>
+					<animalKind>Cat</animalKind>
+					<count>1</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Cloth</thingDef>
+					<count>52</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Gold</thingDef>
+					<count>15</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Jade</thingDef>
+					<count>10</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>PsychiteTea</thingDef>
+					<count>4</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>WoolSheep</thingDef>
+					<count>36</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Leather_Bird</thingDef>
+					<count>43</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Apparel_TribalA</thingDef>
+					<stuff>Cloth</stuff>
+					<count>4</count>
+					<quality>Poor</quality>
 				</li>
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
 					<thingDef>Pila</thingDef>
 				</li>
-				<li Class="ScenPart_ScatterThingsNearPlayerStart">
-					<def>ScatterThingsNearPlayerStart</def>
-					<thingDef>WoodLog</thingDef>
-					<count>500</count>
-				</li>
+
 				<li Class="ScenPart_GameStartDialog">
 					<def>GameStartDialog</def>
 					<text></text>
