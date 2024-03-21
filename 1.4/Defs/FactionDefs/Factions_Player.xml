@@ -11,6 +11,14 @@
 		<startingResearchTags>
 			<li>Theo_KhajiitStart_Medieval</li>
 		</startingResearchTags>
+		<disallowedPrecepts>
+			<li MayRequire="vanillaexpanded.vmemese">VME_MeatEating_Abhorrent_Strict</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">MeatEating_Abhorrent</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">MeatEating_Horrible</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">ESCP_BeastfolkLeather_Acceptable</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">ESCP_BeastfolkLeather_Preferred</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">ESCP_BeastfolkLeather_Disapproved</li>
+		</disallowedPrecepts>
 		<modExtensions>
 			<li Class="ESCP_RaceTools.FactionProperties">
 				<factionTags>
@@ -31,6 +39,14 @@
 		<startingResearchTags>
 			<li>Theo_KhajiitStart_Tribal</li>
 		</startingResearchTags>
+		<disallowedPrecepts>
+			<li MayRequire="vanillaexpanded.vmemese">VME_MeatEating_Abhorrent_Strict</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">MeatEating_Abhorrent</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">MeatEating_Horrible</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">ESCP_BeastfolkLeather_Acceptable</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">ESCP_BeastfolkLeather_Preferred</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">ESCP_BeastfolkLeather_Disapproved</li>
+		</disallowedPrecepts>
 		<modExtensions>
 			<li Class="ESCP_RaceTools.FactionProperties">
 				<factionTags>
@@ -51,6 +67,14 @@
 		<startingResearchTags>
 			<li>Theo_KhajiitStart_Medieval</li>
 		</startingResearchTags>
+		<disallowedPrecepts>
+			<li MayRequire="vanillaexpanded.vmemese">VME_MeatEating_Abhorrent_Strict</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">MeatEating_Abhorrent</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">MeatEating_Horrible</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">ESCP_BeastfolkLeather_Acceptable</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">ESCP_BeastfolkLeather_Preferred</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">ESCP_BeastfolkLeather_Disapproved</li>
+		</disallowedPrecepts>
 		<modExtensions>
 			<li Class="ESCP_RaceTools.FactionProperties">
 				<factionTags>

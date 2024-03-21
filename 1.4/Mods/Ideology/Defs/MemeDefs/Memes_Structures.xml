@@ -129,9 +129,9 @@
 				<IgnoreDuplicateDeityNames>true</IgnoreDuplicateDeityNames>
 				<overrideDeityIcons>true</overrideDeityIcons>
 				<iconPath>
-					<li>UI/Deities/ESCP_DeityHermeusMora</li>
+					<li>UI/Deities/ESCP_DeityHermaeusMora</li>
 					<li>UI/Deities/ESCP_DeityHircine</li>
-					<li>UI/Deities/ESCP_DeityLorkan</li> <!--nirn-->
+					<li>UI/Deities/ESCP_DeityLorkhan</li> <!--nirn-->
 					<li>UI/Deities/ESCP_DeitySanguine</li>
 					<li>UI/Deities/ESCP_DeityYffre</li>
 				</iconPath>
