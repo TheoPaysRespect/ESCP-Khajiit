@@ -68,6 +68,7 @@
 			<li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Cannibal</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Guilty</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Tunneler</li>
 		</disallowedMemes>
 		<requiredMemes>
 			<li MayRequire="vanillaexpanded.vmemese">VME_Trader</li>
@@ -266,6 +267,7 @@
 		<defName>Theo_KhajiitNonPlayerFaction_Tribal</defName>
 		<label>Rough Khajiit Tribe</label>
 		<leaderTitle>Mane</leaderTitle>
+		<factionNameMaker>Theo_Khajiit_NamerTribe</factionNameMaker>
 		<factionIconPath>World/WorldObjects/Theo_Khajiit_Tribe</factionIconPath>
 		<description>Unlike its more civilised counterpart, this tribe of Khajiit never decided to join society, opting for a tight enclave amongst their own. They are often hostile to outsiders who dare to encroach on their territories, but may be temporarily pacified by the dedicated.</description>
 		<colorSpectrum>
@@ -284,6 +286,7 @@
 		<disallowedMemes>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Guilty</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Tunneler</li>
 		</disallowedMemes>
 		<requiredMemes>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
@@ -291,6 +294,10 @@
 			<li MayRequire="vanillaexpanded.vmemese">VME_Nomad</li>
 			<li MayRequire="VanillaExpanded.VMemesE">VME_BloodCourt</li>
 		</requiredMemes>
+		<preferredWeaponClasses MayRequire="Ludeon.RimWorld.Ideology">
+			<noble>Neolithic</noble>
+			<despised>Ultratech</despised>
+		</preferredWeaponClasses>
 		<configurationListOrderPriority>40</configurationListOrderPriority>
 		<pawnGroupMakers>
 			<li>

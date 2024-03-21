@@ -100,7 +100,7 @@
 		<fixedDeityNameTypes>
 			<li>
 				<name>Azurah</name>
-				<type>Favored Daughter of Fadomai</type>
+				<type>Mother of All Khajiit</type>
 			</li>
 			<li>
 				<name>Jone</name>
@@ -112,7 +112,7 @@
 			</li>
 			<li>
 				<name>Khenarthi</name>
-				<type>The Goddess of the Winds</type>
+				<type>Goddess of Winds</type>
 			</li>
 			<li>
 				<name>Magrus</name>
@@ -348,11 +348,11 @@
 			</li>
 			<li>
 				<name>Boethra</name>
-				<type>The Warrior of East and West</type>
+				<type>Sharp-tongued Spirit</type>
 			</li>
 			<li>
 				<name>Mafala</name>
-				<type>Clan Mother of Dark Secrets</type>
+				<type>The Teaching Mother</type>
 			</li>
 		</fixedDeityNameTypes>
 	</MemeDef>
@@ -463,8 +463,8 @@
 				<type>The Lost Daughter</type>
 			</li>
 			<li>
-				<name>The Nameless</name>
-				<type>The Spirit of Vengeance</type>
+				<name>?????</name>
+				<type>Spirit of Vengeance</type>
 			</li>
 		</fixedDeityNameTypes>
 	</MemeDef>
@@ -573,7 +573,7 @@
 			</li>
 			<li>
 				<name>Molagh</name>
-				<type>Elder Spirit of Domination</type>
+				<type>Spirit of Domination</type>
 			</li>
 			<li>
 				<name>Orkha</name>

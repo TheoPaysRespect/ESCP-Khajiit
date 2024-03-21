@@ -11,14 +11,8 @@
 		<startingResearchTags>
 			<li>Theo_KhajiitStart_Medieval</li>
 		</startingResearchTags>
-		<disallowedPrecepts>
-			<li MayRequire="vanillaexpanded.vmemese">VME_MeatEating_Abhorrent_Strict</li>
-			<li MayRequire="Ludeon.RimWorld.Ideology">MeatEating_Abhorrent</li>
-			<li MayRequire="Ludeon.RimWorld.Ideology">MeatEating_Horrible</li>
-			<li MayRequire="Ludeon.RimWorld.Ideology">ESCP_BeastfolkLeather_Acceptable</li>
-			<li MayRequire="Ludeon.RimWorld.Ideology">ESCP_BeastfolkLeather_Preferred</li>
-			<li MayRequire="Ludeon.RimWorld.Ideology">ESCP_BeastfolkLeather_Disapproved</li>
-		</disallowedPrecepts>
+		<factionNameMaker>Theo_Khajiit_NamerFaction</factionNameMaker>
+		<settlementNameMaker>Theo_Khajiit_NamerSettlement</settlementNameMaker>
 		<modExtensions>
 			<li Class="ESCP_RaceTools.FactionProperties">
 				<factionTags>
@@ -36,17 +30,11 @@
 		<allowedCultures>
 			<li>Theo_KhajiitCulture</li>
 		</allowedCultures>
+		<factionNameMaker>Theo_Khajiit_NamerTribe</factionNameMaker>
+		<settlementNameMaker>Theo_Khajiit_NamerSettlement</settlementNameMaker>
 		<startingResearchTags>
 			<li>Theo_KhajiitStart_Tribal</li>
 		</startingResearchTags>
-		<disallowedPrecepts>
-			<li MayRequire="vanillaexpanded.vmemese">VME_MeatEating_Abhorrent_Strict</li>
-			<li MayRequire="Ludeon.RimWorld.Ideology">MeatEating_Abhorrent</li>
-			<li MayRequire="Ludeon.RimWorld.Ideology">MeatEating_Horrible</li>
-			<li MayRequire="Ludeon.RimWorld.Ideology">ESCP_BeastfolkLeather_Acceptable</li>
-			<li MayRequire="Ludeon.RimWorld.Ideology">ESCP_BeastfolkLeather_Preferred</li>
-			<li MayRequire="Ludeon.RimWorld.Ideology">ESCP_BeastfolkLeather_Disapproved</li>
-		</disallowedPrecepts>
 		<modExtensions>
 			<li Class="ESCP_RaceTools.FactionProperties">
 				<factionTags>
@@ -61,20 +49,14 @@
 		<label>New Khajiit Caravan</label>
 		<basicMemberKind>Theo_KhajiitPlayerPawnKind_Medieval</basicMemberKind>
 		<factionIconPath>World/WorldObjects/Theo_Khajiit_Bandaari</factionIconPath>
+		<factionNameMaker>Theo_Khajiit_NamerTraders</factionNameMaker>
+		<settlementNameMaker>Theo_Khajiit_NamerSettlement</settlementNameMaker>
 		<allowedCultures>
 			<li>Theo_KhajiitCulture</li>
 		</allowedCultures>
 		<startingResearchTags>
 			<li>Theo_KhajiitStart_Medieval</li>
 		</startingResearchTags>
-		<disallowedPrecepts>
-			<li MayRequire="vanillaexpanded.vmemese">VME_MeatEating_Abhorrent_Strict</li>
-			<li MayRequire="Ludeon.RimWorld.Ideology">MeatEating_Abhorrent</li>
-			<li MayRequire="Ludeon.RimWorld.Ideology">MeatEating_Horrible</li>
-			<li MayRequire="Ludeon.RimWorld.Ideology">ESCP_BeastfolkLeather_Acceptable</li>
-			<li MayRequire="Ludeon.RimWorld.Ideology">ESCP_BeastfolkLeather_Preferred</li>
-			<li MayRequire="Ludeon.RimWorld.Ideology">ESCP_BeastfolkLeather_Disapproved</li>
-		</disallowedPrecepts>
 		<modExtensions>
 			<li Class="ESCP_RaceTools.FactionProperties">
 				<factionTags>

@@ -1,4 +1,4 @@
-Sugary
+Moon-sugar
 Twilight
 Lunar
 Silver
@@ -12,3 +12,6 @@ Waxing
 Sharp
 Sweet
 Lurking
+Lucky
+Nimble
+Two-Moon

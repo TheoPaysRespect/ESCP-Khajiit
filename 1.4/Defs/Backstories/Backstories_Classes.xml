@@ -45,8 +45,8 @@
 			<li>Theo_MonkKhajiitBackstory_Childhood</li>
 			<li>ESCP_KhajiitBackstory_Exclusion</li>
 		</spawnCategories>
-		<maleCommonality>40</maleCommonality>
-		<femaleCommonality>40</femaleCommonality>
+		<maleCommonality>70</maleCommonality>
+		<femaleCommonality>70</femaleCommonality>
 		<forcedTraitsChance>
 			<li MayRequire="torann.arimworldofmagic">
 				<defName>TM_Monk</defName>
@@ -60,8 +60,8 @@
 			<li>Theo_MonkKhajiitBackstory_Adulthood</li>
 			<li>ESCP_KhajiitBackstory_Exclusion</li>
 		</spawnCategories>
-		<maleCommonality>40</maleCommonality>
-		<femaleCommonality>40</femaleCommonality>
+		<maleCommonality>70</maleCommonality>
+		<femaleCommonality>70</femaleCommonality>
 		<forcedTraitsChance>
 			<li>
 				<defName>Brawler</defName>

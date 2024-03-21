@@ -12,10 +12,6 @@
 		<deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DeityTypeMakerCorunan</deityTypeMaker>
 		<festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalCorunan</festivalNameMaker>
 		<leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">Theo_Khajiit_NamerCultureLeaderTitle</leaderTitleMaker>
-		<preferredWeaponClasses>
-			<noble>Neolithic</noble>
-			<despised>Ultratech</despised>
-		</preferredWeaponClasses>
 		<allowedPlaceTags>
 			<li>OriginTribal</li>
 		</allowedPlaceTags>
@@ -32,11 +28,11 @@
 		</thingStyleCategories>
 		<!--Piercing face tattoos, beards ok, prefer dreads-->
 		<styleItemTags>
-			<li>
+			<!--<li>
 				<tag>Theo_TattooFaceKhajiit</tag>
 				<baseWeight>5</baseWeight>
 				<weightFactor>1</weightFactor>
-			</li>
+			</li>-->
 			<li>
 				<tag>Medieval</tag>
 				<baseWeight>1</baseWeight>
@@ -54,7 +50,7 @@
 			</li>
 			<li>
 				<tag>BeardTribal</tag>
-				<baseWeight>0.3</baseWeight>
+				<baseWeight>0.1</baseWeight>
 				<weightFactor>1</weightFactor>
 			</li>
 			<li>

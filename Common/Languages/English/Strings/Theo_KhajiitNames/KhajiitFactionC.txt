@@ -9,3 +9,10 @@ Mousers
 Whiskers
 Furs
 Daggers
+Sands
+Trees
+Forests
+Shadows
+Beasts
+Fangs
+Tails
