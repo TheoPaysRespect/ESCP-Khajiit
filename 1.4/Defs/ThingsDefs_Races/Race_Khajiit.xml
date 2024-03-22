@@ -16,13 +16,13 @@
 		</race>
 		<alienRace>
 			<generalSettings>
+				
 				<notXenophobistTowards>
 					<li>Theo_OhmesRace</li>
 					<li>Theo_OhmesRahtRace</li>
 					<!--<li>Theo_SencheRace</li>
 						<li>Theo_AlfiqRace</li>-->
 				</notXenophobistTowards>
-				<maxDamageForSocialfight>8</maxDamageForSocialfight>
 				<alienPartGenerator>
 					<colorChannels>
 						<li>
@@ -154,9 +154,7 @@
 					</li>
 				</replacerList>
 				<restrictedThoughts>
-					<!--<li>Theo_Khajiit_ConsumedHorseMeat</li>
-							<li
-					MayRequire="sirmashedpotato.morrowrim.colovianfurhelm">Theo_Khajiit_WearingColovianFurHelm</li>-->
+					<!--<li>Theo_Khajiit_ConsumedHorseMeat</li> <li MayRequire="sirmashedpotato.morrowrim.colovianfurhelm">Theo_Khajiit_WearingColovianFurHelm</li>-->
 				</restrictedThoughts>
 			</thoughtSettings>
 		</alienRace>

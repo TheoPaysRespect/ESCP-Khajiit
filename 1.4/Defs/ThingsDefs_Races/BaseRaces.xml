@@ -56,28 +56,86 @@
                 </li>
             </styleSettings>
             <generalSettings>
+                <maxDamageForSocialfight>6</maxDamageForSocialfight>
                 <reproduction>
                     <hybridSpecific>
-                        <li>                            
-                        <!--final values 64, 6, 6, 12, 12-->
-                            <probability>20</probability>
+                        <li>
+                            <!--final values 64, 6, 6, 12, 12-->
+                            <partnerRace>Theo_KhajiitRace</partnerRace>
+                            <probability>64</probability>
                             <childKindDef>Theo_KhajiitPlayerPawnKind_Tribal</childKindDef>
                         </li>
                         <li>
-                            <probability>40</probability>
+                            <partnerRace>Theo_KhajiitRace</partnerRace>
+                            <probability>18</probability>
                             <childKindDef>Theo_OhmesPlayerPawnKind_Tribal</childKindDef>
                         </li>
                         <li>
-                            <probability>40</probability>
+                            <partnerRace>Theo_KhajiitRace</partnerRace>
+                            <probability>18</probability>
                             <childKindDef>Theo_OhmesRahtPlayerPawnKind_Tribal</childKindDef>
                         </li>
                         <!--<li>
-                        <probability>12</probability>
-                        <childKindDef>Theo_AlfiqRace</childKindDef>
+							<partnerRace>Theo_KhajiitRace</partnerRace>
+                        	<probability>12</probability>
+                        	<childKindDef>Theo_AlfiqPlayerPawnKind_Tribal</childKindDef>
                     </li>
                     <li>
-                        <probability>12</probability>
-                        <childKindDef>Theo_SencheRace</childKindDef>
+							<partnerRace>Theo_KhajiitRace</partnerRace>
+                        	<probability>12</probability>
+                        	<childKindDef>Theo_Senche-RahtPlayerPawnKind_Tribal</childKindDef>
+                    </li>-->
+                        <li>
+                            <!--final values 64, 6, 6, 12, 12-->
+                            <partnerRace>Theo_OhmesRace</partnerRace>
+                            <probability>64</probability>
+                            <childKindDef>Theo_KhajiitPlayerPawnKind_Tribal</childKindDef>
+                        </li>
+                        <li>
+                            <partnerRace>Theo_OhmesRace</partnerRace>
+                            <probability>18</probability>
+                            <childKindDef>Theo_OhmesPlayerPawnKind_Tribal</childKindDef>
+                        </li>
+                        <li>
+                            <partnerRace>Theo_OhmesRace</partnerRace>
+                            <probability>18</probability>
+                            <childKindDef>Theo_OhmesRahtPlayerPawnKind_Tribal</childKindDef>
+                        </li>
+                        <!--<li>
+							<partnerRace>Theo_OhmesRace</partnerRace>
+                        	<probability>12</probability>
+                        	<childKindDef>Theo_AlfiqPlayerPawnKind_Tribal</childKindDef>
+                    </li>
+                    <li>
+							<partnerRace>Theo_OhmesRace</partnerRace>
+                        	<probability>12</probability>
+                        	<childKindDef>Theo_Senche-RahtPlayerPawnKind_Tribal</childKindDef>
+                    </li>-->
+                        <li>
+                            <!--final values 64, 6, 6, 12, 12-->
+                            <partnerRace>Theo_OhmesRahtRace</partnerRace>
+                            <probability>64</probability>
+                            <childKindDef>Theo_KhajiitPlayerPawnKind_Tribal</childKindDef>
+                        </li>
+                        <li>
+                            <partnerRace>Theo_OhmesRahtRace</partnerRace>
+                            <probability>18</probability>
+                            <childKindDef>Theo_OhmesPlayerPawnKind_Tribal</childKindDef>
+                        </li>
+                        <li>
+                            <partnerRace>Theo_OhmesRahtRace</partnerRace>
+                            <probability>18</probability>
+                            <childKindDef>Theo_OhmesRahtPlayerPawnKind_Tribal</childKindDef>
+                        </li>
+                        <!--<li>
+							<partnerRace>Theo_OhmesRahtRace</partnerRace>
+                        	<probability>12</probability>
+                        	<childKindDef>Theo_AlfiqPlayerPawnKind_Tribal</childKindDef>
+                    </li>
+                    <li>
+							<partnerRace>Theo_OhmesRahtRace</partnerRace>
+                        	<probability>12</probability>
+                        	<childKindDef>Theo_Senche-RahtPlayerPawnKind_Tribal</childKindDef>
                     </li>-->
                     </hybridSpecific>
                 </reproduction>
