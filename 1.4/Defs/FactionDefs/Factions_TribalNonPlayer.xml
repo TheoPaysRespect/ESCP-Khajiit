@@ -48,8 +48,7 @@
 			<Theo_Structure_Sky_Spirits MayRequire="Ludeon.RimWorld.Ideology">10</Theo_Structure_Sky_Spirits>
 			<Theo_Structure_Worldly_Spirits MayRequire="Ludeon.RimWorld.Ideology">6</Theo_Structure_Worldly_Spirits>
 			<Theo_Structure_Wandering_Spirits MayRequire="Ludeon.RimWorld.Ideology">9</Theo_Structure_Wandering_Spirits>
-			<!--<Theo_Structure_Dark_Spirits
-			MayRequire="Ludeon.RimWorld.Ideology">1</Theo_Structure_Dark_Spirits>-->
+			<!--<Theo_Structure_Dark_Spirits MayRequire="Ludeon.RimWorld.Ideology">1</Theo_Structure_Dark_Spirits>--> <!--this is for dro-m'athra-->
 			<Theo_Structure_Adverserial_Spirits MayRequire="Ludeon.RimWorld.Ideology">4</Theo_Structure_Adverserial_Spirits>
 		</structureMemeWeights>
 		<raidLootMaker>Theo_Khajiit_LootMaker</raidLootMaker>
@@ -75,11 +74,11 @@
 			are compared to the common cat. Contrary to their shared background, they dislike
 			argonians.</description>
 		<colorSpectrum>
-			<li>(0.45, 0.75, 0.67)</li>
+			<li>(0.92, 0.92, 0.49)</li>
 			<!--fill-->
-			<li>(0.55, 0.95, 0.67)</li>
+			<li>(0.92, 0.82, 0.49)</li>
 			<!--fill-->
-			<li>(0.2, 0.8, 0.67)</li>
+			<li>(0.92, 0.72, 0.49)</li>
 			<!--fill-->
 		</colorSpectrum>
 		<disallowedMemes>
@@ -301,11 +300,11 @@
 			outsiders who dare to encroach on their territories, but may be temporarily pacified by
 			the dedicated.</description>
 		<colorSpectrum>
-			<li>(0.45, 0.75, 0.67)</li>
+			<li>(0.45, 0.69, 0.43)</li>
 			<!--fill-->
-			<li>(0.55, 0.95, 0.67)</li>
+			<li>(0.45, 0.59, 0.43)</li>
 			<!--fill-->
-			<li>(0.2, 0.8, 0.67)</li>
+			<li>(0.45, 0.79, 0.43)</li>
 			<!--fill-->
 		</colorSpectrum>
 		<modExtensions>

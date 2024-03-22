@@ -54,7 +54,7 @@
 		<defName>Theo_Maiq_Adulthood</defName>
 		<title>wandering liar</title>
 		<titleShort>liar</titleShort>
-		<maleCommonality>20</maleCommonality>
+		<maleCommonality>10</maleCommonality>
 		<femaleCommonality>0</femaleCommonality>
 		<baseDesc>"[PAWN_nameDef] knows much, tells some. [PAWN_nameDef] knows many things others do not. [PAWN_nameDef] used to travel alone, but he has grown accustomed to joining their friends.</baseDesc>
 		<skillGains>
@@ -71,7 +71,7 @@
 		<defName>Theo_Jasper_Adulthood</defName>
 		<title>bone collector</title>
 		<titleShort>collector</titleShort>
-		<maleCommonality>20</maleCommonality>
+		<maleCommonality>10</maleCommonality>
 		<femaleCommonality>0</femaleCommonality>
 		<baseDesc>With their own bones aching, [PAWN_nameDef] sought comfort in the bones of others. They would scavenge for freshly deceased carcasses, cleaning out the bones and putting them on shelves, proud of their collection. Sometimes their pet cat would eat one, much to their dismay. </baseDesc>
 		<skillGains>

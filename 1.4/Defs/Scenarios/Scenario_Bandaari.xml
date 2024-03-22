@@ -110,7 +110,18 @@
 					<def>StartingThing_Defined</def>
 					<thingDef>Pila</thingDef>
 				</li>
-
+				<li MayRequire="vanillaexpanded.vanillatraitsexpanded" Class="ScenPart_ForcedTrait">
+					<def>ForcedTrait</def>
+					<chance>1</chance>
+					<context>PlayerStarter</context>
+					<trait>VTE_Wanderlust</trait>
+				</li>
+				<li MayRequire="vanillaexpanded.vanillatraitsexpanded" Class="ScenPart_ForcedTrait">
+					<def>ForcedTrait</def>
+					<chance>0.8</chance>
+					<context>PlayerStarter</context>
+					<trait>VTE_Wanderlust</trait>
+				</li>
 				<li Class="ScenPart_GameStartDialog">
 					<def>GameStartDialog</def>
 					<text>Test</text>
