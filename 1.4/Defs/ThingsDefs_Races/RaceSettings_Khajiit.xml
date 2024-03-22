@@ -54,6 +54,63 @@
 					<pawnKindEntries>
 						<li>
 							<kindDefs>
+								<li>Theo_OhmesPlayerPawnKind_Medieval</li>
+							</kindDefs>
+							<chance>10</chance>
+						</li>
+						<li>
+							<kindDefs>
+								<li>Theo_OhmesRahtPlayerPawnKind_Medieval</li>
+							</kindDefs>
+							<chance>10</chance>
+						</li>
+					</pawnKindEntries>
+					<factionDefs>
+						<li>Theo_KhajiitPlayerFaction_Bandaari</li>
+					</factionDefs>
+				</li>
+				<li>
+					<pawnKindEntries>
+						<li>
+							<kindDefs>
+								<li>Theo_OhmesPlayerPawnKind_Medieval</li>
+							</kindDefs>
+							<chance>10</chance>
+						</li>
+						<li>
+							<kindDefs>
+								<li>Theo_OhmesRahtPlayerPawnKind_Medieval</li>
+							</kindDefs>
+							<chance>10</chance>
+						</li>
+					</pawnKindEntries>
+					<factionDefs>
+						<li>Theo_KhajiitPlayerFaction_Medieval</li>
+					</factionDefs>
+				</li>
+				<li>
+					<pawnKindEntries>
+						<li>
+							<kindDefs>
+								<li>Theo_OhmesPlayerPawnKind_Tribal</li>
+							</kindDefs>
+							<chance>10</chance>
+						</li>
+						<li>
+							<kindDefs>
+								<li>Theo_OhmesRahtPlayerPawnKind_Tribal</li>
+							</kindDefs>
+							<chance>10</chance>
+						</li>
+					</pawnKindEntries>
+					<factionDefs>
+						<li>Theo_KhajiitPlayerFaction_Tribal</li>
+					</factionDefs>
+				</li>
+				<li>
+					<pawnKindEntries>
+						<li>
+							<kindDefs>
 								<li>Theo_KhajiitPlayerPawnKind_Tribal</li>
 							</kindDefs>
 							<chance>1</chance>

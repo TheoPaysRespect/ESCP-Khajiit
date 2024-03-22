@@ -22,6 +22,7 @@
 			</li>
 		</modExtensions>
 	</FactionDef>
+
 	<FactionDef ParentName="ESCP_PlayerFactionBase_Tribal">
 		<defName>Theo_KhajiitPlayerFaction_Tribal</defName>
 		<label>New Khajiit Tribe</label>
@@ -44,6 +45,7 @@
 			</li>
 		</modExtensions>
 	</FactionDef>
+	
 	<FactionDef ParentName="ESCP_PlayerFactionBase_Medieval">
 		<defName>Theo_KhajiitPlayerFaction_Bandaari</defName>
 		<label>New Khajiit Caravan</label>
