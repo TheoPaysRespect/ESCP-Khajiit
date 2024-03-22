@@ -247,8 +247,8 @@
 			reason is now rightfully theirs, leading to their reputation as thieves. When trading,
 			they are known to do
 			anything they can to sweeten the deal, for themselves that is.</description>
-		<!--<displayInFactionSelection>false</displayInFactionSelection>-->
-		<!--<requiredCountAtGameStart>1</requiredCountAtGameStart>-->
+		<displayInFactionSelection>false</displayInFactionSelection>
+		<requiredCountAtGameStart>1</requiredCountAtGameStart>
 		<rescueesCanJoin>true</rescueesCanJoin>
 		<hidden>true</hidden>
 		<raidCommonalityFromPointsCurve Inherit="false">
@@ -266,9 +266,8 @@
 			<li>(0.55, 0.95, 0.67)</li>
 			<li>(0.2, 0.8, 0.67)</li>
 		</colorSpectrum>
+		<!--rimworld bs, breaks without this despite them only trading-->
 		<pawnGroupMakers>
-			<!--add
-			monks, rebalance chances-->
 			<li>
 				<kindDef>Combat</kindDef>
 				<commonality>100</commonality>
