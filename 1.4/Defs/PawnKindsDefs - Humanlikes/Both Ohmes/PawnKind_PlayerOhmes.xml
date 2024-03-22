@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
     <PawnKindDef ParentName="ESCP_PlayerPawnKindBase_Medieval">
-        <defName>Theo_KhajiitPlayerPawnKind_Medieval</defName>
-        <race>Theo_KhajiitRace</race>
+        <defName>Theo_OhmesPlayerPawnKind_Medieval</defName>
+        <race>Theo_OhmesRace</race>
         <defaultFactionType>Theo_KhajiitPlayerFaction_Medieval</defaultFactionType>
         <apparelRequired>
-			<li MayRequire="sirmashedpotato.morrowrim.colovianfurhelm">MorrowRim_ColovianFurHelm</li>
-		</apparelRequired>
+            <li MayRequire="sirmashedpotato.morrowrim.colovianfurhelm">MorrowRim_ColovianFurHelm</li>
+        </apparelRequired>
         <backstoryFiltersOverride>
             <li>
                 <categoriesChildhood>
@@ -35,8 +35,8 @@
         </backstoryFiltersOverride>
     </PawnKindDef>
     <PawnKindDef ParentName="ESCP_PlayerPawnKindBase_Tribal">
-        <defName>Theo_KhajiitPlayerPawnKind_Tribal</defName>
-        <race>Theo_KhajiitRace</race>
+        <defName>Theo_OhmesPlayerPawnKind_Tribal</defName>
+        <race>Theo_OhmesRace</race>
         <defaultFactionType>Theo_KhajiitPlayerFaction_Tribal</defaultFactionType>
         <backstoryFiltersOverride>
             <li>
@@ -46,7 +46,6 @@
                     <li>Theo_TribeKhajiitBackstory_Childhood</li>
                     <li>ESCP_GenericBackstory_ChildhoodTribal</li>
                     <li>Theo_KhajiitBackstory_Childhood</li>
-
                 </categoriesChildhood>
                 <categoriesAdulthood>
                     <li>Tribal</li>
@@ -56,7 +55,6 @@
                     <li>Theo_TribeKhajiitBackstory_Adulthood</li>
                     <li>ESCP_DunmerSlaveBackstory_Adulthood</li>
                     <li>Theo_KhajiitBackstory_Adulthood</li>
-
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
