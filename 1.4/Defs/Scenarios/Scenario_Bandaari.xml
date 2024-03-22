@@ -113,7 +113,7 @@
 
 				<li Class="ScenPart_GameStartDialog">
 					<def>GameStartDialog</def>
-					<text></text>
+					<text>Test</text>
 					<!--description-->
 					<closeSound>GameStartSting</closeSound>
 				</li>
