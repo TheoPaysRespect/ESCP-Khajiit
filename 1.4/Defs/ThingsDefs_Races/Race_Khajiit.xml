@@ -1,31 +1,34 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<AlienRace.ThingDef_AlienRace ParentName="Theo_Khajiit_StandardForm">
 		<defName>Theo_KhajiitRace</defName>
 		<label>Khajiit</label>
 		<description>A baseline Khajiit, a species native to Elsweyr.</description>
 		<statBases>
+			<MarketValue>1600</MarketValue>
 			<MoveSpeed>1.1</MoveSpeed>
 			<MeleeDodgeChance>1.1</MeleeDodgeChance>
 			<PawnTrapSpringChance>0.7</PawnTrapSpringChance>
 		</statBases>
 		<race>
 			<baseBodySize>0.9</baseBodySize>
-			<baseHealthScale>0.9</baseHealthScale>
+			<baseHealthScale>1</baseHealthScale>
 		</race>
 		<alienRace>
 			<generalSettings>
-				<!--<notXenophobistTowards>
-						<li>Theo_OhmesRace</li>
-						<li>Theo_SencheRace</li>
-						<li>Theo_AlfiqRace</li>
-					</notXenophobistTowards>-->
+				<notXenophobistTowards>
+					<li>Theo_OhmesRace</li>
+					<li>Theo_OhmesRahtRace</li>
+					<!--<li>Theo_SencheRace</li>
+						<li>Theo_AlfiqRace</li>-->
+				</notXenophobistTowards>
 				<maxDamageForSocialfight>8</maxDamageForSocialfight>
 				<alienPartGenerator>
 					<colorChannels>
 						<li>
 							<name>skin</name>
-							<!--Adjust colors-->
+							<!--Adjust
+							colors-->
 							<first Class="ColorGenerator_Options">
 								<options>
 									<li>
@@ -152,7 +155,8 @@
 				</replacerList>
 				<restrictedThoughts>
 					<!--<li>Theo_Khajiit_ConsumedHorseMeat</li>
-							<li MayRequire="sirmashedpotato.morrowrim.colovianfurhelm">Theo_Khajiit_WearingColovianFurHelm</li>-->
+							<li
+					MayRequire="sirmashedpotato.morrowrim.colovianfurhelm">Theo_Khajiit_WearingColovianFurHelm</li>-->
 				</restrictedThoughts>
 			</thoughtSettings>
 		</alienRace>
