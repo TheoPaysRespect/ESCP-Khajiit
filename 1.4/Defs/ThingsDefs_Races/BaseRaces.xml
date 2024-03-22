@@ -19,7 +19,6 @@
             </li>
         </modExtensions>
         <race>
-            <body>Theo_BaseBody</body>
             <leatherDef>ESCP_LeatherKhajiit</leatherDef>
             <nameGenerator>Theo_Khajiit_NamerMale</nameGenerator>
             <nameGeneratorFemale>Theo_Khajiit_NamerFemale</nameGeneratorFemale>
@@ -72,6 +71,72 @@
                     </headTypes>
                     <bodyTypes Inherit="False">
                         <li>Thin</li>
+                    </bodyTypes>
+                </alienPartGenerator>
+                <newbornBackstoryFilter>
+                    <li>
+                        <categories>
+                            <li>ESCP_GenericBiotechBackstory_Newborn</li>
+                        </categories>
+                        <commonality>1</commonality>
+                    </li>
+                </newbornBackstoryFilter>
+                <childBackstoryFilter>
+                    <li>
+                        <categories>
+                            <li>ESCP_GenericBiotechBackstory_Child</li>
+                        </categories>
+                        <commonality>1</commonality>
+                    </li>
+                </childBackstoryFilter>
+                <adultBackstoryFilter>
+                    <li>
+                        <categories>
+                            <li>ESCP_GenericBiotechBackstory_Adult</li>
+                        </categories>
+                        <commonality>1</commonality>
+                    </li>
+                </adultBackstoryFilter>
+                <adultVatBackstoryFilter>
+                    <li>
+                        <categories>
+                            <li>ESCP_GenericBiotechBackstory_VatGrown</li>
+                        </categories>
+                        <commonality>1</commonality>
+                    </li>
+                </adultVatBackstoryFilter>
+            </generalSettings>
+            <raceRestriction>
+                <blackGeneList>
+                    <li MayRequire="Ludeon.RimWorld.Biotech">Theo_Khajiit_InheritedBonus</li>
+                </blackGeneList>
+            </raceRestriction>
+        </alienRace>
+    </AlienRace.ThingDef_AlienRace>
+    
+    <AlienRace.ThingDef_AlienRace ParentName ="Theo_BaseRace_Khajiit" Name="Theo_Khajiit_StandardForm" Abstract="True">
+        <race>
+            <body>Theo_BaseBody</body>
+        </race>
+        <alienRace>
+            <graphicPaths>
+                <head>Things/Pawn/Humanlike/Theo_Khajiit/Heads/Base/</head>
+                <body>Things/Pawn/Humanlike/Theo_Khajiit/Bodies/Base/</body>
+            </graphicPaths>
+            <generalSettings>
+                <alienPartGenerator>
+                    <headTypes>
+                        <li>Male_AverageNormal</li>
+                        <!--<li>Male_AverageWide</li>
+                        <li>Male_AveragePointy</li>-->
+                        <li>Female_AverageNormal</li>
+                        <!--<li>Female_AverageWide</li>
+                        <li>Female_AveragePointy</li>-->
+                    </headTypes>
+                    <bodyTypes>
+                        <li>Thin</li>
+                        <li MayRequire="Ludeon.RimWorld.Biotech">Baby</li>
+                        <li MayRequire="Ludeon.RimWorld.Biotech">Child</li>
                     </bodyTypes>
                     <bodyAddons>
                         <li>
@@ -152,68 +217,6 @@
                             </offsets>
                         </li>
                     </bodyAddons>
-                </alienPartGenerator>
-                <newbornBackstoryFilter>
-                    <li>
-                        <categories>
-                            <li>ESCP_GenericBiotechBackstory_Newborn</li>
-                        </categories>
-                        <commonality>1</commonality>
-                    </li>
-                </newbornBackstoryFilter>
-                <childBackstoryFilter>
-                    <li>
-                        <categories>
-                            <li>ESCP_GenericBiotechBackstory_Child</li>
-                        </categories>
-                        <commonality>1</commonality>
-                    </li>
-                </childBackstoryFilter>
-                <adultBackstoryFilter>
-                    <li>
-                        <categories>
-                            <li>ESCP_GenericBiotechBackstory_Adult</li>
-                        </categories>
-                        <commonality>1</commonality>
-                    </li>
-                </adultBackstoryFilter>
-                <adultVatBackstoryFilter>
-                    <li>
-                        <categories>
-                            <li>ESCP_GenericBiotechBackstory_VatGrown</li>
-                        </categories>
-                        <commonality>1</commonality>
-                    </li>
-                </adultVatBackstoryFilter>
-            </generalSettings>
-            <raceRestriction>
-                <blackGeneList>
-                    <li MayRequire="Ludeon.RimWorld.Biotech">Theo_Khajiit_InheritedBonus</li>
-                </blackGeneList>
-            </raceRestriction>
-        </alienRace>
-    </AlienRace.ThingDef_AlienRace>
-    <AlienRace.ThingDef_AlienRace ParentName ="Theo_BaseRace_Khajiit" Name="Theo_Khajiit_StandardForm" Abstract="True">
-        <alienRace>
-            <graphicPaths>
-                <head>Things/Pawn/Humanlike/Theo_Khajiit/Heads/Base/</head>
-                <body>Things/Pawn/Humanlike/Theo_Khajiit/Bodies/Base/</body>
-            </graphicPaths>
-            <generalSettings>
-                <alienPartGenerator>
-                    <headTypes>
-                        <li>Male_AverageNormal</li>
-                        <!--<li>Male_AverageWide</li>
-                        <li>Male_AveragePointy</li>-->
-                        <li>Female_AverageNormal</li>
-                        <!--<li>Female_AverageWide</li>
-                        <li>Female_AveragePointy</li>-->
-                    </headTypes>
-                    <bodyTypes>
-                        <li>Thin</li>
-                        <li MayRequire="Ludeon.RimWorld.Biotech">Baby</li>
-                        <li MayRequire="Ludeon.RimWorld.Biotech">Child</li>
-                    </bodyTypes>
                 </alienPartGenerator>
             </generalSettings>
         </alienRace>

@@ -272,6 +272,7 @@
 		<pawnsPlural>bandaari</pawnsPlural>
 		<label>Bandaari Pedlars</label>
 		<leaderTitle>Grand Trader</leaderTitle>
+		<factionNameMaker>Theo_Khajiit_NamerTraders</factionNameMaker>
 		<factionIconPath>World/WorldObjects/Theo_Khajiit_Bandaari</factionIconPath>
 		<description>The Bandaari Pedlars are a clan of nomads travelling the world. Believing
 			everything is worth something, they frequently gather what other factions discard to

@@ -20,6 +20,9 @@
         <defName>Theo_OhmesRahtRace</defName>
         <label>Ohmes-Raht</label>
         <description>An Ohmes-Raht Khajiit, a species native to Elsweyr.</description>
+        <race>
+            <body>Theo_BaseBody</body>
+        </race>
         <alienRace>
             <generalSettings>
                 <notXenophobistTowards>
