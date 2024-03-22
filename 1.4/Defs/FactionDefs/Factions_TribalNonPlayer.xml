@@ -48,7 +48,9 @@
 			<Theo_Structure_Sky_Spirits MayRequire="Ludeon.RimWorld.Ideology">10</Theo_Structure_Sky_Spirits>
 			<Theo_Structure_Worldly_Spirits MayRequire="Ludeon.RimWorld.Ideology">6</Theo_Structure_Worldly_Spirits>
 			<Theo_Structure_Wandering_Spirits MayRequire="Ludeon.RimWorld.Ideology">9</Theo_Structure_Wandering_Spirits>
-			<!--<Theo_Structure_Dark_Spirits MayRequire="Ludeon.RimWorld.Ideology">1</Theo_Structure_Dark_Spirits>--> <!--this is for dro-m'athra-->
+			<!--<Theo_Structure_Dark_Spirits
+			MayRequire="Ludeon.RimWorld.Ideology">1</Theo_Structure_Dark_Spirits>--> <!--this
+			is for dro-m'athra-->
 			<Theo_Structure_Adverserial_Spirits MayRequire="Ludeon.RimWorld.Ideology">4</Theo_Structure_Adverserial_Spirits>
 		</structureMemeWeights>
 		<raidLootMaker>Theo_Khajiit_LootMaker</raidLootMaker>
@@ -231,34 +233,181 @@
 			</li>
 		</pawnGroupMakers>
 	</FactionDef>
-	<!--<FactionDef
-	ParentName="Theo_KhajiitNonPlayerFaction_Base">
+
+	<FactionDef ParentName="Theo_KhajiitNonPlayerFaction_Base">
 		<defName>Theo_KhajiitNonPlayerFaction_Bandaari</defName>
 		<pawnSingular>bandaari</pawnSingular>
-    	<pawnsPlural>bandaari</pawnsPlural>
+		<pawnsPlural>bandaari</pawnsPlural>
 		<label>Bandaari Pedlars</label>
 		<leaderTitle>Grand Trader</leaderTitle>
 		<factionIconPath>World/WorldObjects/Theo_Khajiit_Bandaari</factionIconPath>
-		<description>The Bandaari Pedlars are a clan of nomads travelling the world. Believing everything
-	is worth something, they frequently gather what other factions discard to sell at their next
-	destination. Likewise, they believe that anything left behind for any reason is now rightfully
-	theirs, leading to their reputation as thieves. When trading, they are known to do anything they
-	can to sweeten the deal, for themselves that is.</description>
-		<displayInFactionSelection>false</displayInFactionSelection>
-		<requiredCountAtGameStart>1</requiredCountAtGameStart>
-		<maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
+		<description>The Bandaari Pedlars are a clan of nomads travelling the world. Believing
+			everything is worth something, they frequently gather what other factions discard to
+			sell at their next destination. Likewise, they believe that anything left behind for any
+			reason is now rightfully theirs, leading to their reputation as thieves. When trading,
+			they are known to do
+			anything they can to sweeten the deal, for themselves that is.</description>
+		<!--<displayInFactionSelection>false</displayInFactionSelection>-->
+		<!--<requiredCountAtGameStart>1</requiredCountAtGameStart>-->
 		<rescueesCanJoin>true</rescueesCanJoin>
 		<hidden>true</hidden>
+		<raidCommonalityFromPointsCurve Inherit="false">
+			<points>
+				<li>(0, 0)</li>
+			</points>
+		</raidCommonalityFromPointsCurve>
+		<raidLootValueFromPointsCurve>
+			<points>
+				<li>(0, 0)</li>
+			</points>
+		</raidLootValueFromPointsCurve>
 		<colorSpectrum>
 			<li>(0.45, 0.75, 0.67)</li>
 			<li>(0.55, 0.95, 0.67)</li>
 			<li>(0.2, 0.8, 0.67)</li>
 		</colorSpectrum>
+		<pawnGroupMakers>
+			<!--add
+			monks, rebalance chances-->
+			<li>
+				<kindDef>Combat</kindDef>
+				<commonality>100</commonality>
+				<options>
+					<Theo_Khajiit_Kingdom_Penitent>5</Theo_Khajiit_Kingdom_Penitent>
+					<Theo_Khajiit_Kingdom_Warrior>5</Theo_Khajiit_Kingdom_Warrior>
+					<Theo_Khajiit_Kingdom_Archer>10</Theo_Khajiit_Kingdom_Archer>
+					<Theo_Khajiit_Kingdom_Hunter>10</Theo_Khajiit_Kingdom_Hunter>
+					<Theo_Khajiit_Kingdom_CatMaster>5</Theo_Khajiit_Kingdom_CatMaster>
+					<Theo_Khajiit_Kingdom_HeavyArcher>10</Theo_Khajiit_Kingdom_HeavyArcher>
+					<Theo_Khajiit_Kingdom_Berserker>5</Theo_Khajiit_Kingdom_Berserker>
+					<Theo_Khajiit_Kingdom_ChiefRanged>3</Theo_Khajiit_Kingdom_ChiefRanged>
+					<Theo_Khajiit_Kingdom_ChiefMelee>1.5</Theo_Khajiit_Kingdom_ChiefMelee>
+					<Theo_Khajiit_Kingdom_ChiefBeastMaster>1.5</Theo_Khajiit_Kingdom_ChiefBeastMaster>
+				</options>
+			</li>
+			<li>
+				<kindDef>Combat</kindDef>
+				<commonality>30</commonality>
+				<options>
+					<Theo_Khajiit_Kingdom_Penitent>10</Theo_Khajiit_Kingdom_Penitent>
+					<Theo_Khajiit_Kingdom_Warrior>10</Theo_Khajiit_Kingdom_Warrior>
+					<Theo_Khajiit_Kingdom_Berserker>10</Theo_Khajiit_Kingdom_Berserker>
+					<Theo_Khajiit_Kingdom_ChiefMelee>5</Theo_Khajiit_Kingdom_ChiefMelee>
+				</options>
+			</li>
+			<li>
+				<kindDef>Combat</kindDef>
+				<commonality>5</commonality>
+				<options>
+					<Theo_Khajiit_Kingdom_Breacher>5</Theo_Khajiit_Kingdom_Breacher>
+					<Theo_Khajiit_Kingdom_Penitent>5</Theo_Khajiit_Kingdom_Penitent>
+					<Theo_Khajiit_Kingdom_Warrior>5</Theo_Khajiit_Kingdom_Warrior>
+					<Theo_Khajiit_Kingdom_Archer>10</Theo_Khajiit_Kingdom_Archer>
+					<Theo_Khajiit_Kingdom_Hunter>10</Theo_Khajiit_Kingdom_Hunter>
+					<Theo_Khajiit_Kingdom_CatMaster>5</Theo_Khajiit_Kingdom_CatMaster>
+					<Theo_Khajiit_Kingdom_HeavyArcher>10</Theo_Khajiit_Kingdom_HeavyArcher>
+					<Theo_Khajiit_Kingdom_Berserker>5</Theo_Khajiit_Kingdom_Berserker>
+					<Theo_Khajiit_Kingdom_ChiefRanged>3</Theo_Khajiit_Kingdom_ChiefRanged>
+					<Theo_Khajiit_Kingdom_ChiefMelee>1.5</Theo_Khajiit_Kingdom_ChiefMelee>
+					<Theo_Khajiit_Kingdom_ChiefBeastMaster>1.5</Theo_Khajiit_Kingdom_ChiefBeastMaster>
+				</options>
+			</li>
+			<li>
+				<kindDef>Combat</kindDef>
+				<commonality>30</commonality>
+				<options>
+					<Theo_Khajiit_Kingdom_Archer>10</Theo_Khajiit_Kingdom_Archer>
+					<Theo_Khajiit_Kingdom_Hunter>10</Theo_Khajiit_Kingdom_Hunter>
+					<Theo_Khajiit_Kingdom_CatMaster>5</Theo_Khajiit_Kingdom_CatMaster>
+					<Theo_Khajiit_Kingdom_HeavyArcher>10</Theo_Khajiit_Kingdom_HeavyArcher>
+					<Theo_Khajiit_Kingdom_ChiefRanged>5</Theo_Khajiit_Kingdom_ChiefRanged>
+					<Theo_Khajiit_Kingdom_ChiefBeastMaster>1.5</Theo_Khajiit_Kingdom_ChiefBeastMaster>
+				</options>
+			</li>
+			<li>
+				<kindDef>Peaceful</kindDef>
+				<options>
+					<Theo_Khajiit_Kingdom_Warrior>20</Theo_Khajiit_Kingdom_Warrior>
+					<Theo_Khajiit_Kingdom_Archer>10</Theo_Khajiit_Kingdom_Archer>
+					<Theo_Khajiit_Kingdom_Hunter>10</Theo_Khajiit_Kingdom_Hunter>
+					<Theo_Khajiit_Kingdom_HeavyArcher>10</Theo_Khajiit_Kingdom_HeavyArcher>
+					<Theo_Khajiit_Kingdom_Berserker>5</Theo_Khajiit_Kingdom_Berserker>
+					<Theo_Khajiit_Kingdom_ChiefRanged>3</Theo_Khajiit_Kingdom_ChiefRanged>
+					<Theo_Khajiit_Kingdom_ChiefMelee>1.5</Theo_Khajiit_Kingdom_ChiefMelee>
+				</options>
+			</li>
+			<li>
+				<kindDef>Trader</kindDef>
+				<traders>
+					<Theo_Khajiit_Kingdom_Trader>1</Theo_Khajiit_Kingdom_Trader>
+				</traders>
+				<carriers>
+					<!--edit
+					with more unique carriers-->
+					<Muffalo>6</Muffalo>
+					<Dromedary>5</Dromedary>
+					<Alpaca>2.5</Alpaca>
+					<Elephant>2</Elephant>
+				</carriers>
+				<guards>
+					<Theo_Khajiit_Kingdom_Warrior>7</Theo_Khajiit_Kingdom_Warrior>
+					<Theo_Khajiit_Kingdom_Archer>10</Theo_Khajiit_Kingdom_Archer>
+					<Theo_Khajiit_Kingdom_Hunter>10</Theo_Khajiit_Kingdom_Hunter>
+					<Theo_Khajiit_Kingdom_HeavyArcher>10</Theo_Khajiit_Kingdom_HeavyArcher>
+					<Theo_Khajiit_Kingdom_Berserker>7</Theo_Khajiit_Kingdom_Berserker>
+				</guards>
+			</li>
+			<li>
+				<kindDef>Settlement</kindDef>
+				<options>
+					<Theo_Khajiit_Kingdom_Warrior>7</Theo_Khajiit_Kingdom_Warrior>
+					<Theo_Khajiit_Kingdom_Archer>10</Theo_Khajiit_Kingdom_Archer>
+					<Theo_Khajiit_Kingdom_Hunter>10</Theo_Khajiit_Kingdom_Hunter>
+					<Theo_Khajiit_Kingdom_CatMaster>5</Theo_Khajiit_Kingdom_CatMaster>
+					<Theo_Khajiit_Kingdom_HeavyArcher>10</Theo_Khajiit_Kingdom_HeavyArcher>
+					<Theo_Khajiit_Kingdom_Berserker>7</Theo_Khajiit_Kingdom_Berserker>
+					<Theo_Khajiit_Kingdom_ChiefBeastMaster>10</Theo_Khajiit_Kingdom_ChiefBeastMaster>
+				</options>
+			</li>
+			<li>
+				<kindDef>Settlement_RangedOnly</kindDef>
+				<options>
+					<Theo_Khajiit_Kingdom_Archer>10</Theo_Khajiit_Kingdom_Archer>
+					<Theo_Khajiit_Kingdom_Hunter>10</Theo_Khajiit_Kingdom_Hunter>
+					<Theo_Khajiit_Kingdom_CatMaster>5</Theo_Khajiit_Kingdom_CatMaster>
+					<Theo_Khajiit_Kingdom_HeavyArcher>10</Theo_Khajiit_Kingdom_HeavyArcher>
+					<Theo_Khajiit_Kingdom_ChiefBeastMaster>10</Theo_Khajiit_Kingdom_ChiefBeastMaster>
+				</options>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">
+				<kindDef>Hunters</kindDef>
+				<commonality>1</commonality>
+				<options>
+					<Theo_Khajiit_Tribal_Hunter>1</Theo_Khajiit_Tribal_Hunter>
+				</options>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">
+				<kindDef>Loggers</kindDef>
+				<commonality>1</commonality>
+				<options>
+					<Theo_Khajiit_Tribal_Logger>1</Theo_Khajiit_Tribal_Logger>
+				</options>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">
+				<kindDef>Farmers</kindDef>
+				<commonality>1</commonality>
+				<options>
+					<Theo_Khajiit_Tribal_Farmer>1</Theo_Khajiit_Tribal_Farmer>
+				</options>
+			</li>
+		</pawnGroupMakers>
 		<disallowedMemes>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Cannibal</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Guilty</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Tunneler</li>
 		</disallowedMemes>
 		<requiredMemes>
 			<li MayRequire="vanillaexpanded.vmemese">VME_Trader</li>
@@ -266,29 +415,9 @@
 			<li MayRequire="vanillaexpanded.vmemese">VME_Nomad</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">HighLife</li>
 		</requiredMemes>
-		<configurationListOrderPriority>999</configurationListOrderPriority>
-		<pawnGroupMakers>
-			<li>
-				<kindDef>Trader</kindDef>
-				<traders>
-					<Theo_Khajiit_Kingdom_Trader>3</Theo_Khajiit_Kingdom_Trader>
-				</traders>
-				<carriers>
-					<Muffalo>6</Muffalo>
-					<Dromedary>5</Dromedary>
-					<Alpaca>2.5</Alpaca>
-					<Elephant>2</Elephant>
-				</carriers>
-				<guards>
-					<Theo_Khajiit_Kingdom_Warrior>3</Theo_Khajiit_Kingdom_Warrior>
-					<Theo_Khajiit_Kingdom_Archer>5</Theo_Khajiit_Kingdom_Archer>
-					<Theo_Khajiit_Kingdom_Hunter>5</Theo_Khajiit_Kingdom_Hunter>
-					<Theo_Khajiit_Kingdom_HeavyArcher>5</Theo_Khajiit_Kingdom_HeavyArcher>
-					<Theo_Khajiit_Kingdom_Berserker>3</Theo_Khajiit_Kingdom_Berserker>
-				</guards>
-			</li>
-		</pawnGroupMakers>
-	</FactionDef>-->
+		<configurationListOrderPriority>30</configurationListOrderPriority>
+	</FactionDef>
+
 	<FactionDef ParentName="Theo_KhajiitNonPlayerFaction_Base">
 		<defName>Theo_KhajiitNonPlayerFaction_Tribal</defName>
 		<label>Rough Khajiit Tribe</label>
