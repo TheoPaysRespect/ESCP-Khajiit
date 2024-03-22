@@ -56,6 +56,31 @@
                 </li>
             </styleSettings>
             <generalSettings>
+                <reproduction>
+                    <hybridSpecific>
+                        <li>                            
+                        <!--final values 64, 6, 6, 12, 12-->
+                            <probability>20</probability>
+                            <childKindDef>Theo_KhajiitPlayerPawnKind_Tribal</childKindDef>
+                        </li>
+                        <li>
+                            <probability>40</probability>
+                            <childKindDef>Theo_OhmesPlayerPawnKind_Tribal</childKindDef>
+                        </li>
+                        <li>
+                            <probability>40</probability>
+                            <childKindDef>Theo_OhmesRahtPlayerPawnKind_Tribal</childKindDef>
+                        </li>
+                        <!--<li>
+                        <probability>12</probability>
+                        <childKindDef>Theo_AlfiqRace</childKindDef>
+                    </li>
+                    <li>
+                        <probability>12</probability>
+                        <childKindDef>Theo_SencheRace</childKindDef>
+                    </li>-->
+                    </hybridSpecific>
+                </reproduction>
                 <raceGenes MayRequire="ludeon.rimworld.biotech">
                     <li MayRequire="sirmashedpotato.morrowrim.moonsugarandskooma">
                         AddictionResistant_MorrowRim_MoonSugar</li>
@@ -112,8 +137,9 @@
                 </blackGeneList>
             </raceRestriction>
         </alienRace>
+
     </AlienRace.ThingDef_AlienRace>
-    
+
     <AlienRace.ThingDef_AlienRace ParentName ="Theo_BaseRace_Khajiit" Name="Theo_Khajiit_StandardForm" Abstract="True">
         <race>
             <body>Theo_BaseBody</body>

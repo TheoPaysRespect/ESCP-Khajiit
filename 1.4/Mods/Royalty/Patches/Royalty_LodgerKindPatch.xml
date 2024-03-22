@@ -8,16 +8,18 @@
 				<pawnKinds>
 					<li>Theo_Khajiit_Kingdom_Penitent</li>
 					<li>Theo_Khajiit_Kingdom_Warrior</li>
-					<li>Theo_Khajiit_Kingdom_Archer</li>
+					<li>Theo_Ohmes_Kingdom_Archer</li>
+					<li>Theo_OhmesRaht_Kingdom_Archer</li>
 					<li>Theo_Khajiit_Kingdom_Hunter</li>
 				</pawnKinds>
 			</li>
 			<li>
-				<factionDef>Theo_KhajiitNonPlayerFaction_Tribe</factionDef>
+				<factionDef>Theo_KhajiitNonPlayerFaction_Tribal</factionDef>
 				<pawnKinds>
 					<li>Theo_Khajiit_Tribal_Penitent</li>
 					<li>Theo_Khajiit_Tribal_Warrior</li>
-					<li>Theo_Khajiit_Tribal_Archer</li>
+					<li>Theo_Ohmes_Tribal_Archer</li>
+					<li>Theo_OhmesRaht_Tribal_Archer</li>
 					<li>Theo_Khajiit_Tribal_Hunter</li>
 				</pawnKinds>
 			</li>
