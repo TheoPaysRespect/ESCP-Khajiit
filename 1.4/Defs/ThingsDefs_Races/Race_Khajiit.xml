@@ -4,9 +4,6 @@
 		<defName>Theo_KhajiitRace</defName>
 		<label>Khajiit</label>
 		<description>A baseline Khajiit, a species native to Elsweyr.</description>
-		<descriptionHyperlinks>
-			<GeneDef MayRequire="Ludeon.RimWorld.Biotech">Theo_Khajiit_InheritedBonus</GeneDef>
-		</descriptionHyperlinks>
 		<statBases>
 			<MoveSpeed>1.1</MoveSpeed>
 			<MeleeDodgeChance>1.1</MeleeDodgeChance>
@@ -18,14 +15,10 @@
 		</race>
 		<alienRace>
 			<generalSettings>
-				<raceGenes MayRequire="ludeon.rimworld.biotech">
-					<li MayRequire="sirmashedpotato.morrowrim.moonsugarandskooma">AddictionResistant_MorrowRim_MoonSugar</li>
-					<!--<li>AddictionResistant_MorrowRim_Skooma</li>-->
-				</raceGenes>
 				<!--<notXenophobistTowards>
-						<li>Theo_Senche</li>
-						<li>Theo_Alfiq</li>
-						<li>Theo_Dro-m'Athra</li>
+						<li>Theo_OhmesRace</li>
+						<li>Theo_SencheRace</li>
+						<li>Theo_AlfiqRace</li>
 					</notXenophobistTowards>-->
 				<maxDamageForSocialfight>8</maxDamageForSocialfight>
 				<alienPartGenerator>
