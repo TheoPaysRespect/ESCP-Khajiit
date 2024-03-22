@@ -93,7 +93,7 @@
                                     <offset>(0.043,0.15)</offset>
                                 </south>
                                 <north>
-                                     <offset>(-0.055,0.155)</offset>
+                                    <offset>(-0.055,0.155)</offset>
                                     <!--test these-->
                                 </north>
                                 <east>
@@ -101,7 +101,7 @@
                                     <!--test these-->
                                 </east>
                             </offsets>
-                        </li>   
+                        </li>
                         <li>
                             <path>Things/Pawn/Humanlike/Theo_Khajiit/Ears/EarLeft</path>
                             <colorChannel>skin</colorChannel>
@@ -144,10 +144,10 @@
                             <offsets>
                                 <!--test-->
                                 <north>
-                                      <offset>(-0.0286,0.0571)</offset>
+                                    <offset>(-0.0286,0.0571)</offset>
                                 </north>
                                 <east>
-                                     <offset>(0.0143,-0.1429)</offset>
+                                    <offset>(0.0143,-0.1429)</offset>
                                 </east>
                             </offsets>
                         </li>
@@ -214,7 +214,7 @@
                         <li MayRequire="Ludeon.RimWorld.Biotech">Baby</li>
                         <li MayRequire="Ludeon.RimWorld.Biotech">Child</li>
                     </bodyTypes>
-                </alienPartGenerator>             
+                </alienPartGenerator>
             </generalSettings>
         </alienRace>
     </AlienRace.ThingDef_AlienRace>
@@ -230,7 +230,7 @@
             <baseBodySize>0.8</baseBodySize>
             <baseHealthScale>1</baseHealthScale>
         </race>
-        <alienrace>
+        <alienRace>
             <graphicPaths Inherit="false">
                 <skinShader>Cutout</skinShader>
             </graphicPaths>
@@ -361,6 +361,6 @@
                     </li>
                 </replacerList>
             </thoughtSettings>
-        </alienrace>
+        </alienRace>
     </AlienRace.ThingDef_AlienRace>
 </Defs>
