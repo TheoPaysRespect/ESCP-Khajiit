@@ -6,7 +6,7 @@
 		<description>A baseline Khajiit, a species native to Elsweyr.</description>
 		<statBases>
 			<MarketValue>1600</MarketValue>
-			<MoveSpeed>1.1</MoveSpeed>
+			<MoveSpeed>5</MoveSpeed>
 			<MeleeDodgeChance>1.1</MeleeDodgeChance>
 			<PawnTrapSpringChance>0.7</PawnTrapSpringChance>
 		</statBases>

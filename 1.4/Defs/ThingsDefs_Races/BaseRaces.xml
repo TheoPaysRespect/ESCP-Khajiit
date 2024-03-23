@@ -309,7 +309,7 @@
     <AlienRace.ThingDef_AlienRace ParentName="Theo_BaseRace_Khajiit" Name="Theo_Khajiit_Ohmes" Abstract="True">
         <statBases>
             <MarketValue>1900</MarketValue>
-            <MoveSpeed>1</MoveSpeed>
+            <MoveSpeed>4.7</MoveSpeed>
             <MeleeDodgeChance>1.1</MeleeDodgeChance>
             <PawnTrapSpringChance>0.8</PawnTrapSpringChance>
         </statBases>
