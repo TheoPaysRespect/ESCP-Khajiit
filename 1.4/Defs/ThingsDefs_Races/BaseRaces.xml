@@ -149,8 +149,10 @@
                 <humanRecipeImport>true</humanRecipeImport>
                 <immuneToAge>false</immuneToAge>
                 <alienPartGenerator>
-                    <bodyTypes Inherit="False">
+                     <bodyTypes>
                         <li>Thin</li>
+                        <li MayRequire="Ludeon.RimWorld.Biotech">Baby</li>
+                        <li MayRequire="Ludeon.RimWorld.Biotech">Child</li>
                     </bodyTypes>
                 </alienPartGenerator>
                 <newbornBackstoryFilter>
@@ -214,11 +216,6 @@
                         <li>Female_AverageWide</li>
                         <!--<li>Female_AveragePointy</li>-->
                     </headTypes>
-                    <bodyTypes>
-                        <li>Thin</li>
-                        <li MayRequire="Ludeon.RimWorld.Biotech">Baby</li>
-                        <li MayRequire="Ludeon.RimWorld.Biotech">Child</li>
-                    </bodyTypes>
                     <bodyAddons>
                         <li>
                             <path>Things/Pawn/Humanlike/Theo_Khajiit/Ears/EarRight</path>
