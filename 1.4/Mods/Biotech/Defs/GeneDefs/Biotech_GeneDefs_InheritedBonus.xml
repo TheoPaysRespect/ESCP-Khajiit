@@ -6,11 +6,11 @@
         <description>Carriers of this gene excibit some Khajiit traits without looking like one of them.</description>
         <iconPath>UI/Theo_KhajiitAncestryGene</iconPath>
         <statOffsets>
-            <PsychicSensitivity>0.2</PsychicSensitivity>
+            <PsychicSensitivity>0.1</PsychicSensitivity>
             <SocialImpact>-0.1</SocialImpact>
-            <Comfort>0.2</Comfort>
-            <MeleeDodgeChance>5</MeleeDodgeChance>
-            <!--skooma resistance-->
+            <Comfort>0.1</Comfort>
+            <MeleeDodgeChance>0.1</MeleeDodgeChance>
+            <!--moon sugar resistance-->
         </statOffsets>
     </GeneDef>
 </Defs>

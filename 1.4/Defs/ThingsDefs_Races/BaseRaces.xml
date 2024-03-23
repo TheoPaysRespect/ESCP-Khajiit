@@ -8,6 +8,7 @@
             <ComfyTemperatureMin>0</ComfyTemperatureMin>
             <Flammability>1.2</Flammability>
             <ComfyTemperatureMax>35</ComfyTemperatureMax>
+            <Comfort>1.2</Comfort>
         </statBases>
         <descriptionHyperlinks>
             <GeneDef MayRequire="Ludeon.RimWorld.Biotech">Theo_Khajiit_InheritedBonus</GeneDef>
@@ -148,10 +149,6 @@
                 <humanRecipeImport>true</humanRecipeImport>
                 <immuneToAge>false</immuneToAge>
                 <alienPartGenerator>
-                    <headTypes Inherit="False">
-                        <li>Male_AverageNormal</li>
-                        <li>Female_AverageNormal</li>
-                    </headTypes>
                     <bodyTypes Inherit="False">
                         <li>Thin</li>
                     </bodyTypes>
@@ -208,14 +205,14 @@
                 <body>Things/Pawn/Humanlike/Theo_Khajiit/Bodies/Base/</body>
             </graphicPaths>
             <generalSettings>
-                <alienPartGenerator>
+                <alienPartGenerator Inherit="false">
                     <headTypes>
                         <li>Male_AverageNormal</li>
-                        <!--<li>Male_AverageWide</li>
-                        <li>Male_AveragePointy</li>-->
+                        <li>Male_AverageWide</li>
+                        <!--<li>Male_AveragePointy</li>-->
                         <li>Female_AverageNormal</li>
-                        <!--<li>Female_AverageWide</li>
-                        <li>Female_AveragePointy</li>-->
+                        <li>Female_AverageWide</li>
+                        <!--<li>Female_AveragePointy</li>-->
                     </headTypes>
                     <bodyTypes>
                         <li>Thin</li>
@@ -310,6 +307,7 @@
         <statBases>
             <MarketValue>1900</MarketValue>
             <MoveSpeed>4.7</MoveSpeed>
+            <Flammability>1</Flammability>
             <MeleeDodgeChance>1.1</MeleeDodgeChance>
             <PawnTrapSpringChance>0.8</PawnTrapSpringChance>
         </statBases>
@@ -324,7 +322,7 @@
             <generalSettings>
                 <maxDamageForSocialfight>6</maxDamageForSocialfight>
                 <alienPartGenerator>
-                    <headTypes>
+                    <headTypes Inherit="false">
                         <li>ESCP_HeadMer_Female_Average_Normal</li>
                         <li>ESCP_HeadMer_Female_Average_Pointy</li>
                         <li>ESCP_HeadMer_Female_Average_Wide</li>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-    <!--Fezez, ember, adusa daro, caska, sereyne, Ajira-->
+    <!--Fezez, ember, adusa daro, caska, sereyne-->
     <AlienRace.PawnBioDef Name="Theo_KhajiitPawnBioBase" Abstract="True">
         <validRaces>
             <li>Theo_KhajiitRace</li>
