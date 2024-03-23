@@ -148,7 +148,7 @@
                 <allowHumanBios>false</allowHumanBios>
                 <humanRecipeImport>true</humanRecipeImport>
                 <immuneToAge>false</immuneToAge>
-                <alienPartGenerator>
+                <alienPartGenerator Inherit="false">
                      <bodyTypes>
                         <li>Thin</li>
                         <li MayRequire="Ludeon.RimWorld.Biotech">Baby</li>
