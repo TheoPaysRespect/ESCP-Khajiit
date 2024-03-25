@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationInsert">
+        <xpath>Defs/RecipeDef[not(@ParentName="SurgeryInstallBodyPartNaturalBase")]/appliedOnFixedBodyParts/li[text()="Stomach"]</xpath>
+        <order>Append</order>
+        <value>
+            <li>KhajiitStomach</li>
+        </value>
+    </Operation>
+</Patch>

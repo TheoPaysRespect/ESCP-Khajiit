@@ -1,102 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-    <!--_______stomach_________-->
-    <RecipeDef ParentName="SurgeryInstallBodyPartNaturalBase">
-        <defName>InstallKhajiitStomach</defName>
-        <label>install Khajiit stomach</label>
-        <description>Install a Khajiit stomach.</description>
-        <descriptionHyperlinks>
-            <ThingDef>Khajiit_Stomach</ThingDef>
-            <HediffDef>Khajiit_Stomach</HediffDef>
-        </descriptionHyperlinks>
-        <jobString>Installing Khajiit stomach.</jobString>
-        <ingredients>
-            <li>
-                <filter>
-                    <thingDefs>
-                        <li>Khajiit_Stomach</li>
-                    </thingDefs>
-                </filter>
-                <count>1</count>
-            </li>
-        </ingredients>
-        <fixedIngredientFilter>
-            <thingDefs>
-                <li>Khajiit_Stomach</li>
-            </thingDefs>
-        </fixedIngredientFilter>
-        <appliedOnFixedBodyParts>
-            <li>Stomach</li>
-        </appliedOnFixedBodyParts>
-        <addsHediff>Khajiit_Stomach</addsHediff>
-    </RecipeDef>
-
-    <BodyPartDef>
-        <defName>Khajiit_Stomach</defName>
-        <label>stomach</label>
-        <description>Khajiit stomach, resistant to food poisoning.</description>
-        <spawnThingOnRemoved>Khajiit_Stomach</spawnThingOnRemoved>
-        <hitPoints>21</hitPoints>
-        <skinCovered>false</skinCovered>
-        <tags>
-            <li>MetabolismSource</li>
-        </tags>
-    </BodyPartDef>
-
-    <thingDef ParentName="BodyPartNaturalBase">
-        <defName>Khajiit_Stomach</defName>
-        <label>Khajiit Stomach</label>
-        <description>Khajiit stomach, resistant to food poisoning.</description>
-        <graphicData>
-            <texPath>Things/Item/Health/HealthItem</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-            <color>(155,165,148)</color>
-        </graphicData>
-        <descriptionHyperlinks>
-            <RecipeDef>InstallKhajiitStomach</RecipeDef>
-        </descriptionHyperlinks>
-        <statBases>
-            <Mass>2</Mass>
-        </statBases>
-    </thingDef>
-
-    <HediffDef ParentName="AddedBodyPartBase">
-        <defName>Khajiit_Stomach</defName>
-        <label>stomach</label>
-        <labelNoun>a khajiit stomach</labelNoun>
-        <description>Khajiit stomach, resistant to food poisoning.</description>
-        <descriptionHyperlinks>
-            <ThingDef>Khajiit_Stomach</ThingDef>
-        </descriptionHyperlinks>
-        <stages>
-            <li>
-                <becomeVisible>false</becomeVisible>
-                <foodPoisoningChanceFactor>0.3</foodPoisoningChanceFactor>
-            </li>
-        </stages>
-    </HediffDef>
-
     <!--__________claws___________-->
+
     <BodyPartGroupDef>
         <defName>RightHandClawsGroup</defName>
-        <label>claws</label>
+        <label>right hand claws</label>
         <listOrder>80</listOrder>
     </BodyPartGroupDef>
 
 
     <BodyPartGroupDef>
         <defName>LeftHandClawsGroup</defName>
-        <label>claws</label>
+        <label>left hand claws</label>
         <listOrder>80</listOrder>
     </BodyPartGroupDef>
-
+    
     <BodyPartDef>
         <defName>RightHandClaws</defName>
         <label>right claws</label>
         <description>Sharp claws hidden underneatch soft paws.</description>
         <hitPoints>10</hitPoints>
         <skinCovered>false</skinCovered>
+        <canSuggestAmputation>true</canSuggestAmputation>
     </BodyPartDef>
 
     <BodyPartDef>
@@ -105,7 +31,51 @@
         <description>Sharp claws hidden underneatch soft paws.</description>
         <hitPoints>10</hitPoints>
         <skinCovered>false</skinCovered>
+        <canSuggestAmputation>true</canSuggestAmputation>
     </BodyPartDef>
+
+    <!--_______stomach_________-->
+    <BodyPartDef>
+        <defName>KhajiitStomach</defName>
+        <label>stomach</label>
+        <description>Khajiit stomach, resistant to food poisoning.</description>
+        <permanentInjuryChanceFactor>0.08</permanentInjuryChanceFactor>
+        <hitPoints>21</hitPoints>
+        <canSuggestAmputation>true</canSuggestAmputation>
+        <skinCovered>false</skinCovered>
+        <tags>
+            <li>MetabolismSource</li>
+        </tags>
+    </BodyPartDef>
+
+    <HediffGiverSetDef>
+        <defName>Khajiit_HediffGiver</defName>
+        <hediffGivers>
+            <li Class="HediffGiver_Birthday">
+                <hediff>Khajiit_Stomach</hediff>
+                <countToAffect>2</countToAffect>
+                <ageFractionChanceCurve>
+                    <points>
+                        <li>(0, 1)</li>
+                    </points>
+                </ageFractionChanceCurve>
+            </li>
+        </hediffGivers>
+    </HediffGiverSetDef>
+
+    <HediffDef>
+        <defName>Khajiit_Stomach</defName>
+        <label>khajiit stomach</label>
+        <labelNoun>a khajiit stomach</labelNoun>
+        <description>Khajiit stomach, resistant to food poisoning.</description>
+        <isBad>false</isBad>
+        <stages>
+            <li>
+                <becomeVisible>false</becomeVisible>
+                <foodPoisoningChanceFactor>0.3</foodPoisoningChanceFactor>
+            </li>
+        </stages>
+    </HediffDef>
 
     <!--_________tails___________-->
     <RecipeDef>
@@ -133,10 +103,10 @@
             <li>
                 <filter>
                     <thingDefs>
-                        <li>Cloth</li>
+                        <li>Khajiit_ClothTail</li>
                     </thingDefs>
                 </filter>
-                <count>3</count>
+                <count>1</count>
             </li>
         </ingredients>
         <fixedIngredientFilter>
@@ -144,7 +114,7 @@
                 <li>Medicine</li>
             </categories>
             <thingDefs>
-                <li>Cloth</li>
+                <li>Khajiit_ClothTail</li>
             </thingDefs>
         </fixedIngredientFilter>
         <appliedOnFixedBodyParts>
@@ -167,6 +137,16 @@
         <defName>Khajiit_ClothTail</defName>
         <label>cloth tail</label>
         <description>Cloth tail attachable with a belt. Offers some comfort to those who lost theirs.</description>
+        <techLevel>Neolithic</techLevel>
+        <techHediffsTags>
+            <li>Simple</li>
+        </techHediffsTags>
+        <tradeTags>
+            <li>BasicProstheses</li>
+        </tradeTags>
+        <thingCategories>
+            <li>BodyPartsSimple</li>
+        </thingCategories>
         <graphicData>
             <texPath>Things/Item/Health/HealthItem</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -175,12 +155,24 @@
         <statBases>
             <MarketValue>400</MarketValue>
             <Mass>.3</Mass>
+            <DeteriorationRate>2</DeteriorationRate>
+            <WorkToMake>2000</WorkToMake>
         </statBases>
         <costList>
             <Cloth>10</Cloth>
+            <Leather_Plain>2</Leather_Plain>
         </costList>
-        <techHediffsTags>
-            <li>Simple</li>
-        </techHediffsTags>
+        <recipeMaker>
+            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+            <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+            <workSkill>Crafting</workSkill>
+            <effectWorking>Tailor</effectWorking>
+            <researchPrerequisite MayRequireAnyOf="nunahuralshamikh.medp,joedaly.medmeds.mo">CrudeLimbs</researchPrerequisite>
+            <recipeUsers>
+                <li>CraftingSpot</li>
+                <li>HandTailoringBench</li>
+                <li MayRequire="dankpyon.medieval.overhaul">DankPyon_Workbench</li>
+            </recipeUsers>
+        </recipeMaker>
     </thingDef>
 </Defs>

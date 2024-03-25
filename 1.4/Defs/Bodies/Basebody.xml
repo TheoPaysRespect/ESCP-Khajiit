@@ -45,7 +45,7 @@
                     </groups>
                 </li>
                 <li>
-                    <def>Khajiit_Stomach</def>
+                    <def>KhajiitStomach</def>
                     <coverage>0.025</coverage>
                     <depth>Inside</depth>
                     <groups>

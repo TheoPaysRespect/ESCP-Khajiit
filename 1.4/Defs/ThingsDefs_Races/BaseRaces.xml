@@ -28,6 +28,9 @@
             </li>
         </modExtensions>
         <race>
+            <hediffGiverSets>
+                <li>Khajiit_HediffGiver</li>
+            </hediffGiverSets>
             <leatherDef>ESCP_LeatherKhajiit</leatherDef>
             <nameGenerator>Theo_Khajiit_NamerMale</nameGenerator>
             <nameGeneratorFemale>Theo_Khajiit_NamerFemale</nameGeneratorFemale>
