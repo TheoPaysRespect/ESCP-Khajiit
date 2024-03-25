@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!--bodymasks for patterns?-->
+
+<!--
+
+    <soundWounded>Pawn_Cat_Injured</soundWounded>
+    <soundDeath>Pawn_Cat_Death</soundDeath>
+    <soundCall>Pawn_Cat_Call</soundCall>
+    <soundAngry>Pawn_Cat_Angry</soundAngry>
+-->
 <Defs>
     <AlienRace.ThingDef_AlienRace ParentName="ESCP_BaseRace_NoCosmeticGenes" Name="Theo_BaseRace_Khajiit" Abstract="True">
         <statBases>
@@ -57,6 +65,17 @@
                 </li>
             </styleSettings>
             <generalSettings>
+                <factionRelations>
+                    <li>
+                        <factions>
+                            <li>Theo_KhajiitNonPlayerFaction_Bandaari</li>
+                        </factions>
+                        <goodwill>
+                            <min>100</min>
+                            <max>100</max>
+                        </goodwill>
+                    </li>
+                </factionRelations>
                 <maxDamageForSocialfight>6</maxDamageForSocialfight>
                 <reproduction>
                     <hybridSpecific>
@@ -68,24 +87,24 @@
                         </li>
                         <li>
                             <partnerRace>Theo_KhajiitRace</partnerRace>
-                            <probability>18</probability>
+                            <probability>6</probability>
                             <childKindDef>Theo_OhmesPlayerPawnKind_Tribal</childKindDef>
                         </li>
                         <li>
                             <partnerRace>Theo_KhajiitRace</partnerRace>
-                            <probability>18</probability>
+                            <probability>6</probability>
                             <childKindDef>Theo_OhmesRahtPlayerPawnKind_Tribal</childKindDef>
                         </li>
-                        <!--<li>
-							<partnerRace>Theo_KhajiitRace</partnerRace>
-                        	<probability>12</probability>
-                        	<childKindDef>Theo_AlfiqPlayerPawnKind_Tribal</childKindDef>
-                    </li>
-                    <li>
-							<partnerRace>Theo_KhajiitRace</partnerRace>
-                        	<probability>12</probability>
-                        	<childKindDef>Theo_Senche-RahtPlayerPawnKind_Tribal</childKindDef>
-                    </li>-->
+                        <li>
+                            <partnerRace>Theo_KhajiitRace</partnerRace>
+                            <probability>12</probability>
+                            <childKindDef>Theo_AlfiqPlayerPawnKind_Tribal</childKindDef>
+                        </li>
+                        <li>
+                            <partnerRace>Theo_KhajiitRace</partnerRace>
+                            <probability>12</probability>
+                            <childKindDef>Theo_SenchePlayerPawnKind_Tribal</childKindDef>
+                        </li>
                         <li>
                             <!--final values 64, 6, 6, 12, 12-->
                             <partnerRace>Theo_OhmesRace</partnerRace>
@@ -94,24 +113,24 @@
                         </li>
                         <li>
                             <partnerRace>Theo_OhmesRace</partnerRace>
-                            <probability>18</probability>
+                            <probability>6</probability>
                             <childKindDef>Theo_OhmesPlayerPawnKind_Tribal</childKindDef>
                         </li>
                         <li>
                             <partnerRace>Theo_OhmesRace</partnerRace>
-                            <probability>18</probability>
+                            <probability>6</probability>
                             <childKindDef>Theo_OhmesRahtPlayerPawnKind_Tribal</childKindDef>
                         </li>
-                        <!--<li>
-							<partnerRace>Theo_OhmesRace</partnerRace>
-                        	<probability>12</probability>
-                        	<childKindDef>Theo_AlfiqPlayerPawnKind_Tribal</childKindDef>
-                    </li>
-                    <li>
-							<partnerRace>Theo_OhmesRace</partnerRace>
-                        	<probability>12</probability>
-                        	<childKindDef>Theo_Senche-RahtPlayerPawnKind_Tribal</childKindDef>
-                    </li>-->
+                        <li>
+                            <partnerRace>Theo_OhmesRace</partnerRace>
+                            <probability>12</probability>
+                            <childKindDef>Theo_AlfiqPlayerPawnKind_Tribal</childKindDef>
+                        </li>
+                        <li>
+                            <partnerRace>Theo_OhmesRace</partnerRace>
+                            <probability>12</probability>
+                            <childKindDef>Theo_SenchePlayerPawnKind_Tribal</childKindDef>
+                        </li>
                         <li>
                             <!--final values 64, 6, 6, 12, 12-->
                             <partnerRace>Theo_OhmesRahtRace</partnerRace>
@@ -120,24 +139,76 @@
                         </li>
                         <li>
                             <partnerRace>Theo_OhmesRahtRace</partnerRace>
-                            <probability>18</probability>
+                            <probability>6</probability>
                             <childKindDef>Theo_OhmesPlayerPawnKind_Tribal</childKindDef>
                         </li>
                         <li>
                             <partnerRace>Theo_OhmesRahtRace</partnerRace>
-                            <probability>18</probability>
+                            <probability>6</probability>
                             <childKindDef>Theo_OhmesRahtPlayerPawnKind_Tribal</childKindDef>
                         </li>
-                        <!--<li>
-							<partnerRace>Theo_OhmesRahtRace</partnerRace>
-                        	<probability>12</probability>
-                        	<childKindDef>Theo_AlfiqPlayerPawnKind_Tribal</childKindDef>
-                    </li>
-                    <li>
-							<partnerRace>Theo_OhmesRahtRace</partnerRace>
-                        	<probability>12</probability>
-                        	<childKindDef>Theo_Senche-RahtPlayerPawnKind_Tribal</childKindDef>
-                    </li>-->
+                        <li>
+                            <partnerRace>Theo_OhmesRahtRace</partnerRace>
+                            <probability>12</probability>
+                            <childKindDef>Theo_AlfiqPlayerPawnKind_Tribal</childKindDef>
+                        </li>
+                        <li>
+                            <partnerRace>Theo_OhmesRahtRace</partnerRace>
+                            <probability>12</probability>
+                            <childKindDef>Theo_SenchePlayerPawnKind_Tribal</childKindDef>
+                        </li>
+                        <li>
+                            <!--final values 64, 6, 6, 12, 12-->
+                            <partnerRace>Theo_AlfiqRace</partnerRace>
+                            <probability>64</probability>
+                            <childKindDef>Theo_KhajiitPlayerPawnKind_Tribal</childKindDef>
+                        </li>
+                        <li>
+                            <partnerRace>Theo_AlfiqRace</partnerRace>
+                            <probability>6</probability>
+                            <childKindDef>Theo_OhmesPlayerPawnKind_Tribal</childKindDef>
+                        </li>
+                        <li>
+                            <partnerRace>Theo_AlfiqRace</partnerRace>
+                            <probability>6</probability>
+                            <childKindDef>Theo_OhmesRahtPlayerPawnKind_Tribal</childKindDef>
+                        </li>
+                        <li>
+                            <partnerRace>Theo_AlfiqRace</partnerRace>
+                            <probability>12</probability>
+                            <childKindDef>Theo_AlfiqPlayerPawnKind_Tribal</childKindDef>
+                        </li>
+                        <li>
+                            <partnerRace>Theo_AlfiqRace</partnerRace>
+                            <probability>12</probability>
+                            <childKindDef>Theo_SenchePlayerPawnKind_Tribal</childKindDef>
+                        </li>
+                        <li>
+                            <!--final values 64, 6, 6, 12, 12-->
+                            <partnerRace>Theo_SencheRace</partnerRace>
+                            <probability>64</probability>
+                            <childKindDef>Theo_KhajiitPlayerPawnKind_Tribal</childKindDef>
+                        </li>
+                        <li>
+                            <partnerRace>Theo_SencheRace</partnerRace>
+                            <probability>6</probability>
+                            <childKindDef>Theo_OhmesPlayerPawnKind_Tribal</childKindDef>
+                        </li>
+                        <li>
+                            <partnerRace>Theo_SencheRace</partnerRace>
+                            <probability>6</probability>
+                            <childKindDef>Theo_OhmesRahtPlayerPawnKind_Tribal</childKindDef>
+                        </li>
+                        <li>
+                            <partnerRace>Theo_SencheRace</partnerRace>
+                            <probability>12</probability>
+                            <childKindDef>Theo_AlfiqPlayerPawnKind_Tribal</childKindDef>
+                        </li>
+                        <li>
+                            <partnerRace>Theo_SencheRace</partnerRace>
+                            <probability>12</probability>
+                            <childKindDef>Theo_SenchePlayerPawnKind_Tribal</childKindDef>
+                        </li>
                     </hybridSpecific>
                 </reproduction>
                 <raceGenes MayRequire="ludeon.rimworld.biotech">
@@ -149,7 +220,7 @@
                 <humanRecipeImport>true</humanRecipeImport>
                 <immuneToAge>false</immuneToAge>
                 <alienPartGenerator Inherit="false">
-                     <bodyTypes>
+                    <bodyTypes>
                         <li>Thin</li>
                         <li MayRequire="Ludeon.RimWorld.Biotech">Baby</li>
                         <li MayRequire="Ludeon.RimWorld.Biotech">Child</li>
@@ -193,6 +264,24 @@
                     <li MayRequire="Ludeon.RimWorld.Biotech">Theo_Khajiit_InheritedBonus</li>
                 </blackGeneList>
             </raceRestriction>
+            <compatibility>
+                <isFlesh>true</isFlesh>
+                <isSentient>true</isSentient>
+                <hasBlood>true</hasBlood>
+            </compatibility>
+            <thoughtSettings>
+                <cannotReceiveThoughts>
+                    <li>AteRawFood</li>
+                    <li>SleptInHeat</li>
+                    <li>EnvironmentHot</li>
+                </cannotReceiveThoughts>
+                <replacerList>
+                    <li>
+                        <original>AteKibble</original>
+                        <replacer>Theo_Khajiit_AteKibble</replacer>
+                    </li>
+                </replacerList>
+            </thoughtSettings>
         </alienRace>
 
     </AlienRace.ThingDef_AlienRace>
@@ -207,14 +296,14 @@
                 <body>Things/Pawn/Humanlike/Theo_Khajiit/Bodies/Base/</body>
             </graphicPaths>
             <generalSettings>
-                <alienPartGenerator Inherit="false">
+                <alienPartGenerator>
                     <headTypes>
                         <li>Male_AverageNormal</li>
-                        <li>Male_AverageWide</li>
-                        <li>Male_AveragePointy</li>
+                        <!--<li>Male_AverageWide</li>-->
+                        <!--<li>Male_AveragePointy</li>-->
                         <li>Female_AverageNormal</li>
-                        <li>Female_AverageWide</li>
-                        <li>Female_AveragePointy</li>
+                        <!--<li>Female_AverageWide</li>-->
+                        <!--<li>Female_AveragePointy</li>-->
                     </headTypes>
                     <bodyAddons>
                         <li>
@@ -297,6 +386,17 @@
                     </bodyAddons>
                 </alienPartGenerator>
             </generalSettings>
+            <thoughtSettings>
+                <cannotReceiveThoughts>
+                    <li>Naked</li>
+                </cannotReceiveThoughts>
+                <replacerList>
+                    <li>
+                        <original>SoakingWet</original>
+                        <replacer>Theo_Khajiit_SoakingWet</replacer>
+                    </li>
+                </replacerList>
+            </thoughtSettings>
         </alienRace>
     </AlienRace.ThingDef_AlienRace>
 
@@ -335,18 +435,186 @@
                     </headTypes>
                 </alienPartGenerator>
             </generalSettings>
+        </alienRace>
+    </AlienRace.ThingDef_AlienRace>
+
+    <AlienRace.ThingDef_AlienRace ParentName="Theo_BaseRace_Khajiit" Name="Theo_Khajiit_Quadruped" Abstract="True">
+        <!--
+        to add:
+        -disable most work
+        -add cat sounds
+        -change allowed beds?
+        -disable ate without table-->
+        <race>
+            <body>Theo_BaseBody</body>
+        </race>
+        <alienRace>
+            <styleSettings>
+                <li>
+                    <key>HairDef</key>
+                    <value>
+                        <hasStyle>false</hasStyle>
+                    </value>
+                </li>
+                <li>
+                    <key>TattooDef</key>
+                    <value>
+                        <hasStyle>false</hasStyle>
+                    </value>
+                </li>
+            </styleSettings>
+            <generalSettings>
+                <alienPartGenerator>
+                    <bodyAddons>
+                        <li>
+                            <path>Things/Pawn/Humanlike/Theo_Khajiit/Ears/EarRight</path>
+                            <colorChannel>skin</colorChannel>
+                            <bodyPart>Ear</bodyPart>
+                            <bodyPartLabel>right ear</bodyPartLabel>
+                            <drawnInBed>true</drawnInBed>
+                            <inFrontOfBody>true</inFrontOfBody>
+                            <alignWithHead>true</alignWithHead>
+                            <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                            <drawnDesiccated>false</drawnDesiccated>
+                            <!--<hiddenUnderApparelFor>
+                                <li>FullHead</li>
+                                <li>UpperHead</li>
+                            </hiddenUnderApparelFor>-->
+                            <offsets>
+                                <south>
+                                    <offset>(0.043,0.15)</offset>
+                                </south>
+                                <north>
+                                    <offset>(-0.055,0.155)</offset>
+                                    <!--test these-->
+                                </north>
+                                <east>
+                                    <offset>(0.08,0.25)</offset>
+                                    <!--test these-->
+                                </east>
+                            </offsets>
+                        </li>
+                        <li>
+                            <path>Things/Pawn/Humanlike/Theo_Khajiit/Ears/EarLeft</path>
+                            <colorChannel>skin</colorChannel>
+                            <bodyPart>Ear</bodyPart>
+                            <bodyPartLabel>left ear</bodyPartLabel>
+                            <drawnInBed>true</drawnInBed>
+                            <inFrontOfBody>true</inFrontOfBody>
+                            <alignWithHead>true</alignWithHead>
+                            <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                            <drawnDesiccated>false</drawnDesiccated>
+                            <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
+                            <!--<hiddenUnderApparelFor>
+                                <li>FullHead</li>
+                                <li>UpperHead</li>
+                            </hiddenUnderApparelFor>-->
+                            <offsets>
+                                <south>
+                                    <offset>(-0.055,0.15)</offset>
+                                </south>
+                                <north>
+                                    <offset>(0.045,0.155)</offset>
+                                    <!--test these-->
+                                </north>
+                                <east>
+                                    <offset>(0.08,0.25)</offset>
+                                    <!--test these-->
+                                </east>
+                            </offsets>
+                        </li>
+                        <li>
+                            <path>Things/Pawn/Humanlike/Theo_Khajiit/Tails/Tail</path>
+                            <colorChannel>skin</colorChannel>
+                            <bodyPart>Tail</bodyPart>
+                            <bodyPartLabel>tail</bodyPartLabel>
+                            <defaultOffset>Tail</defaultOffset>
+                            <drawnInBed>false</drawnInBed>
+                            <inFrontOfBody>false</inFrontOfBody>
+                            <drawnDesiccated>false</drawnDesiccated>
+                            <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                            <offsets>
+                                <!--test-->
+                                <north>
+                                    <offset>(-0.0286,0.0571)</offset>
+                                </north>
+                                <east>
+                                    <offset>(0.0143,-0.1429)</offset>
+                                </east>
+                            </offsets>
+                        </li>
+                    </bodyAddons>
+                    <colorChannels>
+                        <li>
+                            <name>skin</name>
+                            <!--Adjust
+							colors-->
+                            <first Class="ColorGenerator_Options">
+                                <options>
+                                    <li>
+                                        <weight>10</weight>
+                                        <only>(209,179,93,255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>10</weight>
+                                        <only>(196,181,117,255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>10</weight>
+                                        <only>(200,181,117,255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>10</weight>
+                                        <only>(209,169,79,255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>10</weight>
+                                        <only>(186,150,63,255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>10</weight>
+                                        <only>(198,166,75,255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>10</weight>
+                                        <only>(205,187,113,255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>10</weight>
+                                        <only>(220,190,111,255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>10</weight>
+                                        <only>(190,153,67,255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>10</weight>
+                                        <only>(196,178,113,255)</only>
+                                    </li>
+                                </options>
+                            </first>
+                        </li>
+                    </colorChannels>
+                </alienPartGenerator>
+            </generalSettings>
             <thoughtSettings>
                 <cannotReceiveThoughts>
-                    <li>SleptInHeat</li>
-                    <li>EnvironmentHot</li>
+                    <li>AteWithoutTable</li>
+                    <li>Naked</li>
                 </cannotReceiveThoughts>
                 <replacerList>
                     <li>
-                        <original>AteKibble</original>
-                        <replacer>Theo_Khajiit_AteKibble</replacer>
+                        <original>SoakingWet</original>
+                        <replacer>Theo_Khajiit_SoakingWet</replacer>
                     </li>
                 </replacerList>
             </thoughtSettings>
+            <raceRestriction>
+                <onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
+                <whiteApparelList Inherit ="false"></whiteApparelList>
+                <onlyUseRaceRestrictedWeapons>true</onlyUseRaceRestrictedWeapons>
+                <whiteWeaponList Inherit ="false"></whiteWeaponList>
+            </raceRestriction>
         </alienRace>
     </AlienRace.ThingDef_AlienRace>
 </Defs>

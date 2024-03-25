@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
+
+    <!--<BodyPartDef>
+        <defName>Khajiit_Stomach</defName>
+        <label>stomach</label>
+        <description>Khajiit stomach, resistant to food poisoning.</description>
+        <spawnThingOnRemoved>Stomach</spawnThingOnRemoved>
+        <hitPoints>20</hitPoints>
+        <skinCovered>false</skinCovered>
+        <tags>
+            <li>MetabolismSource</li>
+        </tags>
+        <stages>
+            <becomeVisible>false</becomeVisible>
+           <foodPoisoningChanceFactor>0.3</foodPoisoningChanceFactor>
+        </stages>
+    </BodyPartDef>-->
+
     <BodyPartGroupDef>
         <defName>RightHandClawsGroup</defName>
         <label>claws</label>
@@ -285,7 +302,7 @@
                                 </li>
                                 <li>
                                     <def>Hand</def>
-                                    <customLabel>left hand</customLabel>
+                                    <customLabel>left paw</customLabel>
                                     <coverage>0.14</coverage>
                                     <height>Bottom</height>
                                     <groups>
@@ -400,7 +417,7 @@
                                 </li>
                                 <li>
                                     <def>Hand</def>
-                                    <customLabel>right hand</customLabel>
+                                    <customLabel>right paw</customLabel>
                                     <coverage>0.14</coverage>
                                     <height>Bottom</height>
                                     <groups>

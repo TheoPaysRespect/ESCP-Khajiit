@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <PawnKindDef Name="Theo_Khajiit_TribalAlfiq" ParentName="Theo_Khajiit_TribalBase" Abstract="true">
+        <race Inherit="false">Theo_AlfiqRace</race>
+        <weaponMoney>0~0</weaponMoney>
+        <combatPower>20</combatPower>
+        <weaponTags Inherit="false">
+            <!--<li>NeolithicMeleeBasic</li>-->
+        </weaponTags>
+        <initialWillRange>10~13</initialWillRange>
+        <initialResistanceRange>25~35</initialResistanceRange>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="Theo_Khajiit_TribalAlfiq">
+        <defName>Theo_Alfiq_Tribal_Penitent</defName>
+        <label>Alfiq penitent</label>
+        <invNutrition>0</invNutrition>
+        <itemQuality>Poor</itemQuality>
+        <gearHealthRange>0.2~1.1</gearHealthRange>
+        <apparelMoney>50~100</apparelMoney>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="Theo_Khajiit_TribalAlfiq">
+        <defName>Theo_Alfiq_Tribal_Trader</defName>
+        <label>trader</label>
+        <trader>true</trader>
+       <apparelRequired Inherit="False">
+            <li>Apparel_TribalHeaddress</li>
+        </apparelRequired>
+        <backstoryFiltersOverride Inherit="False">
+            <li>
+                <categoriesChildhood>
+                    <li>Theo_CityKhajiitBackstory_Childhood</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>Theo_TraderBackstory</li>
+                </categoriesAdulthood>
+                <excludeChildhood>
+                    <li>Theo_Addict_Exclusion</li>
+                </excludeChildhood>
+                <excludeAdulthood>
+                    <li>ESCP_KhajiitBackstory_Exclusion</li>
+                </excludeAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <gearHealthRange>0.5~1.8</gearHealthRange>
+        <apparelMoney>200~300</apparelMoney>
+        <disallowedTraits>
+            <li>Brawler</li>
+        </disallowedTraits>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+    </PawnKindDef>
+</Defs>

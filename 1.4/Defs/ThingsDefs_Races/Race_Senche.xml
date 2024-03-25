@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+    to do:
+    -dessicated graphic from cougar
+    -carrying capacity
+    -armor rating sharp, blunt, heat
+    -painshock treshold
+    -eating speed
+    -meat amount
+
+-->
+<Defs>
+    <AlienRace.ThingDef_AlienRace ParentName="Theo_Khajiit_Quadruped">
+        <defName>Theo_SencheRace</defName>
+        <label>Senche Khajiit</label>
+        <description>A Senche Khajiit, a species native to Elsweyr.</description>
+        <statBases>
+            <MoveSpeed>5.1</MoveSpeed>
+            <MarketValue>1300</MarketValue>            <!--fancy war mount-->
+            <FilthRate>1</FilthRate>            <!--will shed-->
+            <ComfyTemperatureMin>-15</ComfyTemperatureMin>            <!--to offset clothing-->
+        </statBases>
+        <race>
+            <baseBodySize>1.5</baseBodySize>
+            <baseHealthScale>1.3</baseHealthScale>
+            <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+            <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+            <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+        </race>
+        <alienRace>
+            <generalSettings>
+                <alienPartGenerator Inherit="false">
+                    <headTypes>
+                        <li>Male_AverageNormal</li>
+                        <!--<li>Male_AverageWide</li>-->
+                        <!--<li>Male_AveragePointy</li>-->
+                        <li>Female_AverageNormal</li>
+                        <!--<li>Female_AverageWide</li>-->
+                        <!--<li>Female_AveragePointy</li>-->
+                    </headTypes>
+                    <bodyTypes >
+                        <li>Thin</li>
+                        <li MayRequire="Ludeon.RimWorld.Biotech">Baby</li>
+                        <li MayRequire="Ludeon.RimWorld.Biotech">Child</li>
+                    </bodyTypes>
+                </alienPartGenerator>
+                <maxDamageForSocialfight>6</maxDamageForSocialfight>
+                <notXenophobistTowards>
+                    <li>Theo_OhmesRace</li>
+                    <li>Theo_OhmesRahtRace</li>
+                    <li>Theo_AlfiqRace</li>
+                    <li>Theo_KhajiitRace</li>
+                </notXenophobistTowards>
+            </generalSettings>
+            <graphicPaths>
+                <head>Things/Pawn/Humanlike/Theo_Khajiit/Heads/Base/</head>
+                <body>Things/Pawn/Humanlike/Theo_Khajiit/Bodies/Base/</body>
+                <!--<head>Things/Pawn/Humanlike/Theo_Khajiit/Heads/Senche/</head>
+                    <body>Things/Pawn/Humanlike/Theo_Khajiit/Bodies/Senche/</body>-->
+                <!--<skeleton>Things/Pawn/Humanlike/Theo_Khajiit/Skeletons/Senche/</skeleton>-->
+            </graphicPaths>
+        </alienRace>
+        <tools>
+            <li>
+                <label>left claw</label>
+                <capacities>
+                    <li>Scratch</li>
+                </capacities>
+                <power>11</power>
+                <cooldownTime>1.5</cooldownTime>
+                <linkedBodyPartsGroup>LeftHandClawsGroup</linkedBodyPartsGroup>
+                <surpriseAttack>
+                    <extraMeleeDamages>
+                        <li>
+                            <def>Stun</def>
+                            <amount>14</amount>
+                        </li>
+                    </extraMeleeDamages>
+                </surpriseAttack>
+            </li>
+            <li>
+                <label>right claw</label>
+                <capacities>
+                    <li>Scratch</li>
+                </capacities>
+                <power>11</power>
+                <cooldownTime>1.5</cooldownTime>
+                <linkedBodyPartsGroup>RightHandClawsGroup</linkedBodyPartsGroup>
+                <surpriseAttack>
+                    <extraMeleeDamages>
+                        <li>
+                            <def>Stun</def>
+                            <amount>14</amount>
+                        </li>
+                    </extraMeleeDamages>
+                </surpriseAttack>
+            </li>
+            <li>
+                <capacities>
+                    <li>Bite</li>
+                </capacities>
+                <power>16</power>
+                <cooldownTime>2</cooldownTime>
+                <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+                <chanceFactor>0.7</chanceFactor>
+                <surpriseAttack>
+                    <extraMeleeDamages>
+                        <li>
+                            <def>Stun</def>
+                            <amount>14</amount>
+                        </li>
+                    </extraMeleeDamages>
+                </surpriseAttack>
+            </li>
+            <li>
+                <label>head</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+                <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+                <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+                <chanceFactor>0.2</chanceFactor>
+            </li>
+        </tools>
+    </AlienRace.ThingDef_AlienRace>
+</Defs>

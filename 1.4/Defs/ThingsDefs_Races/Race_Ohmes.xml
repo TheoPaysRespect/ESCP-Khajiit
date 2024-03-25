@@ -2,20 +2,20 @@
 <Defs>
     <AlienRace.ThingDef_AlienRace ParentName="Theo_Khajiit_Ohmes">
         <defName>Theo_OhmesRace</defName>
-        <label>Ohmes</label>
+        <label>Ohmes Khajiit</label>
         <description>An Ohmes Khajiit, a species native to Elsweyr.</description>
         <alienRace>
             <generalSettings>
                 <notXenophobistTowards>
                     <li>Theo_KhajiitRace</li>
                     <li>Theo_OhmesRahtRace</li>
-                    <!--<li>Theo_SencheRace</li>
-						<li>Theo_AlfiqRace</li>-->
+                    <li>Theo_SencheRace</li>
+                    <li>Theo_AlfiqRace</li>
                 </notXenophobistTowards>
                 <alienPartGenerator>
                     <colorChannels>
                         <li>
-                        <!--same as bosmer-->
+                            <!--same as bosmer-->
                             <name>skin</name>
                             <first Class="ColorGenerator_Options">
                                 <options>
@@ -117,7 +117,7 @@
 
     <AlienRace.ThingDef_AlienRace ParentName="Theo_Khajiit_Ohmes">
         <defName>Theo_OhmesRahtRace</defName>
-        <label>Ohmes-Raht</label>
+        <label>Ohmes-Raht Khajiit</label>
         <description>An Ohmes-Raht Khajiit, a species native to Elsweyr.</description>
         <race>
             <body>Theo_BaseBody</body>
@@ -127,13 +127,13 @@
                 <notXenophobistTowards>
                     <li>Theo_KhajiitRace</li>
                     <li>Theo_OhmesRace</li>
-                    <!--<li>Theo_SencheRace</li>
-						<li>Theo_AlfiqRace</li>-->
+                    <li>Theo_SencheRace</li>
+                    <li>Theo_AlfiqRace</li>
                 </notXenophobistTowards>
                 <alienPartGenerator>
                     <colorChannels Inherit="false">
                         <li>
-                        <!--same as standard khajiit-->
+                            <!--same as standard khajiit-->
                             <name>skin</name>
                             <first Class="ColorGenerator_Options">
                                 <options>

@@ -2,11 +2,11 @@
 <Defs>
 	<AlienRace.ThingDef_AlienRace ParentName="Theo_Khajiit_StandardForm">
 		<defName>Theo_KhajiitRace</defName>
-		<label>Khajiit</label>
+		<label>Baseline Khajiit</label>
 		<description>A baseline Khajiit, a species native to Elsweyr.</description>
 		<statBases>
 			<MarketValue>1600</MarketValue>
-			<MoveSpeed>5</MoveSpeed>
+			<MoveSpeed>4.8</MoveSpeed>
 			<MeleeDodgeChance>1.2</MeleeDodgeChance>
 			<PawnTrapSpringChance>0.7</PawnTrapSpringChance>
 		</statBases>
@@ -16,12 +16,11 @@
 		</race>
 		<alienRace>
 			<generalSettings>
-				
 				<notXenophobistTowards>
 					<li>Theo_OhmesRace</li>
 					<li>Theo_OhmesRahtRace</li>
-					<!--<li>Theo_SencheRace</li>
-						<li>Theo_AlfiqRace</li>-->
+					<li>Theo_SencheRace</li>
+					<li>Theo_AlfiqRace</li>
 				</notXenophobistTowards>
 				<alienPartGenerator>
 					<colorChannels>
@@ -136,27 +135,6 @@
 					</colorChannels>
 				</alienPartGenerator>
 			</generalSettings>
-			<thoughtSettings>
-				<cannotReceiveThoughts>
-					<li>AteRawFood</li>
-					<li>SleptInHeat</li>
-					<li>EnvironmentHot</li>
-					<li>Naked</li>
-				</cannotReceiveThoughts>
-				<replacerList>
-					<li>
-						<original>AteKibble</original>
-						<replacer>Theo_Khajiit_AteKibble</replacer>
-					</li>
-					<li>
-						<original>SoakingWet</original>
-						<replacer>Theo_Khajiit_SoakingWet</replacer>
-					</li>
-				</replacerList>
-				<restrictedThoughts>
-					<!--<li>Theo_Khajiit_ConsumedHorseMeat</li> <li MayRequire="sirmashedpotato.morrowrim.colovianfurhelm">Theo_Khajiit_WearingColovianFurHelm</li>-->
-				</restrictedThoughts>
-			</thoughtSettings>
 		</alienRace>
 		<tools>
 			<li>

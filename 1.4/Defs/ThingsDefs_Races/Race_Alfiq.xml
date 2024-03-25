@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+    to do:
+    -dessicated graphic from cat
+    -carrying capacity
+    -meat amount
+-->
+<Defs>
+    <AlienRace.ThingDef_AlienRace ParentName="Theo_Khajiit_Quadruped">
+        <defName>Theo_AlfiqRace</defName>
+        <label>Alfiq Khajiit</label>
+        <description>An Alfiq Khajiit, a species native to Elsweyr.</description>
+        <statBases>
+            <MoveSpeed>4.4</MoveSpeed>
+            <MarketValue>1000</MarketValue>            <!--fancy cat-->
+            <MeleeDodgeChance>2</MeleeDodgeChance>            <!--to offset lack of armor-->
+            <PawnTrapSpringChance>0.7</PawnTrapSpringChance>
+            <ComfyTemperatureMin>-15</ComfyTemperatureMin>            <!--to offset clothing-->
+        </statBases>
+        <race>
+            <baseBodySize>0.32</baseBodySize>
+            <baseHealthScale>0.5</baseHealthScale>
+            <nuzzleMtbHours>12</nuzzleMtbHours>
+
+            <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+            <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+            <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+        </race>
+        <alienRace>
+            <generalSettings>
+                <alienPartGenerator Inherit="false">
+                    <headTypes>
+                        <li>Male_AverageNormal</li>
+                        <!--<li>Male_AverageWide</li>-->
+                        <!--<li>Male_AveragePointy</li>-->
+                        <li>Female_AverageNormal</li>
+                        <!--<li>Female_AverageWide</li>-->
+                        <!--<li>Female_AveragePointy</li>-->
+                    </headTypes>
+                    <bodyTypes >
+                        <li>Thin</li>
+                        <li MayRequire="Ludeon.RimWorld.Biotech">Baby</li>
+                        <li MayRequire="Ludeon.RimWorld.Biotech">Child</li>
+                    </bodyTypes>
+                </alienPartGenerator>
+                <maxDamageForSocialfight>4</maxDamageForSocialfight>
+                <notXenophobistTowards>
+                    <li>Theo_OhmesRace</li>
+                    <li>Theo_OhmesRahtRace</li>
+                    <li>Theo_SencheRace</li>
+                    <li>Theo_KhajiitRace</li>
+                </notXenophobistTowards>
+            </generalSettings>
+            <graphicPaths>
+                <head>Things/Pawn/Humanlike/Theo_Khajiit/Heads/Base/</head>
+                <body>Things/Pawn/Humanlike/Theo_Khajiit/Bodies/Base/</body>
+                <!--<head>Things/Pawn/Humanlike/Theo_Khajiit/Heads/Alfiq/</head>
+                    <body>Things/Pawn/Humanlike/Theo_Khajiit/Bodies/Alfiq/</body>-->
+                <!--<skeleton>Things/Pawn/Humanlike/Theo_Khajiit/Skeletons/Alfiq/</skeleton>-->
+            </graphicPaths>
+        </alienRace>
+        <tools>
+            <li>
+                <label>left claw</label>
+                <capacities>
+                    <li>Scratch</li>
+                </capacities>
+                <power>6</power>
+                <cooldownTime>1.5</cooldownTime>
+                <linkedBodyPartsGroup>LeftHandClawsGroup</linkedBodyPartsGroup>
+                <surpriseAttack>
+                    <extraMeleeDamages>
+                        <li>
+                            <def>Stun</def>
+                            <amount>14</amount>
+                        </li>
+                    </extraMeleeDamages>
+                </surpriseAttack>
+            </li>
+            <li>
+                <label>right claw</label>
+                <capacities>
+                    <li>Scratch</li>
+                </capacities>
+                <power>6</power>
+                <cooldownTime>1.5</cooldownTime>
+                <linkedBodyPartsGroup>RightHandClawsGroup</linkedBodyPartsGroup>
+                <surpriseAttack>
+                    <extraMeleeDamages>
+                        <li>
+                            <def>Stun</def>
+                            <amount>14</amount>
+                        </li>
+                    </extraMeleeDamages>
+                </surpriseAttack>
+            </li>
+            <li>
+                <capacities>
+                    <li>Bite</li>
+                </capacities>
+                <power>7</power>
+                <cooldownTime>2</cooldownTime>
+                <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+                <chanceFactor>0.7</chanceFactor>
+                <surpriseAttack>
+                    <extraMeleeDamages>
+                        <li>
+                            <def>Stun</def>
+                            <amount>14</amount>
+                        </li>
+                    </extraMeleeDamages>
+                </surpriseAttack>
+            </li>
+            <li>
+                <label>head</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>3</power>
+                <cooldownTime>2</cooldownTime>
+                <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+                <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+                <chanceFactor>0.2</chanceFactor>
+            </li>
+        </tools>
+    </AlienRace.ThingDef_AlienRace>
+</Defs>
