@@ -1,51 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-    <!--<BodyPartDef>
-        <defName>Khajiit_Stomach</defName>
-        <label>stomach</label>
-        <description>Khajiit stomach, resistant to food poisoning.</description>
-        <spawnThingOnRemoved>Stomach</spawnThingOnRemoved>
-        <hitPoints>20</hitPoints>
-        <skinCovered>false</skinCovered>
-        <tags>
-            <li>MetabolismSource</li>
-        </tags>
-        <stages>
-            <becomeVisible>false</becomeVisible>
-           <foodPoisoningChanceFactor>0.3</foodPoisoningChanceFactor>
-        </stages>
-    </BodyPartDef>-->
-
-    <BodyPartGroupDef>
-        <defName>RightHandClawsGroup</defName>
-        <label>claws</label>
-        <listOrder>80</listOrder>
-    </BodyPartGroupDef>
-
-
-    <BodyPartGroupDef>
-        <defName>LeftHandClawsGroup</defName>
-        <label>claws</label>
-        <listOrder>80</listOrder>
-    </BodyPartGroupDef>
-
-    <BodyPartDef>
-        <defName>RightHandClaws</defName>
-        <label>right claws</label>
-        <description>Sharp claws hidden underneatch soft paws.</description>
-        <hitPoints>10</hitPoints>
-        <skinCovered>false</skinCovered>
-    </BodyPartDef>
-
-    <BodyPartDef>
-        <defName>LeftHandClaws</defName>
-        <label>left claws</label>
-        <description>Sharp claws hidden underneatch soft paws.</description>
-        <hitPoints>10</hitPoints>
-        <skinCovered>false</skinCovered>
-    </BodyPartDef>
-
     <BodyDef>
         <defName>Theo_BaseBody</defName>
         <label>Khajiit Base Body</label>
@@ -91,7 +45,7 @@
                     </groups>
                 </li>
                 <li>
-                    <def>Stomach</def>
+                    <def>Khajiit_Stomach</def>
                     <coverage>0.025</coverage>
                     <depth>Inside</depth>
                     <groups>
@@ -302,7 +256,7 @@
                                 </li>
                                 <li>
                                     <def>Hand</def>
-                                    <customLabel>left paw</customLabel>
+                                    <customLabel>front left paw</customLabel>
                                     <coverage>0.14</coverage>
                                     <height>Bottom</height>
                                     <groups>
@@ -320,7 +274,7 @@
                                         </li>
                                         <li>
                                             <def>Finger</def>
-                                            <customLabel>left pinky</customLabel>
+                                            <customLabel>front left first toebean</customLabel>
                                             <coverage>0.06</coverage>
                                             <groups>
                                                 <li>Hands</li>
@@ -329,7 +283,7 @@
                                         </li>
                                         <li>
                                             <def>Finger</def>
-                                            <customLabel>left ring finger</customLabel>
+                                            <customLabel>front left second toebean</customLabel>
                                             <coverage>0.07</coverage>
                                             <groups>
                                                 <li>Hands</li>
@@ -338,8 +292,8 @@
                                         </li>
                                         <li>
                                             <def>Finger</def>
-                                            <customLabel>left middle finger</customLabel>
-                                            <coverage>0.08</coverage>
+                                            <customLabel>front left third toebean</customLabel>
+                                            <coverage>0.07</coverage>
                                             <groups>
                                                 <li>Hands</li>
                                                 <li>LeftHand</li>
@@ -348,8 +302,8 @@
                                         </li>
                                         <li>
                                             <def>Finger</def>
-                                            <customLabel>left index finger</customLabel>
-                                            <coverage>0.07</coverage>
+                                            <customLabel>front left fourth toebean</customLabel>
+                                            <coverage>0.06</coverage>
                                             <groups>
                                                 <li>Hands</li>
                                                 <li>LeftHand</li>
@@ -357,8 +311,8 @@
                                         </li>
                                         <li>
                                             <def>Finger</def>
-                                            <customLabel>left thumb</customLabel>
-                                            <coverage>0.08</coverage>
+                                            <customLabel>front left dewclaw</customLabel>
+                                            <coverage>0.04</coverage>
                                             <groups>
                                                 <li>Hands</li>
                                                 <li>LeftHand</li>
@@ -417,7 +371,7 @@
                                 </li>
                                 <li>
                                     <def>Hand</def>
-                                    <customLabel>right paw</customLabel>
+                                    <customLabel>front right paw</customLabel>
                                     <coverage>0.14</coverage>
                                     <height>Bottom</height>
                                     <groups>
@@ -435,7 +389,7 @@
                                         </li>
                                         <li>
                                             <def>Finger</def>
-                                            <customLabel>right pinky</customLabel>
+                                            <customLabel>front right first toebean</customLabel>
                                             <coverage>0.06</coverage>
                                             <groups>
                                                 <li>Hands</li>
@@ -444,7 +398,7 @@
                                         </li>
                                         <li>
                                             <def>Finger</def>
-                                            <customLabel>right ring finger</customLabel>
+                                            <customLabel>front right second toebean</customLabel>
                                             <coverage>0.07</coverage>
                                             <groups>
                                                 <li>Hands</li>
@@ -453,8 +407,8 @@
                                         </li>
                                         <li>
                                             <def>Finger</def>
-                                            <customLabel>right middle finger</customLabel>
-                                            <coverage>0.08</coverage>
+                                            <customLabel>front right third toebean</customLabel>
+                                            <coverage>0.07</coverage>
                                             <groups>
                                                 <li>Hands</li>
                                                 <li>RightHand</li>
@@ -463,8 +417,8 @@
                                         </li>
                                         <li>
                                             <def>Finger</def>
-                                            <customLabel>right index finger</customLabel>
-                                            <coverage>0.07</coverage>
+                                            <customLabel>front right fourth toebean</customLabel>
+                                            <coverage>0.06</coverage>
                                             <groups>
                                                 <li>Hands</li>
                                                 <li>RightHand</li>
@@ -472,8 +426,8 @@
                                         </li>
                                         <li>
                                             <def>Finger</def>
-                                            <customLabel>right thumb</customLabel>
-                                            <coverage>0.08</coverage>
+                                            <customLabel>front right dewclaw</customLabel>
+                                            <coverage>0.04</coverage>
                                             <groups>
                                                 <li>Hands</li>
                                                 <li>RightHand</li>
@@ -532,7 +486,7 @@
                         </li>
                         <li>
                             <def>Foot</def>
-                            <customLabel>left foot</customLabel>
+                            <customLabel>back left paw</customLabel>
                             <coverage>0.1</coverage>
                             <groups>
                                 <li>Feet</li>
@@ -540,7 +494,7 @@
                             <parts>
                                 <li>
                                     <def>Toe</def>
-                                    <customLabel>left little toe</customLabel>
+                                    <customLabel>back left first toebean</customLabel>
                                     <coverage>0.06</coverage>
                                     <groups>
                                         <li>Feet</li>
@@ -548,7 +502,7 @@
                                 </li>
                                 <li>
                                     <def>Toe</def>
-                                    <customLabel>left fourth toe</customLabel>
+                                    <customLabel>back left second toebean</customLabel>
                                     <coverage>0.07</coverage>
                                     <groups>
                                         <li>Feet</li>
@@ -556,24 +510,24 @@
                                 </li>
                                 <li>
                                     <def>Toe</def>
-                                    <customLabel>left middle toe</customLabel>
-                                    <coverage>0.08</coverage>
+                                    <customLabel>back left third toebean</customLabel>
+                                    <coverage>0.07</coverage>
                                     <groups>
                                         <li>Feet</li>
                                     </groups>
                                 </li>
                                 <li>
                                     <def>Toe</def>
-                                    <customLabel>left second toe</customLabel>
-                                    <coverage>0.09</coverage>
+                                    <customLabel>back left fourth toebean</customLabel>
+                                    <coverage>0.06</coverage>
                                     <groups>
                                         <li>Feet</li>
                                     </groups>
                                 </li>
                                 <li>
                                     <def>Toe</def>
-                                    <customLabel>left big toe</customLabel>
-                                    <coverage>0.09</coverage>
+                                    <customLabel>back left dewclaw</customLabel>
+                                    <coverage>0.04</coverage>
                                     <groups>
                                         <li>Feet</li>
                                     </groups>
@@ -612,7 +566,7 @@
                         </li>
                         <li>
                             <def>Foot</def>
-                            <customLabel>right foot</customLabel>
+                            <customLabel>back right paw</customLabel>
                             <coverage>0.1</coverage>
                             <groups>
                                 <li>Feet</li>
@@ -620,7 +574,7 @@
                             <parts>
                                 <li>
                                     <def>Toe</def>
-                                    <customLabel>right little toe</customLabel>
+                                    <customLabel>back right first toebean</customLabel>
                                     <coverage>0.06</coverage>
                                     <groups>
                                         <li>Feet</li>
@@ -628,7 +582,7 @@
                                 </li>
                                 <li>
                                     <def>Toe</def>
-                                    <customLabel>right fourth toe</customLabel>
+                                    <customLabel>back right second toebean</customLabel>
                                     <coverage>0.07</coverage>
                                     <groups>
                                         <li>Feet</li>
@@ -636,23 +590,23 @@
                                 </li>
                                 <li>
                                     <def>Toe</def>
-                                    <customLabel>right middle toe</customLabel>
-                                    <coverage>0.08</coverage>
+                                    <customLabel>back right third toebean</customLabel>
+                                    <coverage>0.07</coverage>
                                     <groups>
                                         <li>Feet</li>
                                     </groups>
                                 </li>
                                 <li>
                                     <def>Toe</def>
-                                    <customLabel>right second toe</customLabel>
-                                    <coverage>0.09</coverage>
+                                    <customLabel>back right fourth toebean</customLabel>
+                                    <coverage>0.06</coverage>
                                     <groups>
                                         <li>Feet</li>
                                     </groups>
                                 </li>
                                 <li>
                                     <def>Toe</def>
-                                    <customLabel>right big toe</customLabel>
+                                    <customLabel>back right dewclaw</customLabel>
                                     <coverage>0.09</coverage>
                                     <groups>
                                         <li>Feet</li>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!--_______stomach_________-->
+    <RecipeDef ParentName="SurgeryInstallBodyPartNaturalBase">
+        <defName>InstallKhajiitStomach</defName>
+        <label>install Khajiit stomach</label>
+        <description>Install a Khajiit stomach.</description>
+        <descriptionHyperlinks>
+            <ThingDef>Khajiit_Stomach</ThingDef>
+            <HediffDef>Khajiit_Stomach</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Installing Khajiit stomach.</jobString>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Khajiit_Stomach</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Khajiit_Stomach</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>Stomach</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>Khajiit_Stomach</addsHediff>
+    </RecipeDef>
+
+    <BodyPartDef>
+        <defName>Khajiit_Stomach</defName>
+        <label>stomach</label>
+        <description>Khajiit stomach, resistant to food poisoning.</description>
+        <spawnThingOnRemoved>Khajiit_Stomach</spawnThingOnRemoved>
+        <hitPoints>21</hitPoints>
+        <skinCovered>false</skinCovered>
+        <tags>
+            <li>MetabolismSource</li>
+        </tags>
+    </BodyPartDef>
+
+    <thingDef ParentName="BodyPartNaturalBase">
+        <defName>Khajiit_Stomach</defName>
+        <label>Khajiit Stomach</label>
+        <description>Khajiit stomach, resistant to food poisoning.</description>
+        <graphicData>
+            <texPath>Things/Item/Health/HealthItem</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <color>(155,165,148)</color>
+        </graphicData>
+        <descriptionHyperlinks>
+            <RecipeDef>InstallKhajiitStomach</RecipeDef>
+        </descriptionHyperlinks>
+        <statBases>
+            <Mass>2</Mass>
+        </statBases>
+    </thingDef>
+
+    <HediffDef ParentName="AddedBodyPartBase">
+        <defName>Khajiit_Stomach</defName>
+        <label>stomach</label>
+        <labelNoun>a khajiit stomach</labelNoun>
+        <description>Khajiit stomach, resistant to food poisoning.</description>
+        <descriptionHyperlinks>
+            <ThingDef>Khajiit_Stomach</ThingDef>
+        </descriptionHyperlinks>
+        <stages>
+            <li>
+                <becomeVisible>false</becomeVisible>
+                <foodPoisoningChanceFactor>0.3</foodPoisoningChanceFactor>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <!--__________claws___________-->
+    <BodyPartGroupDef>
+        <defName>RightHandClawsGroup</defName>
+        <label>claws</label>
+        <listOrder>80</listOrder>
+    </BodyPartGroupDef>
+
+
+    <BodyPartGroupDef>
+        <defName>LeftHandClawsGroup</defName>
+        <label>claws</label>
+        <listOrder>80</listOrder>
+    </BodyPartGroupDef>
+
+    <BodyPartDef>
+        <defName>RightHandClaws</defName>
+        <label>right claws</label>
+        <description>Sharp claws hidden underneatch soft paws.</description>
+        <hitPoints>10</hitPoints>
+        <skinCovered>false</skinCovered>
+    </BodyPartDef>
+
+    <BodyPartDef>
+        <defName>LeftHandClaws</defName>
+        <label>left claws</label>
+        <description>Sharp claws hidden underneatch soft paws.</description>
+        <hitPoints>10</hitPoints>
+        <skinCovered>false</skinCovered>
+    </BodyPartDef>
+
+    <!--_________tails___________-->
+    <RecipeDef>
+        <defName>InstallClothTail</defName>
+        <label>install cloth tail</label>
+        <description>Installs cloth tail.</description>
+        <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+        <jobString>Installing cloth tail.</jobString>
+        <workAmount>1200</workAmount>
+        <recipeUsers>
+            <li>Theo_AlfiqRace</li>
+            <li>Theo_SencheRace</li>
+            <li>Theo_KhajiitRace</li>
+            <li>Theo_OhmesRahtRace</li>
+        </recipeUsers>
+        <ingredients>
+            <li>
+                <filter>
+                    <categories>
+                        <li>Medicine</li>
+                    </categories>
+                </filter>
+                <count>1</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Cloth</li>
+                    </thingDefs>
+                </filter>
+                <count>3</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <categories>
+                <li>Medicine</li>
+            </categories>
+            <thingDefs>
+                <li>Cloth</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>Tail</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>Khajiit_ClothTail</addsHediff>
+    </RecipeDef>
+
+    <HediffDef ParentName="AddedBodyPartBase">
+        <defName>Khajiit_ClothTail</defName>
+        <description>A belted cloth tail meant to comfort Khajiit who lost their natural ones, if only a little.</description>
+        <label>cloth tail</label>
+        <addedPartProps>
+            <solid>true</solid>
+            <partEfficiency>0.6</partEfficiency>
+        </addedPartProps>
+    </HediffDef>
+
+    <thingDef ParentName="BodyPartProstheticBase">
+        <defName>Khajiit_ClothTail</defName>
+        <label>cloth tail</label>
+        <description>Cloth tail attachable with a belt. Offers some comfort to those who lost theirs.</description>
+        <graphicData>
+            <texPath>Things/Item/Health/HealthItem</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <color>(155,165,148)</color>
+        </graphicData>
+        <statBases>
+            <MarketValue>400</MarketValue>
+            <Mass>.3</Mass>
+        </statBases>
+        <costList>
+            <Cloth>10</Cloth>
+        </costList>
+        <techHediffsTags>
+            <li>Simple</li>
+        </techHediffsTags>
+    </thingDef>
+</Defs>
