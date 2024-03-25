@@ -384,6 +384,116 @@
                             </offsets>
                         </li>
                     </bodyAddons>
+                    <colorChannels>
+                        <li>
+                            <name>skin</name>
+                            <!--Adjust
+							colors-->
+                            <first Class="ColorGenerator_Options">
+                                <options>
+                                    <li>
+                                        <weight>10</weight>
+                                        <only>(209,179,93,255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>10</weight>
+                                        <only>(196,181,117,255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>10</weight>
+                                        <only>(200,181,117,255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>10</weight>
+                                        <only>(209,169,79,255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>10</weight>
+                                        <only>(186,150,63,255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>10</weight>
+                                        <only>(198,166,75,255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>10</weight>
+                                        <only>(205,187,113,255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>10</weight>
+                                        <only>(220,190,111,255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>10</weight>
+                                        <only>(190,153,67,255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>10</weight>
+                                        <only>(196,178,113,255)</only>
+                                    </li>
+                                </options>
+                            </first>
+                        </li>
+                        <li>
+                            <name>hair</name>
+                            <first Class="ColorGenerator_Options">
+                                <options>
+                                    <li>
+                                        <weight>10</weight>
+                                        <only>(107,81,53,255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>10</weight>
+                                        <only>(114,91,58,255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>10</weight>
+                                        <only>(119,102,86,255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>10</weight>
+                                        <only>(132,117,99,255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>10</weight>
+                                        <only>(176,147,104,255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>10</weight>
+                                        <only>(107,81,53,255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>10</weight>
+                                        <only>(114,86,58,255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>10</weight>
+                                        <only>(171,82,60,255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>10</weight>
+                                        <only>(142,66,47,255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>10</weight>
+                                        <only>(130,86,58,255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>10</weight>
+                                        <only>(211,168,119,255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>10</weight>
+                                        <only>(142,107,73,255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>5</weight>
+                                        <only>(38,35,28,255)</only>
+                                    </li>
+                                </options>
+                            </first>
+                        </li>
+                    </colorChannels>
                 </alienPartGenerator>
             </generalSettings>
             <thoughtSettings>
@@ -443,8 +553,9 @@
         to add:
         -disable most work
         -add cat sounds
+        -disallow traits relating to jobs they can't perform 
         -change allowed beds?
-        -disable ate without table-->
+        -->
         <race>
             <body>Theo_BaseBody</body>
         </race>
@@ -546,50 +657,49 @@
                     </bodyAddons>
                     <colorChannels>
                         <li>
+                            <!--same as bosmer-->
                             <name>skin</name>
-                            <!--Adjust
-							colors-->
                             <first Class="ColorGenerator_Options">
                                 <options>
                                     <li>
                                         <weight>10</weight>
-                                        <only>(209,179,93,255)</only>
+                                        <only>(202,147,116,255)</only>
                                     </li>
                                     <li>
                                         <weight>10</weight>
-                                        <only>(196,181,117,255)</only>
+                                        <only>(186,133,102,255)</only>
                                     </li>
                                     <li>
                                         <weight>10</weight>
-                                        <only>(200,181,117,255)</only>
+                                        <only>(208,154,116,255)</only>
                                     </li>
                                     <li>
                                         <weight>10</weight>
-                                        <only>(209,169,79,255)</only>
+                                        <only>(189,135,99,255)</only>
                                     </li>
                                     <li>
                                         <weight>10</weight>
-                                        <only>(186,150,63,255)</only>
+                                        <only>(156,116,90,255)</only>
                                     </li>
                                     <li>
                                         <weight>10</weight>
-                                        <only>(198,166,75,255)</only>
+                                        <only>(180,131,99,255)</only>
                                     </li>
                                     <li>
                                         <weight>10</weight>
-                                        <only>(205,187,113,255)</only>
+                                        <only>(218,172,139,255)</only>
                                     </li>
                                     <li>
                                         <weight>10</weight>
-                                        <only>(220,190,111,255)</only>
+                                        <only>(156,122,97,255)</only>
                                     </li>
                                     <li>
                                         <weight>10</weight>
-                                        <only>(190,153,67,255)</only>
+                                        <only>(128,93,71,255)</only>
                                     </li>
                                     <li>
                                         <weight>10</weight>
-                                        <only>(196,178,113,255)</only>
+                                        <only>(163,122,94,255)</only>
                                     </li>
                                 </options>
                             </first>

@@ -29,8 +29,8 @@
         </race>
         <alienRace>
             <generalSettings>
-                <alienPartGenerator Inherit="false">
-                    <headTypes>
+                <alienPartGenerator>
+                    <headTypes Inherit="false">
                         <li>Male_AverageNormal</li>
                         <!--<li>Male_AverageWide</li>-->
                         <!--<li>Male_AveragePointy</li>-->
@@ -38,7 +38,7 @@
                         <!--<li>Female_AverageWide</li>-->
                         <!--<li>Female_AveragePointy</li>-->
                     </headTypes>
-                    <bodyTypes >
+                    <bodyTypes Inherit="false">
                         <li>Thin</li>
                         <li MayRequire="Ludeon.RimWorld.Biotech">Baby</li>
                         <li MayRequire="Ludeon.RimWorld.Biotech">Child</li>
@@ -53,10 +53,8 @@
                 </notXenophobistTowards>
             </generalSettings>
             <graphicPaths>
-                <head>Things/Pawn/Humanlike/Theo_Khajiit/Heads/Base/</head>
-                <body>Things/Pawn/Humanlike/Theo_Khajiit/Bodies/Base/</body>
-                <!--<head>Things/Pawn/Humanlike/Theo_Khajiit/Heads/Senche/</head>
-                    <body>Things/Pawn/Humanlike/Theo_Khajiit/Bodies/Senche/</body>-->
+                <head>Things/Pawn/Humanlike/Theo_Khajiit/Heads/Senche/</head>
+                <body>Things/Pawn/Humanlike/Theo_Khajiit/Bodies/Senche/</body>
                 <!--<skeleton>Things/Pawn/Humanlike/Theo_Khajiit/Skeletons/Senche/</skeleton>-->
             </graphicPaths>
         </alienRace>
