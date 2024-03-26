@@ -19,6 +19,10 @@
                         <key>Social</key>
                         <value>5</value>
                     </li>
+                    <li>
+                        <key>Medicine</key> <!--so they can nurse but be bad at the rest-->
+                        <value>-10</value>
+                    </li>
                 </skillGains>
             </li>
         </degreeDatas>
@@ -42,6 +46,10 @@
                     <li>
                         <key>Melee</key>
                         <value>5</value>
+                    </li>
+                    <li>
+                        <key>Medicine</key> <!--so they can nurse but be bad at the rest-->
+                        <value>-10</value>
                     </li>
                 </skillGains>
             </li>
