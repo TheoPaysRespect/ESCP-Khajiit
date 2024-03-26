@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!--
     to do:
-    -dessicated graphic from cougar
-    -carrying capacity
-    -armor rating sharp, blunt, heat
-    -painshock treshold
-    -eating speed
-    -meat amount
-
+    -dessicated graphic from warg
 -->
 <Defs>
     <AlienRace.ThingDef_AlienRace ParentName="Theo_Khajiit_Quadruped">
@@ -19,10 +13,17 @@
             <MarketValue>1300</MarketValue>            <!--fancy war mount-->
             <FilthRate>1</FilthRate>            <!--will shed-->
             <ComfyTemperatureMin>-15</ComfyTemperatureMin>            <!--to offset clothing-->
+            <CarryingCapacity>140</CarryingCapacity>
+            <ArmorRating_Sharp>0.5</ArmorRating_Sharp> <!--for resistance reasons-->
+            <ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+            <EatingSpeed>2</EatingSpeed>
+            <LeatherAmount>120</LeatherAmount>
+            <MeatAmount>210</MeatAmount>
         </statBases>
         <race>
             <baseBodySize>1.5</baseBodySize>
             <baseHealthScale>1.3</baseHealthScale>
+            <baseHungerRate>0.2</baseHungerRate> <!--same as wargs-->
             <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
             <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
             <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>

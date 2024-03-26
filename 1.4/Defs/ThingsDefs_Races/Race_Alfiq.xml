@@ -2,8 +2,6 @@
 <!--
     to do:
     -dessicated graphic from cat
-    -carrying capacity
-    -meat amount
 -->
 <Defs>
     <AlienRace.ThingDef_AlienRace ParentName="Theo_Khajiit_Quadruped">
@@ -16,11 +14,15 @@
             <MeleeDodgeChance>2</MeleeDodgeChance>            <!--to offset lack of armor-->
             <PawnTrapSpringChance>0.7</PawnTrapSpringChance>
             <ComfyTemperatureMin>-15</ComfyTemperatureMin>            <!--to offset clothing-->
+            <CarryingCapacity>24</CarryingCapacity>
+            <LeatherAmount>40</LeatherAmount>
+            <MeatAmount>45</MeatAmount>
         </statBases>
         <race>
             <baseBodySize>0.32</baseBodySize>
             <baseHealthScale>0.5</baseHealthScale>
             <nuzzleMtbHours>12</nuzzleMtbHours>
+            <baseHungerRate>0.15</baseHungerRate> <!--same as cats-->
 
             <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
             <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
