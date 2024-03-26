@@ -750,6 +750,13 @@
                     <li>Theo_AlfiqRace</li>
                 </whiteReproductionList>
                 <onlyReproduceWithRestrictedRaces>true</onlyReproduceWithRestrictedRaces>
+
+                <blackTraitList>
+                    <li>ShootingAccuracy</li>
+                    <li MayRequire="vanillaexpanded.vanillatraitsexpanded">VTE_MadSurgeon</li>
+                    <li MayRequire="vanillaexpanded.vanillatraitsexpanded">VTE_Groundbreaker</li>
+                    <li MayRequire="vanillaexpanded.vanillatraitsexpanded">VTE_Gastronomist</li>
+                </blackTraitList>
             </raceRestriction>
         </alienRace>
     </AlienRace.ThingDef_AlienRace>
