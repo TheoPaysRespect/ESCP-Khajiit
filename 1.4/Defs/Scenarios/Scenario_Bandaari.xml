@@ -3,9 +3,9 @@
 	<ScenarioDef>
 		<defName>Theo_BandaariScenario</defName>
 		<label>Bandaari Pedlars</label>
-		<description>test</description>
+		<description>Nirni's bounty is vast, and so are your people's pockets. You travel around the world, selling what you reap from whoever you come across.\n\nThis scenario is intended for a nomadic playthough.</description>
 		<scenario>
-			<summary>test</summary>
+			<summary>4 Khajiit travel around the globe.</summary>
 			<!--description-->
 			<playerFaction>
 				<def>PlayerFaction</def>
@@ -118,7 +118,7 @@
 				</li>
 				<li Class="ScenPart_GameStartDialog">
 					<def>GameStartDialog</def>
-					<text>Test</text>
+					<text>You awaken and look around at the unfamiliar landscape. This day can be another in your journey, or a chance to settle down and try something new. \n\nYou have enough trade goods for a modest income next trade, and food to last you around 6 days.</text>
 					<!--description-->
 					<closeSound>GameStartSting</closeSound>
 				</li>
