@@ -174,37 +174,6 @@
         </recipeMaker>
     </thingDef>-->
 
-    <!--_______stomach_________-->
-
-    <HediffGiverSetDef>
-        <defName>Khajiit_HediffGiver</defName>
-        <hediffGivers>
-            <li Class="HediffGiver_Birthday">
-                <hediff>Khajiit_Stomach</hediff>
-                <countToAffect>2</countToAffect>
-                <ageFractionChanceCurve>
-                    <points>
-                        <li>(0, 1)</li>
-                    </points>
-                </ageFractionChanceCurve>
-            </li>
-        </hediffGivers>
-    </HediffGiverSetDef>
-
-    <HediffDef>
-        <defName>Khajiit_Stomach</defName>
-        <label>khajiit stomach</label>
-        <labelNoun>a khajiit stomach</labelNoun>
-        <description>Khajiit stomach, resistant to food poisoning.</description>
-        <isBad>false</isBad>
-        <stages>
-            <li>
-                <becomeVisible>false</becomeVisible>
-                <foodPoisoningChanceFactor>0.3</foodPoisoningChanceFactor>
-            </li>
-        </stages>
-    </HediffDef>
-
     <!--_________tails___________-->
     <RecipeDef Name="SurgeryInstallBodyPartProstheticBase">
         <defName>InstallClothTail</defName>

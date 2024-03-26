@@ -13,7 +13,6 @@
         <statBases>
             <PsychicSensitivity>1.2</PsychicSensitivity>
             <SocialImpact>0.8</SocialImpact>
-            <ComfyTemperatureMin>0</ComfyTemperatureMin>
             <Flammability>1.2</Flammability>
             <ComfyTemperatureMax>35</ComfyTemperatureMax>
             <Comfort>1.2</Comfort>
@@ -290,6 +289,9 @@
     </AlienRace.ThingDef_AlienRace>
 
     <AlienRace.ThingDef_AlienRace ParentName ="Theo_BaseRace_Khajiit" Name="Theo_Khajiit_StandardForm" Abstract="True">
+        <statBases>
+            <ComfyTemperatureMin>-10</ComfyTemperatureMin>
+        </statBases>
         <race>
             <body>Theo_BaseBody</body>
         </race>
@@ -561,6 +563,9 @@
         -->
         <race>
             <body>Theo_BaseBody</body>
+            <hediffGiverSets>
+                <li>Khajiit_QuadrupedGiver</li>
+            </hediffGiverSets>
         </race>
         <alienRace>
             <styleSettings>
@@ -578,6 +583,18 @@
                 </li>
             </styleSettings>
             <generalSettings>
+                <ageStatOverrides>
+                    <WorkSpeedGlobal>                        <!--decreases general work speed due to their body shape-->
+                        <useBiologicalYears>true</useBiologicalYears>
+                        <curve>
+                            <points>
+                                <li>(3,0.1)</li>
+                                <li>(13,0.5)</li>
+                                <li>(18,0.7)</li>
+                            </points>
+                        </curve>
+                    </WorkSpeedGlobal>
+                </ageStatOverrides>
                 <alienPartGenerator>
                     <bodyAddons>
                         <li>
@@ -727,6 +744,15 @@
                 <whiteApparelList Inherit ="false"></whiteApparelList>
                 <onlyUseRaceRestrictedWeapons>true</onlyUseRaceRestrictedWeapons>
                 <whiteWeaponList Inherit ="false"></whiteWeaponList>
+
+                <whiteReproductionList>                    <!--to prevent alfiq or senche as bestiality loopholes :)-->
+                    <li>Theo_KhajiitRace</li>
+                    <li>Theo_OhmesRace</li>
+                    <li>Theo_OhmesRahtRace</li>
+                    <li>Theo_SencheRace</li>
+                    <li>Theo_AlfiqRace</li>
+                </whiteReproductionList>
+                <onlyReproduceWithRestrictedRaces>true</onlyReproduceWithRestrictedRaces>
             </raceRestriction>
         </alienRace>
     </AlienRace.ThingDef_AlienRace>

@@ -2,8 +2,8 @@
 <Defs>
 	<AlienRace.ThingDef_AlienRace ParentName="Theo_Khajiit_StandardForm">
 		<defName>Theo_KhajiitRace</defName>
-		<label>Baseline Khajiit</label>
-		<description>A baseline Khajiit, a species native to Elsweyr.</description>
+		<label>Digitigrade Khajiit</label>
+		<description>A nondescript digitigrade Khajiit, a species native to Elsweyr.</description>
 		<statBases>
 			<MarketValue>1600</MarketValue>
 			<MoveSpeed>4.8</MoveSpeed>

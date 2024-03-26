@@ -29,6 +29,18 @@
         </race>
         <alienRace>
             <generalSettings>
+                <ageStatOverrides>
+                    <ArrestSuccessChance>                        <!--senche are intimidating-->
+                        <useBiologicalYears>true</useBiologicalYears>
+                        <curve>
+                            <points>
+                                <li>(3, 0.1)</li>
+                                <li>(13, 1)</li>
+                                <li>(18, 1.2)</li>
+                            </points>
+                        </curve>
+                    </ArrestSuccessChance>
+                </ageStatOverrides>
                 <alienPartGenerator>
                     <headTypes Inherit="false">
                         <li>Male_AverageNormal</li>
