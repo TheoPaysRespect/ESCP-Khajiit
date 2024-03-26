@@ -563,9 +563,6 @@
         -->
         <race>
             <body>Theo_BaseBody</body>
-            <hediffGiverSets>
-                <li>Khajiit_QuadrupedGiver</li>
-            </hediffGiverSets>
         </race>
         <alienRace>
             <styleSettings>

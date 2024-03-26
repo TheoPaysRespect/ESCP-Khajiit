@@ -27,19 +27,29 @@
             <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
         </race>
         <alienRace>
+            <raceRestriction>
+                <traitList>
+                    <li>Khajiit_AlfiqTrait</li>
+                </traitList>
+            </raceRestriction>
             <generalSettings>
-                    <ageStatOverrides>
-                        <ArrestSuccessChance> <!--alfiq aren't intimidating-->
-                            <useBiologicalYears>true</useBiologicalYears>
-                            <curve>
-                                <points>
-                                    <li>(3, 0.01)</li>
-                                    <li>(13, 0.4)</li>
-                                    <li>(18, 0.5)</li>
-                                </points>
-                            </curve>
-                        </ArrestSuccessChance>
-                    </ageStatOverrides>
+                <forcedRaceTraitEntries>
+                    <li>
+                        <defName>Khajiit_AlfiqTrait</defName>
+                    </li>
+                </forcedRaceTraitEntries>
+                <ageStatOverrides>
+                    <ArrestSuccessChance>                        <!--alfiq aren't intimidating-->
+                        <useBiologicalYears>true</useBiologicalYears>
+                        <curve>
+                            <points>
+                                <li>(3, 0.01)</li>
+                                <li>(13, 0.4)</li>
+                                <li>(18, 0.5)</li>
+                            </points>
+                        </curve>
+                    </ArrestSuccessChance>
+                </ageStatOverrides>
                 <alienPartGenerator>
                     <headTypes Inherit="false">
                         <li>Male_AverageNormal</li>

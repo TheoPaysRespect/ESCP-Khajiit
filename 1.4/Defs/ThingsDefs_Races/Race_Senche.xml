@@ -28,7 +28,17 @@
             <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
         </race>
         <alienRace>
+            <raceRestriction>
+                <traitList>
+                    <li>Khajiit_SencheTrait</li>
+                </traitList>
+            </raceRestriction>
             <generalSettings>
+                <forcedRaceTraitEntries>
+                    <li>
+                        <defName>Khajiit_SencheTrait</defName>
+                    </li>
+                </forcedRaceTraitEntries>
                 <ageStatOverrides>
                     <ArrestSuccessChance>                        <!--senche are intimidating-->
                         <useBiologicalYears>true</useBiologicalYears>

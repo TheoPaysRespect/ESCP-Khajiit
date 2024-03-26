@@ -1,40 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <Defs>
-    <!--work restrictions-->
-    <HediffGiverSetDef>
-        <defName>Khajiit_QuadrupedGiver</defName>
-        <hediffGivers>
-            <li Class="HediffGiver_Birthday">
-                <hediff>QuadrupedRestrictions</hediff>
-                <countToAffect>2</countToAffect>
-                <ageFractionChanceCurve>
-                    <points>
-                        <li>(0, 1)</li>
-                    </points>
-                </ageFractionChanceCurve>
-            </li>
-        </hediffGivers>
-    </HediffGiverSetDef>
-
-    <HediffDef>
-        <defName>QuadrupedRestrictions</defName>
-        <label>quadruped restrictions (debug view)</label>
-        <description>Quadrupeds cannot perform certain tasks due to their body shape.</description>
-        <isBad>false</isBad>
-        <stages>
-            <li>
-                <becomeVisible>false</becomeVisible>
-                <disabledWorkTags>
-                    <li>Constructing</li>
-                    <li>Cooking</li>
-                    <li>Crafting</li>
-                    <li>Shooting</li>
-                    <li>Mining</li>
-                </disabledWorkTags>
-            </li>
-        </stages>
-    </HediffDef>
 
     <!--_______stomach_________-->
 
