@@ -64,15 +64,10 @@
 	<FactionDef ParentName="Theo_KhajiitNonPlayerFaction_Base">
 		<defName>Theo_KhajiitNonPlayerFaction_Kingdom</defName>
 		<label>Khajiit kingdom</label>
-		<leaderTitle>Mane</leaderTitle>
+		<leaderTitle>Clan Father</leaderTitle>
+		<leaderTitleFemale>Clan Mother</leaderTitleFemale>
 		<factionIconPath>World/WorldObjects/Theo_Khajiit_Kingdom</factionIconPath>
-		<description>The Khajiit kingdom is based on the cooperation of 16 tribes who banded
-			together to survive the tides of time. Their settlements can be found anywhere from
-			scorching deserts to lush rainforests. Venerating the moons, their shape is dependent on
-			the phase, but some forms rarely leave the borders of their land. Often enslaved by the
-			dunmer, Khajiit are often seen as lesser than the other races, taking insult when they
-			are compared to the common cat. Contrary to their shared background, they dislike
-			argonians.</description>
+		<description>The Khajiit kingdom is based on the cooperation of 16 tribes who banded together to survive the tides of time. Their settlements can be found anywhere from scorching deserts to lush rainforests. Venerating the moons, their shape is dependent on the phase, but some forms rarely leave the borders of their land. Often enslaved by the dunmer, Khajiit are often seen as lesser than the other races, taking insult when they are compared to the common cat. Contrary to their shared background, they dislike argonians.</description>
 		<colorSpectrum>
 			<li>(0.92, 0.92, 0.49)</li>
 			<!--fill-->
@@ -316,12 +311,7 @@
 		<leaderTitle>Grand Trader</leaderTitle>
 		<factionNameMaker>Theo_Khajiit_NamerTraders</factionNameMaker>
 		<factionIconPath>World/WorldObjects/Theo_Khajiit_Bandaari</factionIconPath>
-		<description>The Bandaari Pedlars are a clan of nomads travelling the world. Believing
-			everything is worth something, they frequently gather what other factions discard to
-			sell at their next destination. Likewise, they believe that anything left behind for any
-			reason is now rightfully theirs, leading to their reputation as thieves. When trading,
-			they are known to do
-			anything they can to sweeten the deal, for themselves that is.</description>
+		<description>The Bandaari Pedlars are a clan of nomads travelling the world. Believing everything is worth something, they frequently gather what other factions discard to sell at their next destination. Likewise, they believe that anything left behind for any reason is now rightfully theirs, leading to their reputation as thieves. When trading, they are known to do anything they can to sweeten the deal, for themselves that is.</description>
 		<displayInFactionSelection>false</displayInFactionSelection>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
 		<rescueesCanJoin>true</rescueesCanJoin>
@@ -495,13 +485,11 @@
 	<FactionDef ParentName="Theo_KhajiitNonPlayerFaction_Base">
 		<defName>Theo_KhajiitNonPlayerFaction_Tribal</defName>
 		<label>Rough Khajiit Tribe</label>
-		<leaderTitle>Mane</leaderTitle>
+		<leaderTitle>Clan Father</leaderTitle>
+		<leaderTitleFemale>Clan Mother</leaderTitleFemale>
 		<factionNameMaker>Theo_Khajiit_NamerTribe</factionNameMaker>
 		<factionIconPath>World/WorldObjects/Theo_Khajiit_Tribe</factionIconPath>
-		<description>Unlike its more civilised counterpart, this tribe of Khajiit never decided to
-			join society, opting for a tight enclave amongst their own. They are often hostile to
-			outsiders who dare to encroach on their territories, but may be temporarily pacified by
-			the dedicated.</description>
+		<description>Unlike its more civilised counterpart, this tribe of Khajiit never decided to join society, opting for a tight enclave amongst their own. They are often hostile to outsiders who dare to encroach on their territories, but may be temporarily pacified by the dedicated.</description>
 		<colorSpectrum>
 			<li>(0.45, 0.69, 0.43)</li>
 			<!--fill-->
@@ -699,7 +687,7 @@
 				<kindDef>Settlement_RangedOnly</kindDef>
 				<options>
 					<Theo_Alfiq_Tribal_Penitent>1</Theo_Alfiq_Tribal_Penitent>
-					
+
 					<Theo_Khajiit_Tribal_Archer>6</Theo_Khajiit_Tribal_Archer>
 					<Theo_Ohmes_Tribal_Archer>2</Theo_Ohmes_Tribal_Archer>
 					<Theo_OhmesRaht_Tribal_Archer>2</Theo_OhmesRaht_Tribal_Archer>
