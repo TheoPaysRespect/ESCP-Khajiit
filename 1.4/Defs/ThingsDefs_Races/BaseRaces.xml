@@ -57,6 +57,9 @@
             </ageGenerationCurve>
         </race>
         <alienRace>
+            <graphicPaths Inherit="false">
+                <skinShader>Cutout</skinShader>
+            </graphicPaths>
             <styleSettings>
                 <li>
                     <key>BeardDef</key>
@@ -326,14 +329,14 @@
                             </hiddenUnderApparelFor>-->
                             <offsets>
                                 <south>
-                                    <offset>(0.043,0.15)</offset>
+                                    <!--<offset>(0.043,0.15)</offset>-->
                                 </south>
                                 <north>
-                                    <offset>(-0.055,0.155)</offset>
+                                    <!--<offset>(-0.055,0.155)</offset>-->
                                     <!--test these-->
                                 </north>
                                 <east>
-                                    <offset>(0.08,0.25)</offset>
+                                    <!--<offset>(0.08,0.25)</offset>-->
                                     <!--test these-->
                                 </east>
                             </offsets>
@@ -353,19 +356,17 @@
                                 <li>FullHead</li>
                                 <li>UpperHead</li>
                             </hiddenUnderApparelFor>-->
-                            <offsets>
+                            <!--<offsets>
                                 <south>
                                     <offset>(-0.055,0.15)</offset>
                                 </south>
                                 <north>
                                     <offset>(0.045,0.155)</offset>
-                                    <!--test these-->
                                 </north>
                                 <east>
                                     <offset>(0.08,0.25)</offset>
-                                    <!--test these-->
                                 </east>
-                            </offsets>
+                            </offsets>-->
                         </li>
                         <li>
                             <path>Things/Pawn/Humanlike/Theo_Khajiit/Tails/Tail</path>
@@ -527,9 +528,6 @@
             <baseHealthScale>1</baseHealthScale>
         </race>
         <alienRace>
-            <graphicPaths Inherit="false">
-                <skinShader>Cutout</skinShader>
-            </graphicPaths>
             <generalSettings>
                 <maxDamageForSocialfight>6</maxDamageForSocialfight>
                 <alienPartGenerator>
@@ -607,19 +605,17 @@
                                 <li>FullHead</li>
                                 <li>UpperHead</li>
                             </hiddenUnderApparelFor>-->
-                            <offsets>
+                            <!--<offsets>
                                 <south>
                                     <offset>(0.043,0.15)</offset>
                                 </south>
                                 <north>
                                     <offset>(-0.055,0.155)</offset>
-                                    <!--test these-->
                                 </north>
                                 <east>
                                     <offset>(0.08,0.25)</offset>
-                                    <!--test these-->
                                 </east>
-                            </offsets>
+                            </offsets>-->
                         </li>
                         <li>
                             <path>Things/Pawn/Humanlike/Theo_Khajiit/Ears/EarLeft</path>
@@ -636,19 +632,17 @@
                                 <li>FullHead</li>
                                 <li>UpperHead</li>
                             </hiddenUnderApparelFor>-->
-                            <offsets>
+                            <!--<offsets>
                                 <south>
                                     <offset>(-0.055,0.15)</offset>
                                 </south>
                                 <north>
                                     <offset>(0.045,0.155)</offset>
-                                    <!--test these-->
                                 </north>
                                 <east>
                                     <offset>(0.08,0.25)</offset>
-                                    <!--test these-->
                                 </east>
-                            </offsets>
+                            </offsets>-->
                         </li>
                         <li>
                             <path>Things/Pawn/Humanlike/Theo_Khajiit/Tails/Tail</path>
