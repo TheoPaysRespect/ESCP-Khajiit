@@ -111,7 +111,7 @@
 		<defName>Theo_Khajiit_TribeAdult3</defName>
 		<title>Curious Tribal</title>
 		<titleShort>Tribal</titleShort>
-		<baseDesc>One day, [PAWN_nameDef] decided to leave their tribe to explore the world. When they arrived in the cities, they couldn’t comprehend how they could eat something this sweet.</baseDesc>
+		<baseDesc>One day, [PAWN_nameDef] decided to leave their tribe to explore the world. When they arrived in the cities, they couldn't comprehend how they could eat something this sweet.</baseDesc>
 		<skillGains>
 			<li>
 				<key>Social</key>
