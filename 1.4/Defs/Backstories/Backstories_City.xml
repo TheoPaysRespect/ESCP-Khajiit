@@ -65,8 +65,8 @@
 		<defName>Theo_Khajiit_CityChild3</defName>
 		<title>Kitchen slave</title>
 		<titleShort>slave</titleShort>
-		<maleCommonality>20</maleCommonality>
-		<femaleCommonality>20</femaleCommonality>
+		<maleCommonality>70</maleCommonality>
+		<femaleCommonality>70</femaleCommonality>
 		<baseDesc>Shorly after birth, [PAWN_nameDef] was kidnapped from their native land and sold into slavery. Never to know their parents' names, they toiled away in the kitchens of a wealthy lord.</baseDesc>
 		<skillGains>
 			<li>
@@ -81,8 +81,8 @@
 		<defName>Theo_Khajiit_CityChild4</defName>
 		<title>Escaped child slave</title>
 		<titleShort>slave</titleShort>
-		<maleCommonality>20</maleCommonality>
-		<femaleCommonality>20</femaleCommonality>
+		<maleCommonality>70</maleCommonality>
+		<femaleCommonality>70</femaleCommonality>
 		<baseDesc>[PAWN_nameDef] used to be a slave, working the fields of House Dres until they no longer felt their legs. One day when mating netches attacked the plantation, they ran and never looked back.</baseDesc>
 		<skillGains>
 			<li>

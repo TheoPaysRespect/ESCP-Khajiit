@@ -33,7 +33,7 @@
 		<defName>Theo_Jasper_Childhood</defName>
 		<title>child racer</title>
 		<titleShort>racer</titleShort>
-		<baseDesc>From the moment they could walk, [PAWN_nameDef]’s parents pushed them to participate in races. They would always lose to the senche, but kept trying anyhow. Eventually they got injured during a race and their knees were never the same. </baseDesc>
+		<baseDesc>From the moment they could walk, [PAWN_nameDef]'s parents pushed them to participate in races. They would always lose to the senche, but kept trying anyhow. Eventually they got injured during a race and their knees were never the same. </baseDesc>
 		<skillGains>
 			<li>
 				<key>Animals</key>
@@ -56,7 +56,7 @@
 		<titleShort>liar</titleShort>
 		<maleCommonality>1</maleCommonality>
 		<femaleCommonality>0</femaleCommonality>
-		<baseDesc>"[PAWN_nameDef] knows much, tells some. [PAWN_nameDef] knows many things others do not. [PAWN_nameDef] used to travel alone, but he has grown accustomed to joining their friends.</baseDesc>
+		<baseDesc>"[PAWN_nameDef] knows much, tells some. [PAWN_nameDef] knows many things others do not. [PAWN_nameDef] used to travel alone, but he has grown accustomed to joining their friends."</baseDesc>
 		<skillGains>
 			<li>
 				<key>Social</key>
