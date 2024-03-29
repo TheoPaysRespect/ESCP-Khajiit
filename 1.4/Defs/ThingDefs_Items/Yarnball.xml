@@ -5,7 +5,7 @@
     <ThingDef ParentName="FurnitureWithQualityBase">
         <defName>Yarnball</defName>
         <label>Yarnball</label>
-        <description>A simple yarnball, an unresistable source of joy for the feline, and a great thing to ponder for the rest.</description>
+        <description>A simple yarnball, an irresistable source of joy for the feline, and a great thing to ponder for the rest.</description>
         <graphicData>
             <texPath>Things/Items/Yarnball</texPath>
             <graphicClass>Graphic_Single</graphicClass>
