@@ -62,6 +62,7 @@
 					<def>StartingAnimal</def>
 					<animalKind>Cat</animalKind>
 					<count>1</count>
+					<bondToRandomPlayerPawnChance>1.0</bondToRandomPlayerPawnChance>
 				</li>
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
