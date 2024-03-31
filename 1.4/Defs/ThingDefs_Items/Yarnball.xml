@@ -40,9 +40,12 @@
             <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
             <!--<researchPrerequisite>ComplexClothing</researchPrerequisite>-->
             <effectWorking>Tailor</effectWorking>
+            <researchPrerequisite MayRequire="dankpyon.medieval.overhaul">DankPyon_TextileSpinning</researchPrerequisite>
             <recipeUsers>
                 <li>CraftingSpot</li>
                 <li>HandTailoringBench</li>
+                <li>ElectricTailoringBench</li>
+                <li MayRequire="dankpyon.medieval.overhaul">DankPyon_TailorsBench</li>
             </recipeUsers>
         </recipeMaker>
         <costStuffCount>10</costStuffCount>
