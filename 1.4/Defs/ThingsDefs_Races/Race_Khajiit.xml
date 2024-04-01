@@ -55,6 +55,11 @@
 		</race>
 		<alienRace>
 			<generalSettings>
+				<alienPartGenerator>
+					<bodyTypes>
+						<li>Hulk</li>
+					</bodyTypes>
+				</alienPartGenerator>
 				<notXenophobistTowards>
 					<li>Theo_OhmesRace</li>
 					<li>Theo_OhmesRahtRace</li>
