@@ -45,10 +45,10 @@
         </descriptionHyperlinks>
         <jobString>Installing wooden claws.</jobString>
         <recipeUsers>
-            <li>Theo_AlfiqRace</li>
-            <li>Theo_SencheRace</li>
-            <li>Theo_KhajiitRace</li>
-            <li>Theo_OhmesRahtRace</li>
+            <li>ESCP_AlfiqRace</li>
+            <li>ESCP_SencheRace</li>
+            <li>ESCP_KhajiitRace</li>
+            <li>ESCP_OhmesRahtRace</li>
         </recipeUsers>
         <appliedOnFixedBodyParts>
             <li>RightHandClaws</li>
@@ -80,10 +80,10 @@
         <jobString>Installing steel claws.</jobString>
         <workAmount>2000</workAmount>
         <recipeUsers>
-            <li>Theo_AlfiqRace</li>
-            <li>Theo_SencheRace</li>
-            <li>Theo_KhajiitRace</li>
-            <li>Theo_OhmesRahtRace</li>
+            <li>ESCP_AlfiqRace</li>
+            <li>ESCP_SencheRace</li>
+            <li>ESCP_KhajiitRace</li>
+            <li>ESCP_OhmesRahtRace</li>
         </recipeUsers>
         <ingredients>
             <li>
@@ -183,10 +183,10 @@
         <jobString>Installing cloth tail.</jobString>
         <workAmount>2000</workAmount>
         <recipeUsers>
-            <li>Theo_AlfiqRace</li>
-            <li>Theo_SencheRace</li>
-            <li>Theo_KhajiitRace</li>
-            <li>Theo_OhmesRahtRace</li>
+            <li>ESCP_AlfiqRace</li>
+            <li>ESCP_SencheRace</li>
+            <li>ESCP_KhajiitRace</li>
+            <li>ESCP_OhmesRahtRace</li>
         </recipeUsers>
         <ingredients>
             <li>

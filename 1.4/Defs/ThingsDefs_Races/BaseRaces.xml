@@ -8,7 +8,7 @@
     <soundAngry>Pawn_Cat_Angry</soundAngry>
 -->
 <Defs>
-    <AlienRace.ThingDef_AlienRace ParentName="ESCP_BaseRace_NoCosmeticGenes" Name="Theo_BaseRace_Khajiit" Abstract="True">
+    <AlienRace.ThingDef_AlienRace ParentName="ESCP_BaseRace_NoCosmeticGenes" Name="ESCP_BaseRace_Khajiit" Abstract="True">
         <statBases>
             <PsychicSensitivity>1.2</PsychicSensitivity>
             <SocialImpact>0.8</SocialImpact>
@@ -17,12 +17,12 @@
             <Comfort>1.2</Comfort>
         </statBases>
         <descriptionHyperlinks>
-            <GeneDef MayRequire="Ludeon.RimWorld.Biotech">Theo_Khajiit_InheritedBonus</GeneDef>
+            <GeneDef MayRequire="Ludeon.RimWorld.Biotech">ESCP_Khajiit_InheritedBonus</GeneDef>
         </descriptionHyperlinks>
         <modExtensions>
             <li Class="ESCP_RaceTools.RaceProperties">
                 <heatstrokeResistant>true</heatstrokeResistant>
-                <majorRacialGeneToInherit MayRequire="Ludeon.RimWorld.Biotech">Theo_Khajiit_InheritedBonus</majorRacialGeneToInherit>
+                <majorRacialGeneToInherit MayRequire="Ludeon.RimWorld.Biotech">ESCP_Khajiit_InheritedBonus</majorRacialGeneToInherit>
             </li>
         </modExtensions>
         <race>
@@ -30,8 +30,8 @@
                 <li>Khajiit_HediffGiver</li>
             </hediffGiverSets>
             <leatherDef>ESCP_LeatherKhajiit</leatherDef>
-            <nameGenerator>Theo_Khajiit_NamerMale</nameGenerator>
-            <nameGeneratorFemale>Theo_Khajiit_NamerFemale</nameGeneratorFemale>
+            <nameGenerator>ESCP_Khajiit_NamerMale</nameGenerator>
+            <nameGeneratorFemale>ESCP_Khajiit_NamerFemale</nameGeneratorFemale>
             <ageGenerationCurve>
                 <points>
                     <li MayRequire="Ludeon.RimWorld.Biotech">(0,0)</li>
@@ -72,7 +72,7 @@
                 <factionRelations>
                     <li>
                         <factions>
-                            <li>Theo_KhajiitNonPlayerFaction_Bandaari</li>
+                            <li>ESCP_KhajiitNonPlayerFaction_Bandaari</li>
                         </factions>
                         <goodwill>
                             <min>100</min>
@@ -85,133 +85,133 @@
                     <hybridSpecific>
                         <li>
                             <!--final values 64, 6, 6, 12, 12-->
-                            <partnerRace>Theo_KhajiitRace</partnerRace>
+                            <partnerRace>ESCP_KhajiitRace</partnerRace>
                             <probability>64</probability>
-                            <childKindDef>Theo_KhajiitPlayerPawnKind_Tribal</childKindDef>
+                            <childKindDef>ESCP_KhajiitPlayerPawnKind_Tribal</childKindDef>
                         </li>
                         <li>
-                            <partnerRace>Theo_KhajiitRace</partnerRace>
+                            <partnerRace>ESCP_KhajiitRace</partnerRace>
                             <probability>6</probability>
-                            <childKindDef>Theo_OhmesPlayerPawnKind_Tribal</childKindDef>
+                            <childKindDef>ESCP_OhmesPlayerPawnKind_Tribal</childKindDef>
                         </li>
                         <li>
-                            <partnerRace>Theo_KhajiitRace</partnerRace>
+                            <partnerRace>ESCP_KhajiitRace</partnerRace>
                             <probability>6</probability>
-                            <childKindDef>Theo_OhmesRahtPlayerPawnKind_Tribal</childKindDef>
+                            <childKindDef>ESCP_OhmesRahtPlayerPawnKind_Tribal</childKindDef>
                         </li>
                         <li>
-                            <partnerRace>Theo_KhajiitRace</partnerRace>
+                            <partnerRace>ESCP_KhajiitRace</partnerRace>
                             <probability>12</probability>
-                            <childKindDef>Theo_AlfiqPlayerPawnKind_Tribal</childKindDef>
+                            <childKindDef>ESCP_AlfiqPlayerPawnKind_Tribal</childKindDef>
                         </li>
                         <li>
-                            <partnerRace>Theo_KhajiitRace</partnerRace>
+                            <partnerRace>ESCP_KhajiitRace</partnerRace>
                             <probability>12</probability>
-                            <childKindDef>Theo_SenchePlayerPawnKind_Tribal</childKindDef>
+                            <childKindDef>ESCP_SenchePlayerPawnKind_Tribal</childKindDef>
                         </li>
                         <li>
                             <!--final values 64, 6, 6, 12, 12-->
-                            <partnerRace>Theo_OhmesRace</partnerRace>
+                            <partnerRace>ESCP_OhmesRace</partnerRace>
                             <probability>64</probability>
-                            <childKindDef>Theo_KhajiitPlayerPawnKind_Tribal</childKindDef>
+                            <childKindDef>ESCP_KhajiitPlayerPawnKind_Tribal</childKindDef>
                         </li>
                         <li>
-                            <partnerRace>Theo_OhmesRace</partnerRace>
+                            <partnerRace>ESCP_OhmesRace</partnerRace>
                             <probability>6</probability>
-                            <childKindDef>Theo_OhmesPlayerPawnKind_Tribal</childKindDef>
+                            <childKindDef>ESCP_OhmesPlayerPawnKind_Tribal</childKindDef>
                         </li>
                         <li>
-                            <partnerRace>Theo_OhmesRace</partnerRace>
+                            <partnerRace>ESCP_OhmesRace</partnerRace>
                             <probability>6</probability>
-                            <childKindDef>Theo_OhmesRahtPlayerPawnKind_Tribal</childKindDef>
+                            <childKindDef>ESCP_OhmesRahtPlayerPawnKind_Tribal</childKindDef>
                         </li>
                         <li>
-                            <partnerRace>Theo_OhmesRace</partnerRace>
+                            <partnerRace>ESCP_OhmesRace</partnerRace>
                             <probability>12</probability>
-                            <childKindDef>Theo_AlfiqPlayerPawnKind_Tribal</childKindDef>
+                            <childKindDef>ESCP_AlfiqPlayerPawnKind_Tribal</childKindDef>
                         </li>
                         <li>
-                            <partnerRace>Theo_OhmesRace</partnerRace>
+                            <partnerRace>ESCP_OhmesRace</partnerRace>
                             <probability>12</probability>
-                            <childKindDef>Theo_SenchePlayerPawnKind_Tribal</childKindDef>
+                            <childKindDef>ESCP_SenchePlayerPawnKind_Tribal</childKindDef>
                         </li>
                         <li>
                             <!--final values 64, 6, 6, 12, 12-->
-                            <partnerRace>Theo_OhmesRahtRace</partnerRace>
+                            <partnerRace>ESCP_OhmesRahtRace</partnerRace>
                             <probability>64</probability>
-                            <childKindDef>Theo_KhajiitPlayerPawnKind_Tribal</childKindDef>
+                            <childKindDef>ESCP_KhajiitPlayerPawnKind_Tribal</childKindDef>
                         </li>
                         <li>
-                            <partnerRace>Theo_OhmesRahtRace</partnerRace>
+                            <partnerRace>ESCP_OhmesRahtRace</partnerRace>
                             <probability>6</probability>
-                            <childKindDef>Theo_OhmesPlayerPawnKind_Tribal</childKindDef>
+                            <childKindDef>ESCP_OhmesPlayerPawnKind_Tribal</childKindDef>
                         </li>
                         <li>
-                            <partnerRace>Theo_OhmesRahtRace</partnerRace>
+                            <partnerRace>ESCP_OhmesRahtRace</partnerRace>
                             <probability>6</probability>
-                            <childKindDef>Theo_OhmesRahtPlayerPawnKind_Tribal</childKindDef>
+                            <childKindDef>ESCP_OhmesRahtPlayerPawnKind_Tribal</childKindDef>
                         </li>
                         <li>
-                            <partnerRace>Theo_OhmesRahtRace</partnerRace>
+                            <partnerRace>ESCP_OhmesRahtRace</partnerRace>
                             <probability>12</probability>
-                            <childKindDef>Theo_AlfiqPlayerPawnKind_Tribal</childKindDef>
+                            <childKindDef>ESCP_AlfiqPlayerPawnKind_Tribal</childKindDef>
                         </li>
                         <li>
-                            <partnerRace>Theo_OhmesRahtRace</partnerRace>
+                            <partnerRace>ESCP_OhmesRahtRace</partnerRace>
                             <probability>12</probability>
-                            <childKindDef>Theo_SenchePlayerPawnKind_Tribal</childKindDef>
+                            <childKindDef>ESCP_SenchePlayerPawnKind_Tribal</childKindDef>
                         </li>
                         <li>
                             <!--final values 64, 6, 6, 12, 12-->
-                            <partnerRace>Theo_AlfiqRace</partnerRace>
+                            <partnerRace>ESCP_AlfiqRace</partnerRace>
                             <probability>64</probability>
-                            <childKindDef>Theo_KhajiitPlayerPawnKind_Tribal</childKindDef>
+                            <childKindDef>ESCP_KhajiitPlayerPawnKind_Tribal</childKindDef>
                         </li>
                         <li>
-                            <partnerRace>Theo_AlfiqRace</partnerRace>
+                            <partnerRace>ESCP_AlfiqRace</partnerRace>
                             <probability>6</probability>
-                            <childKindDef>Theo_OhmesPlayerPawnKind_Tribal</childKindDef>
+                            <childKindDef>ESCP_OhmesPlayerPawnKind_Tribal</childKindDef>
                         </li>
                         <li>
-                            <partnerRace>Theo_AlfiqRace</partnerRace>
+                            <partnerRace>ESCP_AlfiqRace</partnerRace>
                             <probability>6</probability>
-                            <childKindDef>Theo_OhmesRahtPlayerPawnKind_Tribal</childKindDef>
+                            <childKindDef>ESCP_OhmesRahtPlayerPawnKind_Tribal</childKindDef>
                         </li>
                         <li>
-                            <partnerRace>Theo_AlfiqRace</partnerRace>
+                            <partnerRace>ESCP_AlfiqRace</partnerRace>
                             <probability>12</probability>
-                            <childKindDef>Theo_AlfiqPlayerPawnKind_Tribal</childKindDef>
+                            <childKindDef>ESCP_AlfiqPlayerPawnKind_Tribal</childKindDef>
                         </li>
                         <li>
-                            <partnerRace>Theo_AlfiqRace</partnerRace>
+                            <partnerRace>ESCP_AlfiqRace</partnerRace>
                             <probability>12</probability>
-                            <childKindDef>Theo_SenchePlayerPawnKind_Tribal</childKindDef>
+                            <childKindDef>ESCP_SenchePlayerPawnKind_Tribal</childKindDef>
                         </li>
                         <li>
                             <!--final values 64, 6, 6, 12, 12-->
-                            <partnerRace>Theo_SencheRace</partnerRace>
+                            <partnerRace>ESCP_SencheRace</partnerRace>
                             <probability>64</probability>
-                            <childKindDef>Theo_KhajiitPlayerPawnKind_Tribal</childKindDef>
+                            <childKindDef>ESCP_KhajiitPlayerPawnKind_Tribal</childKindDef>
                         </li>
                         <li>
-                            <partnerRace>Theo_SencheRace</partnerRace>
+                            <partnerRace>ESCP_SencheRace</partnerRace>
                             <probability>6</probability>
-                            <childKindDef>Theo_OhmesPlayerPawnKind_Tribal</childKindDef>
+                            <childKindDef>ESCP_OhmesPlayerPawnKind_Tribal</childKindDef>
                         </li>
                         <li>
-                            <partnerRace>Theo_SencheRace</partnerRace>
+                            <partnerRace>ESCP_SencheRace</partnerRace>
                             <probability>6</probability>
-                            <childKindDef>Theo_OhmesRahtPlayerPawnKind_Tribal</childKindDef>
+                            <childKindDef>ESCP_OhmesRahtPlayerPawnKind_Tribal</childKindDef>
                         </li>
                         <li>
-                            <partnerRace>Theo_SencheRace</partnerRace>
+                            <partnerRace>ESCP_SencheRace</partnerRace>
                             <probability>12</probability>
-                            <childKindDef>Theo_AlfiqPlayerPawnKind_Tribal</childKindDef>
+                            <childKindDef>ESCP_AlfiqPlayerPawnKind_Tribal</childKindDef>
                         </li>
                         <li>
-                            <partnerRace>Theo_SencheRace</partnerRace>
+                            <partnerRace>ESCP_SencheRace</partnerRace>
                             <probability>12</probability>
-                            <childKindDef>Theo_SenchePlayerPawnKind_Tribal</childKindDef>
+                            <childKindDef>ESCP_SenchePlayerPawnKind_Tribal</childKindDef>
                         </li>
                     </hybridSpecific>
                 </reproduction>
@@ -265,7 +265,7 @@
             </generalSettings>
             <raceRestriction>
                 <blackGeneList>
-                    <li MayRequire="Ludeon.RimWorld.Biotech">Theo_Khajiit_InheritedBonus</li>
+                    <li MayRequire="Ludeon.RimWorld.Biotech">ESCP_Khajiit_InheritedBonus</li>
                 </blackGeneList>
             </raceRestriction>
             <compatibility>
@@ -282,7 +282,7 @@
                 <replacerList>
                     <li>
                         <original>AteKibble</original>
-                        <replacer>Theo_Khajiit_AteKibble</replacer>
+                        <replacer>ESCP_Khajiit_AteKibble</replacer>
                     </li>
                 </replacerList>
             </thoughtSettings>
@@ -290,17 +290,17 @@
 
     </AlienRace.ThingDef_AlienRace>
 
-    <AlienRace.ThingDef_AlienRace ParentName ="Theo_BaseRace_Khajiit" Name="Theo_Khajiit_StandardForm" Abstract="True">
+    <AlienRace.ThingDef_AlienRace ParentName ="ESCP_BaseRace_Khajiit" Name="ESCP_Khajiit_StandardForm" Abstract="True">
         <statBases>
             <ComfyTemperatureMin>-10</ComfyTemperatureMin>
         </statBases>
         <race>
-            <body>Theo_BaseBody</body>
+            <body>ESCP_Khajiit_BaseBody</body>
         </race>
         <alienRace>
             <graphicPaths>
-                <head>Things/Pawn/Humanlike/Theo_Khajiit/Heads/Base/</head>
-                <body>Things/Pawn/Humanlike/Theo_Khajiit/Bodies/Base/</body>
+                <head>Things/Pawn/Humanlike/ESCP_Khajiit/Heads/Base/</head>
+                <body>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Base/</body>
             </graphicPaths>
             <generalSettings>
                 <alienPartGenerator>
@@ -314,7 +314,7 @@
                     </headTypes>
                     <bodyAddons>
                         <li>
-                            <path>Things/Pawn/Humanlike/Theo_Khajiit/Ears/EarRight</path>
+                            <path>Things/Pawn/Humanlike/ESCP_Khajiit/Ears/EarRight</path>
                             <colorChannel>skin</colorChannel>
                             <bodyPart>Ear</bodyPart>
                             <bodyPartLabel>right ear</bodyPartLabel>
@@ -342,7 +342,7 @@
                             </offsets>
                         </li>
                         <li>
-                            <path>Things/Pawn/Humanlike/Theo_Khajiit/Ears/EarLeft</path>
+                            <path>Things/Pawn/Humanlike/ESCP_Khajiit/Ears/EarLeft</path>
                             <colorChannel>skin</colorChannel>
                             <bodyPart>Ear</bodyPart>
                             <bodyPartLabel>left ear</bodyPartLabel>
@@ -369,7 +369,7 @@
                             </offsets>-->
                         </li>
                         <li>
-                            <path>Things/Pawn/Humanlike/Theo_Khajiit/Tails/Tail</path>
+                            <path>Things/Pawn/Humanlike/ESCP_Khajiit/Tails/Tail</path>
                             <colorChannel>skin</colorChannel>
                             <bodyPart>Tail</bodyPart>
                             <bodyPartLabel>tail</bodyPartLabel>
@@ -508,14 +508,14 @@
                 <replacerList>
                     <li>
                         <original>SoakingWet</original>
-                        <replacer>Theo_Khajiit_SoakingWet</replacer>
+                        <replacer>ESCP_Khajiit_SoakingWet</replacer>
                     </li>
                 </replacerList>
             </thoughtSettings>
         </alienRace>
     </AlienRace.ThingDef_AlienRace>
 
-    <AlienRace.ThingDef_AlienRace ParentName="Theo_BaseRace_Khajiit" Name="Theo_Khajiit_Ohmes" Abstract="True">
+    <AlienRace.ThingDef_AlienRace ParentName="ESCP_BaseRace_Khajiit" Name="ESCP_Khajiit_Ohmes" Abstract="True">
         <statBases>
             <MarketValue>1900</MarketValue>
             <MoveSpeed>4.7</MoveSpeed>
@@ -550,7 +550,7 @@
         </alienRace>
     </AlienRace.ThingDef_AlienRace>
 
-    <AlienRace.ThingDef_AlienRace ParentName="Theo_BaseRace_Khajiit" Name="Theo_Khajiit_Quadruped" Abstract="True">
+    <AlienRace.ThingDef_AlienRace ParentName="ESCP_BaseRace_Khajiit" Name="ESCP_Khajiit_Quadruped" Abstract="True">
         <!--
         to add:
         -disable most work
@@ -559,7 +559,7 @@
         -change allowed beds?
         -->
         <race>
-            <body>Theo_BaseBody</body>
+            <body>ESCP_Khajiit_BaseBody</body>
         </race>
         <alienRace>
             <styleSettings>
@@ -592,7 +592,7 @@
                 <alienPartGenerator>
                     <bodyAddons>
                         <li>
-                            <path>Things/Pawn/Humanlike/Theo_Khajiit/Ears/EarRight</path>
+                            <path>Things/Pawn/Humanlike/ESCP_Khajiit/Ears/EarRight</path>
                             <colorChannel>skin</colorChannel>
                             <bodyPart>Ear</bodyPart>
                             <bodyPartLabel>right ear</bodyPartLabel>
@@ -618,7 +618,7 @@
                             </offsets>-->
                         </li>
                         <li>
-                            <path>Things/Pawn/Humanlike/Theo_Khajiit/Ears/EarLeft</path>
+                            <path>Things/Pawn/Humanlike/ESCP_Khajiit/Ears/EarLeft</path>
                             <colorChannel>skin</colorChannel>
                             <bodyPart>Ear</bodyPart>
                             <bodyPartLabel>left ear</bodyPartLabel>
@@ -645,7 +645,7 @@
                             </offsets>-->
                         </li>
                         <li>
-                            <path>Things/Pawn/Humanlike/Theo_Khajiit/Tails/Tail</path>
+                            <path>Things/Pawn/Humanlike/ESCP_Khajiit/Tails/Tail</path>
                             <colorChannel>skin</colorChannel>
                             <bodyPart>Tail</bodyPart>
                             <bodyPartLabel>tail</bodyPartLabel>
@@ -725,7 +725,7 @@
                 <replacerList>
                     <li>
                         <original>SoakingWet</original>
-                        <replacer>Theo_Khajiit_SoakingWet</replacer>
+                        <replacer>ESCP_Khajiit_SoakingWet</replacer>
                     </li>
                 </replacerList>
             </thoughtSettings>
@@ -736,11 +736,11 @@
                 <whiteWeaponList Inherit ="false"></whiteWeaponList>
 
                 <whiteReproductionList>                    <!--to prevent alfiq or senche as bestiality loopholes :)-->
-                    <li>Theo_KhajiitRace</li>
-                    <li>Theo_OhmesRace</li>
-                    <li>Theo_OhmesRahtRace</li>
-                    <li>Theo_SencheRace</li>
-                    <li>Theo_AlfiqRace</li>
+                    <li>ESCP_KhajiitRace</li>
+                    <li>ESCP_OhmesRace</li>
+                    <li>ESCP_OhmesRahtRace</li>
+                    <li>ESCP_SencheRace</li>
+                    <li>ESCP_AlfiqRace</li>
                 </whiteReproductionList>
                 <onlyReproduceWithRestrictedRaces>true</onlyReproduceWithRestrictedRaces>
 

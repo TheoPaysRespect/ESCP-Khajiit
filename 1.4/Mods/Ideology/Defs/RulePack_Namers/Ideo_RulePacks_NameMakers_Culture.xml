@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<RulePackDef>
-		<defName>Theo_Khajiit_NamerCultureLeaderTitle</defName>
+		<defName>ESCP_Khajiit_NamerCultureLeaderTitle</defName>
 		<include>
 			<li>LeaderTitleMaker_GlobalStructure</li>
 		</include>
@@ -21,7 +21,7 @@
 		</rulePack>
 	</RulePackDef>
 	<RulePackDef>
-		<defName>Theo_Khajiit_NamerCultureDeityName</defName>
+		<defName>ESCP_Khajiit_NamerCultureDeityName</defName>
 		<include>
 			<li>NamerDeityGlobal</li>
 		</include>
@@ -30,7 +30,7 @@
 				<li>name->[KhajiitGods]</li>
 			</rulesStrings>
 			<rulesFiles>
-				<li>KhajiitGods->Theo_KhajiitNames/KhajiitGods</li>
+				<li>KhajiitGods->ESCP_KhajiitNames/KhajiitGods</li>
 			</rulesFiles>
 		</rulePack>
 	</RulePackDef>

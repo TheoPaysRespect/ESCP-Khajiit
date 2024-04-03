@@ -5,8 +5,8 @@
 <!--Escp race tools background based pawn opinions: khajiit vs dres-->
 <Defs>
 	<!--Childhood-->
-	<AlienRace.AlienBackstoryDef ParentName="Theo_TribeKhajiit_ChildhoodBase">
-		<defName>Theo_Khajiit_TribeChild1</defName>
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_TribeKhajiit_ChildhoodBase">
+		<defName>ESCP_Khajiit_TribeChild1</defName>
 		<title>Badlands Child</title>
 		<titleShort>Badlands Child</titleShort>
 		<baseDesc>While other kittens got fat in the bustling cities of the south, [PAWN_nameDef] struggled to survive in the harsh badlands of the North. Instead of yarn, they played with tumbleweed and knives.</baseDesc>
@@ -21,8 +21,8 @@
 			</li>
 		</skillGains>
 	</AlienRace.AlienBackstoryDef>
-	<AlienRace.AlienBackstoryDef ParentName="Theo_TribeKhajiit_ChildhoodBase">
-		<defName>Theo_Khajiit_TribeChild2</defName>
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_TribeKhajiit_ChildhoodBase">
+		<defName>ESCP_Khajiit_TribeChild2</defName>
 		<title>Fennec Fox Chaser</title>
 		<titleShort>Fennec Chaser</titleShort>
 		<baseDesc>Contrary to the expectation, there was a lot of life in the Savannah. In part it was due to [PAWN_nameDef] chasing after every fennec fox they saw, but also the lions the tribe had to fend off.</baseDesc>
@@ -39,8 +39,8 @@
 			</li>
 		</forcedTraitsChance>
 	</AlienRace.AlienBackstoryDef>
-	<AlienRace.AlienBackstoryDef ParentName="Theo_TribeKhajiit_ChildhoodBase">
-		<defName>Theo_Khajiit_TribeChild3</defName>
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_TribeKhajiit_ChildhoodBase">
+		<defName>ESCP_Khajiit_TribeChild3</defName>
 		<title>Senche racer</title>
 		<titleShort>Senche racer</titleShort>
 		<baseDesc>Few kittens were as iconic as [PAWN_nameDef] and their Senche-raht friend. They would ride ahead of their band, and alert them when unwary travellers were nearby.</baseDesc>
@@ -51,8 +51,8 @@
 			</li>
 		</skillGains>
 	</AlienRace.AlienBackstoryDef>
-	<AlienRace.AlienBackstoryDef ParentName="Theo_TribeKhajiit_ChildhoodBase">
-		<defName>Theo_Khajiit_TribeChild4</defName>
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_TribeKhajiit_ChildhoodBase">
+		<defName>ESCP_Khajiit_TribeChild4</defName>
 		<title>Hunter Child</title>
 		<titleShort>hunter</titleShort>
 		<baseDesc>[PAWN_nameDef] grew up amongst the Khajiiti tribes, unaware of the outside world. They spent their days learning how to hunt to provide for the clan.</baseDesc>
@@ -68,8 +68,8 @@
 		</skillGains>
 	</AlienRace.AlienBackstoryDef>
 	<!--Adulthood-->
-	<AlienRace.AlienBackstoryDef ParentName="Theo_TribeKhajiit_AdulthoodBase">
-		<defName>Theo_Khajiit_TribeAdult1</defName>
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_TribeKhajiit_AdulthoodBase">
+		<defName>ESCP_Khajiit_TribeAdult1</defName>
 		<title>Werelion hunter</title>
 		<titleShort>hunter</titleShort>
 		<baseDesc>While the other khajiit feared the werelions, [PAWN_nameDef] took on the challenge. With arrows of silver, they hunted the beasts down. Unfortunately, one of them was their spouse.</baseDesc>
@@ -91,8 +91,8 @@
 		</forcedTraitsChance>
 		<requiredWorkTags>Violent</requiredWorkTags>
 	</AlienRace.AlienBackstoryDef>
-	<AlienRace.AlienBackstoryDef ParentName="Theo_TribeKhajiit_AdulthoodBase">
-		<defName>Theo_Khajiit_TribeAdult2</defName>
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_TribeKhajiit_AdulthoodBase">
+		<defName>ESCP_Khajiit_TribeAdult2</defName>
 		<title>Tribe Medic</title>
 		<titleShort>Medic</titleShort>
 		<baseDesc>Few knew the local flora as well as [PAWN_nameDef], carefully picking out which plant could heal a rash and which was lethal poison. Of course, the most important plant was catnip and moon sugarcane.</baseDesc>
@@ -107,8 +107,8 @@
 			</li>
 		</skillGains>
 	</AlienRace.AlienBackstoryDef>
-	<AlienRace.AlienBackstoryDef ParentName="Theo_TribeKhajiit_AdulthoodBase">
-		<defName>Theo_Khajiit_TribeAdult3</defName>
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_TribeKhajiit_AdulthoodBase">
+		<defName>ESCP_Khajiit_TribeAdult3</defName>
 		<title>Curious Tribal</title>
 		<titleShort>Tribal</titleShort>
 		<baseDesc>One day, [PAWN_nameDef] decided to leave their tribe to explore the world. When they arrived in the cities, they couldn't comprehend how they could eat something this sweet.</baseDesc>
@@ -123,8 +123,8 @@
 			<MorrowRim_MoonSugar MayRequire="sirmashedpotato.morrowrim.moonsugarandskooma">1</MorrowRim_MoonSugar>
 		</forcedItems>
 	</AlienRace.AlienBackstoryDef>
-	<AlienRace.AlienBackstoryDef ParentName="Theo_TribeKhajiit_AdulthoodBase">
-		<defName>Theo_Khajiit_TribeAdult4</defName>
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_TribeKhajiit_AdulthoodBase">
+		<defName>ESCP_Khajiit_TribeAdult4</defName>
 		<title>Scaredy-cat</title>
 		<titleShort>scaredy-cat</titleShort>
 		<baseDesc>[PAWN_nameDef] had always been a skittish cat, ready to pounce at anything that came too close. Once they nearly ruined the relation with another tribe after they shot one of their hunters.</baseDesc>

@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<FactionDef ParentName="ESCP_PlayerFactionBase_Medieval">
-		<defName>Theo_KhajiitPlayerFaction_Medieval</defName>
+		<defName>ESCP_KhajiitPlayerFaction_Medieval</defName>
 		<label>New Khajiit Kingdom</label>
-		<basicMemberKind>Theo_KhajiitPlayerPawnKind_Medieval</basicMemberKind>
-		<factionIconPath>World/WorldObjects/Theo_Khajiit_Kingdom</factionIconPath>
+		<basicMemberKind>ESCP_KhajiitPlayerPawnKind_Medieval</basicMemberKind>
+		<factionIconPath>World/WorldObjects/ESCP_Khajiit_Kingdom</factionIconPath>
 		<allowedCultures>
-			<li>Theo_KhajiitCulture</li>
+			<li>ESCP_KhajiitCulture</li>
 		</allowedCultures>
 		<startingResearchTags>
-			<li>Theo_KhajiitStart_Medieval</li>
+			<li>ESCP_KhajiitStart_Medieval</li>
 		</startingResearchTags>
-		<factionNameMaker>Theo_Khajiit_NamerFaction</factionNameMaker>
-		<settlementNameMaker>Theo_Khajiit_NamerSettlement</settlementNameMaker>
+		<factionNameMaker>ESCP_Khajiit_NamerFaction</factionNameMaker>
+		<settlementNameMaker>ESCP_Khajiit_NamerSettlement</settlementNameMaker>
 		<modExtensions>
 			<li Class="ESCP_RaceTools.FactionProperties">
 				<factionTags>
-					<li>Theo_KhajiitFaction</li>
-					<li>Theo_KhajiitFactionPlayer</li>
+					<li>ESCP_KhajiitFaction</li>
+					<li>ESCP_KhajiitFactionPlayer</li>
 				</factionTags>
 			</li>
 		</modExtensions>
 	</FactionDef>
 
 	<FactionDef ParentName="ESCP_PlayerFactionBase_Tribal">
-		<defName>Theo_KhajiitPlayerFaction_Tribal</defName>
+		<defName>ESCP_KhajiitPlayerFaction_Tribal</defName>
 		<label>New Khajiit Tribe</label>
-		<basicMemberKind>Theo_KhajiitPlayerPawnKind_Tribal</basicMemberKind>
-		<factionIconPath>World/WorldObjects/Theo_Khajiit_Tribe</factionIconPath>
+		<basicMemberKind>ESCP_KhajiitPlayerPawnKind_Tribal</basicMemberKind>
+		<factionIconPath>World/WorldObjects/ESCP_Khajiit_Tribe</factionIconPath>
 		<allowedCultures>
-			<li>Theo_KhajiitCulture</li>
+			<li>ESCP_KhajiitCulture</li>
 		</allowedCultures>
-		<factionNameMaker>Theo_Khajiit_NamerTribe</factionNameMaker>
-		<settlementNameMaker>Theo_Khajiit_NamerSettlement</settlementNameMaker>
+		<factionNameMaker>ESCP_Khajiit_NamerTribe</factionNameMaker>
+		<settlementNameMaker>ESCP_Khajiit_NamerSettlement</settlementNameMaker>
 		<startingResearchTags>
-			<li>Theo_KhajiitStart_Tribal</li>
+			<li>ESCP_KhajiitStart_Tribal</li>
 		</startingResearchTags>
 		<modExtensions>
 			<li Class="ESCP_RaceTools.FactionProperties">
@@ -47,23 +47,23 @@
 	</FactionDef>
 	
 	<FactionDef ParentName="ESCP_PlayerFactionBase_Medieval">
-		<defName>Theo_KhajiitPlayerFaction_Bandaari</defName>
+		<defName>ESCP_KhajiitPlayerFaction_Bandaari</defName>
 		<label>New Khajiit Caravan</label>
-		<basicMemberKind>Theo_KhajiitPlayerPawnKind_Medieval</basicMemberKind>
-		<factionIconPath>World/WorldObjects/Theo_Khajiit_Bandaari</factionIconPath>
-		<factionNameMaker>Theo_Khajiit_NamerTraders</factionNameMaker>
-		<settlementNameMaker>Theo_Khajiit_NamerSettlement</settlementNameMaker>
+		<basicMemberKind>ESCP_KhajiitPlayerPawnKind_Medieval</basicMemberKind>
+		<factionIconPath>World/WorldObjects/ESCP_Khajiit_Bandaari</factionIconPath>
+		<factionNameMaker>ESCP_Khajiit_NamerTraders</factionNameMaker>
+		<settlementNameMaker>ESCP_Khajiit_NamerSettlement</settlementNameMaker>
 		<allowedCultures>
-			<li>Theo_KhajiitCulture</li>
+			<li>ESCP_KhajiitCulture</li>
 		</allowedCultures>
 		<startingResearchTags>
-			<li>Theo_KhajiitStart_Medieval</li>
+			<li>ESCP_KhajiitStart_Medieval</li>
 		</startingResearchTags>
 		<modExtensions>
 			<li Class="ESCP_RaceTools.FactionProperties">
 				<factionTags>
-					<li>Theo_KhajiitFaction</li>
-					<li>Theo_KhajiitFactionPlayer</li>
+					<li>ESCP_KhajiitFaction</li>
+					<li>ESCP_KhajiitFactionPlayer</li>
 				</factionTags>
 			</li>
 		</modExtensions>

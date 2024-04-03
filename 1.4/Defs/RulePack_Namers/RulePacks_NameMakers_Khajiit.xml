@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<RulePackDef>
-		<defName>Theo_Khajiit_NamerMale</defName>
+		<defName>ESCP_Khajiit_NamerMale</defName>
 		<include>
 			<li>TribalWordUtility</li>
 		</include>
@@ -10,13 +10,13 @@
 				<li>name->[MaleList] [FamilyList]</li>
 			</rulesStrings>
 			<rulesFiles>
-				<li>MaleList->Theo_KhajiitNames/KhajiitMale</li>
-				<li>FamilyList->Theo_KhajiitNames/KhajiitFamily</li>
+				<li>MaleList->ESCP_KhajiitNames/KhajiitMale</li>
+				<li>FamilyList->ESCP_KhajiitNames/KhajiitFamily</li>
 			</rulesFiles>
 		</rulePack>
 	</RulePackDef>
 	<RulePackDef>
-		<defName>Theo_Khajiit_NamerFemale</defName>
+		<defName>ESCP_Khajiit_NamerFemale</defName>
 		<include>
 			<li>TribalWordUtility</li>
 		</include>
@@ -25,8 +25,8 @@
 				<li>name->[FemaleList] [FamilyList]</li>
 			</rulesStrings>
 			<rulesFiles>
-				<li>FemaleList->Theo_KhajiitNames/KhajiitFemale</li>
-				<li>FamilyList->Theo_KhajiitNames/KhajiitFamily</li>
+				<li>FemaleList->ESCP_KhajiitNames/KhajiitFemale</li>
+				<li>FamilyList->ESCP_KhajiitNames/KhajiitFamily</li>
 			</rulesFiles>
 		</rulePack>
 	</RulePackDef>

@@ -4,23 +4,23 @@
 		<xpath>Defs/QuestScriptDef[defName="Util_ChooseRandomQuestLodgerKind"]/root[@Class="QuestNode_Sequence"]/nodes/li[@Class="QuestNode_IsSet"]/node[@Class="QuestNode_GetRandomPawnKindForFaction"]/choices/li[factionDef="Empire"]</xpath>
 		<value>
 			<li>
-				<factionDef>Theo_KhajiitNonPlayerFaction_Kingdom</factionDef>
+				<factionDef>ESCP_KhajiitNonPlayerFaction_Kingdom</factionDef>
 				<pawnKinds>
-					<li>Theo_Khajiit_Kingdom_Penitent</li>
-					<li>Theo_Khajiit_Kingdom_Warrior</li>
-					<li>Theo_Ohmes_Kingdom_Archer</li>
-					<li>Theo_OhmesRaht_Kingdom_Archer</li>
-					<li>Theo_Khajiit_Kingdom_Hunter</li>
+					<li>ESCP_Khajiit_Kingdom_Penitent</li>
+					<li>ESCP_Khajiit_Kingdom_Warrior</li>
+					<li>ESCP_Ohmes_Kingdom_Archer</li>
+					<li>ESCP_OhmesRaht_Kingdom_Archer</li>
+					<li>ESCP_Khajiit_Kingdom_Hunter</li>
 				</pawnKinds>
 			</li>
 			<li>
-				<factionDef>Theo_KhajiitNonPlayerFaction_Tribal</factionDef>
+				<factionDef>ESCP_KhajiitNonPlayerFaction_Tribal</factionDef>
 				<pawnKinds>
-					<li>Theo_Khajiit_Tribal_Penitent</li>
-					<li>Theo_Khajiit_Tribal_Warrior</li>
-					<li>Theo_Ohmes_Tribal_Archer</li>
-					<li>Theo_OhmesRaht_Tribal_Archer</li>
-					<li>Theo_Khajiit_Tribal_Hunter</li>
+					<li>ESCP_Khajiit_Tribal_Penitent</li>
+					<li>ESCP_Khajiit_Tribal_Warrior</li>
+					<li>ESCP_Ohmes_Tribal_Archer</li>
+					<li>ESCP_OhmesRaht_Tribal_Archer</li>
+					<li>ESCP_Khajiit_Tribal_Hunter</li>
 				</pawnKinds>
 			</li>
 		</value>

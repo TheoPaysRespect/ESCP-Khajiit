@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<PawnKindDef Name="Theo_Khajiit_TribalBase" Abstract="True">
-		<race>Theo_KhajiitRace</race>
-		<defaultFactionType>Theo_KhajiitNonPlayerFaction_Tribal</defaultFactionType>
+	<PawnKindDef Name="ESCP_Khajiit_TribalBase" Abstract="True">
+		<race>ESCP_KhajiitRace</race>
+		<defaultFactionType>ESCP_KhajiitNonPlayerFaction_Tribal</defaultFactionType>
 		<maxGenerationAge>60</maxGenerationAge>
 		<chemicalAddictionChance>0.01</chemicalAddictionChance>
 		<invNutrition>2.55</invNutrition>
@@ -14,23 +14,23 @@
 			<li>
 				<categoriesChildhood>
 					<li>Tribal</li>
-					<li>Theo_TribeKhajiitBackstory_Childhood</li>
+					<li>ESCP_TribeKhajiitBackstory_Childhood</li>
 					<li>ESCP_GenericBackstory_ChildhoodTribal</li>
-					<li>Theo_KhajiitBackstory_Childhood</li>
+					<li>ESCP_KhajiitBackstory_Childhood</li>
 				</categoriesChildhood>
 				<categoriesAdulthood>
 					<li>Tribal</li>
 					<li>ESCP_GenericBackstory_AdulthoodSlaver</li>
-					<li>Theo_TribeKhajiitBackstory_Adulthood</li>
+					<li>ESCP_TribeKhajiitBackstory_Adulthood</li>
 					<li>ESCP_DunmerSlaveBackstory_Adulthood</li>
-					<li>Theo_KhajiitBackstory_Adulthood</li>
+					<li>ESCP_KhajiitBackstory_Adulthood</li>
 				</categoriesAdulthood>
 			</li>
 		</backstoryFiltersOverride>
 	</PawnKindDef>
 	<!--raid bs-->
-	<PawnKindDef ParentName="Theo_Khajiit_TribalBase">
-		<defName>Theo_Khajiit_Tribal_Penitent</defName>
+	<PawnKindDef ParentName="ESCP_Khajiit_TribalBase">
+		<defName>ESCP_Khajiit_Tribal_Penitent</defName>
 		<label>penitent</label>
 		<combatPower>40</combatPower>
 		<chemicalAddictionChance>0.10</chemicalAddictionChance>
@@ -50,8 +50,8 @@
 		<initialWillRange>0~1</initialWillRange>
 		<initialResistanceRange>10~17</initialResistanceRange>
 	</PawnKindDef>
-	<PawnKindDef ParentName="Theo_Khajiit_TribalBase">
-		<defName>Theo_Khajiit_Tribal_Archer</defName>
+	<PawnKindDef ParentName="ESCP_Khajiit_TribalBase">
+		<defName>ESCP_Khajiit_Tribal_Archer</defName>
 		<label>archer</label>
 		<combatPower>45</combatPower>
 		<itemQuality>Poor</itemQuality>
@@ -75,8 +75,8 @@
 		<initialWillRange>1~3</initialWillRange>
 		<initialResistanceRange>17~27</initialResistanceRange>
 	</PawnKindDef>
-	<PawnKindDef ParentName="Theo_Khajiit_TribalBase" Name="Theo_Khajiit_TribalWarriorBase">
-		<defName>Theo_Khajiit_Tribal_Warrior</defName>
+	<PawnKindDef ParentName="ESCP_Khajiit_TribalBase" Name="ESCP_Khajiit_TribalWarriorBase">
+		<defName>ESCP_Khajiit_Tribal_Warrior</defName>
 		<label>warrior</label>
 		<combatPower>50</combatPower>
 		<itemQuality>Poor</itemQuality>
@@ -96,8 +96,8 @@
 		<initialWillRange>1~3</initialWillRange>
 		<initialResistanceRange>5~9</initialResistanceRange>
 	</PawnKindDef>
-	<PawnKindDef ParentName="Theo_Khajiit_TribalWarriorBase">
-		<defName>Theo_Khajiit_Tribal_CatMaster</defName>
+	<PawnKindDef ParentName="ESCP_Khajiit_TribalWarriorBase">
+		<defName>ESCP_Khajiit_Tribal_CatMaster</defName>
 		<label>Big cat master</label>
 		<combatPower>70</combatPower>
 		<modExtensions>
@@ -116,14 +116,14 @@
 			<li>
 				<categoriesChildhood>
 					<li>Tribal</li>
-					<li>Theo_TribeKhajiitBackstory_Childhood</li>
+					<li>ESCP_TribeKhajiitBackstory_Childhood</li>
 					<li>ESCP_GenericBackstory_ChildhoodTribal</li>
 				</categoriesChildhood>
 				<categoriesAdulthood>
 					<li>ESCP_GenericBackstory_AdulthoodBeastMaster</li>
 				</categoriesAdulthood>
 				<excludeChildhood>
-					<li>Theo_Addict_Exclusion</li>
+					<li>ESCP_Addict_Exclusion</li>
 				</excludeChildhood>
 				<excludeAdulthood>
 					<li>ESCP_KhajiitBackstory_Exclusion</li>
@@ -131,8 +131,8 @@
 			</li>
 		</backstoryFiltersOverride>
 	</PawnKindDef>
-	<PawnKindDef ParentName="Theo_Khajiit_TribalBase">
-		<defName>Theo_Khajiit_Tribal_Breacher</defName>
+	<PawnKindDef ParentName="ESCP_Khajiit_TribalBase">
+		<defName>ESCP_Khajiit_Tribal_Breacher</defName>
 		<label>breacher</label>
 		<combatPower>55</combatPower>
 		<itemQuality>Poor</itemQuality>
@@ -150,15 +150,15 @@
 		<initialWillRange>1~3</initialWillRange>
 		<initialResistanceRange>12~19</initialResistanceRange>
 	</PawnKindDef>
-	<PawnKindDef ParentName="Theo_Khajiit_TribalBase" Name="Theo_Khajiit_TribalHunterBase">
-		<defName>Theo_Khajiit_Tribal_Hunter</defName>
+	<PawnKindDef ParentName="ESCP_Khajiit_TribalBase" Name="ESCP_Khajiit_TribalHunterBase">
+		<defName>ESCP_Khajiit_Tribal_Hunter</defName>
 		<label>hunter</label>
 		<combatPower>60</combatPower>
 		<backstoryFiltersOverride Inherit="False">
 			<li>
 				<categoriesChildhood>
 					<li>Tribal</li>
-					<li>Theo_TribeKhajiitBackstory_Childhood</li>
+					<li>ESCP_TribeKhajiitBackstory_Childhood</li>
 					<li>ESCP_GenericBackstory_ChildhoodTribal</li>
 				</categoriesChildhood>
 				<categoriesAdulthood>
@@ -166,7 +166,7 @@
 					<li>ESCP_GenericBackstory_AdulthoodMedievalHunter</li>
 				</categoriesAdulthood>
 				<excludeChildhood>
-					<li>Theo_Addict_Exclusion</li>
+					<li>ESCP_Addict_Exclusion</li>
 				</excludeChildhood>
 				<excludeAdulthood>
 					<li>ESCP_KhajiitBackstory_Exclusion</li>
@@ -191,20 +191,20 @@
 		<initialWillRange>2~4</initialWillRange>
 		<initialResistanceRange>10~16</initialResistanceRange>
 	</PawnKindDef>
-	<PawnKindDef ParentName="Theo_Khajiit_TribalHunterBase">
-		<defName>Theo_Khajiit_Tribal_Trader</defName>
+	<PawnKindDef ParentName="ESCP_Khajiit_TribalHunterBase">
+		<defName>ESCP_Khajiit_Tribal_Trader</defName>
 		<label>trader</label>
 		<trader>true</trader>
 		<backstoryFiltersOverride Inherit="False">
 			<li>
 				<categoriesChildhood>
-					<li>Theo_CityKhajiitBackstory_Childhood</li>
+					<li>ESCP_CityKhajiitBackstory_Childhood</li>
 				</categoriesChildhood>
 				<categoriesAdulthood>
-					<li>Theo_TraderBackstory</li>
+					<li>ESCP_TraderBackstory</li>
 				</categoriesAdulthood>
 				<excludeChildhood>
-					<li>Theo_Addict_Exclusion</li>
+					<li>ESCP_Addict_Exclusion</li>
 				</excludeChildhood>
 				<excludeAdulthood>
 					<li>ESCP_KhajiitBackstory_Exclusion</li>
@@ -217,8 +217,8 @@
 		<initialWillRange>2~4</initialWillRange>
 		<initialResistanceRange>9~15</initialResistanceRange>
 	</PawnKindDef>
-	<PawnKindDef ParentName="Theo_Khajiit_TribalBase">
-		<defName>Theo_Khajiit_Tribal_Berserker</defName>
+	<PawnKindDef ParentName="ESCP_Khajiit_TribalBase">
+		<defName>ESCP_Khajiit_Tribal_Berserker</defName>
 		<label>Do-radhin</label>
 		<combatPower>65</combatPower>
 		<canBeSapper>true</canBeSapper>
@@ -236,8 +236,8 @@
 		<initialWillRange>2~4</initialWillRange>
 		<initialResistanceRange>13~20</initialResistanceRange>
 	</PawnKindDef>
-	<PawnKindDef ParentName="Theo_Khajiit_TribalBase">
-		<defName>Theo_Khajiit_Tribal_HeavyArcher</defName>
+	<PawnKindDef ParentName="ESCP_Khajiit_TribalBase">
+		<defName>ESCP_Khajiit_Tribal_HeavyArcher</defName>
 		<label>Heavy Archer</label>
 		<combatPower>75</combatPower>
 		<apparelMoney>200~550</apparelMoney>
@@ -257,7 +257,7 @@
 		<initialWillRange>2~4</initialWillRange>
 		<initialResistanceRange>14~22</initialResistanceRange>
 	</PawnKindDef>
-	<PawnKindDef ParentName="Theo_Khajiit_TribalBase" Name="Theo_Khajiit_TribalChiefBase" Abstract="True">
+	<PawnKindDef ParentName="ESCP_Khajiit_TribalBase" Name="ESCP_Khajiit_TribalChiefBase" Abstract="True">
 		<combatPower>85</combatPower>
 		<minGenerationAge>30</minGenerationAge>
 		<maxGenerationAge>999</maxGenerationAge>
@@ -276,16 +276,16 @@
 		<initialWillRange>3~5</initialWillRange>
 		<initialResistanceRange>19~30</initialResistanceRange>
 	</PawnKindDef>
-	<PawnKindDef ParentName="Theo_Khajiit_TribalChiefBase">
-		<defName>Theo_Khajiit_Tribal_ChiefMelee</defName>
+	<PawnKindDef ParentName="ESCP_Khajiit_TribalChiefBase">
+		<defName>ESCP_Khajiit_Tribal_ChiefMelee</defName>
 		<label>Berserker K'har</label>
 		<weaponTags>
 			<li>NeolithicMeleeAdvanced</li>
 		</weaponTags>
 		<initialResistanceRange>38~58</initialResistanceRange>
 	</PawnKindDef>
-	<PawnKindDef ParentName="Theo_Khajiit_TribalChiefBase" Name="Theo_Khajiit_TribalChiefRangedBase">
-		<defName>Theo_Khajiit_Tribal_ChiefRanged</defName>
+	<PawnKindDef ParentName="ESCP_Khajiit_TribalChiefBase" Name="ESCP_Khajiit_TribalChiefRangedBase">
+		<defName>ESCP_Khajiit_Tribal_ChiefRanged</defName>
 		<label>Archer K'har</label>
 		<weaponTags>
 			<li>NeolithicRangedChief</li>
@@ -295,8 +295,8 @@
 		</disallowedTraits>
 		<initialResistanceRange>16~26</initialResistanceRange>
 	</PawnKindDef>
-	<PawnKindDef ParentName="Theo_Khajiit_TribalChiefRangedBase">
-		<defName>Theo_Khajiit_Tribal_ChiefBeastMaster</defName>
+	<PawnKindDef ParentName="ESCP_Khajiit_TribalChiefRangedBase">
+		<defName>ESCP_Khajiit_Tribal_ChiefBeastMaster</defName>
 		<label>Cat Master K'har</label>
 		<modExtensions>
 			<li Class="ESCP_RaceTools.BeastMaster">
@@ -314,14 +314,14 @@
 			<li>
 				<categoriesChildhood>
 					<li>Tribal</li>
-					<li>Theo_TribeKhajiitBackstory_Childhood</li>
+					<li>ESCP_TribeKhajiitBackstory_Childhood</li>
 					<li>ESCP_GenericBackstory_ChildhoodTribal</li>
 				</categoriesChildhood>
 				<categoriesAdulthood>
 					<li>ESCP_GenericBackstory_AdulthoodBeastMaster</li>
 				</categoriesAdulthood>
 				<excludeChildhood>
-					<li>Theo_Addict_Exclusion</li>
+					<li>ESCP_Addict_Exclusion</li>
 				</excludeChildhood>
 				<excludeAdulthood>
 					<li>ESCP_KhajiitBackstory_Exclusion</li>

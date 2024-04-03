@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<StyleItemCategoryDef>
-		<defName>Theo_KhajiitStyle</defName>
+		<defName>ESCP_KhajiitStyle</defName>
 		<label>Khajiiti</label>
 	</StyleItemCategoryDef>
 </Defs>

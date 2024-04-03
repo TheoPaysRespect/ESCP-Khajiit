@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<!--<ThingDef ParentName="MoteBase">
-		<defName>Theo_Mote_Khajiit</defName>
+		<defName>ESCP_Mote_Khajiit</defName>
 		<altitudeLayer>MoteOverhead</altitudeLayer>
 		<graphicData>
 			<texPath>Things/Mote</texPath>
@@ -15,7 +15,7 @@
 		</mote>
 	</ThingDef>
 	<RitualVisualEffectDef ParentName="RitualGlowAbstract">
-		<defName>Theo_Khajiiti</defName>
+		<defName>ESCP_Khajiiti</defName>
 		<tintColor>(209, 179, 93)</tintColor>
 		<comps>
 			<li>
@@ -24,7 +24,7 @@
 				<scaleWithRoom>true</scaleWithRoom>
 			</li>
 			<li Class="CompProperties_RitualEffectIntervalSpawnCircle">
-				<moteDef>Theo_Mote_Khajiit</moteDef>
+				<moteDef>ESCP_Mote_Khajiit</moteDef>
 				<area>(27, 28)</area>
 				<radius>6</radius>
 				<concentration>2</concentration>

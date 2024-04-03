@@ -2,25 +2,25 @@
 
 <Defs>
 	<GoodwillSituationDef>
-		<defName>Theo_KhajiitVSDres</defName>
+		<defName>ESCP_KhajiitVSDres</defName>
 		<label>Slave Relations</label>
 		<workerClass>ESCP_RaceTools.GoodWillWorker_UniversalFactionTagCompatibility</workerClass>
 		<naturalGoodwillOffset>-20</naturalGoodwillOffset>
 		<modExtensions>
 			<li Class="ESCP_RaceTools.FactionGoodwillProperties">
-				<FactionTagA>Theo_KhajiitFaction</FactionTagA>
+				<FactionTagA>ESCP_KhajiitFaction</FactionTagA>
 				<FactionTagB>ESCP_DunmerGreatHouse</FactionTagB>
 			</li>
 		</modExtensions>
 	</GoodwillSituationDef>
 	<!--<GoodwillSituationDef MayRequire="mlie.argoniansofblackmarsh">
-		<defName>Theo_KhajiitVSArgonian</defName>
+		<defName>ESCP_KhajiitVSArgonian</defName>
 		<label>Beastkin Tensions</label>
 		<workerClass>ESCP_RaceTools.GoodWillWorker_UniversalFactionTagCompatibility_Inverted</workerClass>
 		<naturalGoodwillOffset>-10</naturalGoodwillOffset>
 		<modExtensions>
 			<li Class="ESCP_RaceTools.FactionGoodwillProperties">
-				<FactionTagA>Theo_KhajiitFaction</FactionTagA>
+				<FactionTagA>ESCP_KhajiitFaction</FactionTagA>
 				<FactionTagB>Mlie_ArgonianFaction</FactionTagB>
 			</li>
 		</modExtensions>

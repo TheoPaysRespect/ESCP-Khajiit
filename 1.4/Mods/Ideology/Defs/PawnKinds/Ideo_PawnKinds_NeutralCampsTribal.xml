@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<PawnKindDef ParentName="Theo_Khajiit_TribalBase">
-		<defName>Theo_Khajiit_Tribal_Farmer</defName>
+	<PawnKindDef ParentName="ESCP_Khajiit_TribalBase">
+		<defName>ESCP_Khajiit_Tribal_Farmer</defName>
 		<label>farmer</label>
 		<combatPower>35</combatPower>
 		<backstoryFiltersOverride Inherit="False">
 			<li>
 				<categoriesChildhood>
 					<li>Tribal</li>
-					<li>theo_khajiitBackstory_Childhood</li>
+					<li>ESCP_khajiitBackstory_Childhood</li>
 					<li>ESCP_GenericBackstory_ChildhoodTribal</li>
 				</categoriesChildhood>
 				<categoriesAdulthood>
@@ -16,7 +16,7 @@
 					<li>ESCP_GenericBackstory_AdulthoodMedievalFarmer</li>
 				</categoriesAdulthood>
 				<excludeChildhood>
-					<li>Theo_Addict_Exclusion</li>
+					<li>ESCP_Addict_Exclusion</li>
 				</excludeChildhood>
 				<excludeAdulthood>
 					<li>ESCP_KhajiitBackstory_Exclusion</li>
@@ -43,22 +43,22 @@
 		<initialWillRange>1~2</initialWillRange>
 		<initialResistanceRange>17~27</initialResistanceRange>
 	</PawnKindDef>
-	<PawnKindDef ParentName="Theo_Khajiit_TribalBase">
-		<defName>Theo_Khajiit_Tribal_Logger</defName>
+	<PawnKindDef ParentName="ESCP_Khajiit_TribalBase">
+		<defName>ESCP_Khajiit_Tribal_Logger</defName>
 		<label>logger</label>
 		<combatPower>35</combatPower>
 		<backstoryFiltersOverride Inherit="False">
 			<li>
 				<categoriesChildhood>
 					<li>Tribal</li>
-					<li>theo_khajiitBackstory_Childhood</li>
+					<li>ESCP_khajiitBackstory_Childhood</li>
 					<li>ESCP_GenericBackstory_ChildhoodTribal</li>
 				</categoriesChildhood>
 				<categoriesAdulthood>
 					<li>ESCP_GenericBackstory_AdulthoodMedievalLogger</li>
 				</categoriesAdulthood>
 				<excludeChildhood>
-					<li>Theo_Addict_Exclusion</li>
+					<li>ESCP_Addict_Exclusion</li>
 				</excludeChildhood>
 				<excludeAdulthood>
 					<li>ESCP_KhajiitBackstory_Exclusion</li>

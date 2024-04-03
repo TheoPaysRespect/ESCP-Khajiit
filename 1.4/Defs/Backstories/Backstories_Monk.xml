@@ -7,8 +7,8 @@
 	<!--ESCP_DunmerGreatHouse_Dres_Adulthood-->
 	<!--Link monk childhoods and adulthoods-->
 	<!--Childhood-->
-	<AlienRace.AlienBackstoryDef ParentName="Theo_MonkKhajiit_ChildhoodBase">
-		<defName>Theo_Khajiit_MonkChild1</defName>
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_MonkKhajiit_ChildhoodBase">
+		<defName>ESCP_Khajiit_MonkChild1</defName>
 		<title>Whispering Claw student</title>
 		<titleShort>monk student</titleShort>
 		<baseDesc>In the temple of the two-moons dance, [PAWN_nameDef] studied the art of the Claw-Dance. As an adept of the Whispering Claw, they studied the methods of silent kills.</baseDesc>
@@ -22,10 +22,10 @@
 				<value>2</value>
 			</li>
 		</skillGains>
-		<linkedBackstory>Theo_Khajiit_MonkAdult3</linkedBackstory>
+		<linkedBackstory>ESCP_Khajiit_MonkAdult3</linkedBackstory>
 	</AlienRace.AlienBackstoryDef>
-	<AlienRace.AlienBackstoryDef ParentName="Theo_MonkKhajiit_ChildhoodBase">
-		<defName>Theo_Khajiit_MonkChild2</defName>
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_MonkKhajiit_ChildhoodBase">
+		<defName>ESCP_Khajiit_MonkChild2</defName>
 		<title>Desert Rain student</title>
 		<titleShort>monk student</titleShort>
 		<baseDesc>In the temple of the two-moons dance, [PAWN_nameDef] studied the art of the Claw-Dance. As an adept of the Desert Rain, while the other kittens played, this one studied the blade.</baseDesc>
@@ -36,8 +36,8 @@
 			</li>
 		</skillGains>
 	</AlienRace.AlienBackstoryDef>
-	<AlienRace.AlienBackstoryDef ParentName="Theo_MonkKhajiit_ChildhoodBase">
-		<defName>Theo_Khajiit_MonkChild3</defName>
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_MonkKhajiit_ChildhoodBase">
+		<defName>ESCP_Khajiit_MonkChild3</defName>
 		<title>Goutfang student</title>
 		<titleShort>monk student</titleShort>
 		<baseDesc>In the temple of the two-moons dance, [PAWN_nameDef] studied the art of the Claw-Dance. As an adept of the Goutfang, they grappled with the balance of combat.</baseDesc>
@@ -48,8 +48,8 @@
 			</li>
 		</skillGains>
 	</AlienRace.AlienBackstoryDef>
-	<AlienRace.AlienBackstoryDef ParentName="Theo_MonkKhajiit_ChildhoodBase">
-		<defName>Theo_Khajiit_MonkChild4</defName>
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_MonkKhajiit_ChildhoodBase">
+		<defName>ESCP_Khajiit_MonkChild4</defName>
 		<title>Desert Wind student</title>
 		<titleShort>monk student</titleShort>
 		<baseDesc>In the temple of the Desert Wind Adeptonium, [PAWN_nameDef] studied the art of the Claw-Dance. As an adept of the Desert Wind, they balanced the blades well.</baseDesc>
@@ -61,8 +61,8 @@
 		</skillGains>
 	</AlienRace.AlienBackstoryDef>
 	<!--Adulthood-->
-	<AlienRace.AlienBackstoryDef ParentName="Theo_MonkKhajiit_AdulthoodBase">
-		<defName>Theo_Khajiit_MonkAdult1</defName>
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_MonkKhajiit_AdulthoodBase">
+		<defName>ESCP_Khajiit_MonkAdult1</defName>
 		<title>War monk</title>
 		<titleShort>monk</titleShort>
 		<baseDesc>[PAWN_nameDef] was always ready to defend their home, using their Claw-Dance to repel the recently returned Maormer pirates. On their days off, they would teach the young to be ready to do the same.</baseDesc>
@@ -77,8 +77,8 @@
 			</li>
 		</skillGains>
 	</AlienRace.AlienBackstoryDef>
-	<AlienRace.AlienBackstoryDef ParentName="Theo_MonkKhajiit_AdulthoodBase">
-		<defName>Theo_Khajiit_MonkAdult2</defName>
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_MonkKhajiit_AdulthoodBase">
+		<defName>ESCP_Khajiit_MonkAdult2</defName>
 		<title>Monk scribe</title>
 		<titleShort>monk</titleShort>
 		<baseDesc>While the other monks danced, [PAWN_nameDef] memorialised their techniques in script for future generations to see. Some of the copies had to be replaced after the kittens spilled paint over them amidst play.</baseDesc>
@@ -93,8 +93,8 @@
 			</li>
 		</skillGains>
 	</AlienRace.AlienBackstoryDef>
-	<AlienRace.AlienBackstoryDef ParentName="Theo_MonkKhajiit_AdulthoodBase">
-		<defName>Theo_Khajiit_MonkAdult3</defName>
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_MonkKhajiit_AdulthoodBase">
+		<defName>ESCP_Khajiit_MonkAdult3</defName>
 		<title>Assassin Monk</title>
 		<titleShort>Monk</titleShort>
 		<baseDesc>Few were as deadly as [PAWN_nameDef], an assassin of the Whispering Claw school. Rumors say that they purred loudly on a successful kill.</baseDesc>
@@ -112,6 +112,6 @@
 				<value>2</value>
 			</li>
 		</skillGains>
-		<linkedBackstory>Theo_Khajiit_MonkChild1</linkedBackstory>
+		<linkedBackstory>ESCP_Khajiit_MonkChild1</linkedBackstory>
 	</AlienRace.AlienBackstoryDef>
 </Defs>

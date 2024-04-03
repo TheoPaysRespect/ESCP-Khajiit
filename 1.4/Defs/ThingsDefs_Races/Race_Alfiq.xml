@@ -4,8 +4,8 @@
     -dessicated graphic from cat
 -->
 <Defs>
-    <AlienRace.ThingDef_AlienRace ParentName="Theo_Khajiit_Quadruped">
-        <defName>Theo_AlfiqRace</defName>
+    <AlienRace.ThingDef_AlienRace ParentName="ESCP_Khajiit_Quadruped">
+        <defName>ESCP_AlfiqRace</defName>
         <label>Khajiit</label>
         <description>An Alfiq Khajiit, a species native to Elsweyr.</description>
         <statBases>
@@ -108,16 +108,16 @@
                 </alienPartGenerator>
                 <maxDamageForSocialfight>4</maxDamageForSocialfight>
                 <notXenophobistTowards>
-                    <li>Theo_OhmesRace</li>
-                    <li>Theo_OhmesRahtRace</li>
-                    <li>Theo_SencheRace</li>
-                    <li>Theo_KhajiitRace</li>
+                    <li>ESCP_OhmesRace</li>
+                    <li>ESCP_OhmesRahtRace</li>
+                    <li>ESCP_SencheRace</li>
+                    <li>ESCP_KhajiitRace</li>
                 </notXenophobistTowards>
             </generalSettings>
             <graphicPaths>
-                <head>Things/Pawn/Humanlike/Theo_Khajiit/Heads/Alfiq/</head>
-                <body>Things/Pawn/Humanlike/Theo_Khajiit/Bodies/Alfiq/</body>
-                <!--<skeleton>Things/Pawn/Humanlike/Theo_Khajiit/Skeletons/Alfiq/</skeleton>-->
+                <head>Things/Pawn/Humanlike/ESCP_Khajiit/Heads/Alfiq/</head>
+                <body>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Alfiq/</body>
+                <!--<skeleton>Things/Pawn/Humanlike/ESCP_Khajiit/Skeletons/Alfiq/</skeleton>-->
             </graphicPaths>
         </alienRace>
         <tools>

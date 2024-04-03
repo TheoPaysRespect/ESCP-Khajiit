@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-    <PawnKindDef Name="Theo_Khajiit_TribalSenche" ParentName="Theo_Khajiit_TribalBase" Abstract="true">
-        <race Inherit="false">Theo_SencheRace</race>
+    <PawnKindDef Name="ESCP_Khajiit_TribalSenche" ParentName="ESCP_Khajiit_TribalBase" Abstract="true">
+        <race Inherit="false">ESCP_SencheRace</race>
         <weaponTags Inherit="false"></weaponTags>
         <weaponMoney>0~0</weaponMoney>
         <initialWillRange>3~6</initialWillRange>
@@ -9,8 +9,8 @@
     </PawnKindDef>
 
 
-    <PawnKindDef ParentName="Theo_Khajiit_TribalSenche">
-        <defName>Theo_Senche_Tribal_Warrior</defName>
+    <PawnKindDef ParentName="ESCP_Khajiit_TribalSenche">
+        <defName>ESCP_Senche_Tribal_Warrior</defName>
         <label>Senche warrior</label>
         <combatPower>100</combatPower>
         <itemQuality>Poor</itemQuality>

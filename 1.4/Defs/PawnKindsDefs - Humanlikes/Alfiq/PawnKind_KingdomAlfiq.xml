@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-    <PawnKindDef Name="Theo_Khajiit_KingdomAlfiq" ParentName="Theo_Khajiit_KingdomBase" Abstract="true">
-        <race Inherit="false">Theo_AlfiqRace</race>
+    <PawnKindDef Name="ESCP_Khajiit_KingdomAlfiq" ParentName="ESCP_Khajiit_KingdomBase" Abstract="true">
+        <race Inherit="false">ESCP_AlfiqRace</race>
         <weaponMoney>0~0</weaponMoney>
         <combatPower>20</combatPower>
         <weaponTags Inherit="false">
@@ -11,8 +11,8 @@
         <initialResistanceRange>25~35</initialResistanceRange>
     </PawnKindDef>
 
-    <PawnKindDef ParentName="Theo_Khajiit_KingdomAlfiq">
-        <defName>Theo_Alfiq_Kingdom_Penitent</defName>
+    <PawnKindDef ParentName="ESCP_Khajiit_KingdomAlfiq">
+        <defName>ESCP_Alfiq_Kingdom_Penitent</defName>
         <label>Alfiq penitent</label>
         <invNutrition>0</invNutrition>
         <itemQuality>Poor</itemQuality>
@@ -20,8 +20,8 @@
         <apparelMoney>50~100</apparelMoney> 
     </PawnKindDef>
 
-    <PawnKindDef ParentName="Theo_Khajiit_KingdomAlfiq">
-        <defName>Theo_Alfiq_Kingdom_Trader</defName>
+    <PawnKindDef ParentName="ESCP_Khajiit_KingdomAlfiq">
+        <defName>ESCP_Alfiq_Kingdom_Trader</defName>
         <label>trader</label>
         <trader>true</trader>
         <apparelRequired Inherit="False">
@@ -30,13 +30,13 @@
         <backstoryFiltersOverride Inherit="False">
             <li>
                 <categoriesChildhood>
-                    <li>Theo_CityKhajiitBackstory_Childhood</li>
+                    <li>ESCP_CityKhajiitBackstory_Childhood</li>
                 </categoriesChildhood>
                 <categoriesAdulthood>
-                    <li>Theo_TraderBackstory</li>
+                    <li>ESCP_TraderBackstory</li>
                 </categoriesAdulthood>
                 <excludeChildhood>
-                    <li>Theo_Addict_Exclusion</li>
+                    <li>ESCP_Addict_Exclusion</li>
                 </excludeChildhood>
                 <excludeAdulthood>
                     <li>ESCP_KhajiitBackstory_Exclusion</li>

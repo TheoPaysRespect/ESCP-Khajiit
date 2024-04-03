@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<ScenarioDef>
-		<defName>Theo_BandaariScenario</defName>
+		<defName>ESCP_BandaariScenario</defName>
 		<label>Bandaari Pedlars</label>
 		<description>Nirni's bounty is vast, and so are your people's pockets. You travel around the world, selling what you reap from whoever you come across.\n\nThis scenario is intended for a nomadic playthough.</description>
 		<scenario>
@@ -9,7 +9,7 @@
 			<!--description-->
 			<playerFaction>
 				<def>PlayerFaction</def>
-				<factionDef>Theo_KhajiitPlayerFaction_Bandaari</factionDef>
+				<factionDef>ESCP_KhajiitPlayerFaction_Bandaari</factionDef>
 			</playerFaction>
 			<parts>
 				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">

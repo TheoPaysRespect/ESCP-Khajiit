@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<FactionDef ParentName="ESCP_NonPlayerFactionBase_Tribal" Name="Theo_KhajiitNonPlayerFaction_Base" Abstract="True">
+	<FactionDef ParentName="ESCP_NonPlayerFactionBase_Tribal" Name="ESCP_KhajiitNonPlayerFaction_Base" Abstract="True">
 		<modExtensions>
 			<li Class="ESCP_RaceTools.SettlementPreference">
 				<chance>1.0</chance>
@@ -20,13 +20,13 @@
 			</li>
 			<li Class="ESCP_RaceTools.FactionProperties">
 				<factionTags>
-					<li>Theo_KhajiitFaction</li>
-					<li>Theo_KhajiitFactionNonPlayer</li>
+					<li>ESCP_KhajiitFaction</li>
+					<li>ESCP_KhajiitFactionNonPlayer</li>
 				</factionTags>
 			</li>
 		</modExtensions>
-		<factionNameMaker>Theo_Khajiit_NamerFaction</factionNameMaker>
-		<settlementNameMaker>Theo_Khajiit_NamerSettlement</settlementNameMaker>
+		<factionNameMaker>ESCP_Khajiit_NamerFaction</factionNameMaker>
+		<settlementNameMaker>ESCP_Khajiit_NamerSettlement</settlementNameMaker>
 		<caravanTraderKinds Inherit="False">			<!--disables
 			slaver trader specifically-->
 			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.MedievalModule">
@@ -40,18 +40,18 @@
 				VFEM_Caravan_Medieval_Weaponsmith</li>
 		</caravanTraderKinds>
 		<allowedCultures>
-			<li>Theo_KhajiitCulture</li>
+			<li>ESCP_KhajiitCulture</li>
 		</allowedCultures>
 		<structureMemeWeights>
 			<ESCP_Structure_OriginDivinesEight MayRequire="Ludeon.RimWorld.Ideology">8</ESCP_Structure_OriginDivinesEight>
-			<Theo_Structure_Sky_Spirits MayRequire="Ludeon.RimWorld.Ideology">10</Theo_Structure_Sky_Spirits>
-			<Theo_Structure_Worldly_Spirits MayRequire="Ludeon.RimWorld.Ideology">6</Theo_Structure_Worldly_Spirits>
-			<Theo_Structure_Wandering_Spirits MayRequire="Ludeon.RimWorld.Ideology">9</Theo_Structure_Wandering_Spirits>
-			<!--<Theo_Structure_Dark_Spirits MayRequire="Ludeon.RimWorld.Ideology">1</Theo_Structure_Dark_Spirits>-->			<!--this
+			<ESCP_Structure_Sky_Spirits MayRequire="Ludeon.RimWorld.Ideology">10</ESCP_Structure_Sky_Spirits>
+			<ESCP_Structure_Worldly_Spirits MayRequire="Ludeon.RimWorld.Ideology">6</ESCP_Structure_Worldly_Spirits>
+			<ESCP_Structure_Wandering_Spirits MayRequire="Ludeon.RimWorld.Ideology">9</ESCP_Structure_Wandering_Spirits>
+			<!--<ESCP_Structure_Dark_Spirits MayRequire="Ludeon.RimWorld.Ideology">1</ESCP_Structure_Dark_Spirits>-->			<!--this
 			is for dro-m'athra-->
-			<Theo_Structure_Adverserial_Spirits MayRequire="Ludeon.RimWorld.Ideology">4</Theo_Structure_Adverserial_Spirits>
+			<ESCP_Structure_Adverserial_Spirits MayRequire="Ludeon.RimWorld.Ideology">4</ESCP_Structure_Adverserial_Spirits>
 		</structureMemeWeights>
-		<raidLootMaker>Theo_Khajiit_LootMaker</raidLootMaker>
+		<raidLootMaker>ESCP_Khajiit_LootMaker</raidLootMaker>
 		<disallowedPrecepts>
 			<li MayRequire="vanillaexpanded.vmemese">VME_MeatEating_Abhorrent_Strict</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">MeatEating_Abhorrent</li>
@@ -61,12 +61,12 @@
 			<li MayRequire="Ludeon.RimWorld.Ideology">ESCP_BeastfolkLeather_Disapproved</li>
 		</disallowedPrecepts>
 	</FactionDef>
-	<FactionDef ParentName="Theo_KhajiitNonPlayerFaction_Base">
-		<defName>Theo_KhajiitNonPlayerFaction_Kingdom</defName>
+	<FactionDef ParentName="ESCP_KhajiitNonPlayerFaction_Base">
+		<defName>ESCP_KhajiitNonPlayerFaction_Kingdom</defName>
 		<label>Khajiit kingdom</label>
 		<leaderTitle>Clan Father</leaderTitle>
 		<leaderTitleFemale>Clan Mother</leaderTitleFemale>
-		<factionIconPath>World/WorldObjects/Theo_Khajiit_Kingdom</factionIconPath>
+		<factionIconPath>World/WorldObjects/ESCP_Khajiit_Kingdom</factionIconPath>
 		<description>The Khajiit kingdom is based on the cooperation of 16 tribes who banded together to survive the tides of time. Their settlements can be found anywhere from scorching deserts to lush rainforests. Venerating the moons, their shape is dependent on the phase, but some forms rarely leave the borders of their land. \n\nOften enslaved by the dunmer, Khajiit are often seen as lesser than the other races, taking insult when they are compared to the common cat. Contrary to their shared background, they dislike argonians.</description>
 		<colorSpectrum>
 			<li>(0.92, 0.92, 0.49)</li>
@@ -97,121 +97,121 @@
 				<kindDef>Combat</kindDef>
 				<commonality>100</commonality>
 				<options>
-					<Theo_Khajiit_Kingdom_Penitent>3</Theo_Khajiit_Kingdom_Penitent>
-					<Theo_Ohmes_Kingdom_Penitent>1</Theo_Ohmes_Kingdom_Penitent>
-					<Theo_OhmesRaht_Kingdom_Penitent>1</Theo_OhmesRaht_Kingdom_Penitent>
+					<ESCP_Khajiit_Kingdom_Penitent>3</ESCP_Khajiit_Kingdom_Penitent>
+					<ESCP_Ohmes_Kingdom_Penitent>1</ESCP_Ohmes_Kingdom_Penitent>
+					<ESCP_OhmesRaht_Kingdom_Penitent>1</ESCP_OhmesRaht_Kingdom_Penitent>
 
-					<Theo_Khajiit_Kingdom_Warrior>3</Theo_Khajiit_Kingdom_Warrior>
-					<Theo_Ohmes_Kingdom_Warrior>1</Theo_Ohmes_Kingdom_Warrior>
-					<Theo_OhmesRaht_Kingdom_Warrior>1</Theo_OhmesRaht_Kingdom_Warrior>
-					<Theo_Senche_Kingdom_Warrior>2</Theo_Senche_Kingdom_Warrior>
+					<ESCP_Khajiit_Kingdom_Warrior>3</ESCP_Khajiit_Kingdom_Warrior>
+					<ESCP_Ohmes_Kingdom_Warrior>1</ESCP_Ohmes_Kingdom_Warrior>
+					<ESCP_OhmesRaht_Kingdom_Warrior>1</ESCP_OhmesRaht_Kingdom_Warrior>
+					<ESCP_Senche_Kingdom_Warrior>2</ESCP_Senche_Kingdom_Warrior>
 
-					<Theo_Khajiit_Kingdom_Archer>6</Theo_Khajiit_Kingdom_Archer>
-					<Theo_Ohmes_Kingdom_Archer>2</Theo_Ohmes_Kingdom_Archer>
-					<Theo_OhmesRaht_Kingdom_Archer>2</Theo_OhmesRaht_Kingdom_Archer>
+					<ESCP_Khajiit_Kingdom_Archer>6</ESCP_Khajiit_Kingdom_Archer>
+					<ESCP_Ohmes_Kingdom_Archer>2</ESCP_Ohmes_Kingdom_Archer>
+					<ESCP_OhmesRaht_Kingdom_Archer>2</ESCP_OhmesRaht_Kingdom_Archer>
 
-					<Theo_Khajiit_Kingdom_Hunter>10</Theo_Khajiit_Kingdom_Hunter>
-					<Theo_Khajiit_Kingdom_CatMaster>5</Theo_Khajiit_Kingdom_CatMaster>
-					<Theo_Khajiit_Kingdom_HeavyArcher>10</Theo_Khajiit_Kingdom_HeavyArcher>
-					<Theo_Khajiit_Kingdom_Berserker>5</Theo_Khajiit_Kingdom_Berserker>
+					<ESCP_Khajiit_Kingdom_Hunter>10</ESCP_Khajiit_Kingdom_Hunter>
+					<ESCP_Khajiit_Kingdom_CatMaster>5</ESCP_Khajiit_Kingdom_CatMaster>
+					<ESCP_Khajiit_Kingdom_HeavyArcher>10</ESCP_Khajiit_Kingdom_HeavyArcher>
+					<ESCP_Khajiit_Kingdom_Berserker>5</ESCP_Khajiit_Kingdom_Berserker>
 
-					<Theo_Khajiit_Kingdom_ChiefRanged>3</Theo_Khajiit_Kingdom_ChiefRanged>
-					<Theo_Khajiit_Kingdom_ChiefMelee>1.5</Theo_Khajiit_Kingdom_ChiefMelee>
-					<Theo_Khajiit_Kingdom_ChiefBeastMaster>1.5</Theo_Khajiit_Kingdom_ChiefBeastMaster>
+					<ESCP_Khajiit_Kingdom_ChiefRanged>3</ESCP_Khajiit_Kingdom_ChiefRanged>
+					<ESCP_Khajiit_Kingdom_ChiefMelee>1.5</ESCP_Khajiit_Kingdom_ChiefMelee>
+					<ESCP_Khajiit_Kingdom_ChiefBeastMaster>1.5</ESCP_Khajiit_Kingdom_ChiefBeastMaster>
 				</options>
 			</li>
 			<li>
 				<kindDef>Combat</kindDef>
 				<commonality>30</commonality>
 				<options>
-					<Theo_Khajiit_Kingdom_Penitent>6</Theo_Khajiit_Kingdom_Penitent>
-					<Theo_Ohmes_Kingdom_Penitent>2</Theo_Ohmes_Kingdom_Penitent>
-					<Theo_OhmesRaht_Kingdom_Penitent>2</Theo_OhmesRaht_Kingdom_Penitent>
+					<ESCP_Khajiit_Kingdom_Penitent>6</ESCP_Khajiit_Kingdom_Penitent>
+					<ESCP_Ohmes_Kingdom_Penitent>2</ESCP_Ohmes_Kingdom_Penitent>
+					<ESCP_OhmesRaht_Kingdom_Penitent>2</ESCP_OhmesRaht_Kingdom_Penitent>
 
-					<Theo_Khajiit_Kingdom_Warrior>8</Theo_Khajiit_Kingdom_Warrior>
-					<Theo_Ohmes_Kingdom_Warrior>2</Theo_Ohmes_Kingdom_Warrior>
-					<Theo_OhmesRaht_Kingdom_Warrior>2</Theo_OhmesRaht_Kingdom_Warrior>
-					<Theo_Senche_Kingdom_Warrior>2</Theo_Senche_Kingdom_Warrior>
+					<ESCP_Khajiit_Kingdom_Warrior>8</ESCP_Khajiit_Kingdom_Warrior>
+					<ESCP_Ohmes_Kingdom_Warrior>2</ESCP_Ohmes_Kingdom_Warrior>
+					<ESCP_OhmesRaht_Kingdom_Warrior>2</ESCP_OhmesRaht_Kingdom_Warrior>
+					<ESCP_Senche_Kingdom_Warrior>2</ESCP_Senche_Kingdom_Warrior>
 
-					<Theo_Khajiit_Kingdom_Berserker>10</Theo_Khajiit_Kingdom_Berserker>
-					<Theo_Khajiit_Kingdom_ChiefMelee>5</Theo_Khajiit_Kingdom_ChiefMelee>
+					<ESCP_Khajiit_Kingdom_Berserker>10</ESCP_Khajiit_Kingdom_Berserker>
+					<ESCP_Khajiit_Kingdom_ChiefMelee>5</ESCP_Khajiit_Kingdom_ChiefMelee>
 				</options>
 			</li>
 			<li>
 				<kindDef>Combat</kindDef>
 				<commonality>5</commonality>
 				<options>
-					<Theo_Khajiit_Kingdom_Breacher>3</Theo_Khajiit_Kingdom_Breacher>
-					<Theo_Ohmes_Kingdom_Breacher>1</Theo_Ohmes_Kingdom_Breacher>
-					<Theo_OhmesRaht_Kingdom_Breacher>1</Theo_OhmesRaht_Kingdom_Breacher>
+					<ESCP_Khajiit_Kingdom_Breacher>3</ESCP_Khajiit_Kingdom_Breacher>
+					<ESCP_Ohmes_Kingdom_Breacher>1</ESCP_Ohmes_Kingdom_Breacher>
+					<ESCP_OhmesRaht_Kingdom_Breacher>1</ESCP_OhmesRaht_Kingdom_Breacher>
 
-					<Theo_Khajiit_Kingdom_Penitent>3</Theo_Khajiit_Kingdom_Penitent>
-					<Theo_Ohmes_Kingdom_Penitent>1</Theo_Ohmes_Kingdom_Penitent>
-					<Theo_OhmesRaht_Kingdom_Penitent>1</Theo_OhmesRaht_Kingdom_Penitent>
+					<ESCP_Khajiit_Kingdom_Penitent>3</ESCP_Khajiit_Kingdom_Penitent>
+					<ESCP_Ohmes_Kingdom_Penitent>1</ESCP_Ohmes_Kingdom_Penitent>
+					<ESCP_OhmesRaht_Kingdom_Penitent>1</ESCP_OhmesRaht_Kingdom_Penitent>
 
-					<Theo_Khajiit_Kingdom_Warrior>3</Theo_Khajiit_Kingdom_Warrior>
-					<Theo_Ohmes_Kingdom_Warrior>1</Theo_Ohmes_Kingdom_Warrior>
-					<Theo_OhmesRaht_Kingdom_Warrior>1</Theo_OhmesRaht_Kingdom_Warrior>
-					<Theo_Senche_Kingdom_Warrior>2</Theo_Senche_Kingdom_Warrior>
+					<ESCP_Khajiit_Kingdom_Warrior>3</ESCP_Khajiit_Kingdom_Warrior>
+					<ESCP_Ohmes_Kingdom_Warrior>1</ESCP_Ohmes_Kingdom_Warrior>
+					<ESCP_OhmesRaht_Kingdom_Warrior>1</ESCP_OhmesRaht_Kingdom_Warrior>
+					<ESCP_Senche_Kingdom_Warrior>2</ESCP_Senche_Kingdom_Warrior>
 
-					<Theo_Khajiit_Kingdom_Archer>6</Theo_Khajiit_Kingdom_Archer>
-					<Theo_Ohmes_Kingdom_Archer>2</Theo_Ohmes_Kingdom_Archer>
-					<Theo_OhmesRaht_Kingdom_Archer>2</Theo_OhmesRaht_Kingdom_Archer>
+					<ESCP_Khajiit_Kingdom_Archer>6</ESCP_Khajiit_Kingdom_Archer>
+					<ESCP_Ohmes_Kingdom_Archer>2</ESCP_Ohmes_Kingdom_Archer>
+					<ESCP_OhmesRaht_Kingdom_Archer>2</ESCP_OhmesRaht_Kingdom_Archer>
 
-					<Theo_Khajiit_Kingdom_Hunter>10</Theo_Khajiit_Kingdom_Hunter>
-					<Theo_Khajiit_Kingdom_CatMaster>5</Theo_Khajiit_Kingdom_CatMaster>
-					<Theo_Khajiit_Kingdom_HeavyArcher>10</Theo_Khajiit_Kingdom_HeavyArcher>
-					<Theo_Khajiit_Kingdom_Berserker>5</Theo_Khajiit_Kingdom_Berserker>
+					<ESCP_Khajiit_Kingdom_Hunter>10</ESCP_Khajiit_Kingdom_Hunter>
+					<ESCP_Khajiit_Kingdom_CatMaster>5</ESCP_Khajiit_Kingdom_CatMaster>
+					<ESCP_Khajiit_Kingdom_HeavyArcher>10</ESCP_Khajiit_Kingdom_HeavyArcher>
+					<ESCP_Khajiit_Kingdom_Berserker>5</ESCP_Khajiit_Kingdom_Berserker>
 
-					<Theo_Khajiit_Kingdom_ChiefRanged>3</Theo_Khajiit_Kingdom_ChiefRanged>
-					<Theo_Khajiit_Kingdom_ChiefMelee>1.5</Theo_Khajiit_Kingdom_ChiefMelee>
-					<Theo_Khajiit_Kingdom_ChiefBeastMaster>1.5</Theo_Khajiit_Kingdom_ChiefBeastMaster>
+					<ESCP_Khajiit_Kingdom_ChiefRanged>3</ESCP_Khajiit_Kingdom_ChiefRanged>
+					<ESCP_Khajiit_Kingdom_ChiefMelee>1.5</ESCP_Khajiit_Kingdom_ChiefMelee>
+					<ESCP_Khajiit_Kingdom_ChiefBeastMaster>1.5</ESCP_Khajiit_Kingdom_ChiefBeastMaster>
 				</options>
 			</li>
 			<li>
 				<kindDef>Combat</kindDef>
 				<commonality>30</commonality>
 				<options>
-					<Theo_Khajiit_Kingdom_Archer>6</Theo_Khajiit_Kingdom_Archer>
-					<Theo_Ohmes_Kingdom_Archer>2</Theo_Ohmes_Kingdom_Archer>
-					<Theo_OhmesRaht_Kingdom_Archer>2</Theo_OhmesRaht_Kingdom_Archer>
+					<ESCP_Khajiit_Kingdom_Archer>6</ESCP_Khajiit_Kingdom_Archer>
+					<ESCP_Ohmes_Kingdom_Archer>2</ESCP_Ohmes_Kingdom_Archer>
+					<ESCP_OhmesRaht_Kingdom_Archer>2</ESCP_OhmesRaht_Kingdom_Archer>
 
-					<Theo_Khajiit_Kingdom_Hunter>10</Theo_Khajiit_Kingdom_Hunter>
-					<Theo_Khajiit_Kingdom_CatMaster>5</Theo_Khajiit_Kingdom_CatMaster>
-					<Theo_Senche_Kingdom_Warrior>2</Theo_Senche_Kingdom_Warrior>
-					<Theo_Khajiit_Kingdom_HeavyArcher>10</Theo_Khajiit_Kingdom_HeavyArcher>
+					<ESCP_Khajiit_Kingdom_Hunter>10</ESCP_Khajiit_Kingdom_Hunter>
+					<ESCP_Khajiit_Kingdom_CatMaster>5</ESCP_Khajiit_Kingdom_CatMaster>
+					<ESCP_Senche_Kingdom_Warrior>2</ESCP_Senche_Kingdom_Warrior>
+					<ESCP_Khajiit_Kingdom_HeavyArcher>10</ESCP_Khajiit_Kingdom_HeavyArcher>
 
-					<Theo_Khajiit_Kingdom_ChiefRanged>5</Theo_Khajiit_Kingdom_ChiefRanged>
-					<Theo_Khajiit_Kingdom_ChiefBeastMaster>1.5</Theo_Khajiit_Kingdom_ChiefBeastMaster>
+					<ESCP_Khajiit_Kingdom_ChiefRanged>5</ESCP_Khajiit_Kingdom_ChiefRanged>
+					<ESCP_Khajiit_Kingdom_ChiefBeastMaster>1.5</ESCP_Khajiit_Kingdom_ChiefBeastMaster>
 				</options>
 			</li>
 			<li>
 				<kindDef>Peaceful</kindDef>
 				<options>
-					<Theo_Alfiq_Kingdom_Penitent>1</Theo_Alfiq_Kingdom_Penitent>
+					<ESCP_Alfiq_Kingdom_Penitent>1</ESCP_Alfiq_Kingdom_Penitent>
 
-					<Theo_Khajiit_Kingdom_Warrior>12</Theo_Khajiit_Kingdom_Warrior>
-					<Theo_Ohmes_Kingdom_Warrior>4</Theo_Ohmes_Kingdom_Warrior>
-					<Theo_OhmesRaht_Kingdom_Warrior>4</Theo_OhmesRaht_Kingdom_Warrior>
-					<Theo_Senche_Kingdom_Warrior>2</Theo_Senche_Kingdom_Warrior>
+					<ESCP_Khajiit_Kingdom_Warrior>12</ESCP_Khajiit_Kingdom_Warrior>
+					<ESCP_Ohmes_Kingdom_Warrior>4</ESCP_Ohmes_Kingdom_Warrior>
+					<ESCP_OhmesRaht_Kingdom_Warrior>4</ESCP_OhmesRaht_Kingdom_Warrior>
+					<ESCP_Senche_Kingdom_Warrior>2</ESCP_Senche_Kingdom_Warrior>
 
-					<Theo_Khajiit_Kingdom_Archer>6</Theo_Khajiit_Kingdom_Archer>
-					<Theo_Ohmes_Kingdom_Archer>2</Theo_Ohmes_Kingdom_Archer>
-					<Theo_OhmesRaht_Kingdom_Archer>2</Theo_OhmesRaht_Kingdom_Archer>
+					<ESCP_Khajiit_Kingdom_Archer>6</ESCP_Khajiit_Kingdom_Archer>
+					<ESCP_Ohmes_Kingdom_Archer>2</ESCP_Ohmes_Kingdom_Archer>
+					<ESCP_OhmesRaht_Kingdom_Archer>2</ESCP_OhmesRaht_Kingdom_Archer>
 
-					<Theo_Khajiit_Kingdom_Hunter>10</Theo_Khajiit_Kingdom_Hunter>
-					<Theo_Khajiit_Kingdom_HeavyArcher>10</Theo_Khajiit_Kingdom_HeavyArcher>
-					<Theo_Khajiit_Kingdom_Berserker>5</Theo_Khajiit_Kingdom_Berserker>
+					<ESCP_Khajiit_Kingdom_Hunter>10</ESCP_Khajiit_Kingdom_Hunter>
+					<ESCP_Khajiit_Kingdom_HeavyArcher>10</ESCP_Khajiit_Kingdom_HeavyArcher>
+					<ESCP_Khajiit_Kingdom_Berserker>5</ESCP_Khajiit_Kingdom_Berserker>
 
-					<Theo_Khajiit_Kingdom_ChiefRanged>3</Theo_Khajiit_Kingdom_ChiefRanged>
-					<Theo_Khajiit_Kingdom_ChiefMelee>1.5</Theo_Khajiit_Kingdom_ChiefMelee>
+					<ESCP_Khajiit_Kingdom_ChiefRanged>3</ESCP_Khajiit_Kingdom_ChiefRanged>
+					<ESCP_Khajiit_Kingdom_ChiefMelee>1.5</ESCP_Khajiit_Kingdom_ChiefMelee>
 				</options>
 			</li>
 			<li>
 				<kindDef>Trader</kindDef>
 				<traders>
-					<Theo_Khajiit_Kingdom_Trader>2</Theo_Khajiit_Kingdom_Trader>
-					<Theo_Alfiq_Kingdom_Trader>1</Theo_Alfiq_Kingdom_Trader>
+					<ESCP_Khajiit_Kingdom_Trader>2</ESCP_Khajiit_Kingdom_Trader>
+					<ESCP_Alfiq_Kingdom_Trader>1</ESCP_Alfiq_Kingdom_Trader>
 				</traders>
 				<carriers>
 					<!--edit
@@ -222,95 +222,95 @@
 					<Elephant>2</Elephant>
 				</carriers>
 				<guards>
-					<Theo_Alfiq_Kingdom_Penitent>1</Theo_Alfiq_Kingdom_Penitent>
+					<ESCP_Alfiq_Kingdom_Penitent>1</ESCP_Alfiq_Kingdom_Penitent>
 
-					<Theo_Khajiit_Kingdom_Warrior>5</Theo_Khajiit_Kingdom_Warrior>
-					<Theo_Ohmes_Kingdom_Warrior>1</Theo_Ohmes_Kingdom_Warrior>
-					<Theo_OhmesRaht_Kingdom_Warrior>1</Theo_OhmesRaht_Kingdom_Warrior>
-					<Theo_Senche_Kingdom_Warrior>2</Theo_Senche_Kingdom_Warrior>
+					<ESCP_Khajiit_Kingdom_Warrior>5</ESCP_Khajiit_Kingdom_Warrior>
+					<ESCP_Ohmes_Kingdom_Warrior>1</ESCP_Ohmes_Kingdom_Warrior>
+					<ESCP_OhmesRaht_Kingdom_Warrior>1</ESCP_OhmesRaht_Kingdom_Warrior>
+					<ESCP_Senche_Kingdom_Warrior>2</ESCP_Senche_Kingdom_Warrior>
 
-					<Theo_Khajiit_Kingdom_Archer>6</Theo_Khajiit_Kingdom_Archer>
-					<Theo_Ohmes_Kingdom_Archer>2</Theo_Ohmes_Kingdom_Archer>
-					<Theo_OhmesRaht_Kingdom_Archer>2</Theo_OhmesRaht_Kingdom_Archer>
+					<ESCP_Khajiit_Kingdom_Archer>6</ESCP_Khajiit_Kingdom_Archer>
+					<ESCP_Ohmes_Kingdom_Archer>2</ESCP_Ohmes_Kingdom_Archer>
+					<ESCP_OhmesRaht_Kingdom_Archer>2</ESCP_OhmesRaht_Kingdom_Archer>
 
-					<Theo_Khajiit_Kingdom_Hunter>10</Theo_Khajiit_Kingdom_Hunter>
-					<Theo_Khajiit_Kingdom_HeavyArcher>10</Theo_Khajiit_Kingdom_HeavyArcher>
-					<Theo_Khajiit_Kingdom_Berserker>7</Theo_Khajiit_Kingdom_Berserker>
+					<ESCP_Khajiit_Kingdom_Hunter>10</ESCP_Khajiit_Kingdom_Hunter>
+					<ESCP_Khajiit_Kingdom_HeavyArcher>10</ESCP_Khajiit_Kingdom_HeavyArcher>
+					<ESCP_Khajiit_Kingdom_Berserker>7</ESCP_Khajiit_Kingdom_Berserker>
 				</guards>
 			</li>
 			<li>
 				<kindDef>Settlement</kindDef>
 				<options>
-					<Theo_Alfiq_Kingdom_Penitent>1</Theo_Alfiq_Kingdom_Penitent>
+					<ESCP_Alfiq_Kingdom_Penitent>1</ESCP_Alfiq_Kingdom_Penitent>
 
-					<Theo_Khajiit_Kingdom_Warrior>5</Theo_Khajiit_Kingdom_Warrior>
-					<Theo_Ohmes_Kingdom_Warrior>1</Theo_Ohmes_Kingdom_Warrior>
-					<Theo_OhmesRaht_Kingdom_Warrior>1</Theo_OhmesRaht_Kingdom_Warrior>
-					<Theo_Senche_Kingdom_Warrior>2</Theo_Senche_Kingdom_Warrior>
+					<ESCP_Khajiit_Kingdom_Warrior>5</ESCP_Khajiit_Kingdom_Warrior>
+					<ESCP_Ohmes_Kingdom_Warrior>1</ESCP_Ohmes_Kingdom_Warrior>
+					<ESCP_OhmesRaht_Kingdom_Warrior>1</ESCP_OhmesRaht_Kingdom_Warrior>
+					<ESCP_Senche_Kingdom_Warrior>2</ESCP_Senche_Kingdom_Warrior>
 
-					<Theo_Khajiit_Kingdom_Archer>6</Theo_Khajiit_Kingdom_Archer>
-					<Theo_Ohmes_Kingdom_Archer>2</Theo_Ohmes_Kingdom_Archer>
-					<Theo_OhmesRaht_Kingdom_Archer>2</Theo_OhmesRaht_Kingdom_Archer>
+					<ESCP_Khajiit_Kingdom_Archer>6</ESCP_Khajiit_Kingdom_Archer>
+					<ESCP_Ohmes_Kingdom_Archer>2</ESCP_Ohmes_Kingdom_Archer>
+					<ESCP_OhmesRaht_Kingdom_Archer>2</ESCP_OhmesRaht_Kingdom_Archer>
 
-					<Theo_Khajiit_Kingdom_Hunter>10</Theo_Khajiit_Kingdom_Hunter>
-					<Theo_Khajiit_Kingdom_CatMaster>5</Theo_Khajiit_Kingdom_CatMaster>
-					<Theo_Khajiit_Kingdom_HeavyArcher>10</Theo_Khajiit_Kingdom_HeavyArcher>
+					<ESCP_Khajiit_Kingdom_Hunter>10</ESCP_Khajiit_Kingdom_Hunter>
+					<ESCP_Khajiit_Kingdom_CatMaster>5</ESCP_Khajiit_Kingdom_CatMaster>
+					<ESCP_Khajiit_Kingdom_HeavyArcher>10</ESCP_Khajiit_Kingdom_HeavyArcher>
 
-					<Theo_Khajiit_Kingdom_Berserker>7</Theo_Khajiit_Kingdom_Berserker>
+					<ESCP_Khajiit_Kingdom_Berserker>7</ESCP_Khajiit_Kingdom_Berserker>
 
-					<Theo_Khajiit_Kingdom_ChiefBeastMaster>10</Theo_Khajiit_Kingdom_ChiefBeastMaster>
+					<ESCP_Khajiit_Kingdom_ChiefBeastMaster>10</ESCP_Khajiit_Kingdom_ChiefBeastMaster>
 				</options>
 			</li>
 			<li>
 				<kindDef>Settlement_RangedOnly</kindDef>
 				<options>
-					<Theo_Alfiq_Kingdom_Penitent>1</Theo_Alfiq_Kingdom_Penitent>
+					<ESCP_Alfiq_Kingdom_Penitent>1</ESCP_Alfiq_Kingdom_Penitent>
 
-					<Theo_Khajiit_Kingdom_Archer>6</Theo_Khajiit_Kingdom_Archer>
-					<Theo_Ohmes_Kingdom_Archer>2</Theo_Ohmes_Kingdom_Archer>
-					<Theo_OhmesRaht_Kingdom_Archer>2</Theo_OhmesRaht_Kingdom_Archer>
+					<ESCP_Khajiit_Kingdom_Archer>6</ESCP_Khajiit_Kingdom_Archer>
+					<ESCP_Ohmes_Kingdom_Archer>2</ESCP_Ohmes_Kingdom_Archer>
+					<ESCP_OhmesRaht_Kingdom_Archer>2</ESCP_OhmesRaht_Kingdom_Archer>
 
-					<Theo_Khajiit_Kingdom_Hunter>10</Theo_Khajiit_Kingdom_Hunter>
-					<Theo_Khajiit_Kingdom_CatMaster>5</Theo_Khajiit_Kingdom_CatMaster>
-					<Theo_Senche_Kingdom_Warrior>2</Theo_Senche_Kingdom_Warrior>
-					<Theo_Khajiit_Kingdom_HeavyArcher>10</Theo_Khajiit_Kingdom_HeavyArcher>
+					<ESCP_Khajiit_Kingdom_Hunter>10</ESCP_Khajiit_Kingdom_Hunter>
+					<ESCP_Khajiit_Kingdom_CatMaster>5</ESCP_Khajiit_Kingdom_CatMaster>
+					<ESCP_Senche_Kingdom_Warrior>2</ESCP_Senche_Kingdom_Warrior>
+					<ESCP_Khajiit_Kingdom_HeavyArcher>10</ESCP_Khajiit_Kingdom_HeavyArcher>
 
-					<Theo_Khajiit_Kingdom_ChiefBeastMaster>10</Theo_Khajiit_Kingdom_ChiefBeastMaster>
+					<ESCP_Khajiit_Kingdom_ChiefBeastMaster>10</ESCP_Khajiit_Kingdom_ChiefBeastMaster>
 				</options>
 			</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">
 				<kindDef>Hunters</kindDef>
 				<commonality>1</commonality>
 				<options>
-					<Theo_Khajiit_Tribal_Hunter>1</Theo_Khajiit_Tribal_Hunter>
-					<Theo_Senche_Kingdom_Warrior>1</Theo_Senche_Kingdom_Warrior>
+					<ESCP_Khajiit_Tribal_Hunter>1</ESCP_Khajiit_Tribal_Hunter>
+					<ESCP_Senche_Kingdom_Warrior>1</ESCP_Senche_Kingdom_Warrior>
 				</options>
 			</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">
 				<kindDef>Loggers</kindDef>
 				<commonality>1</commonality>
 				<options>
-					<Theo_Khajiit_Tribal_Logger>1</Theo_Khajiit_Tribal_Logger>
+					<ESCP_Khajiit_Tribal_Logger>1</ESCP_Khajiit_Tribal_Logger>
 				</options>
 			</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">
 				<kindDef>Farmers</kindDef>
 				<commonality>1</commonality>
 				<options>
-					<Theo_Khajiit_Tribal_Farmer>1</Theo_Khajiit_Tribal_Farmer>
+					<ESCP_Khajiit_Tribal_Farmer>1</ESCP_Khajiit_Tribal_Farmer>
 				</options>
 			</li>
 		</pawnGroupMakers>
 	</FactionDef>
 
-	<FactionDef ParentName="Theo_KhajiitNonPlayerFaction_Base">
-		<defName>Theo_KhajiitNonPlayerFaction_Bandaari</defName>
+	<FactionDef ParentName="ESCP_KhajiitNonPlayerFaction_Base">
+		<defName>ESCP_KhajiitNonPlayerFaction_Bandaari</defName>
 		<pawnSingular>bandaari</pawnSingular>
 		<pawnsPlural>bandaari</pawnsPlural>
 		<label>Bandaari Pedlars</label>
 		<leaderTitle>Grand Trader</leaderTitle>
-		<factionNameMaker>Theo_Khajiit_NamerTraders</factionNameMaker>
-		<factionIconPath>World/WorldObjects/Theo_Khajiit_Bandaari</factionIconPath>
+		<factionNameMaker>ESCP_Khajiit_NamerTraders</factionNameMaker>
+		<factionIconPath>World/WorldObjects/ESCP_Khajiit_Bandaari</factionIconPath>
 		<description>The Bandaari Pedlars are a clan of nomads travelling the world. Believing everything is worth something, they frequently gather what other factions discard to sell at their next destination. \n\nLikewise, they believe that anything left behind for any reason is now rightfully theirs, leading to their reputation as thieves. When trading, they are known to do anything they can to sweeten the deal, for themselves that is.</description>
 		<displayInFactionSelection>false</displayInFactionSelection>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
@@ -337,73 +337,73 @@
 				<kindDef>Combat</kindDef>
 				<commonality>100</commonality>
 				<options>
-					<Theo_Khajiit_Kingdom_Penitent>5</Theo_Khajiit_Kingdom_Penitent>
-					<Theo_Khajiit_Kingdom_Warrior>5</Theo_Khajiit_Kingdom_Warrior>
-					<Theo_Khajiit_Kingdom_Archer>10</Theo_Khajiit_Kingdom_Archer>
-					<Theo_Khajiit_Kingdom_Hunter>10</Theo_Khajiit_Kingdom_Hunter>
-					<Theo_Khajiit_Kingdom_CatMaster>5</Theo_Khajiit_Kingdom_CatMaster>
-					<Theo_Khajiit_Kingdom_HeavyArcher>10</Theo_Khajiit_Kingdom_HeavyArcher>
-					<Theo_Khajiit_Kingdom_Berserker>5</Theo_Khajiit_Kingdom_Berserker>
-					<Theo_Khajiit_Kingdom_ChiefRanged>3</Theo_Khajiit_Kingdom_ChiefRanged>
-					<Theo_Khajiit_Kingdom_ChiefMelee>1.5</Theo_Khajiit_Kingdom_ChiefMelee>
-					<Theo_Khajiit_Kingdom_ChiefBeastMaster>1.5</Theo_Khajiit_Kingdom_ChiefBeastMaster>
+					<ESCP_Khajiit_Kingdom_Penitent>5</ESCP_Khajiit_Kingdom_Penitent>
+					<ESCP_Khajiit_Kingdom_Warrior>5</ESCP_Khajiit_Kingdom_Warrior>
+					<ESCP_Khajiit_Kingdom_Archer>10</ESCP_Khajiit_Kingdom_Archer>
+					<ESCP_Khajiit_Kingdom_Hunter>10</ESCP_Khajiit_Kingdom_Hunter>
+					<ESCP_Khajiit_Kingdom_CatMaster>5</ESCP_Khajiit_Kingdom_CatMaster>
+					<ESCP_Khajiit_Kingdom_HeavyArcher>10</ESCP_Khajiit_Kingdom_HeavyArcher>
+					<ESCP_Khajiit_Kingdom_Berserker>5</ESCP_Khajiit_Kingdom_Berserker>
+					<ESCP_Khajiit_Kingdom_ChiefRanged>3</ESCP_Khajiit_Kingdom_ChiefRanged>
+					<ESCP_Khajiit_Kingdom_ChiefMelee>1.5</ESCP_Khajiit_Kingdom_ChiefMelee>
+					<ESCP_Khajiit_Kingdom_ChiefBeastMaster>1.5</ESCP_Khajiit_Kingdom_ChiefBeastMaster>
 				</options>
 			</li>
 			<li>
 				<kindDef>Combat</kindDef>
 				<commonality>30</commonality>
 				<options>
-					<Theo_Khajiit_Kingdom_Penitent>10</Theo_Khajiit_Kingdom_Penitent>
-					<Theo_Khajiit_Kingdom_Warrior>10</Theo_Khajiit_Kingdom_Warrior>
-					<Theo_Khajiit_Kingdom_Berserker>10</Theo_Khajiit_Kingdom_Berserker>
-					<Theo_Khajiit_Kingdom_ChiefMelee>5</Theo_Khajiit_Kingdom_ChiefMelee>
+					<ESCP_Khajiit_Kingdom_Penitent>10</ESCP_Khajiit_Kingdom_Penitent>
+					<ESCP_Khajiit_Kingdom_Warrior>10</ESCP_Khajiit_Kingdom_Warrior>
+					<ESCP_Khajiit_Kingdom_Berserker>10</ESCP_Khajiit_Kingdom_Berserker>
+					<ESCP_Khajiit_Kingdom_ChiefMelee>5</ESCP_Khajiit_Kingdom_ChiefMelee>
 				</options>
 			</li>
 			<li>
 				<kindDef>Combat</kindDef>
 				<commonality>5</commonality>
 				<options>
-					<Theo_Khajiit_Kingdom_Breacher>5</Theo_Khajiit_Kingdom_Breacher>
-					<Theo_Khajiit_Kingdom_Penitent>5</Theo_Khajiit_Kingdom_Penitent>
-					<Theo_Khajiit_Kingdom_Warrior>5</Theo_Khajiit_Kingdom_Warrior>
-					<Theo_Khajiit_Kingdom_Archer>10</Theo_Khajiit_Kingdom_Archer>
-					<Theo_Khajiit_Kingdom_Hunter>10</Theo_Khajiit_Kingdom_Hunter>
-					<Theo_Khajiit_Kingdom_CatMaster>5</Theo_Khajiit_Kingdom_CatMaster>
-					<Theo_Khajiit_Kingdom_HeavyArcher>10</Theo_Khajiit_Kingdom_HeavyArcher>
-					<Theo_Khajiit_Kingdom_Berserker>5</Theo_Khajiit_Kingdom_Berserker>
-					<Theo_Khajiit_Kingdom_ChiefRanged>3</Theo_Khajiit_Kingdom_ChiefRanged>
-					<Theo_Khajiit_Kingdom_ChiefMelee>1.5</Theo_Khajiit_Kingdom_ChiefMelee>
-					<Theo_Khajiit_Kingdom_ChiefBeastMaster>1.5</Theo_Khajiit_Kingdom_ChiefBeastMaster>
+					<ESCP_Khajiit_Kingdom_Breacher>5</ESCP_Khajiit_Kingdom_Breacher>
+					<ESCP_Khajiit_Kingdom_Penitent>5</ESCP_Khajiit_Kingdom_Penitent>
+					<ESCP_Khajiit_Kingdom_Warrior>5</ESCP_Khajiit_Kingdom_Warrior>
+					<ESCP_Khajiit_Kingdom_Archer>10</ESCP_Khajiit_Kingdom_Archer>
+					<ESCP_Khajiit_Kingdom_Hunter>10</ESCP_Khajiit_Kingdom_Hunter>
+					<ESCP_Khajiit_Kingdom_CatMaster>5</ESCP_Khajiit_Kingdom_CatMaster>
+					<ESCP_Khajiit_Kingdom_HeavyArcher>10</ESCP_Khajiit_Kingdom_HeavyArcher>
+					<ESCP_Khajiit_Kingdom_Berserker>5</ESCP_Khajiit_Kingdom_Berserker>
+					<ESCP_Khajiit_Kingdom_ChiefRanged>3</ESCP_Khajiit_Kingdom_ChiefRanged>
+					<ESCP_Khajiit_Kingdom_ChiefMelee>1.5</ESCP_Khajiit_Kingdom_ChiefMelee>
+					<ESCP_Khajiit_Kingdom_ChiefBeastMaster>1.5</ESCP_Khajiit_Kingdom_ChiefBeastMaster>
 				</options>
 			</li>
 			<li>
 				<kindDef>Combat</kindDef>
 				<commonality>30</commonality>
 				<options>
-					<Theo_Khajiit_Kingdom_Archer>10</Theo_Khajiit_Kingdom_Archer>
-					<Theo_Khajiit_Kingdom_Hunter>10</Theo_Khajiit_Kingdom_Hunter>
-					<Theo_Khajiit_Kingdom_CatMaster>5</Theo_Khajiit_Kingdom_CatMaster>
-					<Theo_Khajiit_Kingdom_HeavyArcher>10</Theo_Khajiit_Kingdom_HeavyArcher>
-					<Theo_Khajiit_Kingdom_ChiefRanged>5</Theo_Khajiit_Kingdom_ChiefRanged>
-					<Theo_Khajiit_Kingdom_ChiefBeastMaster>1.5</Theo_Khajiit_Kingdom_ChiefBeastMaster>
+					<ESCP_Khajiit_Kingdom_Archer>10</ESCP_Khajiit_Kingdom_Archer>
+					<ESCP_Khajiit_Kingdom_Hunter>10</ESCP_Khajiit_Kingdom_Hunter>
+					<ESCP_Khajiit_Kingdom_CatMaster>5</ESCP_Khajiit_Kingdom_CatMaster>
+					<ESCP_Khajiit_Kingdom_HeavyArcher>10</ESCP_Khajiit_Kingdom_HeavyArcher>
+					<ESCP_Khajiit_Kingdom_ChiefRanged>5</ESCP_Khajiit_Kingdom_ChiefRanged>
+					<ESCP_Khajiit_Kingdom_ChiefBeastMaster>1.5</ESCP_Khajiit_Kingdom_ChiefBeastMaster>
 				</options>
 			</li>
 			<li>
 				<kindDef>Peaceful</kindDef>
 				<options>
-					<Theo_Khajiit_Kingdom_Warrior>20</Theo_Khajiit_Kingdom_Warrior>
-					<Theo_Khajiit_Kingdom_Archer>10</Theo_Khajiit_Kingdom_Archer>
-					<Theo_Khajiit_Kingdom_Hunter>10</Theo_Khajiit_Kingdom_Hunter>
-					<Theo_Khajiit_Kingdom_HeavyArcher>10</Theo_Khajiit_Kingdom_HeavyArcher>
-					<Theo_Khajiit_Kingdom_Berserker>5</Theo_Khajiit_Kingdom_Berserker>
-					<Theo_Khajiit_Kingdom_ChiefRanged>3</Theo_Khajiit_Kingdom_ChiefRanged>
-					<Theo_Khajiit_Kingdom_ChiefMelee>1.5</Theo_Khajiit_Kingdom_ChiefMelee>
+					<ESCP_Khajiit_Kingdom_Warrior>20</ESCP_Khajiit_Kingdom_Warrior>
+					<ESCP_Khajiit_Kingdom_Archer>10</ESCP_Khajiit_Kingdom_Archer>
+					<ESCP_Khajiit_Kingdom_Hunter>10</ESCP_Khajiit_Kingdom_Hunter>
+					<ESCP_Khajiit_Kingdom_HeavyArcher>10</ESCP_Khajiit_Kingdom_HeavyArcher>
+					<ESCP_Khajiit_Kingdom_Berserker>5</ESCP_Khajiit_Kingdom_Berserker>
+					<ESCP_Khajiit_Kingdom_ChiefRanged>3</ESCP_Khajiit_Kingdom_ChiefRanged>
+					<ESCP_Khajiit_Kingdom_ChiefMelee>1.5</ESCP_Khajiit_Kingdom_ChiefMelee>
 				</options>
 			</li>
 			<li>
 				<kindDef>Trader</kindDef>
 				<traders>
-					<Theo_Khajiit_Kingdom_Trader>1</Theo_Khajiit_Kingdom_Trader>
+					<ESCP_Khajiit_Kingdom_Trader>1</ESCP_Khajiit_Kingdom_Trader>
 				</traders>
 				<carriers>
 					<!--edit
@@ -414,54 +414,54 @@
 					<Elephant>2</Elephant>
 				</carriers>
 				<guards>
-					<Theo_Khajiit_Kingdom_Warrior>7</Theo_Khajiit_Kingdom_Warrior>
-					<Theo_Khajiit_Kingdom_Archer>10</Theo_Khajiit_Kingdom_Archer>
-					<Theo_Khajiit_Kingdom_Hunter>10</Theo_Khajiit_Kingdom_Hunter>
-					<Theo_Khajiit_Kingdom_HeavyArcher>10</Theo_Khajiit_Kingdom_HeavyArcher>
-					<Theo_Khajiit_Kingdom_Berserker>7</Theo_Khajiit_Kingdom_Berserker>
+					<ESCP_Khajiit_Kingdom_Warrior>7</ESCP_Khajiit_Kingdom_Warrior>
+					<ESCP_Khajiit_Kingdom_Archer>10</ESCP_Khajiit_Kingdom_Archer>
+					<ESCP_Khajiit_Kingdom_Hunter>10</ESCP_Khajiit_Kingdom_Hunter>
+					<ESCP_Khajiit_Kingdom_HeavyArcher>10</ESCP_Khajiit_Kingdom_HeavyArcher>
+					<ESCP_Khajiit_Kingdom_Berserker>7</ESCP_Khajiit_Kingdom_Berserker>
 				</guards>
 			</li>
 			<li>
 				<kindDef>Settlement</kindDef>
 				<options>
-					<Theo_Khajiit_Kingdom_Warrior>7</Theo_Khajiit_Kingdom_Warrior>
-					<Theo_Khajiit_Kingdom_Archer>10</Theo_Khajiit_Kingdom_Archer>
-					<Theo_Khajiit_Kingdom_Hunter>10</Theo_Khajiit_Kingdom_Hunter>
-					<Theo_Khajiit_Kingdom_CatMaster>5</Theo_Khajiit_Kingdom_CatMaster>
-					<Theo_Khajiit_Kingdom_HeavyArcher>10</Theo_Khajiit_Kingdom_HeavyArcher>
-					<Theo_Khajiit_Kingdom_Berserker>7</Theo_Khajiit_Kingdom_Berserker>
-					<Theo_Khajiit_Kingdom_ChiefBeastMaster>10</Theo_Khajiit_Kingdom_ChiefBeastMaster>
+					<ESCP_Khajiit_Kingdom_Warrior>7</ESCP_Khajiit_Kingdom_Warrior>
+					<ESCP_Khajiit_Kingdom_Archer>10</ESCP_Khajiit_Kingdom_Archer>
+					<ESCP_Khajiit_Kingdom_Hunter>10</ESCP_Khajiit_Kingdom_Hunter>
+					<ESCP_Khajiit_Kingdom_CatMaster>5</ESCP_Khajiit_Kingdom_CatMaster>
+					<ESCP_Khajiit_Kingdom_HeavyArcher>10</ESCP_Khajiit_Kingdom_HeavyArcher>
+					<ESCP_Khajiit_Kingdom_Berserker>7</ESCP_Khajiit_Kingdom_Berserker>
+					<ESCP_Khajiit_Kingdom_ChiefBeastMaster>10</ESCP_Khajiit_Kingdom_ChiefBeastMaster>
 				</options>
 			</li>
 			<li>
 				<kindDef>Settlement_RangedOnly</kindDef>
 				<options>
-					<Theo_Khajiit_Kingdom_Archer>10</Theo_Khajiit_Kingdom_Archer>
-					<Theo_Khajiit_Kingdom_Hunter>10</Theo_Khajiit_Kingdom_Hunter>
-					<Theo_Khajiit_Kingdom_CatMaster>5</Theo_Khajiit_Kingdom_CatMaster>
-					<Theo_Khajiit_Kingdom_HeavyArcher>10</Theo_Khajiit_Kingdom_HeavyArcher>
-					<Theo_Khajiit_Kingdom_ChiefBeastMaster>10</Theo_Khajiit_Kingdom_ChiefBeastMaster>
+					<ESCP_Khajiit_Kingdom_Archer>10</ESCP_Khajiit_Kingdom_Archer>
+					<ESCP_Khajiit_Kingdom_Hunter>10</ESCP_Khajiit_Kingdom_Hunter>
+					<ESCP_Khajiit_Kingdom_CatMaster>5</ESCP_Khajiit_Kingdom_CatMaster>
+					<ESCP_Khajiit_Kingdom_HeavyArcher>10</ESCP_Khajiit_Kingdom_HeavyArcher>
+					<ESCP_Khajiit_Kingdom_ChiefBeastMaster>10</ESCP_Khajiit_Kingdom_ChiefBeastMaster>
 				</options>
 			</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">
 				<kindDef>Hunters</kindDef>
 				<commonality>1</commonality>
 				<options>
-					<Theo_Khajiit_Tribal_Hunter>1</Theo_Khajiit_Tribal_Hunter>
+					<ESCP_Khajiit_Tribal_Hunter>1</ESCP_Khajiit_Tribal_Hunter>
 				</options>
 			</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">
 				<kindDef>Loggers</kindDef>
 				<commonality>1</commonality>
 				<options>
-					<Theo_Khajiit_Tribal_Logger>1</Theo_Khajiit_Tribal_Logger>
+					<ESCP_Khajiit_Tribal_Logger>1</ESCP_Khajiit_Tribal_Logger>
 				</options>
 			</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">
 				<kindDef>Farmers</kindDef>
 				<commonality>1</commonality>
 				<options>
-					<Theo_Khajiit_Tribal_Farmer>1</Theo_Khajiit_Tribal_Farmer>
+					<ESCP_Khajiit_Tribal_Farmer>1</ESCP_Khajiit_Tribal_Farmer>
 				</options>
 			</li>
 		</pawnGroupMakers>
@@ -482,13 +482,13 @@
 		<configurationListOrderPriority>30</configurationListOrderPriority>
 	</FactionDef>
 
-	<FactionDef ParentName="Theo_KhajiitNonPlayerFaction_Base">
-		<defName>Theo_KhajiitNonPlayerFaction_Tribal</defName>
+	<FactionDef ParentName="ESCP_KhajiitNonPlayerFaction_Base">
+		<defName>ESCP_KhajiitNonPlayerFaction_Tribal</defName>
 		<label>Rough Khajiit Tribe</label>
 		<leaderTitle>Clan Father</leaderTitle>
 		<leaderTitleFemale>Clan Mother</leaderTitleFemale>
-		<factionNameMaker>Theo_Khajiit_NamerTribe</factionNameMaker>
-		<factionIconPath>World/WorldObjects/Theo_Khajiit_Tribe</factionIconPath>
+		<factionNameMaker>ESCP_Khajiit_NamerTribe</factionNameMaker>
+		<factionIconPath>World/WorldObjects/ESCP_Khajiit_Tribe</factionIconPath>
 		<description>Unlike its more civilised counterpart, this tribe of Khajiit never decided to join society, opting for a tight enclave amongst their own. \n\nThey are often hostile to outsiders who dare to encroach on their territories, but may be temporarily pacified by the dedicated.</description>
 		<colorSpectrum>
 			<li>(0.45, 0.69, 0.43)</li>
@@ -498,11 +498,6 @@
 			<li>(0.45, 0.79, 0.43)</li>
 			<!--fill-->
 		</colorSpectrum>
-		<modExtensions>
-			<li Class="VFECore.FactionDefExtension">
-				<neverConnectToRoads>true</neverConnectToRoads>
-			</li>
-		</modExtensions>
 		<disallowedMemes>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Guilty</li>
@@ -520,121 +515,121 @@
 				<kindDef>Combat</kindDef>
 				<commonality>100</commonality>
 				<options>
-					<Theo_Khajiit_Tribal_Penitent>3</Theo_Khajiit_Tribal_Penitent>
-					<Theo_Ohmes_Tribal_Penitent>1</Theo_Ohmes_Tribal_Penitent>
-					<Theo_OhmesRaht_Tribal_Penitent>1</Theo_OhmesRaht_Tribal_Penitent>
+					<ESCP_Khajiit_Tribal_Penitent>3</ESCP_Khajiit_Tribal_Penitent>
+					<ESCP_Ohmes_Tribal_Penitent>1</ESCP_Ohmes_Tribal_Penitent>
+					<ESCP_OhmesRaht_Tribal_Penitent>1</ESCP_OhmesRaht_Tribal_Penitent>
 
-					<Theo_Khajiit_Tribal_Warrior>3</Theo_Khajiit_Tribal_Warrior>
-					<Theo_Ohmes_Tribal_Warrior>1</Theo_Ohmes_Tribal_Warrior>
-					<Theo_OhmesRaht_Tribal_Warrior>1</Theo_OhmesRaht_Tribal_Warrior>
-					<Theo_Senche_Tribal_Warrior>2</Theo_Senche_Tribal_Warrior>
+					<ESCP_Khajiit_Tribal_Warrior>3</ESCP_Khajiit_Tribal_Warrior>
+					<ESCP_Ohmes_Tribal_Warrior>1</ESCP_Ohmes_Tribal_Warrior>
+					<ESCP_OhmesRaht_Tribal_Warrior>1</ESCP_OhmesRaht_Tribal_Warrior>
+					<ESCP_Senche_Tribal_Warrior>2</ESCP_Senche_Tribal_Warrior>
 
-					<Theo_Khajiit_Tribal_Archer>6</Theo_Khajiit_Tribal_Archer>
-					<Theo_Ohmes_Tribal_Archer>2</Theo_Ohmes_Tribal_Archer>
-					<Theo_OhmesRaht_Tribal_Archer>2</Theo_OhmesRaht_Tribal_Archer>
+					<ESCP_Khajiit_Tribal_Archer>6</ESCP_Khajiit_Tribal_Archer>
+					<ESCP_Ohmes_Tribal_Archer>2</ESCP_Ohmes_Tribal_Archer>
+					<ESCP_OhmesRaht_Tribal_Archer>2</ESCP_OhmesRaht_Tribal_Archer>
 
-					<Theo_Khajiit_Tribal_Hunter>10</Theo_Khajiit_Tribal_Hunter>
-					<Theo_Khajiit_Tribal_CatMaster>5</Theo_Khajiit_Tribal_CatMaster>
-					<Theo_Khajiit_Tribal_HeavyArcher>10</Theo_Khajiit_Tribal_HeavyArcher>
-					<Theo_Khajiit_Tribal_Berserker>5</Theo_Khajiit_Tribal_Berserker>
+					<ESCP_Khajiit_Tribal_Hunter>10</ESCP_Khajiit_Tribal_Hunter>
+					<ESCP_Khajiit_Tribal_CatMaster>5</ESCP_Khajiit_Tribal_CatMaster>
+					<ESCP_Khajiit_Tribal_HeavyArcher>10</ESCP_Khajiit_Tribal_HeavyArcher>
+					<ESCP_Khajiit_Tribal_Berserker>5</ESCP_Khajiit_Tribal_Berserker>
 
-					<Theo_Khajiit_Tribal_ChiefRanged>3</Theo_Khajiit_Tribal_ChiefRanged>
-					<Theo_Khajiit_Tribal_ChiefMelee>1.5</Theo_Khajiit_Tribal_ChiefMelee>
-					<Theo_Khajiit_Tribal_ChiefBeastMaster>1.5</Theo_Khajiit_Tribal_ChiefBeastMaster>
+					<ESCP_Khajiit_Tribal_ChiefRanged>3</ESCP_Khajiit_Tribal_ChiefRanged>
+					<ESCP_Khajiit_Tribal_ChiefMelee>1.5</ESCP_Khajiit_Tribal_ChiefMelee>
+					<ESCP_Khajiit_Tribal_ChiefBeastMaster>1.5</ESCP_Khajiit_Tribal_ChiefBeastMaster>
 				</options>
 			</li>
 			<li>
 				<kindDef>Combat</kindDef>
 				<commonality>30</commonality>
 				<options>
-					<Theo_Khajiit_Tribal_Penitent>6</Theo_Khajiit_Tribal_Penitent>
-					<Theo_Ohmes_Tribal_Penitent>2</Theo_Ohmes_Tribal_Penitent>
-					<Theo_OhmesRaht_Tribal_Penitent>2</Theo_OhmesRaht_Tribal_Penitent>
+					<ESCP_Khajiit_Tribal_Penitent>6</ESCP_Khajiit_Tribal_Penitent>
+					<ESCP_Ohmes_Tribal_Penitent>2</ESCP_Ohmes_Tribal_Penitent>
+					<ESCP_OhmesRaht_Tribal_Penitent>2</ESCP_OhmesRaht_Tribal_Penitent>
 
-					<Theo_Khajiit_Tribal_Warrior>6</Theo_Khajiit_Tribal_Warrior>
-					<Theo_Ohmes_Tribal_Warrior>2</Theo_Ohmes_Tribal_Warrior>
-					<Theo_OhmesRaht_Tribal_Warrior>2</Theo_OhmesRaht_Tribal_Warrior>
-					<Theo_Senche_Tribal_Warrior>2</Theo_Senche_Tribal_Warrior>
+					<ESCP_Khajiit_Tribal_Warrior>6</ESCP_Khajiit_Tribal_Warrior>
+					<ESCP_Ohmes_Tribal_Warrior>2</ESCP_Ohmes_Tribal_Warrior>
+					<ESCP_OhmesRaht_Tribal_Warrior>2</ESCP_OhmesRaht_Tribal_Warrior>
+					<ESCP_Senche_Tribal_Warrior>2</ESCP_Senche_Tribal_Warrior>
 
-					<Theo_Khajiit_Tribal_Berserker>10</Theo_Khajiit_Tribal_Berserker>
-					<Theo_Khajiit_Tribal_ChiefMelee>5</Theo_Khajiit_Tribal_ChiefMelee>
+					<ESCP_Khajiit_Tribal_Berserker>10</ESCP_Khajiit_Tribal_Berserker>
+					<ESCP_Khajiit_Tribal_ChiefMelee>5</ESCP_Khajiit_Tribal_ChiefMelee>
 				</options>
 			</li>
 			<li>
 				<kindDef>Combat</kindDef>
 				<commonality>5</commonality>
 				<options>
-					<Theo_Khajiit_Tribal_Penitent>3</Theo_Khajiit_Tribal_Penitent>
-					<Theo_Ohmes_Tribal_Penitent>1</Theo_Ohmes_Tribal_Penitent>
-					<Theo_OhmesRaht_Tribal_Penitent>1</Theo_OhmesRaht_Tribal_Penitent>
+					<ESCP_Khajiit_Tribal_Penitent>3</ESCP_Khajiit_Tribal_Penitent>
+					<ESCP_Ohmes_Tribal_Penitent>1</ESCP_Ohmes_Tribal_Penitent>
+					<ESCP_OhmesRaht_Tribal_Penitent>1</ESCP_OhmesRaht_Tribal_Penitent>
 
-					<Theo_Khajiit_Tribal_Warrior>3</Theo_Khajiit_Tribal_Warrior>
-					<Theo_Ohmes_Tribal_Warrior>1</Theo_Ohmes_Tribal_Warrior>
-					<Theo_OhmesRaht_Tribal_Warrior>1</Theo_OhmesRaht_Tribal_Warrior>
-					<Theo_Senche_Tribal_Warrior>2</Theo_Senche_Tribal_Warrior>
+					<ESCP_Khajiit_Tribal_Warrior>3</ESCP_Khajiit_Tribal_Warrior>
+					<ESCP_Ohmes_Tribal_Warrior>1</ESCP_Ohmes_Tribal_Warrior>
+					<ESCP_OhmesRaht_Tribal_Warrior>1</ESCP_OhmesRaht_Tribal_Warrior>
+					<ESCP_Senche_Tribal_Warrior>2</ESCP_Senche_Tribal_Warrior>
 
-					<Theo_Khajiit_Tribal_Archer>6</Theo_Khajiit_Tribal_Archer>
-					<Theo_Ohmes_Tribal_Archer>2</Theo_Ohmes_Tribal_Archer>
-					<Theo_OhmesRaht_Tribal_Archer>2</Theo_OhmesRaht_Tribal_Archer>
+					<ESCP_Khajiit_Tribal_Archer>6</ESCP_Khajiit_Tribal_Archer>
+					<ESCP_Ohmes_Tribal_Archer>2</ESCP_Ohmes_Tribal_Archer>
+					<ESCP_OhmesRaht_Tribal_Archer>2</ESCP_OhmesRaht_Tribal_Archer>
 
-					<Theo_Khajiit_Tribal_Breacher>3</Theo_Khajiit_Tribal_Breacher>
-					<Theo_Ohmes_Tribal_Breacher>1</Theo_Ohmes_Tribal_Breacher>
-					<Theo_OhmesRaht_Tribal_Breacher>1</Theo_OhmesRaht_Tribal_Breacher>
+					<ESCP_Khajiit_Tribal_Breacher>3</ESCP_Khajiit_Tribal_Breacher>
+					<ESCP_Ohmes_Tribal_Breacher>1</ESCP_Ohmes_Tribal_Breacher>
+					<ESCP_OhmesRaht_Tribal_Breacher>1</ESCP_OhmesRaht_Tribal_Breacher>
 
-					<Theo_Khajiit_Tribal_Hunter>10</Theo_Khajiit_Tribal_Hunter>
-					<Theo_Khajiit_Tribal_CatMaster>5</Theo_Khajiit_Tribal_CatMaster>
-					<Theo_Khajiit_Tribal_HeavyArcher>10</Theo_Khajiit_Tribal_HeavyArcher>
-					<Theo_Khajiit_Tribal_Berserker>5</Theo_Khajiit_Tribal_Berserker>
+					<ESCP_Khajiit_Tribal_Hunter>10</ESCP_Khajiit_Tribal_Hunter>
+					<ESCP_Khajiit_Tribal_CatMaster>5</ESCP_Khajiit_Tribal_CatMaster>
+					<ESCP_Khajiit_Tribal_HeavyArcher>10</ESCP_Khajiit_Tribal_HeavyArcher>
+					<ESCP_Khajiit_Tribal_Berserker>5</ESCP_Khajiit_Tribal_Berserker>
 
-					<Theo_Khajiit_Tribal_ChiefRanged>3</Theo_Khajiit_Tribal_ChiefRanged>
-					<Theo_Khajiit_Tribal_ChiefMelee>1.5</Theo_Khajiit_Tribal_ChiefMelee>
-					<Theo_Khajiit_Tribal_ChiefBeastMaster>1.5</Theo_Khajiit_Tribal_ChiefBeastMaster>
+					<ESCP_Khajiit_Tribal_ChiefRanged>3</ESCP_Khajiit_Tribal_ChiefRanged>
+					<ESCP_Khajiit_Tribal_ChiefMelee>1.5</ESCP_Khajiit_Tribal_ChiefMelee>
+					<ESCP_Khajiit_Tribal_ChiefBeastMaster>1.5</ESCP_Khajiit_Tribal_ChiefBeastMaster>
 				</options>
 			</li>
 			<li>
 				<kindDef>Combat</kindDef>
 				<commonality>30</commonality>
 				<options>
-					<Theo_Khajiit_Tribal_Archer>6</Theo_Khajiit_Tribal_Archer>
-					<Theo_Ohmes_Tribal_Archer>2</Theo_Ohmes_Tribal_Archer>
-					<Theo_OhmesRaht_Tribal_Archer>2</Theo_OhmesRaht_Tribal_Archer>
+					<ESCP_Khajiit_Tribal_Archer>6</ESCP_Khajiit_Tribal_Archer>
+					<ESCP_Ohmes_Tribal_Archer>2</ESCP_Ohmes_Tribal_Archer>
+					<ESCP_OhmesRaht_Tribal_Archer>2</ESCP_OhmesRaht_Tribal_Archer>
 
-					<Theo_Khajiit_Tribal_Hunter>10</Theo_Khajiit_Tribal_Hunter>
-					<Theo_Khajiit_Tribal_CatMaster>5</Theo_Khajiit_Tribal_CatMaster>
-					<Theo_Senche_Tribal_Warrior>2</Theo_Senche_Tribal_Warrior>
-					<Theo_Khajiit_Tribal_HeavyArcher>10</Theo_Khajiit_Tribal_HeavyArcher>
+					<ESCP_Khajiit_Tribal_Hunter>10</ESCP_Khajiit_Tribal_Hunter>
+					<ESCP_Khajiit_Tribal_CatMaster>5</ESCP_Khajiit_Tribal_CatMaster>
+					<ESCP_Senche_Tribal_Warrior>2</ESCP_Senche_Tribal_Warrior>
+					<ESCP_Khajiit_Tribal_HeavyArcher>10</ESCP_Khajiit_Tribal_HeavyArcher>
 
-					<Theo_Khajiit_Tribal_ChiefRanged>5</Theo_Khajiit_Tribal_ChiefRanged>
-					<Theo_Khajiit_Tribal_ChiefBeastMaster>1.5</Theo_Khajiit_Tribal_ChiefBeastMaster>
+					<ESCP_Khajiit_Tribal_ChiefRanged>5</ESCP_Khajiit_Tribal_ChiefRanged>
+					<ESCP_Khajiit_Tribal_ChiefBeastMaster>1.5</ESCP_Khajiit_Tribal_ChiefBeastMaster>
 				</options>
 			</li>
 			<li>
 				<kindDef>Peaceful</kindDef>
 				<options>
-					<Theo_Alfiq_Tribal_Penitent>1</Theo_Alfiq_Tribal_Penitent>
+					<ESCP_Alfiq_Tribal_Penitent>1</ESCP_Alfiq_Tribal_Penitent>
 
-					<Theo_Khajiit_Tribal_Warrior>12</Theo_Khajiit_Tribal_Warrior>
-					<Theo_Ohmes_Tribal_Warrior>4</Theo_Ohmes_Tribal_Warrior>
-					<Theo_OhmesRaht_Tribal_Warrior>4</Theo_OhmesRaht_Tribal_Warrior>
-					<Theo_Senche_Tribal_Warrior>2</Theo_Senche_Tribal_Warrior>
+					<ESCP_Khajiit_Tribal_Warrior>12</ESCP_Khajiit_Tribal_Warrior>
+					<ESCP_Ohmes_Tribal_Warrior>4</ESCP_Ohmes_Tribal_Warrior>
+					<ESCP_OhmesRaht_Tribal_Warrior>4</ESCP_OhmesRaht_Tribal_Warrior>
+					<ESCP_Senche_Tribal_Warrior>2</ESCP_Senche_Tribal_Warrior>
 
-					<Theo_Khajiit_Tribal_Archer>6</Theo_Khajiit_Tribal_Archer>
-					<Theo_Ohmes_Tribal_Archer>2</Theo_Ohmes_Tribal_Archer>
-					<Theo_OhmesRaht_Tribal_Archer>2</Theo_OhmesRaht_Tribal_Archer>
+					<ESCP_Khajiit_Tribal_Archer>6</ESCP_Khajiit_Tribal_Archer>
+					<ESCP_Ohmes_Tribal_Archer>2</ESCP_Ohmes_Tribal_Archer>
+					<ESCP_OhmesRaht_Tribal_Archer>2</ESCP_OhmesRaht_Tribal_Archer>
 
-					<Theo_Khajiit_Tribal_Hunter>10</Theo_Khajiit_Tribal_Hunter>
-					<Theo_Khajiit_Tribal_HeavyArcher>10</Theo_Khajiit_Tribal_HeavyArcher>
-					<Theo_Khajiit_Tribal_Berserker>5</Theo_Khajiit_Tribal_Berserker>
+					<ESCP_Khajiit_Tribal_Hunter>10</ESCP_Khajiit_Tribal_Hunter>
+					<ESCP_Khajiit_Tribal_HeavyArcher>10</ESCP_Khajiit_Tribal_HeavyArcher>
+					<ESCP_Khajiit_Tribal_Berserker>5</ESCP_Khajiit_Tribal_Berserker>
 
-					<Theo_Khajiit_Tribal_ChiefRanged>3</Theo_Khajiit_Tribal_ChiefRanged>
-					<Theo_Khajiit_Tribal_ChiefMelee>1.5</Theo_Khajiit_Tribal_ChiefMelee>
+					<ESCP_Khajiit_Tribal_ChiefRanged>3</ESCP_Khajiit_Tribal_ChiefRanged>
+					<ESCP_Khajiit_Tribal_ChiefMelee>1.5</ESCP_Khajiit_Tribal_ChiefMelee>
 				</options>
 			</li>
 			<li>
 				<kindDef>Trader</kindDef>
 				<traders>
-					<Theo_Khajiit_Tribal_Trader>2</Theo_Khajiit_Tribal_Trader>
-					<Theo_Alfiq_Tribal_Trader>1</Theo_Alfiq_Tribal_Trader>
+					<ESCP_Khajiit_Tribal_Trader>2</ESCP_Khajiit_Tribal_Trader>
+					<ESCP_Alfiq_Tribal_Trader>1</ESCP_Alfiq_Tribal_Trader>
 				</traders>
 				<carriers>
 					<!--edit
@@ -645,81 +640,81 @@
 					<Elephant>2</Elephant>
 				</carriers>
 				<guards>
-					<Theo_Alfiq_Tribal_Penitent>1</Theo_Alfiq_Tribal_Penitent>
+					<ESCP_Alfiq_Tribal_Penitent>1</ESCP_Alfiq_Tribal_Penitent>
 
-					<Theo_Khajiit_Tribal_Warrior>5</Theo_Khajiit_Tribal_Warrior>
-					<Theo_Ohmes_Tribal_Warrior>1</Theo_Ohmes_Tribal_Warrior>
-					<Theo_OhmesRaht_Tribal_Warrior>1</Theo_OhmesRaht_Tribal_Warrior>
-					<Theo_Senche_Tribal_Warrior>2</Theo_Senche_Tribal_Warrior>
+					<ESCP_Khajiit_Tribal_Warrior>5</ESCP_Khajiit_Tribal_Warrior>
+					<ESCP_Ohmes_Tribal_Warrior>1</ESCP_Ohmes_Tribal_Warrior>
+					<ESCP_OhmesRaht_Tribal_Warrior>1</ESCP_OhmesRaht_Tribal_Warrior>
+					<ESCP_Senche_Tribal_Warrior>2</ESCP_Senche_Tribal_Warrior>
 
-					<Theo_Khajiit_Tribal_Archer>6</Theo_Khajiit_Tribal_Archer>
-					<Theo_Ohmes_Tribal_Archer>2</Theo_Ohmes_Tribal_Archer>
-					<Theo_OhmesRaht_Tribal_Archer>2</Theo_OhmesRaht_Tribal_Archer>
+					<ESCP_Khajiit_Tribal_Archer>6</ESCP_Khajiit_Tribal_Archer>
+					<ESCP_Ohmes_Tribal_Archer>2</ESCP_Ohmes_Tribal_Archer>
+					<ESCP_OhmesRaht_Tribal_Archer>2</ESCP_OhmesRaht_Tribal_Archer>
 
-					<Theo_Khajiit_Tribal_Hunter>10</Theo_Khajiit_Tribal_Hunter>
-					<Theo_Khajiit_Tribal_HeavyArcher>10</Theo_Khajiit_Tribal_HeavyArcher>
-					<Theo_Khajiit_Tribal_Berserker>7</Theo_Khajiit_Tribal_Berserker>
+					<ESCP_Khajiit_Tribal_Hunter>10</ESCP_Khajiit_Tribal_Hunter>
+					<ESCP_Khajiit_Tribal_HeavyArcher>10</ESCP_Khajiit_Tribal_HeavyArcher>
+					<ESCP_Khajiit_Tribal_Berserker>7</ESCP_Khajiit_Tribal_Berserker>
 				</guards>
 			</li>
 			<li>
 				<kindDef>Settlement</kindDef>
 				<options>
-					<Theo_Alfiq_Tribal_Penitent>1</Theo_Alfiq_Tribal_Penitent>
+					<ESCP_Alfiq_Tribal_Penitent>1</ESCP_Alfiq_Tribal_Penitent>
 
-					<Theo_Khajiit_Tribal_Warrior>5</Theo_Khajiit_Tribal_Warrior>
-					<Theo_Ohmes_Tribal_Warrior>1</Theo_Ohmes_Tribal_Warrior>
-					<Theo_OhmesRaht_Tribal_Warrior>1</Theo_OhmesRaht_Tribal_Warrior>
-					<Theo_Senche_Tribal_Warrior>2</Theo_Senche_Tribal_Warrior>
+					<ESCP_Khajiit_Tribal_Warrior>5</ESCP_Khajiit_Tribal_Warrior>
+					<ESCP_Ohmes_Tribal_Warrior>1</ESCP_Ohmes_Tribal_Warrior>
+					<ESCP_OhmesRaht_Tribal_Warrior>1</ESCP_OhmesRaht_Tribal_Warrior>
+					<ESCP_Senche_Tribal_Warrior>2</ESCP_Senche_Tribal_Warrior>
 
-					<Theo_Khajiit_Tribal_Archer>6</Theo_Khajiit_Tribal_Archer>
-					<Theo_Ohmes_Tribal_Archer>2</Theo_Ohmes_Tribal_Archer>
-					<Theo_OhmesRaht_Tribal_Archer>2</Theo_OhmesRaht_Tribal_Archer>
+					<ESCP_Khajiit_Tribal_Archer>6</ESCP_Khajiit_Tribal_Archer>
+					<ESCP_Ohmes_Tribal_Archer>2</ESCP_Ohmes_Tribal_Archer>
+					<ESCP_OhmesRaht_Tribal_Archer>2</ESCP_OhmesRaht_Tribal_Archer>
 
-					<Theo_Khajiit_Tribal_Hunter>10</Theo_Khajiit_Tribal_Hunter>
-					<Theo_Khajiit_Tribal_CatMaster>5</Theo_Khajiit_Tribal_CatMaster>
-					<Theo_Khajiit_Tribal_HeavyArcher>10</Theo_Khajiit_Tribal_HeavyArcher>
-					<Theo_Khajiit_Tribal_Berserker>7</Theo_Khajiit_Tribal_Berserker>
+					<ESCP_Khajiit_Tribal_Hunter>10</ESCP_Khajiit_Tribal_Hunter>
+					<ESCP_Khajiit_Tribal_CatMaster>5</ESCP_Khajiit_Tribal_CatMaster>
+					<ESCP_Khajiit_Tribal_HeavyArcher>10</ESCP_Khajiit_Tribal_HeavyArcher>
+					<ESCP_Khajiit_Tribal_Berserker>7</ESCP_Khajiit_Tribal_Berserker>
 
-					<Theo_Khajiit_Tribal_ChiefBeastMaster>10</Theo_Khajiit_Tribal_ChiefBeastMaster>
+					<ESCP_Khajiit_Tribal_ChiefBeastMaster>10</ESCP_Khajiit_Tribal_ChiefBeastMaster>
 				</options>
 			</li>
 			<li>
 				<kindDef>Settlement_RangedOnly</kindDef>
 				<options>
-					<Theo_Alfiq_Tribal_Penitent>1</Theo_Alfiq_Tribal_Penitent>
+					<ESCP_Alfiq_Tribal_Penitent>1</ESCP_Alfiq_Tribal_Penitent>
 
-					<Theo_Khajiit_Tribal_Archer>6</Theo_Khajiit_Tribal_Archer>
-					<Theo_Ohmes_Tribal_Archer>2</Theo_Ohmes_Tribal_Archer>
-					<Theo_OhmesRaht_Tribal_Archer>2</Theo_OhmesRaht_Tribal_Archer>
+					<ESCP_Khajiit_Tribal_Archer>6</ESCP_Khajiit_Tribal_Archer>
+					<ESCP_Ohmes_Tribal_Archer>2</ESCP_Ohmes_Tribal_Archer>
+					<ESCP_OhmesRaht_Tribal_Archer>2</ESCP_OhmesRaht_Tribal_Archer>
 
-					<Theo_Khajiit_Tribal_Hunter>10</Theo_Khajiit_Tribal_Hunter>
-					<Theo_Khajiit_Tribal_CatMaster>5</Theo_Khajiit_Tribal_CatMaster>
-					<Theo_Senche_Tribal_Warrior>2</Theo_Senche_Tribal_Warrior>
-					<Theo_Khajiit_Tribal_HeavyArcher>10</Theo_Khajiit_Tribal_HeavyArcher>
+					<ESCP_Khajiit_Tribal_Hunter>10</ESCP_Khajiit_Tribal_Hunter>
+					<ESCP_Khajiit_Tribal_CatMaster>5</ESCP_Khajiit_Tribal_CatMaster>
+					<ESCP_Senche_Tribal_Warrior>2</ESCP_Senche_Tribal_Warrior>
+					<ESCP_Khajiit_Tribal_HeavyArcher>10</ESCP_Khajiit_Tribal_HeavyArcher>
 
-					<Theo_Khajiit_Tribal_ChiefBeastMaster>10</Theo_Khajiit_Tribal_ChiefBeastMaster>
+					<ESCP_Khajiit_Tribal_ChiefBeastMaster>10</ESCP_Khajiit_Tribal_ChiefBeastMaster>
 				</options>
 			</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">
 				<kindDef>Hunters</kindDef>
 				<commonality>1</commonality>
 				<options>
-					<Theo_Khajiit_Tribal_Hunter>1</Theo_Khajiit_Tribal_Hunter>
-					<Theo_Senche_Tribal_Warrior>1</Theo_Senche_Tribal_Warrior>
+					<ESCP_Khajiit_Tribal_Hunter>1</ESCP_Khajiit_Tribal_Hunter>
+					<ESCP_Senche_Tribal_Warrior>1</ESCP_Senche_Tribal_Warrior>
 				</options>
 			</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">
 				<kindDef>Loggers</kindDef>
 				<commonality>1</commonality>
 				<options>
-					<Theo_Khajiit_Tribal_Logger>1</Theo_Khajiit_Tribal_Logger>
+					<ESCP_Khajiit_Tribal_Logger>1</ESCP_Khajiit_Tribal_Logger>
 				</options>
 			</li>
 		</pawnGroupMakers>
 		<naturalEnemy>true</naturalEnemy>
 	</FactionDef>
-	<!--<FactionDef ParentName="Theo_KhajiitNonPlayerFaction_Base">
-		<defName>Theo_KhajiitNonPlayerFaction_Dro-m'Athra</defName>
+	<!--<FactionDef ParentName="ESCP_KhajiitNonPlayerFaction_Base">
+		<defName>ESCP_KhajiitNonPlayerFaction_Dro-m'Athra</defName>
 		<label>Dro-m'Athra Raiders</label>
 		<description></description> 
 		<colorSpectrum>
@@ -727,7 +722,7 @@
 			<li>(0.55, 0.95, 0.67)</li> 
 			<li>(0.2, 0.8, 0.67)</li>
 		</colorSpectrum>
-		<structureMemeWeights> <Theo_Structure_Dark_Spirits MayRequire="Ludeon.RimWorld.Ideology">999</Theo_Structure_Dark_Spirits>
+		<structureMemeWeights> <ESCP_Structure_Dark_Spirits MayRequire="Ludeon.RimWorld.Ideology">999</ESCP_Structure_Dark_Spirits>
 		</structureMemeWeights>
 		<requiredMemes>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>

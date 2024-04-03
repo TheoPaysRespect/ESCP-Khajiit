@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
     <PawnKindDef ParentName="ESCP_PlayerPawnKindBase_Medieval">
-        <defName>Theo_SenchePlayerPawnKind_Medieval</defName>
-        <race>Theo_SencheRace</race>
-        <defaultFactionType>Theo_KhajiitPlayerFaction_Medieval</defaultFactionType>
+        <defName>ESCP_SenchePlayerPawnKind_Medieval</defName>
+        <race>ESCP_SencheRace</race>
+        <defaultFactionType>ESCP_KhajiitPlayerFaction_Medieval</defaultFactionType>
         <backstoryFiltersOverride>
             <li>
                 <categoriesChildhood>
                     <li>ESCP_GenericBackstory_ChildhoodMedieval</li>
                     <li>ESCP_GenericBackstory_ChildhoodHighClass</li>
                     <li>ESCP_GenericBackstory_ChildhoodImperialFaction</li>
-                    <li>Theo_CityKhajiitBackstory_Childhood</li>
-                    <li>Theo_MonkKhajiitBackstory_Childhood</li>
-                    <li>Theo_KhajiitBackstory_Childhood</li>
+                    <li>ESCP_CityKhajiitBackstory_Childhood</li>
+                    <li>ESCP_MonkKhajiitBackstory_Childhood</li>
+                    <li>ESCP_KhajiitBackstory_Childhood</li>
                 </categoriesChildhood>
                 <categoriesAdulthood>
                     <li>ESCP_GenericBackstory_AdulthoodMedieval</li>
@@ -24,34 +24,34 @@
                     <li>ESCP_GenericBackstory_AdulthoodThievesGuild</li>
                     <li>ESCP_GenericBackstory_AdulthoodSkoomaAddict</li>
                     <li>ESCP_DunmerSlaveBackstory_Adulthood</li>
-                    <li>Theo_CityKhajiitBackstory_Adulthood</li>
-                    <li>Theo_MonkKhajiitBackstory_Adulthood</li>
-                    <li>Theo_KhajiitBackstory_Adulthood</li>
+                    <li>ESCP_CityKhajiitBackstory_Adulthood</li>
+                    <li>ESCP_MonkKhajiitBackstory_Adulthood</li>
+                    <li>ESCP_KhajiitBackstory_Adulthood</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
     </PawnKindDef>
     <PawnKindDef ParentName="ESCP_PlayerPawnKindBase_Tribal">
-        <defName>Theo_SenchePlayerPawnKind_Tribal</defName>
-        <race>Theo_SencheRace</race>
-        <defaultFactionType>Theo_KhajiitPlayerFaction_Tribal</defaultFactionType>
+        <defName>ESCP_SenchePlayerPawnKind_Tribal</defName>
+        <race>ESCP_SencheRace</race>
+        <defaultFactionType>ESCP_KhajiitPlayerFaction_Tribal</defaultFactionType>
         <backstoryFiltersOverride>
             <li>
                 <categoriesChildhood>
                     <li>Tribal</li>
                     <li>ESCP_GenericBackstory_ChildhoodMedieval</li>
-                    <li>Theo_TribeKhajiitBackstory_Childhood</li>
+                    <li>ESCP_TribeKhajiitBackstory_Childhood</li>
                     <li>ESCP_GenericBackstory_ChildhoodTribal</li>
-                    <li>Theo_KhajiitBackstory_Childhood</li>
+                    <li>ESCP_KhajiitBackstory_Childhood</li>
                 </categoriesChildhood>
                 <categoriesAdulthood>
                     <li>Tribal</li>
                     <li>ESCP_GenericBackstory_AdulthoodMedieval</li>
                     <li>ESCP_GenericBackstory_AdulthoodMage</li>
                     <li>ESCP_GenericBackstory_AdulthoodSlaver</li>
-                    <li>Theo_TribeKhajiitBackstory_Adulthood</li>
+                    <li>ESCP_TribeKhajiitBackstory_Adulthood</li>
                     <li>ESCP_DunmerSlaveBackstory_Adulthood</li>
-                    <li>Theo_KhajiitBackstory_Adulthood</li>
+                    <li>ESCP_KhajiitBackstory_Adulthood</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>

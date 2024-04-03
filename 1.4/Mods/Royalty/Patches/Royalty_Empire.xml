@@ -3,10 +3,10 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/FactionDef[defName="Empire"]/permanentEnemyToEveryoneExcept</xpath>
 		<value>
-			<li>Theo_KhajiitPlayerFaction_Medieval</li>
-			<li>Theo_KhajiitPlayerFaction_Tribal</li>
-			<li>Theo_KhajiitPlayerFaction_Bandaari</li>
-			<li>Theo_KhajiitNonPlayerFaction_Bandaari</li>
+			<li>ESCP_KhajiitPlayerFaction_Medieval</li>
+			<li>ESCP_KhajiitPlayerFaction_Tribal</li>
+			<li>ESCP_KhajiitPlayerFaction_Bandaari</li>
+			<li>ESCP_KhajiitNonPlayerFaction_Bandaari</li>
 		</value>
 	</Operation>
 </Patch>

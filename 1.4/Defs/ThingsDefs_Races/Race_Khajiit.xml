@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<AlienRace.ThingDef_AlienRace ParentName="Theo_Khajiit_StandardForm">
-		<defName>Theo_KhajiitRace</defName>
+	<AlienRace.ThingDef_AlienRace ParentName="ESCP_Khajiit_StandardForm">
+		<defName>ESCP_KhajiitRace</defName>
 		<label>Khajiit</label>
 		<description>A nondescript digitigrade Khajiit, a species native to Elsweyr.</description>
 		<statBases>
@@ -61,10 +61,10 @@
 					</bodyTypes>
 				</alienPartGenerator>
 				<notXenophobistTowards>
-					<li>Theo_OhmesRace</li>
-					<li>Theo_OhmesRahtRace</li>
-					<li>Theo_SencheRace</li>
-					<li>Theo_AlfiqRace</li>
+					<li>ESCP_OhmesRace</li>
+					<li>ESCP_OhmesRahtRace</li>
+					<li>ESCP_SencheRace</li>
+					<li>ESCP_AlfiqRace</li>
 				</notXenophobistTowards>
 			</generalSettings>
 		</alienRace>

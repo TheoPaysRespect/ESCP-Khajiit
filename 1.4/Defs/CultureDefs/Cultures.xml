@@ -2,23 +2,23 @@
 <Defs>
 	<!-- Link all graphics/files, set unique parameters-->
 	<CultureDef>
-		<defName>Theo_KhajiitCulture</defName>
+		<defName>ESCP_KhajiitCulture</defName>
 		<label>Khajiiti</label>
 		<description>An ancient culture common amongst the Khajiiti kingdoms.</description>
-		<pawnNameMaker>Theo_Khajiit_NamerMale</pawnNameMaker>
-		<pawnNameMakerFemale>Theo_Khajiit_NamerFemale</pawnNameMakerFemale>
+		<pawnNameMaker>ESCP_Khajiit_NamerMale</pawnNameMaker>
+		<pawnNameMakerFemale>ESCP_Khajiit_NamerFemale</pawnNameMakerFemale>
 		<ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoCorunan</ideoNameMaker>
-		<deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">Theo_Khajiit_NamerCultureDeityName</deityNameMaker>
+		<deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">ESCP_Khajiit_NamerCultureDeityName</deityNameMaker>
 		<deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DeityTypeMakerCorunan</deityTypeMaker>
 		<festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalCorunan</festivalNameMaker>
-		<leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">Theo_Khajiit_NamerCultureLeaderTitle</leaderTitleMaker>
+		<leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">ESCP_Khajiit_NamerCultureLeaderTitle</leaderTitleMaker>
 		<allowedPlaceTags>
 			<li>OriginTribal</li>
 		</allowedPlaceTags>
-		<iconPath>World/WorldObjects/Theo_Khajiit_Kingdom</iconPath>
+		<iconPath>World/WorldObjects/ESCP_Khajiit_Kingdom</iconPath>
 		<thingStyleCategories>
 			<li MayRequire="Ludeon.RimWorld.Ideology">
-				<category>Theo_KhajiitStyle</category>
+				<category>ESCP_KhajiitStyle</category>
 				<priority>2</priority>
 			</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">
@@ -29,7 +29,7 @@
 		<!--Piercing face tattoos, beards ok, prefer dreads-->
 		<styleItemTags>
 			<!--<li>
-				<tag>Theo_TattooFaceKhajiit</tag>
+				<tag>ESCP_TattooFaceKhajiit</tag>
 				<baseWeight>5</baseWeight>
 				<weightFactor>1</weightFactor>
 			</li>-->

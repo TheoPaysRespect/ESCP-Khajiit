@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<AlienRace.RaceSettings>
-		<defName>Theo_KhajiitRaceSettings</defName>
+		<defName>ESCP_KhajiitRaceSettings</defName>
 		<pawnKindSettings>
 			<alienslavekinds> <!--20 chance to be khajiit-->
 				<li>
 					<kindDefs>
-						<li>Theo_KhajiitPlayerPawnKind_Tribal</li>
-						<li>Theo_KhajiitPlayerPawnKind_Medieval</li>
+						<li>ESCP_KhajiitPlayerPawnKind_Tribal</li>
+						<li>ESCP_KhajiitPlayerPawnKind_Medieval</li>
 					</kindDefs>
 					<chance>17.0</chance>
 				</li>
 				<li>
 					<kindDefs>
-						<li>Theo_OhmesRahtPlayerPawnKind_Tribal</li>
-						<li>Theo_OhmesRahtPlayerPawnKind_Medieval</li>
+						<li>ESCP_OhmesRahtPlayerPawnKind_Tribal</li>
+						<li>ESCP_OhmesRahtPlayerPawnKind_Medieval</li>
 					</kindDefs>
 					<chance>1.0</chance>
 				</li>
 				<li>
 					<kindDefs>
-						<li>Theo_OhmesPlayerPawnKind_Tribal</li>
-						<li>Theo_OhmesPlayerPawnKind_Medieval</li>
+						<li>ESCP_OhmesPlayerPawnKind_Tribal</li>
+						<li>ESCP_OhmesPlayerPawnKind_Medieval</li>
 					</kindDefs>
 					<chance>1.0</chance>
 				</li>
 				<li>
 					<kindDefs>
-						<li>Theo_SenchePlayerPawnKind_Tribal</li>
-						<li>Theo_SenchePlayerPawnKind_Medieval</li>
+						<li>ESCP_SenchePlayerPawnKind_Tribal</li>
+						<li>ESCP_SenchePlayerPawnKind_Medieval</li>
 					</kindDefs>
 					<chance>0.5</chance>
 				</li>
 				<li>
 					<kindDefs>
-						<li>Theo_AlfiqPlayerPawnKind_Tribal</li>
-						<li>Theo_AlfiqPlayerPawnKind_Medieval</li>
+						<li>ESCP_AlfiqPlayerPawnKind_Tribal</li>
+						<li>ESCP_AlfiqPlayerPawnKind_Medieval</li>
 					</kindDefs>
 					<chance>0.5</chance>
 				</li>
@@ -43,36 +43,36 @@
 			<alienrefugeekinds> <!--10 chance-->
 				<li>
 					<kindDefs>
-						<li>Theo_KhajiitPlayerPawnKind_Tribal</li>
-						<li>Theo_KhajiitPlayerPawnKind_Medieval</li>
+						<li>ESCP_KhajiitPlayerPawnKind_Tribal</li>
+						<li>ESCP_KhajiitPlayerPawnKind_Medieval</li>
 					</kindDefs>
 					<chance>7.0</chance>
 				</li>
 				<li>
 					<kindDefs>
-						<li>Theo_OhmesRahtPlayerPawnKind_Tribal</li>
-						<li>Theo_OhmesRahtPlayerPawnKind_Medieval</li>
+						<li>ESCP_OhmesRahtPlayerPawnKind_Tribal</li>
+						<li>ESCP_OhmesRahtPlayerPawnKind_Medieval</li>
 					</kindDefs>
 					<chance>1.0</chance>
 				</li>
 				<li>
 					<kindDefs>
-						<li>Theo_OhmesPlayerPawnKind_Tribal</li>
-						<li>Theo_OhmesPlayerPawnKind_Medieval</li>
+						<li>ESCP_OhmesPlayerPawnKind_Tribal</li>
+						<li>ESCP_OhmesPlayerPawnKind_Medieval</li>
 					</kindDefs>
 					<chance>1.0</chance>
 				</li>
 				<li>
 					<kindDefs>
-						<li>Theo_SenchePlayerPawnKind_Tribal</li>
-						<li>Theo_SenchePlayerPawnKind_Medieval</li>
+						<li>ESCP_SenchePlayerPawnKind_Tribal</li>
+						<li>ESCP_SenchePlayerPawnKind_Medieval</li>
 					</kindDefs>
 					<chance>0.5</chance>
 				</li>
 				<li>
 					<kindDefs>
-						<li>Theo_AlfiqPlayerPawnKind_Tribal</li>
-						<li>Theo_AlfiqPlayerPawnKind_Medieval</li>
+						<li>ESCP_AlfiqPlayerPawnKind_Tribal</li>
+						<li>ESCP_AlfiqPlayerPawnKind_Medieval</li>
 					</kindDefs>
 					<chance>0.5</chance>
 				</li>
@@ -82,124 +82,124 @@
 					<pawnKindEntries>
 						<li>
 							<kindDefs>
-								<li>Theo_OhmesPlayerPawnKind_Medieval</li>
+								<li>ESCP_OhmesPlayerPawnKind_Medieval</li>
 							</kindDefs>
 							<chance>6</chance>
 						</li>
 						<li>
 							<kindDefs>
-								<li>Theo_OhmesRahtPlayerPawnKind_Medieval</li>
+								<li>ESCP_OhmesRahtPlayerPawnKind_Medieval</li>
 							</kindDefs>
 							<chance>6</chance>
 						</li>
 						<li>
 							<kindDefs>
-								<li>Theo_SenchePlayerPawnKind_Medieval</li>
+								<li>ESCP_SenchePlayerPawnKind_Medieval</li>
 							</kindDefs>
 							<chance>12</chance>
 						</li>
 						<li>
 							<kindDefs>
-								<li>Theo_AlfiqPlayerPawnKind_Medieval</li>
+								<li>ESCP_AlfiqPlayerPawnKind_Medieval</li>
 							</kindDefs>
 							<chance>12</chance>
 						</li>
 					</pawnKindEntries>
 					<factionDefs>
-						<li>Theo_KhajiitPlayerFaction_Bandaari</li>
+						<li>ESCP_KhajiitPlayerFaction_Bandaari</li>
 					</factionDefs>
 				</li>
 				<li> <!--(64) 6 6 12 12-->
 					<pawnKindEntries>
 						<li>
 							<kindDefs>
-								<li>Theo_OhmesPlayerPawnKind_Medieval</li>
+								<li>ESCP_OhmesPlayerPawnKind_Medieval</li>
 							</kindDefs>
 							<chance>6</chance>
 						</li>
 						<li>
 							<kindDefs>
-								<li>Theo_OhmesRahtPlayerPawnKind_Medieval</li>
+								<li>ESCP_OhmesRahtPlayerPawnKind_Medieval</li>
 							</kindDefs>
 							<chance>6</chance>
 						</li>
 						<li>
 							<kindDefs>
-								<li>Theo_SenchePlayerPawnKind_Medieval</li>
+								<li>ESCP_SenchePlayerPawnKind_Medieval</li>
 							</kindDefs>
 							<chance>12</chance>
 						</li>
 						<li>
 							<kindDefs>
-								<li>Theo_AlfiqPlayerPawnKind_Medieval</li>
+								<li>ESCP_AlfiqPlayerPawnKind_Medieval</li>
 							</kindDefs>
 							<chance>12</chance>
 						</li>
 					</pawnKindEntries>
 					<factionDefs>
-						<li>Theo_KhajiitPlayerFaction_Medieval</li>
+						<li>ESCP_KhajiitPlayerFaction_Medieval</li>
 					</factionDefs>
 				</li>
 				<li> <!--(64) 6 6 12 12-->
 					<pawnKindEntries>
 						<li>
 							<kindDefs>
-								<li>Theo_OhmesPlayerPawnKind_Tribal</li>
+								<li>ESCP_OhmesPlayerPawnKind_Tribal</li>
 							</kindDefs>
 							<chance>6</chance>
 						</li>
 						<li>
 							<kindDefs>
-								<li>Theo_OhmesRahtPlayerPawnKind_Tribal</li>
+								<li>ESCP_OhmesRahtPlayerPawnKind_Tribal</li>
 							</kindDefs>
 							<chance>6</chance>
 						</li>
 						<li>
 							<kindDefs>
-								<li>Theo_SenchePlayerPawnKind_Tribal</li>
+								<li>ESCP_SenchePlayerPawnKind_Tribal</li>
 							</kindDefs>
 							<chance>12</chance>
 						</li>
 						<li>
 							<kindDefs>
-								<li>Theo_AlfiqPlayerPawnKind_Tribal</li>
+								<li>ESCP_AlfiqPlayerPawnKind_Tribal</li>
 							</kindDefs>
 							<chance>12</chance>
 						</li>
 					</pawnKindEntries>
 					<factionDefs>
-						<li>Theo_KhajiitPlayerFaction_Tribal</li>
+						<li>ESCP_KhajiitPlayerFaction_Tribal</li>
 					</factionDefs>
 				</li>
 				<li> <!--2.2 total chance for khajiit in tribe-->
 					<pawnKindEntries>
 						<li>
 							<kindDefs>
-								<li>Theo_KhajiitPlayerPawnKind_Tribal</li>
+								<li>ESCP_KhajiitPlayerPawnKind_Tribal</li>
 							</kindDefs>
 							<chance>1</chance>
 						</li>
 						<li>
 							<kindDefs>
-								<li>Theo_OhmesPlayerPawnKind_Tribal</li>
+								<li>ESCP_OhmesPlayerPawnKind_Tribal</li>
 							</kindDefs>
 							<chance>0.5</chance>
 						</li>
 						<li>
 							<kindDefs>
-								<li>Theo_OhmesRahtPlayerPawnKind_Tribal</li>
+								<li>ESCP_OhmesRahtPlayerPawnKind_Tribal</li>
 							</kindDefs>
 							<chance>0.5</chance>
 						</li>
 						<li>
 							<kindDefs>
-								<li>Theo_SenchePlayerPawnKind_Tribal</li>
+								<li>ESCP_SenchePlayerPawnKind_Tribal</li>
 							</kindDefs>
 							<chance>0.1</chance>
 						</li>
 						<li>
 							<kindDefs>
-								<li>Theo_AlfiqPlayerPawnKind_Tribal</li>
+								<li>ESCP_AlfiqPlayerPawnKind_Tribal</li>
 							</kindDefs>
 							<chance>0.1</chance>
 						</li>
@@ -215,111 +215,111 @@
 					<pawnKindEntries>
 						<li>
 							<kindDefs>
-								<li>Theo_KhajiitPlayerPawnKind_Medieval</li>
+								<li>ESCP_KhajiitPlayerPawnKind_Medieval</li>
 							</kindDefs>
 							<chance>50</chance>
 						</li>
 						<li>
 							<kindDefs>
-								<li>Theo_OhmesPlayerPawnKind_Medieval</li>
+								<li>ESCP_OhmesPlayerPawnKind_Medieval</li>
 							</kindDefs>
 							<chance>5</chance>
 						</li>
 						<li>
 							<kindDefs>
-								<li>Theo_OhmesRahtPlayerPawnKind_Medieval</li>
+								<li>ESCP_OhmesRahtPlayerPawnKind_Medieval</li>
 							</kindDefs>
 							<chance>5</chance>
 						</li>
 						<li>
 							<kindDefs>
-								<li>Theo_SenchePlayerPawnKind_Medieval</li>
+								<li>ESCP_SenchePlayerPawnKind_Medieval</li>
 							</kindDefs>
 							<chance>10</chance>
 						</li>
 						<li>
 							<kindDefs>
-								<li>Theo_AlfiqPlayerPawnKind_Medieval</li>
+								<li>ESCP_AlfiqPlayerPawnKind_Medieval</li>
 							</kindDefs>
 							<chance>10</chance>
 						</li>
 					</pawnKindEntries>
 					<factionDefs>
-						<li>Theo_KhajiitPlayerFaction_Bandaari</li>
+						<li>ESCP_KhajiitPlayerFaction_Bandaari</li>
 					</factionDefs>
 				</li>
 				<li>
 					<pawnKindEntries>
 						<li>
 							<kindDefs>
-								<li>Theo_KhajiitPlayerPawnKind_Medieval</li>
+								<li>ESCP_KhajiitPlayerPawnKind_Medieval</li>
 							</kindDefs>
 							<chance>50.0</chance>
 						</li>
 						<li>
 							<kindDefs>
-								<li>Theo_OhmesPlayerPawnKind_Medieval</li>
+								<li>ESCP_OhmesPlayerPawnKind_Medieval</li>
 							</kindDefs>
 							<chance>5.0</chance>
 						</li>
 						<li>
 							<kindDefs>
-								<li>Theo_OhmesRahtPlayerPawnKind_Medieval</li>
+								<li>ESCP_OhmesRahtPlayerPawnKind_Medieval</li>
 							</kindDefs>
 							<chance>5.0</chance>
 						</li>
 						<li>
 							<kindDefs>
-								<li>Theo_SenchePlayerPawnKind_Medieval</li>
+								<li>ESCP_SenchePlayerPawnKind_Medieval</li>
 							</kindDefs>
 							<chance>10</chance>
 						</li>
 						<li>
 							<kindDefs>
-								<li>Theo_AlfiqPlayerPawnKind_Medieval</li>
+								<li>ESCP_AlfiqPlayerPawnKind_Medieval</li>
 							</kindDefs>
 							<chance>10</chance>
 						</li>
 					</pawnKindEntries>
 					<factionDefs>
-						<li>Theo_KhajiitPlayerFaction_Medieval</li>
+						<li>ESCP_KhajiitPlayerFaction_Medieval</li>
 					</factionDefs>
 				</li>
 				<li>
 					<pawnKindEntries>
 						<li>
 							<kindDefs>
-								<li>Theo_KhajiitPlayerPawnKind_Tribal</li>
+								<li>ESCP_KhajiitPlayerPawnKind_Tribal</li>
 							</kindDefs>
 							<chance>50.0</chance>
 						</li>
 						<li>
 							<kindDefs>
-								<li>Theo_OhmesPlayerPawnKind_Tribal</li>
+								<li>ESCP_OhmesPlayerPawnKind_Tribal</li>
 							</kindDefs>
 							<chance>5.0</chance>
 						</li>
 						<li>
 							<kindDefs>
-								<li>Theo_OhmesRahtPlayerPawnKind_Tribal</li>
+								<li>ESCP_OhmesRahtPlayerPawnKind_Tribal</li>
 							</kindDefs>
 							<chance>5.0</chance>
 						</li>
 						<li>
 							<kindDefs>
-								<li>Theo_SenchePlayerPawnKind_Tribal</li>
+								<li>ESCP_SenchePlayerPawnKind_Tribal</li>
 							</kindDefs>
 							<chance>10</chance>
 						</li>
 						<li>
 							<kindDefs>
-								<li>Theo_AlfiqPlayerPawnKind_Tribal</li>
+								<li>ESCP_AlfiqPlayerPawnKind_Tribal</li>
 							</kindDefs>
 							<chance>10</chance>
 						</li>
 					</pawnKindEntries>
 					<factionDefs>
-						<li>Theo_KhajiitPlayerFaction_Tribal</li>
+						<li>ESCP_KhajiitPlayerFaction_Tribal</li>
 					</factionDefs>
 				</li>
 			</alienwandererkinds>

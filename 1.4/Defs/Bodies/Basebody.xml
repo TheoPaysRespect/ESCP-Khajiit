@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
     <BodyDef>
-        <defName>Theo_BaseBody</defName>
+        <defName>ESCP_Khajiit_BaseBody</defName>
         <label>Khajiit Base Body</label>
         <corePart>
             <def>Torso</def>

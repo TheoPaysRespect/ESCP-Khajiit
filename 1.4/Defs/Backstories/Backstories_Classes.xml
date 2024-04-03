@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<AlienRace.AlienBackstoryDef Name="Theo_CityKhajiit_ChildhoodBase" Abstract="True">
+	<AlienRace.AlienBackstoryDef Name="ESCP_CityKhajiit_ChildhoodBase" Abstract="True">
 		<slot>Childhood</slot>
 		<spawnCategories>
-			<li>Theo_CityKhajiitBackstory_Childhood</li>
+			<li>ESCP_CityKhajiitBackstory_Childhood</li>
 			<li>ESCP_KhajiitBackstory_Exclusion</li>
 		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
-	<AlienRace.AlienBackstoryDef Name="Theo_CityKhajiit_AdulthoodBase" Abstract="True">
+	<AlienRace.AlienBackstoryDef Name="ESCP_CityKhajiit_AdulthoodBase" Abstract="True">
 		<slot>Adulthood</slot>
 		<spawnCategories>
-			<li>Theo_CityKhajiitBackstory_Adulthood</li>
+			<li>ESCP_CityKhajiitBackstory_Adulthood</li>
 		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
-	<AlienRace.AlienBackstoryDef Name="Theo_TribeKhajiit_ChildhoodBase" Abstract="True">
+	<AlienRace.AlienBackstoryDef Name="ESCP_TribeKhajiit_ChildhoodBase" Abstract="True">
 		<slot>Childhood</slot>
 		<spawnCategories>
-			<li>Theo_TribeKhajiitBackstory_Childhood</li>
+			<li>ESCP_TribeKhajiitBackstory_Childhood</li>
 			<li>ESCP_KhajiitBackstory_Exclusion</li>
 		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
-	<AlienRace.AlienBackstoryDef Name="Theo_TribeKhajiit_AdulthoodBase" Abstract="True">
+	<AlienRace.AlienBackstoryDef Name="ESCP_TribeKhajiit_AdulthoodBase" Abstract="True">
 		<slot>Adulthood</slot>
 		<spawnCategories>
-			<li>Theo_TribeKhajiitBackstory_Adulthood</li>
+			<li>ESCP_TribeKhajiitBackstory_Adulthood</li>
 			<li>ESCP_KhajiitBackstory_Exclusion</li>
 		</spawnCategories>
 		<disallowedTraitsChance>
@@ -39,10 +39,10 @@
 			</li>
 		</forcedTraitsChance>
 	</AlienRace.AlienBackstoryDef>
-	<AlienRace.AlienBackstoryDef Name="Theo_MonkKhajiit_ChildhoodBase" Abstract="True">
+	<AlienRace.AlienBackstoryDef Name="ESCP_MonkKhajiit_ChildhoodBase" Abstract="True">
 		<slot>Childhood</slot>
 		<spawnCategories>
-			<li>Theo_MonkKhajiitBackstory_Childhood</li>
+			<li>ESCP_MonkKhajiitBackstory_Childhood</li>
 			<li>ESCP_KhajiitBackstory_Exclusion</li>
 		</spawnCategories>
 		<forcedTraitsChance>
@@ -52,10 +52,10 @@
 			</li>
 		</forcedTraitsChance>
 	</AlienRace.AlienBackstoryDef>
-	<AlienRace.AlienBackstoryDef Name="Theo_MonkKhajiit_AdulthoodBase" Abstract="True">
+	<AlienRace.AlienBackstoryDef Name="ESCP_MonkKhajiit_AdulthoodBase" Abstract="True">
 		<slot>Adulthood</slot>
 		<spawnCategories>
-			<li>Theo_MonkKhajiitBackstory_Adulthood</li>
+			<li>ESCP_MonkKhajiitBackstory_Adulthood</li>
 			<li>ESCP_KhajiitBackstory_Exclusion</li>
 		</spawnCategories>
 		<forcedTraitsChance>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<MemeDef>
-		<defName>Theo_Structure_Sky_Spirits</defName>
+		<defName>ESCP_Structure_Sky_Spirits</defName>
 		<label>The Sky Spirits</label>
 		<description>The belief in the sky spirits is centered around the journey of the moons, and how their placement relates to the Khajiit.</description>
 		<modExtensions>
@@ -66,7 +66,7 @@
 					<value>true</value>
 				</li>
 				<li>
-					<key>Theo_Structure_Sky_Spirits</key>
+					<key>ESCP_Structure_Sky_Spirits</key>
 					<value>true</value>
 				</li>
 			</constants>
@@ -121,7 +121,7 @@
 		</fixedDeityNameTypes>
 	</MemeDef>
 	<MemeDef>
-		<defName>Theo_Structure_Worldly_Spirits</defName>
+		<defName>ESCP_Structure_Worldly_Spirits</defName>
 		<label>The Worldly Spirits</label>
 		<description>The belief in the worldly spirits is centered around the creation of Nirn.</description>
 		<modExtensions>
@@ -183,7 +183,7 @@
 					<value>true</value>
 				</li>
 				<li>
-					<key>Theo_Structure_Worldly_Spirits</key>
+					<key>ESCP_Structure_Worldly_Spirits</key>
 					<value>true</value>
 				</li>
 			</constants>
@@ -238,7 +238,7 @@
 		</fixedDeityNameTypes>
 	</MemeDef>
 	<MemeDef>
-		<defName>Theo_Structure_Wandering_Spirits</defName>
+		<defName>ESCP_Structure_Wandering_Spirits</defName>
 		<label>The Wandering Spirits</label>
 		<description>The belief in the wandering spirits is centered around the journey of the moons, and how their placement relates to the Khajiit.</description>
 		<modExtensions>
@@ -302,7 +302,7 @@
 					<value>true</value>
 				</li>
 				<li>
-					<key>Theo_Structure_Wandering_Spirits</key>
+					<key>ESCP_Structure_Wandering_Spirits</key>
 					<value>true</value>
 				</li>
 			</constants>
@@ -357,7 +357,7 @@
 		</fixedDeityNameTypes>
 	</MemeDef>
 	<MemeDef>
-		<defName>Theo_Structure_Dark_Spirits</defName>
+		<defName>ESCP_Structure_Dark_Spirits</defName>
 		<label>The Dark Spirits</label>
 		<description>The belief in the dark spirits is centered around the journey of the moons, and how their placement relates to the Khajiit.</description>
 		<modExtensions>
@@ -418,7 +418,7 @@
 					<value>true</value>
 				</li>
 				<li>
-					<key>Theo_Structure_Dark_Spirits</key>
+					<key>ESCP_Structure_Dark_Spirits</key>
 					<value>true</value>
 				</li>
 			</constants>
@@ -469,7 +469,7 @@
 		</fixedDeityNameTypes>
 	</MemeDef>
 	<MemeDef>
-		<defName>Theo_Structure_Adverserial_Spirits</defName>
+		<defName>ESCP_Structure_Adverserial_Spirits</defName>
 		<label>The Adverserial Spirits</label>
 		<description>The belief in the adverserial spirits is centered around the journey of the moons, and how their placement relates to the Khajiit.</description>
 		<modExtensions>
@@ -531,7 +531,7 @@
 					<value>true</value>
 				</li>
 				<li>
-					<key>Theo_Structure_Adverserial_Spirits</key>
+					<key>ESCP_Structure_Adverserial_Spirits</key>
 					<value>true</value>
 				</li>
 			</constants>
