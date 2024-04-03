@@ -498,11 +498,6 @@
 			<li>(0.45, 0.79, 0.43)</li>
 			<!--fill-->
 		</colorSpectrum>
-		<modExtensions>
-			<li Class="VFECore.FactionDefExtension">
-				<neverConnectToRoads>true</neverConnectToRoads>
-			</li>
-		</modExtensions>
 		<disallowedMemes>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Guilty</li>
