@@ -35,11 +35,9 @@
                 <categoriesAdulthood>
                     <li>ESCP_TraderBackstory</li>
                 </categoriesAdulthood>
-                <excludeChildhood>
-                    <li>ESCP_Addict_Exclusion</li>
-                </excludeChildhood>
-                <excludeAdulthood>
+               <excludeAdulthood>
                     <li>ESCP_KhajiitBackstory_Exclusion</li>
+                    <li>ESCP_GenericBackstory_AdulthoodSkoomaAddict</li>
                 </excludeAdulthood>
             </li>
         </backstoryFiltersOverride>

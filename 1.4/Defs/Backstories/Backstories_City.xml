@@ -30,9 +30,6 @@
 			</li>
 		</skillGains>
 		<workDisables>Social</workDisables>
-		<spawnCategories>
-			<li>ESCP_Addict_Exclusion</li>
-		</spawnCategories>
 		<forcedHediffs>
 			<li MayRequire="sirmashedpotato.morrowrim.moonsugarandskooma">MorrowRim_SkoomaAddiction</li>
 		</forcedHediffs>
@@ -75,6 +72,9 @@
 			</li>
 		</skillGains>
 		<workDisables>Social,Intellectual,Artistic,Violent</workDisables>
+		<spawnCategories>
+			<li>ESCP_DunmerSlaveBackstory_Adulthood</li>
+		</spawnCategories>
 		<!--dres vs slave-->
 	</AlienRace.AlienBackstoryDef>
 	<AlienRace.AlienBackstoryDef ParentName="ESCP_CityKhajiit_ChildhoodBase">
@@ -91,6 +91,9 @@
 			</li>
 		</skillGains>
 		<workDisables>Social,Intellectual,Artistic,Violent</workDisables>
+		<spawnCategories>
+			<li>ESCP_DunmerSlaveBackstory_Adulthood</li>
+		</spawnCategories>
 		<!--dres vs slave-->
 	</AlienRace.AlienBackstoryDef>
 	<AlienRace.AlienBackstoryDef ParentName="ESCP_CityKhajiit_ChildhoodBase">
@@ -168,7 +171,7 @@
 		</skillGains>
 		<workDisables>ManualSkilled</workDisables>
 		<spawnCategories>
-			<li>ESCP_Addict_Exclusion</li>
+			<li>ESCP_GenericBackstory_AdulthoodSkoomaAddict</li>
 		</spawnCategories>
 		<forcedHediffs>
 			<li MayRequire="sirmashedpotato.morrowrim.moonsugarandskooma">MorrowRim_SkoomaAddiction</li>
@@ -232,6 +235,7 @@
 		<!--dres vs slave-->
 		<spawnCategories>
 			<li>ESCP_KhajiitBackstory_Exclusion</li>
+			<li>ESCP_DunmerSlaveBackstory_Adulthood</li>
 		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
 	<AlienRace.AlienBackstoryDef ParentName="ESCP_CityKhajiit_AdulthoodBase">

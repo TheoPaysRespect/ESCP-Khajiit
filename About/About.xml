@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
     <name>ESCP - Khajiit</name>
-    <packageId>Theo-ESCP.Khajiit</packageId>
+    <packageId>Theo.ESCP.Khajiit</packageId>
     <author>Theo</author>
     <modVersion>1.0</modVersion>
     <supportedVersions>

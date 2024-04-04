@@ -122,11 +122,9 @@
 				<categoriesAdulthood>
 					<li>ESCP_GenericBackstory_AdulthoodBeastMaster</li>
 				</categoriesAdulthood>
-				<excludeChildhood>
-					<li>ESCP_Addict_Exclusion</li>
-				</excludeChildhood>
 				<excludeAdulthood>
 					<li>ESCP_KhajiitBackstory_Exclusion</li>
+					<li>ESCP_GenericBackstory_AdulthoodSkoomaAddict</li>
 				</excludeAdulthood>
 			</li>
 		</backstoryFiltersOverride>
@@ -165,11 +163,9 @@
 					<li>TribalHunter</li>
 					<li>ESCP_GenericBackstory_AdulthoodMedievalHunter</li>
 				</categoriesAdulthood>
-				<excludeChildhood>
-					<li>ESCP_Addict_Exclusion</li>
-				</excludeChildhood>
 				<excludeAdulthood>
 					<li>ESCP_KhajiitBackstory_Exclusion</li>
+					<li>ESCP_GenericBackstory_AdulthoodSkoomaAddict</li>
 				</excludeAdulthood>
 			</li>
 		</backstoryFiltersOverride>
@@ -203,11 +199,9 @@
 				<categoriesAdulthood>
 					<li>ESCP_TraderBackstory</li>
 				</categoriesAdulthood>
-				<excludeChildhood>
-					<li>ESCP_Addict_Exclusion</li>
-				</excludeChildhood>
 				<excludeAdulthood>
 					<li>ESCP_KhajiitBackstory_Exclusion</li>
+					<li>ESCP_GenericBackstory_AdulthoodSkoomaAddict</li>
 				</excludeAdulthood>
 			</li>
 		</backstoryFiltersOverride>
@@ -320,11 +314,9 @@
 				<categoriesAdulthood>
 					<li>ESCP_GenericBackstory_AdulthoodBeastMaster</li>
 				</categoriesAdulthood>
-				<excludeChildhood>
-					<li>ESCP_Addict_Exclusion</li>
-				</excludeChildhood>
 				<excludeAdulthood>
 					<li>ESCP_KhajiitBackstory_Exclusion</li>
+					<li>ESCP_GenericBackstory_AdulthoodSkoomaAddict</li>
 				</excludeAdulthood>
 			</li>
 		</backstoryFiltersOverride>
