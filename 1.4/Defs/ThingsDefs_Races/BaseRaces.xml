@@ -516,17 +516,6 @@
     </AlienRace.ThingDef_AlienRace>
 
     <AlienRace.ThingDef_AlienRace ParentName="ESCP_BaseRace_Khajiit" Name="ESCP_Khajiit_Ohmes" Abstract="True">
-        <statBases>
-            <MarketValue>1900</MarketValue>
-            <MoveSpeed>4.7</MoveSpeed>
-            <Flammability>1</Flammability>
-            <MeleeDodgeChance>1.1</MeleeDodgeChance>
-            <PawnTrapSpringChance>0.8</PawnTrapSpringChance>
-        </statBases>
-        <race>
-            <baseBodySize>0.8</baseBodySize>
-            <baseHealthScale>1</baseHealthScale>
-        </race>
         <alienRace>
             <generalSettings>
                 <maxDamageForSocialfight>6</maxDamageForSocialfight>

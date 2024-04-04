@@ -7,23 +7,23 @@
     <AlienRace.ThingDef_AlienRace ParentName="ESCP_Khajiit_Quadruped">
         <defName>ESCP_SencheRace</defName>
         <label>Khajiit</label>
-        <description>A Senche Khajiit, a species native to Elsweyr.</description>
+        <description>A feline race originating from Elsweyr and one of the oldest races of Tamriel. Considered a beast race, they are often considered lesser by both man and mer. Despite this, legends say they may share a common ancestor in the Aldmer. \n\nKhajiit are known for being nimble, especially with their fingers. Spiritually connected to the cycle of the moon, their shape varies drastically depending on when they are born. A Khajiiti family can have one parent be a towering great warbeast and the other a two legged tiger, while their child can be indistinguishable from a bosmer or a housecat.\n\n&lt;color=#E5E54C&gt;Khajiit Blood&lt;/color&gt;\nPsychic sensitivity is increased by 20%\nSocial impact is decreased by 20%\nFlammability is increased by 20%\nComfort is increased by 20%\n\n&lt;color=#E5E54C&gt;Senche Furstock&lt;/color&gt;\n10% faster move speed\nBody stats akin to big felines\nDouble eating speed\nResistance to sharp and blunt damage\nProduces filth\nInability to Construction, Cooking, Mining, Crafting\n-10 level offset for Medical</description>
         <statBases>
             <MoveSpeed>5.1</MoveSpeed>
             <MarketValue>1300</MarketValue>            <!--fancy war mount-->
-            <FilthRate>1</FilthRate>            <!--will shed-->
+            <FilthRate>2</FilthRate>            <!--will shed-->
             <ComfyTemperatureMin>-15</ComfyTemperatureMin>            <!--to offset clothing-->
             <CarryingCapacity>140</CarryingCapacity>
-            <ArmorRating_Sharp>0.5</ArmorRating_Sharp> <!--for resistance reasons-->
-            <ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+            <ArmorRating_Sharp>0.3</ArmorRating_Sharp>            <!--for resistance reasons-->
+            <ArmorRating_Blunt>0.7</ArmorRating_Blunt>
             <EatingSpeed>2</EatingSpeed>
-            <LeatherAmount>120</LeatherAmount>
-            <MeatAmount>210</MeatAmount>
+            <LeatherAmount>75</LeatherAmount>
+            <MeatAmount>140</MeatAmount>
         </statBases>
         <race>
-            <baseBodySize>1.5</baseBodySize>
-            <baseHealthScale>1.3</baseHealthScale>
-            <baseHungerRate>0.2</baseHungerRate> <!--same as wargs-->
+            <baseBodySize>1.8</baseBodySize>
+            <baseHealthScale>1.5</baseHealthScale>
+            <baseHungerRate>0.2</baseHungerRate>            <!--same as wargs-->
             <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
             <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
             <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
