@@ -4,7 +4,7 @@
 
     <!--_______stomach_________-->
 
-    <HediffGiverSetDef>
+    <!--<HediffGiverSetDef>
         <defName>Khajiit_HediffGiver</defName>
         <hediffGivers>
             <li Class="HediffGiver_Birthday">
@@ -31,7 +31,7 @@
                 <foodPoisoningChanceFactor>0.3</foodPoisoningChanceFactor>
             </li>
         </stages>
-    </HediffDef>
+    </HediffDef>-->
 
 
 </Defs>

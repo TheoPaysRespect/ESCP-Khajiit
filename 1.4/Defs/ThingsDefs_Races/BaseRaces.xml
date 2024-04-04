@@ -21,14 +21,12 @@
         </descriptionHyperlinks>
         <modExtensions>
             <li Class="ESCP_RaceTools.RaceProperties">
+                <foodPoisoningResistant>true</foodPoisoningResistant>
                 <heatstrokeResistant>true</heatstrokeResistant>
                 <majorRacialGeneToInherit MayRequire="Ludeon.RimWorld.Biotech">ESCP_Khajiit_InheritedBonus</majorRacialGeneToInherit>
             </li>
         </modExtensions>
         <race>
-            <hediffGiverSets>
-                <li>Khajiit_HediffGiver</li>
-            </hediffGiverSets>
             <leatherDef>ESCP_LeatherKhajiit</leatherDef>
             <nameGenerator>ESCP_Khajiit_NamerMale</nameGenerator>
             <nameGeneratorFemale>ESCP_Khajiit_NamerFemale</nameGeneratorFemale>
