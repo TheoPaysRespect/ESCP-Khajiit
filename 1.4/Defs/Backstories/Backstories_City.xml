@@ -72,9 +72,6 @@
 			</li>
 		</skillGains>
 		<workDisables>Social,Intellectual,Artistic,Violent</workDisables>
-		<spawnCategories>
-			<li>ESCP_DunmerSlaveBackstory_Adulthood</li>
-		</spawnCategories>
 		<!--dres vs slave-->
 	</AlienRace.AlienBackstoryDef>
 	<AlienRace.AlienBackstoryDef ParentName="ESCP_CityKhajiit_ChildhoodBase">
