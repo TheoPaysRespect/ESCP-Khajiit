@@ -168,6 +168,37 @@
 					<ESCP_Khajiit_Kingdom_ChiefBeastMaster>1.5</ESCP_Khajiit_Kingdom_ChiefBeastMaster>
 				</options>
 			</li>
+			<li Class="VanillaPsycastsExpanded.PawnGroupMaker_PsycasterRaid" MayRequire="VanillaExpanded.VPsycastsE">
+				<kindDef>Combat</kindDef>
+				<commonality>100</commonality>
+				<options>
+					<ESCP_Khajiit_Kingdom_Penitent>3</ESCP_Khajiit_Kingdom_Penitent>
+					<ESCP_Ohmes_Kingdom_Penitent>1</ESCP_Ohmes_Kingdom_Penitent>
+					<ESCP_OhmesRaht_Kingdom_Penitent>1</ESCP_OhmesRaht_Kingdom_Penitent>
+
+					<ESCP_Khajiit_Kingdom_Warrior>3</ESCP_Khajiit_Kingdom_Warrior>
+					<ESCP_Ohmes_Kingdom_Warrior>1</ESCP_Ohmes_Kingdom_Warrior>
+					<ESCP_OhmesRaht_Kingdom_Warrior>1</ESCP_OhmesRaht_Kingdom_Warrior>
+					<ESCP_Senche_Kingdom_Warrior>2</ESCP_Senche_Kingdom_Warrior>
+
+					<ESCP_Khajiit_Kingdom_Archer>6</ESCP_Khajiit_Kingdom_Archer>
+					<ESCP_Ohmes_Kingdom_Archer>2</ESCP_Ohmes_Kingdom_Archer>
+					<ESCP_OhmesRaht_Kingdom_Archer>2</ESCP_OhmesRaht_Kingdom_Archer>
+
+					<ESCP_Khajiit_Kingdom_Hunter>10</ESCP_Khajiit_Kingdom_Hunter>
+					<ESCP_Khajiit_Kingdom_CatMaster>5</ESCP_Khajiit_Kingdom_CatMaster>
+					<ESCP_Khajiit_Kingdom_HeavyArcher>10</ESCP_Khajiit_Kingdom_HeavyArcher>
+					<ESCP_Khajiit_Kingdom_Berserker>5</ESCP_Khajiit_Kingdom_Berserker>
+
+					<ESCP_Khajiit_Kingdom_ChiefRanged>3</ESCP_Khajiit_Kingdom_ChiefRanged>
+					<ESCP_Khajiit_Kingdom_ChiefMelee>1.5</ESCP_Khajiit_Kingdom_ChiefMelee>
+					<ESCP_Khajiit_Kingdom_ChiefBeastMaster>1.5</ESCP_Khajiit_Kingdom_ChiefBeastMaster>
+
+					<ESCP_Khajiit_Monk_PsycasterNightstalker>0.1</ESCP_Khajiit_Monk_PsycasterNightstalker>
+					<ESCP_Khajiit_Monk_PsycasterProtector>0.1</ESCP_Khajiit_Monk_PsycasterProtector>
+					<ESCP_Khajiit_Monk_PsycasterWarlord>0.1</ESCP_Khajiit_Monk_PsycasterWarlord>
+				</options>
+			</li>
 			<li>
 				<kindDef>Combat</kindDef>
 				<commonality>30</commonality>
