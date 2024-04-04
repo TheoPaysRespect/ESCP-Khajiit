@@ -21,9 +21,7 @@
         <race>
             <baseBodySize>0.32</baseBodySize>
             <baseHealthScale>0.5</baseHealthScale>
-            <nuzzleMtbHours>12</nuzzleMtbHours>
             <baseHungerRate>0.15</baseHungerRate> <!--same as cats-->
-
             <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
             <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
             <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
