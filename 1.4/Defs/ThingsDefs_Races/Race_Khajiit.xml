@@ -58,6 +58,9 @@
 				<alienPartGenerator>
 					<bodyTypes>
 						<li>Hulk</li>
+						<li>Male</li>
+						<li>Female</li>
+						<li>Fat</li>
 					</bodyTypes>
 				</alienPartGenerator>
 				<notXenophobistTowards>

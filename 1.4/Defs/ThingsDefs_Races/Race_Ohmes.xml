@@ -23,6 +23,12 @@
                     <li>ESCP_AlfiqRace</li>
                 </notXenophobistTowards>
                 <alienPartGenerator>
+                <bodyTypes>
+                    <li>Hulk</li>
+                    <li>Male</li>
+                    <li>Female</li>
+                    <li>Fat</li>
+                </bodyTypes>
                     <colorChannels>
                         <li>
                             <!--same as bosmer-->
@@ -289,17 +295,30 @@
                             <colorChannel>skin</colorChannel>
                             <bodyPart>Tail</bodyPart>
                             <bodyPartLabel>tail</bodyPartLabel>
-                            <defaultOffset>Tail</defaultOffset>
                             <drawnInBed>false</drawnInBed>
                             <inFrontOfBody>false</inFrontOfBody>
                             <drawnDesiccated>false</drawnDesiccated>
                             <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
-                            <offsets>
+                           <offsets>
                                 <north>
-                                    <offset>(-0.0286,0.0571)</offset>
+                                    <bodyTypes>
+                                        <Male>(-0.0286,0.0571)</Male>
+                                        <Fat>(-0.0286,0.0714)</Fat>
+                                        <Female>(-0.0429,0.042)</Female>
+                                        <Hulk>(-0.0286,-0.0286)</Hulk>
+                                        <Child MayRequire="ludeon.rimworld.biotech">(-0.015,0.3)</Child>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
+                                    </bodyTypes>
                                 </north>
                                 <east>
-                                    <offset>(0.0143,-0.1429)</offset>
+                                    <bodyTypes>
+                                        <Male>(0.0571,-0.1857)</Male>
+                                        <Fat>(0.2286,-0.1857)</Fat>
+                                        <Female>(0.0429,-0.1429)</Female>
+                                        <Hulk>(0.1429,-0.2714)</Hulk>
+                                        <Child MayRequire="ludeon.rimworld.biotech">(-0.14,0.01)</Child>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(-0.2,0.04)</Baby>
+                                    </bodyTypes>
                                 </east>
                             </offsets>
                         </li>
