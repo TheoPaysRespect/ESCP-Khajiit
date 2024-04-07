@@ -186,7 +186,7 @@
             <graphicPaths>
                 <head>Things/Pawn/Humanlike/ESCP_Khajiit/Heads/Senche/</head>
                 <body>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Senche/</body>
-                <!--<skeleton>Things/Pawn/Humanlike/ESCP_Khajiit/Skeletons/Senche/</skeleton>-->
+                <skeleton>Things/Pawn/Animal/Cougar/Dessicated_Cougar</skeleton>
             </graphicPaths>
         </alienRace>
         <tools>

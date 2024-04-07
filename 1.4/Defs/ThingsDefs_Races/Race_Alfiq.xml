@@ -185,7 +185,7 @@
             <graphicPaths>
                 <head>Things/Pawn/Humanlike/ESCP_Khajiit/Heads/Alfiq/</head>
                 <body>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Alfiq/</body>
-                <!--<skeleton>Things/Pawn/Humanlike/ESCP_Khajiit/Skeletons/Alfiq/</skeleton>-->
+                <skeleton>Things/Pawn/Animal/Cat/Dessicated_Cat</skeleton>
             </graphicPaths>
         </alienRace>
         <tools>
