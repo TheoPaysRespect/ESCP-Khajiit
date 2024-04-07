@@ -102,6 +102,9 @@
                         <li MayRequire="Ludeon.RimWorld.Biotech">Baby</li>
                         <li MayRequire="Ludeon.RimWorld.Biotech">Child</li>
                     </bodyTypes>
+                    <customDrawSize>(0.55)</customDrawSize>
+                    <customHeadDrawSize>(0.55)</customHeadDrawSize>
+                    <!--<headOffset>(0.0, -0.1)</headOffset>-->
                     <bodyAddons>
                         <li>
                             <path>Things/Pawn/Humanlike/ESCP_Khajiit/Ears/Alfiq/EarRight</path>
@@ -183,14 +186,8 @@
                 </notXenophobistTowards>
             </generalSettings>
             <graphicPaths>
-                <head>
-                    <path>Things/Pawn/Humanlike/ESCP_Khajiit/Heads/Alfiq/</path>
-                    <drawSize>(0.3,0.3)</drawSize>
-                </head>
-                <body>
-                    <path>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Alfiq/</path>
-                    <drawSize>(0.3,0.3)</drawSize>
-                </body>
+                <head>Things/Pawn/Humanlike/ESCP_Khajiit/Heads/Alfiq/</head>
+                <body>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Alfiq/</body>
                 <!--<skeleton>Things/Pawn/Animal/Cat/Dessicated_Cat</skeleton>
                 <stump>Things/Pawn/Animal/Cat/Dessicated_Cat</stump>-->
             </graphicPaths>

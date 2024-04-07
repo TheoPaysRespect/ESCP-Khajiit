@@ -103,6 +103,9 @@
                         <li MayRequire="Ludeon.RimWorld.Biotech">Baby</li>
                         <li MayRequire="Ludeon.RimWorld.Biotech">Child</li>
                     </bodyTypes>
+                    <!--<customDrawSize>(1.5)</customDrawSize>
+                    <customHeadDrawSize>(1.5)</customHeadDrawSize>-->
+                    <!--<headOffset>(0.0, -0.1)</headOffset>-->
                     <bodyAddons>
                         <li>
                             <path>Things/Pawn/Humanlike/ESCP_Khajiit/Ears/Base/EarRight</path>
@@ -114,21 +117,6 @@
                             <alignWithHead>true</alignWithHead>
                             <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
                             <drawnDesiccated>false</drawnDesiccated>
-                            <!--<hiddenUnderApparelFor>
-                                <li>FullHead</li>
-                                <li>UpperHead</li>
-                            </hiddenUnderApparelFor>-->
-                            <!--<offsets>
-                                <south>
-                                    <offset>(0.043,0.15)</offset>
-                                </south>
-                                <north>
-                                    <offset>(-0.055,0.155)</offset>
-                                </north>
-                                <east>
-                                    <offset>(0.08,0.25)</offset>
-                                </east>
-                            </offsets>-->
                         </li>
                         <li>
                             <path>Things/Pawn/Humanlike/ESCP_Khajiit/Ears/Base/EarLeft</path>
@@ -141,21 +129,6 @@
                             <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
                             <drawnDesiccated>false</drawnDesiccated>
                             <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
-                            <!--<hiddenUnderApparelFor>
-                                <li>FullHead</li>
-                                <li>UpperHead</li>
-                            </hiddenUnderApparelFor>-->
-                            <!--<offsets>
-                                <south>
-                                    <offset>(-0.055,0.15)</offset>
-                                </south>
-                                <north>
-                                    <offset>(0.045,0.155)</offset>
-                                </north>
-                                <east>
-                                    <offset>(0.08,0.25)</offset>
-                                </east>
-                            </offsets>-->
                         </li>
                         <li>
                             <path>Things/Pawn/Humanlike/ESCP_Khajiit/Tails/Base/Tail</path>
@@ -184,14 +157,8 @@
                 </notXenophobistTowards>
             </generalSettings>
             <graphicPaths>
-                <head>
-                    <path>Things/Pawn/Humanlike/ESCP_Khajiit/Heads/Senche/</path>
-                    <drawSize>(1.5,1.5)</drawSize>
-                </head>
-                <body>
-                    <path>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Senche/</path>
-                    <drawSize>(1.5,1.5)</drawSize>
-                </body>
+                <head>Things/Pawn/Humanlike/ESCP_Khajiit/Heads/Senche/</head>
+                <body>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Senche/</body>
                 <!--<skeleton>Things/Pawn/Animal/Cougar/Dessicated_Cougar</skeleton>
                 <stump>Things/Pawn/Animal/Cat/Dessicated_Cougar</stump>-->
             </graphicPaths>
