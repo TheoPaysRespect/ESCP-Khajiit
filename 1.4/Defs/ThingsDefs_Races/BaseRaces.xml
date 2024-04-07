@@ -378,22 +378,21 @@
                             <offsets>
                                 <north>
                                     <bodyTypes>
-                                        <Male>(-0.0286,0.0571)</Male>
-                                        <Fat>(-0.0286,0.0714)</Fat>
-                                        <Female>(-0.0429,0.042)</Female>
-                                        <Hulk>(-0.0286,-0.0286)</Hulk>
-                                        <Child MayRequire="ludeon.rimworld.biotech">(-0.015,0.3)</Child>
-                                        <Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
+                                        <Fat>(0,-0.05)</Fat> <!--GOOD-->
+                                        <Female>(0,-0.02)</Female> <!--GOOD-->
+                                        <Hulk>(0,-0.15)</Hulk> <!--GOOD-->
+                                        <Child MayRequire="ludeon.rimworld.biotech">(0,0)</Child>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(0,0.05)</Baby> <!--GOOD-->
                                     </bodyTypes>
                                 </north>
                                 <east>
                                     <bodyTypes>
-                                        <Male>(0.0571,-0.1857)</Male>
-                                        <Fat>(0.2286,-0.1857)</Fat>
-                                        <Female>(0.0429,-0.1429)</Female>
-                                        <Hulk>(0.1429,-0.2714)</Hulk>
-                                        <Child MayRequire="ludeon.rimworld.biotech">(-0.14,0.01)</Child>
-                                        <Baby MayRequire="ludeon.rimworld.biotech">(-0.2,0.04)</Baby>
+                                        <Male>(-0.04,0)</Male> <!--GOOD-->
+                                        <Fat>(0.21,-0.05)</Fat> <!--GOOD-->
+                                        <Female>(0.065,-0.02)</Female> <!--GOOD-->
+                                        <Hulk>(0.15,-0.15)</Hulk> <!--GOOD-->
+                                        <Child MayRequire="ludeon.rimworld.biotech">(0,0)</Child>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(0.06,0.05)</Baby>
                                     </bodyTypes>
                                 </east>
                             </offsets>
@@ -654,24 +653,8 @@
                             <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
                             <offsets>
                                 <north>
-                                    <bodyTypes>
-                                        <Male>(-0.0286,0.0571)</Male>
-                                        <Fat>(-0.0286,0.0714)</Fat>
-                                        <Female>(-0.0429,0.042)</Female>
-                                        <Hulk>(-0.0286,-0.0286)</Hulk>
-                                        <Child MayRequire="ludeon.rimworld.biotech">(-0.015,0.3)</Child>
-                                        <Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
-                                    </bodyTypes>
                                 </north>
                                 <east>
-                                    <bodyTypes>
-                                        <Male>(0.0571,-0.1857)</Male>
-                                        <Fat>(0.2286,-0.1857)</Fat>
-                                        <Female>(0.0429,-0.1429)</Female>
-                                        <Hulk>(0.1429,-0.2714)</Hulk>
-                                        <Child MayRequire="ludeon.rimworld.biotech">(-0.14,0.01)</Child>
-                                        <Baby MayRequire="ludeon.rimworld.biotech">(-0.2,0.04)</Baby>
-                                    </bodyTypes>
                                 </east>
                             </offsets>
                         </li>
