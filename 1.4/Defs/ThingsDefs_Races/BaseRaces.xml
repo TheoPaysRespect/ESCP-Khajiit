@@ -304,15 +304,15 @@
                 <alienPartGenerator>
                     <headTypes>
                         <li>Male_AverageNormal</li>
-                        <!--<li>Male_AverageWide</li>-->
-                        <!--<li>Male_AveragePointy</li>-->
+                        <li>Male_AverageWide</li>
+                        <li>Male_AveragePointy</li>
                         <li>Female_AverageNormal</li>
-                        <!--<li>Female_AverageWide</li>-->
-                        <!--<li>Female_AveragePointy</li>-->
+                        <li>Female_AverageWide</li>
+                        <li>Female_AveragePointy</li>
                     </headTypes>
                     <bodyAddons>
                         <li>
-                            <path>Things/Pawn/Humanlike/ESCP_Khajiit/Ears/EarRight</path>
+                            <path>Things/Pawn/Humanlike/ESCP_Khajiit/Ears/Base/EarRight</path>
                             <colorChannel>skin</colorChannel>
                             <bodyPart>Ear</bodyPart>
                             <bodyPartLabel>right ear</bodyPartLabel>
@@ -321,26 +321,9 @@
                             <alignWithHead>true</alignWithHead>
                             <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
                             <drawnDesiccated>false</drawnDesiccated>
-                            <!--<hiddenUnderApparelFor>
-                                <li>FullHead</li>
-                                <li>UpperHead</li>
-                            </hiddenUnderApparelFor>-->
-                            <offsets>
-                                <south>
-                                    <!--<offset>(0.043,0.15)</offset>-->
-                                </south>
-                                <north>
-                                    <!--<offset>(-0.055,0.155)</offset>-->
-                                    <!--test these-->
-                                </north>
-                                <east>
-                                    <!--<offset>(0.08,0.25)</offset>-->
-                                    <!--test these-->
-                                </east>
-                            </offsets>
                         </li>
                         <li>
-                            <path>Things/Pawn/Humanlike/ESCP_Khajiit/Ears/EarLeft</path>
+                            <path>Things/Pawn/Humanlike/ESCP_Khajiit/Ears/Base/EarLeft</path>
                             <colorChannel>skin</colorChannel>
                             <bodyPart>Ear</bodyPart>
                             <bodyPartLabel>left ear</bodyPartLabel>
@@ -350,24 +333,9 @@
                             <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
                             <drawnDesiccated>false</drawnDesiccated>
                             <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
-                            <!--<hiddenUnderApparelFor>
-                                <li>FullHead</li>
-                                <li>UpperHead</li>
-                            </hiddenUnderApparelFor>-->
-                            <!--<offsets>
-                                <south>
-                                    <offset>(-0.055,0.15)</offset>
-                                </south>
-                                <north>
-                                    <offset>(0.045,0.155)</offset>
-                                </north>
-                                <east>
-                                    <offset>(0.08,0.25)</offset>
-                                </east>
-                            </offsets>-->
                         </li>
                         <li>
-                            <path>Things/Pawn/Humanlike/ESCP_Khajiit/Tails/Tail</path>
+                            <path>Things/Pawn/Humanlike/ESCP_Khajiit/Tails/Base/Tail</path>
                             <colorChannel>skin</colorChannel>
                             <bodyPart>Tail</bodyPart>
                             <bodyPartLabel>tail</bodyPartLabel>
@@ -378,19 +346,19 @@
                             <offsets>
                                 <north>
                                     <bodyTypes>
-                                        <Fat>(0,-0.05)</Fat> <!--GOOD-->
-                                        <Female>(0,-0.02)</Female> <!--GOOD-->
-                                        <Hulk>(0,-0.15)</Hulk> <!--GOOD-->
+                                        <Fat>(0,-0.05)</Fat>                                        <!--GOOD-->
+                                        <Female>(0,-0.02)</Female>                                        <!--GOOD-->
+                                        <Hulk>(0,-0.15)</Hulk>                                        <!--GOOD-->
                                         <Child MayRequire="ludeon.rimworld.biotech">(0,0)</Child>
-                                        <Baby MayRequire="ludeon.rimworld.biotech">(0,0.05)</Baby> <!--GOOD-->
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(0,0.05)</Baby>                                        <!--GOOD-->
                                     </bodyTypes>
                                 </north>
                                 <east>
                                     <bodyTypes>
-                                        <Male>(-0.04,0)</Male> <!--GOOD-->
-                                        <Fat>(0.21,-0.05)</Fat> <!--GOOD-->
-                                        <Female>(0.065,-0.02)</Female> <!--GOOD-->
-                                        <Hulk>(0.15,-0.15)</Hulk> <!--GOOD-->
+                                        <Male>(-0.04,0)</Male>                                        <!--GOOD-->
+                                        <Fat>(0.21,-0.05)</Fat>                                        <!--GOOD-->
+                                        <Female>(0.065,-0.02)</Female>                                        <!--GOOD-->
+                                        <Hulk>(0.15,-0.15)</Hulk>                                        <!--GOOD-->
                                         <Child MayRequire="ludeon.rimworld.biotech">(0,0)</Child>
                                         <Baby MayRequire="ludeon.rimworld.biotech">(0.06,0.05)</Baby>
                                     </bodyTypes>
@@ -588,77 +556,6 @@
                     </WorkSpeedGlobal>
                 </ageStatOverrides>
                 <alienPartGenerator>
-                    <bodyAddons>
-                        <li>
-                            <path>Things/Pawn/Humanlike/ESCP_Khajiit/Ears/EarRight</path>
-                            <colorChannel>skin</colorChannel>
-                            <bodyPart>Ear</bodyPart>
-                            <bodyPartLabel>right ear</bodyPartLabel>
-                            <drawnInBed>true</drawnInBed>
-                            <inFrontOfBody>true</inFrontOfBody>
-                            <alignWithHead>true</alignWithHead>
-                            <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
-                            <drawnDesiccated>false</drawnDesiccated>
-                            <!--<hiddenUnderApparelFor>
-                                <li>FullHead</li>
-                                <li>UpperHead</li>
-                            </hiddenUnderApparelFor>-->
-                            <!--<offsets>
-                                <south>
-                                    <offset>(0.043,0.15)</offset>
-                                </south>
-                                <north>
-                                    <offset>(-0.055,0.155)</offset>
-                                </north>
-                                <east>
-                                    <offset>(0.08,0.25)</offset>
-                                </east>
-                            </offsets>-->
-                        </li>
-                        <li>
-                            <path>Things/Pawn/Humanlike/ESCP_Khajiit/Ears/EarLeft</path>
-                            <colorChannel>skin</colorChannel>
-                            <bodyPart>Ear</bodyPart>
-                            <bodyPartLabel>left ear</bodyPartLabel>
-                            <drawnInBed>true</drawnInBed>
-                            <inFrontOfBody>true</inFrontOfBody>
-                            <alignWithHead>true</alignWithHead>
-                            <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
-                            <drawnDesiccated>false</drawnDesiccated>
-                            <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
-                            <!--<hiddenUnderApparelFor>
-                                <li>FullHead</li>
-                                <li>UpperHead</li>
-                            </hiddenUnderApparelFor>-->
-                            <!--<offsets>
-                                <south>
-                                    <offset>(-0.055,0.15)</offset>
-                                </south>
-                                <north>
-                                    <offset>(0.045,0.155)</offset>
-                                </north>
-                                <east>
-                                    <offset>(0.08,0.25)</offset>
-                                </east>
-                            </offsets>-->
-                        </li>
-                        <li>
-                            <path>Things/Pawn/Humanlike/ESCP_Khajiit/Tails/Tail</path>
-                            <colorChannel>skin</colorChannel>
-                            <bodyPart>Tail</bodyPart>
-                            <bodyPartLabel>tail</bodyPartLabel>
-                            <drawnInBed>false</drawnInBed>
-                            <inFrontOfBody>false</inFrontOfBody>
-                            <drawnDesiccated>false</drawnDesiccated>
-                            <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
-                            <offsets>
-                                <north>
-                                </north>
-                                <east>
-                                </east>
-                            </offsets>
-                        </li>
-                    </bodyAddons>
                     <colorChannels>
                         <li>
                             <!--same as bosmer-->

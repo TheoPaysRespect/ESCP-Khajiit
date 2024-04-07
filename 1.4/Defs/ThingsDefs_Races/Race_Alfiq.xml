@@ -90,17 +90,89 @@
                 <alienPartGenerator>
                     <headTypes Inherit="false">
                         <li>Male_AverageNormal</li>
-                        <!--<li>Male_AverageWide</li>-->
+                        <li>Male_AverageWide</li>
                         <!--<li>Male_AveragePointy</li>-->
                         <li>Female_AverageNormal</li>
-                        <!--<li>Female_AverageWide</li>-->
+                        <li>Female_AverageWide</li>
                         <!--<li>Female_AveragePointy</li>-->
                     </headTypes>
                     <bodyTypes Inherit="false">
                         <li>Thin</li>
+                        <li>Fat</li>
                         <li MayRequire="Ludeon.RimWorld.Biotech">Baby</li>
                         <li MayRequire="Ludeon.RimWorld.Biotech">Child</li>
                     </bodyTypes>
+                    <bodyAddons>
+                        <li>
+                            <path>Things/Pawn/Humanlike/ESCP_Khajiit/Ears/Alfiq/EarRight</path>
+                            <colorChannel>skin</colorChannel>
+                            <bodyPart>Ear</bodyPart>
+                            <bodyPartLabel>right ear</bodyPartLabel>
+                            <drawnInBed>true</drawnInBed>
+                            <inFrontOfBody>true</inFrontOfBody>
+                            <alignWithHead>true</alignWithHead>
+                            <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                            <drawnDesiccated>false</drawnDesiccated>
+                            <!--<hiddenUnderApparelFor>
+                                <li>FullHead</li>
+                                <li>UpperHead</li>
+                            </hiddenUnderApparelFor>-->
+                            <!--<offsets>
+                                <south>
+                                    <offset>(0.043,0.15)</offset>
+                                </south>
+                                <north>
+                                    <offset>(-0.055,0.155)</offset>
+                                </north>
+                                <east>
+                                    <offset>(0.08,0.25)</offset>
+                                </east>
+                            </offsets>-->
+                        </li>
+                        <li>
+                            <path>Things/Pawn/Humanlike/ESCP_Khajiit/Ears/Alfiq/EarLeft</path>
+                            <colorChannel>skin</colorChannel>
+                            <bodyPart>Ear</bodyPart>
+                            <bodyPartLabel>left ear</bodyPartLabel>
+                            <drawnInBed>true</drawnInBed>
+                            <inFrontOfBody>true</inFrontOfBody>
+                            <alignWithHead>true</alignWithHead>
+                            <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                            <drawnDesiccated>false</drawnDesiccated>
+                            <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
+                            <!--<hiddenUnderApparelFor>
+                                <li>FullHead</li>
+                                <li>UpperHead</li>
+                            </hiddenUnderApparelFor>-->
+                            <!--<offsets>
+                                <south>
+                                    <offset>(-0.055,0.15)</offset>
+                                </south>
+                                <north>
+                                    <offset>(0.045,0.155)</offset>
+                                </north>
+                                <east>
+                                    <offset>(0.08,0.25)</offset>
+                                </east>
+                            </offsets>-->
+                        </li>
+                        <li>
+                            <path>Things/Pawn/Humanlike/ESCP_Khajiit/Tails/Alfiq/Tail</path>
+                            <colorChannel>skin</colorChannel>
+                            <bodyPart>Tail</bodyPart>
+                            <bodyPartLabel>tail</bodyPartLabel>
+                            <drawnInBed>false</drawnInBed>
+                            <inFrontOfBody>false</inFrontOfBody>
+                            <drawnDesiccated>false</drawnDesiccated>
+                            <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                            <offsets>
+                                <north>
+                                </north>
+                                <east>
+                                </east>
+                            </offsets>
+                        </li>
+                    </bodyAddons>
                 </alienPartGenerator>
                 <maxDamageForSocialfight>4</maxDamageForSocialfight>
                 <notXenophobistTowards>
