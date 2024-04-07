@@ -306,7 +306,7 @@
             </graphicPaths>
             <generalSettings>
                 <alienPartGenerator>
-                    <headTypes>
+                    <headTypes Inherit="false">
                         <li>Male_AverageNormal</li>
                         <li>Male_AverageWide</li>
                         <li>Male_AveragePointy</li>
