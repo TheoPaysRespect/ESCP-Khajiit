@@ -102,9 +102,34 @@
                         <li MayRequire="Ludeon.RimWorld.Biotech">Baby</li>
                         <li MayRequire="Ludeon.RimWorld.Biotech">Child</li>
                     </bodyTypes>
-                    <customDrawSize>(0.6)</customDrawSize>
-                    <customHeadDrawSize>(0.6)</customHeadDrawSize>
-                    <headOffset>(0.0, -0.3)</headOffset>
+                    <customDrawSize>(0.6)</customDrawSize>                     
+                    <customHeadDrawSize>(0.45)</customHeadDrawSize>                     
+                    <headOffset>(0.0,-0.45)</headOffset>                     
+                    <customPortraitDrawSize>(0.6)</customPortraitDrawSize>
+                    <customPortraitHeadDrawSize>(0.45)</customPortraitHeadDrawSize>
+                    <headOffsetSpecific>
+                        <north>
+                            <offset>(0.0, 0.335)</offset>
+                            <portraitBodyTypes>
+                                <Thin>(0.0, 0.335)</Thin>
+                                <Fat>(0.0, 0.335)</Fat>
+                            </portraitBodyTypes>
+                        </north>
+                        <east>
+                            <offset>(0.17, 0.168)</offset>
+                            <portraitBodyTypes>
+                                <Thin>(0.17, 0.168)</Thin>
+                                <Fat>(0.17, 0.168)</Fat>
+                            </portraitBodyTypes>
+                        </east>
+                        <west>
+                            <offset>(-0.17, 0.168)</offset>
+                            <portraitBodyTypes>
+                                <Thin>(-0.17, 0.168)</Thin>
+                                <Fat>(-0.17, 0.168)</Fat>
+                            </portraitBodyTypes>
+                        </west>
+                    </headOffsetSpecific>
                     <bodyAddons>
                         <li>
                             <path>Things/Pawn/Humanlike/ESCP_Khajiit/Ears/Alfiq/EarRight</path>
@@ -116,6 +141,17 @@
                             <alignWithHead>true</alignWithHead>
                             <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
                             <drawnDesiccated>false</drawnDesiccated>
+                            <offsets>
+                                <north>
+                                    <offset>(0.02,-0.125)</offset>
+                                </north>
+                                <east>
+                                    <offset>(0.2,-0.03)</offset>                                     
+                                </east>
+                                <south>
+                                    <offset>(-0.02,0.17)</offset>                                     
+                                </south>
+                            </offsets>
                         </li>
                         <li>
                             <path>Things/Pawn/Humanlike/ESCP_Khajiit/Ears/Alfiq/EarLeft</path>
@@ -128,6 +164,17 @@
                             <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
                             <drawnDesiccated>false</drawnDesiccated>
                             <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
+                            <offsets>
+                                <north>
+                                    <offset>(-0.02,-0.125)</offset>
+                                </north>
+                                <east>
+                                    <offset>(0.2,-0.03)</offset>                                     
+                                </east>
+                                <south>
+                                    <offset>(0.02,0.17)</offset>
+                                </south>
+                            </offsets>
                         </li>
                         <li>
                             <path>Things/Pawn/Humanlike/ESCP_Khajiit/Tails/Alfiq/Tail</path>

@@ -160,7 +160,8 @@
                 <head>Things/Pawn/Humanlike/ESCP_Khajiit/Heads/Senche/</head>
                 <body>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Senche/</body>
                 <!--<skeleton>Things/Pawn/Animal/Cougar/Dessicated_Cougar</skeleton>
-                <stump>Things/Pawn/Animal/Cat/Dessicated_Cougar</stump>-->
+                <stump>Things/Pawn/Animal/Cat/Dessicated_Cougar</stump>
+                <skull></skull>-->
             </graphicPaths>
         </alienRace>
         <tools>
