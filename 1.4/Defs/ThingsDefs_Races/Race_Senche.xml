@@ -184,9 +184,16 @@
                 </notXenophobistTowards>
             </generalSettings>
             <graphicPaths>
-                <head>Things/Pawn/Humanlike/ESCP_Khajiit/Heads/Senche/</head>
-                <body>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Senche/</body>
-                <skeleton>Things/Pawn/Animal/Cougar/Dessicated_Cougar</skeleton>
+                <head>
+                    <path>Things/Pawn/Humanlike/ESCP_Khajiit/Heads/Senche/</path>
+                    <drawSize>(1.5,1.5)</drawSize>
+                </head>
+                <body>
+                    <path>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Senche/</path>
+                    <drawSize>(1.5,1.5)</drawSize>
+                </body>
+                <!--<skeleton>Things/Pawn/Animal/Cougar/Dessicated_Cougar</skeleton>
+                <stump>Things/Pawn/Animal/Cat/Dessicated_Cougar</stump>-->
             </graphicPaths>
         </alienRace>
         <tools>
