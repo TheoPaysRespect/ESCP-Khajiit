@@ -221,13 +221,17 @@
                 <allowHumanBios>false</allowHumanBios>
                 <humanRecipeImport>true</humanRecipeImport>
                 <immuneToAge>false</immuneToAge>
-                <alienPartGenerator Inherit="false">
+                <!--<alienPartGenerator Inherit="false">
                     <bodyTypes>
                         <li>Thin</li>
+                        <li>Hulk</li>
+                        <li>Male</li>
+                        <li>Female</li>
+                        <li>Fat</li>
                         <li MayRequire="Ludeon.RimWorld.Biotech">Baby</li>
                         <li MayRequire="Ludeon.RimWorld.Biotech">Child</li>
                     </bodyTypes>
-                </alienPartGenerator>
+                </alienPartGenerator>-->
                 <newbornBackstoryFilter>
                     <li>
                         <categories>
@@ -346,21 +350,21 @@
                             <offsets>
                                 <north>
                                     <bodyTypes>
-                                        <Fat>(0,-0.05)</Fat>                                        <!--GOOD-->
+                                        <Fat>(0,-0.04)</Fat>                                        <!--GOOD-->
                                         <Female>(0,-0.02)</Female>                                        <!--GOOD-->
                                         <Hulk>(0,-0.15)</Hulk>                                        <!--GOOD-->
-                                        <Child MayRequire="ludeon.rimworld.biotech">(0,0)</Child>
-                                        <Baby MayRequire="ludeon.rimworld.biotech">(0,0.05)</Baby>                                        <!--GOOD-->
+                                        <Child MayRequire="ludeon.rimworld.biotech">(0,0.1)</Child>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(0,0.05)</Baby><!--GOOD-->
                                     </bodyTypes>
                                 </north>
                                 <east>
                                     <bodyTypes>
-                                        <Male>(-0.04,0)</Male>                                        <!--GOOD-->
-                                        <Fat>(0.21,-0.05)</Fat>                                        <!--GOOD-->
+                                        <Male>(-0.045,0)</Male>                                        <!--GOOD-->
+                                        <Fat>(0.23,-0.04)</Fat>                                        <!--GOOD-->
                                         <Female>(0.065,-0.02)</Female>                                        <!--GOOD-->
                                         <Hulk>(0.15,-0.15)</Hulk>                                        <!--GOOD-->
-                                        <Child MayRequire="ludeon.rimworld.biotech">(0,0)</Child>
-                                        <Baby MayRequire="ludeon.rimworld.biotech">(0.06,0.05)</Baby>
+                                        <Child MayRequire="ludeon.rimworld.biotech">(-0.03,0.1)</Child>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(0.02,0.05)</Baby>
                                     </bodyTypes>
                                 </east>
                             </offsets>

@@ -55,14 +55,6 @@
 		</race>
 		<alienRace>
 			<generalSettings>
-				<alienPartGenerator>
-					<bodyTypes>
-						<li>Hulk</li>
-						<li>Male</li>
-						<li>Female</li>
-						<li>Fat</li>
-					</bodyTypes>
-				</alienPartGenerator>
 				<notXenophobistTowards>
 					<li>ESCP_OhmesRace</li>
 					<li>ESCP_OhmesRahtRace</li>
