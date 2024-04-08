@@ -303,6 +303,7 @@
             <graphicPaths>
                 <head>Things/Pawn/Humanlike/ESCP_Khajiit/Heads/Base/</head>
                 <body>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Base/</body>
+                <skull>Things/Pawn/Humanlike/ESCP_Khajiit/Skeletons/Base/Skull</skull>
             </graphicPaths>
             <generalSettings>
                 <alienPartGenerator>
