@@ -197,6 +197,52 @@
                             </offsets>
                         </li>
                     </bodyAddons>
+                    <anchorReplacements>
+                        <li>
+                            <originalTag>LeftEye</originalTag>
+                                <replacement>
+                                <rotation>West</rotation>
+                                <tag>LeftEye</tag>
+                                <canMirror>false</canMirror>
+                                <offset>(-0.072,0,0.25)</offset>
+                                <range>0</range>
+                                <layer>Head</layer>
+                            </replacement>
+                            </li>
+                        <li>
+                            <originalTag>RightEye</originalTag>
+                            <replacement>
+                                <rotation>East</rotation>
+                                <tag>RightEye</tag>
+                                <canMirror>false</canMirror>
+                                <offset>(0.072,0,0.25)</offset>
+                                <range>0</range>
+                                <layer>Head</layer>
+                            </replacement>
+                            </li>
+                        <li>
+                            <originalTag>LeftEye</originalTag>
+                            <replacement>
+                                <rotation>South</rotation>
+                                <tag>LeftEye</tag>
+                                <canMirror>false</canMirror>
+                                <offset>(-0.08,0.1,0.25)</offset>
+                                <range>0</range>
+                                <layer>Head</layer>
+                            </replacement>
+                            </li>
+                        <li>
+                            <originalTag>RightEye</originalTag>
+                            <replacement>
+                                <rotation>South</rotation>
+                                <tag>RightEye</tag>
+                                <canMirror>false</canMirror>
+                                <offset>(0.08,0.1,0.25)</offset>
+                                <range>0</range>
+                                <layer>Head</layer>
+                            </replacement>
+                            </li>
+                    </anchorReplacements>
                 </alienPartGenerator>
                 <maxDamageForSocialfight>4</maxDamageForSocialfight>
                 <notXenophobistTowards>
