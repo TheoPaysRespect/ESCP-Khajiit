@@ -430,7 +430,7 @@
                                 </options>
                             </first>
                         </li>
-                        <li>
+                        <!--<li>
                             <name>hair</name>
                             <first Class="ColorGenerator_Options">
                                 <options>
@@ -488,7 +488,7 @@
                                     </li>
                                 </options>
                             </first>
-                        </li>
+                        </li>-->
                     </colorChannels>
                 </alienPartGenerator>
             </generalSettings>
