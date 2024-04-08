@@ -147,103 +147,65 @@
                     <li>ESCP_AlfiqRace</li>
                 </notXenophobistTowards>
                 <alienPartGenerator>
-                    <colorChannels Inherit="false">
-                        <li>
-                            <!--same as standard khajiit-->
-                            <name>skin</name>
-                            <first Class="ColorGenerator_Options">
-                                <options>
-                                    <li>
-                                        <weight>10</weight>
-                                        <only>(202,147,116,255)</only>
-                                    </li>
-                                    <li>
-                                        <weight>10</weight>
-                                        <only>(186,133,102,255)</only>
-                                    </li>
-                                    <li>
-                                        <weight>10</weight>
-                                        <only>(208,154,116,255)</only>
-                                    </li>
-                                    <li>
-                                        <weight>10</weight>
-                                        <only>(189,135,99,255)</only>
-                                    </li>
-                                    <li>
-                                        <weight>10</weight>
-                                        <only>(156,116,90,255)</only>
-                                    </li>
-                                    <li>
-                                        <weight>10</weight>
-                                        <only>(180,131,99,255)</only>
-                                    </li>
-                                    <li>
-                                        <weight>10</weight>
-                                        <only>(218,172,139,255)</only>
-                                    </li>
-                                    <li>
-                                        <weight>10</weight>
-                                        <only>(156,122,97,255)</only>
-                                    </li>
-                                    <li>
-                                        <weight>10</weight>
-                                        <only>(128,93,71,255)</only>
-                                    </li>
-                                    <li>
-                                        <weight>10</weight>
-                                        <only>(163,122,94,255)</only>
-                                    </li>
-                                </options>
-                            </first>
-                        </li>
-                        <li>
-                            <name>hair</name>
-                            <first Class="ColorGenerator_Options">
-                                <options>
-                                    <li>
-                                        <weight>10</weight>
-                                        <only>(58,35,17,255)</only>
-                                    </li>
-                                    <li>
-                                        <weight>10</weight>
-                                        <only>(40,31,22,255)</only>
-                                    </li>
-                                    <li>
-                                        <weight>10</weight>
-                                        <only>(87,61,44,255)</only>
-                                    </li>
-                                    <li>
-                                        <weight>10</weight>
-                                        <only>(63,37,22,255)</only>
-                                    </li>
-                                    <li>
-                                        <weight>10</weight>
-                                        <only>(76,53,35,255)</only>
-                                    </li>
-                                    <li>
-                                        <weight>10</weight>
-                                        <only>(70,42,30,255)</only>
-                                    </li>
-                                    <li>
-                                        <weight>10</weight>
-                                        <only>(125,108,88,255)</only>
-                                    </li>
-                                    <li>
-                                        <weight>10</weight>
-                                        <only>(96,60,44,255)</only>
-                                    </li>
-                                    <li>
-                                        <weight>10</weight>
-                                        <only>(101,67,42,255)</only>
-                                    </li>
-                                    <li>
-                                        <weight>10</weight>
-                                        <only>(124,91,56,255)</only>
-                                    </li>
-                                </options>
-                            </first>
-                        </li>
-                    </colorChannels>
+                    <li>
+                        <name>skin</name>
+                        <!--Adjust
+							colors-->
+                        <first Class="ColorGenerator_Options">
+                            <options>
+                                <li>
+                                    <!--white-->
+                                    <weight>10</weight>
+                                    <only>(241,241,241,255)</only>
+                                </li>
+                                <li>
+                                    <!--yellow brown-->
+                                    <weight>10</weight>
+                                    <only>(150,110,75,255)</only>
+                                </li>
+                                <li>
+                                    <!--black-->
+                                    <weight>10</weight>
+                                    <only>(40,40,40,255)</only>
+                                </li>
+                                <li>
+                                    <!--light brown-->
+                                    <weight>10</weight>
+                                    <only>(187,125,88,255)</only>
+                                </li>
+                                <li>
+                                    <!--brown-->
+                                    <weight>10</weight>
+                                    <only>(100,73,59,255)</only>
+                                </li>
+                                <li>
+                                    <!--red brown-->
+                                    <weight>10</weight>
+                                    <only>(151,89,68,255)</only>
+                                </li>
+                                <li>
+                                    <!--orange-->
+                                    <weight>10</weight>
+                                    <only>(226,174,113,255)</only>
+                                </li>
+                                <li>
+                                    <!--beige-->
+                                    <weight>10</weight>
+                                    <only>(246,222,198,255)</only>
+                                </li>
+                                <li>
+                                    <!--yellow-->
+                                    <weight>10</weight>
+                                    <only>(245,212,168,255)</only>
+                                </li>
+                                <li>
+                                    <!--brown grey-->
+                                    <weight>10</weight>
+                                    <only>(166,148,130,255)</only>
+                                </li>
+                            </options>
+                        </first>
+                    </li>
                     <bodyAddons>
                         <li>
                             <path>Things/Pawn/Humanlike/ESCP_Khajiit/Ears/Base/EarRight</path>
@@ -255,17 +217,6 @@
                             <alignWithHead>true</alignWithHead>
                             <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
                             <drawnDesiccated>false</drawnDesiccated>
-                            <!--<offsets>
-                                <south>
-                                    <offset>(0.043,0.15)</offset>
-                                </south>
-                                <north>
-                                    <offset>(-0.055,0.155)</offset>
-                                </north>
-                                <east>
-                                    <offset>(0.08,0.25)</offset>
-                                </east>
-                            </offsets>-->
                         </li>
                         <li>
                             <path>Things/Pawn/Humanlike/ESCP_Khajiit/Ears/Base/EarLeft</path>
@@ -278,17 +229,6 @@
                             <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
                             <drawnDesiccated>false</drawnDesiccated>
                             <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
-                            <!--<offsets>
-                                <south>
-                                    <offset>(-0.055,0.15)</offset>
-                                </south>
-                                <north>
-                                    <offset>(0.045,0.155)</offset>
-                                </north>
-                                <east>
-                                    <offset>(0.08,0.25)</offset>
-                                </east>
-                            </offsets>-->
                         </li>
                         <li>
                             <path>Things/Pawn/Humanlike/ESCP_Khajiit/Tails/Base/Tail</path>
