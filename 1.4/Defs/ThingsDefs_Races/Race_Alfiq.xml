@@ -109,10 +109,10 @@
                     <customPortraitHeadDrawSize>(0.45)</customPortraitHeadDrawSize>
                     <headOffsetSpecific>
                         <north>
-                            <offset>(0.0, 0.335)</offset>
+                            <offset>(0.0, 0.332)</offset>
                             <portraitBodyTypes>
-                                <Thin>(0.0, 0.335)</Thin>
-                                <Fat>(0.0, 0.335)</Fat>
+                                <Thin>(0.0, 0.332)</Thin>
+                                <Fat>(0.0, 0.332)</Fat>
                             </portraitBodyTypes>
                         </north>
                         <east>
@@ -189,7 +189,11 @@
                                 <north>
                                 </north>
                                 <east>
+
                                 </east>
+                                <west>
+                                    
+                                </west>
                             </offsets>
                         </li>
                     </bodyAddons>
