@@ -77,44 +77,52 @@
                             <first Class="ColorGenerator_Options">
                                 <options>
                                     <li>
-                                        <weight>10</weight>
-                                        <only>(58,35,17,255)</only>
+                                        <weight>2</weight>
+                                        <only>(194,194,194,255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>5</weight>
+                                        <only>(166,150,132,255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>5</weight>
+                                        <only>(157,125,94,255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>5</weight>
+                                        <only>(157,107,56,255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>5</weight>
+                                        <only>(107,87,66,255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>5</weight>
+                                        <only>(65,52,40,255)</only>
                                     </li>
                                     <li>
                                         <weight>10</weight>
-                                        <only>(40,31,22,255)</only>
+                                        <only>(45,37,36,255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>5</weight>
+                                        <only>(102,94,87,255)</only>
                                     </li>
                                     <li>
                                         <weight>10</weight>
-                                        <only>(87,61,44,255)</only>
+                                        <only>(30,30,30,255)</only>
                                     </li>
                                     <li>
-                                        <weight>10</weight>
-                                        <only>(63,37,22,255)</only>
+                                        <weight>5</weight>
+                                        <only>(87,70,54,255)</only>
                                     </li>
                                     <li>
-                                        <weight>10</weight>
-                                        <only>(76,53,35,255)</only>
+                                        <weight>2</weight>
+                                        <only>(147,127,119,255)</only>
                                     </li>
                                     <li>
-                                        <weight>10</weight>
-                                        <only>(70,42,30,255)</only>
-                                    </li>
-                                    <li>
-                                        <weight>10</weight>
-                                        <only>(125,108,88,255)</only>
-                                    </li>
-                                    <li>
-                                        <weight>10</weight>
-                                        <only>(96,60,44,255)</only>
-                                    </li>
-                                    <li>
-                                        <weight>10</weight>
-                                        <only>(101,67,42,255)</only>
-                                    </li>
-                                    <li>
-                                        <weight>10</weight>
-                                        <only>(124,91,56,255)</only>
+                                        <weight>2</weight>
+                                        <only>(151,75,54,255)</only>
                                     </li>
                                 </options>
                             </first>
@@ -206,44 +214,52 @@
                             <first Class="ColorGenerator_Options">
                                 <options>
                                     <li>
-                                        <weight>10</weight>
-                                        <only>(58,35,17,255)</only>
+                                        <weight>2</weight>
+                                        <only>(194,194,194,255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>5</weight>
+                                        <only>(166,150,132,255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>5</weight>
+                                        <only>(157,125,94,255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>5</weight>
+                                        <only>(157,107,56,255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>5</weight>
+                                        <only>(107,87,66,255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>5</weight>
+                                        <only>(65,52,40,255)</only>
                                     </li>
                                     <li>
                                         <weight>10</weight>
-                                        <only>(40,31,22,255)</only>
+                                        <only>(45,37,36,255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>5</weight>
+                                        <only>(102,94,87,255)</only>
                                     </li>
                                     <li>
                                         <weight>10</weight>
-                                        <only>(87,61,44,255)</only>
+                                        <only>(30,30,30,255)</only>
                                     </li>
                                     <li>
-                                        <weight>10</weight>
-                                        <only>(63,37,22,255)</only>
+                                        <weight>5</weight>
+                                        <only>(87,70,54,255)</only>
                                     </li>
                                     <li>
-                                        <weight>10</weight>
-                                        <only>(76,53,35,255)</only>
+                                        <weight>2</weight>
+                                        <only>(147,127,119,255)</only>
                                     </li>
                                     <li>
-                                        <weight>10</weight>
-                                        <only>(70,42,30,255)</only>
-                                    </li>
-                                    <li>
-                                        <weight>10</weight>
-                                        <only>(125,108,88,255)</only>
-                                    </li>
-                                    <li>
-                                        <weight>10</weight>
-                                        <only>(96,60,44,255)</only>
-                                    </li>
-                                    <li>
-                                        <weight>10</weight>
-                                        <only>(101,67,42,255)</only>
-                                    </li>
-                                    <li>
-                                        <weight>10</weight>
-                                        <only>(124,91,56,255)</only>
+                                        <weight>2</weight>
+                                        <only>(151,75,54,255)</only>
                                     </li>
                                 </options>
                             </first>
