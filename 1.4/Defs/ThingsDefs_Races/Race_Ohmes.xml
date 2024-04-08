@@ -23,12 +23,6 @@
                     <li>ESCP_AlfiqRace</li>
                 </notXenophobistTowards>
                 <alienPartGenerator>
-                <bodyTypes>
-                    <li>Hulk</li>
-                    <li>Male</li>
-                    <li>Female</li>
-                    <li>Fat</li>
-                </bodyTypes>
                     <colorChannels>
                         <li>
                             <!--same as bosmer-->
@@ -78,7 +72,7 @@
                                 </options>
                             </first>
                         </li>
-                        <li>
+                        <!--<li>
                             <name>hair</name>
                             <first Class="ColorGenerator_Options">
                                 <options>
@@ -124,7 +118,7 @@
                                     </li>
                                 </options>
                             </first>
-                        </li>
+                        </li>-->
                     </colorChannels>
                 </alienPartGenerator>
             </generalSettings>
@@ -239,7 +233,7 @@
                             <inFrontOfBody>false</inFrontOfBody>
                             <drawnDesiccated>false</drawnDesiccated>
                             <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
-                           <offsets>
+                            <offsets>
                                 <north>
                                     <bodyTypes>
                                         <Fat>(0,-0.04)</Fat>                                        <!--GOOD-->

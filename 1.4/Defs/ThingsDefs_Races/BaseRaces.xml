@@ -383,12 +383,12 @@
                                         <only>(241,241,241,255)</only>
                                     </li>
                                     <li>
-                                        <!--yellow brown-->
+                                        <!--light grey-->
                                         <weight>10</weight>
                                         <only>(150,110,75,255)</only>
                                     </li>
                                     <li>
-                                        <!--black-->
+                                        <!--dark grey-->
                                         <weight>10</weight>
                                         <only>(40,40,40,255)</only>
                                     </li>
