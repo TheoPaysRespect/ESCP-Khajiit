@@ -72,7 +72,7 @@
                                 </options>
                             </first>
                         </li>
-                        <!--<li>
+                        <li>
                             <name>hair</name>
                             <first Class="ColorGenerator_Options">
                                 <options>
@@ -118,7 +118,7 @@
                                     </li>
                                 </options>
                             </first>
-                        </li>-->
+                        </li>
                     </colorChannels>
                 </alienPartGenerator>
             </generalSettings>
@@ -197,6 +197,53 @@
                                         <!--brown grey-->
                                         <weight>10</weight>
                                         <only>(166,148,130,255)</only>
+                                    </li>
+                                </options>
+                            </first>
+                        </li>
+                        <li>
+                            <name>hair</name>
+                            <first Class="ColorGenerator_Options">
+                                <options>
+                                    <li>
+                                        <weight>10</weight>
+                                        <only>(58,35,17,255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>10</weight>
+                                        <only>(40,31,22,255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>10</weight>
+                                        <only>(87,61,44,255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>10</weight>
+                                        <only>(63,37,22,255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>10</weight>
+                                        <only>(76,53,35,255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>10</weight>
+                                        <only>(70,42,30,255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>10</weight>
+                                        <only>(125,108,88,255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>10</weight>
+                                        <only>(96,60,44,255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>10</weight>
+                                        <only>(101,67,42,255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>10</weight>
+                                        <only>(124,91,56,255)</only>
                                     </li>
                                 </options>
                             </first>
