@@ -68,6 +68,30 @@
                 <traitList>
                     <li>Khajiit_AlfiqTrait</li>
                 </traitList>
+                <whiteApparelList Inherit ="false">
+                    <!--
+                    general ruleset:
+                    - hats that aren't armor, shoes, necklaces, belts = ok
+                    - backpacks, body, rings, gloves = not ok
+                    - move into patches per dlc/mod
+                    -->
+
+                    <!--core-->
+                    <li>Apparel_Tuque</li>
+                    <li>Apparel_CowboyHat</li>
+                    <li>Apparel_BowlerHat</li>
+                    <li>Apparel_TribalHeaddress</li>
+                    <li>Apparel_WarMask</li> <!--slight side rotation-->
+                    <li>Apparel_WarVeil</li> <!--slight side rotation-->
+                    <li>Apparel_SimpleHelmet</li>
+                    <li>Apparel_AdvancedHelmet</li>
+                    <li>Apparel_PsychicFoilHelmet</li> <!--looks weird with ears-->
+                    <li>Apparel_HatHood</li>
+
+                    <!--colovian fur helm-->
+                    <li MayRequire="sirmashedpotato.morrowrim.colovianfurhelm">MorrowRim_ColovianFurHelm</li>
+
+                </whiteApparelList>
             </raceRestriction>
             <generalSettings>
                 <forcedRaceTraitEntries>

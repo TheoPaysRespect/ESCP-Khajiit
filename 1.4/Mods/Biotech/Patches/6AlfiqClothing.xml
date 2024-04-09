@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="ESCP_AlfiqRace"]/alienRace/raceRestriction/whiteApparelList</xpath>
+        <value>
+            <!--biotech-->
+            <li>Apparel_KidHelmet</li>
+
+            <li>Apparel_AirwireHeadset</li>
+            <li>Apparel_ArrayHeadset</li>
+            <li>Apparel_IntegratorHeadset</li>
+            <li>Apparel_GasMask</li>
+            <li>Apparel_ClothMask</li>            <!--snout offset-->
+        </value>
+    </Operation>
+</Patch>

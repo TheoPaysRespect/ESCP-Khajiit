@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="ESCP_AlfiqRace"]/alienRace/raceRestriction/whiteApparelList</xpath>
+        <value>
+           <!--vanilla apparel expanded-->
+            <li>VAE_Footwear_Boots</li>
+            <li>VAE_Footwear_Shoes</li>
+
+            <li>VAE_Headgear_Fedora</li>
+
+            <li>VAE_Headgear_Scarf</li>
+            <li>VAE_Headgear_Hardhat</li>
+            <li>VAE_Headgear_SurgicalMask</li>            <!--snout offset-->
+            <li>VAE_Headgear_BaseballCap</li>
+            <li>VAE_Headgear_Sunglasses</li>
+            <li>VAE_Headgear_Glasses</li>
+            <li>VAE_Headgear_ChefsToque</li>  
+
+        </value>
+    </Operation>
+</Patch>

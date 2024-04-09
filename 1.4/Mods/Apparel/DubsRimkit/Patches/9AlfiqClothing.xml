@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="ESCP_AlfiqRace"]/alienRace/raceRestriction/whiteApparelList</xpath>
+        <value>
+            <!--dubs rimkit-->
+            <li>MedicineBag</li>
+            <li>MedicalKit</li>
+            <li>UltraMedKit</li>
+        </value>
+    </Operation>
+</Patch>

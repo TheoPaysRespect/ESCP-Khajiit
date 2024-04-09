@@ -70,6 +70,7 @@
                 <traitList>
                     <li>Khajiit_SencheTrait</li>
                 </traitList>
+                <whiteApparelList Inherit ="false"></whiteApparelList>
             </raceRestriction>
             <generalSettings>
                 <forcedRaceTraitEntries>

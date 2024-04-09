@@ -633,7 +633,6 @@
             </thoughtSettings>
             <raceRestriction>
                 <onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
-                <whiteApparelList Inherit ="false"></whiteApparelList>
                 <onlyUseRaceRestrictedWeapons>true</onlyUseRaceRestrictedWeapons>
                 <whiteWeaponList Inherit ="false"></whiteWeaponList>
 
