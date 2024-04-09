@@ -202,7 +202,7 @@
                                     <offset>(-0.02,0.17)</offset>
                                     <bodyTypes>
                                         <Child MayRequire="ludeon.rimworld.biotech">(0,-0.05)</Child>
-                                        <Baby MayRequire="ludeon.rimworld.biotech">(0,-0.07)</Baby>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(0,-0.08)</Baby>
                                     </bodyTypes>
                                 </south>
                             </offsets>
@@ -237,7 +237,7 @@
                                     <offset>(0.02,0.17)</offset>
                                     <bodyTypes>
                                         <Child MayRequire="ludeon.rimworld.biotech">(0,-0.05)</Child>
-                                        <Baby MayRequire="ludeon.rimworld.biotech">(0,-0.07)</Baby>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(0,-0.08)</Baby>
                                     </bodyTypes>
                                 </south>
                             </offsets>
