@@ -9,19 +9,21 @@
         <graphicData>
             <texPath>Things/Items/Yarnball</texPath>
             <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(0.7,0.7)</drawSize>
         </graphicData>
         <size>(1,1)</size>
         <minifiedDef>MinifiedThing</minifiedDef>
         <castEdgeShadows>false</castEdgeShadows>
-        <altitudeLayer>Building</altitudeLayer>
+        <altitudeLayer>BuildingOnTop</altitudeLayer>
         <rotatable>false</rotatable>
         <socialPropernessMatters>true</socialPropernessMatters>
         <fillPercent>0.20</fillPercent>
         <maxTechLevelToBuild>Neolithic</maxTechLevelToBuild>
         <building>
-            <!--<joyKind>Gaming_Dexterity</joyKind>-->
             <paintable>true</paintable>
+            <isEdifice>false</isEdifice>
         </building>
+        <clearBuildingArea>false</clearBuildingArea>
         <statBases>
             <MaxHitPoints>30</MaxHitPoints>
             <WorkToBuild>100</WorkToBuild>
