@@ -569,49 +569,60 @@
                 <alienPartGenerator>
                     <colorChannels>
                         <li>
-                            <!--same as bosmer-->
                             <name>skin</name>
+                            <!--Adjust
+							colors-->
                             <first Class="ColorGenerator_Options">
                                 <options>
                                     <li>
+                                        <!--white-->
                                         <weight>10</weight>
-                                        <only>(202,147,116,255)</only>
+                                        <only>(241,241,241,255)</only>
                                     </li>
                                     <li>
+                                        <!--light grey-->
                                         <weight>10</weight>
-                                        <only>(186,133,102,255)</only>
+                                        <only>(150,110,75,255)</only>
                                     </li>
                                     <li>
+                                        <!--dark grey-->
                                         <weight>10</weight>
-                                        <only>(208,154,116,255)</only>
+                                        <only>(40,40,40,255)</only>
                                     </li>
                                     <li>
+                                        <!--light brown-->
                                         <weight>10</weight>
-                                        <only>(189,135,99,255)</only>
+                                        <only>(187,125,88,255)</only>
                                     </li>
                                     <li>
+                                        <!--brown-->
                                         <weight>10</weight>
-                                        <only>(156,116,90,255)</only>
+                                        <only>(100,73,59,255)</only>
                                     </li>
                                     <li>
+                                        <!--red brown-->
                                         <weight>10</weight>
-                                        <only>(180,131,99,255)</only>
+                                        <only>(151,89,68,255)</only>
                                     </li>
                                     <li>
+                                        <!--orange-->
                                         <weight>10</weight>
-                                        <only>(218,172,139,255)</only>
+                                        <only>(226,174,113,255)</only>
                                     </li>
                                     <li>
+                                        <!--beige-->
                                         <weight>10</weight>
-                                        <only>(156,122,97,255)</only>
+                                        <only>(246,222,198,255)</only>
                                     </li>
                                     <li>
+                                        <!--yellow-->
                                         <weight>10</weight>
-                                        <only>(128,93,71,255)</only>
+                                        <only>(245,212,168,255)</only>
                                     </li>
                                     <li>
+                                        <!--brown grey-->
                                         <weight>10</weight>
-                                        <only>(163,122,94,255)</only>
+                                        <only>(166,148,130,255)</only>
                                     </li>
                                 </options>
                             </first>
