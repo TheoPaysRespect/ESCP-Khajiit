@@ -128,20 +128,16 @@
                     </bodyTypes>
                     <customDrawSize>(0.6)</customDrawSize>
                     <customHeadDrawSize>(0.45)</customHeadDrawSize>
+                    <customPortraitHeadDrawSize>(0.55)</customPortraitHeadDrawSize>
+                    <customPortraitDrawSize>(0.7)</customPortraitDrawSize>
                     <headOffset>(0.0,-0.45)</headOffset>
-                    <customPortraitDrawSize>(0.6)</customPortraitDrawSize>
-                    <customPortraitHeadDrawSize>(0.45)</customPortraitHeadDrawSize>
                     <headOffsetSpecific>
                         <north>
-                            <offset>(0.0, 0.332)</offset>
+                            <offset>(0.0, 0.334)</offset>
                             <bodyTypes>
                                 <Child MayRequire="ludeon.rimworld.biotech">(0,0)</Child>
                                 <Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
                             </bodyTypes>
-                            <portraitBodyTypes>
-                                <Thin>(0.0, 0.332)</Thin>
-                                <Fat>(0.0, 0.332)</Fat>
-                            </portraitBodyTypes>
                         </north>
                         <east>
                             <offset>(0.17, 0.168)</offset>
@@ -149,10 +145,6 @@
                                 <Child MayRequire="ludeon.rimworld.biotech">(0,0)</Child>
                                 <Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
                             </bodyTypes>
-                            <portraitBodyTypes>
-                                <Thin>(0.17, 0.168)</Thin>
-                                <Fat>(0.17, 0.168)</Fat>
-                            </portraitBodyTypes>
                         </east>
                         <west>
                             <offset>(-0.17, 0.168)</offset>
@@ -160,10 +152,6 @@
                                 <Child MayRequire="ludeon.rimworld.biotech">(0,0)</Child>
                                 <Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
                             </bodyTypes>
-                            <portraitBodyTypes>
-                                <Thin>(-0.17, 0.168)</Thin>
-                                <Fat>(-0.17, 0.168)</Fat>
-                            </portraitBodyTypes>
                         </west>
                         <south>
                             <bodyTypes>
@@ -190,6 +178,10 @@
                                         <Child MayRequire="ludeon.rimworld.biotech">(-0.01,0.02)</Child>
                                         <Baby MayRequire="ludeon.rimworld.biotech">(-0.01,0.04)</Baby>
                                     </bodyTypes>
+                                    <portraitBodyTypes>
+                                        <Thin>(0,-0.03)</Thin>
+                                        <Fat>(0,-0.03)</Fat>
+                                    </portraitBodyTypes>
                                 </north>
                                 <east>
                                     <offset>(0.2,-0.03)</offset>
@@ -197,6 +189,10 @@
                                         <Child MayRequire="ludeon.rimworld.biotech">(-0.05,0)</Child>
                                         <Baby MayRequire="ludeon.rimworld.biotech">(-0.08,0.02)</Baby>
                                     </bodyTypes>
+                                    <portraitBodyTypes>
+                                        <Thin>(0.05,0)</Thin>
+                                        <Fat>(0.05,0)</Fat>
+                                    </portraitBodyTypes>
                                 </east>
                                 <south>
                                     <offset>(-0.02,0.17)</offset>
@@ -204,6 +200,10 @@
                                         <Child MayRequire="ludeon.rimworld.biotech">(0,-0.05)</Child>
                                         <Baby MayRequire="ludeon.rimworld.biotech">(0,-0.08)</Baby>
                                     </bodyTypes>
+                                    <portraitBodyTypes>
+                                        <Thin>(0,0.05)</Thin>
+                                        <Fat>(0,0.05)</Fat>
+                                    </portraitBodyTypes>
                                 </south>
                             </offsets>
                         </li>
@@ -225,6 +225,10 @@
                                         <Child MayRequire="ludeon.rimworld.biotech">(0.01,0.02)</Child>
                                         <Baby MayRequire="ludeon.rimworld.biotech">(0.01,0.04)</Baby>
                                     </bodyTypes>
+                                    <portraitBodyTypes>
+                                        <Thin>(0,-0.03)</Thin>
+                                        <Fat>(0,-0.03)</Fat>
+                                    </portraitBodyTypes>
                                 </north>
                                 <east>
                                     <offset>(0.2,-0.03)</offset>
@@ -232,6 +236,10 @@
                                         <Child MayRequire="ludeon.rimworld.biotech">(-0.05,0)</Child>
                                         <Baby MayRequire="ludeon.rimworld.biotech">(-0.08,0.02)</Baby>
                                     </bodyTypes>
+                                    <portraitBodyTypes>
+                                        <Thin>(0.05,0)</Thin>
+                                        <Fat>(0.05,0)</Fat>
+                                    </portraitBodyTypes>
                                 </east>
                                 <south>
                                     <offset>(0.02,0.17)</offset>
@@ -239,6 +247,10 @@
                                         <Child MayRequire="ludeon.rimworld.biotech">(0,-0.05)</Child>
                                         <Baby MayRequire="ludeon.rimworld.biotech">(0,-0.08)</Baby>
                                     </bodyTypes>
+                                    <portraitBodyTypes>
+                                        <Thin>(0,0.05)</Thin>
+                                        <Fat>(0,0.05)</Fat>
+                                    </portraitBodyTypes>
                                 </south>
                             </offsets>
                         </li>
