@@ -135,21 +135,21 @@
                         <north>
                             <offset>(0.0, 0.334)</offset>
                             <bodyTypes>
-                                <Child MayRequire="ludeon.rimworld.biotech">(0,0)</Child>
+                                <Child MayRequire="ludeon.rimworld.biotech">(0,-0.05)</Child>
                                 <Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
                             </bodyTypes>
                         </north>
                         <east>
                             <offset>(0.17, 0.168)</offset>
                             <bodyTypes>
-                                <Child MayRequire="ludeon.rimworld.biotech">(0,0)</Child>
+                                <Child MayRequire="ludeon.rimworld.biotech">(0,-0.05)</Child>
                                 <Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
                             </bodyTypes>
                         </east>
                         <west>
                             <offset>(-0.17, 0.168)</offset>
                             <bodyTypes>
-                                <Child MayRequire="ludeon.rimworld.biotech">(0,0)</Child>
+                                <Child MayRequire="ludeon.rimworld.biotech">(0,-0.05)</Child>
                                 <Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
                             </bodyTypes>
                         </west>
