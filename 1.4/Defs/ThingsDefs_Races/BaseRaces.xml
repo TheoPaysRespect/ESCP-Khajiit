@@ -28,6 +28,7 @@
         </modExtensions>
         <race>
             <leatherDef>ESCP_LeatherKhajiit</leatherDef>
+            <useMeatFrom>ESCP_KhajiitRace</useMeatFrom>
             <nameGenerator>ESCP_Khajiit_NamerMale</nameGenerator>
             <nameGeneratorFemale>ESCP_Khajiit_NamerFemale</nameGeneratorFemale>
             <ageGenerationCurve>

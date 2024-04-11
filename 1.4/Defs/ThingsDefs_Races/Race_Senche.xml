@@ -109,7 +109,7 @@
                     <!--<headOffset>(0.0, -0.1)</headOffset>-->
                     <bodyAddons>
                         <li>
-                            <path>Things/Pawn/Humanlike/ESCP_Khajiit/Ears/Base/EarRight</path>
+                            <path>Things/Pawn/Humanlike/ESCP_Khajiit/Ears/Senche/EarRight</path>
                             <colorChannel>skin</colorChannel>
                             <bodyPart>Ear</bodyPart>
                             <bodyPartLabel>right ear</bodyPartLabel>
@@ -120,7 +120,7 @@
                             <drawnDesiccated>false</drawnDesiccated>
                         </li>
                         <li>
-                            <path>Things/Pawn/Humanlike/ESCP_Khajiit/Ears/Base/EarLeft</path>
+                            <path>Things/Pawn/Humanlike/ESCP_Khajiit/Ears/Senche/EarLeft</path>
                             <colorChannel>skin</colorChannel>
                             <bodyPart>Ear</bodyPart>
                             <bodyPartLabel>left ear</bodyPartLabel>
@@ -132,7 +132,7 @@
                             <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
                         </li>
                         <li>
-                            <path>Things/Pawn/Humanlike/ESCP_Khajiit/Tails/Base/Tail</path>
+                            <path>Things/Pawn/Humanlike/ESCP_Khajiit/Tails/Senche/Tail</path>
                             <colorChannel>skin</colorChannel>
                             <bodyPart>Tail</bodyPart>
                             <bodyPartLabel>tail</bodyPartLabel>
