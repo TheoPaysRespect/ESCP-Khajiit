@@ -28,7 +28,6 @@
         </modExtensions>
         <race>
             <leatherDef>ESCP_LeatherKhajiit</leatherDef>
-            <useMeatFrom>ESCP_KhajiitRace</useMeatFrom>
             <nameGenerator>ESCP_Khajiit_NamerMale</nameGenerator>
             <nameGeneratorFemale>ESCP_Khajiit_NamerFemale</nameGeneratorFemale>
             <ageGenerationCurve>
@@ -505,6 +504,9 @@
     </AlienRace.ThingDef_AlienRace>
 
     <AlienRace.ThingDef_AlienRace ParentName="ESCP_BaseRace_Khajiit" Name="ESCP_Khajiit_Ohmes" Abstract="True">
+        <race>
+            <useMeatFrom>ESCP_KhajiitRace</useMeatFrom>
+        </race>
         <alienRace>
             <generalSettings>
                 <maxDamageForSocialfight>6</maxDamageForSocialfight>
@@ -538,6 +540,7 @@
         -->
         <race>
             <body>ESCP_Khajiit_BaseBody</body>
+            <useMeatFrom>ESCP_KhajiitRace</useMeatFrom>
         </race>
         <alienRace>
             <styleSettings>

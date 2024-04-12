@@ -33,32 +33,32 @@
                     <def>HumanlikeBaby</def>
                     <minAge>0</minAge>
                 </li>
-                <li MayRequire="Ludeon.RimWorld.Biotech">
+                <!--<li MayRequire="Ludeon.RimWorld.Biotech">
                     <def>HumanlikeChild</def>
                     <minAge>3</minAge>
                     <soundWounded>Pawn_Cat_Injured</soundWounded>
                     <soundDeath>Pawn_Cat_Death</soundDeath>
                     <soundCall>Pawn_Cat_Call</soundCall>
                     <soundAngry>Pawn_Cat_Angry</soundAngry>
-                </li>
+                </li>-->
                 <li MayRequire="Ludeon.RimWorld.Biotech">
                     <def>HumanlikePreTeenager</def>
-                    <minAge>9</minAge>
+                    <minAge>3</minAge>
                     <soundWounded>Pawn_Cat_Injured</soundWounded>
                     <soundDeath>Pawn_Cat_Death</soundDeath>
                     <soundCall>Pawn_Cat_Call</soundCall>
                     <soundAngry>Pawn_Cat_Angry</soundAngry>
                 </li>
-                <li>
+                <!--<li>
                     <def>HumanlikeTeenager</def>
                     <minAge>13</minAge>
                     <soundWounded>Pawn_Cougar_Injured</soundWounded>
                     <soundDeath>Pawn_Cougar_Death</soundDeath>
                     <soundAngry>Pawn_Cougar_Angry</soundAngry>
-                </li>
+                </li>-->
                 <li>
                     <def>HumanlikeAdult</def>
-                    <minAge>18</minAge>
+                    <minAge>13</minAge>
                     <soundWounded>Pawn_Cougar_Injured</soundWounded>
                     <soundDeath>Pawn_Cougar_Death</soundDeath>
                     <soundAngry>Pawn_Cougar_Angry</soundAngry>
@@ -104,9 +104,42 @@
                         <li MayRequire="Ludeon.RimWorld.Biotech">Baby</li>
                         <li MayRequire="Ludeon.RimWorld.Biotech">Child</li>
                     </bodyTypes>
-                    <!--<customDrawSize>(1.5)</customDrawSize>
-                    <customHeadDrawSize>(1.5)</customHeadDrawSize>-->
-                    <!--<headOffset>(0.0, -0.1)</headOffset>-->
+                    <borderScale>2.0</borderScale>
+                    <customDrawSize>(1.4)</customDrawSize>
+                    <customHeadDrawSize>(1.2)</customHeadDrawSize>
+                    <customPortraitHeadDrawSize>(1.2)</customPortraitHeadDrawSize>
+                    <customPortraitDrawSize>(1.4)</customPortraitDrawSize>
+                    <headOffset>(0, -0.6270096)</headOffset>
+                    <headOffsetSpecific>
+                        <north>
+                            <offset>(0, 0.8006431)</offset>
+                            <bodyTypes>
+                                <Child MayRequire="ludeon.rimworld.biotech">(-0.0,-0.1768489)</Child>
+                                <Baby MayRequire="ludeon.rimworld.biotech">(0.009646302,-0.3697749)</Baby>
+                            </bodyTypes>
+                        </north>
+                        <east>
+                            <offset>(0.4855306, 0.414791)</offset>
+                            <bodyTypes>
+                                <Child MayRequire="ludeon.rimworld.biotech">(-0.08038585,-0.09324758)</Child>
+                                <Baby MayRequire="ludeon.rimworld.biotech">(-0.3826367,-0.1832797)</Baby>
+                            </bodyTypes>
+                        </east>
+                        <west>
+                            <offset>(-0.4855306, 0.414791)</offset>
+                            <bodyTypes>
+                                <Child MayRequire="ludeon.rimworld.biotech">(0.08038585,-0.09324758)</Child>
+                                <Baby MayRequire="ludeon.rimworld.biotech">(0.3826367,-0.1832797)</Baby>
+                            </bodyTypes>
+                        </west>
+                        <south>
+                            <offset>(0.04823151,0.04823151)</offset>
+                            <bodyTypes>
+                                <Child MayRequire="ludeon.rimworld.biotech">(-0.0044,0.414791)</Child>
+                                <Baby MayRequire="ludeon.rimworld.biotech">(-0.04180064,0.2926045)</Baby>
+                            </bodyTypes>
+                        </south>
+                    </headOffsetSpecific>
                     <bodyAddons>
                         <li>
                             <path>Things/Pawn/Humanlike/ESCP_Khajiit/Ears/Senche/EarRight</path>
@@ -142,9 +175,20 @@
                             <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
                             <offsets>
                                 <north>
+                                    <bodyTypes>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(0.05,0.15)</Baby>
+                                    </bodyTypes>
                                 </north>
                                 <east>
+                                    <bodyTypes>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(-0.15,-0.1)</Baby>
+                                    </bodyTypes>
                                 </east>
+                                <south>
+                                    <bodyTypes>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(0,-0.4)</Baby>
+                                    </bodyTypes>
+                                </south>
                             </offsets>
                         </li>
                     </bodyAddons>
@@ -159,7 +203,20 @@
             </generalSettings>
             <graphicPaths>
                 <head>Things/Pawn/Humanlike/ESCP_Khajiit/Heads/Senche/</head>
-                <body>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Senche/</body>
+                <body>
+                    <path>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Senche/</path>
+                    <ageGraphics>
+                        <HumanlikeBaby>
+                            <path>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Senche/Naked_Baby</path>
+                        </HumanlikeBaby>
+                        <HumanlikePreTeenager>
+                            <path>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Senche/Naked_Child</path>
+                        </HumanlikePreTeenager>
+                        <HumanlikeAdult>
+                            <path>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Senche/Naked_Thin</path>
+                        </HumanlikeAdult>
+                    </ageGraphics>
+                </body>
                 <!--<skeleton>Things/Pawn/Animal/Cougar/Dessicated_Cougar</skeleton>
                 <stump>Things/Pawn/Animal/Cat/Dessicated_Cougar</stump>
                 <skull></skull>-->

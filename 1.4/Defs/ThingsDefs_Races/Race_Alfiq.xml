@@ -29,33 +29,33 @@
                     <def>HumanlikeBaby</def>
                     <minAge>0</minAge>
                 </li>
-                <li MayRequire="Ludeon.RimWorld.Biotech">
+                <!--<li MayRequire="Ludeon.RimWorld.Biotech">
                     <def>HumanlikeChild</def>
                     <minAge>3</minAge>
                     <soundWounded>Pawn_Cat_Injured</soundWounded>
                     <soundDeath>Pawn_Cat_Death</soundDeath>
                     <soundCall>Pawn_Cat_Call</soundCall>
                     <soundAngry>Pawn_Cat_Angry</soundAngry>
-                </li>
+                </li>-->
                 <li MayRequire="Ludeon.RimWorld.Biotech">
                     <def>HumanlikePreTeenager</def>
-                    <minAge>9</minAge>
+                    <minAge>3</minAge>
                     <soundWounded>Pawn_Cat_Injured</soundWounded>
                     <soundDeath>Pawn_Cat_Death</soundDeath>
                     <soundCall>Pawn_Cat_Call</soundCall>
                     <soundAngry>Pawn_Cat_Angry</soundAngry>
                 </li>
-                <li>
+                <!--<li>
                     <def>HumanlikeTeenager</def>
                     <minAge>13</minAge>
                     <soundWounded>Pawn_Cat_Injured</soundWounded>
                     <soundDeath>Pawn_Cat_Death</soundDeath>
                     <soundCall>Pawn_Cat_Call</soundCall>
                     <soundAngry>Pawn_Cat_Angry</soundAngry>
-                </li>
+                </li>-->
                 <li>
                     <def>HumanlikeAdult</def>
-                    <minAge>18</minAge>
+                    <minAge>13</minAge>
                     <soundWounded>Pawn_Cat_Injured</soundWounded>
                     <soundDeath>Pawn_Cat_Death</soundDeath>
                     <soundCall>Pawn_Cat_Call</soundCall>
@@ -128,35 +128,35 @@
                     </bodyTypes>
                     <customDrawSize>(0.6)</customDrawSize>
                     <customHeadDrawSize>(0.45)</customHeadDrawSize>
-                    <customPortraitHeadDrawSize>(0.55)</customPortraitHeadDrawSize>
                     <customPortraitDrawSize>(0.7)</customPortraitDrawSize>
+                    <customPortraitHeadDrawSize>(0.55)</customPortraitHeadDrawSize>
                     <headOffset>(0.0,-0.45)</headOffset>
                     <headOffsetSpecific>
                         <north>
                             <offset>(0.0, 0.334)</offset>
                             <bodyTypes>
                                 <Child MayRequire="ludeon.rimworld.biotech">(0,-0.05)</Child>
-                                <Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
+                                <Baby MayRequire="ludeon.rimworld.biotech">(0,-0.12)</Baby>
                             </bodyTypes>
                         </north>
                         <east>
                             <offset>(0.17, 0.168)</offset>
                             <bodyTypes>
-                                <Child MayRequire="ludeon.rimworld.biotech">(0,-0.05)</Child>
-                                <Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
+                                <Child MayRequire="ludeon.rimworld.biotech">(-0,-0.049)</Child>
+                                <Baby MayRequire="ludeon.rimworld.biotech">(-0.1,0.01)</Baby>
                             </bodyTypes>
                         </east>
                         <west>
                             <offset>(-0.17, 0.168)</offset>
                             <bodyTypes>
-                                <Child MayRequire="ludeon.rimworld.biotech">(0,-0.05)</Child>
-                                <Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
+                                <Child MayRequire="ludeon.rimworld.biotech">(0,-0.049)</Child>
+                                <Baby MayRequire="ludeon.rimworld.biotech">(0.1,0.01)</Baby>
                             </bodyTypes>
                         </west>
                         <south>
                             <bodyTypes>
                                 <Child MayRequire="ludeon.rimworld.biotech">(0,0)</Child>
-                                <Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
+                                <Baby MayRequire="ludeon.rimworld.biotech">(0,0.132)</Baby>
                             </bodyTypes>
                         </south>
                     </headOffsetSpecific>
@@ -176,11 +176,12 @@
                                     <offset>(0.02,-0.125)</offset>
                                     <bodyTypes>
                                         <Child MayRequire="ludeon.rimworld.biotech">(-0.01,0.02)</Child>
-                                        <Baby MayRequire="ludeon.rimworld.biotech">(-0.01,0.04)</Baby>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(-0.01,0.1)</Baby>
                                     </bodyTypes>
                                     <portraitBodyTypes>
                                         <Thin>(0,-0.03)</Thin>
                                         <Fat>(0,-0.03)</Fat>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(-0.01,0.01)</Baby>
                                     </portraitBodyTypes>
                                 </north>
                                 <east>
@@ -192,6 +193,7 @@
                                     <portraitBodyTypes>
                                         <Thin>(0.05,0)</Thin>
                                         <Fat>(0.05,0)</Fat>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(-0.055,0.033)</Baby>
                                     </portraitBodyTypes>
                                 </east>
                                 <south>
@@ -203,6 +205,7 @@
                                     <portraitBodyTypes>
                                         <Thin>(0,0.05)</Thin>
                                         <Fat>(0,0.05)</Fat>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(0.01,-0.05)</Baby>
                                     </portraitBodyTypes>
                                 </south>
                             </offsets>
@@ -223,11 +226,12 @@
                                     <offset>(-0.02,-0.125)</offset>
                                     <bodyTypes>
                                         <Child MayRequire="ludeon.rimworld.biotech">(0.01,0.02)</Child>
-                                        <Baby MayRequire="ludeon.rimworld.biotech">(0.01,0.04)</Baby>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(0.01,0.1)</Baby>
                                     </bodyTypes>
                                     <portraitBodyTypes>
                                         <Thin>(0,-0.03)</Thin>
                                         <Fat>(0,-0.03)</Fat>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(0.01,0.01)</Baby>
                                     </portraitBodyTypes>
                                 </north>
                                 <east>
@@ -239,6 +243,7 @@
                                     <portraitBodyTypes>
                                         <Thin>(0.05,0)</Thin>
                                         <Fat>(0.05,0)</Fat>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(-0.055,0.033)</Baby>
                                     </portraitBodyTypes>
                                 </east>
                                 <south>
@@ -250,6 +255,7 @@
                                     <portraitBodyTypes>
                                         <Thin>(0,0.05)</Thin>
                                         <Fat>(0,0.05)</Fat>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(-0.01,-0.05)</Baby>
                                     </portraitBodyTypes>
                                 </south>
                             </offsets>
@@ -269,24 +275,36 @@
                                         <Child MayRequire="ludeon.rimworld.biotech">(0,0)</Child>
                                         <Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
                                     </bodyTypes>
+                                    <portraitBodyTypes>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
+                                    </portraitBodyTypes>
                                 </north>
                                 <east>
                                     <bodyTypes>
                                         <Child MayRequire="ludeon.rimworld.biotech">(0,0)</Child>
-                                        <Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(-0.032,-0.1)</Baby>
                                     </bodyTypes>
+                                    <portraitBodyTypes>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
+                                    </portraitBodyTypes>
                                 </east>
                                 <west>
                                     <bodyTypes>
                                         <Child MayRequire="ludeon.rimworld.biotech">(0,0)</Child>
-                                        <Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(-0.032,-0.1)</Baby>
                                     </bodyTypes>
+                                    <portraitBodyTypes>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(0,-0)</Baby>
+                                    </portraitBodyTypes>
                                 </west>
                                 <south>
                                     <bodyTypes>
                                         <Child MayRequire="ludeon.rimworld.biotech">(0,0)</Child>
-                                        <Baby MayRequire="ludeon.rimworld.biotech">(0,-0.02)</Baby>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(0,-0.1)</Baby>
                                     </bodyTypes>
+                                    <portraitBodyTypes>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(0,-0.12)</Baby>
+                                    </portraitBodyTypes>
                                 </south>
                             </offsets>
                         </li>
@@ -380,7 +398,27 @@
             </generalSettings>
             <graphicPaths>
                 <head>Things/Pawn/Humanlike/ESCP_Khajiit/Heads/Alfiq/</head>
-                <body>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Alfiq/</body>
+                <body>
+                    <path>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Alfiq/</path>
+                    <ageGraphics>
+                        <HumanlikeBaby>
+                            <path>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Alfiq/Naked_Baby</path>
+                        </HumanlikeBaby>
+                        <HumanlikePreTeenager>
+                            <path>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Alfiq/Naked_Child</path>
+                        </HumanlikePreTeenager>
+                        <HumanlikeAdult>
+                            <bodytypeGraphics>
+                                <Thin>
+                                    <path>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Alfiq/Naked_Thin</path>
+                                </Thin>
+                                <Fat>
+                                    <path>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Alfiq/Naked_Fat</path>
+                                </Fat>
+                            </bodytypeGraphics>
+                        </HumanlikeAdult>
+                    </ageGraphics>
+                </body>
                 <skeleton>Things/Pawn/Humanlike/ESCP_Khajiit/Skeletons/Alfiq/Dessicated</skeleton>
                 <skull>Things/Pawn/Humanlike/ESCP_Khajiit/Skeletons/Alfiq/Skull</skull>
                 <!--<swaddle>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Alfiq/Naked_Child</swaddle>-->
