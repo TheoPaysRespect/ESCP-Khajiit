@@ -70,7 +70,18 @@
                 <traitList>
                     <li>Khajiit_SencheTrait</li>
                 </traitList>
-                <whiteApparelList Inherit ="false"></whiteApparelList>
+                <whiteApparelList Inherit ="false">
+                    <li>Apparel_Tuque</li>
+                    <li>Apparel_CowboyHat</li>
+                    <li>Apparel_BowlerHat</li>
+                    <li>Apparel_TribalHeaddress</li>
+                    <li>Apparel_WarMask</li>                    <!--slight side rotation-->
+                    <li>Apparel_WarVeil</li>                    <!--slight side rotation-->
+                    <li>Apparel_SimpleHelmet</li>
+                    <li>Apparel_AdvancedHelmet</li>
+                    <li>Apparel_PsychicFoilHelmet</li>                    <!--looks weird with ears-->
+                    <li>Apparel_HatHood</li>
+                </whiteApparelList>
             </raceRestriction>
             <generalSettings>
                 <forcedRaceTraitEntries>
@@ -107,8 +118,8 @@
                     <borderScale>2.0</borderScale>
                     <customDrawSize>(1.4)</customDrawSize>
                     <customHeadDrawSize>(1.2)</customHeadDrawSize>
-                    <customPortraitHeadDrawSize>(1.2)</customPortraitHeadDrawSize>
-                    <customPortraitDrawSize>(1.4)</customPortraitDrawSize>
+                    <customPortraitHeadDrawSize>(1.1)</customPortraitHeadDrawSize>
+                    <customPortraitDrawSize>(1.3)</customPortraitDrawSize>
                     <headOffset>(0, -0.6270096)</headOffset>
                     <headOffsetSpecific>
                         <north>
@@ -133,10 +144,10 @@
                             </bodyTypes>
                         </west>
                         <south>
-                            <offset>(0.04823151,0.04823151)</offset>
+                            <offset>(0.04823151,-0.07395498)</offset>
                             <bodyTypes>
-                                <Child MayRequire="ludeon.rimworld.biotech">(-0.0044,0.414791)</Child>
-                                <Baby MayRequire="ludeon.rimworld.biotech">(-0.04180064,0.2926045)</Baby>
+                                <Child MayRequire="ludeon.rimworld.biotech">(-0.0044,0.01607717)</Child>
+                                <Baby MayRequire="ludeon.rimworld.biotech">(-0.04180064,0.4212219)</Baby>
                             </bodyTypes>
                         </south>
                     </headOffsetSpecific>
