@@ -9,4 +9,14 @@
             <li>River_Tribal_mukluks</li> 
         </value>
     </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="ESCP_SencheRace"]/alienRace/raceRestriction/whiteApparelList</xpath>
+        <value>
+            <!--river's tribal shoes-->
+            <li>River_Tribal_sandals</li>
+            <li>River_Tribal_moccasins</li>
+            <li>River_Tribal_mukluks</li>
+        </value>
+    </Operation>
 </Patch>

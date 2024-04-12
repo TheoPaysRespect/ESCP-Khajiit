@@ -14,4 +14,19 @@
             <li>Apparel_Beret</li>
         </value>
     </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="ESCP_SencheRace"]/alienRace/raceRestriction/whiteApparelList</xpath>
+        <value>
+            <!--royalty-->
+            <li>Apparel_PsyfocusHelmet</li>
+            <li>Apparel_EltexSkullcap</li>
+            <li>Apparel_HatLadies</li>
+            <li>Apparel_HatTop</li>
+            <li>Apparel_Coronet</li>
+            <li>Apparel_Crown</li>
+            <li>Apparel_CrownStellic</li>
+            <li>Apparel_Beret</li>
+        </value>
+    </Operation>
 </Patch>

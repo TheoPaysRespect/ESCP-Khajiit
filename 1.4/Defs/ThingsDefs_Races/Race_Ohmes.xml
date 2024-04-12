@@ -23,6 +23,59 @@
                     <li>ESCP_AlfiqRace</li>
                 </notXenophobistTowards>
                 <alienPartGenerator>
+                    <bodyAddons>
+                        <!-- ========== [Ear right] ========== -->
+                        <li>
+                            <path>Things/Pawn/Humanlike/ESCP_GenericMer/Ear/RightEar</path>
+                            <colorChannel>skin</colorChannel>
+                            <bodyPart>Ear</bodyPart>
+                            <bodyPartLabel>right ear</bodyPartLabel>
+                            <drawnInBed>true</drawnInBed>
+                            <inFrontOfBody>false</inFrontOfBody>
+                            <alignWithHead>true</alignWithHead>
+                            <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                            <drawnDesiccated>false</drawnDesiccated>
+                            <hiddenUnderApparelFor>
+                                <li>FullHead</li>
+                                <li>UpperHead</li>
+                            </hiddenUnderApparelFor>
+                            <offsets>
+                                <north>
+                                    <layerOffset>-0.28</layerOffset>
+                                </north>
+                                <east>
+                                    <layerOffset>-0.332</layerOffset>
+                                </east>
+                            </offsets>
+                            <debug>false</debug>
+                        </li>
+                        <!-- ========== [Ear left] ========== -->
+                        <li>
+                            <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
+                            <path>Things/Pawn/Humanlike/ESCP_GenericMer/Ear/LeftEar</path>
+                            <colorChannel>skin</colorChannel>
+                            <bodyPart>Ear</bodyPart>
+                            <bodyPartLabel>left ear</bodyPartLabel>
+                            <drawnInBed>true</drawnInBed>
+                            <inFrontOfBody>false</inFrontOfBody>
+                            <alignWithHead>true</alignWithHead>
+                            <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                            <drawnDesiccated>false</drawnDesiccated>
+                            <hiddenUnderApparelFor>
+                                <li>FullHead</li>
+                                <li>UpperHead</li>
+                            </hiddenUnderApparelFor>
+                            <offsets>
+                                <north>
+                                    <layerOffset>-0.28</layerOffset>
+                                </north>
+                                <east>
+                                    <layerOffset>-0.332</layerOffset>
+                                </east>
+                            </offsets>
+                            <debug>false</debug>
+                        </li>
+                    </bodyAddons>
                     <colorChannels>
                         <li>
                             <!--same as bosmer-->
@@ -142,7 +195,7 @@
         </race>
         <alienRace>
             <generalSettings>
-                <notXenophobistTowards>
+                <notXenophobistTowards Inherit="false">
                     <li>ESCP_KhajiitRace</li>
                     <li>ESCP_OhmesRace</li>
                     <li>ESCP_SencheRace</li>
@@ -265,7 +318,7 @@
                             </first>
                         </li>
                     </colorChannels>
-                    <bodyAddons>
+                    <bodyAddons Inherit="false">
                         <li>
                             <path>Things/Pawn/Humanlike/ESCP_Khajiit/Ears/Base/EarRight</path>
                             <colorChannel>skin</colorChannel>

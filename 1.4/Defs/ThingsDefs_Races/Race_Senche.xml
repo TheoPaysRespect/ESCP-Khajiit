@@ -81,6 +81,10 @@
                     <li>Apparel_AdvancedHelmet</li>
                     <li>Apparel_PsychicFoilHelmet</li>                    <!--looks weird with ears-->
                     <li>Apparel_HatHood</li>
+
+                    <!--colovian fur helm-->
+                    <li MayRequire="sirmashedpotato.morrowrim.colovianfurhelm">MorrowRim_ColovianFurHelm</li>
+
                 </whiteApparelList>
             </raceRestriction>
             <generalSettings>
