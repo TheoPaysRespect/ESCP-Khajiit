@@ -351,19 +351,19 @@
                             <offsets>
                                 <north>
                                     <bodyTypes>
-                                        <Fat>(0,-0.04)</Fat>                                         
-                                        <Female>(0,-0.02)</Female>                                         
-                                        <Hulk>(0,-0.15)</Hulk>                                         
+                                        <Fat>(0,-0.04)</Fat>
+                                        <Female>(0,-0.02)</Female>
+                                        <Hulk>(0,-0.15)</Hulk>
                                         <Child MayRequire="ludeon.rimworld.biotech">(0,0.1)</Child>
-                                        <Baby MayRequire="ludeon.rimworld.biotech">(0,0.05)</Baby>                                         
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(0,0.05)</Baby>
                                     </bodyTypes>
                                 </north>
                                 <east>
                                     <bodyTypes>
-                                        <Male>(-0.045,0)</Male>                                         
-                                        <Fat>(0.20,-0.04)</Fat>                                         
-                                        <Female>(0.065,-0.02)</Female>                                         
-                                        <Hulk>(0.15,-0.15)</Hulk>                                         
+                                        <Male>(-0.045,0)</Male>
+                                        <Fat>(0.20,-0.04)</Fat>
+                                        <Female>(0.065,-0.02)</Female>
+                                        <Hulk>(0.15,-0.15)</Hulk>
                                         <Child MayRequire="ludeon.rimworld.biotech">(-0.03,0.1)</Child>
                                         <Baby MayRequire="ludeon.rimworld.biotech">(0.02,0.05)</Baby>
                                     </bodyTypes>
@@ -558,6 +558,12 @@
                 </li>
             </styleSettings>
             <generalSettings>
+            <validBeds>
+                <li>KhajiitSleepingSpot</li>
+                <li>KhajiitDoubleSleepingSpot</li>
+                <li>KhajiitSleepingBox</li>
+                <li>KhajiitDoubleSleepingBox</li>
+            </validBeds>
                 <ageStatOverrides>
                     <WorkSpeedGlobal>                        <!--decreases general work speed due to their body shape-->
                         <useBiologicalYears>true</useBiologicalYears>
