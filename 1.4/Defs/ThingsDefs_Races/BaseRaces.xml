@@ -293,6 +293,14 @@
     </AlienRace.ThingDef_AlienRace>
 
     <AlienRace.ThingDef_AlienRace ParentName ="ESCP_BaseRace_Khajiit" Name="ESCP_Khajiit_StandardForm" Abstract="True">
+        <modExtensions>
+            <li Class="ESCP_RaceTools.RomanceRestriction">
+                <restrictRomanceToTags>false</restrictRomanceToTags>
+                <restrictedRomanceTags>
+                    <li>khajiit</li>
+                </restrictedRomanceTags>
+            </li>
+        </modExtensions>
         <statBases>
             <ComfyTemperatureMin>-10</ComfyTemperatureMin>
         </statBases>
@@ -504,6 +512,15 @@
     </AlienRace.ThingDef_AlienRace>
 
     <AlienRace.ThingDef_AlienRace ParentName="ESCP_BaseRace_Khajiit" Name="ESCP_Khajiit_Ohmes" Abstract="True">
+        <modExtensions>
+            <li Class="ESCP_RaceTools.RomanceRestriction">
+                <restrictRomanceToTags>false</restrictRomanceToTags>
+                <restrictedRomanceTags>
+                    <li>khajiit</li>
+                </restrictedRomanceTags>
+            </li>
+        </modExtensions>
+
         <race>
             <useMeatFrom>ESCP_KhajiitRace</useMeatFrom>
         </race>
@@ -538,6 +555,14 @@
         -disallow traits relating to jobs they can't perform 
         -change allowed beds?
         -->
+        <modExtensions>
+            <li Class="ESCP_RaceTools.RomanceRestriction">
+                <restrictRomanceToTags>true</restrictRomanceToTags>
+                <restrictedRomanceTags>
+                    <li>khajiit</li>
+                </restrictedRomanceTags>
+            </li>
+        </modExtensions>
         <race>
             <body>ESCP_Khajiit_BaseBody</body>
             <useMeatFrom>ESCP_KhajiitRace</useMeatFrom>
@@ -558,12 +583,12 @@
                 </li>
             </styleSettings>
             <generalSettings>
-            <validBeds>
-                <li>KhajiitSleepingSpot</li>
-                <li>KhajiitDoubleSleepingSpot</li>
-                <li>KhajiitSleepingBox</li>
-                <li>KhajiitDoubleSleepingBox</li>
-            </validBeds>
+                <validBeds>
+                    <li>KhajiitSleepingSpot</li>
+                    <li>KhajiitDoubleSleepingSpot</li>
+                    <li>KhajiitSleepingBox</li>
+                    <li>KhajiitDoubleSleepingBox</li>
+                </validBeds>
                 <ageStatOverrides>
                     <WorkSpeedGlobal>                        <!--decreases general work speed due to their body shape-->
                         <useBiologicalYears>true</useBiologicalYears>

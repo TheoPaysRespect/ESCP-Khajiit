@@ -27,35 +27,22 @@
     </ThingDef>
 
     <!--wooden bed-->
-    <ThingDef ParentName="ArtableBedBase">
+
+    <ThingDef ParentName="BasicBedBase">
         <defName>KhajiitSleepingBox</defName>
-        <label>khajiit sleeping box</label>
+        <label>kahjiit bed</label>
         <description>A cozy mattress and sheets on a frame for resting.</description>
         <rotatable>true</rotatable>
         <graphicData>
-            <texPath>Things/Building/ESCP_Sload_Bed</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
+            <texPath>Things/Building/Furniture/Bed/ESCP_Sload_Bed</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
             <shaderType>CutoutComplex</shaderType>
-            <drawSize>(1,1)</drawSize>
+            <drawSize>(1,2)</drawSize>
             <damageData>
                 <rect>(0,0.05,1,1.95)</rect>
             </damageData>
         </graphicData>
-        <comps>
-            <li Class="CompProperties_AffectedByFacilities">
-                <linkableFacilities>
-                    <li>EndTable</li>
-                    <li>Dresser</li>
-                    <li MayRequire="Ludeon.RimWorld.Ideology">SleepAccelerator</li>
-                </linkableFacilities>
-            </li>
-        </comps>
         <statBases>
-            <Flammability>1.0</Flammability>
-            <ImmunityGainSpeedFactor>1.07</ImmunityGainSpeedFactor>
-            <SurgerySuccessChanceFactor>1</SurgerySuccessChanceFactor>
-            <BirthRitualQualityOffset MayRequire="Ludeon.RimWorld.Biotech">2</BirthRitualQualityOffset>
-            <Comfort>0.75</Comfort>
             <MaxHitPoints>140</MaxHitPoints>
             <Beauty>1</Beauty>
             <WorkToBuild>800</WorkToBuild>
@@ -63,87 +50,43 @@
             <BedRestEffectiveness>1</BedRestEffectiveness>
         </statBases>
         <size>(1,2)</size>
-        <stuffCategories>
-            <li>Metallic</li>
-            <li>Woody</li>
-            <li>Stony</li>
-        </stuffCategories>
-        <costStuffCount>40</costStuffCount>
+        <costStuffCount>45</costStuffCount>
         <building>
             <bed_showSleeperBody>True</bed_showSleeperBody>
-            <bed_healPerDay>4</bed_healPerDay>
             <paintable>true</paintable>
         </building>
-        <fillPercent>0.4</fillPercent>
-        <pathCost>42</pathCost>
-        <staticSunShadowHeight>0.17</staticSunShadowHeight>
-        <castEdgeShadows>True</castEdgeShadows>
-        <techLevel>Medieval</techLevel>
-        <researchPrerequisites>
-            <li>ComplexFurniture</li>
-        </researchPrerequisites>
-        <uiIconScale>0.90</uiIconScale>
-        <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
-        <leaveResourcesWhenKilled>True</leaveResourcesWhenKilled>
     </ThingDef>
 
-    <ThingDef ParentName="BedWithQualityBase">
+    <ThingDef ParentName="BasicBedBase">
         <defName>KhajiitDoubleSleepingBox</defName>
         <label>khajiit double sleeping box</label>
         <description>A simple double-wide bed that fits two people.</description>
-        <rotatable>false</rotatable>
+        <rotatable>true</rotatable>
         <defaultPlacingRot>North</defaultPlacingRot>
         <graphicData>
-            <texPath>Things/Building/ESCP_Sload_Bed</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
+            <texPath>Things/Building/Furniture/Bed/ESCP_Sload_Bed</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
             <shaderType>CutoutComplex</shaderType>
             <drawSize>(2.05,2.05)</drawSize>
             <damageData>
-                <rect>(0,0.05,1,1.95)</rect>
+                <rect>(0,0.05,2,1.95)</rect>
             </damageData>
         </graphicData>
-        <comps>
-            <li Class="CompProperties_AffectedByFacilities">
-                <linkableFacilities>
-                    <li>EndTable</li>
-                    <li>Dresser</li>
-                    <li MayRequire="Ludeon.RimWorld.Ideology">SleepAccelerator</li>
-                </linkableFacilities>
-            </li>
-        </comps>
         <statBases>
             <MaxHitPoints>200</MaxHitPoints>
-            <WorkToBuild>1800</WorkToBuild>
+            <WorkToBuild>1500</WorkToBuild>
             <Mass>50</Mass>
-            <Flammability>1.0</Flammability>
-            <Beauty>1</Beauty>
+            <Beauty>2</Beauty>
             <BedRestEffectiveness>1</BedRestEffectiveness>
-            <Comfort>0.75</Comfort>
-            <ImmunityGainSpeedFactor>1.07</ImmunityGainSpeedFactor>
-            <SurgerySuccessChanceFactor>1</SurgerySuccessChanceFactor>
         </statBases>
         <size>(2,2)</size>
-        <stuffCategories>
-            <li>Metallic</li>
-            <li>Woody</li>
-            <li>Stony</li>
-        </stuffCategories>
         <costStuffCount>85</costStuffCount>
-        <building>
-            <bed_showSleeperBody>True</bed_showSleeperBody>
-            <bed_healPerDay>4</bed_healPerDay>
-        </building>
-        <fillPercent>0.4</fillPercent>
-        <pathCost>42</pathCost>
-        <staticSunShadowHeight>0.17</staticSunShadowHeight>
-        <castEdgeShadows>True</castEdgeShadows>
-        <techLevel>Medieval</techLevel>
-        <researchPrerequisites>
-            <li>ComplexFurniture</li>
-        </researchPrerequisites>
-        <uiIconScale>0.90</uiIconScale>
         <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
         <leaveResourcesWhenKilled>True</leaveResourcesWhenKilled>
+        <building>
+            <bed_showSleeperBody>True</bed_showSleeperBody>
+            <paintable>true</paintable>
+        </building>
     </ThingDef>
 
     <!--royal bed-->
