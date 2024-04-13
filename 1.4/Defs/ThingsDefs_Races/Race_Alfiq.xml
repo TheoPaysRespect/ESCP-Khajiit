@@ -29,22 +29,22 @@
                     <def>HumanlikeBaby</def>
                     <minAge>0</minAge>
                 </li>
-                <!--<li MayRequire="Ludeon.RimWorld.Biotech">
+                <li MayRequire="Ludeon.RimWorld.Biotech">
                     <def>HumanlikeChild</def>
                     <minAge>3</minAge>
                     <soundWounded>Pawn_Cat_Injured</soundWounded>
                     <soundDeath>Pawn_Cat_Death</soundDeath>
                     <soundCall>Pawn_Cat_Call</soundCall>
                     <soundAngry>Pawn_Cat_Angry</soundAngry>
-                </li>-->
-                <li MayRequire="Ludeon.RimWorld.Biotech">
+                </li>
+                <!--<li MayRequire="Ludeon.RimWorld.Biotech">
                     <def>HumanlikePreTeenager</def>
                     <minAge>3</minAge>
                     <soundWounded>Pawn_Cat_Injured</soundWounded>
                     <soundDeath>Pawn_Cat_Death</soundDeath>
                     <soundCall>Pawn_Cat_Call</soundCall>
                     <soundAngry>Pawn_Cat_Angry</soundAngry>
-                </li>
+                </li>-->
                 <!--<li>
                     <def>HumanlikeTeenager</def>
                     <minAge>13</minAge>
@@ -408,9 +408,9 @@
                         <HumanlikeBaby>
                             <path>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Alfiq/Naked_Baby</path>
                         </HumanlikeBaby>
-                        <HumanlikePreTeenager>
+                        <HumanlikeChild>
                             <path>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Alfiq/Naked_Child</path>
-                        </HumanlikePreTeenager>
+                        </HumanlikeChild>
                         <HumanlikeAdult>
                             <bodytypeGraphics>
                                 <Thin>

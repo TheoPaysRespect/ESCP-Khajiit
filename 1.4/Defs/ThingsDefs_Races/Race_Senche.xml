@@ -33,22 +33,22 @@
                     <def>HumanlikeBaby</def>
                     <minAge>0</minAge>
                 </li>
-                <!--<li MayRequire="Ludeon.RimWorld.Biotech">
+                <li MayRequire="Ludeon.RimWorld.Biotech">
                     <def>HumanlikeChild</def>
                     <minAge>3</minAge>
                     <soundWounded>Pawn_Cat_Injured</soundWounded>
                     <soundDeath>Pawn_Cat_Death</soundDeath>
                     <soundCall>Pawn_Cat_Call</soundCall>
                     <soundAngry>Pawn_Cat_Angry</soundAngry>
-                </li>-->
-                <li MayRequire="Ludeon.RimWorld.Biotech">
+                </li>
+                <!--<li MayRequire="Ludeon.RimWorld.Biotech">
                     <def>HumanlikePreTeenager</def>
                     <minAge>3</minAge>
                     <soundWounded>Pawn_Cat_Injured</soundWounded>
                     <soundDeath>Pawn_Cat_Death</soundDeath>
                     <soundCall>Pawn_Cat_Call</soundCall>
                     <soundAngry>Pawn_Cat_Angry</soundAngry>
-                </li>
+                </li>-->
                 <!--<li>
                     <def>HumanlikeTeenager</def>
                     <minAge>13</minAge>
@@ -214,14 +214,14 @@
                         <east>
                             <offset>(0.4855306, 0.414791)</offset>
                             <bodyTypes>
-                                <Child MayRequire="ludeon.rimworld.biotech">(-0.08038585,-0.09324758)</Child>
+                                <Child MayRequire="ludeon.rimworld.biotech">(-0.08038585,-0.1511254)</Child>
                                 <Baby MayRequire="ludeon.rimworld.biotech">(-0.3826367,-0.1832797)</Baby>
                             </bodyTypes>
                         </east>
                         <west>
                             <offset>(-0.4855306, 0.414791)</offset>
                             <bodyTypes>
-                                <Child MayRequire="ludeon.rimworld.biotech">(0.08038585,-0.09324758)</Child>
+                                <Child MayRequire="ludeon.rimworld.biotech">(0.08038585,-0.1511254)</Child>
                                 <Baby MayRequire="ludeon.rimworld.biotech">(0.3826367,-0.1832797)</Baby>
                             </bodyTypes>
                         </west>
@@ -302,9 +302,9 @@
                         <HumanlikeBaby>
                             <path>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Senche/Naked_Baby</path>
                         </HumanlikeBaby>
-                        <HumanlikePreTeenager>
+                        <HumanlikeChild>
                             <path>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Senche/Naked_Child</path>
-                        </HumanlikePreTeenager>
+                        </HumanlikeChild>
                         <HumanlikeAdult>
                             <path>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Senche/Naked_Thin</path>
                         </HumanlikeAdult>
