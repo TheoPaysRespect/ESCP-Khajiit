@@ -106,6 +106,84 @@
                     </ArrestSuccessChance>
                 </ageStatOverrides>
                 <alienPartGenerator>
+                    <anchorReplacements>
+                        <li>
+                            <originalTag>LeftEye</originalTag>
+                            <replacement>
+                                <rotation>West</rotation>
+                                <tag>LeftEye</tag>
+                                <canMirror>false</canMirror>
+                                <range>0</range>
+                                <layer>Head</layer>
+                            </replacement>
+                            <offsets>
+                                <west>
+                                <offset>(-0.23,0.25)</offset>
+                                    <bodyTypes>
+                                        <Child MayRequire="ludeon.rimworld.biotech">(0.05,0)</Child>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
+                                    </bodyTypes>
+                                </west>
+                            </offsets>
+                        </li>
+                        <li>
+                            <originalTag>RightEye</originalTag>
+                            <replacement>
+                                <rotation>East</rotation>
+                                <tag>RightEye</tag>
+                                <canMirror>false</canMirror>
+                                <range>0</range>
+                                <layer>Head</layer>
+                            </replacement>
+                            <offsets>
+                                <east>
+                                <offset>(0.23,0.25)</offset>
+                                    <bodyTypes>
+                                        <Child MayRequire="ludeon.rimworld.biotech">(-0.05,0)</Child>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
+                                    </bodyTypes>
+                                </east>
+                            </offsets>
+                        </li>
+                        <li>
+                            <originalTag>LeftEye</originalTag>
+                            <replacement>
+                                <rotation>South</rotation>
+                                <tag>LeftEye</tag>
+                                <canMirror>false</canMirror>
+                                <range>0</range>
+                                <layer>Head</layer>
+                            </replacement>
+                            <offsets>
+                                <south>
+                                <offset>(-0.135,0.215)</offset>
+                                    <bodyTypes>
+                                        <Child MayRequire="ludeon.rimworld.biotech">(0.02,0)</Child>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
+                                    </bodyTypes>
+                                </south>
+                            </offsets>
+                        </li>
+                        <li>
+                            <originalTag>RightEye</originalTag>
+                            <replacement>
+                                <rotation>South</rotation>
+                                <tag>RightEye</tag>
+                                <canMirror>false</canMirror>
+                                <range>0</range>
+                                <layer>Head</layer>
+                            </replacement>
+                            <offsets>
+                                <south>
+                                    <offset>(0.1135,0.215)</offset>
+                                    <bodyTypes>
+                                        <Child MayRequire="ludeon.rimworld.biotech">(-0.02,0)</Child>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
+                                    </bodyTypes>
+                                </south>
+                            </offsets>
+                        </li>
+                    </anchorReplacements>
                     <headTypes Inherit="false">
                         <li>Male_AverageNormal</li>
                         <!--<li>Male_AverageWide</li>-->
