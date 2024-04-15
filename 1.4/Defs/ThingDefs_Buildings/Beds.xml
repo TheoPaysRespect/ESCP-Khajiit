@@ -6,6 +6,7 @@
         <defName>KhajiitSleepingSpot</defName>
         <label>khajiit sleeping spot</label>
         <description>Designates a spot on the ground where quadruped khajiit should sleep. Not comfortable.</description>
+        <scatterableOnMapGen>false</scatterableOnMapGen>
         <graphicData>
             <texPath>Things/Building/Furniture/Bed/SleepSpot</texPath>
             <graphicClass>Graphic_Multi</graphicClass>
@@ -33,11 +34,12 @@
         <label>khajiit bed</label>
         <description>A cozy mattress and sheets on a frame for resting.</description>
         <rotatable>true</rotatable>
+        <scatterableOnMapGen>false</scatterableOnMapGen>
         <graphicData>
             <texPath>Things/Building/Furniture/Bed/ESCP_Sload_Bed</texPath>
             <graphicClass>Graphic_Multi</graphicClass>
             <shaderType>CutoutComplex</shaderType>
-            <drawSize>(1,2)</drawSize>
+            <drawSize>(1,1)</drawSize>
             <damageData>
                 <rect>(0,0.05,1,1.95)</rect>
             </damageData>
@@ -49,7 +51,7 @@
             <Mass>30</Mass>
             <BedRestEffectiveness>1</BedRestEffectiveness>
         </statBases>
-        <size>(1,2)</size>
+        <size>(1,1)</size>
         <costStuffCount>45</costStuffCount>
         <building>
             <bed_showSleeperBody>True</bed_showSleeperBody>
@@ -61,8 +63,8 @@
         <defName>KhajiitDoubleSleepingBox</defName>
         <label>khajiit double sleeping box</label>
         <description>A simple double-wide bed that fits two people.</description>
+        <scatterableOnMapGen>false</scatterableOnMapGen>
         <rotatable>true</rotatable>
-        <defaultPlacingRot>North</defaultPlacingRot>
         <graphicData>
             <texPath>Things/Building/Furniture/Bed/ESCP_Sload_Bed</texPath>
             <graphicClass>Graphic_Multi</graphicClass>

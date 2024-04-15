@@ -118,7 +118,7 @@
                             </replacement>
                             <offsets>
                                 <west>
-                                <offset>(-0.23,0.25)</offset>
+                                    <offset>(-0.23,0.25)</offset>
                                     <bodyTypes>
                                         <Child MayRequire="ludeon.rimworld.biotech">(0.05,0)</Child>
                                         <Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
@@ -137,7 +137,7 @@
                             </replacement>
                             <offsets>
                                 <east>
-                                <offset>(0.23,0.25)</offset>
+                                    <offset>(0.23,0.25)</offset>
                                     <bodyTypes>
                                         <Child MayRequire="ludeon.rimworld.biotech">(-0.05,0)</Child>
                                         <Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
@@ -156,7 +156,7 @@
                             </replacement>
                             <offsets>
                                 <south>
-                                <offset>(-0.135,0.215)</offset>
+                                    <offset>(-0.135,0.215)</offset>
                                     <bodyTypes>
                                         <Child MayRequire="ludeon.rimworld.biotech">(0.02,0)</Child>
                                         <Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
@@ -295,9 +295,29 @@
                 </notXenophobistTowards>
             </generalSettings>
             <graphicPaths>
-                <head>Things/Pawn/Humanlike/ESCP_Khajiit/Heads/Senche/</head>
+                <head>
+                    <ageGraphics>
+                        <HumanlikeBaby>
+                            <genderGraphics>
+                                <Female>Things/Pawn/Humanlike/ESCP_Khajiit/Heads/Senche/Female_Child_Normal</Female>
+                                <Male>Things/Pawn/Humanlike/ESCP_Khajiit/Heads/Senche/Male_Child_Normal</Male>
+                            </genderGraphics>
+                        </HumanlikeBaby>
+                        <HumanlikeChild>
+                            <genderGraphics>
+                                <Female>Things/Pawn/Humanlike/ESCP_Khajiit/Heads/Senche/Female_Average_Normal</Female>
+                                <Male>Things/Pawn/Humanlike/ESCP_Khajiit/Heads/Senche/Male_Average_Normal</Male>
+                            </genderGraphics>
+                        </HumanlikeChild>
+                        <HumanlikeAdult>
+                            <genderGraphics>
+                                <Female>Things/Pawn/Humanlike/ESCP_Khajiit/Heads/Senche/Female_Average_Normal</Female>
+                                <Male>Things/Pawn/Humanlike/ESCP_Khajiit/Heads/Senche/Male_Average_Normal</Male>
+                            </genderGraphics>
+                        </HumanlikeAdult>
+                    </ageGraphics>
+                </head>
                 <body>
-                    <path>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Senche/</path>
                     <ageGraphics>
                         <HumanlikeBaby>
                             <path>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Senche/Naked_Baby</path>
