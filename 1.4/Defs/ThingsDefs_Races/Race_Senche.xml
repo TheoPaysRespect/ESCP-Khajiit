@@ -205,9 +205,9 @@
                     <headOffset>(0, -0.6270096)</headOffset>
                     <headOffsetSpecific>
                         <north>
-                            <offset>(-0.01607717, 0.7620579)</offset>
+                            <offset>(-0.01607717, 0.7813505)</offset>
                             <bodyTypes>
-                                <Child MayRequire="ludeon.rimworld.biotech">(-0.0,-0.1768489)</Child>
+                                <Child MayRequire="ludeon.rimworld.biotech">(-0.0,-0.2411576)</Child>
                                 <Baby MayRequire="ludeon.rimworld.biotech">(0.009646302,-0.3697749)</Baby>
                             </bodyTypes>
                         </north>
