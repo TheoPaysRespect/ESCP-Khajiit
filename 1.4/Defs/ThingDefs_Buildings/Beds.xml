@@ -30,7 +30,7 @@
 
     <ThingDef ParentName="BasicBedBase">
         <defName>KhajiitSleepingBox</defName>
-        <label>kahjiit bed</label>
+        <label>khajiit bed</label>
         <description>A cozy mattress and sheets on a frame for resting.</description>
         <rotatable>true</rotatable>
         <graphicData>
