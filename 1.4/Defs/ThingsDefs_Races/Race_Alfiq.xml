@@ -275,36 +275,26 @@
                                         <Child MayRequire="ludeon.rimworld.biotech">(0,0)</Child>
                                         <Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
                                     </bodyTypes>
-                                    <portraitBodyTypes>
-                                        <Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
-                                    </portraitBodyTypes>
                                 </north>
                                 <east>
+                                    <offset>(0.03536978, 0)</offset>
                                     <bodyTypes>
-                                        <Child MayRequire="ludeon.rimworld.biotech">(0,0)</Child>
-                                        <Baby MayRequire="ludeon.rimworld.biotech">(-0.032,-0.1)</Baby>
+                                        <Child MayRequire="ludeon.rimworld.biotech">(0.009646302,0)</Child>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(-0.05466238,-0.1)</Baby>
                                     </bodyTypes>
-                                    <portraitBodyTypes>
-                                        <Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
-                                    </portraitBodyTypes>
                                 </east>
                                 <west>
+                                    <offset>(0.03536978, 0)</offset>
                                     <bodyTypes>
-                                        <Child MayRequire="ludeon.rimworld.biotech">(0,0)</Child>
-                                        <Baby MayRequire="ludeon.rimworld.biotech">(-0.032,-0.1)</Baby>
+                                        <Child MayRequire="ludeon.rimworld.biotech">(0.009646302,0)</Child>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(-0.05466238,-0.1)</Baby>
                                     </bodyTypes>
-                                    <portraitBodyTypes>
-                                        <Baby MayRequire="ludeon.rimworld.biotech">(0,-0)</Baby>
-                                    </portraitBodyTypes>
                                 </west>
                                 <south>
                                     <bodyTypes>
                                         <Child MayRequire="ludeon.rimworld.biotech">(0,0)</Child>
                                         <Baby MayRequire="ludeon.rimworld.biotech">(0,-0.1)</Baby>
                                     </bodyTypes>
-                                    <portraitBodyTypes>
-                                        <Baby MayRequire="ludeon.rimworld.biotech">(0,-0.12)</Baby>
-                                    </portraitBodyTypes>
                                 </south>
                             </offsets>
                         </li>
@@ -336,13 +326,13 @@
                                 <rotation>East</rotation>
                                 <tag>RightEye</tag>
                                 <canMirror>false</canMirror>
-                                
+
                                 <range>0</range>
                                 <layer>Head</layer>
                             </replacement>
                             <offsets>
                                 <east>
-                                <offset>(0.072,0.25)</offset>
+                                    <offset>(0.072,0.25)</offset>
                                     <bodyTypes>
                                         <Child MayRequire="ludeon.rimworld.biotech">(0,0)</Child>
                                         <Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
@@ -356,13 +346,13 @@
                                 <rotation>South</rotation>
                                 <tag>LeftEye</tag>
                                 <canMirror>false</canMirror>
-                                
+
                                 <range>0</range>
                                 <layer>Head</layer>
                             </replacement>
                             <offsets>
                                 <south>
-                                <offset>(-0.08,0.25)</offset>
+                                    <offset>(-0.08,0.25)</offset>
                                     <bodyTypes>
                                         <Child MayRequire="ludeon.rimworld.biotech">(0,0)</Child>
                                         <Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
@@ -376,13 +366,13 @@
                                 <rotation>South</rotation>
                                 <tag>RightEye</tag>
                                 <canMirror>false</canMirror>
-                                
+
                                 <range>0</range>
                                 <layer>Head</layer>
                             </replacement>
                             <offsets>
                                 <south>
-                                <offset>(0.08,0.25)</offset>
+                                    <offset>(0.08,0.25)</offset>
                                     <bodyTypes>
                                         <Child MayRequire="ludeon.rimworld.biotech">(0,0)</Child>
                                         <Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>

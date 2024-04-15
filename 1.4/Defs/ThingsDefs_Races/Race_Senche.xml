@@ -205,7 +205,7 @@
                     <headOffset>(0, -0.6270096)</headOffset>
                     <headOffsetSpecific>
                         <north>
-                            <offset>(0, 0.8006431)</offset>
+                            <offset>(-0.01607717, 0.7620579)</offset>
                             <bodyTypes>
                                 <Child MayRequire="ludeon.rimworld.biotech">(-0.0,-0.1768489)</Child>
                                 <Baby MayRequire="ludeon.rimworld.biotech">(0.009646302,-0.3697749)</Baby>
@@ -310,9 +310,8 @@
                         </HumanlikeAdult>
                     </ageGraphics>
                 </body>
-                <!--<skeleton>Things/Pawn/Animal/Cougar/Dessicated_Cougar</skeleton>
-                <stump>Things/Pawn/Animal/Cat/Dessicated_Cougar</stump>
-                <skull></skull>-->
+                <skeleton>Things/Pawn/Humanlike/ESCP_Khajiit/Skeletons/Senche/Dessicated</skeleton>
+                <skull>Things/Pawn/Humanlike/ESCP_Khajiit/Skeletons/Senche/Skull</skull>
             </graphicPaths>
         </alienRace>
         <tools>
