@@ -90,44 +90,4 @@
             <paintable>true</paintable>
         </building>
     </ThingDef>
-
-    <!--royal bed-->
-    <!--<ThingDef ParentName="BasicBedBase">
-        <defName>KhajiitRoyalBed</defName>
-        <label>khajiit royal bed</label>
-        <description>A luxurious gold-inlaid bed fit for the highborn. Very comfy and beautiful, it is a work of art in itself. Fits two.</description>
-        <graphicData>
-            <texPath>Things/Building/Furniture/Bed/RoyalBed</texPath>
-            <graphicClass>Graphic_Multi</graphicClass>
-            <shaderType>CutoutComplex</shaderType>
-            <drawSize>(2.05,2.05)</drawSize>
-            <damageData>
-                <rect>(0,0.05,2,1.95)</rect>
-            </damageData>
-        </graphicData>
-        <thingSetMakerTags>
-            <li>RewardStandardQualitySuper</li>
-        </thingSetMakerTags>
-        <statBases>
-            <MaxHitPoints>200</MaxHitPoints>
-            <WorkToBuild>50000</WorkToBuild>
-            <Mass>60</Mass>
-            <Beauty>75</Beauty>
-            <BedRestEffectiveness>1.05</BedRestEffectiveness>
-            <Comfort>0.90</Comfort>
-        </statBases>
-        <size>(2,2)</size>
-        <costStuffCount>100</costStuffCount>
-        <costList>
-            <Gold>50</Gold>
-        </costList>
-        <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
-        <leaveResourcesWhenKilled>True</leaveResourcesWhenKilled>
-        <designationHotKey>Misc4</designationHotKey>
-        <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
-        <building>
-            <paintable>true</paintable>
-            <bed_showSleeperBody>True</bed_showSleeperBody>
-        </building>
-    </ThingDef>-->
 </Defs>
