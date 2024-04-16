@@ -73,7 +73,7 @@
                 <apparelList>
                     <li>ESCP_SencheLeatherArmor</li>
                     <li>ESCP_SencheClothArmor</li>
-                    <li>ESCP_SencheRoyalArmor</li>
+                    <li MayRequire="ludeon.rimworld.royalty">ESCP_SencheRoyalArmor</li>
                     <li>ESCP_SencheArmor</li>
                     <li>ESCP_SencheHelmet</li>
                 </apparelList>
@@ -339,14 +339,6 @@
                 </body>
                 <skeleton>Things/Pawn/Humanlike/ESCP_Khajiit/Skeletons/Senche/Dessicated</skeleton>
                 <skull>Things/Pawn/Humanlike/ESCP_Khajiit/Skeletons/Senche/Skull</skull>
-                <apparel>
-                    <individualPaths>
-                        <li MayRequire="ludeon.rimworld.ideology">
-                            <key>Apparel_BodyStrap</key>
-                            <value>Things/Pawn/Humanlike/Apparel/Burka/Burka</value>
-                        </li>
-                    </individualPaths>
-                </apparel>
             </graphicPaths>
         </alienRace>
         <tools>

@@ -22,6 +22,20 @@
     </Operation>
 
     <Operation Class="PatchOperationAdd">
+        <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="ESCP_AlfiqRace"]/alienRace/graphicPaths</xpath>
+        <value>
+            <apparel>
+                <individualPaths>
+                    <li>
+                        <key>Apparel_BodyStrap</key>
+                        <value>Things/Pawn/Humanlike/Apparel/Burka/Burka</value>
+                    </li>
+                </individualPaths>
+            </apparel>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
         <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="ESCP_SencheRace"]/alienRace/raceRestriction/whiteApparelList</xpath>
         <value>
             <!--ideology-->
@@ -41,4 +55,19 @@
             <li>Apparel_BodyStrap</li>
         </value>
     </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="ESCP_SencheRace"]/alienRace/graphicPaths</xpath>
+        <value>
+            <apparel>
+                <individualPaths>
+                    <li>
+                        <key>Apparel_BodyStrap</key>
+                        <value>Things/Pawn/Humanlike/Apparel/Burka/Burka</value>
+                    </li>
+                </individualPaths>
+            </apparel>
+        </value>
+    </Operation>
+
 </Patch>

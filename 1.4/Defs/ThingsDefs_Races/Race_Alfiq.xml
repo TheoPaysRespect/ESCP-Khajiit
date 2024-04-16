@@ -71,7 +71,7 @@
                 <apparelList>
                     <li>ESCP_AlfiqLeatherArmor</li>
                     <li>ESCP_AlfiqClothArmor</li>
-                    <li>ESCP_AlfiqRoyalArmor</li>
+                    <li MayRequire="ludeon.rimworld.royalty">ESCP_AlfiqRoyalArmor</li>
                 </apparelList>
                 <whiteApparelList Inherit ="false">
                     <!--
@@ -395,15 +395,6 @@
                 </body>
                 <skeleton>Things/Pawn/Humanlike/ESCP_Khajiit/Skeletons/Alfiq/Dessicated</skeleton>
                 <skull>Things/Pawn/Humanlike/ESCP_Khajiit/Skeletons/Alfiq/Skull</skull>
-                <apparel>
-                    <individualPaths>
-                        <li MayRequire="ludeon.rimworld.ideology">
-                            <key>Apparel_BodyStrap</key>
-                            <value>Things/Pawn/Humanlike/Apparel/Burka/Burka</value>
-                        </li>
-                    </individualPaths>
-                </apparel>
-
             </graphicPaths>
         </alienRace>
         <tools>

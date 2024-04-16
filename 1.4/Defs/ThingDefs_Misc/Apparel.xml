@@ -386,7 +386,7 @@
         <costStuffCount>140</costStuffCount>        <!--~x1.8 of duster/parka-->
     </ThingDef>
 
-    <ThingDef ParentName="Khajiit_RoyalBase">
+    <ThingDef ParentName="Khajiit_RoyalBase" MayRequire="ludeon.rimworld.royalty">
         <defName>ESCP_SencheRoyalArmor</defName>
         <label>Senche royal garb</label>
         <description>PLACEHOLDER</description>
