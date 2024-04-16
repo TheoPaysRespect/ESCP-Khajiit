@@ -15,11 +15,11 @@
 			<baseHealthScale>1</baseHealthScale>
 
 			<lifeStageAges Inherit="false">
-				<li MayRequire="Ludeon.RimWorld.Biotech">
+				<li>
 					<def>HumanlikeBaby</def>
 					<minAge>0</minAge>
 				</li>
-				<li MayRequire="Ludeon.RimWorld.Biotech">
+				<li>
 					<def>HumanlikeChild</def>
 					<minAge>3</minAge>
 					<soundWounded>Pawn_Cat_Injured</soundWounded>
