@@ -32,7 +32,7 @@
     <ThingDef ParentName="BasicBedBase">
         <defName>KhajiitSleepingBox</defName>
         <label>khajiit bed</label>
-        <description>A cozy mattress and sheets on a frame for resting.</description>
+        <description>A cozy box stuffed with pillows, perfect for quadrupeds.</description>
         <rotatable>true</rotatable>
         <scatterableOnMapGen>false</scatterableOnMapGen>
         <graphicData>
@@ -62,7 +62,7 @@
     <ThingDef ParentName="BasicBedBase">
         <defName>KhajiitDoubleSleepingBox</defName>
         <label>khajiit double sleeping box</label>
-        <description>A simple double-wide bed that fits two people.</description>
+        <description>A cozy box stuffed with pillows, perfect for two quadrupeds.</description>
         <scatterableOnMapGen>false</scatterableOnMapGen>
         <rotatable>true</rotatable>
         <graphicData>
