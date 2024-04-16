@@ -16,6 +16,8 @@
 
             <li>Apparel_TortureCrown</li>
             <li>Apparel_Blindfold</li>            <!--slight side rotation-->
+
+            <li>Apparel_BodyStrap</li>
         </value>
     </Operation>
 
@@ -35,6 +37,8 @@
 
             <li>Apparel_TortureCrown</li>
             <li>Apparel_Blindfold</li>            <!--slight side rotation-->
+
+            <li>Apparel_BodyStrap</li>
         </value>
     </Operation>
 </Patch>

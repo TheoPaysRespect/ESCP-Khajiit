@@ -339,6 +339,14 @@
                 </body>
                 <skeleton>Things/Pawn/Humanlike/ESCP_Khajiit/Skeletons/Senche/Dessicated</skeleton>
                 <skull>Things/Pawn/Humanlike/ESCP_Khajiit/Skeletons/Senche/Skull</skull>
+                <apparel>
+                    <individualPaths>
+                        <li MayRequire="ludeon.rimworld.ideology">
+                            <key>Apparel_BodyStrap</key>
+                            <value>Things/Pawn/Humanlike/Apparel/Burka/Burka</value>
+                        </li>
+                    </individualPaths>
+                </apparel>
             </graphicPaths>
         </alienRace>
         <tools>
