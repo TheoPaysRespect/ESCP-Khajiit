@@ -215,28 +215,28 @@
                             <offset>(-0.01607717, 0.7813505)</offset>
                             <bodyTypes>
                                 <Child MayRequire="ludeon.rimworld.biotech">(-0.0,-0.2411576)</Child>
-                                <Baby MayRequire="ludeon.rimworld.biotech">(0.009646302,-0.3697749)</Baby>
+                                <Baby MayRequire="ludeon.rimworld.biotech">(0.01607717,-0.5948553)</Baby>
                             </bodyTypes>
                         </north>
                         <east>
                             <offset>(0.4855306, 0.414791)</offset>
                             <bodyTypes>
                                 <Child MayRequire="ludeon.rimworld.biotech">(-0.08038585,-0.1511254)</Child>
-                                <Baby MayRequire="ludeon.rimworld.biotech">(-0.3826367,-0.1832797)</Baby>
+                                <Baby MayRequire="ludeon.rimworld.biotech">(-0.4726688,-0.2475884)</Baby>
                             </bodyTypes>
                         </east>
                         <west>
                             <offset>(-0.4855306, 0.414791)</offset>
                             <bodyTypes>
                                 <Child MayRequire="ludeon.rimworld.biotech">(0.08038585,-0.1511254)</Child>
-                                <Baby MayRequire="ludeon.rimworld.biotech">(0.3826367,-0.1832797)</Baby>
+                                <Baby MayRequire="ludeon.rimworld.biotech">(0.4726688,-0.2475884)</Baby>
                             </bodyTypes>
                         </west>
                         <south>
                             <offset>(0.04823151,-0.07395498)</offset>
                             <bodyTypes>
                                 <Child MayRequire="ludeon.rimworld.biotech">(-0.0044,0.01607717)</Child>
-                                <Baby MayRequire="ludeon.rimworld.biotech">(-0.04180064,0.4212219)</Baby>
+                                <Baby MayRequire="ludeon.rimworld.biotech">(-0.04823151,0.2025723)</Baby>
                             </bodyTypes>
                         </south>
                     </headOffsetSpecific>
@@ -251,6 +251,23 @@
                             <alignWithHead>true</alignWithHead>
                             <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
                             <drawnDesiccated>false</drawnDesiccated>
+                            <offsets>
+                                <north>
+                                    <bodyTypes>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(-0.02250804,0.1446945)</Baby>
+                                    </bodyTypes>
+                                </north>
+                                <east>
+                                    <bodyTypes>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(0.02250804,0.1318328)</Baby>
+                                    </bodyTypes>
+                                </east>
+                                <south>
+                                    <bodyTypes>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(0.05466238,0.1254019)</Baby>
+                                    </bodyTypes>
+                                </south>
+                            </offsets>
                         </li>
                         <li>
                             <path>Things/Pawn/Humanlike/ESCP_Khajiit/Ears/Senche/EarLeft</path>
@@ -263,6 +280,23 @@
                             <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
                             <drawnDesiccated>false</drawnDesiccated>
                             <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
+                            <offsets>
+                                <north>
+                                    <bodyTypes>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(0.04823151,0.1446945)</Baby>
+                                    </bodyTypes>
+                                </north>
+                                <east>
+                                    <bodyTypes>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(0.02250804,0.1318328)</Baby>
+                                    </bodyTypes>
+                                </east>
+                                <south>
+                                    <bodyTypes>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(-0.03536978,0.1254019)</Baby>
+                                    </bodyTypes>
+                                </south>
+                            </offsets>
                         </li>
                         <li>
                             <path>Things/Pawn/Humanlike/ESCP_Khajiit/Tails/Senche/Tail</path>
