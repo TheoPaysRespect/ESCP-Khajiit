@@ -178,6 +178,9 @@
             </layers>
             <tags>
                 <li>Royal</li>
+                <li>RoyalTier2</li>
+                <li>RoyalTier5</li>
+                <li>RoyalTier6</li>
                 <li>RoyalTier7</li>
             </tags>
             <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
