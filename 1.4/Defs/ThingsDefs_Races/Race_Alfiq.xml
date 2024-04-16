@@ -68,6 +68,11 @@
                 <traitList>
                     <li>Khajiit_AlfiqTrait</li>
                 </traitList>
+                <apparelList>
+                    <li>ESCP_AlfiqLeatherArmor</li>
+                    <li>ESCP_AlfiqClothArmor</li>
+                    <li>ESCP_AlfiqRoyalArmor</li>
+                </apparelList>
                 <whiteApparelList Inherit ="false">
                     <!--
                     general ruleset:
@@ -90,7 +95,6 @@
 
                     <!--colovian fur helm-->
                     <li MayRequire="sirmashedpotato.morrowrim.colovianfurhelm">MorrowRim_ColovianFurHelm</li>
-
                 </whiteApparelList>
             </raceRestriction>
             <generalSettings>

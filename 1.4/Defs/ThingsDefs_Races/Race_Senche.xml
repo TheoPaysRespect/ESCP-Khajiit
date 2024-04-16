@@ -70,6 +70,13 @@
                 <traitList>
                     <li>Khajiit_SencheTrait</li>
                 </traitList>
+                <apparelList>
+                    <li>ESCP_SencheLeatherArmor</li>
+                    <li>ESCP_SencheClothArmor</li>
+                    <li>ESCP_SencheRoyalArmor</li>
+                    <li>ESCP_SencheArmor</li>
+                    <li>ESCP_SencheHelmet</li>
+                </apparelList>
                 <whiteApparelList Inherit ="false">
                     <li>Apparel_Tuque</li>
                     <li>Apparel_CowboyHat</li>
