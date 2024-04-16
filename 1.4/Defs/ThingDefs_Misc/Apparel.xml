@@ -157,7 +157,7 @@
         <colorGenerator Class="ColorGenerator_StandardApparel" />
     </ThingDef>
 
-    <ThingDef Name="Khajiit_RoyalBase" ParentName="ApparelMakeableBase" Abstract="true">
+    <ThingDef Name="Khajiit_RoyalBase" ParentName="ApparelMakeableBase" Abstract="true" MayRequire="ludeon.rimworld.royalty">
         <recipeMaker>
             <researchPrerequisite>NobleApparel</researchPrerequisite>
         </recipeMaker>
@@ -264,7 +264,7 @@
         <costStuffCount>45</costStuffCount>
     </ThingDef>
 
-    <ThingDef ParentName="Khajiit_RoyalBase">
+    <ThingDef ParentName="Khajiit_RoyalBase" MayRequire="ludeon.rimworld.royalty">
         <defName>ESCP_AlfiqRoyalArmor</defName>
         <label>Alfiq royal garb</label>
         <description>PLACEHOLDER</description>
