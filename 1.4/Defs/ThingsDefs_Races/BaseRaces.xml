@@ -588,6 +588,7 @@
                     <li>KhajiitDoubleSleepingSpot</li>
                     <li>KhajiitSleepingBox</li>
                     <li>KhajiitDoubleSleepingBox</li>
+                    <li>KhajiitRoyalBox</li>
                 </validBeds>
                 <ageStatOverrides>
                     <WorkSpeedGlobal>                        <!--decreases general work speed due to their body shape-->
