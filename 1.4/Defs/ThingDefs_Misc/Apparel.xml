@@ -157,39 +157,7 @@
         <colorGenerator Class="ColorGenerator_StandardApparel" />
     </ThingDef>
 
-    <ThingDef Name="Khajiit_RoyalBase" ParentName="ApparelMakeableBase" Abstract="true" MayRequire="ludeon.rimworld.royalty">
-        <recipeMaker>
-            <researchPrerequisite>NobleApparel</researchPrerequisite>
-        </recipeMaker>
-        <stuffCategories>
-            <li>Fabric</li>
             <li>Leathery</li>
-        </stuffCategories>
-        <thingCategories>
-            <li>ApparelNoble</li>
-        </thingCategories>
-        <apparel>
-            <bodyPartGroups>
-                <li>Torso</li>
-                <li>Legs</li>
-            </bodyPartGroups>
-            <layers>
-                <li>OnSkin</li>
-            </layers>
-            <tags>
-                <li>Royal</li>
-                <li>RoyalTier2</li>
-                <li>RoyalTier5</li>
-                <li>RoyalTier6</li>
-                <li>RoyalTier7</li>
-            </tags>
-            <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
-            <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
-            <canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
-        </apparel>
-        <colorGenerator Class="ColorGenerator_StandardApparel" />
-    </ThingDef>
-
     <ThingDef Name="Khajiit_HelmetBase" ParentName="ArmorHelmetMakeableBase" Abstract="true">
         <techLevel>Medieval</techLevel>
         <recipeMaker>
@@ -267,32 +235,7 @@
         <costStuffCount>45</costStuffCount>
     </ThingDef>
 
-    <ThingDef ParentName="Khajiit_RoyalBase" MayRequire="ludeon.rimworld.royalty">
-        <defName>ESCP_AlfiqRoyalArmor</defName>
-        <label>Alfiq royal garb</label>
-        <description>PLACEHOLDER</description>
-        <graphicData>
-            <texPath>Things/Apparel/ESCP_AlfiqRoyalArmor</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>(0.6,0.6)</drawSize>
-        </graphicData>
-        <statBases>
-            <MaxHitPoints>100</MaxHitPoints>
-            <WorkToMake>10000</WorkToMake>
-            <Mass>0.25</Mass>
-            <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-            <StuffEffectMultiplierInsulation_Cold>0.80</StuffEffectMultiplierInsulation_Cold>
-            <StuffEffectMultiplierInsulation_Heat>0.25</StuffEffectMultiplierInsulation_Heat>
-            <EquipDelay>2</EquipDelay>
-        </statBases>
-        <costStuffCount>32</costStuffCount>
-        <apparel>
-            <wornGraphicPath>Things/Apparel/ESCP_AlfiqRoyalArmor</wornGraphicPath>
-        </apparel>
-        <equippedStatOffsets>
-            <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.2</SlaveSuppressionOffset>
-        </equippedStatOffsets>
-    </ThingDef>
+    
 
     <!--Senche-->
 
@@ -388,31 +331,5 @@
             <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Duster/Duster</wornGraphicPath>
         </apparel>
         <costStuffCount>140</costStuffCount>        <!--~x1.8 of duster/parka-->
-    </ThingDef>
-
-    <ThingDef ParentName="Khajiit_RoyalBase" MayRequire="ludeon.rimworld.royalty">
-        <defName>ESCP_SencheRoyalArmor</defName>
-        <label>Senche royal garb</label>
-        <description>PLACEHOLDER</description>
-        <graphicData>
-            <texPath>Things/Pawn/Humanlike/Apparel/Duster/Duster</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-        </graphicData>
-        <statBases>
-            <MaxHitPoints>100</MaxHitPoints>
-            <WorkToMake>30000</WorkToMake>
-            <Mass>2</Mass>
-            <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-            <StuffEffectMultiplierInsulation_Cold>0.80</StuffEffectMultiplierInsulation_Cold>
-            <StuffEffectMultiplierInsulation_Heat>0.25</StuffEffectMultiplierInsulation_Heat>
-            <EquipDelay>2</EquipDelay>
-        </statBases>
-        <costStuffCount>180</costStuffCount>
-        <apparel>
-            <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Duster/Duster</wornGraphicPath>
-        </apparel>
-        <equippedStatOffsets>
-            <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.2</SlaveSuppressionOffset>
-        </equippedStatOffsets>
     </ThingDef>
 </Defs>

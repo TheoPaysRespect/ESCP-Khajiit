@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="ESCP_AlfiqRace"]/alienRace/raceRestriction/whiteApparelList</xpath>
+        <value>
+            <!--Anomaly-->
+            <li>Apparel_CultistMask</li>
+            <li>Apparel_CeremonialCultistMask</li>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="ESCP_SencheRace"]/alienRace/raceRestriction/whiteApparelList</xpath>
+        <value>
+           <!--Anomaly-->
+            <li>Apparel_CultistMask</li>
+            <li>Apparel_CeremonialCultistMask</li>
+        </value>
+    </Operation>
+</Patch>
