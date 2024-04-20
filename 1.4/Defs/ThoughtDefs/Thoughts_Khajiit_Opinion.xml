@@ -23,28 +23,4 @@
 			<li>Psychopath</li>
 		</nullifyingTraits>
 	</ThoughtDef>
-
-	<ThoughtDef>
-		<defName>ESCP_KhajiitOpinion_SlaveVsDres</defName>
-		<thoughtClass>Thought_SituationalSocial</thoughtClass>
-		<workerClass>ESCP_RaceTools.ThoughtWorker_UniversalBackstoryOpinion_Shared</workerClass>
-		<validWhileDespawned>true</validWhileDespawned>
-		<modExtensions>
-			<li Class="ESCP_RaceTools.ThoughtDefProperties">
-				<sharedBackstoryCategories>
-					<li>ESCP_DunmerSlaveBackstory_Adulthood</li>
-					<li>ESCP_DunmerGreatHouse_Dres_Adulthood</li>
-				</sharedBackstoryCategories>
-			</li>
-		</modExtensions>
-		<stages>
-			<li>
-				<label>Dres vs Slave</label>
-				<baseOpinionOffset>-50</baseOpinionOffset>
-			</li>
-		</stages>
-		<nullifyingTraits>
-			<li>Kind</li>
-		</nullifyingTraits>
-	</ThoughtDef>
 </Defs>

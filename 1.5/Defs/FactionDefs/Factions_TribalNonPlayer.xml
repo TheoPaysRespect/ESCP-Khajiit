@@ -29,15 +29,9 @@
 		<settlementNameMaker>ESCP_Khajiit_NamerSettlement</settlementNameMaker>
 		<caravanTraderKinds Inherit="False">			<!--disables
 			slaver trader specifically-->
-			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.MedievalModule">
-				VFEM_Caravan_Medieval_Farmer</li>
 			<li>Caravan_Neolithic_BulkGoods</li>
 			<li>Caravan_Neolithic_WarMerchant</li>
 			<li>Caravan_Neolithic_ShamanMerchant</li>
-			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.MedievalModule">
-				VFEM_Caravan_Medieval_Armourer</li>
-			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.MedievalModule">
-				VFEM_Caravan_Medieval_Weaponsmith</li>
 		</caravanTraderKinds>
 		<allowedCultures>
 			<li>ESCP_KhajiitCulture</li>
