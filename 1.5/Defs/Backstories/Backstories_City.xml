@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!--Additional parameters: gender
+	commonality, rarity, bodytypeglobal, 
+    forced trait chance, titlefemale, titleshortfemale, workdisables, requiredworktags, 
+    disallowedtraits, possessions, linkedbackstory, forcedhediffs, passions, bioagerange,
+	forceditems-->
+	<!--Escp
+	race tools background based pawn opinions: khajiit vs dres-->
+	<!--Childhood-->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_CityKhajiit_ChildhoodBase">
+		<defName>ESCP_Khajiit_CityChild1</defName>
+		<title>Moon sugarcane farmer child</title>
+		<titleShort>farmer child</titleShort>
+		<description>[PAWN_nameDef] grew up on the sugar farm, diligently observing how it slowly became the sweet it is known for. Unfortunately, it didn't take long for the sweet to become a permanent part of their life.</description>
+		<maleCommonality>20</maleCommonality>
+		<femaleCommonality>20</femaleCommonality>
+		<skillGains>
+			<Plants>4</Plants>
+			<Medicine>2</Medicine>
+			<Intellectual>2</Intellectual>
+		</skillGains>
+		<workDisables>Social</workDisables>
+		<forcedHediffs>
+			<li MayRequire="sirmashedpotato.morrowrim.moonsugarandskooma">MorrowRim_SkoomaAddiction</li>
+		</forcedHediffs>
+		<linkedBackstory>ESCP_Khajiit_CityAdult3</linkedBackstory>
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_CityKhajiit_ChildhoodBase">
+		<defName>ESCP_Khajiit_CityChild2</defName>
+		<title>Yarn royal</title>
+		<titleShort>yarn royal</titleShort>
+		<description>[PAWN_nameDef] was the child of rich traders, always getting a new yarn ball to play with when they came home. All the other kittens came over to play but [PAWN_nameDef] refused to share. </description>
+		<skillGains>
+			<Crafting>2</Crafting>
+			<Artistic>4</Artistic>
+			<Social>-2</Social>
+		</skillGains>
+		<forcedItems>
+			<WoolSheep>3</WoolSheep>
+		</forcedItems>
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_CityKhajiit_ChildhoodBase">
+		<defName>ESCP_Khajiit_CityChild3</defName>
+		<title>Kitchen slave</title>
+		<titleShort>slave</titleShort>
+		<maleCommonality>70</maleCommonality>
+		<femaleCommonality>70</femaleCommonality>
+		<description>Shorly after birth, [PAWN_nameDef] was kidnapped from their native land and sold into slavery. Never to know their parents' names, they toiled away in the kitchens of a wealthy lord.</description>
+		<skillGains>
+			<Cooking>8</Cooking>
+		</skillGains>
+		<workDisables>Social,Intellectual,Artistic,Violent</workDisables>
+		<!--dres vs slave-->
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_CityKhajiit_ChildhoodBase">
+		<defName>ESCP_Khajiit_CityChild4</defName>
+		<title>Escaped child slave</title>
+		<titleShort>slave</titleShort>
+		<maleCommonality>70</maleCommonality>
+		<femaleCommonality>70</femaleCommonality>
+		<description>[PAWN_nameDef] used to be a slave, working the fields of House Dres until they no longer felt their legs. One day when mating netches attacked the plantation, they ran and never looked back.</description>
+		<skillGains>
+			<Plants>8</Plants>
+		</skillGains>
+		<workDisables>Social,Intellectual,Artistic,Violent</workDisables>
+		<spawnCategories>
+			<li>ESCP_DunmerSlaveBackstory_Adulthood</li>
+		</spawnCategories>
+		<!--dres vs slave-->
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_CityKhajiit_ChildhoodBase">
+		<!--Dani-->
+		<defName>ESCP_Khajiit_CityChild5</defName>
+		<title>exchange student</title>
+		<titleShort>student</titleShort>
+		<description>[PAWN_nameDef] was the child of aspirational parents, sending them off to a far away place for teaching at a young age.</description>
+		<skillGains>
+			<Intellectual>2</Intellectual>
+			<Crafting>2</Crafting>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+	<!--Adulthood-->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_CityKhajiit_AdulthoodBase">
+		<defName>ESCP_Khajiit_CityAdult1</defName>
+		<title>Cursed trader</title>
+		<titleShort>trader</titleShort>
+		<description>They say few have as bad luck as [PAWN_nameDef], losing their first caravan to a bet, and their second to robbers. They were going to get a third but their rival was faster.</description>
+		<skillGains>
+			<Social>2</Social>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName Degree ="-1">Nerves</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_CityKhajiit_AdulthoodBase">
+		<defName>ESCP_Khajiit_CityAdult2</defName>
+		<title>Wandering trader</title>
+		<titleShort>trader</titleShort>
+		<description>[PAWN_nameDef] has seen many lands beyond the sands, from snowy peaks, to high rocks. But the best land will always be where their home is, and that is their caravan mates.</description>
+		<skillGains>
+			<Social>4</Social>
+		</skillGains>
+		<forcedTraitsChance>
+			<li MayRequire="vanillaexpanded.vanillatraitsexpanded">
+				<defName>VTE_Tycoon</defName>
+				<chance>30</chance>
+			</li>
+			<li MayRequire="vanillaexpanded.vanillatraitsexpanded">
+				<defName>VTE_Wanderlust</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraitsChance>
+		<spawnCategories>
+			<li>ESCP_TraderBackstory</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_CityKhajiit_AdulthoodBase">
+		<defName>ESCP_Khajiit_CityAdult3</defName>
+		<title>Skooma addict</title>
+		<titleShort>addict</titleShort>
+		<description>Nobody sees more than [PAWN_nameDef] who has many eyes. They also have a best friend called Steve who is a cheese wheel. Every Thursday they go napping on the azure sands.</description>
+		<skillGains>
+			<Artistic>8</Artistic>
+		</skillGains>
+		<workDisables>ManualSkilled</workDisables>
+		<spawnCategories>
+			<li>ESCP_GenericBackstory_AdulthoodSkoomaAddict</li>
+		</spawnCategories>
+		<forcedHediffs>
+			<li MayRequire="sirmashedpotato.morrowrim.moonsugarandskooma">MorrowRim_SkoomaAddiction</li>
+		</forcedHediffs>
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_CityKhajiit_AdulthoodBase">
+		<defName>ESCP_Khajiit_CityAdult4</defName>
+		<title>Renowned chef</title>
+		<titleShort>chef</titleShort>
+		<description>[PAWN_nameDef] owned a food stall in the bazaar. Outsiders rarely dared to approach due to the never ending queue of Senche starving for a good meat pie.</description>
+		<skillGains>
+			<Cooking>6</Cooking>
+		</skillGains>
+		<spawnCategories>
+			<li>ESCP_KhajiitBackstory_Exclusion</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_CityKhajiit_AdulthoodBase">
+		<defName>ESCP_Khajiit_CityAdult5</defName>
+		<title>Recovering Skooma addict</title>
+		<titleShort>former addict</titleShort>
+		<description>Once there was a time when cheese rolls flew in the sky and everyone danced in wine rivers, but those times are for [PAWN_nameDef] no more. Instead, they swore to dedicate their life to ending the false lure of the sweet.</description>
+		<skillGains>
+			<Medicine>4</Medicine>
+			<Social>4</Social>
+		</skillGains>
+		<workDisables>Intellectual</workDisables>
+		<forcedTraitsChance>
+			<li>
+				<defName Degree ="-1">DrugDesire</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_CityKhajiit_AdulthoodBase">
+		<defName>ESCP_Khajiit_CityAdult6</defName>
+		<title>Freed slave</title>
+		<titleShort>slave</titleShort>
+		<description>Their fur mangy and their paws aching, [PAWN_nameDef] toiled away at the plantation. Just as they thought it was all over, the owner got assassinated by a jealous lover.</description>
+		<skillGains>
+			<Plants>6</Plants>
+			<Construction>4</Construction>
+		</skillGains>
+		<workDisables>Social,Intellectual,Artistic,Violent</workDisables>
+		<!--dres vs slave-->
+		<spawnCategories>
+			<li>ESCP_KhajiitBackstory_Exclusion</li>
+			<li>ESCP_DunmerSlaveBackstory_Adulthood</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_CityKhajiit_AdulthoodBase">
+		<!--dani-->
+		<defName>ESCP_Khajiit_CityAdult7</defName>
+		<title>Odd artist</title>
+		<titleShort>artist</titleShort>
+		<description>Drawing their fantasies [PAWN_nameDef] fancied themselves an artist though no one could tell what they drew.</description>
+		<skillGains>
+			<Artistic>4</Artistic>
+			<Social>-2</Social>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>TorturedArtist</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+</Defs>

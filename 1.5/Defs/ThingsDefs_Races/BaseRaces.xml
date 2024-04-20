@@ -1,0 +1,725 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--bodymasks for patterns?-->
+
+<!--
+    <soundWounded>Pawn_Cat_Injured</soundWounded>
+    <soundDeath>Pawn_Cat_Death</soundDeath>
+    <soundCall>Pawn_Cat_Call</soundCall>
+    <soundAngry>Pawn_Cat_Angry</soundAngry>
+-->
+<Defs>
+    <AlienRace.ThingDef_AlienRace ParentName="ESCP_BaseRace_NoCosmeticGenes" Name="ESCP_BaseRace_Khajiit" Abstract="True">
+        <statBases>
+            <PsychicSensitivity>1.2</PsychicSensitivity>
+            <SocialImpact>0.8</SocialImpact>
+            <Flammability>1.2</Flammability>
+            <ComfyTemperatureMax>35</ComfyTemperatureMax>
+            <Comfort>1.2</Comfort>
+        </statBases>
+        <descriptionHyperlinks>
+            <GeneDef MayRequire="Ludeon.RimWorld.Biotech">ESCP_Khajiit_InheritedBonus</GeneDef>
+        </descriptionHyperlinks>
+        <modExtensions>
+            <li Class="ESCP_RaceTools.RaceProperties">
+                <foodPoisoningResistant>true</foodPoisoningResistant>
+                <heatstrokeResistant>true</heatstrokeResistant>
+                <majorRacialGeneToInherit MayRequire="Ludeon.RimWorld.Biotech">ESCP_Khajiit_InheritedBonus</majorRacialGeneToInherit>
+            </li>
+        </modExtensions>
+        <race>
+            <leatherDef>ESCP_LeatherKhajiit</leatherDef>
+            <nameGenerator>ESCP_Khajiit_NamerMale</nameGenerator>
+            <nameGeneratorFemale>ESCP_Khajiit_NamerFemale</nameGeneratorFemale>
+            <ageGenerationCurve>
+                <points>
+                    <li MayRequire="Ludeon.RimWorld.Biotech">(0,0)</li>
+                    <li MayRequire="Ludeon.RimWorld.Biotech">(0.001,43)</li>
+                    <li MayRequire="Ludeon.RimWorld.Biotech">(8,86)</li>
+                    <li MayRequire="Ludeon.RimWorld.Biotech">(12.5,118)</li>
+                    <!-- Exclude 12.5-13 years to avoid spawning pawns who are very close to becoming adults -->
+                    <li MayRequire="Ludeon.RimWorld.Biotech">(12.51,0)</li>
+                    <li MayRequire="Ludeon.RimWorld.Biotech">(13,0)</li>
+                    <li MayRequire="Ludeon.RimWorld.Biotech">(13.001,122)</li>
+                    <!-- End exclude -->
+                    <li MayRequire="Ludeon.RimWorld.Biotech">(13.999,130)</li>
+                    <li>(14,0)</li>
+                    <li MayRequire="Ludeon.RimWorld.Biotech">(14.001,130)</li>
+                    <li>(16,100)</li>
+                    <li>(50,100)</li>
+                    <li>(60,30)</li>
+                    <li>(70,18)</li>
+                    <li>(80,10)</li>
+                    <li>(90,3)</li>
+                    <li>(100,0)</li>
+                </points>
+            </ageGenerationCurve>
+        </race>
+        <alienRace>
+            <graphicPaths Inherit="false">
+                <skinShader>Cutout</skinShader>
+            </graphicPaths>
+            <styleSettings>
+                <li>
+                    <key>BeardDef</key>
+                    <value>
+                        <hasStyle>false</hasStyle>
+                    </value>
+                </li>
+            </styleSettings>
+            <generalSettings>
+                <factionRelations>
+                    <li>
+                        <factions>
+                            <li>ESCP_KhajiitNonPlayerFaction_Bandaari</li>
+                        </factions>
+                        <goodwill>
+                            <min>100</min>
+                            <max>100</max>
+                        </goodwill>
+                    </li>
+                </factionRelations>
+                <maxDamageForSocialfight>6</maxDamageForSocialfight>
+                <reproduction>
+                    <hybridSpecific>
+                        <li>
+                            <!--final values 64, 6, 6, 12, 12-->
+                            <partnerRace>ESCP_KhajiitRace</partnerRace>
+                            <probability>64</probability>
+                            <childKindDef>ESCP_KhajiitPlayerPawnKind_Tribal</childKindDef>
+                        </li>
+                        <li>
+                            <partnerRace>ESCP_KhajiitRace</partnerRace>
+                            <probability>6</probability>
+                            <childKindDef>ESCP_OhmesPlayerPawnKind_Tribal</childKindDef>
+                        </li>
+                        <li>
+                            <partnerRace>ESCP_KhajiitRace</partnerRace>
+                            <probability>6</probability>
+                            <childKindDef>ESCP_OhmesRahtPlayerPawnKind_Tribal</childKindDef>
+                        </li>
+                        <li>
+                            <partnerRace>ESCP_KhajiitRace</partnerRace>
+                            <probability>12</probability>
+                            <childKindDef>ESCP_AlfiqPlayerPawnKind_Tribal</childKindDef>
+                        </li>
+                        <li>
+                            <partnerRace>ESCP_KhajiitRace</partnerRace>
+                            <probability>12</probability>
+                            <childKindDef>ESCP_SenchePlayerPawnKind_Tribal</childKindDef>
+                        </li>
+                        <li>
+                            <!--final values 64, 6, 6, 12, 12-->
+                            <partnerRace>ESCP_OhmesRace</partnerRace>
+                            <probability>64</probability>
+                            <childKindDef>ESCP_KhajiitPlayerPawnKind_Tribal</childKindDef>
+                        </li>
+                        <li>
+                            <partnerRace>ESCP_OhmesRace</partnerRace>
+                            <probability>6</probability>
+                            <childKindDef>ESCP_OhmesPlayerPawnKind_Tribal</childKindDef>
+                        </li>
+                        <li>
+                            <partnerRace>ESCP_OhmesRace</partnerRace>
+                            <probability>6</probability>
+                            <childKindDef>ESCP_OhmesRahtPlayerPawnKind_Tribal</childKindDef>
+                        </li>
+                        <li>
+                            <partnerRace>ESCP_OhmesRace</partnerRace>
+                            <probability>12</probability>
+                            <childKindDef>ESCP_AlfiqPlayerPawnKind_Tribal</childKindDef>
+                        </li>
+                        <li>
+                            <partnerRace>ESCP_OhmesRace</partnerRace>
+                            <probability>12</probability>
+                            <childKindDef>ESCP_SenchePlayerPawnKind_Tribal</childKindDef>
+                        </li>
+                        <li>
+                            <!--final values 64, 6, 6, 12, 12-->
+                            <partnerRace>ESCP_OhmesRahtRace</partnerRace>
+                            <probability>64</probability>
+                            <childKindDef>ESCP_KhajiitPlayerPawnKind_Tribal</childKindDef>
+                        </li>
+                        <li>
+                            <partnerRace>ESCP_OhmesRahtRace</partnerRace>
+                            <probability>6</probability>
+                            <childKindDef>ESCP_OhmesPlayerPawnKind_Tribal</childKindDef>
+                        </li>
+                        <li>
+                            <partnerRace>ESCP_OhmesRahtRace</partnerRace>
+                            <probability>6</probability>
+                            <childKindDef>ESCP_OhmesRahtPlayerPawnKind_Tribal</childKindDef>
+                        </li>
+                        <li>
+                            <partnerRace>ESCP_OhmesRahtRace</partnerRace>
+                            <probability>12</probability>
+                            <childKindDef>ESCP_AlfiqPlayerPawnKind_Tribal</childKindDef>
+                        </li>
+                        <li>
+                            <partnerRace>ESCP_OhmesRahtRace</partnerRace>
+                            <probability>12</probability>
+                            <childKindDef>ESCP_SenchePlayerPawnKind_Tribal</childKindDef>
+                        </li>
+                        <li>
+                            <!--final values 64, 6, 6, 12, 12-->
+                            <partnerRace>ESCP_AlfiqRace</partnerRace>
+                            <probability>64</probability>
+                            <childKindDef>ESCP_KhajiitPlayerPawnKind_Tribal</childKindDef>
+                        </li>
+                        <li>
+                            <partnerRace>ESCP_AlfiqRace</partnerRace>
+                            <probability>6</probability>
+                            <childKindDef>ESCP_OhmesPlayerPawnKind_Tribal</childKindDef>
+                        </li>
+                        <li>
+                            <partnerRace>ESCP_AlfiqRace</partnerRace>
+                            <probability>6</probability>
+                            <childKindDef>ESCP_OhmesRahtPlayerPawnKind_Tribal</childKindDef>
+                        </li>
+                        <li>
+                            <partnerRace>ESCP_AlfiqRace</partnerRace>
+                            <probability>12</probability>
+                            <childKindDef>ESCP_AlfiqPlayerPawnKind_Tribal</childKindDef>
+                        </li>
+                        <li>
+                            <partnerRace>ESCP_AlfiqRace</partnerRace>
+                            <probability>12</probability>
+                            <childKindDef>ESCP_SenchePlayerPawnKind_Tribal</childKindDef>
+                        </li>
+                        <li>
+                            <!--final values 64, 6, 6, 12, 12-->
+                            <partnerRace>ESCP_SencheRace</partnerRace>
+                            <probability>64</probability>
+                            <childKindDef>ESCP_KhajiitPlayerPawnKind_Tribal</childKindDef>
+                        </li>
+                        <li>
+                            <partnerRace>ESCP_SencheRace</partnerRace>
+                            <probability>6</probability>
+                            <childKindDef>ESCP_OhmesPlayerPawnKind_Tribal</childKindDef>
+                        </li>
+                        <li>
+                            <partnerRace>ESCP_SencheRace</partnerRace>
+                            <probability>6</probability>
+                            <childKindDef>ESCP_OhmesRahtPlayerPawnKind_Tribal</childKindDef>
+                        </li>
+                        <li>
+                            <partnerRace>ESCP_SencheRace</partnerRace>
+                            <probability>12</probability>
+                            <childKindDef>ESCP_AlfiqPlayerPawnKind_Tribal</childKindDef>
+                        </li>
+                        <li>
+                            <partnerRace>ESCP_SencheRace</partnerRace>
+                            <probability>12</probability>
+                            <childKindDef>ESCP_SenchePlayerPawnKind_Tribal</childKindDef>
+                        </li>
+                    </hybridSpecific>
+                </reproduction>
+                <raceGenes MayRequire="ludeon.rimworld.biotech">
+                    <li MayRequire="sirmashedpotato.morrowrim.moonsugarandskooma">
+                        AddictionResistant_MorrowRim_MoonSugar</li>
+                    <!--<li>AddictionResistant_MorrowRim_Skooma</li>-->
+                </raceGenes>
+                <allowHumanBios>false</allowHumanBios>
+                <humanRecipeImport>true</humanRecipeImport>
+                <immuneToAge>false</immuneToAge>
+                <!--<alienPartGenerator Inherit="false">
+                    <bodyTypes>
+                        <li>Thin</li>
+                        <li>Hulk</li>
+                        <li>Male</li>
+                        <li>Female</li>
+                        <li>Fat</li>
+                        <li MayRequire="Ludeon.RimWorld.Biotech">Baby</li>
+                        <li MayRequire="Ludeon.RimWorld.Biotech">Child</li>
+                    </bodyTypes>
+                </alienPartGenerator>-->
+                <newbornBackstoryFilter>
+                    <li>
+                        <categories>
+                            <li>ESCP_GenericBiotechBackstory_Newborn</li>
+                        </categories>
+                        <commonality>1</commonality>
+                    </li>
+                </newbornBackstoryFilter>
+                <childBackstoryFilter>
+                    <li>
+                        <categories>
+                            <li>ESCP_GenericBiotechBackstory_Child</li>
+                        </categories>
+                        <commonality>1</commonality>
+                    </li>
+                </childBackstoryFilter>
+                <adultBackstoryFilter>
+                    <li>
+                        <categories>
+                            <li>ESCP_GenericBiotechBackstory_Adult</li>
+                        </categories>
+                        <commonality>1</commonality>
+                    </li>
+                </adultBackstoryFilter>
+                <adultVatBackstoryFilter>
+                    <li>
+                        <categories>
+                            <li>ESCP_GenericBiotechBackstory_VatGrown</li>
+                        </categories>
+                        <commonality>1</commonality>
+                    </li>
+                </adultVatBackstoryFilter>
+            </generalSettings>
+            <raceRestriction>
+                <blackGeneList>
+                    <li MayRequire="Ludeon.RimWorld.Biotech">ESCP_Khajiit_InheritedBonus</li>
+                </blackGeneList>
+            </raceRestriction>
+            <compatibility>
+                <isFlesh>true</isFlesh>
+                <isSentient>true</isSentient>
+                <hasBlood>true</hasBlood>
+            </compatibility>
+            <thoughtSettings>
+                <cannotReceiveThoughts>
+                    <li>AteRawFood</li>
+                    <li>SleptInHeat</li>
+                    <li>EnvironmentHot</li>
+                </cannotReceiveThoughts>
+                <replacerList>
+                    <li>
+                        <original>AteKibble</original>
+                        <replacer>ESCP_Khajiit_AteKibble</replacer>
+                    </li>
+                </replacerList>
+            </thoughtSettings>
+        </alienRace>
+
+    </AlienRace.ThingDef_AlienRace>
+
+    <AlienRace.ThingDef_AlienRace ParentName ="ESCP_BaseRace_Khajiit" Name="ESCP_Khajiit_StandardForm" Abstract="True">
+        <modExtensions>
+            <li Class="ESCP_RaceTools.RomanceRestriction">
+                <restrictRomanceToTags>false</restrictRomanceToTags>
+                <restrictedRomanceTags>
+                    <li>khajiit</li>
+                </restrictedRomanceTags>
+            </li>
+        </modExtensions>
+        <statBases>
+            <ComfyTemperatureMin>-10</ComfyTemperatureMin>
+        </statBases>
+        <race>
+            <body>ESCP_Khajiit_BaseBody</body>
+        </race>
+        <alienRace>
+            <graphicPaths>
+                <head>Things/Pawn/Humanlike/ESCP_Khajiit/Heads/Base/</head>
+                <body>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Base/</body>
+                <skull>Things/Pawn/Humanlike/ESCP_Khajiit/Skeletons/Base/Skull</skull>
+            </graphicPaths>
+            <generalSettings>
+                <alienPartGenerator>
+                    <headTypes Inherit="false">
+                        <li>Male_AverageNormal</li>
+                        <li>Male_AverageWide</li>
+                        <li>Male_AveragePointy</li>
+                        <li>Female_AverageNormal</li>
+                        <li>Female_AverageWide</li>
+                        <li>Female_AveragePointy</li>
+                    </headTypes>
+                    <bodyAddons>
+                        <li>
+                            <path>Things/Pawn/Humanlike/ESCP_Khajiit/Ears/Base/EarRight</path>
+                            <colorChannel>skin</colorChannel>
+                            <inFrontOfBody>true</inFrontOfBody>
+                            <alignWithHead>true</alignWithHead>
+                            <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                            <conditions>
+                                <BodyPart>
+                                    <bodyPartLabel>right ear</bodyPartLabel>
+                                </BodyPart>
+                                <RotStage>Fresh,Rotting</RotStage>
+                                <Posture>
+                                    <drawnStanding>true</drawnStanding>
+                                    <drawnLaying>true</drawnLaying>
+                                    <drawnInBed>true</drawnInBed>
+                                </Posture>
+                            </conditions>
+                        </li>
+                        <li>
+                            <path>Things/Pawn/Humanlike/ESCP_Khajiit/Ears/Base/EarLeft</path>
+                            <colorChannel>skin</colorChannel>
+                            <inFrontOfBody>true</inFrontOfBody>
+                            <alignWithHead>true</alignWithHead>
+                            <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                            <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
+                            <conditions>
+                                <BodyPart>
+                                    <bodyPartLabel>left ear</bodyPartLabel>
+                                </BodyPart>
+                                <RotStage>Fresh,Rotting</RotStage>
+                                <Posture>
+                                    <drawnStanding>true</drawnStanding>
+                                    <drawnLaying>true</drawnLaying>
+                                    <drawnInBed>true</drawnInBed>
+                                </Posture>
+                            </conditions>
+                        </li>
+                        <li>
+                            <path>Things/Pawn/Humanlike/ESCP_Khajiit/Tails/Base/Tail</path>
+                            <colorChannel>skin</colorChannel>
+                            <inFrontOfBody>false</inFrontOfBody>
+                            <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                            <conditions>
+                                <BodyPart>
+                                    <bodyPartLabel>tail</bodyPartLabel>
+                                </BodyPart>
+                                <RotStage>Fresh,Rotting</RotStage>
+                                <Posture>
+                                    <drawnStanding>true</drawnStanding>
+                                    <drawnLaying>true</drawnLaying>
+                                    <drawnInBed>false</drawnInBed>
+                                </Posture>
+                            </conditions>
+                            <offsets>
+                                <north>
+                                    <bodyTypes>
+                                        <Fat>(0,-0.04)</Fat>
+                                        <Female>(0,-0.02)</Female>
+                                        <Hulk>(0,-0.15)</Hulk>
+                                        <Child MayRequire="ludeon.rimworld.biotech">(0,0.1)</Child>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(0,0.05)</Baby>
+                                    </bodyTypes>
+                                </north>
+                                <east>
+                                    <bodyTypes>
+                                        <Male>(-0.045,0)</Male>
+                                        <Fat>(0.20,-0.04)</Fat>
+                                        <Female>(0.065,-0.02)</Female>
+                                        <Hulk>(0.15,-0.15)</Hulk>
+                                        <Child MayRequire="ludeon.rimworld.biotech">(-0.03,0.1)</Child>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(0.02,0.05)</Baby>
+                                    </bodyTypes>
+                                </east>
+                            </offsets>
+                        </li>
+                    </bodyAddons>
+                    <colorChannels>
+                        <li>
+                            <name>skin</name>
+                            <!--Adjust
+							colors-->
+                            <first Class="ColorGenerator_Options">
+                                <options>
+                                    <li>
+                                        <!--white-->
+                                        <weight>10</weight>
+                                        <only>(241,241,241,255)</only>
+                                    </li>
+                                    <li>
+                                        <!--light grey-->
+                                        <weight>10</weight>
+                                        <only>(150,110,75,255)</only>
+                                    </li>
+                                    <li>
+                                        <!--dark grey-->
+                                        <weight>10</weight>
+                                        <only>(40,40,40,255)</only>
+                                    </li>
+                                    <li>
+                                        <!--light brown-->
+                                        <weight>10</weight>
+                                        <only>(187,125,88,255)</only>
+                                    </li>
+                                    <li>
+                                        <!--brown-->
+                                        <weight>10</weight>
+                                        <only>(100,73,59,255)</only>
+                                    </li>
+                                    <li>
+                                        <!--red brown-->
+                                        <weight>10</weight>
+                                        <only>(151,89,68,255)</only>
+                                    </li>
+                                    <li>
+                                        <!--orange-->
+                                        <weight>10</weight>
+                                        <only>(226,174,113,255)</only>
+                                    </li>
+                                    <li>
+                                        <!--beige-->
+                                        <weight>10</weight>
+                                        <only>(246,222,198,255)</only>
+                                    </li>
+                                    <li>
+                                        <!--yellow-->
+                                        <weight>10</weight>
+                                        <only>(245,212,168,255)</only>
+                                    </li>
+                                    <li>
+                                        <!--brown grey-->
+                                        <weight>10</weight>
+                                        <only>(166,148,130,255)</only>
+                                    </li>
+                                </options>
+                            </first>
+                        </li>
+                        <li>
+                            <name>hair</name>
+                            <first Class="ColorGenerator_Options">
+                                <options>
+                                    <li>
+                                        <weight>2</weight>
+                                        <only>(194,194,194,255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>5</weight>
+                                        <only>(166,150,132,255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>5</weight>
+                                        <only>(157,125,94,255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>5</weight>
+                                        <only>(157,107,56,255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>5</weight>
+                                        <only>(107,87,66,255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>5</weight>
+                                        <only>(65,52,40,255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>10</weight>
+                                        <only>(45,37,36,255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>5</weight>
+                                        <only>(102,94,87,255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>10</weight>
+                                        <only>(30,30,30,255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>5</weight>
+                                        <only>(87,70,54,255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>2</weight>
+                                        <only>(147,127,119,255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>2</weight>
+                                        <only>(151,75,54,255)</only>
+                                    </li>
+                                </options>
+                            </first>
+                        </li>
+                    </colorChannels>
+                </alienPartGenerator>
+            </generalSettings>
+            <thoughtSettings>
+                <cannotReceiveThoughts>
+                    <li>Naked</li>
+                </cannotReceiveThoughts>
+                <replacerList>
+                    <li>
+                        <original>SoakingWet</original>
+                        <replacer>ESCP_Khajiit_SoakingWet</replacer>
+                    </li>
+                </replacerList>
+            </thoughtSettings>
+        </alienRace>
+    </AlienRace.ThingDef_AlienRace>
+
+    <AlienRace.ThingDef_AlienRace ParentName="ESCP_BaseRace_Khajiit" Name="ESCP_Khajiit_Ohmes" Abstract="True">
+        <modExtensions>
+            <li Class="ESCP_RaceTools.RomanceRestriction">
+                <restrictRomanceToTags>false</restrictRomanceToTags>
+                <restrictedRomanceTags>
+                    <li>khajiit</li>
+                </restrictedRomanceTags>
+            </li>
+        </modExtensions>
+
+        <race>
+            <useMeatFrom>ESCP_KhajiitRace</useMeatFrom>
+        </race>
+        <alienRace>
+            <generalSettings>
+                <maxDamageForSocialfight>6</maxDamageForSocialfight>
+                <alienPartGenerator>
+                    <headTypes Inherit="false">
+                        <li>ESCP_HeadMer_Female_Average_Normal</li>
+                        <li>ESCP_HeadMer_Female_Average_Pointy</li>
+                        <li>ESCP_HeadMer_Female_Average_Wide</li>
+                        <!--<li>ESCP_HeadMer_Female_Narrow_Normal</li>
+                        <li>ESCP_HeadMer_Female_Narrow_Pointy</li>
+                        <li>ESCP_HeadMer_Female_Narrow_Wide</li>-->
+                        <li>ESCP_HeadMer_Male_Average_Normal</li>
+                        <li>ESCP_HeadMer_Male_Average_Pointy</li>
+                        <li>ESCP_HeadMer_Male_Average_Wide</li>
+                        <!--<li>ESCP_HeadMer_Male_Narrow_Normal</li>
+                        <li>ESCP_HeadMer_Male_Narrow_Pointy</li>
+                        <li>ESCP_HeadMer_Male_Narrow_Wide</li>-->
+                    </headTypes>
+                </alienPartGenerator>
+            </generalSettings>
+        </alienRace>
+    </AlienRace.ThingDef_AlienRace>
+
+    <AlienRace.ThingDef_AlienRace ParentName="ESCP_BaseRace_Khajiit" Name="ESCP_Khajiit_Quadruped" Abstract="True">
+        <!--
+        to add:
+        -disable most work
+        -add cat sounds
+        -disallow traits relating to jobs they can't perform 
+        -change allowed beds?
+        -->
+        <modExtensions>
+            <li Class="ESCP_RaceTools.RomanceRestriction">
+                <restrictRomanceToTags>true</restrictRomanceToTags>
+                <restrictedRomanceTags>
+                    <li>khajiit</li>
+                </restrictedRomanceTags>
+            </li>
+        </modExtensions>
+        <race>
+            <body>ESCP_Khajiit_BaseBody</body>
+            <useMeatFrom>ESCP_KhajiitRace</useMeatFrom>
+        </race>
+        <alienRace>
+            <styleSettings>
+                <li>
+                    <key>HairDef</key>
+                    <value>
+                        <hasStyle>false</hasStyle>
+                    </value>
+                </li>
+                <li>
+                    <key>TattooDef</key>
+                    <value>
+                        <hasStyle>false</hasStyle>
+                    </value>
+                </li>
+            </styleSettings>
+            <generalSettings>
+                <validBeds>
+                    <li>KhajiitSleepingSpot</li>
+                    <li>KhajiitDoubleSleepingSpot</li>
+                    <li>KhajiitSleepingBox</li>
+                    <li>KhajiitDoubleSleepingBox</li>
+                    <li>KhajiitRoyalBox</li>
+                </validBeds>
+                <ageStatOverrides>
+                    <WorkSpeedGlobal>                        <!--decreases general work speed due to their body shape-->
+                        <useBiologicalYears>true</useBiologicalYears>
+                        <curve>
+                            <points>
+                                <li>(3,0.1)</li>
+                                <li>(13,0.5)</li>
+                                <li>(18,0.7)</li>
+                            </points>
+                        </curve>
+                    </WorkSpeedGlobal>
+                </ageStatOverrides>
+                <alienPartGenerator>
+                    <colorChannels>
+                        <li>
+                            <name>skin</name>
+                            <!--Adjust
+							colors-->
+                            <first Class="ColorGenerator_Options">
+                                <options>
+                                    <li>
+                                        <!--white-->
+                                        <weight>10</weight>
+                                        <only>(241,241,241,255)</only>
+                                    </li>
+                                    <li>
+                                        <!--light grey-->
+                                        <weight>10</weight>
+                                        <only>(150,110,75,255)</only>
+                                    </li>
+                                    <li>
+                                        <!--dark grey-->
+                                        <weight>10</weight>
+                                        <only>(40,40,40,255)</only>
+                                    </li>
+                                    <li>
+                                        <!--light brown-->
+                                        <weight>10</weight>
+                                        <only>(187,125,88,255)</only>
+                                    </li>
+                                    <li>
+                                        <!--brown-->
+                                        <weight>10</weight>
+                                        <only>(100,73,59,255)</only>
+                                    </li>
+                                    <li>
+                                        <!--red brown-->
+                                        <weight>10</weight>
+                                        <only>(151,89,68,255)</only>
+                                    </li>
+                                    <li>
+                                        <!--orange-->
+                                        <weight>10</weight>
+                                        <only>(226,174,113,255)</only>
+                                    </li>
+                                    <li>
+                                        <!--beige-->
+                                        <weight>10</weight>
+                                        <only>(246,222,198,255)</only>
+                                    </li>
+                                    <li>
+                                        <!--yellow-->
+                                        <weight>10</weight>
+                                        <only>(245,212,168,255)</only>
+                                    </li>
+                                    <li>
+                                        <!--brown grey-->
+                                        <weight>10</weight>
+                                        <only>(166,148,130,255)</only>
+                                    </li>
+                                </options>
+                            </first>
+                        </li>
+                    </colorChannels>
+                </alienPartGenerator>
+            </generalSettings>
+            <thoughtSettings>
+                <cannotReceiveThoughts>
+                    <li>AteWithoutTable</li>
+                    <li>Naked</li>
+                </cannotReceiveThoughts>
+                <replacerList>
+                    <li>
+                        <original>SoakingWet</original>
+                        <replacer>ESCP_Khajiit_SoakingWet</replacer>
+                    </li>
+                </replacerList>
+            </thoughtSettings>
+            <raceRestriction>
+                <onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
+                <onlyUseRaceRestrictedWeapons>true</onlyUseRaceRestrictedWeapons>
+                <whiteWeaponList Inherit ="false"></whiteWeaponList>
+
+                <whiteReproductionList>                    <!--to prevent alfiq or senche as bestiality loopholes :)-->
+                    <li>ESCP_KhajiitRace</li>
+                    <li>ESCP_OhmesRace</li>
+                    <li>ESCP_OhmesRahtRace</li>
+                    <li>ESCP_SencheRace</li>
+                    <li>ESCP_AlfiqRace</li>
+                </whiteReproductionList>
+                <onlyReproduceWithRestrictedRaces>true</onlyReproduceWithRestrictedRaces>
+
+                <blackTraitList>
+                    <li>ShootingAccuracy</li>
+                    <li MayRequire="vanillaexpanded.vanillatraitsexpanded">VTE_MadSurgeon</li>
+                    <li MayRequire="vanillaexpanded.vanillatraitsexpanded">VTE_Groundbreaker</li>
+                    <li MayRequire="vanillaexpanded.vanillatraitsexpanded">VTE_Gastronomist</li>
+                </blackTraitList>
+            </raceRestriction>
+        </alienRace>
+    </AlienRace.ThingDef_AlienRace>
+</Defs>

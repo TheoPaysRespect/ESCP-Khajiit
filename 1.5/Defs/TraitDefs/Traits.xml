@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <TraitDef>
+        <defName>Khajiit_AlfiqTrait</defName>
+        <commonality>1</commonality>
+        <disabledWorkTags>
+            <li>Constructing</li>
+            <li>Cooking</li>
+            <li>Crafting</li>
+            <li>Shooting</li>
+            <li>Mining</li>
+        </disabledWorkTags>
+        <degreeDatas>
+            <li>
+                <label>Alfiq</label>
+                <description>[PAWN_nameDef] was born an Alfiq, a quadruped Khajiit unable to do many worktypes, but being a great orator.</description>
+                <skillGains>
+                    <Social>5</Social>
+                </skillGains>
+                <statOffsets>
+                    <SurgerySuccessChanceFactor>-1</SurgerySuccessChanceFactor>
+                </statOffsets>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+
+    <TraitDef>
+        <defName>Khajiit_SencheTrait</defName>
+        <commonality>1</commonality>
+        <disabledWorkTags>
+            <li>Constructing</li>
+            <li>Cooking</li>
+            <li>Crafting</li>
+            <li>Shooting</li>
+            <li>Mining</li>
+        </disabledWorkTags>
+        <degreeDatas>
+            <li>
+                <label>Senche</label>
+                <description>[PAWN_nameDef] was born a Senche, a quadruped Khajiit unable to do many worktypes, but being a great fighter.</description>
+                <skillGains>
+                    <Melee>5</Melee>
+                </skillGains>
+                <statOffsets>
+                    <SurgerySuccessChanceFactor>-1</SurgerySuccessChanceFactor>
+                </statOffsets>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+</Defs>

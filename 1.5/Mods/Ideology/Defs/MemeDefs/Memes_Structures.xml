@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<MemeDef>
+		<defName>ESCP_Structure_Sky_Spirits</defName>
+		<label>The Sky Spirits</label>
+		<description>The belief in the sky spirits is centered around the journey of the moons, and how their placement relates to the Khajiit.</description>
+		<modExtensions>
+			<li Class="ESCP_RaceTools.IdeoOrginProperties">
+				<IgnoreDuplicateDeityNames>true</IgnoreDuplicateDeityNames>
+				<overrideDeityIcons>true</overrideDeityIcons>
+				<iconPath>
+					<li>UI/Deities/ESCP_DeityAzura</li>
+					<li>UI/Deities/ESCP_DeityLorkhan</li>
+					<!--Art needed-->
+					<li>UI/Deities/ESCP_DeityLorkhan</li>
+					<!--Art needed-->
+					<li>UI/Deities/ESCP_DeityLorkhan</li>
+					<!--Art needed-->
+					<li>UI/Deities/ESCP_DeityMagnus</li>
+				</iconPath>
+				<overrideDeityGenders>true</overrideDeityGenders>
+				<deityGenders>
+					<li>Female</li>
+					<li>None</li>
+					<li>None</li>
+					<li>Female</li>
+					<li>Male</li>
+				</deityGenders>
+			</li>
+		</modExtensions>
+		<iconPath>UI/Structures/ESCP_OriginLorkhanCult</iconPath>
+		<!--Art needed-->
+		<deityCount>5</deityCount>
+		<allowSymbolsFromDeity>false</allowSymbolsFromDeity>
+		<symbolPackOverride>true</symbolPackOverride>
+		<worshipRoomLabel>temple</worshipRoomLabel>
+		<category>Structure</category>
+		<impact>0</impact>
+		<generalRules>
+			<rulesStrings>
+				<li>memeCreed->sect</li>
+				<li>memeCreed->cult</li>
+				<li>memeCreed->temple</li>
+				<li>memeCreed->faith</li>
+				<li>memeLeaderNoun->patriarch</li>
+				<li>memeLeaderAdjective->chosen</li>
+				<li>memeLeaderAdjective->divine</li>
+				<li>memeLeaderAdjective->blessed</li>
+				<li>memeMoralist->priest</li>
+				<li>memeMoralist->cleric</li>
+				<li>memeMoralist->preacher</li>
+			</rulesStrings>
+		</generalRules>
+		<descriptionMaker>
+			<patterns>
+				<li>
+					<def>TheistMyth</def>
+				</li>
+				<li>
+					<def>TheistFounder</def>
+				</li>
+			</patterns>
+			<constants>
+				<li>
+					<key>structure_theist</key>
+					<value>true</value>
+				</li>
+				<li>
+					<key>ESCP_Structure_Sky_Spirits</key>
+					<value>true</value>
+				</li>
+			</constants>
+		</descriptionMaker>
+		<symbolPacks>
+			<li>
+				<ideoName>the Original Spirits</ideoName>
+				<adjective>Acolyte</adjective>
+				<member>Acolyte</member>
+				<prefix>true</prefix>
+			</li>
+			<li>
+				<ideoName>The Sky Cats</ideoName>
+				<adjective>Acolyte</adjective>
+				<member>Acolyte</member>
+				<prefix>true</prefix>
+			</li>
+			<li>
+				<ideoName>Spirits of the Moons</ideoName>
+				<adjective>Acolyte</adjective>
+				<member>Acolyte</member>
+				<prefix>true</prefix>
+			</li>
+			<li>
+				<ideoName>The old Faith</ideoName>
+				<adjective>Acolyte</adjective>
+				<member>Acolyte</member>
+				<prefix>true</prefix>
+			</li>
+		</symbolPacks>
+		<fixedDeityNameTypes>
+			<li>
+				<name>Azurah</name>
+				<type>Mother of All Khajiit</type>
+			</li>
+			<li>
+				<name>Jone</name>
+				<type>The Small Moon</type>
+			</li>
+			<li>
+				<name>Jode</name>
+				<type>The Big Moon</type>
+			</li>
+			<li>
+				<name>Khenarthi</name>
+				<type>Goddess of Winds</type>
+			</li>
+			<li>
+				<name>Magrus</name>
+				<type>Third Eye of Azurah</type>
+			</li>
+		</fixedDeityNameTypes>
+	</MemeDef>
+	<MemeDef>
+		<defName>ESCP_Structure_Worldly_Spirits</defName>
+		<label>The Worldly Spirits</label>
+		<description>The belief in the worldly spirits is centered around the creation of Nirn.</description>
+		<modExtensions>
+			<li Class="ESCP_RaceTools.IdeoOrginProperties">
+				<IgnoreDuplicateDeityNames>true</IgnoreDuplicateDeityNames>
+				<overrideDeityIcons>true</overrideDeityIcons>
+				<iconPath>
+					<li>UI/Deities/ESCP_DeityHermaeusMora</li>
+					<li>UI/Deities/ESCP_DeityHircine</li>
+					<li>UI/Deities/ESCP_DeityLorkhan</li> <!--nirn-->
+					<li>UI/Deities/ESCP_DeitySanguine</li>
+					<li>UI/Deities/ESCP_DeityYffre</li>
+				</iconPath>
+				<overrideDeityGenders>true</overrideDeityGenders>
+				<deityGenders>
+					<li>Male</li>
+					<li>Male</li>
+					<li>Female</li>
+					<li>Male</li>
+					<li>Male</li>
+				</deityGenders>
+			</li>
+		</modExtensions>
+		<iconPath>UI/Structures/ESCP_OriginLorkhanCult</iconPath>
+		<!--Art needed-->
+		<deityCount>5</deityCount>
+		<allowSymbolsFromDeity>false</allowSymbolsFromDeity>
+		<symbolPackOverride>true</symbolPackOverride>
+		<worshipRoomLabel>temple</worshipRoomLabel>
+		<category>Structure</category>
+		<impact>0</impact>
+		<generalRules>
+			<rulesStrings>
+				<li>memeCreed->sect</li>
+				<li>memeCreed->cult</li>
+				<li>memeCreed->temple</li>
+				<li>memeCreed->faith</li>
+				<li>memeLeaderNoun->patriarch</li>
+				<li>memeLeaderAdjective->chosen</li>
+				<li>memeLeaderAdjective->divine</li>
+				<li>memeLeaderAdjective->blessed</li>
+				<li>memeMoralist->priest</li>
+				<li>memeMoralist->cleric</li>
+				<li>memeMoralist->preacher</li>
+			</rulesStrings>
+		</generalRules>
+		<descriptionMaker>
+			<patterns>
+				<li>
+					<def>TheistMyth</def>
+				</li>
+				<li>
+					<def>TheistFounder</def>
+				</li>
+			</patterns>
+			<constants>
+				<li>
+					<key>structure_theist</key>
+					<value>true</value>
+				</li>
+				<li>
+					<key>ESCP_Structure_Worldly_Spirits</key>
+					<value>true</value>
+				</li>
+			</constants>
+		</descriptionMaker>
+		<symbolPacks>
+			<li>
+				<ideoName>the Original Spirits</ideoName>
+				<adjective>Acolyte</adjective>
+				<member>Acolyte</member>
+				<prefix>true</prefix>
+			</li>
+			<li>
+				<ideoName>The Sky Cats</ideoName>
+				<adjective>Acolyte</adjective>
+				<member>Acolyte</member>
+				<prefix>true</prefix>
+			</li>
+			<li>
+				<ideoName>Spirits of the Moons</ideoName>
+				<adjective>Acolyte</adjective>
+				<member>Acolyte</member>
+				<prefix>true</prefix>
+			</li>
+			<li>
+				<ideoName>The old Faith</ideoName>
+				<adjective>Acolyte</adjective>
+				<member>Acolyte</member>
+				<prefix>true</prefix>
+			</li>
+		</symbolPacks>
+		<fixedDeityNameTypes>
+			<li>
+				<name>Hermorah</name>
+				<type>The watcher</type>
+			</li>
+			<li>
+				<name>Hircine</name>
+				<type>The Hungry Cat</type>
+			</li>
+			<li>
+				<name>Nirni</name>
+				<type>The Green Mother</type>
+			</li>
+			<li>
+				<name>Sangiin</name>
+				<type>Blood Cat</type>
+			</li>
+			<li>
+				<name>Y'ffer</name>
+				<type>The Elden Shaper</type>
+			</li>
+		</fixedDeityNameTypes>
+	</MemeDef>
+	<MemeDef>
+		<defName>ESCP_Structure_Wandering_Spirits</defName>
+		<label>The Wandering Spirits</label>
+		<description>The belief in the wandering spirits is centered around the journey of the moons, and how their placement relates to the Khajiit.</description>
+		<modExtensions>
+			<li Class="ESCP_RaceTools.IdeoOrginProperties">
+				<IgnoreDuplicateDeityNames>true</IgnoreDuplicateDeityNames>
+				<overrideDeityIcons>true</overrideDeityIcons>
+				<iconPath>
+					<li>UI/Deities/ESCP_DeityLorkhan</li>
+					<!--Art needed-->
+					<li>UI/Deities/ESCP_DeityLorkhan</li>
+					<!--Art needed-->
+					<li>UI/Deities/ESCP_DeityAkatosh</li>
+					<li>UI/Deities/ESCP_DeityBoethiah</li>
+					<li>UI/Deities/ESCP_DeityMephala</li>
+				</iconPath>
+				<overrideDeityGenders>true</overrideDeityGenders>
+				<deityGenders>
+					<li>Male</li>
+					<li>Male</li>
+					<li>Male</li>
+					<li>Female</li>
+					<li>Female</li>
+				</deityGenders>
+			</li>
+		</modExtensions>
+		<iconPath>UI/Structures/ESCP_OriginLorkhanCult</iconPath>
+		<!--Art needed-->
+		<deityCount>5</deityCount>
+		<allowSymbolsFromDeity>false</allowSymbolsFromDeity>
+		<symbolPackOverride>true</symbolPackOverride>
+		<worshipRoomLabel>temple</worshipRoomLabel>
+		<category>Structure</category>
+		<impact>0</impact>
+		<generalRules>
+			<rulesStrings>
+				<li>memeCreed->sect</li>
+				<li>memeCreed->cult</li>
+				<li>memeCreed->temple</li>
+				<li>memeCreed->faith</li>
+				<li>memeLeaderNoun->patriarch</li>
+				<li>memeLeaderAdjective->chosen</li>
+				<li>memeLeaderAdjective->divine</li>
+				<li>memeLeaderAdjective->blessed</li>
+				<li>memeMoralist->priest</li>
+				<li>memeMoralist->cleric</li>
+				<li>memeMoralist->preacher</li>
+			</rulesStrings>
+		</generalRules>
+		<descriptionMaker>
+			<patterns>
+				<li>
+					<def>TheistMyth</def>
+				</li>
+				<li>
+					<def>TheistFounder</def>
+				</li>
+			</patterns>
+			<constants>
+				<li>
+					<key>structure_theist</key>
+					<value>true</value>
+				</li>
+				<li>
+					<key>ESCP_Structure_Wandering_Spirits</key>
+					<value>true</value>
+				</li>
+			</constants>
+		</descriptionMaker>
+		<symbolPacks>
+			<li>
+				<ideoName>the Original Spirits</ideoName>
+				<adjective>Acolyte</adjective>
+				<member>Acolyte</member>
+				<prefix>true</prefix>
+			</li>
+			<li>
+				<ideoName>The Sky Cats</ideoName>
+				<adjective>Acolyte</adjective>
+				<member>Acolyte</member>
+				<prefix>true</prefix>
+			</li>
+			<li>
+				<ideoName>Spirits of the Moons</ideoName>
+				<adjective>Acolyte</adjective>
+				<member>Acolyte</member>
+				<prefix>true</prefix>
+			</li>
+			<li>
+				<ideoName>The old Faith</ideoName>
+				<adjective>Acolyte</adjective>
+				<member>Acolyte</member>
+				<prefix>true</prefix>
+			</li>
+		</symbolPacks>
+		<fixedDeityNameTypes>
+			<li>
+				<name>Akha</name>
+				<type>The First Cat</type>
+			</li>
+			<li>
+				<name>Alkhan</name>
+				<type>The Scaled Prince</type>
+			</li>
+			<li>
+				<name>Alkosh</name>
+				<type>Dragon King of Cats</type>
+			</li>
+			<li>
+				<name>Boethra</name>
+				<type>Sharp-tongued Spirit</type>
+			</li>
+			<li>
+				<name>Mafala</name>
+				<type>The Teaching Mother</type>
+			</li>
+		</fixedDeityNameTypes>
+	</MemeDef>
+	<MemeDef>
+		<defName>ESCP_Structure_Dark_Spirits</defName>
+		<label>The Dark Spirits</label>
+		<description>The belief in the dark spirits is centered around the journey of the moons, and how their placement relates to the Khajiit.</description>
+		<modExtensions>
+			<li Class="ESCP_RaceTools.IdeoOrginProperties">
+				<IgnoreDuplicateDeityNames>true</IgnoreDuplicateDeityNames>
+				<overrideDeityIcons>true</overrideDeityIcons>
+				<iconPath>
+					<li>UI/Deities/ESCP_DeityNamira</li>
+					<li>UI/Deities/ESCP_DeityNocturnal</li>
+					<li>UI/Deities/ESCP_DeityVaermina</li>
+					<li>UI/Deities/ESCP_DeityLorkhan</li>
+					<!--Art needed-->
+				</iconPath>
+				<overrideDeityGenders>true</overrideDeityGenders>
+				<deityGenders>
+					<li>Female</li>
+					<li>Female</li>
+					<li>Female</li>
+					<li>None</li>
+				</deityGenders>
+			</li>
+		</modExtensions>
+		<iconPath>UI/Structures/ESCP_OriginLorkhanCult</iconPath>
+		<!--Art needed-->
+		<deityCount>4</deityCount>
+		<allowSymbolsFromDeity>false</allowSymbolsFromDeity>
+		<symbolPackOverride>true</symbolPackOverride>
+		<worshipRoomLabel>temple</worshipRoomLabel>
+		<category>Structure</category>
+		<impact>0</impact>
+		<generalRules>
+			<rulesStrings>
+				<li>memeCreed->sect</li>
+				<li>memeCreed->cult</li>
+				<li>memeCreed->temple</li>
+				<li>memeCreed->faith</li>
+				<li>memeLeaderNoun->patriarch</li>
+				<li>memeLeaderAdjective->chosen</li>
+				<li>memeLeaderAdjective->divine</li>
+				<li>memeLeaderAdjective->blessed</li>
+				<li>memeMoralist->priest</li>
+				<li>memeMoralist->cleric</li>
+				<li>memeMoralist->preacher</li>
+			</rulesStrings>
+		</generalRules>
+		<descriptionMaker>
+			<patterns>
+				<li>
+					<def>TheistMyth</def>
+				</li>
+				<li>
+					<def>TheistFounder</def>
+				</li>
+			</patterns>
+			<constants>
+				<li>
+					<key>structure_theist</key>
+					<value>true</value>
+				</li>
+				<li>
+					<key>ESCP_Structure_Dark_Spirits</key>
+					<value>true</value>
+				</li>
+			</constants>
+		</descriptionMaker>
+		<symbolPacks>
+			<li>
+				<ideoName>the Original Spirits</ideoName>
+				<adjective>Acolyte</adjective>
+				<member>Acolyte</member>
+				<prefix>true</prefix>
+			</li>
+			<li>
+				<ideoName>The Sky Cats</ideoName>
+				<adjective>Acolyte</adjective>
+				<member>Acolyte</member>
+				<prefix>true</prefix>
+			</li>
+			<li>
+				<ideoName>Spirits of the Moons</ideoName>
+				<adjective>Acolyte</adjective>
+				<member>Acolyte</member>
+				<prefix>true</prefix>
+			</li>
+			<li>
+				<ideoName>The old Faith</ideoName>
+				<adjective>Acolyte</adjective>
+				<member>Acolyte</member>
+				<prefix>true</prefix>
+			</li>
+		</symbolPacks>
+		<fixedDeityNameTypes>
+			<li>
+				<name>Namiira</name>
+				<type>The Great Darkness</type>
+			</li>
+			<li>
+				<name>Noctra</name>
+				<type>The Shadow Thief</type>
+			</li>
+			<li>
+				<name>Varmiina</name>
+				<type>The Lost Daughter</type>
+			</li>
+			<li>
+				<name>?????</name>
+				<type>Spirit of Vengeance</type>
+			</li>
+		</fixedDeityNameTypes>
+	</MemeDef>
+	<MemeDef>
+		<defName>ESCP_Structure_Adverserial_Spirits</defName>
+		<label>The Adverserial Spirits</label>
+		<description>The belief in the adverserial spirits is centered around the journey of the moons, and how their placement relates to the Khajiit.</description>
+		<modExtensions>
+			<li Class="ESCP_RaceTools.IdeoOrginProperties">
+				<IgnoreDuplicateDeityNames>true</IgnoreDuplicateDeityNames>
+				<overrideDeityIcons>true</overrideDeityIcons>
+				<iconPath>
+					<li>UI/Deities/ESCP_DeityMeridia</li>
+					<li>UI/Deities/ESCP_DeityMehrunesDagon</li>
+					<li>UI/Deities/ESCP_DeityMolagBal</li>
+					<li>UI/Deities/ESCP_DeityMalacath</li>
+					<li>UI/Deities/ESCP_DeitySheogorath</li>
+				</iconPath>
+				<overrideDeityGenders>true</overrideDeityGenders>
+				<deityGenders>
+					<li>Female</li>
+					<li>Male</li>
+					<li>Male</li>
+					<li>Male</li>
+					<li>Male</li>
+				</deityGenders>
+			</li>
+		</modExtensions>
+		<iconPath>UI/Structures/ESCP_OriginLorkhanCult</iconPath>
+		<!--Art needed-->
+		<deityCount>5</deityCount>
+		<allowSymbolsFromDeity>false</allowSymbolsFromDeity>
+		<symbolPackOverride>true</symbolPackOverride>
+		<worshipRoomLabel>temple</worshipRoomLabel>
+		<category>Structure</category>
+		<impact>0</impact>
+		<generalRules>
+			<rulesStrings>
+				<li>memeCreed->sect</li>
+				<li>memeCreed->cult</li>
+				<li>memeCreed->temple</li>
+				<li>memeCreed->faith</li>
+				<li>memeLeaderNoun->patriarch</li>
+				<li>memeLeaderAdjective->chosen</li>
+				<li>memeLeaderAdjective->divine</li>
+				<li>memeLeaderAdjective->blessed</li>
+				<li>memeMoralist->priest</li>
+				<li>memeMoralist->cleric</li>
+				<li>memeMoralist->preacher</li>
+			</rulesStrings>
+		</generalRules>
+		<descriptionMaker>
+			<patterns>
+				<li>
+					<def>TheistMyth</def>
+				</li>
+				<li>
+					<def>TheistFounder</def>
+				</li>
+			</patterns>
+			<constants>
+				<li>
+					<key>structure_theist</key>
+					<value>true</value>
+				</li>
+				<li>
+					<key>ESCP_Structure_Adverserial_Spirits</key>
+					<value>true</value>
+				</li>
+			</constants>
+		</descriptionMaker>
+		<symbolPacks>
+			<li>
+				<ideoName>the Original Spirits</ideoName>
+				<adjective>Acolyte</adjective>
+				<member>Acolyte</member>
+				<prefix>true</prefix>
+			</li>
+			<li>
+				<ideoName>The Sky Cats</ideoName>
+				<adjective>Acolyte</adjective>
+				<member>Acolyte</member>
+				<prefix>true</prefix>
+			</li>
+			<li>
+				<ideoName>Spirits of the Moons</ideoName>
+				<adjective>Acolyte</adjective>
+				<member>Acolyte</member>
+				<prefix>true</prefix>
+			</li>
+			<li>
+				<ideoName>The old Faith</ideoName>
+				<adjective>Acolyte</adjective>
+				<member>Acolyte</member>
+				<prefix>true</prefix>
+			</li>
+		</symbolPacks>
+		<fixedDeityNameTypes>
+			<li>
+				<name>Merid-Nunda</name>
+				<type>Orphaned Glimmer</type>
+			</li>
+			<li>
+				<name>Merrunz</name>
+				<type>The Demon Cat</type>
+			</li>
+			<li>
+				<name>Molagh</name>
+				<type>Spirit of Domination</type>
+			</li>
+			<li>
+				<name>Orkha</name>
+				<type>The Banished</type>
+			</li>
+			<li>
+				<name>Sheggorath</name>
+				<type>Skooma Cat</type>
+			</li>
+		</fixedDeityNameTypes>
+	</MemeDef>
+</Defs>

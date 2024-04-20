@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+    <!--make colonists use it, hide from debug-->
+    <ThingDef ParentName="FurnitureWithQualityBase">
+        <defName>Yarnball</defName>
+        <label>Yarnball</label>
+        <description>A simple yarnball, an irresistable source of joy for the feline, and a great thing to ponder for the rest.</description>
+        <graphicData>
+            <texPath>Things/Items/Yarnball</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(0.7,0.7)</drawSize>
+        </graphicData>
+        <size>(1,1)</size>
+        <minifiedDef>MinifiedThing</minifiedDef>
+        <castEdgeShadows>false</castEdgeShadows>
+        <altitudeLayer>BuildingOnTop</altitudeLayer>
+        <rotatable>false</rotatable>
+        <socialPropernessMatters>true</socialPropernessMatters>
+        <fillPercent>0.20</fillPercent>
+        <maxTechLevelToBuild>Neolithic</maxTechLevelToBuild>
+        <building>
+            <paintable>true</paintable>
+            <isEdifice>false</isEdifice>
+        </building>
+        <clearBuildingArea>false</clearBuildingArea>
+        <statBases>
+            <MaxHitPoints>30</MaxHitPoints>
+            <WorkToBuild>100</WorkToBuild>
+            <Mass>0.3</Mass>
+            <Flammability>1.7</Flammability>
+            <Beauty>2</Beauty>
+            <JoyGainFactor>1</JoyGainFactor>
+            <WorkToMake>200</WorkToMake>
+        </statBases>
+        <recipeMaker>
+            <skillRequirements>
+                <Crafting>3</Crafting>
+            </skillRequirements>
+            <workSkill>Crafting</workSkill>
+            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+            <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+            <!--<researchPrerequisite>ComplexClothing</researchPrerequisite>-->
+            <effectWorking>Tailor</effectWorking>
+            <researchPrerequisite MayRequire="dankpyon.medieval.overhaul">DankPyon_TextileSpinning</researchPrerequisite>
+            <recipeUsers>
+                <li>CraftingSpot</li>
+                <li>HandTailoringBench</li>
+                <li>ElectricTailoringBench</li>
+                <li MayRequire="dankpyon.medieval.overhaul">DankPyon_TailorsBench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <costStuffCount>10</costStuffCount>
+        <stuffCategories>
+            <li>Fabric</li>
+        </stuffCategories>
+        <pathCost>5</pathCost>
+        <passability>PassThroughOnly</passability>
+    </ThingDef>
+
+    <JobDef>
+        <defName>Play_Yarnball</defName>
+        <driverClass>JobDriver_WatchBuilding</driverClass>
+        <reportString>playing with yarnball.</reportString>
+        <joyDuration>4000</joyDuration>
+        <joyMaxParticipants>1</joyMaxParticipants>
+        <joySkill>Crafting</joySkill>
+        <joyXpPerTick>0.005</joyXpPerTick>
+        <joyKind>Gaming_Dexterity</joyKind>
+        <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+    </JobDef>
+
+    <JoyGiverDef>
+        <defName>Play_Yarnball</defName>
+        <giverClass>JoyGiver_WatchBuilding</giverClass>
+        <baseChance>2</baseChance>
+        <thingDefs>
+            <li>Yarnball</li>
+        </thingDefs>
+        <jobDef>Play_Yarnball</jobDef>
+        <desireSit>false</desireSit>
+        <joyKind>Gaming_Dexterity</joyKind>
+        <requiredCapacities>
+            <li>Manipulation</li>
+        </requiredCapacities>
+    </JoyGiverDef>
+</Defs>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="ESCP_AlfiqRace"]/alienRace/raceRestriction/whiteApparelList</xpath>
+        <value>
+            <!--medieval overhaul-->
+            <li>DankPyon_Headgear_WolfTimber</li>
+            <li>DankPyon_Headgear_WolfArctic</li>
+            <li>DankPyon_Headgear_BearGrizzly</li>
+            <li>DankPyon_Headgear_BearPolar</li>
+
+            <li>DankPyon_Necklace_Citrine</li>
+            <li>DankPyon_Necklace_Jade</li>
+            <li>DankPyon_Necklace_Amber</li>
+            <li>DankPyon_Necklace_Onyx</li>
+            <li>DankPyon_Necklace_Emerald</li>
+            <li>DankPyon_Necklace_Sapphire</li>
+            <li>DankPyon_Necklace_Ruby</li>
+
+            <li>DankPyon_Headgear_RedBandana</li>
+            <li>DankPyon_Headgear_Hood</li>
+            <li>DankPyon_Headgear_coif</li>
+
+            <li>DankPyon_Footwear_BootsLeather</li>                    
+
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="ESCP_SencheRace"]/alienRace/raceRestriction/whiteApparelList</xpath>
+        <value>
+            <!--medieval overhaul-->
+            <li>DankPyon_Headgear_WolfTimber</li>
+            <li>DankPyon_Headgear_WolfArctic</li>
+            <li>DankPyon_Headgear_BearGrizzly</li>
+            <li>DankPyon_Headgear_BearPolar</li>
+
+            <li>DankPyon_Necklace_Citrine</li>
+            <li>DankPyon_Necklace_Jade</li>
+            <li>DankPyon_Necklace_Amber</li>
+            <li>DankPyon_Necklace_Onyx</li>
+            <li>DankPyon_Necklace_Emerald</li>
+            <li>DankPyon_Necklace_Sapphire</li>
+            <li>DankPyon_Necklace_Ruby</li>
+
+            <li>DankPyon_Headgear_RedBandana</li>
+            <li>DankPyon_Headgear_Hood</li>
+            <li>DankPyon_Headgear_coif</li>
+
+            <li>DankPyon_Footwear_BootsLeather</li>
+
+        </value>
+    </Operation>
+</Patch>

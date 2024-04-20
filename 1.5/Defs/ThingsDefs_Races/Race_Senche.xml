@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <AlienRace.ThingDef_AlienRace ParentName="ESCP_Khajiit_Quadruped">
+        <defName>ESCP_SencheRace</defName>
+        <label>Senche</label>
+        <description>A feline race originating from Elsweyr and one of the oldest races of Tamriel. Considered a beast race, they are often considered lesser by both man and mer. Despite this, legends say they may share a common ancestor in the Aldmer. \n\nKhajiit are known for being nimble, especially with their fingers. Spiritually connected to the cycle of the moon, their shape varies drastically depending on when they are born. A Khajiiti family can have one parent be a towering great warbeast and the other a two legged tiger, while their child can be indistinguishable from a bosmer or a housecat.\n\n&lt;color=#E5E54C&gt;Khajiit Blood&lt;/color&gt;\nPsychic sensitivity is increased by 20%.\nSocial impact is decreased by 20%.\nFlammability is increased by 20%.\nComfort is increased by 20%.\nResistant to food poisoning.\n\n&lt;color=#E5E54C&gt;Senche Furstock&lt;/color&gt;\n10% faster move speed.\nBody stats akin to big felines.\nDouble eating speed.\nResistance to sharp and blunt damage.\nProduces filth.\nInability to Construction, Cooking, Mining, Crafting.\n-10 level offset for Medical.\nAble to use claws and teeth in combat.</description>
+        <statBases>
+            <MoveSpeed>5.1</MoveSpeed>
+            <MarketValue>1300</MarketValue>            <!--fancy war mount-->
+            <FilthRate>2</FilthRate>            <!--will shed-->
+            <ComfyTemperatureMin>-15</ComfyTemperatureMin>            <!--to offset clothing-->
+            <CarryingCapacity>140</CarryingCapacity>
+            <ArmorRating_Sharp>0.3</ArmorRating_Sharp>            <!--for resistance reasons-->
+            <ArmorRating_Blunt>0.7</ArmorRating_Blunt>
+            <EatingSpeed>2</EatingSpeed>
+            <LeatherAmount>75</LeatherAmount>
+            <MeatAmount>140</MeatAmount>
+        </statBases>
+        <race>
+            <baseBodySize>1.8</baseBodySize>
+            <baseHealthScale>1.5</baseHealthScale>
+            <baseHungerRate>0.2</baseHungerRate>            <!--same as wargs-->
+            <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+            <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+            <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+
+            <lifeStageAges Inherit="false">
+                <li>
+                    <def>HumanlikeBaby</def>
+                    <minAge>0</minAge>
+                </li>
+                <li>
+                    <def>HumanlikeChild</def>
+                    <minAge>3</minAge>
+                    <soundWounded>Pawn_Cat_Injured</soundWounded>
+                    <soundDeath>Pawn_Cat_Death</soundDeath>
+                    <soundCall>Pawn_Cat_Call</soundCall>
+                    <soundAngry>Pawn_Cat_Angry</soundAngry>
+                </li>
+                <!--<li MayRequire="Ludeon.RimWorld.Biotech">
+                    <def>HumanlikePreTeenager</def>
+                    <minAge>3</minAge>
+                    <soundWounded>Pawn_Cat_Injured</soundWounded>
+                    <soundDeath>Pawn_Cat_Death</soundDeath>
+                    <soundCall>Pawn_Cat_Call</soundCall>
+                    <soundAngry>Pawn_Cat_Angry</soundAngry>
+                </li>-->
+                <!--<li>
+                    <def>HumanlikeTeenager</def>
+                    <minAge>13</minAge>
+                    <soundWounded>Pawn_Cougar_Injured</soundWounded>
+                    <soundDeath>Pawn_Cougar_Death</soundDeath>
+                    <soundAngry>Pawn_Cougar_Angry</soundAngry>
+                </li>-->
+                <li>
+                    <def>HumanlikeAdult</def>
+                    <minAge>13</minAge>
+                    <soundWounded>Pawn_Cougar_Injured</soundWounded>
+                    <soundDeath>Pawn_Cougar_Death</soundDeath>
+                    <soundAngry>Pawn_Cougar_Angry</soundAngry>
+                </li>
+            </lifeStageAges>
+        </race>
+        <alienRace>
+            <raceRestriction>
+                <traitList>
+                    <li>Khajiit_SencheTrait</li>
+                </traitList>
+                <apparelList>
+                    <li>ESCP_SencheLeatherArmor</li>
+                    <li>ESCP_SencheClothArmor</li>
+                    <li MayRequire="ludeon.rimworld.royalty">ESCP_SencheRoyalArmor</li>
+                    <li>ESCP_SencheArmor</li>
+                    <li>ESCP_SencheHelmet</li>
+                </apparelList>
+                <whiteApparelList Inherit ="false">
+                    <li>Apparel_Tuque</li>
+                    <li>Apparel_CowboyHat</li>
+                    <li>Apparel_BowlerHat</li>
+                    <li>Apparel_TribalHeaddress</li>
+                    <li>Apparel_WarMask</li>                    <!--slight side rotation-->
+                    <li>Apparel_WarVeil</li>                    <!--slight side rotation-->
+                    <li>Apparel_SimpleHelmet</li>
+                    <li>Apparel_AdvancedHelmet</li>
+                    <li>Apparel_PsychicFoilHelmet</li>                    <!--looks weird with ears-->
+                    <li>Apparel_HatHood</li>
+
+                    <!--colovian fur helm-->
+                    <li MayRequire="sirmashedpotato.morrowrim.colovianfurhelm">MorrowRim_ColovianFurHelm</li>
+
+                </whiteApparelList>
+            </raceRestriction>
+            <generalSettings>
+                <forcedRaceTraitEntries>
+                    <li>
+                        <defName>Khajiit_SencheTrait</defName>
+                    </li>
+                </forcedRaceTraitEntries>
+                <ageStatOverrides>
+                    <ArrestSuccessChance>                        <!--senche are intimidating-->
+                        <useBiologicalYears>true</useBiologicalYears>
+                        <curve>
+                            <points>
+                                <li>(3, 0.1)</li>
+                                <li>(13, 1)</li>
+                                <li>(18, 1.2)</li>
+                            </points>
+                        </curve>
+                    </ArrestSuccessChance>
+                </ageStatOverrides>
+                <alienPartGenerator>
+                    <anchorReplacements>
+                        <li>
+                            <originalTag>LeftEye</originalTag>
+                            <replacement>
+                                <rotation>West</rotation>
+                                <tag>LeftEye</tag>
+                                <canMirror>false</canMirror>
+                                <range>0</range>
+                                <layer>Head</layer>
+                            </replacement>
+                            <offsets>
+                                <west>
+                                    <offset>(-0.23,0.25)</offset>
+                                    <bodyTypes>
+                                        <Child MayRequire="ludeon.rimworld.biotech">(0.05,0)</Child>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
+                                    </bodyTypes>
+                                </west>
+                            </offsets>
+                        </li>
+                        <li>
+                            <originalTag>RightEye</originalTag>
+                            <replacement>
+                                <rotation>East</rotation>
+                                <tag>RightEye</tag>
+                                <canMirror>false</canMirror>
+                                <range>0</range>
+                                <layer>Head</layer>
+                            </replacement>
+                            <offsets>
+                                <east>
+                                    <offset>(0.23,0.25)</offset>
+                                    <bodyTypes>
+                                        <Child MayRequire="ludeon.rimworld.biotech">(-0.05,0)</Child>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
+                                    </bodyTypes>
+                                </east>
+                            </offsets>
+                        </li>
+                        <li>
+                            <originalTag>LeftEye</originalTag>
+                            <replacement>
+                                <rotation>South</rotation>
+                                <tag>LeftEye</tag>
+                                <canMirror>false</canMirror>
+                                <range>0</range>
+                                <layer>Head</layer>
+                            </replacement>
+                            <offsets>
+                                <south>
+                                    <offset>(-0.135,0.215)</offset>
+                                    <bodyTypes>
+                                        <Child MayRequire="ludeon.rimworld.biotech">(0.02,0)</Child>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
+                                    </bodyTypes>
+                                </south>
+                            </offsets>
+                        </li>
+                        <li>
+                            <originalTag>RightEye</originalTag>
+                            <replacement>
+                                <rotation>South</rotation>
+                                <tag>RightEye</tag>
+                                <canMirror>false</canMirror>
+                                <range>0</range>
+                                <layer>Head</layer>
+                            </replacement>
+                            <offsets>
+                                <south>
+                                    <offset>(0.1135,0.215)</offset>
+                                    <bodyTypes>
+                                        <Child MayRequire="ludeon.rimworld.biotech">(-0.02,0)</Child>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
+                                    </bodyTypes>
+                                </south>
+                            </offsets>
+                        </li>
+                    </anchorReplacements>
+                    <headTypes Inherit="false">
+                        <li>Male_AverageNormal</li>
+                        <!--<li>Male_AverageWide</li>-->
+                        <!--<li>Male_AveragePointy</li>-->
+                        <li>Female_AverageNormal</li>
+                        <!--<li>Female_AverageWide</li>-->
+                        <!--<li>Female_AveragePointy</li>-->
+                    </headTypes>
+                    <bodyTypes Inherit="false">
+                        <li>Thin</li>
+                        <li MayRequire="Ludeon.RimWorld.Biotech">Baby</li>
+                        <li MayRequire="Ludeon.RimWorld.Biotech">Child</li>
+                    </bodyTypes>
+                    <borderScale>2.0</borderScale>
+                    <customDrawSize>(1.4)</customDrawSize>
+                    <customHeadDrawSize>(1.2)</customHeadDrawSize>
+                    <customPortraitHeadDrawSize>(1.1)</customPortraitHeadDrawSize>
+                    <customPortraitDrawSize>(1.3)</customPortraitDrawSize>
+                    <headOffset>(0, -0.6270096)</headOffset>
+                    <headOffsetDirectional>
+                        <north>
+                            <offset>(-0.01607717, 0.7813505)</offset>
+                            <bodyTypes>
+                                <Child MayRequire="ludeon.rimworld.biotech">(-0.0,-0.2411576)</Child>
+                                <Baby MayRequire="ludeon.rimworld.biotech">(0.01607717,-0.5948553)</Baby>
+                            </bodyTypes>
+                        </north>
+                        <east>
+                            <offset>(0.4855306, 0.414791)</offset>
+                            <bodyTypes>
+                                <Child MayRequire="ludeon.rimworld.biotech">(-0.08038585,-0.1511254)</Child>
+                                <Baby MayRequire="ludeon.rimworld.biotech">(-0.4726688,-0.2475884)</Baby>
+                            </bodyTypes>
+                        </east>
+                        <west>
+                            <offset>(-0.4855306, 0.414791)</offset>
+                            <bodyTypes>
+                                <Child MayRequire="ludeon.rimworld.biotech">(0.08038585,-0.1511254)</Child>
+                                <Baby MayRequire="ludeon.rimworld.biotech">(0.4726688,-0.2475884)</Baby>
+                            </bodyTypes>
+                        </west>
+                        <south>
+                            <offset>(0.04823151,-0.07395498)</offset>
+                            <bodyTypes>
+                                <Child MayRequire="ludeon.rimworld.biotech">(-0.0044,0.01607717)</Child>
+                                <Baby MayRequire="ludeon.rimworld.biotech">(-0.04823151,0.2025723)</Baby>
+                            </bodyTypes>
+                        </south>
+                    </headOffsetDirectional>
+                    <bodyAddons>
+                        <li>
+                            <path>Things/Pawn/Humanlike/ESCP_Khajiit/Ears/Senche/EarRight</path>
+                            <colorChannel>skin</colorChannel>
+                            <inFrontOfBody>true</inFrontOfBody>
+                            <alignWithHead>true</alignWithHead>
+                            <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                            <conditions>
+                                <BodyPart>
+                                    <bodyPartLabel>right ear</bodyPartLabel>
+                                </BodyPart>
+                                <RotStage>Fresh,Rotting</RotStage>
+                                <Posture>
+                                    <drawnStanding>true</drawnStanding>
+                                    <drawnLaying>true</drawnLaying>
+                                    <drawnInBed>true</drawnInBed>
+                                </Posture>
+                            </conditions>
+                            <offsets>
+                                <north>
+                                    <bodyTypes>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(-0.02250804,0.1446945)</Baby>
+                                    </bodyTypes>
+                                </north>
+                                <east>
+                                    <bodyTypes>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(0.02250804,0.1318328)</Baby>
+                                    </bodyTypes>
+                                </east>
+                                <south>
+                                    <bodyTypes>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(0.05466238,0.1254019)</Baby>
+                                    </bodyTypes>
+                                </south>
+                            </offsets>
+                        </li>
+                        <li>
+                            <path>Things/Pawn/Humanlike/ESCP_Khajiit/Ears/Senche/EarLeft</path>
+                            <colorChannel>skin</colorChannel>
+                            <inFrontOfBody>true</inFrontOfBody>
+                            <alignWithHead>true</alignWithHead>
+                            <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                            <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
+                            <conditions>
+                                <BodyPart>
+                                    <bodyPartLabel>left ear</bodyPartLabel>
+                                </BodyPart>
+                                <RotStage>Fresh,Rotting</RotStage>
+                                <Posture>
+                                    <drawnStanding>true</drawnStanding>
+                                    <drawnLaying>true</drawnLaying>
+                                    <drawnInBed>true</drawnInBed>
+                                </Posture>
+                            </conditions>
+                            <offsets>
+                                <north>
+                                    <bodyTypes>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(0.04823151,0.1446945)</Baby>
+                                    </bodyTypes>
+                                </north>
+                                <east>
+                                    <bodyTypes>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(0.02250804,0.1318328)</Baby>
+                                    </bodyTypes>
+                                </east>
+                                <south>
+                                    <bodyTypes>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(-0.03536978,0.1254019)</Baby>
+                                    </bodyTypes>
+                                </south>
+                            </offsets>
+                        </li>
+                        <li>
+                            <path>Things/Pawn/Humanlike/ESCP_Khajiit/Tails/Senche/Tail</path>
+                            <colorChannel>skin</colorChannel>
+                            <inFrontOfBody>false</inFrontOfBody>
+                            <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                            <conditions>
+                                <BodyPart>
+                                    <bodyPartLabel>tail</bodyPartLabel>
+                                </BodyPart>
+                                <RotStage>Fresh,Rotting</RotStage>
+                                <Posture>
+                                    <drawnStanding>true</drawnStanding>
+                                    <drawnLaying>true</drawnLaying>
+                                    <drawnInBed>true</drawnInBed>
+                                </Posture>
+                            </conditions>
+                            <offsets>
+                                <north>
+                                    <bodyTypes>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(0.05,0.15)</Baby>
+                                    </bodyTypes>
+                                </north>
+                                <east>
+                                    <bodyTypes>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(-0.15,-0.1)</Baby>
+                                    </bodyTypes>
+                                </east>
+                                <south>
+                                    <bodyTypes>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(0,-0.4)</Baby>
+                                    </bodyTypes>
+                                </south>
+                            </offsets>
+                        </li>
+                    </bodyAddons>
+                </alienPartGenerator>
+                <maxDamageForSocialfight>6</maxDamageForSocialfight>
+                <notXenophobistTowards>
+                    <li>ESCP_OhmesRace</li>
+                    <li>ESCP_OhmesRahtRace</li>
+                    <li>ESCP_AlfiqRace</li>
+                    <li>ESCP_KhajiitRace</li>
+                </notXenophobistTowards>
+            </generalSettings>
+            <graphicPaths>
+                <head>
+                    <extendedGraphics>
+                        <Age For="HumanlikeBaby">
+                            <extendedGraphics>
+                                <Gender For="Male">Things/Pawn/Humanlike/ESCP_Khajiit/Heads/Senche/Male_Child_Normal</Gender>
+                                <Gender For="Female">Things/Pawn/Humanlike/ESCP_Khajiit/Heads/Senche/Female_Child_Normal</Gender>
+                            </extendedGraphics>
+                        </Age>
+                        <Age For="HumanlikeChild">
+                            <extendedGraphics>
+                                <Gender For="Male">Things/Pawn/Humanlike/ESCP_Khajiit/Heads/Senche/Male_Average_Normal</Gender>
+                                <Gender For="Female">Things/Pawn/Humanlike/ESCP_Khajiit/Heads/Senche/Female_Average_Normal</Gender>
+                            </extendedGraphics>
+                        </Age>
+                        <Age For="HumanlikeAdult">
+                            <extendedGraphics>
+                                <Gender For="Male">Things/Pawn/Humanlike/ESCP_Khajiit/Heads/Senche/Male_Average_Normal</Gender>
+                                <Gender For="Female">Things/Pawn/Humanlike/ESCP_Khajiit/Heads/Senche/Female_Average_Normal</Gender>
+                            </extendedGraphics>
+                        </Age>
+                    </extendedGraphics>
+                </head>
+                <body>
+                    <extendedGraphics>
+                        <Age For="HumanlikeBaby">Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Senche/Naked_Baby</Age>
+                        <Age For="HumanlikeChild">Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Senche/Naked_Child</Age>
+                        <Age For="HumanlikeAdult">Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Senche/Naked_Thin</Age>
+                    </extendedGraphics>
+                </body>
+                <skeleton>Things/Pawn/Humanlike/ESCP_Khajiit/Skeletons/Senche/Dessicated</skeleton>
+                <skull>Things/Pawn/Humanlike/ESCP_Khajiit/Skeletons/Senche/Skull</skull>
+            </graphicPaths>
+        </alienRace>
+        <tools>
+            <li>
+                <label>left claw</label>
+                <capacities>
+                    <li>Scratch</li>
+                </capacities>
+                <power>11</power>
+                <cooldownTime>1.5</cooldownTime>
+                <linkedBodyPartsGroup>LeftHandClawsGroup</linkedBodyPartsGroup>
+                <surpriseAttack>
+                    <extraMeleeDamages>
+                        <li>
+                            <def>Stun</def>
+                            <amount>14</amount>
+                        </li>
+                    </extraMeleeDamages>
+                </surpriseAttack>
+            </li>
+            <li>
+                <label>right claw</label>
+                <capacities>
+                    <li>Scratch</li>
+                </capacities>
+                <power>11</power>
+                <cooldownTime>1.5</cooldownTime>
+                <linkedBodyPartsGroup>RightHandClawsGroup</linkedBodyPartsGroup>
+                <surpriseAttack>
+                    <extraMeleeDamages>
+                        <li>
+                            <def>Stun</def>
+                            <amount>14</amount>
+                        </li>
+                    </extraMeleeDamages>
+                </surpriseAttack>
+            </li>
+            <li>
+                <capacities>
+                    <li>Bite</li>
+                </capacities>
+                <power>16</power>
+                <cooldownTime>2</cooldownTime>
+                <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+                <chanceFactor>0.7</chanceFactor>
+                <surpriseAttack>
+                    <extraMeleeDamages>
+                        <li>
+                            <def>Stun</def>
+                            <amount>14</amount>
+                        </li>
+                    </extraMeleeDamages>
+                </surpriseAttack>
+            </li>
+            <li>
+                <label>head</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+                <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+                <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+                <chanceFactor>0.2</chanceFactor>
+            </li>
+        </tools>
+    </AlienRace.ThingDef_AlienRace>
+</Defs>

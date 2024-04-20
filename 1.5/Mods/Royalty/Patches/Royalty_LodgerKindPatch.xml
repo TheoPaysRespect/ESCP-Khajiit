@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationInsert">
+		<xpath>Defs/QuestScriptDef[defName="Util_ChooseRandomQuestLodgerKind"]/root[@Class="QuestNode_Sequence"]/nodes/li[@Class="QuestNode_IsSet"]/node[@Class="QuestNode_GetRandomPawnKindForFaction"]/choices/li[factionDef="Empire"]</xpath>
+		<value>
+			<li>
+				<factionDef>ESCP_KhajiitNonPlayerFaction_Kingdom</factionDef>
+				<pawnKinds>
+					<li>ESCP_Khajiit_Kingdom_Penitent</li>
+					<li>ESCP_Khajiit_Kingdom_Warrior</li>
+					<li>ESCP_Ohmes_Kingdom_Archer</li>
+					<li>ESCP_OhmesRaht_Kingdom_Archer</li>
+					<li>ESCP_Khajiit_Kingdom_Hunter</li>
+				</pawnKinds>
+			</li>
+			<li>
+				<factionDef>ESCP_KhajiitNonPlayerFaction_Tribal</factionDef>
+				<pawnKinds>
+					<li>ESCP_Khajiit_Tribal_Penitent</li>
+					<li>ESCP_Khajiit_Tribal_Warrior</li>
+					<li>ESCP_Ohmes_Tribal_Archer</li>
+					<li>ESCP_OhmesRaht_Tribal_Archer</li>
+					<li>ESCP_Khajiit_Tribal_Hunter</li>
+				</pawnKinds>
+			</li>
+		</value>
+	</Operation>
+</Patch>
