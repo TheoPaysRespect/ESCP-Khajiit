@@ -40,6 +40,7 @@
         <graphicData>
             <texPath>Things/Apparel/ESCP_AlfiqRoyalArmor</texPath>
             <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
             <drawSize>(0.6,0.6)</drawSize>
         </graphicData>
         <statBases>
@@ -54,6 +55,7 @@
         <costStuffCount>32</costStuffCount>
         <apparel>
             <wornGraphicPath>Things/Apparel/ESCP_AlfiqRoyalArmor</wornGraphicPath>
+            <useWornGraphicMask>true</useWornGraphicMask>
         </apparel>
         <equippedStatOffsets>
             <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.2</SlaveSuppressionOffset>
@@ -65,8 +67,9 @@
         <label>Senche royal garb</label>
         <description>PLACEHOLDER</description>
         <graphicData>
-            <texPath>Things/Pawn/Humanlike/Apparel/Duster/Duster</texPath>
+            <texPath>Things/Apparel/ESCP_SencheRoyalArmor</texPath>
             <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
         </graphicData>
         <statBases>
             <MaxHitPoints>100</MaxHitPoints>
@@ -79,7 +82,8 @@
         </statBases>
         <costStuffCount>180</costStuffCount>
         <apparel>
-            <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Duster/Duster</wornGraphicPath>
+            <wornGraphicPath>Things/Apparel/ESCP_SencheRoyalArmor</wornGraphicPath>
+            <useWornGraphicMask>true</useWornGraphicMask>
         </apparel>
         <equippedStatOffsets>
             <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.2</SlaveSuppressionOffset>

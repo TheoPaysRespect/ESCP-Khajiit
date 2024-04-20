@@ -221,17 +221,6 @@
                 <allowHumanBios>false</allowHumanBios>
                 <humanRecipeImport>true</humanRecipeImport>
                 <immuneToAge>false</immuneToAge>
-                <!--<alienPartGenerator Inherit="false">
-                    <bodyTypes>
-                        <li>Thin</li>
-                        <li>Hulk</li>
-                        <li>Male</li>
-                        <li>Female</li>
-                        <li>Fat</li>
-                        <li MayRequire="Ludeon.RimWorld.Biotech">Baby</li>
-                        <li MayRequire="Ludeon.RimWorld.Biotech">Child</li>
-                    </bodyTypes>
-                </alienPartGenerator>-->
                 <newbornBackstoryFilter>
                     <li>
                         <categories>
@@ -270,11 +259,6 @@
                     <li MayRequire="Ludeon.RimWorld.Biotech">ESCP_Khajiit_InheritedBonus</li>
                 </blackGeneList>
             </raceRestriction>
-            <compatibility>
-                <isFlesh>true</isFlesh>
-                <isSentient>true</isSentient>
-                <hasBlood>true</hasBlood>
-            </compatibility>
             <thoughtSettings>
                 <cannotReceiveThoughts>
                     <li>AteRawFood</li>
