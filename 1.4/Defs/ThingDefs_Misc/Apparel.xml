@@ -157,7 +157,6 @@
         <colorGenerator Class="ColorGenerator_StandardApparel" />
     </ThingDef>
 
-            <li>Leathery</li>
     <ThingDef Name="Khajiit_HelmetBase" ParentName="ArmorHelmetMakeableBase" Abstract="true">
         <techLevel>Medieval</techLevel>
         <recipeMaker>
