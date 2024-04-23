@@ -9,6 +9,11 @@
         </weaponTags>
         <initialWillRange>10~13</initialWillRange>
         <initialResistanceRange>25~35</initialResistanceRange>
+        <modExtensions>
+            <li MayRequire="owlchemist.giddyup" Class="GiddyUp.CustomMounts">
+                <mountChance>0</mountChance>
+            </li>
+        </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="ESCP_Khajiit_TribalAlfiq">
@@ -24,7 +29,7 @@
         <defName>ESCP_Alfiq_Tribal_Trader</defName>
         <label>trader</label>
         <trader>true</trader>
-       <apparelRequired Inherit="False">
+        <apparelRequired Inherit="False">
             <li>Apparel_TribalHeaddress</li>
         </apparelRequired>
         <backstoryFiltersOverride Inherit="False">
@@ -35,7 +40,7 @@
                 <categoriesAdulthood>
                     <li>ESCP_TraderBackstory</li>
                 </categoriesAdulthood>
-               <excludeAdulthood>
+                <excludeAdulthood>
                     <li>ESCP_KhajiitBackstory_Exclusion</li>
                     <li>ESCP_GenericBackstory_AdulthoodSkoomaAddict</li>
                 </excludeAdulthood>

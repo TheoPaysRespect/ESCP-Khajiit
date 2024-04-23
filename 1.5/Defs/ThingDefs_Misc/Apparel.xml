@@ -216,7 +216,7 @@
         <label>Alfiq tunic</label>
         <description>PLACEHOLDER</description>
         <graphicData>
-            <texPath>Things/Pawn/Humanlike/Apparel/Duster/Duster</texPath>
+            <texPath>Things/Apparel/ESCP_AlfiqClothArmor</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <statBases>
@@ -229,7 +229,8 @@
             <EquipDelay>1.5</EquipDelay>
         </statBases>
         <apparel>
-            <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Duster/Duster</wornGraphicPath>
+            <wornGraphicPath>Things/Apparel/ESCP_AlfiqClothArmor</wornGraphicPath>
+            <useWornGraphicMask>true</useWornGraphicMask>
         </apparel>
         <costStuffCount>45</costStuffCount>
     </ThingDef>
@@ -314,7 +315,7 @@
         <label>Senche tunic</label>
         <description>PLACEHOLDER</description>
         <graphicData>
-            <texPath>Things/Pawn/Humanlike/Apparel/Duster/Duster</texPath>
+            <texPath>Things/Apparel/ESCP_AlfiqClothArmor</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <statBases>
@@ -327,7 +328,8 @@
             <EquipDelay>1.5</EquipDelay>
         </statBases>
         <apparel>
-            <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Duster/Duster</wornGraphicPath>
+            <wornGraphicPath>Things/Apparel/ESCP_AlfiqClothArmor</wornGraphicPath>
+            <useWornGraphicMask>true</useWornGraphicMask>
         </apparel>
         <costStuffCount>140</costStuffCount>        <!--~x1.8 of duster/parka-->
     </ThingDef>

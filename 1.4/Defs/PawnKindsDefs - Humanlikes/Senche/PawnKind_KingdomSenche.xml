@@ -6,6 +6,11 @@
         <weaponMoney>0~0</weaponMoney>
         <initialWillRange>3~6</initialWillRange>
         <initialResistanceRange>20~40</initialResistanceRange>
+        <modExtensions>
+            <li MayRequire="owlchemist.giddyup" Class="GiddyUp.CustomMounts">
+                <mountChance>0</mountChance>
+            </li>
+        </modExtensions>
     </PawnKindDef>
 
 
@@ -21,6 +26,6 @@
         </apparelRequired>
         <requiredWorkTags>
             <li>Violent</li>
-        </requiredWorkTags> 
+        </requiredWorkTags>
     </PawnKindDef>
 </Defs>

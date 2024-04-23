@@ -9,6 +9,11 @@
         </weaponTags>
         <initialWillRange>10~13</initialWillRange>
         <initialResistanceRange>25~35</initialResistanceRange>
+        <modExtensions>
+            <li MayRequire="owlchemist.giddyup" Class="GiddyUp.CustomMounts">
+                <mountChance>0</mountChance>
+            </li>
+        </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="ESCP_Khajiit_KingdomAlfiq">
@@ -17,7 +22,7 @@
         <invNutrition>0</invNutrition>
         <itemQuality>Poor</itemQuality>
         <gearHealthRange>0.2~1.1</gearHealthRange>
-        <apparelMoney>50~100</apparelMoney> 
+        <apparelMoney>50~100</apparelMoney>
     </PawnKindDef>
 
     <PawnKindDef ParentName="ESCP_Khajiit_KingdomAlfiq">
