@@ -604,6 +604,12 @@
                 </li>
             </styleSettings>
             <generalSettings>
+                <forcedRaceTraitEntries>
+                    <li>
+                        <defName>Nudist</defName>
+                        <chance>30</chance>
+                    </li>
+                </forcedRaceTraitEntries>
                 <validBeds>
                     <li>KhajiitSleepingSpot</li>
                     <li>KhajiitDoubleSleepingSpot</li>
@@ -696,6 +702,14 @@
                     <li>
                         <original>SoakingWet</original>
                         <replacer>ESCP_Khajiit_SoakingWet</replacer>
+                    </li>
+                    <li>
+                        <original>HappyNude</original>
+                        <replacer>ESCP_Khajiit_HappyNude</replacer>
+                    </li>
+                    <li>
+                        <original>ClothedNudist</original>
+                        <replacer>ESCP_Khajiit_ClothedNudist</replacer>
                     </li>
                 </replacerList>
             </thoughtSettings>

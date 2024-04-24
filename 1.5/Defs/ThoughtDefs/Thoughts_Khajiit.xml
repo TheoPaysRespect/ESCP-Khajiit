@@ -1,34 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-    <!--<ThoughtDef>
-        <defName>ESCP_Khajiit_ConsumedHorseMeat</defName>
-        <durationDays>1</durationDays>
-        <stackLimit>1</stackLimit>
-        <nullifyingPrecepts>
-            <li MayRequire="Ludeon.RimWorld.Ideology">MeatEating_Abhorrent</li>
-            <li MayRequire="Ludeon.RimWorld.Ideology">MeatEating_Horrible</li>
-            <li MayRequire="Ludeon.RimWorld.Ideology">MeatEating_Disapproved</li>
-        </nullifyingPrecepts>
-        <stages>
-            <li>
-                <label>Consumed horse meat</label>
-                <description>Horses.... Oh, [PAWN_nameDef] loves horses! Especially with good cream sauce.</description>
-                <baseMoodEffect>+2</baseMoodEffect>
-            </li>
-        </stages>
-    </ThoughtDef>-->
-    <!--<ThoughtDef MayRequire="sirmashedpotato.morrowrim.colovianfurhelm">
-        <defName>ESCP_Khajiit_WearingColovianFurHelm</defName>
-        <stackLimit>1</stackLimit>
-        <validWhileDespawned>true</validWhileDespawned>
-        <stages>
-            <li>
-                <label>Fine hat for a cat</label>
-                <description>[PAWN_nameDef] loves their Colovian Fur Helm. Practical, yet stylish.</description>
-                <baseMoodEffect>+4</baseMoodEffect>
-            </li>
-        </stages>
-    </ThoughtDef>-->
+   
     <ThoughtDef>
         <defName>ESCP_Khajiit_AteKibble</defName>
         <stackLimit>1</stackLimit>
@@ -52,6 +24,39 @@
                 <label>Soaking Wet</label>
                 <description>This one is soaking wet, it will take a while to dry off.</description>
                 <baseMoodEffect>-6</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef>
+        <defName>ESCP_Khajiit_ClothedNudist</defName>
+        <workerClass>ThoughtWorker_NudistNude</workerClass>
+        <validWhileDespawned>true</validWhileDespawned>
+        <invert>true</invert>
+        <requiredTraits>
+            <li>Nudist</li>
+        </requiredTraits>
+        <stages>
+            <li>
+                <label>constraining clothes</label>
+                <description>This one is covered in fur, and yet is forced to wear clothing. These constraints are unbearable.</description>
+                <baseMoodEffect>-5</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef>
+        <defName>ESCP_Khajiit_HappyNude</defName>
+        <workerClass>ThoughtWorker_NudistNude</workerClass>
+        <validWhileDespawned>true</validWhileDespawned>
+        <requiredTraits>
+            <li>Nudist</li>
+        </requiredTraits>
+        <stages>
+            <li>
+                <label>happily nude</label>
+                <description>This one is nude, as Nirni intended.</description>
+                <baseMoodEffect>10</baseMoodEffect>
             </li>
         </stages>
     </ThoughtDef>
