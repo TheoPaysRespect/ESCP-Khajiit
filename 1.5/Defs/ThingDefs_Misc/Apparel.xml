@@ -315,7 +315,7 @@
         <label>Senche tunic</label>
         <description>PLACEHOLDER</description>
         <graphicData>
-            <texPath>Things/Apparel/ESCP_AlfiqClothArmor</texPath>
+            <texPath>Things/Apparel/ESCP_SencheClothArmor</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <statBases>
@@ -328,7 +328,7 @@
             <EquipDelay>1.5</EquipDelay>
         </statBases>
         <apparel>
-            <wornGraphicPath>Things/Apparel/ESCP_AlfiqClothArmor</wornGraphicPath>
+            <wornGraphicPath>Things/Apparel/ESCP_SencheClothArmor</wornGraphicPath>
             <useWornGraphicMask>true</useWornGraphicMask>
         </apparel>
         <costStuffCount>140</costStuffCount>        <!--~x1.8 of duster/parka-->

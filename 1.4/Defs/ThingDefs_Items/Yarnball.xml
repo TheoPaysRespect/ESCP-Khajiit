@@ -9,7 +9,7 @@
         <graphicData>
             <texPath>Things/Items/Yarnball</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>(0.7,0.7)</drawSize>
+            <drawSize>(1,1)</drawSize>
         </graphicData>
         <size>(1,1)</size>
         <minifiedDef>MinifiedThing</minifiedDef>
