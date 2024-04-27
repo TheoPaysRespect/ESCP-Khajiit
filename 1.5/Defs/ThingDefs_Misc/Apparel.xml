@@ -193,8 +193,9 @@
         <label>Alfiq leather armor</label>
         <description>PLACEHOLDER</description>
         <graphicData>
-            <texPath>Things/Pawn/Humanlike/Apparel/Duster/Duster</texPath>
+            <texPath>Things/Apparel/ESCP_AlfiqLeatherArmor</texPath>
             <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(0.6,0.6)</drawSize>
         </graphicData>
         <statBases>
             <MaxHitPoints>150</MaxHitPoints>
@@ -206,7 +207,7 @@
             <EquipDelay>10</EquipDelay>
         </statBases>
         <apparel>
-            <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Duster/Duster</wornGraphicPath>
+            <wornGraphicPath>Things/Apparel/ESCP_AlfiqLeatherArmor</wornGraphicPath>
         </apparel>
         <costStuffCount>24</costStuffCount>
     </ThingDef>
@@ -218,6 +219,8 @@
         <graphicData>
             <texPath>Things/Apparel/ESCP_AlfiqClothArmor</texPath>
             <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+            <drawSize>(0.6,0.6)</drawSize>
         </graphicData>
         <statBases>
             <MaxHitPoints>120</MaxHitPoints>
@@ -244,8 +247,10 @@
         <label>Senche leather armor</label>
         <description>PLACEHOLDER</description>
         <graphicData>
-            <texPath>Things/Pawn/Humanlike/Apparel/Duster/Duster</texPath>
+            <texPath>Things/Apparel/ESCP_SencheLeatherArmor</texPath>
             <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+            <drawSize>(1.4,1.4)</drawSize>
         </graphicData>
         <statBases>
             <MaxHitPoints>150</MaxHitPoints>
@@ -257,7 +262,7 @@
             <EquipDelay>10</EquipDelay>
         </statBases>
         <apparel>
-            <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Duster/Duster</wornGraphicPath>
+            <wornGraphicPath>Things/Apparel/ESCP_SencheLeatherArmor</wornGraphicPath>
         </apparel>
         <costStuffCount>140</costStuffCount>        <!--~x1.8 of duster/parka-->
     </ThingDef>
@@ -267,8 +272,9 @@
         <label>Senche armor</label>
         <description>PLACEHOLDER</description>
         <graphicData>
-            <texPath>Things/Pawn/Humanlike/Apparel/Duster/Duster</texPath>
+            <texPath>Things/Apparel/ESCP_SencheArmor</texPath>
             <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(1.4,1.4)</drawSize>
         </graphicData>
         <statBases>
             <WorkToMake>68400</WorkToMake>
@@ -280,7 +286,7 @@
             <EquipDelay>15</EquipDelay>
         </statBases>
         <apparel>
-            <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Duster/Duster</wornGraphicPath>
+            <wornGraphicPath>Things/Apparel/ESCP_SencheArmor</wornGraphicPath>
         </apparel>
         <!--<useWornGraphicMask>false</useWornGraphicMask>-->
         <costStuffCount>250</costStuffCount>      
@@ -291,9 +297,9 @@
         <label>Senche helmet</label>
         <description>PLACEHOLDER</description>
         <graphicData>
-            <texPath>Things/Pawn/Humanlike/Apparel/TribalHeaddress/TribalHeaddress</texPath>
+            <texPath>Things/Apparel/ESCP_SencheHelmet</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>0.80</drawSize>
+            <drawSize>(1.2,1.2)</drawSize>
         </graphicData>
         <statBases>
             <WorkToMake>6000</WorkToMake>
@@ -306,7 +312,7 @@
         </statBases>
         <costStuffCount>90</costStuffCount>
         <apparel>
-            <wornGraphicPath>Things/Pawn/Humanlike/Apparel/TribalHeaddress/TribalHeaddress</wornGraphicPath>
+            <wornGraphicPath>Things/Apparel/ESCP_SencheHelmet</wornGraphicPath>
         </apparel>
     </ThingDef>
 
@@ -317,6 +323,8 @@
         <graphicData>
             <texPath>Things/Apparel/ESCP_SencheClothArmor</texPath>
             <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+            <drawSize>(1.4,1.4)</drawSize>
         </graphicData>
         <statBases>
             <MaxHitPoints>120</MaxHitPoints>

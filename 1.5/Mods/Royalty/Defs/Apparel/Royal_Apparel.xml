@@ -70,6 +70,7 @@
             <texPath>Things/Apparel/ESCP_SencheRoyalArmor</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <shaderType>CutoutComplex</shaderType>
+            <drawSize>(1.4,1.4)</drawSize>
         </graphicData>
         <statBases>
             <MaxHitPoints>100</MaxHitPoints>
