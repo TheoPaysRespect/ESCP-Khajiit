@@ -372,6 +372,7 @@
             </generalSettings>
             <graphicPaths>
                 <head>Things/Pawn/Humanlike/ESCP_Khajiit/Heads/Alfiq/</head>
+                <headMasks>Things/Pawn/Humanlike/ESCP_Khajiit/Heads/Alfiq/Masks/FacePattern_Alfiq</headMasks>
                 <body>
                     <path>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Alfiq/</path>
                     <ageGraphics>
@@ -393,6 +394,26 @@
                         </HumanlikeAdult>
                     </ageGraphics>
                 </body>
+                <bodyMasks>
+                    <ageGraphics>
+                        <HumanlikeBaby>
+                            <path>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Base/Masks/BodyPattern_Child</path>
+                        </HumanlikeBaby>
+                        <HumanlikeChild>
+                            <path>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Alfiq/Masks/BodyPattern_Alfiq_Thin</path>
+                        </HumanlikeChild>
+                        <HumanlikeAdult>
+                            <bodytypeGraphics>
+                                <Thin>
+                                    <path>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Alfiq/Masks/BodyPattern_Alfiq_Thin</path>
+                                </Thin>
+                                <Fat>
+                                    <path>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Alfiq/Masks/BodyPattern_Alfiq_Fat</path>
+                                </Fat>
+                            </bodytypeGraphics>
+                        </HumanlikeAdult>
+                    </ageGraphics>
+                </bodyMasks>
                 <skeleton>Things/Pawn/Humanlike/ESCP_Khajiit/Skeletons/Alfiq/Dessicated</skeleton>
                 <skull>Things/Pawn/Humanlike/ESCP_Khajiit/Skeletons/Alfiq/Skull</skull>
             </graphicPaths>

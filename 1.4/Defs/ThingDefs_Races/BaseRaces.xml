@@ -295,6 +295,17 @@
             <graphicPaths>
                 <head>Things/Pawn/Humanlike/ESCP_Khajiit/Heads/Base/</head>
                 <body>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Base/</body>
+                <headMasks>Things/Pawn/Humanlike/ESCP_Khajiit/Heads/Base/Masks/FacePattern</headMasks>
+                <bodyMasks>
+                    <bodytypeGraphics>
+                        <Hulk>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Base/Masks/BodyPattern_Hulk</Hulk>
+                        <Fat>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Base/Masks/BodyPattern_Fat</Fat>
+                        <Thin>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Base/Masks/BodyPattern_Thin</Thin>
+                        <Female>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Base/Masks/BodyPattern_Female</Female>
+                        <Male>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Base/Masks/BodyPattern_Male</Male>
+                        <Child>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Base/Masks/BodyPattern_Child</Child>
+                    </bodytypeGraphics>
+                </bodyMasks>
                 <skull>Things/Pawn/Humanlike/ESCP_Khajiit/Skeletons/Base/Skull</skull>
             </graphicPaths>
             <generalSettings>
@@ -422,6 +433,25 @@
                                     </li>
                                 </options>
                             </first>
+                            <second Class="ColorGenerator_Options">
+                                <options>
+                                    <li>
+                                        <!--white-->
+                                        <weight>6</weight>
+                                        <only>(241,241,241,255)</only>
+                                    </li>
+                                    <li>
+                                        <!--dark grey-->
+                                        <weight>10</weight>
+                                        <only>(40,40,40,255)</only>
+                                    </li>
+                                    <li>
+                                        <!--brown-->
+                                        <weight>4</weight>
+                                        <only>(100,73,59,255)</only>
+                                    </li>
+                                </options>
+                            </second>
                         </li>
                         <li>
                             <name>hair</name>
@@ -646,6 +676,25 @@
                                     </li>
                                 </options>
                             </first>
+                            <second Class="ColorGenerator_Options">
+                                <options>
+                                    <li>
+                                        <!--white-->
+                                        <weight>6</weight>
+                                        <only>(241,241,241,255)</only>
+                                    </li>
+                                    <li>
+                                        <!--dark grey-->
+                                        <weight>10</weight>
+                                        <only>(40,40,40,255)</only>
+                                    </li>
+                                    <li>
+                                        <!--brown-->
+                                        <weight>4</weight>
+                                        <only>(100,73,59,255)</only>
+                                    </li>
+                                </options>
+                            </second>
                         </li>
                     </colorChannels>
                 </alienPartGenerator>
