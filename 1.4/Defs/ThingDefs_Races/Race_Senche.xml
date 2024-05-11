@@ -358,13 +358,6 @@
                         </HumanlikeAdult>
                     </ageGraphics>
                 </head>
-                <headMasks>
-                    <ageGraphics>
-                        <HumanlikeBaby>Things/Pawn/Humanlike/ESCP_Khajiit/Heads/Senche/Masks/FacePattern_Senche_baby</HumanlikeBaby>
-                        <HumanlikeChild>Things/Pawn/Humanlike/ESCP_Khajiit/Heads/Senche/Masks/FacePattern_Senche</HumanlikeChild>
-                        <HumanlikeAdult>Things/Pawn/Humanlike/ESCP_Khajiit/Heads/Senche/Masks/FacePattern_Senche</HumanlikeAdult>
-                    </ageGraphics>
-                </headMasks>
                 <body>
                     <ageGraphics>
                         <HumanlikeBaby>
@@ -378,19 +371,6 @@
                         </HumanlikeAdult>
                     </ageGraphics>
                 </body>
-                <bodyMasks>
-                    <ageGraphics>
-                        <HumanlikeBaby>
-                            <path>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Base/Masks/BodyPattern_Child</path>
-                        </HumanlikeBaby>
-                        <HumanlikeChild>
-                            <path>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Senche/Masks/BodyPattern_Senche</path>
-                        </HumanlikeChild>
-                        <HumanlikeAdult>
-                            <path>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Senche/Masks/BodyPattern_Senche</path>
-                        </HumanlikeAdult>
-                    </ageGraphics>
-                </bodyMasks>
                 <skeleton>Things/Pawn/Humanlike/ESCP_Khajiit/Skeletons/Senche/Dessicated</skeleton>
                 <skull>Things/Pawn/Humanlike/ESCP_Khajiit/Skeletons/Senche/Skull</skull>
             </graphicPaths>

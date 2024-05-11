@@ -295,17 +295,6 @@
             <graphicPaths>
                 <head>Things/Pawn/Humanlike/ESCP_Khajiit/Heads/Base/</head>
                 <body>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Base/</body>
-                <headMasks>Things/Pawn/Humanlike/ESCP_Khajiit/Heads/Base/Masks/FacePattern</headMasks>
-                <bodyMasks>
-                    <bodytypeGraphics>
-                        <Hulk>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Base/Masks/BodyPattern_Hulk</Hulk>
-                        <Fat>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Base/Masks/BodyPattern_Fat</Fat>
-                        <Thin>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Base/Masks/BodyPattern_Thin</Thin>
-                        <Female>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Base/Masks/BodyPattern_Female</Female>
-                        <Male>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Base/Masks/BodyPattern_Male</Male>
-                        <Child>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Base/Masks/BodyPattern_Child</Child>
-                    </bodytypeGraphics>
-                </bodyMasks>
                 <skull>Things/Pawn/Humanlike/ESCP_Khajiit/Skeletons/Base/Skull</skull>
             </graphicPaths>
             <generalSettings>
