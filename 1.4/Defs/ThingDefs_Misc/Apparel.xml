@@ -153,7 +153,7 @@
         <tradeTags>
             <li>BasicClothing</li>
         </tradeTags>
-        
+
         <colorGenerator Class="ColorGenerator_StandardApparel" />
     </ThingDef>
 
@@ -191,7 +191,7 @@
     <ThingDef ParentName="Khajiit_LeatherBase">
         <defName>ESCP_AlfiqLeatherArmor</defName>
         <label>Alfiq leather armor</label>
-        <description>PLACEHOLDER</description>
+        <description>Leather armor made for alfiq scouting in the wilderness.</description>
         <graphicData>
             <texPath>Things/Apparel/ESCP_AlfiqLeatherArmor</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -215,7 +215,7 @@
     <ThingDef ParentName="Khajiit_ClothBase">
         <defName>ESCP_AlfiqClothArmor</defName>
         <label>Alfiq tunic</label>
-        <description>PLACEHOLDER</description>
+        <description>Casual cloth tailored for the needs of fashionable city Alfiq, or those who are too shy to be in the nude.</description>
         <graphicData>
             <texPath>Things/Apparel/ESCP_AlfiqClothArmor</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -238,14 +238,14 @@
         <costStuffCount>45</costStuffCount>
     </ThingDef>
 
-    
+
 
     <!--Senche-->
 
     <ThingDef ParentName="Khajiit_LeatherBase">
         <defName>ESCP_SencheLeatherArmor</defName>
         <label>Senche leather armor</label>
-        <description>PLACEHOLDER</description>
+        <description>Leather armor tailored for Senche, perfect balance between defence and weight.</description>
         <graphicData>
             <texPath>Things/Apparel/ESCP_SencheLeatherArmor</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -270,10 +270,11 @@
     <ThingDef ParentName="Khajiit_MetalBase">
         <defName>ESCP_SencheArmor</defName>
         <label>Senche armor</label>
-        <description>PLACEHOLDER</description>
+        <description>Plate armor tailored for Senche, while it is exceptionally heavy, it's defensive strength is unquestionable.</description>
         <graphicData>
             <texPath>Things/Apparel/ESCP_SencheArmor</texPath>
             <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
             <drawSize>(1.4,1.4)</drawSize>
         </graphicData>
         <statBases>
@@ -288,14 +289,45 @@
         <apparel>
             <wornGraphicPath>Things/Apparel/ESCP_SencheArmor</wornGraphicPath>
         </apparel>
-        <!--<useWornGraphicMask>false</useWornGraphicMask>-->
-        <costStuffCount>250</costStuffCount>      
+        <costStuffCount>250</costStuffCount>
+    </ThingDef>
+
+    <ThingDef ParentName="Khajiit_MetalBase"> <!--the inherited color is actually from metal, even if the dyeable part is cloth-->
+        <defName>ESCP_Caska_Armor</defName>
+        <label>Dragonguard uniform</label>
+        <description>While this armor was initially designed for the reformed Dragonguard of Elsweyr, some Senche would wear it for being more stylish than the more standard plate armor.</description>
+        <graphicData>
+            <texPath>Things/Apparel/caska_metal_armor</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(1.4,1.4)</drawSize>
+        </graphicData>
+        <statBases>
+            <Flammability>0.6</Flammability>
+            <ArmorRating_Sharp>0.40</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.08</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.10</ArmorRating_Heat>
+            <Insulation_Cold>14.4</Insulation_Cold>
+            <Insulation_Heat>3</Insulation_Heat>
+            <EquipDelay>3</EquipDelay>
+            <MaxHitPoints>300</MaxHitPoints>
+            <WorkToMake>68000</WorkToMake>
+            <Mass>21</Mass>
+        </statBases>
+        <apparel>
+            <wornGraphicPath>Things/Apparel/caska_metal_armor</wornGraphicPath>
+            <useWornGraphicMask>true</useWornGraphicMask>
+        </apparel>
+        <costStuffCount>120</costStuffCount>
+        <costList>
+            <Cloth>120</Cloth>
+        </costList>
+
     </ThingDef>
 
     <ThingDef ParentName="Khajiit_HelmetBase">
         <defName>ESCP_SencheHelmet</defName>
         <label>Senche helmet</label>
-        <description>PLACEHOLDER</description>
+        <description>A helmet designed for Senche. While it may seem ineffective, just wearing it makes the user believe they are untouchable.</description>
         <graphicData>
             <texPath>Things/Apparel/ESCP_SencheHelmet</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -316,10 +348,38 @@
         </apparel>
     </ThingDef>
 
+    <ThingDef ParentName="Khajiit_HelmetBase"> <!--the inherited color is actually from metal, even if the dyeable part is cloth-->
+        <defName>ESCP_CaskaHelmet</defName>
+        <label>Dragonguard headband</label>
+        <description>A headband designed for the reformed Dragonguard of Elsweyr.</description>
+        <graphicData>
+            <texPath>Things/Apparel/caska_metal_helmet</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(1.2,1.2)</drawSize>
+        </graphicData>
+        <statBases>
+            <StuffEffectMultiplierArmor>0.7</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+            <EquipDelay>2.5</EquipDelay>
+            <WorkToMake>16000</WorkToMake>
+            <MaxHitPoints>180</MaxHitPoints>
+            <Mass>4</Mass>
+        </statBases>
+        <costStuffCount>40</costStuffCount>
+        <costList>
+            <Cloth>40</Cloth>
+        </costList>
+        <apparel>
+            <wornGraphicPath>Things/Apparel/caska_metal_helmet</wornGraphicPath>
+            <useWornGraphicMask>true</useWornGraphicMask>
+        </apparel>
+    </ThingDef>
+
     <ThingDef ParentName="Khajiit_ClothBase">
         <defName>ESCP_SencheClothArmor</defName>
         <label>Senche tunic</label>
-        <description>PLACEHOLDER</description>
+        <description>A casual tunic designed for city Senche who are too modest to be in the nude.</description>
         <graphicData>
             <texPath>Things/Apparel/ESCP_SencheClothArmor</texPath>
             <graphicClass>Graphic_Single</graphicClass>

@@ -28,7 +28,7 @@
                 <individualPaths>
                     <li>
                         <key>Apparel_BodyStrap</key>
-                        <value>Things/Pawn/Humanlike/Apparel/Burka/Burka</value>
+                        <value>Things/Apparel/ESCP_AlfiqSlaveStraps</value>
                     </li>
                 </individualPaths>
             </apparel>
@@ -63,7 +63,7 @@
                 <individualPaths>
                     <li>
                         <key>Apparel_BodyStrap</key>
-                        <value>Things/Pawn/Humanlike/Apparel/Burka/Burka</value>
+                        <value>Things/Apparel/ESCP_SencheSlaveStraps</value>
                     </li>
                 </individualPaths>
             </apparel>

@@ -72,6 +72,9 @@
                     <li MayRequire="ludeon.rimworld.royalty">ESCP_SencheRoyalArmor</li>
                     <li>ESCP_SencheArmor</li>
                     <li>ESCP_SencheHelmet</li>
+                    <li>ESCP_Caska_Armor</li>
+                    <li>ESCP_CaskaHelmet</li>
+
                 </apparelList>
                 <whiteApparelList Inherit ="false">
                     <li>Apparel_Tuque</li>
@@ -406,7 +409,7 @@
                                     <path>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Senche/Masks/BodyPattern_Senche</path>
                                 </Age>
                             </extendedGraphics>
-                           <offsets>
+                            <offsets>
                                 <east>
                                     <layerOffset>-0.296</layerOffset>
                                 </east>
