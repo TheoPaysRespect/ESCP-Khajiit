@@ -5,7 +5,7 @@
         <race>ESCP_OhmesRace</race>
         <defaultFactionType>ESCP_KhajiitPlayerFaction_Medieval</defaultFactionType>
         <apparelRequired>
-            <li MayRequire="sirmashedpotato.morrowrim.colovianfurhelm">MorrowRim_ColovianFurHelm</li>
+            <li MayRequire="ESCP.morrowrim.colovianfurhelm">MorrowRim_ColovianFurHelm</li>
         </apparelRequired>
         <backstoryFiltersOverride>
             <li>

@@ -89,7 +89,7 @@
                     <li>Apparel_HatHood</li>
 
                     <!--colovian fur helm-->
-                    <li MayRequire="sirmashedpotato.morrowrim.colovianfurhelm">MorrowRim_ColovianFurHelm</li>
+                    <li MayRequire="ESCP.morrowrim.colovianfurhelm">MorrowRim_ColovianFurHelm</li>
 
                 </whiteApparelList>
             </raceRestriction>

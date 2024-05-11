@@ -55,7 +55,7 @@
 			<Social>5</Social>
 		</skillGains>
 		<forcedItems> <!--couldn't get him to wear one-->
-  			<MorrowRim_ColovianFurHelm MayRequire="sirmashedpotato.morrowrim.colovianfurhelm">1</MorrowRim_ColovianFurHelm>
+  			<MorrowRim_ColovianFurHelm MayRequire="ESCP.morrowrim.colovianfurhelm">1</MorrowRim_ColovianFurHelm>
 		</forcedItems>
 	</AlienRace.AlienBackstoryDef>
 	<AlienRace.AlienBackstoryDef ParentName="ESCP_Khajiit_AdulthoodBase">

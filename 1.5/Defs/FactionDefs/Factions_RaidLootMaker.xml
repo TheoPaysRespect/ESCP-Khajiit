@@ -6,11 +6,11 @@
 			<fixedParams>
 				<filter>
 					<thingDefs>
-						<li MayRequire="sirmashedpotato.morrowrim.moonsugarandskooma">MorrowRim_MoonSugar</li>
-						<li MayRequire="sirmashedpotato.morrowrim.moonsugarandskooma">MorrowRim_Skooma</li>
-						<li MayRequire="sirmashedpotato.morrowrim.moonsugarandskooma">MorrowRim_Skooma_DoubleDistilled</li>
-						<li MayRequire="sirmashedpotato.morrowrim.moonsugarandskooma">MorrowRim_Skooma_Spoiled</li>
-						<li MayRequire="sirmashedpotato.morrowrim.moonsugarandskooma">MorrowRim_Skoomax</li>
+						<li MayRequire="ESCP.morrowrim.moonsugarandskooma">MorrowRim_MoonSugar</li>
+						<li MayRequire="ESCP.morrowrim.moonsugarandskooma">MorrowRim_Skooma</li>
+						<li MayRequire="ESCP.morrowrim.moonsugarandskooma">MorrowRim_Skooma_DoubleDistilled</li>
+						<li MayRequire="ESCP.morrowrim.moonsugarandskooma">MorrowRim_Skooma_Spoiled</li>
+						<li MayRequire="ESCP.morrowrim.moonsugarandskooma">MorrowRim_Skoomax</li>
 						<!--"yarn"-->
 						<li>WoolSheep</li>
 						<li>WoolAlpaca</li>

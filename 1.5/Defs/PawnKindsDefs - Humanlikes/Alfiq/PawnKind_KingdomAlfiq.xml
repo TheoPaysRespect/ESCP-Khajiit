@@ -40,7 +40,7 @@
             </li>
         </modExtensions>
         <apparelRequired Inherit="False">
-            <li MayRequire="sirmashedpotato.morrowrim.colovianfurhelm">MorrowRim_ColovianFurHelm</li>
+            <li MayRequire="ESCP.morrowrim.colovianfurhelm">MorrowRim_ColovianFurHelm</li>
         </apparelRequired>
         <backstoryFiltersOverride Inherit="False">
             <li>

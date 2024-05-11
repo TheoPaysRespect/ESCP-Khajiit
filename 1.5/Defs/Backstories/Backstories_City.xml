@@ -22,7 +22,7 @@
 		</skillGains>
 		<workDisables>Social</workDisables>
 		<forcedHediffs>
-			<li MayRequire="sirmashedpotato.morrowrim.moonsugarandskooma">MorrowRim_SkoomaAddiction</li>
+			<li MayRequire="ESCP.morrowrim.moonsugarandskooma">MorrowRim_SkoomaAddiction</li>
 		</forcedHediffs>
 		<linkedBackstory>ESCP_Khajiit_CityAdult3</linkedBackstory>
 	</AlienRace.AlienBackstoryDef>
@@ -131,7 +131,7 @@
 			<li>ESCP_GenericBackstory_AdulthoodSkoomaAddict</li>
 		</spawnCategories>
 		<forcedHediffs>
-			<li MayRequire="sirmashedpotato.morrowrim.moonsugarandskooma">MorrowRim_SkoomaAddiction</li>
+			<li MayRequire="ESCP.morrowrim.moonsugarandskooma">MorrowRim_SkoomaAddiction</li>
 		</forcedHediffs>
 	</AlienRace.AlienBackstoryDef>
 	<AlienRace.AlienBackstoryDef ParentName="ESCP_CityKhajiit_AdulthoodBase">

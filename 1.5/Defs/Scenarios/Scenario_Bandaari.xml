@@ -46,13 +46,13 @@
 					<def>StartingThing_Defined</def>
 					<thingDef>Bow_Short</thingDef>
 				</li>
-				<li MayRequire="sirmashedpotato.morrowrim.moonsugarandskooma"
+				<li MayRequire="ESCP.morrowrim.moonsugarandskooma"
 					Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
 					<thingDef>MorrowRim_Skooma</thingDef>
 					<count>5</count>
 				</li>
-				<li MayRequire="sirmashedpotato.morrowrim.moonsugarandskooma"
+				<li MayRequire="ESCP.morrowrim.moonsugarandskooma"
 					Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
 					<thingDef>MorrowRim_MoonSugar</thingDef>

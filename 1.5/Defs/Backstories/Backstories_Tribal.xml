@@ -87,7 +87,7 @@
 		</skillGains>
 		<workDisables>Cooking</workDisables>
 		<forcedItems >
-			<MorrowRim_MoonSugar MayRequire="sirmashedpotato.morrowrim.moonsugarandskooma">1</MorrowRim_MoonSugar>
+			<MorrowRim_MoonSugar MayRequire="ESCP.morrowrim.moonsugarandskooma">1</MorrowRim_MoonSugar>
 		</forcedItems>
 	</AlienRace.AlienBackstoryDef>
 	<AlienRace.AlienBackstoryDef ParentName="ESCP_TribeKhajiit_AdulthoodBase">
