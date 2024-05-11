@@ -295,6 +295,84 @@
                                 </south>
                             </offsets>
                         </li>
+                        <li>
+                            <path>Things/Pawn/Humanlike/ESCP_Khajiit/Heads/Alfiq/Masks/FacePattern_Alfiq</path>
+                            <colorChannel>pattern</colorChannel>
+                            <shaderType>Transparent</shaderType>
+                            <inFrontOfBody>true</inFrontOfBody>
+                            <alignWithHead>true</alignWithHead>
+                            <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                            <conditions>
+                                <BodyPart>
+                                    <bodyPart>Head</bodyPart>
+                                </BodyPart>
+                                <RotStage>Fresh,Rotting</RotStage>
+                                <Posture>
+                                    <drawnStanding>true</drawnStanding>
+                                    <drawnLaying>true</drawnLaying>
+                                    <drawnInBed>true</drawnInBed>
+                                </Posture>
+                            </conditions>
+                          <offsets>
+                                <east>
+                                    <layerOffset>-0.278</layerOffset>
+                                </east>
+                                <south>
+                                    <layerOffset>-0.2733119</layerOffset>
+                                </south>
+                                <north>
+                                    <layerOffset>-0.321</layerOffset>
+                                </north>
+                            </offsets>
+                        </li>
+                        <li>
+                            <path>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Alfiq/Masks/BodyPattern</path>
+                            <colorChannel>pattern</colorChannel>
+                            <shaderType>Transparent</shaderType>
+                            <inFrontOfBody>true</inFrontOfBody>
+                            <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                            <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
+                            <conditions>
+                                <BodyPart>
+                                    <bodyPart>Torso</bodyPart>
+                                </BodyPart>
+                                <RotStage>Fresh,Rotting</RotStage>
+                                <Posture>
+                                    <drawnStanding>true</drawnStanding>
+                                    <drawnLaying>true</drawnLaying>
+                                    <drawnInBed>false</drawnInBed>
+                                </Posture>
+                            </conditions>
+                            <extendedGraphics>
+                                <Age For="HumanlikeBaby">
+                                    <path>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Base/Masks/BodyPattern_Child</path>
+                                </Age>
+                                <Age For="HumanlikeChild">
+                                    <path>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Alfiq/Masks/BodyPattern_Alfiq_Thin</path>
+                                </Age>
+                                <Age For="HumanlikeAdult">
+                                    <extendedGraphics>
+                                        <BodyType For="Thin">
+                                            <path>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Alfiq/Masks/BodyPattern_Alfiq_Thin</path>
+                                        </BodyType>
+                                        <BodyType For="Fat">
+                                            <path>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Alfiq/Masks/BodyPattern_Alfiq_Fat</path>
+                                        </BodyType>
+                                    </extendedGraphics>
+                                </Age>
+                            </extendedGraphics>
+                          <offsets>
+                                <east>
+                                    <layerOffset>-0.296</layerOffset>
+                                </east>
+                                <south>
+                                    <layerOffset>-0.2926045</layerOffset>
+                                </south>
+                                <north>
+                                    <layerOffset>-0.302</layerOffset>
+                                </north>
+                            </offsets>
+                        </li>
                     </bodyAddons>
                     <anchorReplacements>
                         <li>

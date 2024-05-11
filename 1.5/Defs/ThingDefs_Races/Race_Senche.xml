@@ -262,7 +262,7 @@
                                 </north>
                                 <east>
                                     <bodyTypes>
-                                        <Baby MayRequire="ludeon.rimworld.biotech">(0.02250804,0.1318328)</Baby>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(0.02250804,0.1061093)</Baby>
                                     </bodyTypes>
                                 </east>
                                 <south>
@@ -298,7 +298,7 @@
                                 </north>
                                 <east>
                                     <bodyTypes>
-                                        <Baby MayRequire="ludeon.rimworld.biotech">(0.02250804,0.1318328)</Baby>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(0.02250804,0.1061093)</Baby>
                                     </bodyTypes>
                                 </east>
                                 <south>
@@ -340,6 +340,82 @@
                                         <Baby MayRequire="ludeon.rimworld.biotech">(0,-0.4)</Baby>
                                     </bodyTypes>
                                 </south>
+                            </offsets>
+                        </li>
+                        <li>
+                            <path>Things/Pawn/Humanlike/ESCP_Khajiit/Heads/Senche/Masks/FacePattern</path>
+                            <colorChannel>pattern</colorChannel>
+                            <shaderType>Transparent</shaderType>
+                            <inFrontOfBody>true</inFrontOfBody>
+                            <alignWithHead>true</alignWithHead>
+                            <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                            <conditions>
+                                <BodyPart>
+                                    <bodyPart>Head</bodyPart>
+                                </BodyPart>
+                                <RotStage>Fresh,Rotting</RotStage>
+                                <Posture>
+                                    <drawnStanding>true</drawnStanding>
+                                    <drawnLaying>true</drawnLaying>
+                                    <drawnInBed>true</drawnInBed>
+                                </Posture>
+                            </conditions>
+                            <extendedGraphics>
+                                <Age For="HumanlikeBaby">Things/Pawn/Humanlike/ESCP_Khajiit/Heads/Senche/Masks/FacePattern_Senche_baby</Age>
+                                <Age For="HumanlikeChild">Things/Pawn/Humanlike/ESCP_Khajiit/Heads/Senche/Masks/FacePattern_Senche</Age>
+                                <Age For="HumanlikeAdult">Things/Pawn/Humanlike/ESCP_Khajiit/Heads/Senche/Masks/FacePattern_Senche</Age>
+                            </extendedGraphics>
+                            <offsets>
+                                <east>
+                                    <layerOffset>-0.278</layerOffset>
+                                </east>
+                                <south>
+                                    <layerOffset>-0.2733119</layerOffset>
+                                </south>
+                                <north>
+                                    <layerOffset>-0.321</layerOffset>
+                                </north>
+                            </offsets>
+                        </li>
+                        <li>
+                            <path>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Senche/Masks/BodyPattern</path>
+                            <colorChannel>pattern</colorChannel>
+                            <shaderType>Transparent</shaderType>
+                            <inFrontOfBody>true</inFrontOfBody>
+                            <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                            <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
+                            <conditions>
+                                <BodyPart>
+                                    <bodyPart>Torso</bodyPart>
+                                </BodyPart>
+                                <RotStage>Fresh,Rotting</RotStage>
+                                <Posture>
+                                    <drawnStanding>true</drawnStanding>
+                                    <drawnLaying>true</drawnLaying>
+                                    <drawnInBed>false</drawnInBed>
+                                </Posture>
+                            </conditions>
+                            <extendedGraphics>
+                                <Age For="HumanlikeBaby">
+                                    <path>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Base/Masks/BodyPattern_Child</path>
+                                </Age>
+                                <Age For="HumanlikeChild">
+                                    <path>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Senche/Masks/BodyPattern_Senche</path>
+                                </Age>
+                                <Age For="HumanlikeAdult">
+                                    <path>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Senche/Masks/BodyPattern_Senche</path>
+                                </Age>
+                            </extendedGraphics>
+                           <offsets>
+                                <east>
+                                    <layerOffset>-0.296</layerOffset>
+                                </east>
+                                <south>
+                                    <layerOffset>-0.2926045</layerOffset>
+                                </south>
+                                <north>
+                                    <layerOffset>-0.302</layerOffset>
+                                </north>
                             </offsets>
                         </li>
                     </bodyAddons>
