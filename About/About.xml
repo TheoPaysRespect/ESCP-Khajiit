@@ -22,14 +22,14 @@
 			<steamWorkshopUrl>steam://url/CommunityFilePage/839005762</steamWorkshopUrl>
 		</li>
 		<li>
-			<packageId>SirMashedPotato.ESCP.RaceTools</packageId>
+			<packageId>ESCP.ESCP.RaceTools</packageId>
 			<displayName>ESCP - Race Tools</displayName>
-			<steamWorkshopUrl>steam://url/CommunityFilePage/2681814436</steamWorkshopUrl>
-			<downloadUrl>https://github.com/SirMashedPotato/ESCP-Race_Tools</downloadUrl>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/3244642507</steamWorkshopUrl>
+			<downloadUrl>https://github.com/TheoPaysRespect/ESCP-Race_Tools</downloadUrl>
 		</li>
 	</modDependencies>
     <loadAfter>
-		<li>SirMashedPotato.ESCP.RaceTools</li>
-		<li>sirmashedpotato.morrowrim.moonsugarandskooma</li>
+		<li>ESCP.ESCP.RaceTools</li>
+		<li>ESCP.morrowrim.moonsugarandskooma</li>
 	</loadAfter>
 </ModMetaData>

@@ -77,6 +77,7 @@
         </apparel>
         <equippedStatOffsets>
             <MoveSpeed>-0.8</MoveSpeed>
+            <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.1</SlaveSuppressionOffset>
         </equippedStatOffsets>
         <recipeMaker>
             <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
@@ -184,6 +185,9 @@
         <stuffCategories>
             <li>Metallic</li>
         </stuffCategories>
+        <equippedStatOffsets>
+            <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.1</SlaveSuppressionOffset>
+        </equippedStatOffsets>
     </ThingDef>
 
     <!--Alfiq-->
@@ -292,15 +296,19 @@
         <costStuffCount>250</costStuffCount>
     </ThingDef>
 
-    <ThingDef ParentName="Khajiit_MetalBase"> <!--the inherited color is actually from metal, even if the dyeable part is cloth-->
+    <ThingDef ParentName="Khajiit_MetalBase">        <!--the inherited color is actually from metal, even if the dyeable part is cloth-->
         <defName>ESCP_Caska_Armor</defName>
         <label>Dragonguard uniform</label>
         <description>While this armor was initially designed for the reformed Dragonguard of Elsweyr, some Senche would wear it for being more stylish than the more standard plate armor.</description>
         <graphicData>
             <texPath>Things/Apparel/caska_metal_armor</texPath>
             <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
             <drawSize>(1.4,1.4)</drawSize>
         </graphicData>
+        <equippedStatOffsets>
+            <SocialImpact>0.2</SocialImpact>
+        </equippedStatOffsets>
         <statBases>
             <Flammability>0.6</Flammability>
             <ArmorRating_Sharp>0.40</ArmorRating_Sharp>
@@ -313,13 +321,26 @@
             <WorkToMake>68000</WorkToMake>
             <Mass>21</Mass>
         </statBases>
+        <thingCategories>
+            <li MayRequire="ludeon.rimworld.royalty">ApparelNoble</li>
+        </thingCategories>
         <apparel>
             <wornGraphicPath>Things/Apparel/caska_metal_armor</wornGraphicPath>
             <useWornGraphicMask>true</useWornGraphicMask>
+            <tags>
+                <li MayRequire="ludeon.rimworld.royalty">Royal</li>
+                <li MayRequire="ludeon.rimworld.royalty">RoyalTier2</li>
+                <li MayRequire="ludeon.rimworld.royalty">RoyalTier5</li>
+                <li MayRequire="ludeon.rimworld.royalty">RoyalTier6</li>
+                <li MayRequire="ludeon.rimworld.royalty">RoyalTier7</li>
+            </tags>
         </apparel>
+        <stuffCategories Inherit="false">
+            <li>Fabric</li>
+        </stuffCategories>
         <costStuffCount>120</costStuffCount>
         <costList>
-            <Cloth>120</Cloth>
+            <Gold>200</Gold>
         </costList>
 
     </ThingDef>
@@ -348,15 +369,22 @@
         </apparel>
     </ThingDef>
 
-    <ThingDef ParentName="Khajiit_HelmetBase"> <!--the inherited color is actually from metal, even if the dyeable part is cloth-->
+    <ThingDef ParentName="Khajiit_HelmetBase">        <!--the inherited color is actually from metal, even if the dyeable part is cloth-->
         <defName>ESCP_CaskaHelmet</defName>
         <label>Dragonguard headband</label>
         <description>A headband designed for the reformed Dragonguard of Elsweyr.</description>
         <graphicData>
             <texPath>Things/Apparel/caska_metal_helmet</texPath>
             <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
             <drawSize>(1.2,1.2)</drawSize>
         </graphicData>
+        <equippedStatOffsets>
+            <SocialImpact>0.2</SocialImpact>
+        </equippedStatOffsets>
+        <thingCategories>
+            <li MayRequire="ludeon.rimworld.royalty">ApparelNoble</li>
+        </thingCategories>
         <statBases>
             <StuffEffectMultiplierArmor>0.7</StuffEffectMultiplierArmor>
             <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
@@ -366,13 +394,23 @@
             <MaxHitPoints>180</MaxHitPoints>
             <Mass>4</Mass>
         </statBases>
-        <costStuffCount>40</costStuffCount>
+        <stuffCategories Inherit="false">
+            <li>Fabric</li>
+        </stuffCategories>
+        <costStuffCount>60</costStuffCount>
         <costList>
-            <Cloth>40</Cloth>
+            <Gold>100</Gold>
         </costList>
         <apparel>
             <wornGraphicPath>Things/Apparel/caska_metal_helmet</wornGraphicPath>
             <useWornGraphicMask>true</useWornGraphicMask>
+            <tags>
+                <li MayRequire="ludeon.rimworld.royalty">Royal</li>
+                <li MayRequire="ludeon.rimworld.royalty">RoyalTier2</li>
+                <li MayRequire="ludeon.rimworld.royalty">RoyalTier5</li>
+                <li MayRequire="ludeon.rimworld.royalty">RoyalTier6</li>
+                <li MayRequire="ludeon.rimworld.royalty">RoyalTier7</li>
+            </tags>
         </apparel>
     </ThingDef>
 
