@@ -321,6 +321,9 @@
             <WorkToMake>68000</WorkToMake>
             <Mass>21</Mass>
         </statBases>
+        <thingSetMakerTags Inherit="False">
+            <li>RewardStandardLowFreq</li>
+        </thingSetMakerTags>
         <thingCategories>
             <li MayRequire="ludeon.rimworld.royalty">ApparelNoble</li>
         </thingCategories>
@@ -382,6 +385,9 @@
         <equippedStatOffsets>
             <SocialImpact>0.2</SocialImpact>
         </equippedStatOffsets>
+        <thingSetMakerTags Inherit="False">
+            <li>RewardStandardLowFreq</li>
+        </thingSetMakerTags>
         <thingCategories>
             <li MayRequire="ludeon.rimworld.royalty">ApparelNoble</li>
         </thingCategories>
