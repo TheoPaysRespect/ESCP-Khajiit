@@ -482,6 +482,7 @@
                         </li>
                     </extraMeleeDamages>
                 </surpriseAttack>
+                <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
             </li>
             <li>
                 <label>right claw</label>
@@ -499,6 +500,7 @@
                         </li>
                     </extraMeleeDamages>
                 </surpriseAttack>
+                <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
             </li>
             <li>
                 <capacities>
