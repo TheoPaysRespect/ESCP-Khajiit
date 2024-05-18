@@ -62,7 +62,7 @@
     <JobDef>
         <defName>Play_Yarnball</defName>
         <driverClass>JobDriver_WatchBuilding</driverClass>
-        <reportString>playing with yarnball.</reportString>
+        <reportString>pondering the yarnball.</reportString>
         <joyDuration>4000</joyDuration>
         <joyMaxParticipants>1</joyMaxParticipants>
         <joySkill>Crafting</joySkill>
