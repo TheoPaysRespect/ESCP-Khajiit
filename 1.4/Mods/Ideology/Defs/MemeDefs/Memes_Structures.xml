@@ -10,12 +10,9 @@
 				<overrideDeityIcons>true</overrideDeityIcons>
 				<iconPath>
 					<li>UI/Deities/ESCP_DeityAzura</li>
-					<li>UI/Deities/ESCP_DeityLorkhan</li>
-					<!--Art needed-->
-					<li>UI/Deities/ESCP_DeityLorkhan</li>
-					<!--Art needed-->
-					<li>UI/Deities/ESCP_DeityLorkhan</li>
-					<!--Art needed-->
+					<li>Ideology/jone</li>
+					<li>Ideology/jode</li>
+					<li>Ideology/khenarthi</li>
 					<li>UI/Deities/ESCP_DeityMagnus</li>
 				</iconPath>
 				<overrideDeityGenders>true</overrideDeityGenders>
@@ -28,8 +25,7 @@
 				</deityGenders>
 			</li>
 		</modExtensions>
-		<iconPath>UI/Structures/ESCP_OriginLorkhanCult</iconPath>
-		<!--Art needed-->
+		<iconPath>Ideology/ESCP_Khajiit_B</iconPath>
 		<deityCount>5</deityCount>
 		<allowSymbolsFromDeity>false</allowSymbolsFromDeity>
 		<symbolPackOverride>true</symbolPackOverride>
@@ -131,7 +127,7 @@
 				<iconPath>
 					<li>UI/Deities/ESCP_DeityHermaeusMora</li>
 					<li>UI/Deities/ESCP_DeityHircine</li>
-					<li>UI/Deities/ESCP_DeityLorkhan</li> <!--nirn-->
+					<li>Ideology/nirn</li>
 					<li>UI/Deities/ESCP_DeitySanguine</li>
 					<li>UI/Deities/ESCP_DeityYffre</li>
 				</iconPath>
@@ -145,7 +141,7 @@
 				</deityGenders>
 			</li>
 		</modExtensions>
-		<iconPath>UI/Structures/ESCP_OriginLorkhanCult</iconPath>
+		<iconPath>Ideology/ESCP_Khajiit_D</iconPath>
 		<!--Art needed-->
 		<deityCount>5</deityCount>
 		<allowSymbolsFromDeity>false</allowSymbolsFromDeity>
@@ -246,10 +242,8 @@
 				<IgnoreDuplicateDeityNames>true</IgnoreDuplicateDeityNames>
 				<overrideDeityIcons>true</overrideDeityIcons>
 				<iconPath>
-					<li>UI/Deities/ESCP_DeityLorkhan</li>
-					<!--Art needed-->
-					<li>UI/Deities/ESCP_DeityLorkhan</li>
-					<!--Art needed-->
+					<li>Ideology/akha</li>
+					<li>Ideology/alkhan</li>
 					<li>UI/Deities/ESCP_DeityAkatosh</li>
 					<li>UI/Deities/ESCP_DeityBoethiah</li>
 					<li>UI/Deities/ESCP_DeityMephala</li>
@@ -264,7 +258,7 @@
 				</deityGenders>
 			</li>
 		</modExtensions>
-		<iconPath>UI/Structures/ESCP_OriginLorkhanCult</iconPath>
+		<iconPath>Ideology/ESCP_Khajiit_f</iconPath>
 		<!--Art needed-->
 		<deityCount>5</deityCount>
 		<allowSymbolsFromDeity>false</allowSymbolsFromDeity>
@@ -368,8 +362,7 @@
 					<li>UI/Deities/ESCP_DeityNamira</li>
 					<li>UI/Deities/ESCP_DeityNocturnal</li>
 					<li>UI/Deities/ESCP_DeityVaermina</li>
-					<li>UI/Deities/ESCP_DeityLorkhan</li>
-					<!--Art needed-->
+					<li>Ideology/nameless</li>
 				</iconPath>
 				<overrideDeityGenders>true</overrideDeityGenders>
 				<deityGenders>
@@ -380,8 +373,7 @@
 				</deityGenders>
 			</li>
 		</modExtensions>
-		<iconPath>UI/Structures/ESCP_OriginLorkhanCult</iconPath>
-		<!--Art needed-->
+		<iconPath>Ideology/ESCP_Khajiit_E</iconPath>
 		<deityCount>4</deityCount>
 		<allowSymbolsFromDeity>false</allowSymbolsFromDeity>
 		<symbolPackOverride>true</symbolPackOverride>
@@ -493,8 +485,7 @@
 				</deityGenders>
 			</li>
 		</modExtensions>
-		<iconPath>UI/Structures/ESCP_OriginLorkhanCult</iconPath>
-		<!--Art needed-->
+		<iconPath>Ideology/ESCP_Khajiit_C</iconPath>
 		<deityCount>5</deityCount>
 		<allowSymbolsFromDeity>false</allowSymbolsFromDeity>
 		<symbolPackOverride>true</symbolPackOverride>

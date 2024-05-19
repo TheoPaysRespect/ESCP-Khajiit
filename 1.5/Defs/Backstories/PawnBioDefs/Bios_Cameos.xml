@@ -45,7 +45,7 @@
     <AlienRace.PawnBioDef ParentName="ESCP_KhajiitPawnBioBase">
         <!--Razum dar-->
         <defName>ESCP_KhajiitPawnBioBase_RazumDar</defName>
-        <childhood>ESCP_Khajiit_MonkChild3</childhood>
+        <childhood>ESCP_Khajiit_CityChild1</childhood>
         <adulthood>ESCP_Khajiit_MonkAdult1</adulthood>
         <!--change to queen's guard-->
         <gender>Male</gender>

@@ -84,35 +84,35 @@
 						<name>Riddle'Thar</name>
 						<type>The Two-Moons Dance</type>
 						<gender>None</gender>
-						<iconPath>UI/Deities/ESCP_DeityLorkhan</iconPath>
+						<iconPath>Ideology/riddlethar</iconPath>
 						<!--new-->
 					</li>
 					<li>
 						<name>Jone</name>
 						<type>the Little Moon</type>
 						<gender>None</gender>
-						<iconPath>UI/Deities/ESCP_DeityLorkhan</iconPath>
+						<iconPath>Ideology/jone</iconPath>
 						<!--new-->
 					</li>
 					<li>
 						<name>Jode</name>
 						<type>the Big Moon</type>
 						<gender>None</gender>
-						<iconPath>UI/Deities/ESCP_DeityLorkhan</iconPath>
+						<iconPath>Ideology/jode</iconPath>
 						<!--new-->
 					</li>
 					<li>
 						<name>Khenarthi</name>
 						<type>the Goddess of the Winds</type>
 						<gender>Female</gender>
-						<iconPath>UI/Deities/ESCP_DeityXarxes</iconPath>
+						<iconPath>Ideology/khenarthi</iconPath>
 						<!--new-->
 					</li>
 					<li>
-						<name>Mara</name>
-						<type>the Mother Cat</type>
-						<gender>Female</gender>
-						<iconPath>UI/Deities/ESCP_DeityMara</iconPath>
+						<name>Rajhin</name>
+						<type>the Footpad</type>
+						<gender>Male</gender>
+						<iconPath>Ideology/rajhin</iconPath>
 					</li>
 					<li>
 						<name>S'rendarr</name>

@@ -24,7 +24,6 @@
 		<forcedHediffs>
 			<li MayRequire="ESCP.morrowrim.moonsugarandskooma">MorrowRim_SkoomaAddiction</li>
 		</forcedHediffs>
-		<linkedBackstory>ESCP_Khajiit_CityAdult3</linkedBackstory>
 	</AlienRace.AlienBackstoryDef>
 	<AlienRace.AlienBackstoryDef ParentName="ESCP_CityKhajiit_ChildhoodBase">
 		<defName>ESCP_Khajiit_CityChild2</defName>
