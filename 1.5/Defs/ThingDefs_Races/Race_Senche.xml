@@ -192,11 +192,7 @@
                     </anchorReplacements>
                     <headTypes Inherit="false">
                         <li>Male_AverageNormal</li>
-                        <!--<li>Male_AverageWide</li>-->
-                        <!--<li>Male_AveragePointy</li>-->
                         <li>Female_AverageNormal</li>
-                        <!--<li>Female_AverageWide</li>-->
-                        <!--<li>Female_AveragePointy</li>-->
                     </headTypes>
                     <bodyTypes Inherit="false">
                         <li>Thin</li>
