@@ -214,8 +214,7 @@
                     </hybridSpecific>
                 </reproduction>
                 <raceGenes MayRequire="ludeon.rimworld.biotech">
-                    <li MayRequire="ESCP.morrowrim.moonsugarandskooma">
-                        AddictionResistant_MorrowRim_MoonSugar</li>
+                    <li MayRequire="ESCP.morrowrim.moonsugarandskooma">AddictionResistant_MorrowRim_MoonSugar</li>
                     <!--<li>AddictionResistant_MorrowRim_Skooma</li>-->
                 </raceGenes>
                 <allowHumanBios>false</allowHumanBios>
