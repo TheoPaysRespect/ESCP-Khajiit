@@ -364,9 +364,9 @@
                                 </Posture>
                             </conditions>
                             <extendedGraphics>
-                                <Age For="HumanlikeBaby">Things/Pawn/Humanlike/ESCP_Khajiit/Heads/Senche/Masks/FacePattern_Senche_baby</Age>
-                                <Age For="HumanlikeChild">Things/Pawn/Humanlike/ESCP_Khajiit/Heads/Senche/Masks/FacePattern_Senche</Age>
-                                <Age For="HumanlikeAdult">Things/Pawn/Humanlike/ESCP_Khajiit/Heads/Senche/Masks/FacePattern_Senche</Age>
+                                <Age For="HumanlikeBaby">Things/Pawn/Humanlike/ESCP_Khajiit/Heads/Senche/Masks/FacePattern_Male_Senche_baby</Age>
+                                <Age For="HumanlikeChild">Things/Pawn/Humanlike/ESCP_Khajiit/Heads/Senche/Masks/FacePattern_Male_Senche_Thin</Age>
+                                <Age For="HumanlikeAdult">Things/Pawn/Humanlike/ESCP_Khajiit/Heads/Senche/Masks/FacePattern_Male_Senche_Thin</Age>
                             </extendedGraphics>
                             <offsets>
                                 <east>
@@ -414,7 +414,7 @@
                                     <layerOffset>-0.296</layerOffset>
                                 </east>
                                 <south>
-                                    <layerOffset>-0.2926045</layerOffset>
+                                    <layerOffset>-0.296</layerOffset>
                                 </south>
                                 <north>
                                     <layerOffset>-0.302</layerOffset>

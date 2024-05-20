@@ -136,21 +136,21 @@
                             <offset>(0.0, 0.334)</offset>
                             <bodyTypes>
                                 <Child MayRequire="ludeon.rimworld.biotech">(0,-0.08038585)</Child>
-                                <Baby MayRequire="ludeon.rimworld.biotech">(0,-0.12)</Baby>
+                                <Baby MayRequire="ludeon.rimworld.biotech">(0,-0.1768489)</Baby>
                             </bodyTypes>
                         </north>
                         <east>
                             <offset>(0.17, 0.168)</offset>
                             <bodyTypes>
                                 <Child MayRequire="ludeon.rimworld.biotech">(-0,-0.06109325)</Child>
-                                <Baby MayRequire="ludeon.rimworld.biotech">(-0.1,0.01)</Baby>
+                                <Baby MayRequire="ludeon.rimworld.biotech">(-0.1382637,-0.03536978)</Baby>
                             </bodyTypes>
                         </east>
                         <west>
                             <offset>(-0.17, 0.168)</offset>
                             <bodyTypes>
                                 <Child MayRequire="ludeon.rimworld.biotech">(0,-0.06109325)</Child>
-                                <Baby MayRequire="ludeon.rimworld.biotech">(0.1,0.01)</Baby>
+                                <Baby MayRequire="ludeon.rimworld.biotech">(0.1382637,-0.03536978)</Baby>
                             </bodyTypes>
                         </west>
                         <south>
@@ -270,33 +270,33 @@
                                 <north>
                                     <bodyTypes>
                                         <Child MayRequire="ludeon.rimworld.biotech">(0,0)</Child>
-                                        <Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(0,0.08038585)</Baby>
                                     </bodyTypes>
                                 </north>
                                 <east>
                                     <offset>(0.03536978, 0)</offset>
                                     <bodyTypes>
                                         <Child MayRequire="ludeon.rimworld.biotech">(-0.003215434,-0.009646302)</Child>
-                                        <Baby MayRequire="ludeon.rimworld.biotech">(-0.05466238,-0.1)</Baby>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(-0.1446945,-0.05466238)</Baby>
                                     </bodyTypes>
                                 </east>
                                 <west>
                                     <offset>(0.03536978, 0)</offset>
                                     <bodyTypes>
                                         <Child MayRequire="ludeon.rimworld.biotech">(-0.003215434,-0.009646302)</Child>
-                                        <Baby MayRequire="ludeon.rimworld.biotech">(-0.05466238,-0.1)</Baby>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(-0.1446945,-0.05466238)</Baby>
                                     </bodyTypes>
                                 </west>
                                 <south>
                                     <bodyTypes>
                                         <Child MayRequire="ludeon.rimworld.biotech">(0,0)</Child>
-                                        <Baby MayRequire="ludeon.rimworld.biotech">(0,-0.1)</Baby>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(-0.009646302,-0.1575563)</Baby>
                                     </bodyTypes>
                                 </south>
                             </offsets>
                         </li>
                         <li>
-                            <path>Things/Pawn/Humanlike/ESCP_Khajiit/Heads/Alfiq/Masks/FacePattern_Alfiq</path>
+                            <path>Things/Pawn/Humanlike/ESCP_Khajiit/Heads/Alfiq/Masks/FacePattern_Male_Alfiq_Thin</path>
                             <colorChannel>pattern</colorChannel>
                             <shaderType>Transparent</shaderType>
                             <inFrontOfBody>true</inFrontOfBody>
@@ -364,9 +364,10 @@
                           <offsets>
                                 <east>
                                     <layerOffset>-0.296</layerOffset>
+
                                 </east>
                                 <south>
-                                    <layerOffset>-0.2926045</layerOffset>
+                                    <layerOffset>-0.296</layerOffset>
                                 </south>
                                 <north>
                                     <layerOffset>-0.302</layerOffset>
