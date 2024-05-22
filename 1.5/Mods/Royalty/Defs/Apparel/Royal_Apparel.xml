@@ -59,6 +59,7 @@
         </apparel>
         <equippedStatOffsets>
             <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.2</SlaveSuppressionOffset>
+            <SocialImpact>0.2</SocialImpact>
         </equippedStatOffsets>
     </ThingDef>
 
@@ -75,7 +76,7 @@
         <statBases>
             <MaxHitPoints>100</MaxHitPoints>
             <WorkToMake>30000</WorkToMake>
-            <Mass>2</Mass>
+            <Mass>3</Mass>
             <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
             <StuffEffectMultiplierInsulation_Cold>0.80</StuffEffectMultiplierInsulation_Cold>
             <StuffEffectMultiplierInsulation_Heat>0.25</StuffEffectMultiplierInsulation_Heat>
@@ -88,6 +89,7 @@
         </apparel>
         <equippedStatOffsets>
             <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.2</SlaveSuppressionOffset>
+            <SocialImpact>0.2</SocialImpact>
         </equippedStatOffsets>
     </ThingDef>
 </Defs>

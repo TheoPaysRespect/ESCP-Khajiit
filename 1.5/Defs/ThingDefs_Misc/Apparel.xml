@@ -259,7 +259,7 @@
         <statBases>
             <MaxHitPoints>150</MaxHitPoints>
             <WorkToMake>18000</WorkToMake>
-            <Mass>7</Mass>
+            <Mass>9</Mass>
             <StuffEffectMultiplierArmor>0.52</StuffEffectMultiplierArmor>
             <StuffEffectMultiplierInsulation_Cold>0.3</StuffEffectMultiplierInsulation_Cold>
             <StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
@@ -284,7 +284,7 @@
         <statBases>
             <WorkToMake>68400</WorkToMake>
             <MaxHitPoints>300</MaxHitPoints>
-            <Mass>27</Mass>
+            <Mass>40</Mass>
             <StuffEffectMultiplierArmor>0.73</StuffEffectMultiplierArmor>
             <StuffEffectMultiplierInsulation_Cold>1.0</StuffEffectMultiplierInsulation_Cold>
             <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
@@ -296,7 +296,7 @@
         <costStuffCount>250</costStuffCount>
     </ThingDef>
 
-    <ThingDef ParentName="Khajiit_MetalBase">        <!--the inherited color is actually from metal, even if the dyeable part is cloth-->
+    <ThingDef ParentName="Khajiit_MetalBase">  
         <defName>ESCP_Caska_Armor</defName>
         <label>Dragonguard uniform</label>
         <description>While this armor was initially designed for the reformed Dragonguard of Elsweyr, some Senche would wear it for being more stylish than the more standard plate armor.</description>
@@ -311,15 +311,13 @@
         </equippedStatOffsets>
         <statBases>
             <Flammability>0.6</Flammability>
-            <ArmorRating_Sharp>0.40</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.08</ArmorRating_Blunt>
-            <ArmorRating_Heat>0.10</ArmorRating_Heat>
+            <StuffEffectMultiplierArmor>0.53</StuffEffectMultiplierArmor>
             <Insulation_Cold>14.4</Insulation_Cold>
             <Insulation_Heat>3</Insulation_Heat>
-            <EquipDelay>3</EquipDelay>
+            <EquipDelay>10</EquipDelay>
             <MaxHitPoints>300</MaxHitPoints>
-            <WorkToMake>68000</WorkToMake>
-            <Mass>21</Mass>
+            <WorkToMake>60000</WorkToMake>
+            <Mass>30</Mass>
         </statBases>
         <thingSetMakerTags Inherit="False">
             <li>RewardStandardLowFreq</li>
@@ -343,7 +341,7 @@
         </stuffCategories>
         <costStuffCount>120</costStuffCount>
         <costList>
-            <Gold>200</Gold>
+            <Gold>20</Gold>
         </costList>
 
     </ThingDef>
@@ -360,7 +358,7 @@
         <statBases>
             <WorkToMake>6000</WorkToMake>
             <MaxHitPoints>150</MaxHitPoints>
-            <Mass>7</Mass>
+            <Mass>9</Mass>
             <StuffEffectMultiplierArmor>0.5</StuffEffectMultiplierArmor>
             <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
             <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
@@ -372,7 +370,7 @@
         </apparel>
     </ThingDef>
 
-    <ThingDef ParentName="Khajiit_HelmetBase">        <!--the inherited color is actually from metal, even if the dyeable part is cloth-->
+    <ThingDef ParentName="Khajiit_HelmetBase">
         <defName>ESCP_CaskaHelmet</defName>
         <label>Dragonguard headband</label>
         <description>A headband designed for the reformed Dragonguard of Elsweyr.</description>
@@ -393,19 +391,19 @@
         </thingCategories>
         <statBases>
             <StuffEffectMultiplierArmor>0.7</StuffEffectMultiplierArmor>
-            <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
-            <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
-            <EquipDelay>2.5</EquipDelay>
-            <WorkToMake>16000</WorkToMake>
+            <StuffEffectMultiplierInsulation_Cold>0.75</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>1.5</StuffEffectMultiplierInsulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+            <WorkToMake>5000</WorkToMake>
             <MaxHitPoints>180</MaxHitPoints>
-            <Mass>4</Mass>
+            <Mass>5</Mass>
         </statBases>
         <stuffCategories Inherit="false">
             <li>Fabric</li>
         </stuffCategories>
         <costStuffCount>60</costStuffCount>
         <costList>
-            <Gold>100</Gold>
+            <Gold>10</Gold>
         </costList>
         <apparel>
             <wornGraphicPath>Things/Apparel/caska_metal_helmet</wornGraphicPath>
@@ -433,7 +431,7 @@
         <statBases>
             <MaxHitPoints>120</MaxHitPoints>
             <WorkToMake>4200</WorkToMake>
-            <Mass>2</Mass>
+            <Mass>3</Mass>
             <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
             <StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
             <StuffEffectMultiplierInsulation_Heat>0.11</StuffEffectMultiplierInsulation_Heat>
