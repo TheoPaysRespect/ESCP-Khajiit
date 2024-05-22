@@ -7,19 +7,14 @@
         <statBases>
             <MoveSpeed>5.1</MoveSpeed>
             <MarketValue>1300</MarketValue>            <!--fancy war mount-->
-            <FilthRate>2</FilthRate>            <!--will shed-->
+            <FilthRate>5</FilthRate>            <!--will shed-->
             <ComfyTemperatureMin>-15</ComfyTemperatureMin>            <!--to offset clothing-->
-            <CarryingCapacity>140</CarryingCapacity>
-            <ArmorRating_Sharp>0.3</ArmorRating_Sharp>            <!--for resistance reasons-->
-            <ArmorRating_Blunt>0.7</ArmorRating_Blunt>
             <EatingSpeed>2</EatingSpeed>
-            <LeatherAmount>75</LeatherAmount>
-            <MeatAmount>140</MeatAmount>
         </statBases>
         <race>
-            <baseBodySize>1.8</baseBodySize>
-            <baseHealthScale>1.5</baseHealthScale>
-            <baseHungerRate>0.2</baseHungerRate>            <!--same as wargs-->
+            <baseBodySize>2.4</baseBodySize>
+            <baseHealthScale>1.8</baseHealthScale>
+            <baseHungerRate>0.8</baseHungerRate> 
             <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
             <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
             <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
