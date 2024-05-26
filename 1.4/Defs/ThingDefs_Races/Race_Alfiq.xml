@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+    to do:
+    -dessicated graphic from cat
+-->
+<Defs>
+    <AlienRace.ThingDef_AlienRace ParentName="ESCP_Khajiit_Quadruped">
+        <defName>ESCP_AlfiqRace</defName>
+        <label>Alfiq</label>
+        <description>A feline race originating from Elsweyr and one of the oldest races of Tamriel. Considered a beast race, they are often considered lesser by both man and mer. Despite this, legends say they may share a common ancestor in the Aldmer. \n\nKhajiit are known for being nimble, especially with their fingers. Spiritually connected to the cycle of the moon, their shape varies drastically depending on when they are born. A Khajiiti family can have one parent be a towering great warbeast and the other a two legged tiger, while their child can be indistinguishable from a bosmer or a housecat.\n\n&lt;color=#E5E54C&gt;Khajiit Blood&lt;/color&gt;\nPsychic sensitivity is increased by 20%.\nSocial impact is decreased by 20%.\nFlammability is increased by 20%.\nComfort is increased by 20%.\nResistant to food poisoning.\n\n&lt;color=#E5E54C&gt;Alfiq Furstock&lt;/color&gt;\n5% slower move speed.\n100% increased melee dodge rate.\n30% less likely to spring a trap.\nBody stats same as a standard cat.\nInability to Construction, Cooking, Mining, Crafting.\nHalf of standard surgery success chance.\nAble to use claws and teeth in combat.</description>
+        <statBases>
+            <MoveSpeed>4.4</MoveSpeed>
+            <MarketValue>1000</MarketValue>            <!--fancy cat-->
+            <MeleeDodgeChance>2</MeleeDodgeChance>            <!--to offset lack of armor-->
+            <PawnTrapSpringChance>0.7</PawnTrapSpringChance>
+            <ComfyTemperatureMin>-15</ComfyTemperatureMin>            <!--to offset clothing-->
+            <LeatherAmount>40</LeatherAmount>
+        </statBases>
+        <race>
+            <baseBodySize>0.32</baseBodySize>
+            <baseHealthScale>0.5</baseHealthScale>
+            <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+            <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+            <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+
+            <lifeStageAges Inherit="false">
+                <li>
+                    <def>HumanlikeBaby</def>
+                    <minAge>0</minAge>
+                </li>
+                <li>
+                    <def>HumanlikeChild</def>
+                    <minAge>3</minAge>
+                    <soundWounded>Pawn_Cat_Injured</soundWounded>
+                    <soundDeath>Pawn_Cat_Death</soundDeath>
+                    <soundCall>Pawn_Cat_Call</soundCall>
+                    <soundAngry>Pawn_Cat_Angry</soundAngry>
+                </li>
+                <!--<li MayRequire="Ludeon.RimWorld.Biotech">
+                    <def>HumanlikePreTeenager</def>
+                    <minAge>3</minAge>
+                    <soundWounded>Pawn_Cat_Injured</soundWounded>
+                    <soundDeath>Pawn_Cat_Death</soundDeath>
+                    <soundCall>Pawn_Cat_Call</soundCall>
+                    <soundAngry>Pawn_Cat_Angry</soundAngry>
+                </li>-->
+                <!--<li>
+                    <def>HumanlikeTeenager</def>
+                    <minAge>13</minAge>
+                    <soundWounded>Pawn_Cat_Injured</soundWounded>
+                    <soundDeath>Pawn_Cat_Death</soundDeath>
+                    <soundCall>Pawn_Cat_Call</soundCall>
+                    <soundAngry>Pawn_Cat_Angry</soundAngry>
+                </li>-->
+                <li>
+                    <def>HumanlikeAdult</def>
+                    <minAge>13</minAge>
+                    <soundWounded>Pawn_Cat_Injured</soundWounded>
+                    <soundDeath>Pawn_Cat_Death</soundDeath>
+                    <soundCall>Pawn_Cat_Call</soundCall>
+                    <soundAngry>Pawn_Cat_Angry</soundAngry>
+                </li>
+            </lifeStageAges>
+        </race>
+        <alienRace>
+            <raceRestriction>
+                <traitList>
+                    <li>Khajiit_AlfiqTrait</li>
+                </traitList>
+                <apparelList>
+                    <li>ESCP_AlfiqLeatherArmor</li>
+                    <li>ESCP_AlfiqClothArmor</li>
+                    <li MayRequire="ludeon.rimworld.royalty">ESCP_AlfiqRoyalArmor</li>
+                </apparelList>
+                <whiteApparelList Inherit ="false">
+                    <!--
+                    general ruleset:
+                    - hats that aren't armor, shoes, necklaces, belts = ok
+                    - backpacks, body, rings, gloves = not ok
+                    - move into patches per dlc/mod
+                    -->
+
+                    <!--core-->
+                    <li>Apparel_Tuque</li>
+                    <li>Apparel_CowboyHat</li>
+                    <li>Apparel_BowlerHat</li>
+                    <li>Apparel_TribalHeaddress</li>
+                    <li>Apparel_WarMask</li>                    <!--slight side rotation-->
+                    <li>Apparel_WarVeil</li>                    <!--slight side rotation-->
+                    <li>Apparel_SimpleHelmet</li>
+                    <li>Apparel_AdvancedHelmet</li>
+                    <li>Apparel_PsychicFoilHelmet</li>                    <!--looks weird with ears-->
+                    <li>Apparel_HatHood</li>
+
+                    <!--colovian fur helm-->
+                    <li MayRequire="sirmashedpotato.morrowrim.colovianfurhelm">MorrowRim_ColovianFurHelm</li>
+                </whiteApparelList>
+            </raceRestriction>
+            <generalSettings>
+                <forcedRaceTraitEntries>
+                    <li>
+                        <defName>Khajiit_AlfiqTrait</defName>
+                    </li>
+                </forcedRaceTraitEntries>
+                <ageStatOverrides>
+                    <ArrestSuccessChance>                        <!--alfiq aren't intimidating-->
+                        <useBiologicalYears>true</useBiologicalYears>
+                        <curve>
+                            <points>
+                                <li>(3, 0.01)</li>
+                                <li>(13, 0.4)</li>
+                                <li>(18, 0.5)</li>
+                            </points>
+                        </curve>
+                    </ArrestSuccessChance>
+                </ageStatOverrides>
+                <alienPartGenerator>
+                    <headTypes Inherit="false">
+                        <li>Male_AverageNormal</li>
+                        <li>Male_AverageWide</li>
+                        <li>Female_AverageNormal</li>
+                        <li>Female_AverageWide</li>
+                    </headTypes>
+                    <bodyTypes Inherit="false">
+                        <li>Thin</li>
+                        <li>Fat</li>
+                        <li MayRequire="Ludeon.RimWorld.Biotech">Baby</li>
+                        <li MayRequire="Ludeon.RimWorld.Biotech">Child</li>
+                    </bodyTypes>
+                    <customDrawSize>(0.6)</customDrawSize>
+                    <customHeadDrawSize>(0.45)</customHeadDrawSize>
+                    <customPortraitDrawSize>(0.7)</customPortraitDrawSize>
+                    <customPortraitHeadDrawSize>(0.55)</customPortraitHeadDrawSize>
+                    <headOffset>(0.0,-0.45)</headOffset>
+                    <headOffsetSpecific>
+                        <north>
+                            <offset>(0.0, 0.334)</offset>
+                            <bodyTypes>
+                                <Child MayRequire="ludeon.rimworld.biotech">(0,-0.08038585)</Child>
+                                <Baby MayRequire="ludeon.rimworld.biotech">(0,-0.12)</Baby>
+                            </bodyTypes>
+                        </north>
+                        <east>
+                            <offset>(0.17, 0.168)</offset>
+                            <bodyTypes>
+                                <Child MayRequire="ludeon.rimworld.biotech">(-0,-0.06109325)</Child>
+                                <Baby MayRequire="ludeon.rimworld.biotech">(-0.1,0.01)</Baby>
+                            </bodyTypes>
+                        </east>
+                        <west>
+                            <offset>(-0.17, 0.168)</offset>
+                            <bodyTypes>
+                                <Child MayRequire="ludeon.rimworld.biotech">(0,-0.06109325)</Child>
+                                <Baby MayRequire="ludeon.rimworld.biotech">(0.1,0.01)</Baby>
+                            </bodyTypes>
+                        </west>
+                        <south>
+                            <bodyTypes>
+                                <Child MayRequire="ludeon.rimworld.biotech">(0,0)</Child>
+                                <Baby MayRequire="ludeon.rimworld.biotech">(0,0.132)</Baby>
+                            </bodyTypes>
+                        </south>
+                    </headOffsetSpecific>
+                    <bodyAddons>
+                        <li>
+                            <path>Things/Pawn/Humanlike/ESCP_Khajiit/Ears/Alfiq/EarRight</path>
+                            <colorChannel>skin</colorChannel>
+                            <bodyPart>Ear</bodyPart>
+                            <bodyPartLabel>right ear</bodyPartLabel>
+                            <drawnInBed>true</drawnInBed>
+                            <inFrontOfBody>true</inFrontOfBody>
+                            <alignWithHead>true</alignWithHead>
+                            <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                            <drawnDesiccated>false</drawnDesiccated>
+                            <offsets>
+                                <north>
+                                    <offset>(-0.003215434,-0.009646302)</offset>
+                                    <bodyTypes>
+                                        <Child MayRequire="ludeon.rimworld.biotech">(-0.01,0.01607717)</Child>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(-0.009646302,0.009646302)</Baby>
+                                    </bodyTypes>
+
+                                </north>
+                                <east>
+                                    <offset>(0.2,-0.03)</offset>
+                                    <bodyTypes>
+                                        <Child MayRequire="ludeon.rimworld.biotech">(-0.05,0)</Child>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(-0.08,0.009646302)</Baby>
+                                    </bodyTypes>
+
+                                </east>
+                                <south>
+                                    <offset>(0.01607717,-0.003215434)</offset>
+                                    <bodyTypes>
+                                        <Child MayRequire="ludeon.rimworld.biotech">(-0.009646302,0.003215434)</Child>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(-0.01607717,0.003215434)</Baby>
+                                    </bodyTypes>
+
+                                </south>
+                            </offsets>
+                        </li>
+                        <li>
+                            <path>Things/Pawn/Humanlike/ESCP_Khajiit/Ears/Alfiq/EarLeft</path>
+                            <colorChannel>skin</colorChannel>
+                            <bodyPart>Ear</bodyPart>
+                            <bodyPartLabel>left ear</bodyPartLabel>
+                            <drawnInBed>true</drawnInBed>
+                            <inFrontOfBody>true</inFrontOfBody>
+                            <alignWithHead>true</alignWithHead>
+                            <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                            <drawnDesiccated>false</drawnDesiccated>
+                            <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
+                            <offsets>
+                                <north>
+                                    <offset>(-0.003215434,-0.009646302)</offset>
+                                    <bodyTypes>
+                                        <Child MayRequire="ludeon.rimworld.biotech">(0.01,0.01607717)</Child>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(0.009646302,0.009646302)</Baby>
+                                    </bodyTypes>
+
+                                </north>
+                                <east>
+                                    <offset>(0.2,-0.03)</offset>
+                                    <bodyTypes>
+                                        <Child MayRequire="ludeon.rimworld.biotech">(-0.05,0)</Child>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(-0.08,0.009646302)</Baby>
+                                    </bodyTypes>
+
+                                </east>
+                                <south>
+                                    <offset>(-0.01607717,-0.003215434)</offset>
+                                    <bodyTypes>
+                                        <Child MayRequire="ludeon.rimworld.biotech">(0.009646302,0.003215434)</Child>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(0.01607717,0.003215434)</Baby>
+                                    </bodyTypes>
+
+                                </south>
+                            </offsets>
+                        </li>
+                        <li>
+                            <path>Things/Pawn/Humanlike/ESCP_Khajiit/Tails/Alfiq/Tail</path>
+                            <colorChannel>skin</colorChannel>
+                            <bodyPart>Tail</bodyPart>
+                            <bodyPartLabel>tail</bodyPartLabel>
+                            <drawnInBed>false</drawnInBed>
+                            <inFrontOfBody>false</inFrontOfBody>
+                            <drawnDesiccated>false</drawnDesiccated>
+                            <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                            <offsets>
+                                <north>
+                                    <bodyTypes>
+                                        <Child MayRequire="ludeon.rimworld.biotech">(0,0)</Child>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
+                                    </bodyTypes>
+                                </north>
+                                <east>
+                                    <offset>(0.03536978, 0)</offset>
+                                    <bodyTypes>
+                                        <Child MayRequire="ludeon.rimworld.biotech">(-0.003215434,-0.009646302)</Child>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(-0.05466238,-0.1)</Baby>
+                                    </bodyTypes>
+                                </east>
+                                <west>
+                                    <offset>(0.03536978, 0)</offset>
+                                    <bodyTypes>
+                                        <Child MayRequire="ludeon.rimworld.biotech">(-0.003215434,-0.009646302)</Child>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(-0.05466238,-0.1)</Baby>
+                                    </bodyTypes>
+                                </west>
+                                <south>
+                                    <bodyTypes>
+                                        <Child MayRequire="ludeon.rimworld.biotech">(0,0)</Child>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(0,-0.1)</Baby>
+                                    </bodyTypes>
+                                </south>
+                            </offsets>
+                        </li>
+                        <li>
+                            <path>Things/Pawn/Humanlike/ESCP_Khajiit/Heads/Alfiq/Masks/FacePattern_Male_Alfiq_Thin</path>
+                            <colorChannel>pattern</colorChannel>
+                            <bodyPart>Head</bodyPart>
+                            <shaderType>Transparent</shaderType>
+                            <inFrontOfBody>true</inFrontOfBody>
+                            <alignWithHead>true</alignWithHead>
+                            <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                            <drawnInBed>true</drawnInBed>
+                            <drawnDesiccated>false</drawnDesiccated>
+                            <offsets>
+                                <east>
+                                    <layerOffset>-0.275</layerOffset>
+                                </east>
+                                <south>
+                                    <layerOffset>-0.2733119</layerOffset>
+                                </south>
+                                <north>
+                                    <layerOffset>-0.322</layerOffset>
+                                </north>
+                            </offsets>
+                        </li>
+                        <li>
+                            <path>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Alfiq/Masks/BodyPattern</path>
+                            <colorChannel>pattern</colorChannel>
+                            <bodyPart>Torso</bodyPart>
+                            <shaderType>Transparent</shaderType>
+                            <inFrontOfBody>true</inFrontOfBody>
+                            <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                            <drawnInBed>false</drawnInBed>
+                            <drawnDesiccated>false</drawnDesiccated>
+                            <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
+                            <ageGraphics>
+                                <HumanlikeBaby>
+                                    <path>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Base/Masks/BodyPattern_Child</path>
+                                </HumanlikeBaby>
+                                <HumanlikeChild>
+                                    <path>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Alfiq/Masks/BodyPattern_Alfiq_Thin</path>
+                                </HumanlikeChild>
+                                <HumanlikeAdult>
+                                    <bodytypeGraphics>
+                                        <Thin>
+                                            <path>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Alfiq/Masks/BodyPattern_Alfiq_Thin</path>
+                                        </Thin>
+                                        <Fat>
+                                            <path>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Alfiq/Masks/BodyPattern_Alfiq_Fat</path>
+                                        </Fat>
+                                    </bodytypeGraphics>
+                                </HumanlikeAdult>
+                            </ageGraphics>
+                            <offsets>
+                                <east>
+                                    <layerOffset>-0.29</layerOffset>
+
+                                </east>
+                                <south>
+                                    <layerOffset>-0.289</layerOffset>
+                                </south>
+                                <north>
+                                    <layerOffset>-0.31</layerOffset>
+                                </north>
+                            </offsets>
+                        </li>
+                    </bodyAddons>
+                    <anchorReplacements>
+                        <li>
+                            <originalTag>LeftEye</originalTag>
+                            <replacement>
+                                <rotation>West</rotation>
+                                <tag>LeftEye</tag>
+                                <canMirror>false</canMirror>
+
+                                <range>0</range>
+                                <layer>Head</layer>
+                            </replacement>
+                            <offsets>
+                                <west>
+                                    <offset>(-0.072,0.25)</offset>
+                                    <bodyTypes>
+                                        <Child MayRequire="ludeon.rimworld.biotech">(0,0)</Child>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
+                                    </bodyTypes>
+                                </west>
+                            </offsets>
+                        </li>
+                        <li>
+                            <originalTag>RightEye</originalTag>
+                            <replacement>
+                                <rotation>East</rotation>
+                                <tag>RightEye</tag>
+                                <canMirror>false</canMirror>
+
+                                <range>0</range>
+                                <layer>Head</layer>
+                            </replacement>
+                            <offsets>
+                                <east>
+                                    <offset>(0.072,0.25)</offset>
+                                    <bodyTypes>
+                                        <Child MayRequire="ludeon.rimworld.biotech">(0,0)</Child>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
+                                    </bodyTypes>
+                                </east>
+                            </offsets>
+                        </li>
+                        <li>
+                            <originalTag>LeftEye</originalTag>
+                            <replacement>
+                                <rotation>South</rotation>
+                                <tag>LeftEye</tag>
+                                <canMirror>false</canMirror>
+
+                                <range>0</range>
+                                <layer>Head</layer>
+                            </replacement>
+                            <offsets>
+                                <south>
+                                    <offset>(-0.08,0.25)</offset>
+                                    <bodyTypes>
+                                        <Child MayRequire="ludeon.rimworld.biotech">(0,0)</Child>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
+                                    </bodyTypes>
+                                </south>
+                            </offsets>
+                        </li>
+                        <li>
+                            <originalTag>RightEye</originalTag>
+                            <replacement>
+                                <rotation>South</rotation>
+                                <tag>RightEye</tag>
+                                <canMirror>false</canMirror>
+
+                                <range>0</range>
+                                <layer>Head</layer>
+                            </replacement>
+                            <offsets>
+                                <south>
+                                    <offset>(0.08,0.25)</offset>
+                                    <bodyTypes>
+                                        <Child MayRequire="ludeon.rimworld.biotech">(0,0)</Child>
+                                        <Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
+                                    </bodyTypes>
+                                </south>
+                            </offsets>
+                        </li>
+                    </anchorReplacements>
+                </alienPartGenerator>
+                <maxDamageForSocialfight>4</maxDamageForSocialfight>
+                <notXenophobistTowards>
+                    <li>ESCP_OhmesRace</li>
+                    <li>ESCP_OhmesRahtRace</li>
+                    <li>ESCP_SencheRace</li>
+                    <li>ESCP_KhajiitRace</li>
+                </notXenophobistTowards>
+            </generalSettings>
+            <graphicPaths>
+                <head>Things/Pawn/Humanlike/ESCP_Khajiit/Heads/Alfiq/</head>
+                <body>
+                    <path>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Alfiq/</path>
+                    <ageGraphics>
+                        <HumanlikeBaby>
+                            <path>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Alfiq/Naked_Baby</path>
+                        </HumanlikeBaby>
+                        <HumanlikeChild>
+                            <path>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Alfiq/Naked_Child</path>
+                        </HumanlikeChild>
+                        <HumanlikeAdult>
+                            <bodytypeGraphics>
+                                <Thin>
+                                    <path>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Alfiq/Naked_Thin</path>
+                                </Thin>
+                                <Fat>
+                                    <path>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Alfiq/Naked_Fat</path>
+                                </Fat>
+                            </bodytypeGraphics>
+                        </HumanlikeAdult>
+                    </ageGraphics>
+                </body>
+                <skeleton>Things/Pawn/Humanlike/ESCP_Khajiit/Skeletons/Alfiq/Dessicated</skeleton>
+                <skull>Things/Pawn/Humanlike/ESCP_Khajiit/Skeletons/Alfiq/Skull</skull>
+            </graphicPaths>
+        </alienRace>
+        <tools>
+            <li>
+                <label>left claw</label>
+                <capacities>
+                    <li>Scratch</li>
+                </capacities>
+                <power>6</power>
+                <cooldownTime>1.5</cooldownTime>
+                <linkedBodyPartsGroup>LeftHandClawsGroup</linkedBodyPartsGroup>
+                <surpriseAttack>
+                    <extraMeleeDamages>
+                        <li>
+                            <def>Stun</def>
+                            <amount>14</amount>
+                        </li>
+                    </extraMeleeDamages>
+                </surpriseAttack>
+            </li>
+            <li>
+                <label>right claw</label>
+                <capacities>
+                    <li>Scratch</li>
+                </capacities>
+                <power>6</power>
+                <cooldownTime>1.5</cooldownTime>
+                <linkedBodyPartsGroup>RightHandClawsGroup</linkedBodyPartsGroup>
+                <surpriseAttack>
+                    <extraMeleeDamages>
+                        <li>
+                            <def>Stun</def>
+                            <amount>14</amount>
+                        </li>
+                    </extraMeleeDamages>
+                </surpriseAttack>
+            </li>
+            <li>
+                <capacities>
+                    <li>Bite</li>
+                </capacities>
+                <power>7</power>
+                <cooldownTime>2</cooldownTime>
+                <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+                <chanceFactor>0.7</chanceFactor>
+                <surpriseAttack>
+                    <extraMeleeDamages>
+                        <li>
+                            <def>Stun</def>
+                            <amount>14</amount>
+                        </li>
+                    </extraMeleeDamages>
+                </surpriseAttack>
+            </li>
+            <li>
+                <label>head</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>3</power>
+                <cooldownTime>2</cooldownTime>
+                <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+                <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+                <chanceFactor>0.2</chanceFactor>
+            </li>
+        </tools>
+    </AlienRace.ThingDef_AlienRace>
+</Defs>

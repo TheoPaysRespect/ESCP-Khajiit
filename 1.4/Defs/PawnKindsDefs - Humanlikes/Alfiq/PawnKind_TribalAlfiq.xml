@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <PawnKindDef Name="ESCP_Khajiit_TribalAlfiq" ParentName="ESCP_Khajiit_TribalBase" Abstract="true">
+        <race Inherit="false">ESCP_AlfiqRace</race>
+        <weaponMoney>0~0</weaponMoney>
+        <combatPower>20</combatPower>
+        <weaponTags Inherit="false">
+            <!--<li>NeolithicMeleeBasic</li>-->
+        </weaponTags>
+        <initialWillRange>10~13</initialWillRange>
+        <initialResistanceRange>25~35</initialResistanceRange>
+        <modExtensions>
+            <li MayRequire="owlchemist.giddyup" Class="GiddyUp.CustomMounts">
+                <mountChance>0</mountChance>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_Khajiit_TribalAlfiq">
+        <defName>ESCP_Alfiq_Tribal_Penitent</defName>
+        <label>Alfiq penitent</label>
+        <invNutrition>0</invNutrition>
+        <itemQuality>Poor</itemQuality>
+        <gearHealthRange>0.2~1.1</gearHealthRange>
+        <apparelMoney>50~100</apparelMoney>
+        <modExtensions>
+            <li MayRequire="owlchemist.giddyup" Class="GiddyUp.CustomMounts">
+                <mountChance>0</mountChance>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_Khajiit_TribalAlfiq">
+        <defName>ESCP_Alfiq_Tribal_Trader</defName>
+        <label>trader</label>
+        <trader>true</trader>
+        <modExtensions>
+            <li MayRequire="owlchemist.giddyup" Class="GiddyUp.CustomMounts">
+                <mountChance>0</mountChance>
+            </li>
+        </modExtensions>
+        <apparelRequired Inherit="False">
+            <li>Apparel_TribalHeaddress</li>
+        </apparelRequired>
+        <backstoryFiltersOverride Inherit="False">
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_CityKhajiitBackstory_Childhood</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_TraderBackstory</li>
+                </categoriesAdulthood>
+                <excludeAdulthood>
+                    <li>ESCP_KhajiitBackstory_Exclusion</li>
+                    <li>ESCP_GenericBackstory_AdulthoodSkoomaAddict</li>
+                </excludeAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <gearHealthRange>0.5~1.8</gearHealthRange>
+        <apparelMoney>200~300</apparelMoney>
+        <disallowedTraits>
+            <li>Brawler</li>
+        </disallowedTraits>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+    </PawnKindDef>
+</Defs>

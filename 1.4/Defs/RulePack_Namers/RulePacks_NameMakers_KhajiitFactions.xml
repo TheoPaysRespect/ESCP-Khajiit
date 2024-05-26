@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<RulePackDef>
+		<defName>ESCP_Khajiit_NamerSettlement</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name->[a] [b]</li>
+			</rulesStrings>
+			<rulesFiles>
+				<li>a->ESCP_KhajiitNames/KhajiitFactionA</li>
+				<li>b->ESCP_KhajiitNames/KhajiitFactionB</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
+	<RulePackDef>
+		<defName>ESCP_Khajiit_NamerFaction</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name->The [a] kingdom of [god]</li>
+				<li>r_name->The [Color] kingdom of Anequina</li>
+				<li>r_name->The [Color] kingdom of Pellitine</li>
+				<li>r_name->The [Color] [a] Confederacy</li>
+			</rulesStrings>
+			<rulesFiles>
+				<li>a->ESCP_KhajiitNames/KhajiitFactionA</li>
+				<li>god->ESCP_KhajiitNames/KhajiitGods</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
+	<RulePackDef>
+		<defName>ESCP_Khajiit_NamerTribe</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name-> [Color] [a] [c]</li>
+				<li>r_name-> [a] Outwalkers</li>
+				<li>r_name-> Pride of [c]</li>
+			</rulesStrings>
+			<rulesFiles>
+				<li>a->ESCP_KhajiitNames/KhajiitFactionA</li>
+				<li>c->ESCP_KhajiitNames/KhajiitFactionC</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
+	<RulePackDef>
+		<defName>ESCP_Khajiit_NamerTraders</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name-> The company of the [a] </li>
+				<li>r_name-> Bandaari peddlers of [god]</li>
+				<li>r_name-> [family] caravan</li>
+			</rulesStrings>
+			<rulesFiles>
+				<li>a->ESCP_KhajiitNames/KhajiitFactionA</li>
+				<li>family->ESCP_KhajiitNames/KhajiitFamily</li>
+				<li>god->ESCP_KhajiitNames/KhajiitGods</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
+</Defs>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<AlienRace.AlienBackstoryDef Name="ESCP_Khajiit_ChildhoodBase" Abstract="True" >
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>ESCP_KhajiitBackstory_Childhood</li>
+			<li>ESCP_KhajiitBackstory_Exclusion</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef Name="ESCP_Khajiit_AdulthoodBase" Abstract="True" >
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>ESCP_KhajiitBackstory_Adulthood</li>
+			<li>ESCP_KhajiitBackstory_Exclusion</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+	<!--Childhood-->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Khajiit_ChildhoodBase">
+		<defName>ESCP_Maiq_Childhood</defName>
+		<title>child of M'aiq</title>
+		<titleShort>liar</titleShort>
+		<baseDesc>[PAWN_nameDef] father was also called [PAWN_nameDef]. As was [PAWN_nameDef] father's father. At least, that's what their father said.</baseDesc>
+		<skillGains>
+			<li>
+				<key>Social</key>
+				<value>10</value>
+			</li>
+		</skillGains>
+		<shuffleable>false</shuffleable>
+		<linkedBackstory>ESCP_Maiq_Adulthood</linkedBackstory>
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Khajiit_ChildhoodBase">
+		<defName>ESCP_Jasper_Childhood</defName>
+		<title>child racer</title>
+		<titleShort>racer</titleShort>
+		<baseDesc>From the moment they could walk, [PAWN_nameDef]'s parents pushed them to participate in races. They would always lose to the senche, but kept trying anyhow. Eventually they got injured during a race and their knees were never the same. </baseDesc>
+		<skillGains>
+			<li>
+				<key>Animals</key>
+				<value>2</value>
+			</li>
+		</skillGains>
+		<forcedTraitsChance>
+			<li MayRequire="ludeon.rimworld.biotech">
+				<defName>Delicate</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraitsChance>
+		<shuffleable>false</shuffleable>
+		<linkedBackstory>ESCP_Jasper_Adulthood</linkedBackstory>
+	</AlienRace.AlienBackstoryDef>
+	<!--Adulthood-->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Khajiit_AdulthoodBase">
+		<defName>ESCP_Maiq_Adulthood</defName>
+		<title>wandering liar</title>
+		<titleShort>liar</titleShort>
+		<maleCommonality>1</maleCommonality>
+		<femaleCommonality>0</femaleCommonality>
+		<baseDesc>"[PAWN_nameDef] knows much, tells some. [PAWN_nameDef] knows many things others do not. [PAWN_nameDef] used to travel alone, but they have grown accustomed to joining their friends."</baseDesc>
+		<skillGains>
+			<li>
+				<key>Social</key>
+				<value>5</value>
+			</li>
+		</skillGains>
+		<forcedItems> <!--couldn't get him to wear one-->
+  			<MorrowRim_ColovianFurHelm MayRequire="sirmashedpotato.morrowrim.colovianfurhelm">1</MorrowRim_ColovianFurHelm>
+		</forcedItems>
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Khajiit_AdulthoodBase">
+		<defName>ESCP_Jasper_Adulthood</defName>
+		<title>bone collector</title>
+		<titleShort>collector</titleShort>
+		<maleCommonality>1</maleCommonality>
+		<femaleCommonality>0</femaleCommonality>
+		<baseDesc>With their own bones aching, [PAWN_nameDef] sought comfort in the bones of others. They would scavenge for freshly deceased carcasses, cleaning out the bones and putting them on shelves, proud of their collection. Sometimes their pet cat would eat one, much to their dismay. </baseDesc>
+		<skillGains>
+			<li>
+				<key>Medicine</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Artistic</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<forcedTraitsChance>
+			<li MayRequire="ludeon.rimworld.biotech">
+				<defName>Delicate</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraitsChance>
+		<forcedItems>
+			<DankPyon_Bone MayRequire="dankpyon.medieval.overhaul">10</DankPyon_Bone>
+		</forcedItems>
+	</AlienRace.AlienBackstoryDef>
+</Defs>
