@@ -81,6 +81,34 @@
                 <maxDamageForSocialfight>6</maxDamageForSocialfight>
                 <reproduction>
                     <hybridSpecific>
+                        
+                        <li>
+                            <!--final values 64, 6, 6, 12, 12-->
+                            <partnerRace>Human</partnerRace>
+                            <probability>64</probability>
+                            <childKindDef>ESCP_KhajiitPlayerPawnKind_Tribal</childKindDef>
+                        </li>
+                        <li>
+                            <partnerRace>Human</partnerRace>
+                            <probability>6</probability>
+                            <childKindDef>ESCP_OhmesPlayerPawnKind_Tribal</childKindDef>
+                        </li>
+                        <li>
+                            <partnerRace>Human</partnerRace>
+                            <probability>6</probability>
+                            <childKindDef>ESCP_OhmesRahtPlayerPawnKind_Tribal</childKindDef>
+                        </li>
+                        <li>
+                            <partnerRace>Human</partnerRace>
+                            <probability>12</probability>
+                            <childKindDef>ESCP_AlfiqPlayerPawnKind_Tribal</childKindDef>
+                        </li>
+                        <li>
+                            <partnerRace>Human</partnerRace>
+                            <probability>12</probability>
+                            <childKindDef>ESCP_SenchePlayerPawnKind_Tribal</childKindDef>
+                        </li>
+                        
                         <li>
                             <!--final values 64, 6, 6, 12, 12-->
                             <partnerRace>ESCP_KhajiitRace</partnerRace>
