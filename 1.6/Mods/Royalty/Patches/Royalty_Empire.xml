@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/FactionDef[defName="Empire"]/permanentEnemyToEveryoneExcept</xpath>
+		<value>
+			<li>ESCP_KhajiitPlayerFaction_Medieval</li>
+			<li>ESCP_KhajiitPlayerFaction_Tribal</li>
+			<li>ESCP_KhajiitPlayerFaction_Bandaari</li>
+			<li>ESCP_KhajiitNonPlayerFaction_Bandaari</li>
+		</value>
+	</Operation>
+</Patch>

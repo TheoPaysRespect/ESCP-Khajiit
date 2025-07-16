@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<IdeoIconDef>
+		<defName>ESCP_KhajiitA</defName>
+		<iconPath>ESCP_Khajiit_A</iconPath>
+	</IdeoIconDef>
+
+	<IdeoIconDef>
+		<defName>ESCP_KhajiitB</defName>
+		<iconPath>Ideology/ESCP_Khajiit_B</iconPath>
+	</IdeoIconDef>
+
+	<IdeoIconDef>
+		<defName>ESCP_KhajiitC</defName>
+		<iconPath>Ideology/ESCP_Khajiit_C</iconPath>
+	</IdeoIconDef>
+
+	<IdeoIconDef>
+		<defName>ESCP_KhajiitD</defName>
+		<iconPath>Ideology/ESCP_Khajiit_D</iconPath>
+	</IdeoIconDef>
+
+	<IdeoIconDef>
+		<defName>ESCP_KhajiitE</defName>
+		<iconPath>Ideology/ESCP_Khajiit_E</iconPath>
+	</IdeoIconDef>
+
+	<IdeoIconDef>
+		<defName>ESCP_KhajiitF</defName>
+		<iconPath>Ideology/ESCP_Khajiit_f</iconPath>
+	</IdeoIconDef>	
+
+	<IdeoIconDef>
+		<defName>ESCP_KhajiitG</defName>
+		<iconPath>Ideology/rajhin</iconPath>
+	</IdeoIconDef>
+</Defs>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!--__________claws___________-->
+
+    <BodyPartGroupDef>
+        <defName>RightHandClawsGroup</defName>
+        <label>right hand claws</label>
+        <listOrder>80</listOrder>
+    </BodyPartGroupDef>
+
+
+    <BodyPartGroupDef>
+        <defName>LeftHandClawsGroup</defName>
+        <label>left hand claws</label>
+        <listOrder>80</listOrder>
+    </BodyPartGroupDef>
+
+    <BodyPartDef>
+        <defName>RightHandClaws</defName>
+        <label>right claws</label>
+        <description>Sharp claws hidden underneatch soft paws.</description>
+        <hitPoints>10</hitPoints>
+        <skinCovered>false</skinCovered>
+        <canSuggestAmputation>true</canSuggestAmputation>
+    </BodyPartDef>
+
+    <BodyPartDef>
+        <defName>LeftHandClaws</defName>
+        <label>left claws</label>
+        <description>Sharp claws hidden underneatch soft paws.</description>
+        <hitPoints>10</hitPoints>
+        <skinCovered>false</skinCovered>
+        <canSuggestAmputation>true</canSuggestAmputation>
+    </BodyPartDef>
+
+
+    <!--wooden claws-->
+    <RecipeDef ParentName="SurgeryInstallWoodenPartBase">
+        <defName>InstallWoodenClaws</defName>
+        <label>install wooden claws</label>
+        <description>Installs wooden claws.</description>
+        <descriptionHyperlinks>
+            <ThingDef>WoodLog</ThingDef>
+        </descriptionHyperlinks>
+        <jobString>Installing wooden claws.</jobString>
+        <recipeUsers>
+            <li>ESCP_AlfiqRace</li>
+            <li>ESCP_SencheRace</li>
+            <li>ESCP_KhajiitRace</li>
+            <li>ESCP_OhmesRahtRace</li>
+        </recipeUsers>
+        <appliedOnFixedBodyParts>
+            <li>RightHandClaws</li>
+            <li>LeftHandClaws</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>WoodenClaws</addsHediff>
+        <uiIconThing>WoodLog</uiIconThing>
+    </RecipeDef>
+
+    <HediffDef ParentName="AddedBodyPartBase">
+        <defName>WoodenClaws</defName>
+        <label>wooden claws</label>
+        <labelNoun>a set of wooden claws</labelNoun>
+        <description>Installed wooden claws, serve no purpose other than looks.</description>
+        <priceImpact>false</priceImpact>
+        <addedPartProps>
+            <solid>true</solid>
+            <partEfficiency>0.1</partEfficiency>
+        </addedPartProps>
+        <spawnThingOnRemoved>WoodLog</spawnThingOnRemoved>
+    </HediffDef>
+
+</Defs>
