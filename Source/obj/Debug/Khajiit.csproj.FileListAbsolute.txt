@@ -1,0 +1,5 @@
+C:\OwnFolders\Modding\Rimworld_Assemblies\Khajiit\obj\Debug\Khajiit.csproj.AssemblyReference.cache
+C:\OwnFolders\Modding\Rimworld_Assemblies\Khajiit\obj\Debug\Khajiit.csproj.CoreCompileInputs.cache
+C:\OwnFolders\Modding\Rimworld_Assemblies\Khajiit\Khajiit.dll
+C:\Users\magen\OneDrive\Documents\GitHub\ESCP-Khajiit\1.5\Assemblies\ESCP_Khajiit.dll
+C:\OwnFolders\Modding\Rimworld_Assemblies\Khajiit\obj\Debug\ESCP_Khajiit.dll
