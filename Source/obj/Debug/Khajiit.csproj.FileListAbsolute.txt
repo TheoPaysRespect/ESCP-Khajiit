@@ -3,3 +3,7 @@ C:\OwnFolders\Modding\Rimworld_Assemblies\Khajiit\obj\Debug\Khajiit.csproj.CoreC
 C:\OwnFolders\Modding\Rimworld_Assemblies\Khajiit\Khajiit.dll
 C:\Users\magen\OneDrive\Documents\GitHub\ESCP-Khajiit\1.5\Assemblies\ESCP_Khajiit.dll
 C:\OwnFolders\Modding\Rimworld_Assemblies\Khajiit\obj\Debug\ESCP_Khajiit.dll
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\ESCP-Khajiit\1.6\Assemblies\ESCP_Khajiit.dll
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\ESCP-Khajiit\Source\obj\Debug\Khajiit.csproj.AssemblyReference.cache
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\ESCP-Khajiit\Source\obj\Debug\Khajiit.csproj.CoreCompileInputs.cache
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\ESCP-Khajiit\Source\obj\Debug\ESCP_Khajiit.dll

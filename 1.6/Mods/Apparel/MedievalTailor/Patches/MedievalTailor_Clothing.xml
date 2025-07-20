@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="ESCP_AlfiqRace"]/alienRace/raceRestriction/whiteApparelList</xpath>
+        <value>
+            <!--medieval tailor-->
+            <li>AMT_Footwear_Peasantshoes</li>
+            <li>AMT_Footwear_Nobleshoes</li>
+            <li>AMT_Footwear_Townboots</li>
+            <li>AMT_Footwear_Travelboots</li>
+            <li>AMT_Footwear_Nobleboots</li>
+            <li>AMT_Footwear_Shackles</li>
+
+            <li>AMT_Headgear_Chaperon</li>
+            <li>Df_Headgear_MerchantHat</li>
+            <li>AMT_Headgear_Cap</li>
+            <li>AMT_Headgear_PiousCap</li>
+
+            <li>AMT_Headgear_Cowl</li>  
+                    
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="ESCP_SencheRace"]/alienRace/raceRestriction/whiteApparelList</xpath>
+        <value>
+            <!--medieval tailor-->
+            <li>AMT_Footwear_Peasantshoes</li>
+            <li>AMT_Footwear_Nobleshoes</li>
+            <li>AMT_Footwear_Townboots</li>
+            <li>AMT_Footwear_Travelboots</li>
+            <li>AMT_Footwear_Nobleboots</li>
+            <li>AMT_Footwear_Shackles</li>
+
+            <li>AMT_Headgear_Chaperon</li>
+            <li>Df_Headgear_MerchantHat</li>
+            <li>AMT_Headgear_Cap</li>
+            <li>AMT_Headgear_PiousCap</li>
+
+            <li>AMT_Headgear_Cowl</li>
+
+        </value>
+    </Operation>
+</Patch>

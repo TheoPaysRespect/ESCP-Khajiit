@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <ThingDef Name="Khajiit_RoyalBase" ParentName="ApparelMakeableBase" Abstract="true">
+        <recipeMaker>
+            <researchPrerequisite>NobleApparel</researchPrerequisite>
+        </recipeMaker>
+        <stuffCategories>
+            <li>Fabric</li>
+            <li>Leathery</li>
+        </stuffCategories>
+        <thingCategories>
+            <li>ApparelNoble</li>
+        </thingCategories>
+        <apparel>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Legs</li>
+            </bodyPartGroups>
+            <layers>
+                <li>OnSkin</li>
+            </layers>
+            <tags>
+                <li>Royal</li>
+                <li>RoyalTier2</li>
+                <li>RoyalTier5</li>
+                <li>RoyalTier6</li>
+                <li>RoyalTier7</li>
+            </tags>
+            <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+            <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+            <canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
+        </apparel>
+        <colorGenerator Class="ColorGenerator_StandardApparel" />
+    </ThingDef>
+
+    <ThingDef ParentName="Khajiit_RoyalBase">
+        <defName>ESCP_AlfiqRoyalArmor</defName>
+        <label>Alfiq royal garb</label>
+        <description>PLACEHOLDER</description>
+        <graphicData>
+            <texPath>Things/Apparel/ESCP_AlfiqRoyalArmor</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+            <drawSize>(0.6,0.6)</drawSize>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>100</MaxHitPoints>
+            <WorkToMake>10000</WorkToMake>
+            <Mass>0.25</Mass>
+            <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.80</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0.25</StuffEffectMultiplierInsulation_Heat>
+            <EquipDelay>2</EquipDelay>
+        </statBases>
+        <costStuffCount>32</costStuffCount>
+        <apparel>
+            <wornGraphicPath>Things/Apparel/ESCP_AlfiqRoyalArmor</wornGraphicPath>
+            <useWornGraphicMask>true</useWornGraphicMask>
+        </apparel>
+        <equippedStatOffsets>
+            <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.2</SlaveSuppressionOffset>
+            <SocialImpact>0.2</SocialImpact>
+        </equippedStatOffsets>
+    </ThingDef>
+
+    <ThingDef ParentName="Khajiit_RoyalBase">
+        <defName>ESCP_SencheRoyalArmor</defName>
+        <label>Senche royal garb</label>
+        <description>PLACEHOLDER</description>
+        <graphicData>
+            <texPath>Things/Apparel/ESCP_SencheRoyalArmor</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+            <drawSize>(1.4,1.4)</drawSize>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>100</MaxHitPoints>
+            <WorkToMake>30000</WorkToMake>
+            <Mass>3</Mass>
+            <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.80</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0.25</StuffEffectMultiplierInsulation_Heat>
+            <EquipDelay>2</EquipDelay>
+        </statBases>
+        <costStuffCount>180</costStuffCount>
+        <apparel>
+            <wornGraphicPath>Things/Apparel/ESCP_SencheRoyalArmor</wornGraphicPath>
+            <useWornGraphicMask>true</useWornGraphicMask>
+        </apparel>
+        <equippedStatOffsets>
+            <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.2</SlaveSuppressionOffset>
+            <SocialImpact>0.2</SocialImpact>
+        </equippedStatOffsets>
+    </ThingDef>
+</Defs>
