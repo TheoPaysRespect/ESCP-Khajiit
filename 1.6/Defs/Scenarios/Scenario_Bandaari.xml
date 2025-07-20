@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<ScenarioDef>
+	<ScenarioDef ParentName="ScenarioBase">
 		<defName>ESCP_BandaariScenario</defName>
 		<label>Bandaari Pedlars</label>
 		<description>Nirni's bounty is vast, and so are your people's pockets. You travel around the world, selling what you reap from whoever you come across.\n\nThis scenario is intended for a nomadic playthough.</description>
