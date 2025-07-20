@@ -49,6 +49,25 @@
 				<downloadUrl>https://github.com/TheoPaysRespect/ESCP-Race_Tools</downloadUrl>
 			</li>
 		</v1.5>
+		<v1.6>
+			<li>
+				<packageId>brrainz.harmony</packageId>
+				<displayName>Harmony</displayName>
+				<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+				<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+			</li>
+			<li>
+				<packageId>erdelf.HumanoidAlienRaces</packageId>
+				<displayName>Humanoid Alien Races 2.0 </displayName>
+				<steamWorkshopUrl>steam://url/CommunityFilePage/839005762</steamWorkshopUrl>
+			</li>
+			<li>
+				<packageId>ESCP.RaceTools</packageId>
+				<displayName>ESCP - Race Tools</displayName>
+				<steamWorkshopUrl>steam://url/CommunityFilePage/3244642507</steamWorkshopUrl>
+				<downloadUrl>https://github.com/TheoPaysRespect/ESCP-Race_Tools</downloadUrl>
+			</li>
+		</v1.6>
 	</modDependenciesByVersion>
 	<loadAfter>
 		<li>ESCP.RaceTools</li>
