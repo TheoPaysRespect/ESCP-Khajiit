@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!--sleeping spot-->
+    <ThingDef ParentName="SleepingSpotBase">
+        <defName>KhajiitSleepingSpot</defName>
+        <label>khajiit sleeping spot</label>
+        <description>Designates a spot on the ground where quadruped khajiit should sleep. Not comfortable.</description>
+        <scatterableOnMapGen>false</scatterableOnMapGen>
+        <graphicData>
+            <texPath>Things/Building/Furniture/Bed/SleepSpot</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(3,4)</drawSize>
+        </graphicData>
+        <size>(1,2)</size>
+    </ThingDef>
+
+    <ThingDef ParentName="SleepingSpotBase">
+        <defName>KhajiitDoubleSleepingSpot</defName>
+        <label>khajiit double sleeping spot</label>
+        <description>Designates a spot on the ground where two quadruped khajiit should sleep together. Not comfortable.</description>
+        <graphicData>
+            <texPath>Things/Building/Furniture/Bed/DoubleSleepSpot</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(4,4)</drawSize>
+        </graphicData>
+        <size>(2,2)</size>
+    </ThingDef>
+
+    <!--wooden bed-->
+
+    <ThingDef ParentName="BasicBedBase">
+        <defName>KhajiitSleepingBox</defName>
+        <label>khajiit bed</label>
+        <description>A cozy box stuffed with pillows, perfect for quadrupeds.</description>
+        <rotatable>true</rotatable>
+        <scatterableOnMapGen>false</scatterableOnMapGen>
+        <graphicData>
+            <texPath>Things/Building/Furniture/Bed/ESCP_Sload_Bed</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+            <drawSize>(1,1)</drawSize>
+            <damageData>
+                <rect>(0,0.05,1,1.95)</rect>
+            </damageData>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>140</MaxHitPoints>
+            <Beauty>1</Beauty>
+            <WorkToBuild>800</WorkToBuild>
+            <Mass>30</Mass>
+            <BedRestEffectiveness>1</BedRestEffectiveness>
+        </statBases>
+        <size>(1,1)</size>
+        <costStuffCount>45</costStuffCount>
+        <building>
+            <bed_showSleeperBody>True</bed_showSleeperBody>
+            <paintable>true</paintable>
+        </building>
+    </ThingDef>
+
+    <ThingDef ParentName="BasicBedBase">
+        <defName>KhajiitDoubleSleepingBox</defName>
+        <label>khajiit double sleeping box</label>
+        <description>A cozy box stuffed with pillows, perfect for two quadrupeds.</description>
+        <scatterableOnMapGen>false</scatterableOnMapGen>
+        <rotatable>true</rotatable>
+        <graphicData>
+            <texPath>Things/Building/Furniture/Bed/ESCP_Sload_Bed</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+            <drawSize>(2.05,2.05)</drawSize>
+            <damageData>
+                <rect>(0,0.05,2,1.95)</rect>
+            </damageData>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>200</MaxHitPoints>
+            <WorkToBuild>1500</WorkToBuild>
+            <Mass>50</Mass>
+            <Beauty>2</Beauty>
+            <BedRestEffectiveness>1</BedRestEffectiveness>
+        </statBases>
+        <size>(2,2)</size>
+        <costStuffCount>85</costStuffCount>
+        <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+        <leaveResourcesWhenKilled>True</leaveResourcesWhenKilled>
+        <building>
+            <bed_showSleeperBody>True</bed_showSleeperBody>
+            <paintable>true</paintable>
+        </building>
+    </ThingDef>
+
+    <!--royal-->
+
+    <ThingDef ParentName="BasicBedBase">
+        <defName>KhajiitRoyalBox</defName>
+        <label>khajiit royal bed</label>
+        <description>A cozy box stuffed with pillows, perfect for two quadrupeds.</description>
+        <scatterableOnMapGen>false</scatterableOnMapGen>
+        <rotatable>true</rotatable>
+        <graphicData>
+            <texPath>Things/Building/Furniture/Bed/Khajiit_RoyalBed</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+            <drawSize>(2.05,2.05)</drawSize>
+            <damageData>
+                <rect>(0,0.05,2,1.95)</rect>
+            </damageData>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>200</MaxHitPoints>
+            <WorkToBuild>50000</WorkToBuild>
+            <Mass>60</Mass>
+            <Beauty>75</Beauty>
+            <BedRestEffectiveness>1.05</BedRestEffectiveness>
+            <Comfort>0.90</Comfort>
+        </statBases>
+        <size>(2,2)</size>
+        <costStuffCount>100</costStuffCount>
+        <costList>
+            <Gold>50</Gold>
+        </costList>
+        <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+        <leaveResourcesWhenKilled>True</leaveResourcesWhenKilled>
+        <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+        <building>
+            <bed_showSleeperBody>True</bed_showSleeperBody>
+            <paintable>true</paintable>
+        </building>
+    </ThingDef>
+</Defs>

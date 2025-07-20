@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <PawnKindDef ParentName="ESCP_Khajiit_KingdomBase" Name="ESCP_Khajiit_KingdomVEPsycasterBase" Abstract="True">
+        <combatPower>250</combatPower>
+        <itemQuality>Normal</itemQuality>
+        <canBeSapper>false</canBeSapper>
+        <apparelMoney>2000~3000</apparelMoney>
+        <apparelRequired>
+            <li>VPE_Apparel_EltexMask</li>
+        </apparelRequired>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <weaponMoney>9999</weaponMoney>
+        <weaponTags Inherit="False">
+            <li>VPE_EltexMelee</li>
+        </weaponTags>
+        <initialWillRange>5~7</initialWillRange>
+        <initialResistanceRange>24~40</initialResistanceRange>
+
+        <backstoryFiltersOverride Inherit="false">
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_CityKhajiitBackstory_Childhood</li>
+                    <li>ESCP_MonkKhajiitBackstory_Childhood</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_MonkKhajiitBackstory_Adulthood</li>
+                </categoriesAdulthood>
+                <excludeAdulthood>
+                    <li>ESCP_GenericBackstory_AdulthoodSkoomaAddict</li>
+                </excludeAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_Khajiit_KingdomVEPsycasterBase">
+        <defName>ESCP_Khajiit_Monk_PsycasterNightstalker</defName>
+        <label>nightstalker</label>
+        <modExtensions>
+            <li Class="VanillaPsycastsExpanded.PawnKindAbilityExtension_Psycasts">
+                <implantDef>VPE_PsycastAbilityImplant</implantDef>
+                <initialLevel>1</initialLevel>
+                <statUpgradePoints>2~6</statUpgradePoints>
+                <unlockedPaths>
+                    <VPE_Nightstalker>1~4|2~12</VPE_Nightstalker>
+                </unlockedPaths>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_Khajiit_KingdomVEPsycasterBase">
+        <defName>ESCP_Khajiit_Monk_PsycasterWarlord</defName>
+        <label>warlord</label>
+        <modExtensions>
+            <li Class="VanillaPsycastsExpanded.PawnKindAbilityExtension_Psycasts">
+                <implantDef>VPE_PsycastAbilityImplant</implantDef>
+                <initialLevel>1</initialLevel>
+                <statUpgradePoints>2~6</statUpgradePoints>
+                <unlockedPaths>
+                    <VPE_Warlord>1~4|2~12</VPE_Warlord>
+                </unlockedPaths>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_Khajiit_KingdomVEPsycasterBase">
+        <defName>ESCP_Khajiit_Monk_PsycasterProtector</defName>
+        <label>protector</label>
+        <modExtensions>
+            <li Class="VanillaPsycastsExpanded.PawnKindAbilityExtension_Psycasts">
+                <implantDef>VPE_PsycastAbilityImplant</implantDef>
+                <initialLevel>1</initialLevel>
+                <statUpgradePoints>2~6</statUpgradePoints>
+                <unlockedPaths>
+                    <VPE_Protector>1~4|2~12</VPE_Protector>
+                </unlockedPaths>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+</Defs>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+   
+    <ThoughtDef>
+        <defName>ESCP_Khajiit_AteKibble</defName>
+        <stackLimit>1</stackLimit>
+        <durationDays>1</durationDays>
+        <validWhileDespawned>true</validWhileDespawned>
+        <stages>
+            <li>
+                <label>Ate kibble</label>
+                <description>This one had to eat animal kibble. It's as if they see this one as another animal.</description>
+                <baseMoodEffect>-14</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+    <ThoughtDef>
+        <defName>ESCP_Khajiit_SoakingWet</defName>
+        <stackLimit>1</stackLimit>
+        <durationDays>0.5</durationDays>
+        <validWhileDespawned>true</validWhileDespawned>
+        <stages>
+            <li>
+                <label>Soaking Wet</label>
+                <description>This one is soaking wet, it will take a while to dry off.</description>
+                <baseMoodEffect>-6</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef>
+        <defName>ESCP_Khajiit_ClothedNudist</defName>
+        <workerClass>ThoughtWorker_NudistNude</workerClass>
+        <validWhileDespawned>true</validWhileDespawned>
+        <invert>true</invert>
+        <requiredTraits>
+            <li>Nudist</li>
+        </requiredTraits>
+        <stages>
+            <li>
+                <label>constraining clothes</label>
+                <description>This one is covered in fur, and yet is forced to wear clothing. These constraints are unbearable.</description>
+                <baseMoodEffect>-5</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef>
+        <defName>ESCP_Khajiit_HappyNude</defName>
+        <workerClass>ThoughtWorker_NudistNude</workerClass>
+        <validWhileDespawned>true</validWhileDespawned>
+        <requiredTraits>
+            <li>Nudist</li>
+        </requiredTraits>
+        <stages>
+            <li>
+                <label>happily nude</label>
+                <description>This one is nude, as Nirni intended.</description>
+                <baseMoodEffect>10</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+</Defs>
