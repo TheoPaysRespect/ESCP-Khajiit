@@ -36,12 +36,11 @@
             <skillRequirements>
                 <Crafting>3</Crafting>
             </skillRequirements>
-            <researchPrerequisite MayRequire="dankpyon.medieval.overhaul">DankPyon_Tailoring</researchPrerequisite>
+            <researchPrerequisite>ComplexClothing</researchPrerequisite>
             <recipeUsers>
                 <li>ElectricTailoringBench</li>
                 <li>HandTailoringBench</li>
                 <li>CraftingSpot</li>
-                <li MayRequire="dankpyon.medieval.overhaul">DankPyon_TailorsBench</li>
             </recipeUsers>
         </recipeMaker>
         <tradeTags>
@@ -143,12 +142,11 @@
             <skillRequirements>
                 <Crafting>3</Crafting>
             </skillRequirements>
-            <researchPrerequisite MayRequire="dankpyon.medieval.overhaul">DankPyon_Tailoring</researchPrerequisite>
+            <researchPrerequisite>ComplexClothing</researchPrerequisite>
             <recipeUsers>
                 <li>ElectricTailoringBench</li>
                 <li>HandTailoringBench</li>
                 <li>CraftingSpot</li>
-                <li MayRequire="dankpyon.medieval.overhaul">DankPyon_TailorsBench</li>
             </recipeUsers>
         </recipeMaker>
         <tradeTags>

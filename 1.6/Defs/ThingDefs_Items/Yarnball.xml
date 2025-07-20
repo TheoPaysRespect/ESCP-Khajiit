@@ -47,7 +47,6 @@
                 <li>CraftingSpot</li>
                 <li>HandTailoringBench</li>
                 <li>ElectricTailoringBench</li>
-                <li MayRequire="dankpyon.medieval.overhaul">DankPyon_TailorsBench</li>
             </recipeUsers>
         </recipeMaker>
         <costStuffCount>10</costStuffCount>
