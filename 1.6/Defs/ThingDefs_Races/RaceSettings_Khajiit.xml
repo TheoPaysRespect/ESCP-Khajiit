@@ -140,6 +140,82 @@
 						<li>ESCP_KhajiitPlayerFaction_Medieval</li>
 					</factionDefs>
 				</li>
+				<li>
+					<pawnKindEntries>
+						<li>
+							<kindDefs>
+								<li>ESCP_OhmesPlayerPawnKind_Medieval</li>
+							</kindDefs>
+							<chance>0.5</chance>
+						</li>
+						<li>
+							<kindDefs>
+								<li>ESCP_OhmesRahtPlayerPawnKind_Medieval</li>
+							</kindDefs>
+							<chance>0.5</chance>
+						</li>
+						<li>
+							<kindDefs>
+								<li>ESCP_SenchePlayerPawnKind_Medieval</li>
+							</kindDefs>
+							<chance>0.5</chance>
+						</li>
+						<li>
+							<kindDefs>
+								<li>ESCP_AlfiqPlayerPawnKind_Medieval</li>
+							</kindDefs>
+							<chance>0.5</chance>
+						</li>
+						<li>
+							<kindDefs>
+								<li>ESCP_KhajiitPlayerPawnKind_Medieval</li>
+							</kindDefs>
+							<chance>3.0</chance>
+						</li>
+					</pawnKindEntries>
+					<factionDefs>
+						<li Mayrequire = "dankpyon.medieval.overhaul">DankPyon_PlayerKingdom</li>
+						<li Mayrequire = "dankpyon.medieval.overhaul">DankPyon_LoneWolf</li>
+						<li Mayrequire = "dankpyon.medieval.overhaul">DankPyon_MercenaryCompany</li>
+					</factionDefs>
+				</li>
+				<li>
+					<pawnKindEntries>
+						<li>
+							<kindDefs>
+								<li>ESCP_OhmesPlayerPawnKind_Tribal</li>
+							</kindDefs>
+							<chance>0.1</chance>
+						</li>
+						<li>
+							<kindDefs>
+								<li>ESCP_OhmesRahtPlayerPawnKind_Tribal</li>
+							</kindDefs>
+							<chance>0.1</chance>
+						</li>
+						<li>
+							<kindDefs>
+								<li>ESCP_SenchePlayerPawnKind_Tribal</li>
+							</kindDefs>
+							<chance>0.1</chance>
+						</li>
+						<li>
+							<kindDefs>
+								<li>ESCP_AlfiqPlayerPawnKind_Tribal</li>
+							</kindDefs>
+							<chance>0.1</chance>
+						</li>
+						<li>
+							<kindDefs>
+								<li>ESCP_KhajiitPlayerPawnKind_Tribal</li>
+							</kindDefs>
+							<chance>1.0</chance>
+						</li>
+					</pawnKindEntries>
+					<factionDefs>
+						<li>PlayerColony</li>
+					</factionDefs>
+				</li>
 				<li> <!--(64) 6 6 12 12-->
 					<pawnKindEntries>
 						<li>
@@ -283,6 +359,45 @@
 					</pawnKindEntries>
 					<factionDefs>
 						<li>ESCP_KhajiitPlayerFaction_Medieval</li>
+					</factionDefs>
+				</li>
+				<li>
+					<pawnKindEntries>
+						<li>
+							<kindDefs>
+								<li>ESCP_OhmesPlayerPawnKind_Medieval</li>
+							</kindDefs>
+							<chance>0.5</chance>
+						</li>
+						<li>
+							<kindDefs>
+								<li>ESCP_OhmesRahtPlayerPawnKind_Medieval</li>
+							</kindDefs>
+							<chance>0.5</chance>
+						</li>
+						<li>
+							<kindDefs>
+								<li>ESCP_SenchePlayerPawnKind_Medieval</li>
+							</kindDefs>
+							<chance>0.5</chance>
+						</li>
+						<li>
+							<kindDefs>
+								<li>ESCP_AlfiqPlayerPawnKind_Medieval</li>
+							</kindDefs>
+							<chance>0.5</chance>
+						</li>
+						<li>
+							<kindDefs>
+								<li>ESCP_KhajiitPlayerPawnKind_Medieval</li>
+							</kindDefs>
+							<chance>3.0</chance>
+						</li>
+					</pawnKindEntries>
+					<factionDefs>
+						<li Mayrequire = "dankpyon.medieval.overhaul">DankPyon_PlayerKingdom</li>
+						<li Mayrequire = "dankpyon.medieval.overhaul">DankPyon_LoneWolf</li>
+						<li Mayrequire = "dankpyon.medieval.overhaul">DankPyon_MercenaryCompany</li>
 					</factionDefs>
 				</li>
 				<li>

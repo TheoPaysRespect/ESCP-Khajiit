@@ -3,7 +3,7 @@
 <Defs>
     <!--make colonists use it, hide from debug-->
     <ThingDef ParentName="FurnitureWithQualityBase">
-        <defName>Yarnball</defName>
+        <defName>ESCP_Yarnball</defName>
         <label>Yarnball</label>
         <description>A simple yarnball, an irresistable source of joy for the feline, and a great thing to ponder for the rest.</description>
         <graphicData>
@@ -18,7 +18,7 @@
         <rotatable>false</rotatable>
         <socialPropernessMatters>true</socialPropernessMatters>
         <fillPercent>0.20</fillPercent>
-        <maxTechLevelToBuild>Neolithic</maxTechLevelToBuild>
+        <minTechLevelToBuild>Neolithic</minTechLevelToBuild>
         <building>
             <paintable>true</paintable>
             <isEdifice>false</isEdifice>
@@ -59,7 +59,7 @@
     </ThingDef>
 
     <JobDef>
-        <defName>Play_Yarnball</defName>
+        <defName>ESCP_Play_Yarnball</defName>
         <driverClass>JobDriver_WatchBuilding</driverClass>
         <reportString>pondering the yarnball.</reportString>
         <joyDuration>4000</joyDuration>
@@ -71,13 +71,13 @@
     </JobDef>
 
     <JoyGiverDef>
-        <defName>Play_Yarnball</defName>
+        <defName>ESCP_Play_Yarnball</defName>
         <giverClass>JoyGiver_WatchBuilding</giverClass>
         <baseChance>2</baseChance>
         <thingDefs>
             <li>Yarnball</li>
         </thingDefs>
-        <jobDef>Play_Yarnball</jobDef>
+        <jobDef>ESCP_Play_Yarnball</jobDef>
         <desireSit>false</desireSit>
         <joyKind>Gaming_Dexterity</joyKind>
         <requiredCapacities>
