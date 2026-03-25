@@ -75,7 +75,7 @@
         <giverClass>JoyGiver_WatchBuilding</giverClass>
         <baseChance>2</baseChance>
         <thingDefs>
-            <li>Yarnball</li>
+            <li>ESCP_Yarnball</li>
         </thingDefs>
         <jobDef>ESCP_Play_Yarnball</jobDef>
         <desireSit>false</desireSit>
